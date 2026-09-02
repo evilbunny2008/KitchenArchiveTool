@@ -135,7 +135,12 @@ dependencies {
     // dependency adds nothing and could simply be deleted. Kept here (via
     // the catalog, matching your project's actual Kotlin version) since
     // that's what Android Studio's suggested refactor was pointing at.
-    implementation(libs.kotlin.stdlib.jdk8)
+    // Uses a flat catalog key (no dashes) because "kotlin-stdlib-jdk8"
+    // collided with the existing "kotlin-stdlib" alias -- Gradle nests
+    // dash-separated alias segments into an accessor tree, and "stdlib"
+    // can't simultaneously be a leaf value (from kotlin-stdlib) and a
+    // container with a .jdk8 child (from kotlin-stdlib-jdk8).
+    implementation(libs.kotlinStdlibJdk8)
 
     implementation("org.jsoup:jsoup:1.23.2")
 
