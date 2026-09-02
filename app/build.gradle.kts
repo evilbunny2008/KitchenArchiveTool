@@ -10,9 +10,8 @@ import com.android.build.api.artifact.SingleArtifact
 
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.kotlin.serialization) // required for @Serializable model classes
-    alias(libs.plugins.ksp) // required for Room's @Database/@Dao/@Entity annotation processing
+    alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -25,7 +24,6 @@ android {
         buildConfig = true
         viewBinding = true
         dataBinding = true
-        compose = true
     }
 
     // Required for F-Droid's reproducible-build verification -- without
@@ -39,17 +37,8 @@ android {
     }
 
     defaultConfig {
-        // NOTE: applicationId, versionCode, and versionName below were
-        // previously copied verbatim from an unrelated sibling project
-        // (com.odiousapps.mx3buttonmapper / 4.0.0) -- corrected here to
-        // match this project's actual identity (confirmed via
-        // AndroidManifest.xml, README.md, and the F-Droid/Play links
-        // in the README, which all point to com.odiousapps.nextcloudcookbook).
-        // versionCode/versionName inferred from the highest fastlane
-        // changelog file present (302.txt) -- please confirm/bump these
-        // against your actual last-published release before building.
         applicationId = "com.odiousapps.nextcloudcookbook"
-        minSdk = 29 // NOTE: fastlane changelog 302.txt says "MinSDK to 26" -- confirm this 29 is an intentional bump, not another leftover
+        minSdk = 29
         targetSdk = 37
         versionCode = 302
         versionName = "3.0.2"
