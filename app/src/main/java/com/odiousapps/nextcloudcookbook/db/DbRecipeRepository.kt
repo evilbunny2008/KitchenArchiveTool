@@ -22,7 +22,7 @@ class DbRecipeRepository private constructor(application: Application) {
    private var mRecipeDao: RecipeDataDao = RecipeDatabase.getDatabase(application).recipeDataDao()
 
    // we prepend 'recipes.' to resolve name ambiguities (e.g. column 'id')
-   private val dbPreviewFields = DbRecipePreview.DbFields.split(", ").joinToString(", ") { "recipes.$it" }
+   private val dbPreviewFields = DbRecipePreview.DBFIELDS.split(", ").joinToString(", ") { "recipes.$it" }
 
    companion object {
       @Volatile

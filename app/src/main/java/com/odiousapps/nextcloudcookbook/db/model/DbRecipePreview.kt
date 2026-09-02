@@ -8,7 +8,7 @@ data class DbRecipePreview (
     val starred: Boolean,
 ) {
     companion object{
-        const val DbFields = "id, name, description, thumbImageUrl, starred"
+        const val DBFIELDS = "id, name, description, thumbImageUrl, starred"
     }
 
     override fun equals(other: Any?): Boolean {

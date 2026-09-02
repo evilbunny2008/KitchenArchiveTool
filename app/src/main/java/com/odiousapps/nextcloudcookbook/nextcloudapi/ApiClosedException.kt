@@ -1,4 +1,5 @@
 package com.odiousapps.nextcloudcookbook.nextcloudapi
 
-class ApiClosedException(message:String): Exception(message) {
+class ApiClosedException : Exception {
+    constructor(message: String) : super(message)
 }
