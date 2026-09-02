@@ -91,7 +91,7 @@ fun TextView.setCookTime(item: DbRecipe?) {
          tooltipText = context.getString(R.string.cooktime_tooltip)
       } else {
          // was setBackgroundColor(android.R.color.transparent) -- that passed a
-         // resource ID where an actual ARGB color int was expected. Color.TRANSPARENT
+         // resource ID where an actual ARGB colour int was expected. Colour.TRANSPARENT
          // is the resolved value directly, with no resource lookup needed.
          setBackgroundColor(Color.TRANSPARENT)
       }
