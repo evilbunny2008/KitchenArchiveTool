@@ -10,7 +10,9 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.edit
+import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import com.fondesa.kpermissions.allGranted
 import com.fondesa.kpermissions.anyPermanentlyDenied
 import com.fondesa.kpermissions.anyShouldShowRationale
@@ -32,6 +34,7 @@ import com.odiousapps.nextcloudcookbook.services.sync.SyncProgressIndicatorInter
 import com.odiousapps.nextcloudcookbook.settings.PreferenceData
 import com.odiousapps.nextcloudcookbook.util.Filesystem
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -160,8 +163,10 @@ class LoginActivity : AppCompatActivity(), SyncProgressIndicatorInterface {
        }
 
       // permission for storage
-      lifecycleScope.launchWhenCreated {
-         storagePermissions()
+      lifecycleScope.launch {
+         lifecycle.repeatOnLifecycle(Lifecycle.State.CREATED) {
+            storagePermissions()
+         }
       }
    }
 
@@ -198,7 +203,8 @@ class LoginActivity : AppCompatActivity(), SyncProgressIndicatorInterface {
          progressBar.isIndeterminate = false
          progressBar.secondaryProgress = (item*100)/overall
          progressBar.visibility = View.VISIBLE
-         (this.findViewById<TextView>(R.id.progress_text)!!).text = "$item/$overall - $title"
+         (this.findViewById<TextView>(R.id.progress_text)!!).text =
+            getString(R.string.sync_progress_text, item, overall, title)
          (this.findViewById<Button>(R.id.buttonLogin)!!).visibility = View.GONE
          (this.findViewById<Button>(R.id.buttonSkip)!!).visibility = View.GONE
 

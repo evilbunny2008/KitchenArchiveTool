@@ -9,6 +9,7 @@
    <string name="empty_list">No recipes.</string>
    <string name="recipe_list_image_desc">Image thumbnail of recipe</string>
    <string name="error_sync">Synchronization failed: %1$s</string>
+   <string name="sync_progress_text">%1$d/%2$d - %3$s</string>
    <string name="error_no_network">No network connection</string>
    <string name="error_only_wifi">Synchronization only allowed on Wifi</string>
 
