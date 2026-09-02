@@ -16,6 +16,9 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.SearchView.OnQueryTextListener
 import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updatePadding
 import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.ViewModelProvider
@@ -100,6 +103,16 @@ class MainActivity : AppCompatActivity() {
 
       super.onCreate(savedInstanceState)
       binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+      // targetSdk 35+ enforces edge-to-edge display, so content draws behind
+      // the status bar by default -- without this, the app bar's icons
+      // (menu/search/sort/account) render underneath the system status bar.
+      // Pads the app bar down by exactly the status bar's height instead.
+      ViewCompat.setOnApplyWindowInsetsListener(binding.appBar) { view, windowInsets ->
+         val statusBarInsets = windowInsets.getInsets(WindowInsetsCompat.Type.statusBars())
+         view.updatePadding(top = statusBarInsets.top)
+         windowInsets
+      }
 
       // toolbar
       setupToolbars()
