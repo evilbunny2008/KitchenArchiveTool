@@ -11,6 +11,8 @@ import com.android.build.api.artifact.SingleArtifact
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.serialization) // required for @Serializable model classes
+    alias(libs.plugins.ksp) // required for Room's @Database/@Dao/@Entity annotation processing
 }
 
 android {
@@ -21,6 +23,9 @@ android {
 
     buildFeatures {
         buildConfig = true
+        viewBinding = true
+        dataBinding = true
+        compose = true
     }
 
     // Required for F-Droid's reproducible-build verification -- without
@@ -34,13 +39,22 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.odiousapps.mx3buttonmapper"
-        minSdk = 29
+        // NOTE: applicationId, versionCode, and versionName below were
+        // previously copied verbatim from an unrelated sibling project
+        // (com.odiousapps.mx3buttonmapper / 4.0.0) -- corrected here to
+        // match this project's actual identity (confirmed via
+        // AndroidManifest.xml, README.md, and the F-Droid/Play links
+        // in the README, which all point to com.odiousapps.nextcloudcookbook).
+        // versionCode/versionName inferred from the highest fastlane
+        // changelog file present (302.txt) -- please confirm/bump these
+        // against your actual last-published release before building.
+        applicationId = "com.odiousapps.nextcloudcookbook"
+        minSdk = 29 // NOTE: fastlane changelog 302.txt says "MinSDK to 26" -- confirm this 29 is an intentional bump, not another leftover
         targetSdk = 37
-        versionCode = 40000000
-        versionName = "4.0.0"
+        versionCode = 302
+        versionName = "3.0.2"
         vectorDrawables.useSupportLibrary = true
-        multiDexEnabled true
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -55,17 +69,10 @@ android {
         }
     }
 
-   compileOptions {
-      coreLibraryDesugaringEnabled true
-      sourceCompatibility = JavaVersion.VERSION_21
-      targetCompatibility = JavaVersion.VERSION_21
-   }
-
-   buildFeatures {
-      viewBinding true
-      dataBinding true
-      compose = true
-   }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
 }
 
 // Renames the release .aab from AGP's default "app-release.aab" to
@@ -81,7 +88,8 @@ android {
 // way around.
 androidComponents {
     onVariants(selector().withBuildType("release")) { variant ->
-        val appName = "MX3ButtonMapper"
+        // NOTE: was "MX3ButtonMapper" (leftover from the sibling project) -- corrected.
+        val appName = "NextcloudCookbook"
         val versionName = variant.outputs.first().versionName
         val variantNameCapitalized = variant.name.replaceFirstChar { it.uppercase() }
         val ideListingTaskName = "produce${variantNameCapitalized}BundleIdeListingFile"
@@ -120,54 +128,56 @@ androidComponents {
 }
 
 dependencies {
-   implementation fileTree(dir: "libs", include: ["*.jar"])
-   implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.3.21")
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.3.21")
 
-   implementation("org.jsoup:jsoup:1.23.2")
+    implementation("org.jsoup:jsoup:1.23.2")
 
-   implementation("androidx.core:core-ktx:1.19.0")
-   implementation("androidx.legacy:legacy-support-v4:1.0.0")
-   implementation("androidx.appcompat:appcompat:1.8.0")
-   implementation("androidx.constraintlayout:constraintlayout:2.2.2")
-   implementation("androidx.recyclerview:recyclerview:1.4.0")
-   implementation("androidx.navigation:navigation-fragment-ktx:2.10.0")
-   implementation("androidx.navigation:navigation-ui-ktx:2.10.0")
-   implementation("androidx.preference:preference-ktx:2.10.0")
-   implementation("androidx.legacy:legacy-preference-v14:1.0.0")
-   // material design and viewpager2
-   implementation("com.google.android.material:material:1.14.0")
-   implementation("androidx.viewpager2:viewpager2:1.1.0")
-   // Lifecycle dependencies
-   //implementation "androidx.lifecycle:lifecycle-extensions:$version_lifecycle_extensions"
-   implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.11.0")
-   // Coroutines
-   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0")
-   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
-   // room database
-   implementation("androidx.room:room-runtime:2.8.4")
-   // optional - Kotlin Extensions and Coroutines support for Room
-   implementation("androidx.room:room-ktx:2.8.4")
-   // storage access framework (SAF)
-   implementation("androidx.documentfile:documentfile:1.1.0")
-   // datastore for settings
-   implementation "androidx.datastore:datastore-preferences:1.2.1"
+    implementation(libs.androidx.core.ktx)
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation(libs.androidx.appcompat)
+    implementation("androidx.constraintlayout:constraintlayout:2.2.2")
+    implementation("androidx.recyclerview:recyclerview:1.4.0")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.10.0")
+    implementation("androidx.navigation:navigation-ui-ktx:2.10.0")
+    implementation("androidx.preference:preference-ktx:2.10.0")
+    implementation("androidx.legacy:legacy-preference-v14:1.0.0")
+    // material design and viewpager2
+    implementation("com.google.android.material:material:1.14.0")
+    implementation("androidx.viewpager2:viewpager2:1.1.0")
+    // Lifecycle dependencies
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.11.0")
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
+    // room database
+    implementation(libs.androidx.room.runtime)
+    // optional - Kotlin Extensions and Coroutines support for Room
+    implementation(libs.androidx.room.ktx)
+    // Room's annotation processor -- was entirely missing before, meaning
+    // @Database/@Dao/@Entity classes had no generated implementations
+    ksp(libs.androidx.room.compiler)
+    // storage access framework (SAF)
+    implementation("androidx.documentfile:documentfile:1.1.0")
+    // datastore for settings
+    implementation("androidx.datastore:datastore-preferences:1.2.1")
 
-   // Json parser
-   implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
+    // Json parser
+    implementation(libs.kotlinx.serialization.json)
 
-   //noinspection GradleDependency
-   coreLibraryDesugaring('com.android.tools:desugar_jdk_libs:2.0.3')
+    //noinspection GradleDependency
+    coreLibraryDesugaring(libs.desugar.jdk.libs)
 
-   // permissions
-   implementation('com.github.fondesa:kpermissions:3.5.0')
-   // simple storage
-   implementation('com.anggrayudi:storage:3.0.1')
-   implementation('com.afollestad.material-dialogs:core:3.3.0')
+    // permissions
+    implementation("com.github.fondesa:kpermissions:3.5.0")
+    // simple storage
+    implementation("com.anggrayudi:storage:3.0.1")
+    implementation("com.afollestad.material-dialogs:core:3.3.0")
 
-   //nextcloud api
-   implementation("com.github.nextcloud:Android-SingleSignOn:0.8.1")
-   implementation('com.squareup.retrofit2:retrofit:3.0.0')
-   implementation('com.github.stefan-niedermann.nextcloud-commons:sso-glide:1.8.2')
+    // nextcloud api
+    implementation("com.github.nextcloud:Android-SingleSignOn:0.8.1")
+    implementation("com.squareup.retrofit2:retrofit:3.0.0")
+    implementation("com.github.stefan-niedermann.nextcloud-commons:sso-glide:1.8.2")
 
-   implementation('com.github.bumptech.glide:glide:5.0.9')
+    implementation("com.github.bumptech.glide:glide:5.0.9")
 }

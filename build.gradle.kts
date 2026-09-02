@@ -3,12 +3,15 @@
 // numbers are resolved once, from the version catalogue, rather than
 // duplicated per module.
 //
-// No separate Kotlin Android plugin declared here -- the app module only
-// applies android.application + kotlin.compose, meaning it's already on
-// AGP's built-in Kotlin support path (same migration MX3 Launcher went
-// through) rather than the traditional org.jetbrains.kotlin.android
-// plugin.
+// No separate Kotlin Android plugin declared here -- AGP 9's built-in
+// Kotlin support (gradle.properties: android.builtInKotlin, must NOT be
+// set to false) compiles the Kotlin sources directly, so only
+// kotlin.compose (Compose compiler) and kotlin.serialization (needed for
+// the @Serializable JSON model classes) are applied as separate compiler
+// plugins. ksp is required for Room's annotation processing.
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.compose) apply false
+    alias(libs.plugins.kotlin.serialization) apply false
+    alias(libs.plugins.ksp) apply false
 }

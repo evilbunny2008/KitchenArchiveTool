@@ -1,21 +1,26 @@
 [versions]
-# AGP, Kotlin, composeBom, and tvMaterial reuse the exact same versions
-# already live-verified for the sibling MX3 Launcher project (same
-# developer, same toolchain) -- see that project's README "Version
-# notes" section for how those were originally confirmed.
+# Confirmed stable as of 2026-09-01 (https://developer.android.com/build/releases/agp-9-4-0-release-notes).
+# Requires Gradle 9.6.0+ minimum -- satisfied by this project's 9.7.1 wrapper.
 agp = "9.4.0"
-kotlin = "2.4.0"
-composeBom = "2026.09.00"
+kotlin = "2.4.10"
+composeBom = "2026.09.00" # TODO: verify against https://developer.android.com/develop/ui/compose/setup-compose-dependencies-and-compiler
+# KSP versions are decoupled from the Kotlin compiler version as of KSP 2.3+.
+# Verify current version at https://github.com/google/ksp/releases
+ksp = "2.3.10"
 
 # Below this line: real, recently-current version numbers used as a
 # reasonable starting point, NOT independently verified against a live
-# source the way the ones above were. Android Studio will likely flag a
-# newer version being available on first sync -- worth accepting that
-# suggestion rather than treating these as pinned-for-a-reason.
+# source. Android Studio will likely flag a newer version being
+# available on first sync -- worth accepting that suggestion rather
+# than treating these as pinned-for-a-reason.
 activityCompose = "1.13.0"
 appcompat = "1.8.0"
 coreKtx = "1.19.0"
 lifecycleRuntimeKtx = "2.11.0"
+room = "2.8.4"
+coroutines = "1.11.0"
+kotlinxSerializationJson = "1.11.0"
+desugarJdkLibs = "2.1.5"
 
 [libraries]
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
@@ -27,7 +32,17 @@ androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "u
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+desugar-jdk-libs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugarJdkLibs" }
+libs.kotlin.stdlib.jdk8 = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version.ref = "2.3.21" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
