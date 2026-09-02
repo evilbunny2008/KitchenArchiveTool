@@ -131,22 +131,22 @@ androidComponents {
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 
-    implementation("org.jsoup:jsoup:1.23.2")
+    implementation(libs.jsoup)
 
     implementation(libs.androidx.core.ktx)
-    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation(libs.androidx.legacy.support.v4)
     implementation(libs.androidx.appcompat)
-    implementation("androidx.constraintlayout:constraintlayout:2.2.2")
-    implementation("androidx.recyclerview:recyclerview:1.4.0")
-    implementation("androidx.navigation:navigation-fragment-ktx:2.10.0")
-    implementation("androidx.navigation:navigation-ui-ktx:2.10.0")
-    implementation("androidx.preference:preference-ktx:2.10.0")
-    implementation("androidx.legacy:legacy-preference-v14:1.0.0")
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.preference.ktx)
+    implementation(libs.androidx.legacy.preference.v14)
     // material design and viewpager2
-    implementation("com.google.android.material:material:1.14.0")
-    implementation("androidx.viewpager2:viewpager2:1.1.0")
+    implementation(libs.material)
+    implementation(libs.androidx.viewpager2)
     // Lifecycle dependencies
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.11.0")
+    implementation(libs.androidx.lifecycle.livedata.ktx)
     // Coroutines
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
@@ -158,9 +158,9 @@ dependencies {
     // @Database/@Dao/@Entity classes had no generated implementations
     ksp(libs.androidx.room.compiler)
     // storage access framework (SAF)
-    implementation("androidx.documentfile:documentfile:1.1.0")
+    implementation(libs.androidx.documentfile)
     // datastore for settings
-    implementation("androidx.datastore:datastore-preferences:1.2.1")
+    implementation(libs.androidx.datastore.preferences)
 
     // Json parser
     implementation(libs.kotlinx.serialization.json)
@@ -169,15 +169,15 @@ dependencies {
     coreLibraryDesugaring(libs.desugar.jdk.libs)
 
     // permissions
-    implementation("com.github.fondesa:kpermissions:3.5.0")
+    implementation(libs.kpermissions)
     // simple storage
-    implementation("com.anggrayudi:storage:3.0.1")
-    implementation("com.afollestad.material-dialogs:core:3.3.0")
+    implementation(libs.anggrayudi.storage)
+    implementation(libs.materialDialogsCore)
 
     // nextcloud api
-    implementation("com.github.nextcloud:Android-SingleSignOn:0.8.1")
-    implementation("com.squareup.retrofit2:retrofit:3.0.0")
-    implementation("com.github.stefan-niedermann.nextcloud-commons:sso-glide:1.8.2")
+    implementation(libs.nextcloud.sso)
+    implementation(libs.retrofit)
+    implementation(libs.nextcloud.commons.sso.glide)
 
-    implementation("com.github.bumptech.glide:glide:5.0.9")
+    implementation(libs.glide)
 }

@@ -21,6 +21,24 @@ room = "2.8.4"
 coroutines = "1.11.0"
 kotlinxSerializationJson = "1.11.0"
 desugarJdkLibs = "2.1.5"
+jsoup = "1.23.2"
+androidxLegacy = "1.0.0" # shared by legacy-support-v4 and legacy-preference-v14, which are pinned to the same version
+androidxConstraintlayout = "2.2.2"
+androidxRecyclerview = "1.4.0"
+androidxNavigation = "2.10.0" # shared by navigation-fragment-ktx and navigation-ui-ktx
+androidxPreferenceKtx = "2.10.0"
+googleMaterial = "1.14.0"
+androidxViewpager2 = "1.1.0"
+androidxLifecycleLivedataKtx = "2.11.0"
+androidxDocumentfile = "1.1.0"
+androidxDatastorePreferences = "1.2.1"
+kpermissions = "3.5.0"
+anggrayudiStorage = "3.0.1"
+materialDialogs = "3.3.0"
+nextcloudSso = "0.8.1"
+retrofit = "3.0.0"
+nextcloudCommonsSsoGlide = "1.8.2"
+glide = "5.0.9"
 
 [libraries]
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
@@ -39,6 +57,29 @@ kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-cor
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
 desugar-jdk-libs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugarJdkLibs" }
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+androidx-legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "androidxLegacy" }
+androidx-legacy-preference-v14 = { group = "androidx.legacy", name = "legacy-preference-v14", version.ref = "androidxLegacy" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidxConstraintlayout" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "androidxRecyclerview" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "androidxNavigation" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "androidxNavigation" }
+androidx-preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "androidxPreferenceKtx" }
+# named "material" (not nested under a hypothetical "google-material") to match common convention;
+# material-dialogs-core below is deliberately a FLAT key (no dashes) so it doesn't nest under
+# libs.material and collide with this leaf entry -- same issue as the kotlin-stdlib/kotlin-stdlib-jdk8 case.
+material = { group = "com.google.android.material", name = "material", version.ref = "googleMaterial" }
+androidx-viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "androidxViewpager2" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "androidxLifecycleLivedataKtx" }
+androidx-documentfile = { group = "androidx.documentfile", name = "documentfile", version.ref = "androidxDocumentfile" }
+androidx-datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "androidxDatastorePreferences" }
+kpermissions = { module = "com.github.fondesa:kpermissions", version.ref = "kpermissions" }
+anggrayudi-storage = { module = "com.anggrayudi:storage", version.ref = "anggrayudiStorage" }
+materialDialogsCore = { group = "com.afollestad.material-dialogs", name = "core", version.ref = "materialDialogs" }
+nextcloud-sso = { module = "com.github.nextcloud:Android-SingleSignOn", version.ref = "nextcloudSso" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+nextcloud-commons-sso-glide = { module = "com.github.stefan-niedermann.nextcloud-commons:sso-glide", version.ref = "nextcloudCommonsSsoGlide" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
