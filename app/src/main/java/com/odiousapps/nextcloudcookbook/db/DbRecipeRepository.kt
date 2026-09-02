@@ -235,7 +235,7 @@ class DbRecipeRepository private constructor(application: Application) {
       recipe.keywords?.let { list ->
          if (list.isNotEmpty()) {
             mRecipeDao.insertKeywords(list)
-            mRecipeDao.findKeywords(list.map { kw -> kw.keyword })?.let {
+            mRecipeDao.findKeywords(list.map { kw -> kw.keyword }).let {
                mRecipeDao.insertKeywordRefs(
                   it.map { kw -> DbRecipeKeywordRelation(recipeId = recipeId, keywordId = kw.id) })
             }

@@ -323,7 +323,7 @@ class MainActivity : AppCompatActivity() {
             // As this library supports multiple accounts we created some helper methods if you only want to use one.
             // The following line stores the selected account as the "default" account which can be queried by using
             // the SingleAccountHelper.getCurrentSingleSignOnAccount(context) method
-            SingleAccountHelper.setCurrentAccount(context, account.name)
+            SingleAccountHelper.commitCurrentAccount(context, account.name)
 
             // Get the "default" account
             var ssoAccount: SingleSignOnAccount? = null
@@ -334,7 +334,7 @@ class MainActivity : AppCompatActivity() {
             } catch (e: NoCurrentAccountSelectedException) {
                UiExceptionManager.showDialogForException(context, e)
             }
-            SingleAccountHelper.setCurrentAccount(context, ssoAccount!!.name)
+            SingleAccountHelper.commitCurrentAccount(context, ssoAccount!!.name)
             val username = ssoAccount.name
 
 
@@ -357,7 +357,7 @@ class MainActivity : AppCompatActivity() {
 
    override fun onRequestPermissionsResult(
       requestCode: Int,
-      permissions: Array<String?>,
+      permissions: Array<out String>,
       grantResults: IntArray
    ) {
       super.onRequestPermissionsResult(requestCode, permissions, grantResults)

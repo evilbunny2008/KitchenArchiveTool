@@ -61,11 +61,11 @@ interface RecipeDataDao {
 
    @Transaction
    @Query("SELECT * FROM keywords WHERE keyword IN(:n)")
-   fun findKeywords(n: List<String>): List<DbKeyword>?
+   fun findKeywords(n: List<String>): List<DbKeyword>
 
    @Transaction
    @Query("SELECT * FROM recipeXKeywords WHERE recipeId = :recipeId")
-   fun findKeywordRefsByRecipeId(recipeId: Long): List<DbRecipeKeywordRelation>?
+   fun findKeywordRefsByRecipeId(recipeId: Long): List<DbRecipeKeywordRelation>
 
    @Transaction
    @Query("SELECT * FROM keywords ORDER BY keyword")

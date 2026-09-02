@@ -28,7 +28,10 @@ class Accounts(private val mContext: Context) {
    }
 
    fun resetAccount() {
-      SingleAccountHelper.setCurrentAccount(mContext, "")
+      // was setCurrentAccount(...) -- renamed to commitCurrentAccount(...) in a
+      // newer Android-SingleSignOn release than this project previously used
+      // (confirmed against the library's current README code sample)
+      SingleAccountHelper.commitCurrentAccount(mContext, "")
    }
 
    fun getCurrentAccount(): SingleSignOnAccount? {
