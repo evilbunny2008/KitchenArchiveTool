@@ -14,8 +14,8 @@ import android.text.Html
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.widget.doOnTextChanged
 import androidx.recyclerview.widget.RecyclerView
-import com.afollestad.materialdialogs.utils.MDUtil.textChanged
 import com.google.android.material.snackbar.Snackbar
 import com.odiousapps.nextcloudcookbook.MainApplication
 import com.odiousapps.nextcloudcookbook.R
@@ -38,7 +38,7 @@ class RecipeIngredientsAdapter(
 
    init {
       setYieldInput(baseYield)
-      tabBinding.yieldInput.textChanged { notifyDataSetChanged() }
+      tabBinding.yieldInput.doOnTextChanged { _, _, _, _ -> notifyDataSetChanged() }
       tabBinding.yieldMinus.setOnClickListener { calculateYield(false) }
       tabBinding.yieldPlus.setOnClickListener { calculateYield(true) }
       tabBinding.cpIngredientsBtn.setOnClickListener {

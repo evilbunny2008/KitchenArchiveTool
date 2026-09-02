@@ -40,7 +40,9 @@ abstract class RecipeDatabase : RoomDatabase() {
             if (instance == null) {
                instance = Room
                   .databaseBuilder(context.applicationContext, RecipeDatabase::class.java, "recipe-db")
-                  .fallbackToDestructiveMigration()
+                  // dropAllTables = true per Google's own recommendation: otherwise Room can
+                  // leave obsolete data behind when table names/existence change between versions
+                  .fallbackToDestructiveMigration(dropAllTables = true)
                   .build()
                INSTANCE = instance
             }

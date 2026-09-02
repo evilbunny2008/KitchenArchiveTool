@@ -5,10 +5,7 @@
  */
 package com.odiousapps.nextcloudcookbook.util
 
-import android.content.Context
-import android.text.format.DateFormat
 import java.time.Duration
-import java.util.Date
 import java.util.Locale
 
 /**
@@ -27,26 +24,6 @@ class DurationUtils {
        */
       fun formatStringToDuration(isoString: String): String {
          return getDisplayString(isoString)
-      }
-
-      /**
-       * Returns the minutes from duration.
-       *
-       * @param isoString Duration in iso 8601 format.
-       * @return Duration in minutes.
-       */
-      fun durationInMinutes(isoString: String?): Int {
-         if (isoString.isNullOrEmpty())
-            return 0
-         val formatedDuration = formatStringToDuration(isoString)
-         val hours = formatedDuration.substring(0, 2).toInt()
-         val minutes = formatedDuration.substring(3, 5).toInt()
-
-         return hours * 60 + minutes
-      }
-
-      fun formatDate(context: Context, publishedDate: Date): String {
-         return DateFormat.getDateFormat(context).format(publishedDate)
       }
 
       /**
@@ -72,7 +49,7 @@ class DurationUtils {
          val second = minutes % 60
          minutes /= 60
 
-         return String.format("%02d:%02d:%02d", hours, minutes, second)
+         return String.format(Locale.getDefault(), "%02d:%02d:%02d", hours, minutes, second)
       }
 
       /**
@@ -89,30 +66,6 @@ class DurationUtils {
          while (minutes >= 60) {
             hours += 1
             minutes -= 60
-         }
-
-         return String.format(Locale.getDefault(), "%02d:%02d", hours, minutes)
-      }
-
-      /**
-       * Returns the formatted string from the iso 8601 string (< API 26).
-       *
-       * @param isoString Duration in iso 8601 format.
-       * @return formatted string.
-       */
-      private fun getLegacyDisplayString(isoString: String): String {
-         val start = isoString.indexOf("T") + 1
-         val reduced = isoString.substring(start, isoString.length)
-         val hourIndex = reduced.indexOf("H")
-         val minuteIndex = reduced.indexOf("M")
-         var hours = 0
-         var minutes = 0
-
-         if (hourIndex != -1) {
-            hours = reduced.substring(0, hourIndex).toInt()
-         }
-         if (minuteIndex != -1) {
-            minutes = reduced.substring(if (hourIndex != -1) hourIndex + 1 else 0, minuteIndex).toInt()
          }
 
          return String.format(Locale.getDefault(), "%02d:%02d", hours, minutes)

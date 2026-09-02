@@ -261,13 +261,6 @@ fun DocumentFile.findOrCreateFile(fileName: String): DocumentFile? {
    return findFile(fileName) ?: createFile("", fileName)
 }
 
-@Deprecated("Broken mimetype", ReplaceWith("findOrCreateFile(fileName)"))
-fun DocumentFile.findOrCreateFile(mime: String, fileName: String): DocumentFile? {
-   // do not append mimetype. This triggers android to append a fileending.
-   // e.g. image.jpg with mimetype image/jpg will then be image.jpg.jpg
-   return findOrCreateFile(fileName)
-}
-
 interface DownloadClickListener {
    fun doDownload()
 }
