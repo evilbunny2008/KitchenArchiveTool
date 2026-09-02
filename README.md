@@ -1,19 +1,11 @@
 # Nextcloud-Cookbook
 
-[![Translation status](https://translate.codeberg.org/widgets/nextcloud-cookbook-android-app/-/svg-badge.svg)](https://translate.codeberg.org/projects/nextcloud-cookbook-android-app/)
+This was forked from https://codeberg.org/MicMun/nextcloud-cookbook
 
 ## About
 
 This app is a viewer for recipes in Nextcloud App.
 You need the Nextcloud Android client to sync the recipes.
-
-[<img src="https://f-droid.org/badge/get-it-on.svg"
-alt="Get it on F-Droid"
-width="160">](https://f-droid.org/en/packages/com.odiousapps.nextcloudcookbook/)
-
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
-alt="Get it on Google Play"
-height="60">](https://play.google.com/store/apps/details?id=com.odiousapps.nextcloudcookbook)
 
 **First steps**
 
@@ -28,20 +20,11 @@ folder&gt;_).
 
 You also can choose the theme in the settings.
 
-After that, the start view has a list of recipes and you select a recipe to view the details.
-
-You can download new recipes from a supported url or have a cooking timer with click on the cook time.
-
 ## Screenshots
 
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_start.png" width="270" height="540" alt="Screenshot start with list"/>
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_detail_info.png" width="270" height="540" alt="Screenshot detail view with info tab"/>
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_detail_ingredients.png" width="270" height="540" alt="Screenshot detail view with ingredients tab"/>
-
-## Funding
-
-[<img src="liberapay_logo.png" alt="Liberapay logo" height="60">](https://liberapay.com/MicMun/donate) |
-[<img src="https://www.paypalobjects.com/webstatic/de_DE/i/de-pp-logo-200px.png" alt="PayPal Logo" height="60"/>](https://paypal.me/MicMun85)
 
 ## Roadmap
 
@@ -49,36 +32,9 @@ You can download new recipes from a supported url or have a cooking timer with c
 - Edit recipes
 - ...
 
-## Translations
-
-The project can be translated [here](https://translate.codeberg.org/projects/nextcloud-cookbook-android-app/).
-
-Thanks to translators:
-
-- [@mondstern](https://mastodon.technology/@mondstern)
-- HudobniVolk
-- Balázs Meskó
-- Pavel Borecki
-- J. Lavoie
-- Quang Trung
-- Nikita Epifanov
-
-## Contributors
-
-Here I want to thank for contributions to the app.  
-Thanks to
-
-- [newhinton](https://codeberg.org/newhinton)
-- [mrremo](https://codeberg.org/mrremo)
-- [leafar](https://codeberg.org/leafar)
-
-I also want to extend my thanks to  
-[Stefan Niedermann](https://github.com/stefan-niedermann) whose apps are a huge inspiration
-[Deck](https://github.com/stefan-niedermann/nextcloud-deck) | [Notes](https://github.com/nextcloud/notes-android)
-
 ## Dependencies
 
-This app needs Android &gt;= 6.0 (API &gt;= 23) and uses the libraries (see also app/build.gradle):
+This app needs Android 10+ (minSdk is 29) and uses the libraries (see also app/build.gradle):
 
 - androidx dependencies
 - kotlinx coroutines
