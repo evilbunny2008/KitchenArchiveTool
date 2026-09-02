@@ -87,7 +87,7 @@
                 android:textColor="@color/subtextColor"
                 android:textSize="@dimen/text_small"
                 android:textStyle="italic"
-                app:recipeDescription="@{recipe}" />
+                app:recipePreviewDescription="@{recipe}" />
         </LinearLayout>
 
         <ImageView

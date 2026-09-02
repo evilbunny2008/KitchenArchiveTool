@@ -45,7 +45,7 @@ fun TextView.setRecipeDesc(item: DbRecipe?) {
    item?.let { text = it.recipeCore.description }
 }
 
-@BindingAdapter("recipeDescription")
+@BindingAdapter("recipePreviewDescription")
 fun TextView.setRecipeDesc(item: DbRecipePreview?) {
    item?.let { text = it.description }
 }
