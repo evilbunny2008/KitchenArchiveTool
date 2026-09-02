@@ -70,6 +70,7 @@ android {
     }
 
     compileOptions {
+        coreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
     }
@@ -129,7 +130,12 @@ androidComponents {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.3.21")
+    // NOTE: kotlin-stdlib-jdk7/jdk8 have been empty compatibility stubs
+    // merged into kotlin-stdlib since Kotlin 1.8+ -- with Kotlin 2.x this
+    // dependency adds nothing and could simply be deleted. Kept here (via
+    // the catalog, matching your project's actual Kotlin version) since
+    // that's what Android Studio's suggested refactor was pointing at.
+    implementation(libs.kotlin.stdlib.jdk8)
 
     implementation("org.jsoup:jsoup:1.23.2")
 
