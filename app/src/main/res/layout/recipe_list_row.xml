@@ -15,8 +15,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="0dp">
-        <!-- TEMP: android:onClick="@{() -> clickListener.onClick(recipe)}" removed for bisection -->
+        android:layout_margin="0dp"
+        android:onClick="@{() -> clickListener.onClick(recipe)}">
 
         <ViewSwitcher
             android:id="@+id/recipeOverviewStar"
@@ -86,7 +86,8 @@
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
                 android:textColor="@color/subtextColor"
                 android:textSize="@dimen/text_small"
-                android:textStyle="italic" /><!-- TEMP: app:recipePreviewDescription="@{recipe}" removed for bisection -->
+                android:textStyle="italic"
+                app:recipePreviewDescription="@{recipe}" />
         </LinearLayout>
 
         <ImageView
@@ -100,7 +101,8 @@
             android:contentDescription="@string/recipe_list_image_desc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" /><!-- TEMP: app:recipeImage="@{recipe}" removed for bisection -->
+            app:layout_constraintTop_toTopOf="parent"
+            app:recipeImage="@{recipe}" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
