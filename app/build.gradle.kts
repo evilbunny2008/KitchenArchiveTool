@@ -10,6 +10,10 @@ import com.android.build.api.artifact.SingleArtifact
 
 plugins {
     alias(libs.plugins.android.application)
+    // Testing whether Data Binding's Kotlin @BindingAdapter resolution
+    // (BindingUtils.kt) needs kapt-style stub generation -- see root
+    // build.gradle.kts comment for full reasoning.
+    alias(libs.plugins.legacy.kapt)
     alias(libs.plugins.kotlin.serialization) // required for @Serializable model classes
     alias(libs.plugins.ksp) // required for Room's @Database/@Dao/@Entity annotation processing
     // generates *Args/*Directions classes from res/navigation/navigation.xml

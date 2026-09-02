@@ -60,6 +60,12 @@ glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+# Google's officially documented, AGP-9-compatible fallback for legacy
+# kapt-style annotation processing under built-in Kotlin (NOT the same as
+# org.jetbrains.kotlin.kapt, which is actively incompatible -- see the
+# ApplicationExtensionImpl/BaseExtension crash from the reverted KGP
+# attempt). Per Google's docs, version should match the AGP version.
+legacy-kapt = { id = "com.android.legacy-kapt", version.ref = "agp" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 androidx-navigation-safeargs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "androidxNavigation" }
