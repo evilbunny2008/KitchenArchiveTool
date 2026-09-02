@@ -72,7 +72,7 @@ class RecipeIngredientsAdapter(
       val current = getYieldInput()
       var future: Float
 
-      val numbersSet = arrayListOf<Float>(
+      val numbersSet = arrayListOf(
          1F,
          (4F/5F),
          (3F/4F),
@@ -145,7 +145,7 @@ class RecipeIngredientsAdapter(
    private fun getYieldInput(): Float {
       return try {
          tabBinding.yieldInput.text.toString().toFloat()
-      } catch (e: NumberFormatException) {
+      } catch (_: NumberFormatException) {
          baseYield
       }
    }
@@ -163,9 +163,9 @@ class RecipeIngredientsAdapter(
    private fun scaleIngredientAmount(regexStr: String, ingredient: String, factor: Float): String {
       return regexStr.toRegex().find(ingredient)?.let {
          val amount = it.groups[1]!! // don't include the "-\s?" on the second replace
-         val fraction = it.groups[4]?.value // unicode fraction
+         val fraction = it.groups[4]?.value // Unicode fraction
          val newValue = factor *
-                        if (fraction != null && fraction.isNotEmpty()) { // e.g. "1 ½", "¾"
+                        if (!fraction.isNullOrEmpty()) { // e.g. "1 ½", "¾"
                            val integer = it.groups[3]?.value ?: ""
                            amount.value.replace(fraction, fractionsMap[fraction]!!)
                               .replace(integer, integer.trim())

@@ -9,7 +9,6 @@ import android.annotation.SuppressLint
 import android.app.Notification
 import android.app.PendingIntent
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
@@ -101,12 +100,7 @@ class CooktimerService : LifecycleService() {
                notification.contentIntent.send()
 
                // stop service
-               if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                  stopForeground(STOP_FOREGROUND_REMOVE)
-               } else {
-                  @Suppress("DEPRECATION")
-                  stopForeground(true)
-               }
+               stopForeground(STOP_FOREGROUND_REMOVE)
                stopSelf()
             }
          }
@@ -123,12 +117,7 @@ class CooktimerService : LifecycleService() {
       val notificationManager = NotificationManagerCompat.from(this)
       notificationManager.cancel(NotificationChannelManager.TIMER_NOTIFICATION_ID)
 
-      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-         stopForeground(STOP_FOREGROUND_REMOVE)
-      } else {
-         @Suppress("DEPRECATION")
-         stopForeground(true)
-      }
+      stopForeground(STOP_FOREGROUND_REMOVE)
       stopSelf()
       super.onDestroy()
    }

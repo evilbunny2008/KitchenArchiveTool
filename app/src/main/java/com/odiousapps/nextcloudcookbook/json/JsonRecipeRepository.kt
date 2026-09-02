@@ -6,7 +6,6 @@
 package com.odiousapps.nextcloudcookbook.json
 
 import android.content.Context
-import android.os.Build
 import android.util.Log
 import androidx.documentfile.provider.DocumentFile
 import com.anggrayudi.storage.file.getAbsolutePath
@@ -118,21 +117,7 @@ class JsonRecipeRepository {
       }
       val reader = BufferedReader(InputStreamReader(inputStream))
 
-      val json: String
-
-      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-         json = reader.lines().collect(Collectors.joining("\n"))
-      } else {
-         val strBuilder = StringBuilder()
-         var line = reader.readLine()
-
-         while (line != null) {
-            strBuilder.append(line)
-            line = reader.readLine()
-         }
-
-         json = strBuilder.toString()
-      }
+       val json: String = reader.lines().collect(Collectors.joining("\n"))
 
       return RecipeJsonConverter.parse(json)?.copy(
          fileLocation = file.getAbsolutePath(context),

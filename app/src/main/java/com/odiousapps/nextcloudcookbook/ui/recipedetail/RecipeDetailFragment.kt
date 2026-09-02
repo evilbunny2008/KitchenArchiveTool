@@ -39,6 +39,8 @@ import com.odiousapps.nextcloudcookbook.util.ManagedAlarmPlayer
 import com.odiousapps.nextcloudcookbook.util.ManagedVibrator
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
+import androidx.core.view.isVisible
+import androidx.core.view.isGone
 
 /**
  * Fragment for detail of a recipe.
@@ -105,16 +107,15 @@ class RecipeDetailFragment : Fragment(), CookTimeClickListener, TimerClickListen
       }
 
       // request for notification permission (since Android P = API 28)
-      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-         request = permissionsBuilder(
-            Manifest.permission.FOREGROUND_SERVICE,
-            Manifest.permission.POST_NOTIFICATIONS
+      request = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+         permissionsBuilder(
+              Manifest.permission.FOREGROUND_SERVICE,
+              Manifest.permission.POST_NOTIFICATIONS
          ).build()
-      } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-         request = permissionsBuilder(
-            Manifest.permission.FOREGROUND_SERVICE
+      } else
+         permissionsBuilder(
+              Manifest.permission.FOREGROUND_SERVICE
          ).build()
-      }
 
       parent.showToolbar(false)
 
@@ -250,7 +251,7 @@ class RecipeDetailFragment : Fragment(), CookTimeClickListener, TimerClickListen
    }
 
    private fun updateCooktimerViewsVisibility(isDetails: Boolean) {
-      if (binding.cookTimerLayout.visibility == View.VISIBLE && !isDetails) {
+      if (binding.cookTimerLayout.isVisible && !isDetails) {
          binding.viewCooktimerPlaceholder.visibility = View.VISIBLE
       } else {
          binding.viewCooktimerPlaceholder.visibility = View.GONE
@@ -274,7 +275,7 @@ class RecipeDetailFragment : Fragment(), CookTimeClickListener, TimerClickListen
    }
 
    override fun onClick(recipe: DbRecipe) {
-      if (binding.cookTimerLayout.visibility == LinearLayout.GONE) {
+      if (binding.cookTimerLayout.isGone) {
          if (recipe.recipeCore.cookTime.isNotEmpty()) {
             showCooktimer()
             initTimer(recipe.recipeCore.cookTime)
@@ -450,9 +451,9 @@ class RecipeDetailFragment : Fragment(), CookTimeClickListener, TimerClickListen
    private fun cooktimeService() = Intent(activity, CooktimerService::class.java)
 
    /**
-    * Returns <code>true</code>, if the app has the permission to start an foreground service.
+    * Returns <code>true</code>, if the app has the permission to start a foreground service.
     *
-    * @return <code>true</code>, if the app has the permission to start an foreground service.
+    * @return <code>true</code>, if the app has the permission to start a foreground service.
     */
    private fun checkServicePermission(): Boolean {
       var result = true

@@ -6,11 +6,10 @@
 package com.odiousapps.nextcloudcookbook.util
 
 import android.content.Context
-import android.os.Build
 import android.text.format.DateFormat
-import androidx.annotation.RequiresApi
 import java.time.Duration
-import java.util.*
+import java.util.Date
+import java.util.Locale
 
 /**
  * Utilities for the duration format.
@@ -27,11 +26,7 @@ class DurationUtils {
        * @return formatted String to display.
        */
       fun formatStringToDuration(isoString: String): String {
-         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            getDisplayString(isoString)
-         } else {
-            getLegacyDisplayString(isoString)
-         }
+         return getDisplayString(isoString)
       }
 
       /**
@@ -86,7 +81,6 @@ class DurationUtils {
        * @param isoString Duration in iso 8601 format.
        * @return formatted string.
        */
-      @RequiresApi(Build.VERSION_CODES.O)
       private fun getDisplayString(isoString: String): String {
          val duration = Duration.parse(isoString)
          var minutes = duration.toMinutes()

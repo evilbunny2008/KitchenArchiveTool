@@ -20,7 +20,7 @@ enum class SortValue(val sort: Int) {
    TOTAL_TIME_DESC(5);
 
    companion object {
-      private val values = values()
+      private val values = entries.toTypedArray()
       fun getByValue(sort: Int) = values.firstOrNull { it.sort == sort } ?: NAME_A_Z
    }
 }

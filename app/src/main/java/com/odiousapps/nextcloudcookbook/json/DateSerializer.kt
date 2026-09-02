@@ -55,7 +55,7 @@ object DateSerializer : JsonTransformingSerializer<String>(String.serializer()) 
       return try {
          val date = sdf.parse(element.jsonPrimitive.content)
          if (date != null) JsonPrimitive(toJsonImpl(date)) else JsonPrimitive("")
-      } catch (e: IllegalArgumentException) {
+      } catch (_: IllegalArgumentException) {
          JsonPrimitive("")
       }
    }
@@ -80,10 +80,10 @@ object DateSerializer : JsonTransformingSerializer<String>(String.serializer()) 
       return try {
          val date = LocalDate.parse(dateString)
          LocalDateTime.of(date, LocalTime.MIN)
-      } catch (e: DateTimeParseException) {
+      } catch (_: DateTimeParseException) {
          try {
             LocalDateTime.parse(dateString)
-         } catch (e1: DateTimeParseException) {
+         } catch (_: DateTimeParseException) {
             null
          }
       }

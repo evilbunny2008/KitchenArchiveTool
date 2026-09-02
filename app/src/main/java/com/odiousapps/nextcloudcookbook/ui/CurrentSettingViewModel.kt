@@ -29,17 +29,15 @@ class CurrentSettingViewModel(application: Application) : AndroidViewModel(appli
    val sorting: Flow<Int> = prefData.getSort()
    val storageAccessed: Flow<Boolean> = prefData.isStorageAccessed()
 
-   // category
-   private val _category = MutableLiveData<CategoryFilter>()
-   val category: LiveData<CategoryFilter>
-      get() = _category
+    // category
+    val category: LiveData<CategoryFilter>
+        field = MutableLiveData<CategoryFilter>()
 
-   // category changed
-   private val _categoryChanged = MutableLiveData<Boolean>()
-   val categoryChanged: LiveData<Boolean>
-      get() = _categoryChanged
+    // category changed
+    val categoryChanged: LiveData<Boolean>
+        field = MutableLiveData<Boolean>()
 
-   fun setSorting(sort: Int, mainActivity: MainActivity) {
+    fun setSorting(sort: Int, mainActivity: MainActivity) {
       mainActivity.setSortIcon(SortValue.getByValue(sort))
       viewModelScope.launch(Dispatchers.IO) {
          prefData.setSort(sort)
@@ -53,12 +51,12 @@ class CurrentSettingViewModel(application: Application) : AndroidViewModel(appli
    }
 
    fun setNewCategory(cat: CategoryFilter) {
-      val changed = _category.value == cat
-      _category.value = cat
-      _categoryChanged.value = changed
+      val changed = category.value == cat
+      category.value = cat
+      categoryChanged.value = changed
    }
 
    fun resetCategoryChanged() {
-      _categoryChanged.value = false
+      categoryChanged.value = false
    }
 }

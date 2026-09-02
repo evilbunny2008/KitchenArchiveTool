@@ -16,12 +16,9 @@ import kotlinx.serialization.json.*
  */
 object ListStringSerializer : JsonTransformingSerializer<String>(String.serializer()) {
    override fun transformDeserialize(element: JsonElement): JsonElement {
-      return if (element is JsonPrimitive)
-         element
-      else if (element is JsonArray)
-         if (element.jsonArray.size > 0) element.jsonArray[0] else JsonPrimitive("")
-      else {
-         JsonPrimitive("")
-      }
+      return element as? JsonPrimitive ?: if (element is JsonArray)
+              if (element.jsonArray.isNotEmpty()) element.jsonArray[0] else JsonPrimitive("")
+          else
+              JsonPrimitive("")
    }
 }

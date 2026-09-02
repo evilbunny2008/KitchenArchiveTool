@@ -50,7 +50,6 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 import java.io.File
-import java.util.*
 import java.util.logging.Logger
 
 /**
@@ -351,7 +350,7 @@ class MainActivity : AppCompatActivity() {
             updateProfilePicture()
             startService(Intent(this, SyncService::class.java))
          }
-      } catch (e: AccountImportCancelledException) {
+      } catch (_: AccountImportCancelledException) {
       }
    }
 
@@ -375,9 +374,9 @@ class MainActivity : AppCompatActivity() {
             .apply(RequestOptions.circleCropTransform())
             .into(binding.accountSwitcher)
 
-      } catch (e: NextcloudFilesAppAccountNotFoundException) {
+      } catch (_: NextcloudFilesAppAccountNotFoundException) {
          Logger.getLogger(this::class.java.name).severe("Please install the nextcloud app.")
-      } catch (e: NoCurrentAccountSelectedException) {
+      } catch (_: NoCurrentAccountSelectedException) {
          Logger.getLogger(this::class.java.name).severe("Please select an account.")
       }
    }

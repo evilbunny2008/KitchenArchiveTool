@@ -12,7 +12,7 @@ import android.os.VibratorManager
  * @author MicMun
  * @version 1.1, 23.11.21
  */
-class ManagedVibrator constructor(context: Context) {
+class ManagedVibrator(context: Context) {
 
    private val vibrator: Vibrator = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S)
       (context.getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as VibratorManager).defaultVibrator
@@ -31,12 +31,7 @@ class ManagedVibrator constructor(context: Context) {
    fun vibrate(pattern: LongArray) {
       if (!isVibrating) {
          isVibrating = true
-         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            vibrator.vibrate(VibrationEffect.createWaveform(pattern, 0))
-         } else {
-            @Suppress("DEPRECATION")
-            vibrator.vibrate(pattern, 0)
-         }
+         vibrator.vibrate(VibrationEffect.createWaveform(pattern, 0))
       }
    }
 

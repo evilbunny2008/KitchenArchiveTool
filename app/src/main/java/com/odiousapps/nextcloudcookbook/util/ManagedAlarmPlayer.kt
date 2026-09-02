@@ -11,7 +11,7 @@ import android.media.MediaPlayer
  * @author MicMun
  * @version 1.0, 28.07.21
  */
-class ManagedAlarmPlayer constructor(val context: Context) {
+class ManagedAlarmPlayer(val context: Context) {
 
    private var alarmPlayer: MediaPlayer? = null
 

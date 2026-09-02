@@ -123,10 +123,7 @@ class PreferenceData private constructor() {
    }
 
    fun isSyncServiceEnabled(): Boolean {
-      if (getSyncServiceInterval() > 0) {
-         return true
-      }
-      return false
+      return getSyncServiceInterval() > 0
    }
 
    fun setSyncServiceEnabled() {

@@ -106,7 +106,6 @@ class DownloadFormFragment : Fragment(), DownloadClickListener {
          resources.getString(R.string.form_download_title)
    }
 
-   @Suppress("BlockingMethodInNonBlockingContext")
    override fun doDownload() {
       val url = binding.recipeUrlTxt.text.toString()
       val overridePath = binding.recipeOverridePath.text.toString()
@@ -170,10 +169,10 @@ class DownloadFormFragment : Fragment(), DownloadClickListener {
       var url: URL
       url = try {
          URL(str)
-      } catch (e: MalformedURLException) {
+      } catch (_: MalformedURLException) {
          try {
             URL("https://$str")
-         } catch (e: MalformedURLException) {
+         } catch (_: MalformedURLException) {
             return str
          }
       }
@@ -182,24 +181,23 @@ class DownloadFormFragment : Fragment(), DownloadClickListener {
       return url.toString()
    }
 
-   @Suppress("BlockingMethodInNonBlockingContext")
    private suspend fun fetchAndParse(url: String): Pair<Recipe, JsonObject>? {
       return withContext(Dispatchers.IO) {
          val document: Document
          try {
             document = Jsoup.connect(sanitizeURL(url)).get()
-         } catch (e: MalformedURLException) {
+         } catch (_: MalformedURLException) {
             downloadError("Malformed URL")
             return@withContext null
          } catch (e: HttpStatusException) {
             downloadError("Http Error ${e.statusCode}")
             return@withContext null
-         } catch (e: Exception) {
+         } catch (_: Exception) {
             downloadError("Connection failed")
             return@withContext null
          }
          for (element in document.getElementsByTag("script")) {
-            if (element.attr("type").equals("application/ld+json")) {
+            if (element.attr("type") == "application/ld+json") {
                val json = element.html()
                try {
                   RecipeJsonConverter.parseFromWeb(json)?.let { jsonObj ->
@@ -223,7 +221,6 @@ class DownloadFormFragment : Fragment(), DownloadClickListener {
       }
    }
 
-   @Suppress("BlockingMethodInNonBlockingContext")
    private suspend fun fetchImage(url: String): Bitmap? {
       return withContext(Dispatchers.IO) {
          try {
@@ -231,9 +228,9 @@ class DownloadFormFragment : Fragment(), DownloadClickListener {
             val bm = BitmapFactory.decodeStream(stream)
             stream.close()
             return@withContext bm
-         } catch (e: MalformedURLException) {
+         } catch (_: MalformedURLException) {
             downloadError("Image URL malformed")
-         } catch (e: IOException) {
+         } catch (_: IOException) {
             downloadError("IOError loading image")
          }
          null
@@ -267,7 +264,7 @@ fun DocumentFile.findOrCreateFile(fileName: String): DocumentFile? {
 @Deprecated("Broken mimetype", ReplaceWith("findOrCreateFile(fileName)"))
 fun DocumentFile.findOrCreateFile(mime: String, fileName: String): DocumentFile? {
    // do not append mimetype. This triggers android to append a fileending.
-   // eg. image.jpg with mimetype image/jpg will then be image.jpg.jpg
+   // e.g. image.jpg with mimetype image/jpg will then be image.jpg.jpg
    return findOrCreateFile(fileName)
 }
 

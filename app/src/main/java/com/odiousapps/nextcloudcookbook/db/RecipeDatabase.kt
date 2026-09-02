@@ -30,7 +30,7 @@ abstract class RecipeDatabase : RoomDatabase() {
    companion object {
       @Volatile
       private var INSTANCE: RecipeDatabase? = null
-      private val NUMBER_OF_THREADS = 4
+      private const val NUMBER_OF_THREADS = 4
       val databaseWriteExecutor: ExecutorService = Executors.newFixedThreadPool(NUMBER_OF_THREADS)
 
       fun getDatabase(context: Context): RecipeDatabase {

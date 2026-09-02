@@ -30,33 +30,27 @@ class SearchFormViewModel(application: Application) : AndroidViewModel(applicati
    private var viewModelJob = Job()
    private val uiScope = CoroutineScope(Dispatchers.Main + viewModelJob)
 
-   private val _keywords = MutableLiveData<List<DbKeyword>>()
-   val keywords: LiveData<List<DbKeyword>>
-      get() = _keywords
+    val keywords: LiveData<List<DbKeyword>>
+        field = MutableLiveData<List<DbKeyword>>()
 
-   private val _searchType = MutableLiveData(R.id.typeKeyword)
-   val searchType: LiveData<Int>
-      get() = _searchType
-   private val _caseSensitive = MutableLiveData(true)
-   val caseSensitive: LiveData<Boolean>
-      get() = _caseSensitive
-   private val _exactSearch = MutableLiveData(false)
-   val exactSearch: LiveData<Boolean>
-      get() = _exactSearch
+    val searchType: LiveData<Int>
+        field = MutableLiveData(R.id.typeKeyword)
+    val caseSensitive: LiveData<Boolean>
+        field = MutableLiveData(true)
+    val exactSearch: LiveData<Boolean>
+        field = MutableLiveData(false)
 
-   private val _currentQuery = MutableLiveData("")
-   val currentQuery: LiveData<String>
-      get() = _currentQuery
+    val currentQuery: LiveData<String>
+        field = MutableLiveData("")
 
-   private val _currentKeyword = MutableLiveData(0)
-   val currentKeyword: LiveData<Int>
-      get() = _currentKeyword
+    val currentKeyword: LiveData<Int>
+        field = MutableLiveData(0)
 
-   fun loadKeywords() {
+    fun loadKeywords() {
       uiScope.launch {
          val dbKeywords = repository.getKeywords()
-         dbKeywords.collect() {
-            _keywords.postValue(it)
+         dbKeywords.collect {
+            keywords.postValue(it)
          }
       }
    }

@@ -17,7 +17,7 @@ import kotlinx.serialization.json.*
 object ImageSerializier : JsonTransformingSerializer<String>(String.serializer()) {
    override fun transformDeserialize(element: JsonElement): JsonElement {
       return when (element) {
-         is JsonArray -> if (element.jsonArray.size == 0) JsonPrimitive("") else element.jsonArray[0]
+         is JsonArray -> if (element.jsonArray.isEmpty()) JsonPrimitive("") else element.jsonArray[0]
          is JsonPrimitive -> element
          else -> {
             if (element.jsonObject.containsKey("url"))

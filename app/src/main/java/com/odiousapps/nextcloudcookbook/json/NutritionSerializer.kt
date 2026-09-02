@@ -18,8 +18,6 @@ import kotlinx.serialization.json.JsonTransformingSerializer
  */
 object NutritionSerializer : JsonTransformingSerializer<Nutrition>(Nutrition.serializer()) {
    override fun transformDeserialize(element: JsonElement): JsonElement {
-      return if (element !is JsonObject)
-         JsonObject(emptyMap())
-      else element
+      return element as? JsonObject ?: JsonObject(emptyMap())
    }
 }

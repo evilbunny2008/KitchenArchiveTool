@@ -6,7 +6,6 @@
 package com.odiousapps.nextcloudcookbook.ui
 
 import android.annotation.SuppressLint
-import android.os.Build
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
@@ -59,7 +58,7 @@ fun ImageView.setRecipeHeaderImage(item: DbRecipe?) {
 @BindingAdapter("recipePublishedDate")
 fun TextView.setPublishedDate(item: DbRecipe?) {
    item?.let {
-      val date = if (it.recipeCore.datePublished.isEmpty()) "-" else it.recipeCore.datePublished
+      val date = it.recipeCore.datePublished.ifEmpty { "-" }
       text = resources.getString(R.string.text_date_published, date)
    }
 }
@@ -86,9 +85,7 @@ fun TextView.setCookTime(item: DbRecipe?) {
          // timer icon
          setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_timer, 0, 0, 0)
          // tooltip
-         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            tooltipText = context.getString(R.string.cooktime_tooltip)
-         }
+         tooltipText = context.getString(R.string.cooktime_tooltip)
       } else {
          setBackgroundColor(android.R.color.transparent)
       }
@@ -106,11 +103,7 @@ fun TextView.setTotalTime(item: DbRecipe?) {
 @BindingAdapter("recipeCategories")
 fun TextView.setRecipeCategories(item: DbRecipe?) {
    item?.let {
-      val categories = if (it.recipeCore.recipeCategory.isEmpty())
-         resources.getString(R.string.text_uncategorized)
-      else {
-         it.recipeCore.recipeCategory
-      }
+      val categories = it.recipeCore.recipeCategory.ifEmpty { resources.getString(R.string.text_uncategorized) }
       @Suppress("DEPRECATION")
       text = categories
    }

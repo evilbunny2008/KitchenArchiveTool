@@ -156,7 +156,7 @@ dependencies {
     // datastore for settings
     implementation(libs.androidx.datastore.preferences)
 
-    // Json parser
+    // JSON parser
     implementation(libs.kotlinx.serialization.json)
 
     //noinspection GradleDependency

@@ -24,7 +24,6 @@ import com.google.android.material.snackbar.Snackbar
 import com.odiousapps.nextcloudcookbook.R
 import com.odiousapps.nextcloudcookbook.ui.MainActivity
 import com.odiousapps.nextcloudcookbook.util.StorageManager
-import kotlinx.coroutines.flow.collect
 
 /**
  * Fragment for settings.
@@ -65,7 +64,7 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
 
    override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
       setPreferencesFromResource(R.xml.preferences, rootKey)
-      viewModel = ViewModelProvider(this).get(PreferenceViewModel::class.java)
+      viewModel = ViewModelProvider(this)[PreferenceViewModel::class.java]
 
       // find prefs
       dirPreference = findPreference(getString(R.string.prefkey_recipeDir))!!

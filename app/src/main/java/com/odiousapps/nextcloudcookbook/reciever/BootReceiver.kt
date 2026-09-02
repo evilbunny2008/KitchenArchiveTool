@@ -8,11 +8,11 @@ import com.odiousapps.nextcloudcookbook.services.sync.SyncService
 
 class BootReceiver : BroadcastReceiver() {
 
-    private val TAG = BootReceiver::class.toString()
+    private val tag = BootReceiver::class.toString()
 
     override fun onReceive(context: Context, intent: Intent) {
         if(intent.action== Intent.ACTION_BOOT_COMPLETED){
-            Log.d(TAG, "BootReceiver: Started SyncScheduling!")
+            Log.d(tag, "BootReceiver: Started SyncScheduling!")
             SyncService().startServiceScheduling(context)
         }
     }

@@ -66,7 +66,7 @@ class SyncService : IntentService("SyncService") {
       rightNow.set(Calendar.MINUTE, 0)
       rightNow.add(Calendar.HOUR, 1)
 
-      val alarms = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
+      val alarms = context.getSystemService(ALARM_SERVICE) as AlarmManager
       alarms.setRepeating(
          AlarmManager.RTC_WAKEUP,
          rightNow.timeInMillis,

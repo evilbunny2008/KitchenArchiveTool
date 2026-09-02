@@ -6,10 +6,10 @@
 package com.odiousapps.nextcloudcookbook.util
 
 import android.content.Context
-import android.net.Uri
 import androidx.documentfile.provider.DocumentFile
 import com.anggrayudi.storage.file.DocumentFileCompat
 import com.anggrayudi.storage.file.DocumentFileType
+import androidx.core.net.toUri
 
 /**
  * Manages the storage access.
@@ -30,14 +30,14 @@ class StorageManager {
       private fun getDocumentFile(context: Context, path: String, type: DocumentFileType): DocumentFile? {
          return if (path.startsWith("content:")) {
             try {
-               DocumentFile.fromTreeUri(context, Uri.parse(path))
-            } catch (e: IllegalArgumentException) {
+               DocumentFile.fromTreeUri(context, path.toUri())
+            } catch (_: IllegalArgumentException) {
                null
             }
          } else {
             try {
                DocumentFileCompat.fromFullPath(context, path, type)
-            } catch (e: IllegalArgumentException) {
+            } catch (_: IllegalArgumentException) {
                null
             }
          }

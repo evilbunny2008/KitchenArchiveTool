@@ -10,7 +10,7 @@ import java.io.File
 import java.util.concurrent.Executors
 import java.util.logging.Logger
 
-class Sync(private var mContext: Context) {
+class Sync(mContext: Context) {
 
    private val mAccounts: Accounts = Accounts(mContext.applicationContext)
    private val mAPI: NextcloudAPI = mAccounts.getApiToAccount()!!
@@ -128,7 +128,7 @@ class Sync(private var mContext: Context) {
             json.toString().toByteArray()
          )
 
-         // this seems tedious, but i think the api is not quite ready.
+         // this seems tedious, but I think the api is not quite ready.
          val remoteList = mCookbookAPI.getRecipes()
          for (recipe in remoteList) {
             val recipeId = JSONObject(recipe).getString("recipe_id")

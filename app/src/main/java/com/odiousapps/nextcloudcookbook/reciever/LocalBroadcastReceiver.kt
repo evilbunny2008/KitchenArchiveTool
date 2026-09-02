@@ -3,16 +3,12 @@ package com.odiousapps.nextcloudcookbook.reciever
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import android.os.Build
 import android.util.Log
-import com.odiousapps.nextcloudcookbook.services.sync.SyncService
 import com.odiousapps.nextcloudcookbook.services.sync.SyncService.Companion.SYNC_SERVICE_START_BROADCAST
 import com.odiousapps.nextcloudcookbook.services.sync.SyncService.Companion.SYNC_SERVICE_UPDATE_BROADCAST
 import com.odiousapps.nextcloudcookbook.services.sync.SyncService.Companion.SYNC_SERVICE_UPDATE_STATUS
 import com.odiousapps.nextcloudcookbook.services.sync.SyncService.Companion.SYNC_SERVICE_UPDATE_STATUS_START
-import com.odiousapps.nextcloudcookbook.settings.PreferenceData
 import com.odiousapps.nextcloudcookbook.ui.recipelist.RecipeListFragment
-import com.odiousapps.nextcloudcookbook.util.ConnectivityCheck
 
 
 class LocalBroadcastReceiver() : BroadcastReceiver() {

@@ -11,7 +11,7 @@ import kotlinx.serialization.SerializationException
 import kotlinx.serialization.json.*
 
 /**
- * Convert between Recipe objects and their json representation.
+ * Convert between Recipe objects and their JSON representation.
  *
  * @author MicMun
  * @version 1.2, 11.08.21
@@ -38,9 +38,9 @@ class RecipeJsonConverter {
       fun parse(json: JsonObject): Recipe? {
          return try {
             getParser().decodeFromJsonElement(Recipe.serializer(), json)
-         } catch (e: SerializationException) {
+         } catch (_: SerializationException) {
             null
-         } catch (e: IllegalArgumentException) {
+         } catch (_: IllegalArgumentException) {
             null
          }
       }
@@ -52,31 +52,35 @@ class RecipeJsonConverter {
 
             for (obj in jsArray) {
                // could also check js["@context"] == "http://schema.org"
-               if (obj is JsonObject && obj.jsonObject["@type"]?.jsonPrimitive?.content ?: "" == "Recipe") {
+               if (obj is JsonObject && (obj.jsonObject["@type"]?.jsonPrimitive?.content
+                       ?: "") == "Recipe"
+               ) {
                   return obj
                }
             }
             return null
-         } catch (e: Exception) {
+         } catch (_: Exception) {
          }
 
-         // others provide a root object with an "@graph" array
+         // others provide a root object with a "@graph" array
          try {
             val graph = getParser().parseToJsonElement(json).jsonObject["@graph"]
             val arr = graph?.jsonArray
             arr?.let { jsArray ->
                for (obj in jsArray) {
-                  if (obj is JsonObject && obj.jsonObject["@type"]?.jsonPrimitive?.content ?: "" == "Recipe") {
+                  if (obj is JsonObject && (obj.jsonObject["@type"]?.jsonPrimitive?.content
+                          ?: "") == "Recipe"
+                  ) {
                      return obj
                   }
                }
                return null
             }
-         } catch (e: Exception) {
+         } catch (_: Exception) {
          }
 
          val jsonObject = getParser().parseToJsonElement(json).jsonObject
-         if (jsonObject["@type"]?.jsonPrimitive?.content ?: "" == "Recipe") {
+         if ((jsonObject["@type"]?.jsonPrimitive?.content ?: "") == "Recipe") {
             return jsonObject
          }
          return null

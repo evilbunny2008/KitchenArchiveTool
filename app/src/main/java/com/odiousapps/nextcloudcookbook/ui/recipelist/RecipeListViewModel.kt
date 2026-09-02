@@ -5,10 +5,9 @@
  */
 package com.odiousapps.nextcloudcookbook.ui.recipelist
 
+import android.annotation.SuppressLint
 import android.app.Application
-import android.os.Build
 import android.util.Log
-import androidx.annotation.RequiresApi
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -48,11 +47,10 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
    private val recipeRepository = DbRecipeRepository.getInstance(app)
    val categories = recipeRepository.getCategories().asLiveData(Duration.ofSeconds(10), Dispatchers.Main)
 
-   private val _recipes = MutableLiveData<List<DbRecipePreview>>()
-   val recipes: LiveData<List<DbRecipePreview>>
-      get() = _recipes
+    val recipes: LiveData<List<DbRecipePreview>>
+        field = MutableLiveData<List<DbRecipePreview>>()
 
-   // on updating
+    // on updating
    val isUpdating = MutableLiveData(false)
    val isLoaded = MutableLiveData(false)
 
@@ -85,18 +83,23 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
                Log.d("RecipeListViewModel", "SEARCH ! $filter")
                recipeRepository.filterAll(sort, filter!!)
             } else {
-               if (catFilter.type == CategoryFilter.CategoryFilterOption.ALL_CATEGORIES && sort == SortValue.NAME_A_Z) {
-                  recipeRepository.getAllRecipePreviews()
-               } else if (catFilter.type == CategoryFilter.CategoryFilterOption.ALL_CATEGORIES) {
-                  recipeRepository.sort(sort)
-               } else if (catFilter.type == CategoryFilter.CategoryFilterOption.UNCATEGORIZED) {
-                  recipeRepository.filterUncategorized(sort, filter)
-               } else {
-                  recipeRepository.filterCategory(sort, catFilter.name)
-               }
+                when (catFilter.type) {
+                    CategoryFilter.CategoryFilterOption.ALL_CATEGORIES if sort == SortValue.NAME_A_Z -> {
+                        recipeRepository.getAllRecipePreviews()
+                    }
+                    CategoryFilter.CategoryFilterOption.ALL_CATEGORIES -> {
+                        recipeRepository.sort(sort)
+                    }
+                    CategoryFilter.CategoryFilterOption.UNCATEGORIZED -> {
+                        recipeRepository.filterUncategorized(sort, filter)
+                    }
+                    else -> {
+                        recipeRepository.filterCategory(sort, catFilter.name)
+                    }
+                }
             }
-         tmp.collect() {
-            _recipes.value = it
+         tmp.collect {
+            recipes.value = it
          }
       }
    }
@@ -162,6 +165,7 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
       this.filter = filter
    }
 
+   @SuppressLint("EmptySuperCall")
    override fun onCleared() {
       super.onCleared()
       viewModelJob.cancel()

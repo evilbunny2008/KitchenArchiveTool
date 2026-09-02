@@ -1,10 +1,12 @@
 package com.odiousapps.nextcloudcookbook.util
 
 import android.content.Context
-import android.util.Log
-import com.odiousapps.nextcloudcookbook.nextcloudapi.Sync
-import java.io.*
-import java.lang.Exception
+import java.io.BufferedReader
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileNotFoundException
+import java.io.FileOutputStream
+import java.io.InputStreamReader
 import java.util.logging.Logger
 
 class Filesystem(var mContext: Context) {
@@ -86,7 +88,7 @@ class Filesystem(var mContext: Context) {
          bufferedReader.close()
          inputStream.close()
          stream.close()
-      } catch (e: FileNotFoundException){
+      } catch (_: FileNotFoundException){
          //Log.e(TAG, "readInternalFile: File not found! ${file.absoluteFile}")
       }
       return content

@@ -14,6 +14,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.withContext
 import java.io.File
 import java.net.URLDecoder
+import androidx.core.net.toUri
 
 object ImageHelper {
     private val jobMap = mutableMapOf<ImageView, Job>()
@@ -44,7 +45,7 @@ object ImageHelper {
                 try {
                     onSetImage?.invoke(this@setImageURIAsync)
                     setImageBitmap(getBitmapFromUri(it, context))
-                } catch (e: SecurityException) {
+                } catch (_: SecurityException) {
                     PreferenceData.getInstance().setStorageAccessed(false)
                 }
             }
@@ -62,7 +63,7 @@ object ImageHelper {
             Uri.fromFile(File(imgUrl))
         } else {
             StorageManager.getImageFromString(context, it)?.run {
-                if(canRead()) uri else Uri.parse(getAbsolutePath(context))
+                if(canRead()) uri else getAbsolutePath(context).toUri()
             }
         }
     }

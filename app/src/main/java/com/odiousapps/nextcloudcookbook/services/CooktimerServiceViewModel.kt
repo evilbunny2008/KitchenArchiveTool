@@ -16,27 +16,25 @@ import com.odiousapps.nextcloudcookbook.util.CookTimer
  * @version 1.0, 30.07.21
  */
 class CooktimerServiceViewModel(application: Application) : AndroidViewModel(application) {
-   private val _cooktimer = MutableLiveData<CookTimer>()
-   val cooktimer: LiveData<CookTimer>
-      get() = _cooktimer
+    val cooktimer: LiveData<CookTimer>
+        field = MutableLiveData<CookTimer>()
 
-   private val _remains = MutableLiveData<Long>()
-   val remains: LiveData<Long>
-      get() = _remains
+    val remains: LiveData<Long>
+        field = MutableLiveData<Long>()
 
-   /**
+    /**
     * Sets the timer for a count of milliseconds.
     *
     * @param timeInMillis count of milliseconds.
     */
    internal fun setTimer(timeInMillis: Long) {
-      _cooktimer.value = CookTimer(timeInMillis, object : CookTimer.CookTimeListener {
+      cooktimer.value = CookTimer(timeInMillis, object : CookTimer.CookTimeListener {
          override fun refreshOnTick(remains: Long) {
-            _remains.postValue(remains)
+            this@CooktimerServiceViewModel.remains.postValue(remains)
          }
 
          override fun refreshOnFinish() {
-            _remains.value = 0
+            remains.value = 0
          }
       })
    }

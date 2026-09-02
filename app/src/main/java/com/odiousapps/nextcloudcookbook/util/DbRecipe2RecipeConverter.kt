@@ -97,31 +97,17 @@ class DbRecipe2RecipeConverter(private val recipe: DbRecipe) {
       var value: List<Review>? = null
 
       if (reviews != null) {
-         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
-            value = reviews.stream()
-               .map { t ->
-                  Review(
-                     type = t.type,
-                     dateCreated = t.dateCreated,
-                     description = t.description,
-                     author = getAuthor(t.author),
-                     itemReviewed = getItemReviewed(t.itemReviewed)
-                  )
-               }
-               .collect(Collectors.toList())
-         } else {
-            value = mutableListOf()
-            reviews.forEach { t ->
-               val dbReview = Review(
+         value = reviews.stream()
+            .map { t ->
+               Review(
                   type = t.type,
                   dateCreated = t.dateCreated,
                   description = t.description,
                   author = getAuthor(t.author),
                   itemReviewed = getItemReviewed(t.itemReviewed)
                )
-               value.add(dbReview)
             }
-         }
+            .collect(Collectors.toList())
       }
 
       return value
@@ -141,16 +127,9 @@ class DbRecipe2RecipeConverter(private val recipe: DbRecipe) {
       var value: List<String>? = null
 
       if (tools != null) {
-         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
-            value = tools.stream()
-               .map { it.tool }
-               .collect(Collectors.toList())
-         } else {
-            value = mutableListOf()
-            tools.forEach {
-               value.add(it.tool)
-            }
-         }
+         value = tools.stream()
+            .map { it.tool }
+            .collect(Collectors.toList())
       }
 
       return value
@@ -160,16 +139,9 @@ class DbRecipe2RecipeConverter(private val recipe: DbRecipe) {
       var value: List<String>? = null
 
       if (ingredients != null) {
-         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
-            value = ingredients.stream()
-               .map { it.ingredient }
-               .collect(Collectors.toList())
-         } else {
-            value = mutableListOf()
-            ingredients.forEach { t ->
-               value.add(t.ingredient)
-            }
-         }
+         value = ingredients.stream()
+            .map { it.ingredient }
+            .collect(Collectors.toList())
       }
 
       return value

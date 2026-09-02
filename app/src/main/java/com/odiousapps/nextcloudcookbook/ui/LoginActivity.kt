@@ -2,18 +2,18 @@ package com.odiousapps.nextcloudcookbook.ui
 
 import android.Manifest
 import android.content.Intent
-import android.content.SharedPreferences
 import android.content.pm.PackageManager
-import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.edit
 import androidx.lifecycle.lifecycleScope
-import com.fondesa.kpermissions.*
+import com.fondesa.kpermissions.allGranted
+import com.fondesa.kpermissions.anyPermanentlyDenied
+import com.fondesa.kpermissions.anyShouldShowRationale
 import com.fondesa.kpermissions.extension.permissionsBuilder
 import com.fondesa.kpermissions.request.PermissionRequest
 import com.google.android.material.progressindicator.CircularProgressIndicator
@@ -32,7 +32,6 @@ import com.odiousapps.nextcloudcookbook.services.sync.SyncProgressIndicatorInter
 import com.odiousapps.nextcloudcookbook.settings.PreferenceData
 import com.odiousapps.nextcloudcookbook.util.Filesystem
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -156,9 +155,9 @@ class LoginActivity : AppCompatActivity(), SyncProgressIndicatorInterface {
 
    private fun skipAndOpenApp() {
       val settings = getSharedPreferences(SKIP_PREFERENCE_FILE, MODE_PRIVATE)
-      val editor: SharedPreferences.Editor = settings.edit()
-      editor.putBoolean(SKIP_PREFERENCE, true)
-      editor.apply()
+       settings.edit {
+           putBoolean(SKIP_PREFERENCE, true)
+       }
 
       // permission for storage
       lifecycleScope.launchWhenCreated {
@@ -195,15 +194,13 @@ class LoginActivity : AppCompatActivity(), SyncProgressIndicatorInterface {
 
    override fun updateProgress(item: Int, overall: Int, title: String) {
       this@LoginActivity.runOnUiThread {
-         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            val progressBar = (this.findViewById(R.id.progress_circular) as CircularProgressIndicator)
-            progressBar.isIndeterminate = false
-            progressBar.secondaryProgress = (item*100)/overall
-            progressBar.visibility = View.VISIBLE
-         }
-         (this.findViewById(R.id.progress_text) as TextView).text = "$item/$overall - $title"
-         (this.findViewById(R.id.buttonLogin) as Button).visibility = View.GONE
-         (this.findViewById(R.id.buttonSkip) as Button).visibility = View.GONE
+         val progressBar: CircularProgressIndicator = (this.findViewById(R.id.progress_circular))
+         progressBar.isIndeterminate = false
+         progressBar.secondaryProgress = (item*100)/overall
+         progressBar.visibility = View.VISIBLE
+         (this.findViewById<TextView>(R.id.progress_text)!!).text = "$item/$overall - $title"
+         (this.findViewById<Button>(R.id.buttonLogin)!!).visibility = View.GONE
+         (this.findViewById<Button>(R.id.buttonSkip)!!).visibility = View.GONE
 
       }
    }

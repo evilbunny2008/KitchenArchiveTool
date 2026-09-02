@@ -11,7 +11,7 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
 
 /**
- * Generated recipe data classes..
+ * Generated recipe data classes.
  *
  * @author MicMun
  * @version 1.2, 23.11.21

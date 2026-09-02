@@ -27,17 +27,15 @@ class RecipeViewModel(id: Long, application: Application) :
    // cooktimer
    internal var total: Long? = null // total milliseconds
 
-   // current milliseconds remaining time
-   private val _currentMillis = MutableLiveData(-1L)
-   internal val currentMillis: LiveData<Long>
-      get() = _currentMillis
+    // current milliseconds remaining time
+    internal val currentMillis: LiveData<Long>
+        field = MutableLiveData(-1L)
 
-   // state of the timer
-   private val _state = MutableLiveData(CooktimeState.NOT_STARTED)
-   val state: LiveData<CooktimeState>
-      get() = _state
+    // state of the timer
+    val state: LiveData<CooktimeState>
+        field = MutableLiveData(CooktimeState.NOT_STARTED)
 
-   private var cooktimer: CookTimer? = null
+    private var cooktimer: CookTimer? = null
 
    /**
     * Starts the timer.
@@ -49,12 +47,12 @@ class RecipeViewModel(id: Long, application: Application) :
       }
       cooktimer = CookTimer(timerMillis, object : CookTimer.CookTimeListener {
          override fun refreshOnTick(remains: Long) {
-            _currentMillis.postValue(remains)
-            _state.postValue(CooktimeState.RUNNING)
+            currentMillis.postValue(remains)
+            state.postValue(CooktimeState.RUNNING)
          }
 
          override fun refreshOnFinish() {
-            _state.postValue(CooktimeState.FINISHED)
+            state.postValue(CooktimeState.FINISHED)
          }
       })
       cooktimer?.start()
@@ -66,15 +64,15 @@ class RecipeViewModel(id: Long, application: Application) :
    internal fun stopTimer() {
       cooktimer?.cancel()
       cooktimer = null
-      _state.value = CooktimeState.PAUSED
+      state.value = CooktimeState.PAUSED
    }
 
    /**
     * Sets timer back to zero.
     */
    internal fun resetTimer() {
-      _currentMillis.value = -1L
-      _state.value = CooktimeState.NOT_STARTED
+      currentMillis.value = -1L
+      state.value = CooktimeState.NOT_STARTED
    }
 
    /**
@@ -83,7 +81,7 @@ class RecipeViewModel(id: Long, application: Application) :
     * @param millis current milliseconds.
     */
    internal fun setCurrentMillis(millis: Long) {
-      _currentMillis.value = millis
+      currentMillis.value = millis
    }
 
    override fun onCleared() {
