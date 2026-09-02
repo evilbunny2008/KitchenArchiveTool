@@ -1,0 +1,5 @@
+* Bugfix: Scrolling im Tab und die Größe der Ansicht im Rezept
+* Bugfix: Falsches Bild in der Rezeptliste
+* Bugfix: Absturz der App, wenn ein datePublished in mindestens einem Rezept eine Uhrzeit enthält
+* Design-Verbesserungen (Textgrößen, Farben)
+* Neues Feature: Display bleibt an während man im Ablauf-Tab des Rezeptes ist

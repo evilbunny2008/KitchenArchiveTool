@@ -1,0 +1,2 @@
+* Bugfix: fixes for search and download
+* Ingredients portion input centered

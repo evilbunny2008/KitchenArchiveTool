@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools">
+
+   <data>
+
+      <variable
+            name="instruction"
+            type="String" />
+
+      <variable
+            name="counter"
+            type="String" />
+   </data>
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="12dp">
+
+      <ViewSwitcher
+            android:id="@+id/instructionsListSwitcher"
+            android:layout_width="@dimen/instruction_counter_size"
+            android:layout_height="@dimen/instruction_counter_size"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="8dp">
+
+         <TextView
+               android:id="@+id/instructionListPosition"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="@drawable/round_border"
+               android:gravity="center"
+               android:text="@{counter}"
+               android:textAlignment="center"
+               android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+               android:textSize="@dimen/tab_ingredients_text_size"
+               android:textStyle="bold" />
+
+         <ImageView
+               android:id="@+id/instructionDoneSymbol"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:contentDescription="@string/done_image_desc"
+               android:gravity="center"
+               android:src="@drawable/ic_done"
+               android:theme="@style/AppTheme" />
+      </ViewSwitcher>
+
+      <TextView
+            android:id="@+id/instructionsItemText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:text="@{instruction}"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textSize="@dimen/tab_ingredients_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/instructionsListSwitcher"
+            app:layout_constraintTop_toTopOf="parent" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

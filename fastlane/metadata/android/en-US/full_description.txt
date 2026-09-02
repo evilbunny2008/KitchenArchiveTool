@@ -1,0 +1,24 @@
+This app is a viewer for recipes in Nextcloud App.
+The synchronisation can be done direct (with nextloud) or with the local storage.
+
+Synchronize directly works with Single Sign On (SSO) per nextcloud client.
+The local storage can synchronized in other ways, there is no dependency to a client.
+
+<b>First steps</b>
+After first installation (or with the current update from 2.x.x to 3.0.0) it shows the login screen.
+If the nextcloud client is installed and you want to synchronize direct with the nextcloud server, you can use
+the login button to show a list of accounts and you choose the account to login.
+Then the app will download the recipes with the REST api.
+
+If you want to synchronize with the local storage, you can skip the login ("Skip for local storage").
+After that, you have to choose the recipe directory in the settings and permit access.
+In the app "All categories" is the main view, there the app is loading the recipes from the choosen directory.
+
+When using the Nextcloud Android client, you find the directory on your storage under <code>Android/media/com.nextcloud
+.client/nextcloud/&lt;your account&gt;/&lt;folder&gt;</code>.
+
+You also can choose the theme in the settings.
+After that, the start view has a list of recipes and you select a recipe to view the details.
+
+<b>IMPORTANT</b>: With direct pick of the nextcloud folder there will no images shown and the uri can't be stored right. Perhaps at next app start no recipes can be loaded.
+Therefore it is better to use the above mentioned path on the SD card (see First steps).

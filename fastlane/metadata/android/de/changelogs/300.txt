@@ -1,0 +1,4 @@
+- Direkte Serversynchronisation (Danke an newhinton)
+- Neues Design ähnlich zu anderen Nextcloud Apps (Danke an newhinton)
+- Neuer Kochtimer
+- Andere Optimierungen

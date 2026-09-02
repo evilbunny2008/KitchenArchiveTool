@@ -1,0 +1,33 @@
+<resources>
+
+   <style name="AppTheme" parent="AppTheme.Light" />
+
+   <attr name="tab_info_icon" format="reference" />
+   <attr name="tab_ingredients_icon" format="reference" />
+   <attr name="tab_instructions_icon" format="reference" />
+   <attr name="tab_nutritions_icon" format="reference" />
+   <attr name="cooktimeBackground" format="color" />
+
+   <!-- Light application theme. -->
+   <style name="AppTheme.Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+      <item name="colorPrimary">@color/colorPrimary</item>
+      <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+      <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+      <item name="android:statusBarColor">@color/colorBackground</item>
+      <item name="android:windowBackground">@color/colorBackground</item>
+      <item name="android:textColor">@color/textColor</item>
+
+
+      <item name="colorAccent">@color/colorAccent</item>
+      <item name="colorSecondary">@color/colorAccent</item>
+      <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+      <item name="cooktimeBackground">@color/cooktimeBackground</item>
+      <item name="android:windowLightStatusBar">@bool/statusbarLight</item>
+   </style>
+
+   <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
+      <item name="itemIconTint">@color/icon_color</item>
+      <item name="itemTextColor">@color/subtextColor</item>
+   </style>
+</resources>

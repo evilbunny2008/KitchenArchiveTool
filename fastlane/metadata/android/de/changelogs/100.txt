@@ -1,0 +1,2 @@
+* Apk-Build optimiert
+* Fertig für erste stabile Version

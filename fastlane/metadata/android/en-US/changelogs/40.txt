@@ -1,0 +1,5 @@
+* Bugfix: Scrolling tab and size of the recipe view
+* Bugfix: Wrong image in recipe list
+* Bugfix: App crash. if a datePublished with time is in minimum one recipe
+* Design improvements (text sizes, colors)
+* New Feature: Keep display on in the instructions tab of the recipe

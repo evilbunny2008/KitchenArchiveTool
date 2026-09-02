@@ -1,0 +1,8 @@
+* Abhängigkeiten korrigiert (Google Play Core entfernt)
+* Installation auf externer SD-Karte ermöglicht
+* Berechtigung-Handling auf andere Bibliothek geändert
+* Icons geändert
+* Deutsche Übersetzung
+* Detailansicht: Tableiste scrollbar und Zeiten in besser lesbarem Format
+* Zeigt die App-Version in den Einstellungen in dem Über-Bereich
+* Für F-Droid: Deutsche Beschreibung und App-Icon

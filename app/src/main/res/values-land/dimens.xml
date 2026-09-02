@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- Margins for floating button to copy ingredients -->
+   <dimen name="btn_cpin_margin_end">0dp</dimen>
+   <dimen name="btn_cpin_margin_bottom">0dp</dimen>
+</resources>

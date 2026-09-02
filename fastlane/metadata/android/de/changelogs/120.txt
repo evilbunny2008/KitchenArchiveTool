@@ -1,0 +1,4 @@
+* Übersetzte Kategorien in den Einstellungen (Deutsch)
+* Neue Einstellung für das Anzeigen versteckter Verzeichnisse bei Auswahl des Rezept-Verzeichnisses
+* Behebt Bug mit Scrolling-Zustand der Liste (merkt sich jetzt die Position)
+* Verbesserungen beim Scrolling und Sortieren

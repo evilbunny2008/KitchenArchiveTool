@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="de.micmun.android.nextcloudcookbook.ui.searchform.SearchFormFragment">
+
+   <data>
+
+      <variable
+            name="clickListener"
+            type="de.micmun.android.nextcloudcookbook.ui.searchform.SearchClickListener" />
+   </data>
+
+   <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/searchFormLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+         <Spinner
+             android:id="@+id/searchKeyWord"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="24dp"
+             android:layout_marginTop="24dp"
+             android:layout_marginEnd="24dp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <EditText
+             android:id="@+id/searchTxt"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="24dp"
+             android:layout_marginTop="24dp"
+             android:layout_marginEnd="24dp"
+             android:autofillHints=""
+             android:hint="@string/form_search_hint"
+             android:inputType="text"
+             android:text=""
+             android:visibility="gone"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@id/searchKeyWord" />
+
+
+         <TextView
+             android:id="@+id/searchTypesLabel"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="24dp"
+             android:layout_marginEnd="16dp"
+             android:text="@string/form_types"
+             android:textStyle="bold"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@id/searchTxt" />
+
+         <RadioGroup
+               android:id="@+id/searchTypes"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="8dp"
+               android:layout_marginEnd="16dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/searchTypesLabel">
+
+            <RadioButton
+                  android:id="@+id/typeKeyword"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:checked="true"
+                  android:text="@string/form_type_keyword" />
+
+            <RadioButton
+                  android:id="@+id/typeIngredient"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/form_type_ingredients" />
+
+            <RadioButton
+                  android:id="@+id/typeYield"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/form_type_yield" />
+
+         </RadioGroup>
+
+         <TextView
+               android:id="@+id/searchOptionsTxt"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="8dp"
+               android:layout_marginEnd="16dp"
+               android:text="@string/form_search_options"
+               android:textStyle="bold"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@id/searchTypes" />
+
+         <CheckBox
+               android:id="@+id/ignoreCaseChkBox"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="8dp"
+               android:layout_marginEnd="16dp"
+               android:checked="true"
+               android:text="@string/form_ignore_case"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@id/searchOptionsTxt" />
+
+         <CheckBox
+               android:id="@+id/exactSearchChkBox"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="8dp"
+               android:layout_marginEnd="16dp"
+               android:text="@string/form_exact_search"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@id/ignoreCaseChkBox" />
+
+         <Button
+             android:id="@+id/searchBtn"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="24dp"
+             android:layout_marginEnd="16dp"
+             android:background="@drawable/rounded_button"
+             android:onClick="@{() -> clickListener.doSearch()}"
+             android:text="@string/form_search_commit"
+             android:textColor="@android:color/white"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@id/exactSearchChkBox" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+   </ScrollView>
+</layout>

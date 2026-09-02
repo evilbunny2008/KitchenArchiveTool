@@ -1,0 +1,3 @@
+* Advanced info tab and separate nutritions tab
+* Quick search by name improved: Finds a string anywhere in the name not only at start
+* Menu entry Advanced search: Possible to search keywords, ingredients and yield (number of servings)

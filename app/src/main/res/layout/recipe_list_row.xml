@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="recipe"
+            type="de.micmun.android.nextcloudcookbook.db.model.DbRecipePreview" />
+        <variable
+            name="clickListener"
+            type="de.micmun.android.nextcloudcookbook.ui.recipelist.RecipeListListener" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:onClick="@{() -> clickListener.onClick(recipe)}">
+
+        <ViewSwitcher
+            android:id="@+id/recipeOverviewStar"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center|center_horizontal"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/recipeOverviewImage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recipeOverviewImage">
+
+            <ImageView
+                android:id="@+id/recipeOverviewStarOff"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/list_recipe_star_desc"
+                android:cropToPadding="true"
+                android:scaleType="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_ncnotes_star_gray" />
+
+            <ImageView
+                android:id="@+id/recipeOverviewStarOn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/list_recipe_star_desc"
+                android:cropToPadding="true"
+                android:scaleType="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_ncnotes_star_yellow" />
+        </ViewSwitcher>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/recipeOverviewImage"
+            app:layout_constraintStart_toEndOf="@+id/recipeOverviewStar"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/recipeOverviewName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Title"
+                android:textAlignment="viewStart"
+                app:recipeName="@{recipe}" />
+
+            <TextView
+                android:id="@+id/recipeOverviewDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                android:textColor="@color/subtextColor"
+                android:textSize="@dimen/text_small"
+                android:textStyle="italic"
+                app:recipeDescription="@{recipe}" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/recipeOverviewImage"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/round_outline"
+            android:contentDescription="@string/recipe_list_image_desc"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:recipeImage="@{recipe}" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

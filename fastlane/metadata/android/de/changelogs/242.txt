@@ -1,0 +1,1 @@
+* Fehlerbehebungen (Abstürze, optimierter App-Kontext)

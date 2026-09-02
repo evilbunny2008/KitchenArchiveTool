@@ -1,0 +1,8 @@
+* Libraries fixed (no dependency to google play core)
+* Allow installation on external sd card
+* Permission handling changed (other library)
+* Icons changed
+* German translation
+* Detail view: Tablayout scrollable and times in more readable format
+* Show app version in the settings about section
+* For F-Droid: German description and app icon

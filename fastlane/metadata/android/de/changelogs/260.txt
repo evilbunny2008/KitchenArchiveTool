@@ -1,0 +1,1 @@
+* Unterstützung weiterer ld+json-Formate für den Download (Danke an leafar)

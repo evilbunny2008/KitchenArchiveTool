@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item
+         android:id="@+id/menu_search_extended"
+         android:icon="@drawable/ic_search"
+         android:title="@string/menu_search_title" />
+
+   <group android:visible="true">
+      <item
+            android:id="@+id/menu_all_categories"
+            android:title="@string/menu_all_categories" />
+      <item
+            android:id="@+id/menu_uncategorized"
+            android:title="@string/menu_uncategorized" />
+   </group>
+
+   <item
+         android:id="@+id/submenu_item"
+         android:title="@string/menu_categories">
+      <menu android:id="@+id/submenu_categories">
+         <group android:id="@+id/menu_categories_group" />
+      </menu>
+   </item>
+
+   <item android:title="@string/menu_title_app">
+      <menu>
+         <item
+               android:id="@+id/app_import_recipe"
+               android:icon="@drawable/ic_download"
+               android:title="@string/menu_import_recipe" />
+         <item
+               android:id="@+id/app_settings"
+               android:icon="@drawable/ic_settings"
+               android:title="@string/menu_settings" />
+      </menu>
+   </item>
+</menu>

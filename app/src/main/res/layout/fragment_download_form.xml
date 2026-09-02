@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="de.micmun.android.nextcloudcookbook.ui.downloadform.DownloadClickListener">
+
+   <data>
+
+      <variable
+            name="clickListener"
+            type="de.micmun.android.nextcloudcookbook.ui.downloadform.DownloadClickListener" />
+   </data>
+
+   <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/downloadFormLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+         <EditText
+             android:id="@+id/recipeUrlTxt"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="16dp"
+             android:layout_marginEnd="16dp"
+             android:autofillHints=""
+             android:hint="@string/form_download_url_hint"
+             android:inputType="textUri"
+             app:layout_constraintBottom_toTopOf="@id/downloadOptionsTxt"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <EditText
+             android:id="@+id/recipeOverridePath"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="8dp"
+             android:layout_marginEnd="16dp"
+             android:autofillHints=""
+             android:ems="10"
+             android:inputType="textPersonName"
+             android:hint="@string/form_download_folder"
+             app:layout_constraintBottom_toBottomOf="@id/replaceExistingChkBox"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@id/downloadOptionsTxt"
+             app:layout_constraintVertical_bias="0.0" />
+
+         <TextView
+             android:id="@+id/downloadOptionsTxt"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="16dp"
+             android:layout_marginEnd="16dp"
+             android:layout_marginBottom="8dp"
+             android:text="@string/form_download_options"
+             android:textStyle="bold"
+             app:layout_constraintBottom_toTopOf="@id/recipeUrlTxt"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@id/recipeOverridePath" />
+
+         <CheckBox
+             android:id="@+id/replaceExistingChkBox"
+             android:layout_width="0dp"
+             android:layout_height="48dp"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="8dp"
+             android:layout_marginEnd="16dp"
+             android:layout_marginBottom="20dp"
+             android:text="@string/form_download_override_existing"
+             app:layout_constraintBottom_toTopOf="@+id/downloadBtn"
+             app:layout_constraintEnd_toEndOf="@id/downloadBtn"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@id/recipeOverridePath" />
+
+         <Button
+             android:id="@+id/downloadBtn"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginEnd="16dp"
+             android:onClick="@{() -> clickListener.doDownload()}"
+             android:text="@string/form_download_commit"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@id/replaceExistingChkBox" />
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+   </ScrollView>
+</layout>

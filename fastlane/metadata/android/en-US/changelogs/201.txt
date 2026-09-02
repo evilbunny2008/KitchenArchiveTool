@@ -1,0 +1,1 @@
+* Bugfixes (App crush, no images, category problem)

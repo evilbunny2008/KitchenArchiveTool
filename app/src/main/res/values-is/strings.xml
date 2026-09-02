@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="empty_list">Nei uppskriftir.</string>
+    <string name="recipe_list_image_desc">Mynd þumalinn af uppskrift</string>
+    <string name="img_desc_logo">Merki uppskrift</string>
+    <string name="title_duration">Lengd í HH:MM</string>
+    <string name="tooltip_prep_time">Undirbúningur</string>
+    <string name="tooltip_cook_time">Matreiðslu</string>
+    <string name="tooltip_total_time">Alls</string>
+    <string name="tab_ingredients_title">Efni</string>
+    <string name="tab_instructions_title">Leiðbeiningar</string>
+    <string name="text_categories"> Flokkur:</string>
+    <string name="text_yield">Skila:</string>
+    <string name="text_author">Höfundur:</string>
+   <string name="text_no_keywords">Engin orð.</string>
+    <string name="text_date_published">Dagsetningu út: %1$s</string>
+    <string name="nutrition_calories">Hitaeiningar: %1$s</string>
+    <string name="nutrition_carbohydrate_content">Kolvetni Efni: %1$s</string>
+    <string name="nutrition_cholesterol_content">Kólesteról Efni: %1$s</string>
+    <string name="nutrition_fat_content">Feitur Efni: %1$s</string>
+    <string name="nutrition_fiberContent">Trefjar Efni: %1$s</string>
+    <string name="nutrition_protein_content">Prótín: %1$s</string>
+    <string name="nutrition_saturated_fat_content">Mettuð Feitur Efni: %1$s</string>
+    <string name="nutrition_serving_size">Þjóna Stærð: %1$s</string>
+    <string name="nutrition_sodium_content">Járn Efni: %1$s</string>
+    <string name="nutrition_trans_fat_content">Trans Feitur Efni: %1$s</string>
+    <string name="nutrition_unsaturated_fat_content">Ómettuð Feitur Efni: %1$s</string>
+    <string name="menu_search_title">Ítarleg Leit</string>
+    <string name="menu_settings_title">Stillingar</string>
+    <string name="menu_sort_title">Konar</string>
+    <string name="menu_refresh_tooltip">Hressa uppskriftir</string>
+    <string name="menu_search_tooltip">Leita að uppskrift</string>
+    <string name="search_hint">Leita að með því nafni</string>
+    <string name="form_search_title">Ítarleg Leit</string>
+    <string name="form_search_hint">Leit</string>
+    <string name="form_ignore_case">Hunsa tilfelli\?</string>
+    <string name="form_types">Tegund að leita að</string>
+    <string name="form_type_keyword">Leita eftir lykilorði</string>
+    <string name="tab_info_title">Upplýsingar</string>
+    <string name="tab_nutritions_title">Næringarefni</string>
+    <string name="form_type_yield">Leita að með því að Skila</string>
+    <string name="form_search_options">Leita valkosti</string>
+    <string name="form_search_commit">Leita að</string>
+    <string name="menu_uncategorized">Óflokkað</string>
+    <string name="pref_category_function">Virkni</string>
+    <string name="pref_category_design">Hönnun</string>
+    <string name="preftitle_recipeDir">Uppskrift Möppu</string>
+    <string name="title_dir_chooser">Velja möppu…</string>
+    <string name="preftitle_theme">Veldu Þema</string>
+    <string name="about_title">Um</string>
+    <string name="about_version">App útgáfa: %1$s</string>
+    <string name="theme_name_light">Ljós</string>
+    <string name="theme_name_dark">Dökk</string>
+    <string name="theme_name_system">Kerf</string>
+    <string name="sort_value_alpha_asc">Nafn A-Z</string>
+    <string name="no_information">Engar Upplýsingar.</string>
+    <string name="nutrition_sugar_content">Sykur Efni: %1$s</string>
+    <string name="form_type_ingredients">Leita að með því að efnið</string>
+    <string name="sort_value_alpha_desc">Nafn Z-A</string>
+    <string name="sort_value_date_asc">Dagsetningu út hækkandi</string>
+    <string name="sort_value_date_desc">Dagsetningu út lækkandi</string>
+    <string name="sort_value_time_asc">Alls tíma hækkandi</string>
+    <string name="sort_value_time_desc">Alls tíma lækkandi</string>
+    <string name="app_logo_desc">Sjósetja táknið app að sýna matreiðslubók tákn</string>
+    <string name="text_uncategorized">Óflokkað</string>
+    <string name="permissions_error_message">Aðgangi hafnað! App þarft geymslu aðgang, vinsamlegast virkja í stillingar.</string>
+    <string name="text_keywords">Lykilorð:</string>
+    <string name="form_exact_search">Gera nákvæma leit\?</string>
+    <string name="menu_all_categories">Sýna öllum flokkum</string>
+    <string name="about_summary">© 2020-2022 by MicMun. License under GPLv3.
+\n
+\nNextcloud Matreiðslubók er til forrit fyrir bókinni á nextcloud að stjórna uppskriftir.</string>
+    <string name="permission_please_grant" tools:ignore="MissingTranslation">Vinsamlegast veittu geymsluheimildir.</string>
+    <string name="folder_pick_cancel" tools:ignore="MissingTranslation">Mappavaldari hætt við af notanda.</string>
+    <string name="folder_pick_success" tools:ignore="MissingTranslation">Mappa %1$s valin.</string>
+    <string name="header_image_desc">Hausmynd af uppskrift</string>
+    <string name="permission_canceled" tools:ignore="MissingTranslation">Hætt við af notanda</string>
+    <string name="permission_ok_message" tools:ignore="MissingTranslation">Geymsluaðgangur hefur verið veittur fyrir %1$s.</string>
+    <string name="permission_warning_nowrite" tools:ignore="MissingTranslation">Þú hefur engan skrifaðgang að þessari geymslu og því er gagnslaus að velja þessa möppu.
+\nViltu veita aðgang að þessari möppu \?.</string>
+    <string name="text_tools"> Nauðsynleg verkfæri:</string>
+    <string name="permission_select_root" tools:ignore="MissingTranslation">Veldu %1$s.</string>
+    <string name="form_download_folder">Hunsa miða möppu</string>
+    <string name="form_download_override_existing">Skipta núverandi uppskrift möppu</string>
+    <string name="form_download_commit">Sækja</string>
+    <string name="form_download_options">Valkosti</string>
+    <string name="menu_download_tooltip">Sækja Uppskrift</string>
+    <string name="menu_download_title">Sækja</string>
+    <string name="form_download_title">Sækja Uppskrift</string>
+    <string name="form_download_url_hint">Uppskrift URL</string>
+    <string name="notification_text">Tími er: %1$s</string>
+    <string name="channel_name">Myndatöku rás</string>
+    <string name="channel_description">Rás fyrir myndatöku tilkynningar</string>
+    <string name="cooktime_tooltip">Byrja að elda myndatöku</string>
+    <string name="cooktime_reset_btn">Stoppar og endurstillir myndatöku</string>
+    <string name="cooktime_pause_btn">Þagnar myndatöku</string>
+    <string name="cooktime_title">Elda myndatöku</string>
+    <string name="cooktime_start_btn">Byrjar myndatöku</string>
+    <string name="notification_title">Nextcloud Cookbook Myndatöku</string>
+    <string name="list_recipe_star_desc">Stjörnu táknið sem gefur til kynna uppáhalds stöðu uppskrift</string>
+    <string name="ingredients_yield">Afrakstur</string>
+    <string name="dir_chooser_error">Villa: Rótina er ekki leyft!</string>
+    <string name="copy_ing_message">Efni afrita að klemmuspjald.</string>
+    <string name="copy_ingredients">Afrit efni</string>
+    <string name="sync_service_notification_title">Samstilling Uppskriftir</string>
+    <string name="pref_title_enableSyncService">Samstilling Uppskriftir Í Bakgrunni</string>
+    <string name="pref_category_sync">Samstilling</string>
+    <string name="prefkey_enableSyncService">VirkjaSamstillingarþjónustu</string>
+    <string name="sync_service_channel_name">Samstilla Þjónusta</string>
+    <string name="sync_service_channel_description">Notað fyrir forgrunn tilkynningu þegar samstilling uppskriftir</string>
+    <string name="sync_service_notification_content">Við erum nú að uppfæra uppskriftir, við munum koma aftur fljótlega!</string>
+</resources>

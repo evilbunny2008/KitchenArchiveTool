@@ -1,0 +1,3 @@
+* Fixes Issue #7: Bug with parsing the field "recipeCuisine" in JSON
+* Closes Issue #6: New feature sort options
+* New library versions

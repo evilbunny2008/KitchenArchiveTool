@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <PreferenceCategory
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:title="@string/pref_category_function">
+
+      <Preference
+            android:key="@string/prefkey_recipeDir"
+            android:summary="%s"
+            android:title="@string/preftitle_recipeDir" />
+   </PreferenceCategory>
+   <PreferenceCategory
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:title="@string/pref_category_sync">
+      <de.micmun.android.nextcloudcookbook.ui.preferences.IntListPreference
+          android:defaultValue="24"
+          android:entries="@array/sync_interval_names"
+          android:entryValues="@array/sync_interval_values"
+          android:key="@string/prefkey_enableSyncService"
+          android:summary="%s"
+          android:title="@string/pref_title_enableSyncService" />
+      <CheckBoxPreference
+          android:defaultValue="true"
+          android:key="@string/prefkey_sync_wifi_only"
+          android:summary="@string/pref_summary_sync_wifi_only"
+          android:title="@string/pref_title_sync_wifi_only" />
+   </PreferenceCategory>
+   <PreferenceCategory android:title="@string/pref_category_design">
+      <de.micmun.android.nextcloudcookbook.ui.preferences.IntListPreference
+            android:defaultValue="2"
+            android:entries="@array/theme_names"
+            android:entryValues="@array/theme_values"
+            android:key="@string/prefkey_theme"
+            android:summary="%s"
+            android:title="@string/preftitle_theme" />
+      <CheckBoxPreference
+          android:defaultValue="true"
+          android:key="@string/prefkey_keep_screen_alive"
+          android:summary="@string/pref_summary_keep_screen_alive"
+          android:title="@string/pref_title_keep_screen_alive" />
+   </PreferenceCategory>
+
+   <PreferenceCategory android:title="@string/about_title">
+      <Preference
+            android:key="@string/prefkey_about"
+            android:summary="@string/about_summary" />
+      <Preference
+          android:summary="@string/about_specialthanks" />
+   </PreferenceCategory>
+</PreferenceScreen>

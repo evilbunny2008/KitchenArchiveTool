@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="permissions_error_message">Acesso negado! App precisa de acesso de armazenamento, por favor, ativar nas Configurações.</string>
+    <string name="no_information">Nenhuma Informação.</string>
+    <string name="empty_list">Nada de receitas.</string>
+    <string name="recipe_list_image_desc">Miniatura da imagem da receita</string>
+    <string name="title_duration">Duração em HH: MM</string>
+    <string name="tooltip_prep_time">Preparacao</string>
+    <string name="tooltip_cook_time">Cozinha</string>
+    <string name="tab_ingredients_title">Componente</string>
+    <string name="tab_instructions_title">Instrucao</string>
+    <string name="tab_nutritions_title">Nutricao</string>
+    <string name="text_author">Autor:</string>
+   <string name="text_no_keywords">Sem palavras-chave.</string>
+    <string name="tooltip_total_time">completo</string>
+    <string name="tab_info_title">Informações</string>
+    <string name="text_uncategorized">Categoria</string>
+    <string name="text_categories">Categoria:</string>
+    <string name="text_yield">Rendimento:</string>
+    <string name="text_date_published">Data publicação: %1$s</string>
+    <string name="nutrition_calories">Calorias: %1$s</string>
+    <string name="nutrition_cholesterol_content">Conteúdo colesterol: %1$s</string>
+    <string name="nutrition_fat_content">Teor de gordura: %1$s</string>
+    <string name="nutrition_protein_content">Conteúdo Proteico: %1$s</string>
+    <string name="nutrition_saturated_fat_content">Teor de gordura saturada: %1$s</string>
+    <string name="nutrition_serving_size">Tamanho da porção: %1$s</string>
+    <string name="nutrition_sodium_content">Conteúdo de Sódio: %1$s</string>
+    <string name="nutrition_sugar_content">Teor de açúcar: %1$s</string>
+    <string name="nutrition_trans_fat_content">Teor de gordura trans: %1$s</string>
+    <string name="menu_search_title">Busca Avançada</string>
+    <string name="menu_settings_title">Configurações</string>
+    <string name="menu_sort_title">Classificar</string>
+    <string name="menu_refresh_tooltip">Refrescar receitas</string>
+    <string name="menu_search_tooltip">Receita de pesquisa</string>
+    <string name="search_hint">Pesquisa por nome</string>
+    <string name="form_search_title">Pesquisa Avançada</string>
+    <string name="form_search_hint">Consulta de pesquisa</string>
+    <string name="form_ignore_case">Ignorar caso\?</string>
+    <string name="form_exact_search">Fazer uma pesquisa exacta\?</string>
+    <string name="form_type_keyword">Pesquisa por palavra-chave</string>
+    <string name="form_type_ingredients">Pesquisa por ingredientes</string>
+    <string name="form_type_yield">Pesquisa por Rendimentos</string>
+    <string name="form_search_commit">Pesquisar</string>
+    <string name="menu_uncategorized">Não categorizado</string>
+    <string name="pref_category_function">Funcionalidade</string>
+    <string name="pref_category_design">Concepção</string>
+    <string name="preftitle_recipeDir">Directório de receitas</string>
+    <string name="title_dir_chooser">Escolher um directório…</string>
+    <string name="preftitle_theme">Seleccione Tema</string>
+    <string name="about_title">Sobre</string>
+    <string name="about_version">Versão App: %1$s</string>
+    <string name="theme_name_light">Luz</string>
+    <string name="theme_name_dark">Sombrio</string>
+    <string name="theme_name_system">Sistema</string>
+    <string name="sort_value_alpha_asc">Nome A-Z</string>
+    <string name="nutrition_unsaturated_fat_content">Teor de gordura insaturada: %1$s</string>
+    <string name="sort_value_alpha_desc">Nome Z-A</string>
+    <string name="sort_value_date_asc">Data da publicação ascendente</string>
+    <string name="sort_value_date_desc">Data da publicação descendente</string>
+    <string name="sort_value_time_asc">Tempo total a subir</string>
+    <string name="sort_value_time_desc">Tempo total de descida</string>
+    <string name="app_logo_desc">Ícone do lançador da aplicação que mostra um símbolo de livro de receitas</string>
+    <string name="form_types">Digite para pesquisar</string>
+    <string name="img_desc_logo">Logótipo da receita</string>
+    <string name="form_search_options">Opções de procura</string>
+    <string name="text_keywords">Palavras-chave:</string>
+    <string name="menu_all_categories">Mostrar todas as categorias</string>
+    <string name="nutrition_carbohydrate_content">Conteúdo carboidratos: %1$s</string>
+    <string name="nutrition_fiberContent">Conteúdo de fibra: %1$s</string>
+    <string name="about_summary">© 2020-2022 por MicMun. Licença ao abrigo da GPLv3.
+\n
+\nNextcloud Cookbook é uma aplicação para livros de receitas na nextcloud para gerir receitas.</string>
+    <string name="text_tools">Ferramentas de alimentação:</string>
+    <string name="header_image_desc">Imagem do cabeçalho da receita</string>
+    <string name="permission_canceled" tools:ignore="MissingTranslation">Cancelado pelo utilizador</string>
+    <string name="permission_select_root" tools:ignore="MissingTranslation">Por favor seleccione %1$s.</string>
+    <string name="folder_pick_success" tools:ignore="MissingTranslation">Pasta %1$s seleccionada.</string>
+    <string name="folder_pick_cancel" tools:ignore="MissingTranslation">Selecionador de pastas cancelado pelo utilizador.</string>
+    <string name="permission_warning_nowrite" tools:ignore="MissingTranslation">Não tem acesso por escrito a este armazenamento, pelo que a selecção desta pasta é inútil.
+\nGostaria de conceder acesso a esta pasta\?.</string>
+    <string name="permission_please_grant" tools:ignore="MissingTranslation">Por favor, conceder permissões de armazenamento.</string>
+    <string name="permission_ok_message" tools:ignore="MissingTranslation">O acesso ao armazenamento foi concedido por %1$s.</string>
+    <string name="menu_download_title">Baixar</string>
+    <string name="form_download_commit">Baixar</string>
+    <string name="form_download_title">Baixar Receita</string>
+    <string name="form_download_override_existing">Substituir a pasta de receitas existente</string>
+    <string name="menu_download_tooltip">baixar receita</string>
+    <string name="form_download_url_hint">URL da receita</string>
+    <string name="form_download_options">Opções</string>
+    <string name="form_download_folder">Substituir pasta de alvo</string>
+    <string name="ingredients_yield">Jield</string>
+    <string name="channel_description">Canal para notificações de temporizadores</string>
+    <string name="cooktime_tooltip">Iniciar um temporizador de cozedura</string>
+    <string name="notification_title">Nextcloud Cookbook Cronómetro</string>
+    <string name="cooktime_start_btn">Inicia o cronómetro</string>
+    <string name="notification_text">Tempo restante: %1$s</string>
+    <string name="cooktime_title">Ícone estrela indicando o estado preferido da receita</string>
+    <string name="cooktime_pause_btn">Pausa o cronómetro</string>
+    <string name="cooktime_reset_btn">Pára e reinicia o temporizador</string>
+    <string name="channel_name">Canal temporizador</string>
+    <string name="list_recipe_star_desc">Ícone estrela indicando o estado preferido da receita</string>
+    <string name="dir_chooser_error">Erro: Pasta de raiz não é permitida!</string>
+    <string name="copy_ing_message">Ingredientes copiados para prancheta.</string>
+    <string name="copy_ingredients">Copiar ingredientes</string>
+    <string name="sync_service_notification_title">Sincronizar Receitas</string>
+    <string name="sync_service_notification_content">No momento, estamos atualizando suas receitas, voltaremos em breve!</string>
+    <string name="pref_category_sync">Sincronização</string>
+    <string name="prefkey_enableSyncService">ativarServiçoSincronização</string>
+    <string name="sync_service_channel_name">Serviço De Sincronização</string>
+    <string name="sync_service_channel_description">Usado para notificação em primeiro plano ao sincronizar receitas</string>
+    <string name="pref_title_enableSyncService">Sincronizar receitas em segundo plano</string>
+</resources>

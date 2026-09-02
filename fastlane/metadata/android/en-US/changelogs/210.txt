@@ -1,0 +1,3 @@
+* Bugfix: If there is no folder picker, the app doesn't crash, instead it will show an error message
+* New: Search of keywords with chossing from a list of keywords
+* Update translations

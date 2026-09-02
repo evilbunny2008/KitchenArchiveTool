@@ -1,0 +1,4 @@
++ Bugfix: little fixes in json parsing
++ New: Numbered instructions can be marked as done
++ New: In landscape mode it shows ingredients and instructions side by side
++ Update translations

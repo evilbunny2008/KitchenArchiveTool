@@ -1,0 +1,2 @@
+* Übersetzungen hinzugefügt: Tschechisch, Spanisch, Französisch, Ungarisch, Italienisch, Polnisch, Niederländisch und Portugisisch (Brasilien)
+* Systembibliotheken aktualisiert

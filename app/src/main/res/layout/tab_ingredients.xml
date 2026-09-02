@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/servingsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ingredientsView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+         <TextView
+               android:id="@+id/textView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/ingredients_yield"
+               android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent" />
+
+         <com.google.android.material.textfield.TextInputLayout
+               android:id="@+id/servingsInputLayout"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="8dp"
+               app:expandedHintEnabled="false"
+               app:hintAnimationEnabled="false"
+               app:hintEnabled="false"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintStart_toEndOf="@+id/textView"
+               app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                  android:id="@+id/yieldInput"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:inputType="number|numberDecimal"
+                  android:paddingStart="8dp"
+                  android:paddingTop="8dp"
+                  android:paddingEnd="8dp"
+                  android:paddingBottom="8dp"
+                  android:selectAllOnFocus="true"
+                  android:singleLine="true"
+                  android:textAlignment="center" />
+         </com.google.android.material.textfield.TextInputLayout>
+
+         <Button
+               android:id="@+id/yieldMinus"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:minWidth="0dip"
+               android:text="-"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintStart_toEndOf="@+id/servingsInputLayout"
+               app:layout_constraintTop_toTopOf="parent"
+               tools:ignore="HardcodedText" />
+
+         <Button
+               android:id="@+id/yieldPlus"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="8dp"
+               android:minWidth="0dip"
+               android:text="+"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintStart_toEndOf="@+id/yieldMinus"
+               app:layout_constraintTop_toTopOf="parent"
+               tools:ignore="HardcodedText" />
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+      <TextView
+            android:id="@+id/labelNoContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/no_ingredients"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/servingsLayout" />
+
+      <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ingredientsView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/servingsLayout" />
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/cpIngredientsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="@dimen/btn_cpin_margin_end"
+            android:layout_marginBottom="@dimen/btn_cpin_margin_bottom"
+            android:contentDescription="@string/copy_ingredients"
+            android:src="@drawable/ic_content_copy"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:tint="@color/textColorLight" />
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

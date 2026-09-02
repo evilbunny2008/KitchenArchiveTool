@@ -1,0 +1,3 @@
+* Navigationsmenü mit Kategorien als Filter für die Rezepte
+* Suchfunktion implementiert
+* Detailansicht verbessert

@@ -1,0 +1,6 @@
+* New: Ingredients are markable as done (thanks to leafar)
+* New: Download feature with a url like the server app (thanks to leafar)
+* New: Scale ingredients (thanks to leafar)
+* Show done instructions improvements: Strike-through and text clickable (thanks to leafar)
+* Some Optimations in search and recipe handling
+* Translations integrated (thanks to mondstern, Quang Trung and J. Lavoie)

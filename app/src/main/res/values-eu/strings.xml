@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+   <string name="sort_value_time_desc">Beheranzko denbora osoa</string>
+   <string name="tab_info_title">Informazioa</string>
+   <string name="tooltip_total_time">Guztira</string>
+   <string name="sort_value_time_asc">Denbora igotzen guztira</string>
+   <string name="sort_value_date_desc">Behera argitaratutako data</string>
+   <string name="sort_value_date_asc">Argitaratutako data gorantz</string>
+   <string name="sort_value_alpha_desc">Izena Z-A</string>
+   <string name="sort_value_alpha_asc">Izena A-Z</string>
+   <string name="theme_name_system">Sistema</string>
+   <string name="theme_name_dark">Iluna</string>
+   <string name="theme_name_light">Argia</string>
+   <string name="about_summary">© 2020-2022 arabera MicMun. Lizentzia pean GPLv3.
+\n
+\nNextcloud Cookbook aplikazio bat da cookbook on nextcloud kudeatzeko errezetak.</string>
+   <string name="about_version">Aplikazioaren bertsioa: %1$s</string>
+   <string name="about_title">Buruz</string>
+   <string name="preftitle_theme">Aukeratu Gaia</string>
+   <string name="title_dir_chooser">Aukeratu direktorio bat…</string>
+   <string name="preftitle_recipeDir">Errezeten direktorioa</string>
+   <string name="pref_category_design">Diseinua</string>
+   <string name="pref_category_function">Funtzionaltasuna</string>
+   <string name="menu_uncategorized">Kategorizatu gabea</string>
+   <string name="menu_all_categories">Erakutsi kategoria guztiak</string>
+   <string name="form_search_commit">Bilatu</string>
+   <string name="form_search_options">Bilatu aukerak</string>
+   <string name="form_type_yield">Emaitzaren arabera bilatu</string>
+   <string name="form_type_ingredients">Bilatu osagaien arabera</string>
+   <string name="form_type_keyword">Bilatu gako-hitzaren arabera</string>
+   <string name="form_types">Idatzi bilatzeko</string>
+   <string name="form_exact_search">Bilaketa zehatza egin\?</string>
+   <string name="form_ignore_case">Kasuari kasurik egin gabe\?</string>
+   <string name="form_search_hint">Bilatu kontsulta</string>
+   <string name="form_search_title">Bilaketa aurreratua</string>
+   <string name="search_hint">Bilatu izenaren arabera</string>
+   <string name="menu_search_tooltip">Bilatu errezeta</string>
+   <string name="menu_refresh_tooltip">Freskatu errezetak</string>
+   <string name="menu_sort_title">Ordenatu</string>
+   <string name="menu_settings_title">Ezarpenak</string>
+   <string name="menu_search_title">Bilaketa aurreratua</string>
+   <string name="nutrition_unsaturated_fat_content">Gantz ase gabeko edukia: %1$s</string>
+   <string name="nutrition_trans_fat_content">Gantz trans edukia: %1$s</string>
+   <string name="nutrition_sugar_content">Azukre edukia: %1$s</string>
+   <string name="nutrition_sodium_content">Sodioaren edukia: %1$s</string>
+   <string name="nutrition_serving_size">Zerbitzuaren tamaina: %1$s</string>
+   <string name="nutrition_saturated_fat_content">Gantz saturatuen edukia: %1$s</string>
+   <string name="nutrition_protein_content">Proteinen edukia: %1$s</string>
+   <string name="nutrition_fiberContent">Zuntzaren edukia: %1$s</string>
+   <string name="nutrition_fat_content">Gantz-edukia: %1$s</string>
+   <string name="nutrition_cholesterol_content">Kolesterolaren edukia: %1$s</string>
+   <string name="nutrition_carbohydrate_content">Karbohidratoen edukia: %1$s</string>
+   <string name="nutrition_calories">Kaloriak: %1$s</string>
+   <string name="text_date_published">Argitaratutako eguna: %1$s</string>
+   <string name="text_keywords">Hitz gakoak:</string>
+   <string name="text_no_keywords">Ez dago gako-hitzik.</string>
+   <string name="text_author">Egilea:</string>
+   <string name="text_yield">Etekina:</string>
+   <string name="text_categories">Kategoria:</string>
+   <string name="text_uncategorized">Kategorizatu gabea</string>
+   <string name="tab_nutritions_title">Nutrizioak</string>
+   <string name="tab_instructions_title">Argibideak</string>
+   <string name="tab_ingredients_title">Osagaiak</string>
+   <string name="tooltip_cook_time">Sukaldaritza</string>
+   <string name="tooltip_prep_time">Prestaketa</string>
+   <string name="title_duration">Iraupenak HH-tan: MM</string>
+   <string name="img_desc_logo">Errezetaren logotipoa</string>
+   <string name="recipe_list_image_desc">Errezetaren irudiaren irudi txikia</string>
+   <string name="empty_list">Errezetarik ez.</string>
+   <string name="no_information">Informaziorik ez.</string>
+   <string name="permissions_error_message">Sarrera debekatua! Aplikazioak biltegiratzeko sarbidea behar du. Aktibatu ezarpenetan.</string>
+   <string name="app_logo_desc">Sukaldaritza liburuaren ikurra duen aplikazioaren abiarazlearen ikonoa</string>
+   <string name="header_image_desc">Goiburuko irudia errezeta</string>
+   <string name="permission_select_root" tools:ignore="MissingTranslation">Mesedez, hautatu %1$s.</string>
+   <string name="folder_pick_success" tools:ignore="MissingTranslation">Karpeta %1$s hautatutako.</string>
+   <string name="folder_pick_cancel" tools:ignore="MissingTranslation">Karpeta-hautatzailearen bertan behera erabiltzaileak.</string>
+   <string name="permission_please_grant" tools:ignore="MissingTranslation">Mesedez eman biltegiratze baimenak.</string>
+   <string name="permission_ok_message" tools:ignore="MissingTranslation">Biltegiratze sarbidea izan da emandako %1$s.</string>
+   <string name="permission_canceled" tools:ignore="MissingTranslation">Bertan behera erabiltzaileak</string>
+   <string name="permission_warning_nowrite" tools:ignore="MissingTranslation">Ez duzu idatzi honetan sartzeko, biltegiratze, beraz, hautatu karpeta hau da alferrikakoa.
+\nNahi duzu sarbidea emateko karpeta hau\?.</string>
+   <string name="text_tools">Beharrezko tresnak:</string>
+   <string name="menu_download_title">Deskargatu</string>
+   <string name="menu_download_tooltip">deskargatu errezeta</string>
+   <string name="form_download_title">Deskargatu Errezeta</string>
+   <string name="form_download_url_hint">Errezeta URL</string>
+   <string name="form_download_options">Aukera</string>
+   <string name="form_download_override_existing">Ordezkatu dagoen errezeta karpeta</string>
+   <string name="form_download_commit">Deskargatu</string>
+   <string name="form_download_folder">Override helburu karpeta</string>
+   <string name="ingredients_yield">Etekin</string>
+   <string name="cooktime_reset_btn">Gelditzen eta berrezartzen tenporizadorea</string>
+   <string name="cooktime_pause_btn">Etenaldiak tenporizadorea</string>
+   <string name="cooktime_start_btn">Hasten tenporizadorea</string>
+   <string name="notification_title">Nextcloud Cookbook Tenporizadorea</string>
+   <string name="notification_text">Denbora geratzen da: %1$s</string>
+   <string name="channel_name">Tenporizadorea channel</string>
+   <string name="channel_description">Kanal tenporizadorea jakinarazpenak</string>
+   <string name="cooktime_tooltip">Hasteko sukaldaritza tenporizadorea</string>
+   <string name="cooktime_title">Sukaldaritza tenporizadorea</string>
+   <string name="list_recipe_star_desc">Izar ikonoa adieraziz gogoko egoera errezeta</string>
+   <string name="dir_chooser_error">Errorea: Erro karpeta ez dago baimenduta!</string>
+   <string name="copy_ing_message">Arbelean kopiatutako osagaiak.</string>
+   <string name="copy_ingredients">Kopiatu osagaiak</string>
+   <string name="sync_service_notification_title">Sinkronizatu Errezetak</string>
+   <string name="prefkey_enableSyncService">msgstr</string>
+   <string name="pref_category_sync">Sinkronizazioa</string>
+   <string name="sync_service_channel_name">Sinkronizazio Zerbitzua</string>
+   <string name="sync_service_channel_description">Aurreko planoaren jakinarazpenerako erabiltzen da errezetak sinkronizatzean</string>
+   <string name="sync_service_notification_content">Zure errezeta prestatzen ari gara, laster itzuliko gara!</string>
+   <string name="pref_title_enableSyncService">Sinkronizatu Errezeta Atzeko planoan</string>
+</resources>

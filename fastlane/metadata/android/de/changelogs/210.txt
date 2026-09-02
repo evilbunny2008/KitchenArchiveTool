@@ -1,0 +1,3 @@
+* Fehlerkorrektur: Wenn keine Verzeichnisauswahl möglich ist, dann stürzt die App nicht mehr ab, sondern es wird jetzt eine Fehlermeldung angezeigt
+* Neu: Suche nach Schlüsselwörtern mit Auswahlliste vorhandener Schlüsselwörter
+* Übersetzungen wieder aktualisiert

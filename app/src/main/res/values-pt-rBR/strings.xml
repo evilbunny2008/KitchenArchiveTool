@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_logo_desc">Ícone lançador do aplicativo mostrando um símbolo de livro de receitas</string>
+    <string name="permissions_error_message">Acesso negado! O aplicativo precisa de acesso ao armazenamento, por favor, ative nas configurações.</string>
+    <string name="no_information">Nenhuma informação.</string>
+    <!-- recipe list -->
+    <string name="empty_list">Sem receitas.</string>
+    <string name="recipe_list_image_desc">Miniatura de receita de imagem</string>
+    <!-- recipe detail -->
+    <string name="img_desc_logo">Logotipo da receita</string>
+    <string name="title_duration">Durações em HH:MM</string>
+    <string name="tooltip_prep_time">Preparativos</string>
+    <string name="tooltip_cook_time">Culinária</string>
+    <string name="tooltip_total_time">Totalmente</string>
+    <!-- tab titles -->
+    <string name="tab_info_title">Informações</string>
+    <string name="tab_ingredients_title">Ingredientes</string>
+    <string name="tab_instructions_title">Instruções</string>
+    <string name="tab_nutritions_title">Nutrições</string>
+    <!-- tab infos -->
+    <string name="text_uncategorized">Não categorizado</string>
+    <string name="text_categories">Categoria:</string>
+    <string name="text_yield">Rendimento:</string>
+    <string name="text_author">Autor:</string>
+   <string name="text_no_keywords">Não há palavras chave.</string>
+    <string name="text_keywords">palavras chave:</string>
+    <string name="text_date_published">Data de publicação: %1$s</string>
+    <!-- Nutritions -->
+    <string name="nutrition_calories">Calorias: %1$s</string>
+    <string name="nutrition_carbohydrate_content">Teor de carboidratos: %1$s</string>
+    <string name="nutrition_cholesterol_content">Teor de colesterol: %1$s</string>
+    <string name="nutrition_fat_content">Teor de gordura: %1$s</string>
+    <string name="nutrition_fiberContent">Teor de fibra: %1$s</string>
+    <string name="nutrition_protein_content">Teor de proteína: %1$s</string>
+    <string name="nutrition_saturated_fat_content">Teor de gordura saturada: %1$s</string>
+    <string name="nutrition_serving_size">Tamanho da dose: %1$s</string>
+    <string name="nutrition_sodium_content">Teor de Sódio: %1$s</string>
+    <string name="nutrition_sugar_content">Teor de açúcar: %1$s</string>
+    <string name="nutrition_trans_fat_content">Teor de gordura trans: %1$s</string>
+    <string name="nutrition_unsaturated_fat_content">Teor de gordura não saturada: %1$s</string>
+    <!-- menu -->
+    <string name="menu_search_title">Busca avançada</string>
+    <string name="menu_settings_title">Configurações</string>
+    <string name="menu_sort_title">Ordenar</string>
+    <string name="menu_refresh_tooltip">Refrescar receitas</string>
+    <string name="menu_search_tooltip">Receita de pesquisa</string>
+    <string name="search_hint">Busca pelo nome</string>
+    <!-- search formular -->
+    <string name="form_search_title">Busca avançada</string>
+    <string name="form_search_hint">Consulta de pesquisa</string>
+    <string name="form_ignore_case">Ignorar o caso\?</string>
+    <string name="form_exact_search">Fazer uma busca exata\?</string>
+    <string name="form_types">Tipo a pesquisar</string>
+    <string name="form_type_keyword">Busca por palavra-chave</string>
+    <string name="form_type_ingredients">Busca por ingrediente</string>
+    <string name="form_type_yield">Busca por Rendimento</string>
+    <string name="form_search_options">Opções de busca</string>
+    <string name="form_search_commit">Busca</string>
+    <!-- navdrawer_menu -->
+    <string name="menu_all_categories">Mostrar todas as categorias</string>
+    <string name="menu_uncategorized">Não categorizado</string>
+    <!-- preferences -->
+    <string name="pref_category_function">Funcionalidade</string>
+    <string name="pref_category_design">Projeto</string>
+    <string name="preftitle_recipeDir">Diretório de receitas</string>
+    <string name="title_dir_chooser">Escolha um diretório…</string>
+    <string name="preftitle_theme">Selecionar Tema</string>
+    <string name="about_title">Sobre</string>
+    <string name="about_version">Versão do aplicativo: %1$s</string>
+    <string name="about_summary">© 2020-2022 por MicMun. Licença sob a GPLv3.
+\n
+\nNextcloud Cookbook é um aplicativo para livros de receitas na nextcloud para gerenciar receitas.</string>
+    <string name="theme_name_light">Luz</string>
+    <string name="theme_name_dark">Escuro</string>
+    <string name="theme_name_system">Sistema</string>
+    <string name="sort_value_alpha_asc">Nome A-Z</string>
+    <string name="sort_value_alpha_desc">Nome Z-A</string>
+    <string name="sort_value_date_asc">Data de publicação ascendente</string>
+    <string name="sort_value_date_desc">Data de publicação decrescente</string>
+    <string name="sort_value_time_asc">Tempo total ascendente</string>
+    <string name="sort_value_time_desc">Tempo total descendente</string>
+    <string name="text_tools">Ferramentas de alimentação:</string>
+    <string name="header_image_desc">Imagem de cabeçalho da receita</string>
+    <string name="permission_select_root" tools:ignore="MissingTranslation">Favor selecionar %1$s.</string>
+    <string name="permission_please_grant" tools:ignore="MissingTranslation">Por favor, conceda permissões de armazenamento.</string>
+    <string name="permission_ok_message" tools:ignore="MissingTranslation">O acesso ao armazenamento foi concedido por %1$s.</string>
+    <string name="folder_pick_success" tools:ignore="MissingTranslation">Pasta %1$s selecionada.</string>
+    <string name="folder_pick_cancel" tools:ignore="MissingTranslation">Selecionador de pastas cancelado pelo usuário.</string>
+    <string name="permission_warning_nowrite" tools:ignore="MissingTranslation">Você não tem acesso por escrito a este armazenamento, portanto, a seleção desta pasta é inútil.
+\nVocê gostaria de conceder acesso a esta pasta\?.</string>
+    <string name="permission_canceled" tools:ignore="MissingTranslation">Cancelado pelo usuário</string>
+    <string name="form_download_folder">Substituir a pasta de destino</string>
+    <string name="form_download_override_existing">Substituir a pasta de receitas existente</string>
+    <string name="form_download_options">Opções</string>
+    <string name="form_download_url_hint">URL da receita</string>
+    <string name="form_download_title">Baixar Receita</string>
+    <string name="form_download_commit">Baixar</string>
+    <string name="menu_download_tooltip">receita de download</string>
+    <string name="menu_download_title">Baixar</string>
+    <string name="ingredients_yield">Jield</string>
+    <string name="notification_text">Tempo restante: %1$s</string>
+    <string name="channel_name">Canal do temporizador</string>
+    <string name="channel_description">Canal para notificações temporizadas</string>
+    <string name="cooktime_pause_btn">Pausa o timer</string>
+    <string name="cooktime_start_btn">Inicia o timer</string>
+    <string name="cooktime_title">Timer de cozimento</string>
+    <string name="cooktime_reset_btn">Pára e reinicia o temporizador</string>
+    <string name="notification_title">Nextcloud Cookbook Temporizador</string>
+    <string name="cooktime_tooltip">Iniciar um temporizador de cozimento</string>
+    <string name="list_recipe_star_desc">Ícone estrela indicando o status preferido da receita</string>
+    <string name="dir_chooser_error">Erro: Pasta de raiz não é permitida!</string>
+    <string name="copy_ingredients">Copiar ingredientes</string>
+    <string name="copy_ing_message">Ingredientes copiados para prancheta.</string>
+    <string name="sync_service_channel_name">Serviço de sincronia</string>
+    <string name="sync_service_notification_title">Receitas de sincronia</string>
+    <string name="pref_category_sync">Sincronismo</string>
+    <string name="prefkey_enableSyncService">habilitarSyncService</string>
+    <string name="sync_service_channel_description">Usado em primeiro plano para não-ficcionar ao sincronizar receitas</string>
+    <string name="sync_service_notification_content">Estamos atualmente atualizando suas receitas, voltaremos em breve!</string>
+    <string name="pref_title_enableSyncService">Receitas de Sincronização no Fundo</string>
+</resources>

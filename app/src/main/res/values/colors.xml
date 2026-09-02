@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1699e1</color>
+    <color name="colorPrimaryDark">#0082c9</color>
+    <color name="colorAccent">#007CC2</color>
+
+    <color name="colorBackground">#ffffff</color>
+    <color name="textColor">#2E2E2E</color>
+    <color name="subtextColor">#757575</color>
+    <color name="textColorLight">#FAFAFA</color>
+    <color name="cooktimeBackground">#F2F2F2</color>
+    <color name="appbar">#ffffff</color>
+    <color name="icon_color">#757575</color>
+</resources>

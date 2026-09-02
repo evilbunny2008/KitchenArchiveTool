@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="permissions_error_message">Ligipääs keelatud! Rakendus vajab juurdepääsu salvestusruumile. Aktiveerige seadetes.</string>
+    <string name="no_information">Pole informatsiooni.</string>
+    <string name="empty_list">Retsepte pole.</string>
+    <string name="recipe_list_image_desc">Retsepti pildi pisipilt</string>
+    <string name="title_duration">Kestused tunnis: MM</string>
+    <string name="tooltip_prep_time">Ettevalmistus</string>
+    <string name="tooltip_cook_time">Kokkamine</string>
+    <string name="tooltip_total_time">Kokku</string>
+    <string name="tab_ingredients_title">Koostisosad</string>
+    <string name="tab_instructions_title">Juhised</string>
+    <string name="tab_nutritions_title">Toitained</string>
+    <string name="text_uncategorized">Kategooriateta</string>
+    <string name="text_categories"> Kategooria:</string>
+    <string name="text_yield">Saagikus:</string>
+    <string name="text_no_keywords">Märksõnu pole.</string>
+    <string name="text_date_published">Avaldamise kuupäev: %1$s</string>
+    <string name="nutrition_calories">Kalorid: %1$s</string>
+    <string name="nutrition_carbohydrate_content">Süsivesikute sisaldus: %1$s</string>
+    <string name="nutrition_cholesterol_content">Kolesterooli sisaldus: %1$s</string>
+    <string name="nutrition_fat_content">Rasvasisaldus: %1$s</string>
+    <string name="nutrition_fiberContent">Kiudainesisaldus: %1$s</string>
+    <string name="nutrition_saturated_fat_content">Küllastunud rasvasisaldus: %1$s</string>
+    <string name="nutrition_serving_size">Esituse suurus: %1$s</string>
+    <string name="nutrition_sodium_content">Naatriumisisaldus: %1$s</string>
+    <string name="nutrition_sugar_content">Suhkrusisaldus: %1$s</string>
+    <string name="nutrition_trans_fat_content">Transrasvade sisaldus: %1$s</string>
+    <string name="tab_info_title">informatsioon</string>
+    <string name="text_author">Autor:</string>
+    <string name="app_logo_desc">Rakenduse käivitusikoon, millel on kokaraamatu sümbol</string>
+    <string name="img_desc_logo">Retsepti logo</string>
+    <string name="text_keywords">Märksõnad:</string>
+    <string name="nutrition_protein_content">Valgusisaldus: %1$s</string>
+    <string name="nutrition_unsaturated_fat_content">Küllastumata rasvasisaldus: %1$s</string>
+    <string name="menu_search_title">Täpsem otsing</string>
+    <string name="menu_settings_title">Seaded</string>
+    <string name="menu_sort_title">Sorteeri</string>
+    <string name="menu_refresh_tooltip">Värskendage retsepte</string>
+    <string name="menu_search_tooltip">Otsingu retsept</string>
+    <string name="search_hint">Otsige nime järgi</string>
+    <string name="form_search_title">Täpsem otsing</string>
+    <string name="form_search_hint">Otsingu päring</string>
+    <string name="form_ignore_case">Kas ignoreerida juhtumit\?</string>
+    <string name="form_exact_search">Kas teha täpne otsing\?</string>
+    <string name="form_types">Sisestage otsimiseks</string>
+    <string name="form_type_keyword">Otsi märksõna järgi</string>
+    <string name="form_type_ingredients">Otsige koostisosa järgi</string>
+    <string name="form_type_yield">Otsing saagikuse järgi</string>
+    <string name="form_search_options">Otsinguvõimalused</string>
+    <string name="form_search_commit">Otsing</string>
+    <string name="menu_all_categories">Kuva kõik kategooriad</string>
+    <string name="menu_uncategorized">Kategooriateta</string>
+    <string name="pref_category_function">Funktsionaalsus</string>
+    <string name="pref_category_design">Kujundus</string>
+    <string name="preftitle_recipeDir">Retseptide kataloog</string>
+    <string name="title_dir_chooser">Valige kataloog…</string>
+    <string name="preftitle_theme">Valige Teema</string>
+    <string name="about_title">Umbes</string>
+    <string name="about_version">Rakenduse versioon: %1$s</string>
+    <string name="about_summary">© 2020-2022 MicMuni poolt. Litsents GPLv3 alusel.
+\n
+\nNextcloudi kokaraamat on retseptiraamatute haldamise rakendus järgmisel pilvel.</string>
+    <string name="theme_name_light">Valgus</string>
+    <string name="theme_name_dark">Tume</string>
+    <string name="theme_name_system">Süsteem</string>
+    <string name="sort_value_alpha_asc">Nimi A-Z</string>
+    <string name="sort_value_alpha_desc">Nimi Z-A</string>
+    <string name="sort_value_date_asc">Avaldamise kuupäev kasvavalt</string>
+    <string name="sort_value_date_desc">Avaldamise kuupäev kahanevalt</string>
+    <string name="sort_value_time_asc">Kogu aeg kasvavalt</string>
+    <string name="sort_value_time_desc">Kokku kahanev aeg</string>
+    <string name="header_image_desc">Retsepti päise pilt</string>
+    <string name="permission_select_root" tools:ignore="MissingTranslation">Palun valige %1$s.</string>
+    <string name="permission_please_grant" tools:ignore="MissingTranslation">Palun andke salvestusõigused.</string>
+    <string name="permission_ok_message" tools:ignore="MissingTranslation">Salvestusruumile on antud juurdepääs %1$s.</string>
+    <string name="folder_pick_success" tools:ignore="MissingTranslation">Kaust %1$s valitud.</string>
+    <string name="folder_pick_cancel" tools:ignore="MissingTranslation">Kasutaja poolt tühistatud kaustavalik.</string>
+    <string name="permission_warning_nowrite" tools:ignore="MissingTranslation">Teil ei ole sellele salvestusruumile kirjutamisõigust, seega on selle kausta valimine kasutu.
+\nKas soovite sellele kaustale juurdepääsu anda\?.</string>
+    <string name="permission_canceled" tools:ignore="MissingTranslation">Tühistatud kasutaja poolt</string>
+    <string name="text_tools">Vajalikud tööriistad:</string>
+    <string name="form_download_folder">Alista sihtkaust</string>
+    <string name="menu_download_tooltip">lae retsept alla</string>
+    <string name="menu_download_title">Lae alla</string>
+    <string name="form_download_title">Laadige alla retsept</string>
+    <string name="form_download_commit">Lae alla</string>
+    <string name="form_download_override_existing">Asenda olemasolev retseptikaust</string>
+    <string name="form_download_options">Valikud</string>
+    <string name="form_download_url_hint">Retsepti URL</string>
+    <string name="ingredients_yield">Saak</string>
+    <string name="cooktime_start_btn">Taimeri käivitamine</string>
+    <string name="notification_title">Nextcloud Cookbook Taimer</string>
+    <string name="notification_text">Aega jääb: %1$s</string>
+    <string name="channel_name">Taimer kanal</string>
+    <string name="cooktime_tooltip">Käivitage toiduvalmistamise taimer</string>
+    <string name="cooktime_title">Toiduvalmistamise taimer</string>
+    <string name="cooktime_reset_btn">Peatab ja lähtestab taimeri</string>
+    <string name="cooktime_pause_btn">Taimeri peatamine</string>
+    <string name="channel_description">Taimeri märguannete kanal</string>
+    <string name="list_recipe_star_desc">Tärniikoon, mis näitab retsepti lemmiku olekut</string>
+    <string name="dir_chooser_error">Viga: juurkataloog ei ole lubatud!</string>
+    <string name="copy_ingredients">Koostisosade kopeerimine</string>
+    <string name="copy_ing_message">Koostisosad kopeeritakse lõikelauale.</string>
+    <string name="sync_service_notification_title">Retseptide Sünkroonimine</string>
+    <string name="sync_service_channel_name">Sünkroonimisteenus</string>
+    <string name="sync_service_channel_description">Kasutatakse retseptide sünkroonimisel esiplaani teavitamiseks</string>
+    <string name="sync_service_notification_content">Uuendame praegu teie retsepte, tuleme varsti tagasi!</string>
+    <string name="pref_category_sync">Sünkroonimine</string>
+    <string name="pref_title_enableSyncService">Retseptide sünkroonimine taustal</string>
+    <string name="prefkey_enableSyncService">sünkroonimisteenuselubamine</string>
+</resources>

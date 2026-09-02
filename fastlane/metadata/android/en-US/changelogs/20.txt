@@ -1,0 +1,3 @@
+* Navigation menu with categories to filter the recipes
+* Search function implemented
+* Detail view improved

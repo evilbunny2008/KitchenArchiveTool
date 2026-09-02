@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="de.micmun.android.nextcloudcookbook.ui.recipedetail.RecipeDetailFragment">
+
+   <data>
+
+      <variable
+            name="recipe"
+            type="de.micmun.android.nextcloudcookbook.db.model.DbRecipe" />
+
+      <variable
+            name="clickListener"
+            type="de.micmun.android.nextcloudcookbook.ui.recipedetail.CookTimeClickListener" />
+   </data>
+
+   <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+         <ImageView
+               android:id="@+id/headerImage"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:contentDescription="Header image"
+               android:paddingStart="100dp"
+               android:paddingTop="20dp"
+               android:paddingEnd="80dp"
+               android:scaleType="centerCrop"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               app:recipeHeaderImage="@{recipe}"
+               app:srcCompat="@drawable/kettle_steam"
+               tools:ignore="HardcodedText" />
+
+         <TextView
+               android:id="@+id/headerText"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="4dp"
+               android:layout_marginEnd="16dp"
+               android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+               android:textSize="@dimen/tab_info_text_size"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@id/headerImage"
+               app:recipeDescription="@{recipe}" />
+
+         <TextView
+               android:id="@+id/datePublishedText"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="8dp"
+               android:layout_marginEnd="16dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@id/headerText"
+               app:recipePublishedDate="@{recipe}" />
+
+         <LinearLayout
+               android:id="@+id/timeInfosTitleLayout"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginEnd="16dp"
+               android:gravity="center"
+               android:orientation="horizontal"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@id/datePublishedText">
+
+            <TextView
+                  android:id="@+id/prepTimeTitle"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="1dp"
+                  android:layout_marginEnd="8dp"
+                  android:layout_weight="1"
+                  android:text="@string/tooltip_prep_time"
+                  android:textAlignment="center"
+                  android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                  android:textSize="@dimen/tab_info_text_size"
+                  android:textStyle="bold" />
+
+            <TextView
+                  android:id="@+id/cookTimeTitle"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="1dp"
+                  android:layout_marginEnd="8dp"
+                  android:layout_weight="1"
+                  android:text="@string/tooltip_cook_time"
+                  android:textAlignment="center"
+                  android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                  android:textSize="@dimen/tab_info_text_size"
+                  android:textStyle="bold" />
+
+            <TextView
+                  android:id="@+id/totalTimeTitle"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginEnd="1dp"
+                  android:layout_weight="1"
+                  android:text="@string/tooltip_total_time"
+                  android:textAlignment="center"
+                  android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                  android:textSize="@dimen/tab_info_text_size"
+                  android:textStyle="bold" />
+         </LinearLayout>
+
+         <LinearLayout
+               android:id="@+id/timeInfosLayout"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="8dp"
+               android:layout_marginEnd="16dp"
+               android:gravity="center"
+               android:orientation="horizontal"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@id/timeInfosTitleLayout">
+
+            <TextView
+                  android:id="@+id/prepTimeTxt"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="1dp"
+                  android:layout_marginEnd="8dp"
+                  android:layout_weight="1"
+                  android:textAlignment="center"
+                  android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                  android:textSize="@dimen/tab_info_text_size"
+                  app:recipePrepTime="@{recipe}" />
+
+            <TextView
+                  android:id="@+id/cookTimeTxt"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="1dp"
+                  android:layout_marginEnd="8dp"
+                  android:layout_weight="1"
+                  android:background="@drawable/round_border"
+                  android:backgroundTint="@color/colorPrimary"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:onClick="@{() -> clickListener.onClick(recipe)}"
+                  android:padding="6dp"
+                  android:textAlignment="textEnd"
+                  android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                  android:textColor="#ffffff"
+                  android:textSize="@dimen/tab_info_text_size"
+                  app:recipeCookTime="@{recipe}" />
+
+            <TextView
+                  android:id="@+id/totalTimeTxt"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginEnd="1dp"
+                  android:layout_weight="1"
+                  android:textAlignment="center"
+                  android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                  android:textSize="@dimen/tab_info_text_size"
+                  app:recipeTotalTime="@{recipe}" />
+         </LinearLayout>
+
+         <LinearLayout
+               android:id="@+id/linearLayout"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginEnd="16dp"
+               android:orientation="vertical"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/timeInfosLayout">
+
+            <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="16dp"
+                  android:orientation="horizontal">
+
+               <TextView
+                     android:id="@+id/label_Yield"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight=".30"
+                     android:text="@string/text_yield" />
+
+               <TextView
+                     android:id="@+id/yieldTxt"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="16dp"
+                     android:layout_weight=".70"
+                     android:minLines="1"
+                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                     android:textSize="@dimen/tab_info_text_size"
+                     app:recipeYield="@{recipe}" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="16dp"
+                  android:orientation="horizontal">
+
+               <TextView
+                     android:id="@+id/label_tools"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight=".30"
+                     android:text="@string/text_tools" />
+
+               <TextView
+                     android:id="@+id/toolsTxt"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="16dp"
+                     android:layout_weight=".70"
+                     android:minLines="1"
+                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                     android:textSize="@dimen/tab_info_text_size"
+                     app:recipeTools="@{recipe}" />
+            </LinearLayout>
+
+            <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="16dp"
+                  android:orientation="horizontal">
+
+               <TextView
+                     android:id="@+id/label_categories"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight=".30"
+                     android:text="@string/text_categories" />
+
+               <TextView
+                     android:id="@+id/categoriesTxt"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="16dp"
+                     android:layout_weight=".70"
+                     android:minLines="1"
+                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                     android:textSize="@dimen/tab_info_text_size"
+                     app:recipeCategories="@{recipe}" />
+            </LinearLayout>
+
+            <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="16dp"
+                  android:orientation="horizontal">
+
+               <TextView
+                     android:id="@+id/label_keywords"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight=".30"
+                     android:text="@string/text_keywords" />
+
+               <TextView
+                     android:id="@+id/keywordsTxt"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="16dp"
+                     android:layout_weight=".70"
+                     android:minLines="1"
+                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                     android:textSize="@dimen/tab_info_text_size"
+                     app:keywords="@{recipe}" />
+            </LinearLayout>
+
+            <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="16dp"
+                  android:orientation="horizontal">
+
+               <TextView
+                     android:id="@+id/label_author"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight=".30"
+                     android:text="@string/text_author" />
+
+               <TextView
+                     android:id="@+id/authorTxt"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="16dp"
+                     android:layout_weight=".70"
+                     android:minLines="1"
+                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                     android:textSize="@dimen/tab_info_text_size"
+                     app:recipeAuthor="@{recipe}" />
+            </LinearLayout>
+
+            <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_marginBottom="16dp"
+                  android:orientation="horizontal">
+
+               <TextView
+                     android:id="@+id/sourcelabel"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight=".30"
+                     android:text="@string/label_source" />
+
+               <TextView
+                     android:id="@+id/urlTxt"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="16dp"
+                     android:layout_weight=".70"
+                     android:autoLink="web"
+                     android:minLines="1"
+                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                     android:textSize="@dimen/tab_info_text_size"
+                     app:url="@{recipe}" />
+            </LinearLayout>
+         </LinearLayout>
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+   </ScrollView>
+</layout>

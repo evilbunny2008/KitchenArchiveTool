@@ -1,0 +1,4 @@
+* Seven Languages added: Finnish, Danish, Swedish, Portugese, Icelandic, Estonian and Basque
+* New background loading of recipes (Bugfixes)
+* Caching recipes in sqlite database
+* Showing tools in the info tab (details)

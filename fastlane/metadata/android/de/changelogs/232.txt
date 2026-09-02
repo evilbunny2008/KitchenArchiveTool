@@ -1,0 +1,2 @@
+* Bugfix: Korrekturen für Suche und Download
+* Zutaten Portionen-Eingabe zentriert

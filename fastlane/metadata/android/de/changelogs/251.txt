@@ -1,0 +1,1 @@
+* Bugfix: Lese auch JSON-Dateien mit einem anderen Namen als recipe.json

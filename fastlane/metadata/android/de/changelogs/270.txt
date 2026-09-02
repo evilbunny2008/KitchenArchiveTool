@@ -1,0 +1,2 @@
+* Neues Feature: Zutaten in Zwischenablage kopieren
+* Verbesserung: Datastore für die Einstellungen

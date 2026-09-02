@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:id="@+id/navigation.xml"
+   app:startDestination="@id/recipeListFragment">
+
+   <fragment
+      android:id="@+id/recipeListFragment"
+      android:name="de.micmun.android.nextcloudcookbook.ui.recipelist.RecipeListFragment"
+      android:label="fragment_recipelist">
+      <action
+         android:id="@+id/action_recipeListFragment_to_recipeDetailFragment"
+         app:destination="@id/recipeDetailFragment" />
+      <action
+         android:id="@+id/action_recipeListFragment_to_searchFormFragment"
+         app:destination="@id/searchFormFragment" />
+   </fragment>
+   <fragment
+      android:id="@+id/preferenceFragment"
+      android:name="de.micmun.android.nextcloudcookbook.ui.preferences.PreferenceFragment"
+      android:label="PreferenceFragment" />
+   <fragment
+      android:id="@+id/recipeDetailFragment"
+      android:name="de.micmun.android.nextcloudcookbook.ui.recipedetail.RecipeDetailFragment"
+      android:label="fragment_detail">
+      <argument
+         android:name="recipeId"
+         app:argType="long" />
+   </fragment>
+   <fragment
+      android:id="@+id/searchFormFragment"
+      android:name="de.micmun.android.nextcloudcookbook.ui.searchform.SearchFormFragment"
+      android:label="SearchFormFragment">
+      <action
+         android:id="@+id/action_searchFormFragment_to_recipeListFragment"
+         app:destination="@id/recipeListFragment" />
+   </fragment>
+   <fragment
+      android:id="@+id/downloadFormFragment"
+      android:name="de.micmun.android.nextcloudcookbook.ui.downloadform.DownloadFormFragment"
+      android:label="DownloadFormFragment" />
+</navigation>

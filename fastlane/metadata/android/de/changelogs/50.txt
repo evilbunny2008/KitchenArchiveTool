@@ -1,0 +1,3 @@
+* Infotab erweitert und eigener Tab für Inhaltsstoffe
+* Schnelle Suche nach Name verbessert: Findet den Suchtext überall im Namen und nicht nur am Anfang
+* Menüpunkt Erweiterte Suche: Suche nach Schlüsselwort, Zutat und Portionen möglich

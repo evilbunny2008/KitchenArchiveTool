@@ -1,0 +1,3 @@
+* Graphische Verbesserungen (Icon mit weißer Farbe, Tabs in der Detailansicht in Dunkel)
+* Bugfix: App stürzt ab, wenn der Benutzer zu schnell zwischen zwei Rezepten wechselt
+* Aktualisierung von System-Bibliotheken

@@ -1,0 +1,2 @@
+* Optimized apk build
+* Ready for first stable version

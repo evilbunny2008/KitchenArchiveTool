@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <androidx.drawerlayout.widget.DrawerLayout
+         android:id="@+id/drawerLayout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+         <com.google.android.material.appbar.AppBarLayout
+             android:id="@+id/appBar"
+             android:layout_width="match_parent"
+             android:layout_height="?attr/actionBarSize"
+             android:background="@android:color/transparent"
+             app:elevation="0dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/home_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacer_1x"
+                android:layout_marginTop="@dimen/spacer_1hx"
+                android:layout_marginEnd="@dimen/spacer_1x"
+                android:layout_marginBottom="@dimen/spacer_1hx"
+                android:clickable="false"
+                app:cardBackgroundColor="@color/appbar"
+                app:cardCornerRadius="@dimen/spacer_4x"
+                app:cardElevation="2dp"
+                app:strokeWidth="0dp">
+
+               <LinearLayout
+                   android:id="@+id/normalToolbar"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:paddingStart="@dimen/spacer_1x"
+                   android:paddingEnd="@dimen/spacer_1x"
+                   android:orientation="horizontal">
+
+                  <androidx.appcompat.widget.AppCompatImageButton
+                      android:id="@+id/menu_button"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="?attr/selectableItemBackgroundBorderless"
+                      android:paddingStart="@dimen/spacer_1x"
+                      android:paddingTop="@dimen/spacer_2x"
+                      android:paddingEnd="@dimen/spacer_1x"
+                      android:paddingBottom="@dimen/spacer_2x"
+                      android:tint="@color/textColor"
+                      app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+                  <com.google.android.material.textview.MaterialTextView
+                      android:id="@+id/search_text"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical"
+                      android:layout_marginStart="12dp"
+                      android:layout_weight="1"
+                      android:ellipsize="end"
+                      android:gravity="start"
+                      android:lines="1"
+                      android:text="@string/search_in_all"
+                      android:textColor="@color/subtextColor"
+                      android:textSize="16sp" />
+
+                  <androidx.appcompat.widget.AppCompatImageView
+                      android:id="@+id/sortorder"
+                      android:layout_width="?attr/actionBarSize"
+                      android:layout_height="?attr/actionBarSize"
+                      android:layout_gravity="center_vertical|end"
+                      android:background="?attr/selectableItemBackgroundBorderless"
+                      android:padding="12dp"
+                      android:tooltipText="@string/menu_sort_title"
+                      android:tint="@color/icon_color"
+                      app:srcCompat="@drawable/sort_alphabetical_ascending" />
+
+                  <androidx.appcompat.widget.AppCompatImageView
+                      android:id="@+id/accountSwitcher"
+                      android:layout_width="?attr/actionBarSize"
+                      android:layout_height="?attr/actionBarSize"
+                      android:layout_gravity="center_vertical|end"
+                      android:background="?attr/selectableItemBackgroundBorderless"
+                      android:padding="12dp"
+                      android:tooltipText="@string/manage_accounts"
+                      app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:id="@+id/searchToolbar"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:visibility="gone">
+
+                  <androidx.appcompat.widget.AppCompatImageButton
+                      android:id="@+id/backButton"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="?attr/selectableItemBackgroundBorderless"
+                      android:paddingStart="@dimen/spacer_1x"
+                      android:paddingTop="@dimen/spacer_2x"
+                      android:paddingEnd="@dimen/spacer_1x"
+                      android:paddingBottom="@dimen/spacer_2x"
+                      android:tint="@color/textColor"
+                      app:srcCompat="@drawable/md_nav_back" />
+
+                  <androidx.appcompat.widget.SearchView
+                      android:id="@+id/searchbar"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_marginStart="4dp" />
+               </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+         </com.google.android.material.appbar.AppBarLayout>
+
+         <androidx.fragment.app.FragmentContainerView
+               android:id="@+id/navHostFragment"
+               android:name="androidx.navigation.fragment.NavHostFragment"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               app:defaultNavHost="true"
+               app:navGraph="@navigation/navigation" />
+      </LinearLayout>
+
+      <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navView"
+            style="@style/Widget.Custom.NavigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/navdrawer_menu" />
+   </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

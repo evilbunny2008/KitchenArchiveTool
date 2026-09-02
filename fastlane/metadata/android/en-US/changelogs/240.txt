@@ -1,0 +1,3 @@
+* Switch from Klaxon to kotlinx.serialization for json parsing
+* New feature: Mark recipes with a star (favorit) -> recipes will list on top (thanks to leafar)
+* New feature: Cooking timer can be started with touch on cook time in recipe

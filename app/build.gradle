@@ -1,0 +1,116 @@
+buildscript {
+   repositories {
+      mavenCentral()
+   }
+
+   dependencies {
+      classpath "org.jetbrains.kotlin:kotlin-serialization:$kotlin_version"
+   }
+}
+
+plugins {
+   id 'com.google.devtools.ksp'
+   id "com.android.application"
+   id "kotlin-android"
+   id "androidx.navigation.safeargs.kotlin"
+   id "kotlin-kapt"
+}
+apply plugin: 'kotlinx-serialization'
+
+android {
+   defaultConfig {
+      applicationId "de.micmun.android.nextcloudcookbook"
+      minSdk 26
+      targetSdk 34
+      versionCode 302
+      versionName "3.0.2"
+      compileSdk 34
+
+      testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+      vectorDrawables.useSupportLibrary = true
+      multiDexEnabled true
+   }
+
+   buildTypes {
+      release {
+         minifyEnabled true
+         shrinkResources true
+         proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+      }
+      debug {
+         applicationIdSuffix '.debug' // erweitere Package
+         versionNameSuffix ' [DEBUG]' // erweitere Versions-Name
+      }
+   }
+   compileOptions {
+      coreLibraryDesugaringEnabled true
+      sourceCompatibility = JavaVersion.VERSION_11
+      targetCompatibility = JavaVersion.VERSION_11
+   }
+   kotlinOptions {
+      jvmTarget = JavaVersion.VERSION_11.toString()
+   }
+   buildFeatures {
+      viewBinding true
+      dataBinding true
+   }
+   lint {
+      disable 'MissingTranslation'
+   }
+   namespace 'de.micmun.android.nextcloudcookbook'
+}
+
+dependencies {
+   implementation fileTree(dir: "libs", include: ["*.jar"])
+   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+   implementation group: 'org.jsoup', name: 'jsoup', version: '1.16.1'
+
+   implementation "androidx.core:core-ktx:1.12.0"
+   implementation "androidx.legacy:legacy-support-v4:1.0.0"
+   implementation "androidx.appcompat:appcompat:$version_appcompat"
+   implementation "androidx.constraintlayout:constraintlayout:$version_constraintlayout"
+   implementation "androidx.recyclerview:recyclerview:$version_recyclerview"
+   implementation "androidx.navigation:navigation-fragment-ktx:$version_navigation"
+   implementation "androidx.navigation:navigation-ui-ktx:$version_navigation"
+   implementation "androidx.preference:preference-ktx:$version_preference"
+   implementation "androidx.legacy:legacy-preference-v14:1.0.0"
+   // material design and viewpager2
+   implementation "com.google.android.material:material:$version_material"
+   implementation "androidx.viewpager2:viewpager2:$version_viewpager2"
+   // Lifecycle dependencies
+   //implementation "androidx.lifecycle:lifecycle-extensions:$version_lifecycle_extensions"
+   implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.7.0"
+   // Coroutines
+   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$version_coroutine"
+   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version_coroutine"
+   // room database
+   implementation "androidx.room:room-runtime:$version_room"
+   ksp "androidx.room:room-compiler:$version_room"
+   // optional - Kotlin Extensions and Coroutines support for Room
+   implementation "androidx.room:room-ktx:$version_room"
+   // storage access framework (SAF)
+   implementation "androidx.documentfile:documentfile:$version_document"
+   // datastore for settings
+   implementation "androidx.datastore:datastore-preferences:$version_datastore"
+
+   // Json parser
+   implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:$version_serialization"
+
+   //noinspection GradleDependency
+   coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.3'
+
+   // permissions
+   implementation 'com.github.fondesa:kpermissions:3.4.0'
+   // simple storage
+   implementation 'com.anggrayudi:storage:1.5.5'
+   implementation 'com.afollestad.material-dialogs:core:3.3.0'
+
+   //nextcloud api
+   implementation "com.github.nextcloud:Android-SingleSignOn:0.8.1"
+   implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+   implementation 'com.github.stefan-niedermann.nextcloud-commons:sso-glide:1.8.2'
+
+   implementation 'com.github.bumptech.glide:glide:4.15.1'
+   ksp 'com.github.bumptech.glide:compiler:4.15.1'
+}

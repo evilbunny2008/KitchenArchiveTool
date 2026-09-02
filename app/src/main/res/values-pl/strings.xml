@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_logo_desc">Ikona programu uruchamiającego aplikację pokazuje ikonę książki kucharskiej</string>
+    <string name="permissions_error_message">Odmowa dostępu! Aplikacja wymaga dostępu do pamięci masowej, proszę aktywować w ustawieniach.</string>
+    <string name="no_information">Nie ma informacji.</string>
+    <!-- recipe list -->
+    <string name="empty_list">Żadnych przepisów.</string>
+    <string name="recipe_list_image_desc">Wizualna miniaturka receptury</string>
+    <!-- recipe detail -->
+    <string name="img_desc_logo">Logo przepisu</string>
+    <string name="title_duration">Czas trwania w GG:MM</string>
+    <string name="tooltip_prep_time">Przygotowanie</string>
+    <string name="tooltip_cook_time">Gotowanie</string>
+    <string name="tooltip_total_time">Razem</string>
+    <!-- tab titles -->
+    <string name="tab_info_title">Informacja</string>
+    <string name="tab_ingredients_title">Składniki</string>
+    <string name="tab_instructions_title">Instrukcje</string>
+    <string name="tab_nutritions_title">Pisma</string>
+    <!-- tab infos -->
+    <string name="text_uncategorized">Niekategoryzowane</string>
+    <string name="text_categories">Kategoria:</string>
+    <string name="text_yield">Porcje:</string>
+    <string name="text_author">Autor:</string>
+    <string name="text_no_keywords">Żadnych słów kluczowych.</string>
+    <string name="text_keywords">Słowa Kluczowe:</string>
+    <string name="text_date_published">Data publikacji: %1$s</string>
+    <!-- Nutritions -->
+    <string name="nutrition_calories">Kalorie: %1$s</string>
+    <string name="nutrition_carbohydrate_content">Zawartość węglowodanów: %1$s</string>
+    <string name="nutrition_cholesterol_content">Zawartość cholesterolu: %1$s</string>
+    <string name="nutrition_fat_content">Zawartość tłuszczu: %1$s</string>
+    <string name="nutrition_fiberContent">Zawartość włókna: %1$s</string>
+    <string name="nutrition_protein_content">Zawartość białka: %1$s</string>
+    <string name="nutrition_saturated_fat_content">Zawartość tłuszczów nasyconych: %1$s</string>
+    <string name="nutrition_serving_size">Obsługa Rozmiar: %1$s</string>
+    <string name="nutrition_sodium_content">Zawartość sodu: %1$s</string>
+    <string name="nutrition_sugar_content">Zawartość cukru: %1$s</string>
+    <string name="nutrition_trans_fat_content">Zawartość tłuszczu Trans: %1$s</string>
+    <string name="nutrition_unsaturated_fat_content">Zawartość tłuszczów nienasyconych: %1$s</string>
+    <!-- menu -->
+    <string name="menu_search_title">Wyszukiwanie zaawansowane</string>
+    <string name="menu_settings_title">Ustawienia</string>
+    <string name="menu_sort_title">Sortować</string>
+    <string name="menu_refresh_tooltip">Odświeżanie przepisów</string>
+    <string name="menu_search_tooltip">Receptura wyszukiwania</string>
+    <string name="search_hint">Wyszukiwanie według nazwy</string>
+    <!-- search formular -->
+    <string name="form_search_title">Wyszukiwanie zaawansowane</string>
+    <string name="form_search_hint">Wyszukaj…</string>
+    <string name="form_ignore_case">Ignorujesz sprawę\?</string>
+    <string name="form_exact_search">Dokładnie przeszukać\?</string>
+    <string name="form_types">Typ do wyszukiwania</string>
+    <string name="form_type_keyword">Wyszukiwanie według hasła</string>
+    <string name="form_type_ingredients">Wyszukiwanie według składników</string>
+    <string name="form_type_yield">Wyszukiwanie według plonów</string>
+    <string name="form_search_options">Opcje wyszukiwania</string>
+    <string name="form_search_commit">Szukaj</string>
+    <!-- navdrawer_menu -->
+    <string name="menu_all_categories">Wszystkie kategorie</string>
+    <string name="menu_uncategorized">Niekategoryzowane</string>
+    <!-- preferences -->
+    <string name="pref_category_function">Funkcjonalność</string>
+    <string name="pref_category_design">Wzór</string>
+    <string name="preftitle_recipeDir">Katalog Przepisów</string>
+    <string name="title_dir_chooser">Wybierz katalog…</string>
+    <string name="preftitle_theme">Wybierz temat</string>
+    <string name="about_title">Około</string>
+    <string name="about_version">Wersja App: %1$s</string>
+    <string name="about_summary">© 2020-2022 przez MicMun. Licencja na GPLv3.
+\n
+\nNextcloud Cookbook to aplikacja do zarządzania przepisami w chmurze nextcloud.</string>
+    <string name="theme_name_light">Światło</string>
+    <string name="theme_name_dark">Mroczny</string>
+    <string name="theme_name_system">Układ</string>
+    <string name="sort_value_alpha_asc">Nazwa A-Z</string>
+    <string name="sort_value_alpha_desc">Nazwa Z-A</string>
+    <string name="sort_value_date_asc">Data publikacji rosnąca</string>
+    <string name="sort_value_date_desc">Data publikacji malejąca</string>
+    <string name="sort_value_time_asc">Całkowity czas narastania</string>
+    <string name="sort_value_time_desc">Całkowity czas opadania</string>
+    <string name="folder_pick_success" tools:ignore="MissingTranslation">Wybrano folder %1$s.</string>
+    <string name="folder_pick_cancel" tools:ignore="MissingTranslation">Wybierak folderów anulowany przez użytkownika.</string>
+    <string name="permission_please_grant" tools:ignore="MissingTranslation">Proszę nadać uprawnienia do przechowywania danych.</string>
+    <string name="permission_ok_message" tools:ignore="MissingTranslation">Dostęp do pamięci masowej został przyznany dla %1$s.</string>
+    <string name="permission_canceled" tools:ignore="MissingTranslation">Anulowane przez użytkownika</string>
+    <string name="permission_select_root" tools:ignore="MissingTranslation">Proszę wybrać %1$s.</string>
+    <string name="permission_warning_nowrite" tools:ignore="MissingTranslation">Nie masz dostępu do zapisu w tym magazynie, więc wybór tego folderu jest bezużyteczny.
+\nCzy chcesz przyznać dostęp do tego folderu\?.</string>
+    <string name="header_image_desc">Zdjęcie nagłówka przepisu</string>
+    <string name="text_tools">Potrzebne narzędzia:</string>
+    <string name="form_download_folder">Zastąp folder docelowy</string>
+    <string name="form_download_commit">Pobierz</string>
+    <string name="menu_download_title">Pobierz</string>
+    <string name="menu_download_tooltip">pobierz przepis</string>
+    <string name="form_download_title">Pobierz Przepis</string>
+    <string name="form_download_override_existing">Zastąp istniejący folder z przepisami</string>
+    <string name="form_download_options">Opcje</string>
+    <string name="form_download_url_hint">Przepis URL</string>
+    <string name="ingredients_yield">Uzysk</string>
+    <string name="cooktime_pause_btn">Wstrzymuje pracę timera</string>
+    <string name="cooktime_start_btn">Uruchamia timer</string>
+    <string name="notification_text">Pozostały czas: %1$s</string>
+    <string name="channel_description">Kanał dla powiadomień zegara</string>
+    <string name="cooktime_title">Timer gotowania</string>
+    <string name="cooktime_reset_btn">Zatrzymuje i resetuje timer</string>
+    <string name="notification_title">Nextcloud Cookbook Czasomierz</string>
+    <string name="channel_name">Kanał timera</string>
+    <string name="cooktime_tooltip">Uruchomić zegar do gotowania</string>
+    <string name="list_recipe_star_desc">Ikona gwiazdki oznaczająca status ulubionego przepisu</string>
+    <string name="dir_chooser_error">Błąd: Folder główny jest niedozwolony!</string>
+    <string name="copy_ing_message">Składniki skopiowane do schowka.</string>
+    <string name="copy_ingredients">Składniki kopii</string>
+    <string name="sync_service_channel_name">Usługa Synchronizacji</string>
+    <string name="sync_service_channel_description">Służy do powiadamiania o pierwszym planie podczas synchronizacji przepisów</string>
+    <string name="sync_service_notification_title">Synchronizuj Przepisy</string>
+    <string name="pref_title_enableSyncService">Synchronizuj przepisy w tle</string>
+    <string name="prefkey_enableSyncService">WłączUsługęSynchronizacji</string>
+    <string name="sync_service_notification_content">Obecnie aktualizujemy wasze przepisy, wkrótce wrócimy! Możesz ukryć to powiadomienie w ustawieniach powiadomień.</string>
+    <string name="pref_category_sync">Synchronizacja</string>
+    <string name="pref_title_keep_screen_alive">Utrzymuj włączony ekran</string>
+    <string name="pref_title_sync_wifi_only">Synchronizuj tylko przez WiFi</string>
+    <string name="pref_summary_sync_wifi_only">Wyłącza synchronizację, gdy urządzenie jest ma połączenie tylko z danymi mobilnymi.</string>
+    <string name="sync_interval_name_off">Wyłącz</string>
+    <string name="sync_interval_name_1">Co godzinę</string>
+    <string name="sync_interval_name_4">Co 4 godziny</string>
+    <string name="sync_interval_name_6">Co 6 godzin</string>
+    <string name="sync_interval_name_12">Co 12 godzin</string>
+    <string name="sync_interval_name_24">Co 24 godziny</string>
+    <string name="menu_import_recipe">Importuj przepis</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_categories">Kategorie</string>
+    <string name="no_ingredients">Brak skaładników</string>
+    <string name="label_source">Źródło:</string>
+    <string name="recipe_no_timer">Przepis nie ma licznika!</string>
+    <string name="search_in_all">Wyszukaj…</string>
+    <string name="menu_title_app">Aplikacja</string>
+    <string name="login">Zaloguj się</string>
+    <string name="back_button">Wróć do listy</string>
+    <string name="recipe_details_tabs">Przepis jest przedstawiony w zakładkach</string>
+    <string name="play_btn">Uruchamia/zatrzymuje licznik</string>
+    <string name="stop_btn">Zatrzymaj licznik</string>
+    <string name="cancel_btn">Anuluj licznik (niewidoczne)</string>
+    <string name="storage_permissions_not_granted">Brak dostępu do pamięci!</string>
+    <string name="app_name">Książka kucharska</string>
+    <string name="pref_summary_keep_screen_alive">Nie wygaszaj ekranu podczas wyświetlania przepisu</string>
+    <string name="manage_accounts">Zarządzanie kontami</string>
+    <string name="skip_for_local_storage">Pomiń dla pamięci lokalnej</string>
+    <string name="menu_sso">Logowanie jednokrotne</string>
+    <string name="granted_permissions">Przyznano: %s</string>
+    <string name="rationale_permissions">Uzasadnienie: %s</string>
+    <string name="permissions_required">Wymagane są uprawnienia!</string>
+    <string name="permanently_denied_permissions">Odmówiono na zawsze: %s</string>
+    <string name="permission_notification_required">Uprawnienie do wyświetlania powiadomień jest wymagane do wyświetlania zegara gotowania</string>
+    <string name="request_again">Poproś ponownie</string>
+    <string name="error_only_wifi">Synchronizacja jest dostępna tylko przez Wi-Fi</string>
+    <string name="about_specialthanks">Chcielibyśmy również podziękować Stefanowi Niedermannowi za jego pracę nad Nextcloud Deck i Nextcloud Notes, które były dla nas inspiracją</string>
+    <string name="error_sync">Synchronizacja nie powiodła się: %1$s</string>
+    <string name="error_no_network">Brak połączenia z siecią</string>
+</resources>

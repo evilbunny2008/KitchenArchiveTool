@@ -1,0 +1,4 @@
+* Translated categories in settings (german)
+* New setting for showing hidden folders in recipe directory selection
+* Fixes scroll state of list (remember position)
+* Improved scrolling and sorting behaviour

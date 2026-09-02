@@ -1,0 +1,2 @@
+* Translations added: Czech, Spanish, French, Hungarian, Italian, Polish, Dutch and Portuguese (region Brazil)
+* System libraries updated

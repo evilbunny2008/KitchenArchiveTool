@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_logo_desc">Startschermpictogram van de app met een kookboeksymbool</string>
+    <string name="permissions_error_message">Toegang geweigerd! De app heeft toegang tot de opslagruimte nodig - verleen dit recht in de instellingen.</string>
+    <string name="no_information">Er is geen informatie beschikbaar.</string>
+    <!-- recipe list -->
+    <string name="empty_list">Er zijn geen recepten beschikbaar.</string>
+    <string name="recipe_list_image_desc">Miniatuurafbeelding van recept</string>
+    <!-- recipe detail -->
+    <string name="img_desc_logo">Logo van recept</string>
+    <string name="title_duration">Duur (in UU:MM)</string>
+    <string name="tooltip_prep_time">Voorbereiding</string>
+    <string name="tooltip_cook_time">Koken</string>
+    <string name="tooltip_total_time">Totaal</string>
+    <!-- tab titles -->
+    <string name="tab_info_title">Informatie</string>
+    <string name="tab_ingredients_title">Ingrediënten</string>
+    <string name="tab_instructions_title">Bereidingswijze</string>
+    <string name="tab_nutritions_title">Voedingswaarden</string>
+    <!-- tab infos -->
+    <string name="text_uncategorized">Ongecategoriseerd</string>
+    <string name="text_categories">Categorie:</string>
+    <string name="text_yield">Aantal porties:</string>
+    <string name="text_author">Maker:</string>
+    <string name="text_no_keywords">Er zijn geen trefwoorden toegekend.</string>
+    <string name="text_keywords">Trefwoorden:</string>
+    <string name="text_date_published">Gepubliceerd op %1$s</string>
+    <!-- Nutritions -->
+    <string name="nutrition_calories">Aantal calorieën: %1$s</string>
+    <string name="nutrition_carbohydrate_content">Aantal koolhydraten: %1$s</string>
+    <string name="nutrition_cholesterol_content">Cholesterolgehalte: %1$s</string>
+    <string name="nutrition_fat_content">Vetgehalte: %1$s</string>
+    <string name="nutrition_fiberContent">Aantal vezels: %1$s</string>
+    <string name="nutrition_protein_content">Eiwitgehalte: %1$s</string>
+    <string name="nutrition_saturated_fat_content">Verzadigd vetgehalte: %1$s</string>
+    <string name="nutrition_serving_size">Aantal personen: %1$s</string>
+    <string name="nutrition_sodium_content">Zoutgehalte: %1$s</string>
+    <string name="nutrition_sugar_content">Suikergehalte: %1$s</string>
+    <string name="nutrition_trans_fat_content">Transvetgehalte: %1$s</string>
+    <string name="nutrition_unsaturated_fat_content">Onverzadigd vetgehalte: %1$s</string>
+    <!-- menu -->
+    <string name="menu_search_title">Uitgebreid zoeken</string>
+    <string name="menu_settings_title">Instellingen</string>
+    <string name="menu_sort_title">Sorteren</string>
+    <string name="menu_refresh_tooltip">Recepten herladen</string>
+    <string name="menu_search_tooltip">Zoeken naar recept</string>
+    <string name="search_hint">Zoeken op naam</string>
+    <!-- search formular -->
+    <string name="form_search_title">Uitgebreid zoeken</string>
+    <string name="form_search_hint">Zoeken…</string>
+    <string name="form_ignore_case">Hoofdletters negeren\?</string>
+    <string name="form_exact_search">Exacte zoekopdracht uitvoeren\?</string>
+    <string name="form_types">Typ om te zoeken</string>
+    <string name="form_type_keyword">Zoeken op trefwoord</string>
+    <string name="form_type_ingredients">Zoeken op ingrediënt</string>
+    <string name="form_type_yield">Zoeken op aantal porties</string>
+    <string name="form_search_options">Zoekopties</string>
+    <string name="form_search_commit">Zoeken</string>
+    <!-- navdrawer_menu -->
+    <string name="menu_all_categories">Alle categorieën</string>
+    <string name="menu_uncategorized">Ongecategoriseerd</string>
+    <!-- preferences -->
+    <string name="pref_category_function">Functionaliteit</string>
+    <string name="pref_category_design">Ontwerp</string>
+    <string name="preftitle_recipeDir">Receptenmap</string>
+    <string name="title_dir_chooser">Kies een map…</string>
+    <string name="preftitle_theme">Kies een thema</string>
+    <string name="about_title">Over</string>
+    <string name="about_version">Appversie: %1$s</string>
+    <string name="about_summary">© 2020-2023 MicMun. Uitgebracht onder de voorwaarden van de GPLv3-licentie.
+\n
+\nNextcloud-kookboek is een app om een kookboek mee aan te leggen op Nextcloud.</string>
+    <string name="theme_name_light">Licht thema</string>
+    <string name="theme_name_dark">Donker thema</string>
+    <string name="theme_name_system">Systeemthema</string>
+    <string name="sort_value_alpha_asc">Naam (A-Z)</string>
+    <string name="sort_value_alpha_desc">Naam (Z-A)</string>
+    <string name="sort_value_date_asc">Aanmaakdatum (oplopend)</string>
+    <string name="sort_value_date_desc">Aanmaakdatum (aflopend)</string>
+    <string name="sort_value_time_asc">Totale bereidingstijd (oplopend)</string>
+    <string name="sort_value_time_desc">Totale bereidingstijd (afplopend)</string>
+    <string name="header_image_desc">Omslagfoto van recept</string>
+    <string name="permission_select_root" tools:ignore="MissingTranslation">Kies %1$s.</string>
+    <string name="permission_ok_message" tools:ignore="MissingTranslation">Er is opslagtoegang verleend voor %1$s.</string>
+    <string name="permission_canceled" tools:ignore="MissingTranslation">Afgebroken door gebruiker</string>
+    <string name="folder_pick_success" tools:ignore="MissingTranslation">‘%1$s’ gekozen.</string>
+    <string name="folder_pick_cancel" tools:ignore="MissingTranslation">Geen map gekozen door gebruiker.</string>
+    <string name="permission_please_grant" tools:ignore="MissingTranslation">Verleen de opslagtoegangsrechten.</string>
+    <string name="text_tools">Benodigd keukengerei:</string>
+    <string name="permission_warning_nowrite" tools:ignore="MissingTranslation">Je hebt geen schrijftoegang tot de opslag, dus kun je deze map niet kiezen.
+\nWil je toegang verlenen tot deze map\?</string>
+    <string name="form_download_folder">Andere doelmap gebruiken</string>
+    <string name="menu_download_title">Downloaden</string>
+    <string name="menu_download_tooltip">recept downloaden</string>
+    <string name="form_download_override_existing">Bestaande receptmap vervangen</string>
+    <string name="form_download_options">Opties</string>
+    <string name="form_download_url_hint">Recept-url</string>
+    <string name="form_download_commit">Downloaden</string>
+    <string name="form_download_title">Recept downloaden</string>
+    <string name="ingredients_yield">Aantal porties</string>
+    <string name="cooktime_start_btn">Wekker starten</string>
+    <string name="notification_title">Nextcloud-kookboekwekker</string>
+    <string name="notification_text">Resterende tijd: %1$s</string>
+    <string name="channel_name">Wekkerkanaal</string>
+    <string name="cooktime_tooltip">Kookwekker starten</string>
+    <string name="cooktime_title">Kookwekker</string>
+    <string name="cooktime_reset_btn">Wekker stopzetten en herstellen</string>
+    <string name="cooktime_pause_btn">Wekker onderbreken</string>
+    <string name="channel_description">Kanaal voor wekkermeldingen</string>
+    <string name="list_recipe_star_desc">Sterpictogram dat de favoriete status van een recept aangeeft</string>
+    <string name="dir_chooser_error">Foutmelding: de hoofdmap mag niet worden gebruikt!</string>
+    <string name="copy_ing_message">De ingrediënten zijn gekopieerd naar het klembord.</string>
+    <string name="copy_ingredients">Ingrediënten kopiëren</string>
+    <string name="pref_category_sync">Synchronisatie</string>
+    <string name="sync_service_channel_name">Synchronisatiedienst</string>
+    <string name="sync_service_channel_description">Deze dienst wordt gebruikt voor voorgrondmeldingen bij het synchroniseren van recepten</string>
+    <string name="sync_service_notification_title">Recepten synchroniseren</string>
+    <string name="sync_service_notification_content">Je recepten worden momenteel bijgewerkt - probeer het later nog eens! Tip: je kunt deze melding verbergen in de meldingsinstellingen.</string>
+    <string name="pref_title_enableSyncService">Achtergrondsynchronisatie</string>
+    <string name="prefkey_enableSyncService">synchronisatieserviceinschakelen</string>
+    <string name="app_name">Kookboek</string>
+    <string name="pref_summary_keep_screen_alive">Vergrendel het scherm niet tijdens het tonen van een recept</string>
+    <string name="pref_title_keep_screen_alive">Scherm niet uitschakelen</string>
+    <string name="pref_title_sync_wifi_only">Alleen synchroniseren via wifi</string>
+    <string name="pref_summary_sync_wifi_only">Schakel synchronisatie via mobiel internet uit.</string>
+    <string name="sync_interval_name_off">Uit</string>
+    <string name="sync_interval_name_1">Ieder uur</string>
+    <string name="sync_interval_name_4">Iedere 4 uur</string>
+    <string name="sync_interval_name_6">Iedere 6 uur</string>
+    <string name="sync_interval_name_12">Iedere 12 uur</string>
+    <string name="sync_interval_name_24">Iedere 24 uur</string>
+    <string name="menu_import_recipe">Recept importeren</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="menu_sso">Eenmalig inloggen</string>
+    <string name="menu_categories">Categorieën</string>
+    <string name="no_ingredients">Geen ingrediënten</string>
+    <string name="recipe_no_timer">Aan dit recept is geen kookwekker toegekend.</string>
+    <string name="search_in_all">Zoeken…</string>
+    <string name="manage_accounts">Accountbeheer</string>
+    <string name="menu_title_app">App</string>
+    <string name="skip_for_local_storage">Lokale opslag overslaan</string>
+    <string name="login">Inloggen</string>
+    <string name="back_button">Terug naar lijst</string>
+    <string name="recipe_details_tabs">Het recept is onderverdeeld in tabbladen</string>
+    <string name="play_btn">Wekker starten/onderbreken</string>
+    <string name="stop_btn">Wekker stopzetten</string>
+    <string name="cancel_btn">Wekker stopzetten (onzichtbaar)</string>
+    <string name="label_source">Bron:</string>
+    <string name="storage_permissions_not_granted">Geen opslagtoegang!</string>
+    <string name="permissions_required">Rechten vereist!</string>
+    <string name="granted_permissions">Verleend: %s</string>
+    <string name="rationale_permissions">Reden: %s</string>
+    <string name="permanently_denied_permissions">Permanent geweigerd: %s</string>
+    <string name="request_again">Opnieuw vragen</string>
+    <string name="permission_notification_required">Het recht om meldingen te mogen tonen is vereist om de kookwekkerfunctie te kunnen gebruiken</string>
+    <string name="error_only_wifi">Synchroniseren is alleen toegestaan via wifi</string>
+    <string name="error_no_network">Geen internetverbinding</string>
+    <string name="error_sync">Het synchroniseren is mislukt: %1$s</string>
+    <string name="about_specialthanks">Ook willen we Stefan Niedermann bedanken voor zijn werk aan Nextcloud Deck en de Nextcloud Notitie-apps, welke een grote inspiratiebron zijn geweest</string>
+</resources>

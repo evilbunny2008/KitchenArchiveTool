@@ -1,0 +1,2 @@
+* Optimize scanning of the recipe directory (thanks to leafar)
+* Handle unicode fraction codepoints in ingredient scaling (thanks to leafar)
