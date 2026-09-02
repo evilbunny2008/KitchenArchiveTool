@@ -70,7 +70,7 @@ android {
     }
 
     compileOptions {
-        coreLibraryDesugaringEnabled = true
+        isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
     }
@@ -130,17 +130,6 @@ androidComponents {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    // NOTE: kotlin-stdlib-jdk7/jdk8 have been empty compatibility stubs
-    // merged into kotlin-stdlib since Kotlin 1.8+ -- with Kotlin 2.x this
-    // dependency adds nothing and could simply be deleted. Kept here (via
-    // the catalog, matching your project's actual Kotlin version) since
-    // that's what Android Studio's suggested refactor was pointing at.
-    // Uses a flat catalog key (no dashes) because "kotlin-stdlib-jdk8"
-    // collided with the existing "kotlin-stdlib" alias -- Gradle nests
-    // dash-separated alias segments into an accessor tree, and "stdlib"
-    // can't simultaneously be a leaf value (from kotlin-stdlib) and a
-    // container with a .jdk8 child (from kotlin-stdlib-jdk8).
-    implementation(libs.kotlinStdlibJdk8)
 
     implementation("org.jsoup:jsoup:1.23.2")
 
