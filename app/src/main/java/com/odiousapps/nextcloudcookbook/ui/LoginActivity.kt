@@ -65,6 +65,7 @@ class LoginActivity : AppCompatActivity(), SyncProgressIndicatorInterface {
             if (allowStorageAccess == PackageManager.PERMISSION_GRANTED) {
                val main = Intent(this@LoginActivity, MainActivity::class.java)
                startActivity(main)
+               finish()
             } else {
                Snackbar.make(
                   findViewById(R.id.buttonLogin),
@@ -75,6 +76,7 @@ class LoginActivity : AppCompatActivity(), SyncProgressIndicatorInterface {
          } else {
             val main = Intent(this@LoginActivity, MainActivity::class.java)
             startActivity(main)
+            finish()
          }
       }
 
@@ -146,8 +148,11 @@ class LoginActivity : AppCompatActivity(), SyncProgressIndicatorInterface {
                   sync.synchronizeRecipes()
                   sync.closeAPI()
                   skipAndOpenApp()
-                  val main = Intent(this@LoginActivity, MainActivity::class.java)
-                  startActivity(main)
+                  runOnUiThread {
+                     val main = Intent(this@LoginActivity, MainActivity::class.java)
+                     startActivity(main)
+                     finish()
+                  }
                } catch (e: Exception) {
                   Log.e(TAG, "Error Syncing: " + e.message)
                }
@@ -195,6 +200,7 @@ class LoginActivity : AppCompatActivity(), SyncProgressIndicatorInterface {
    private fun startMain() {
       val main = Intent(this, MainActivity::class.java)
       startActivity(main)
+      finish()
    }
 
    override fun updateProgress(item: Int, overall: Int, title: String) {
