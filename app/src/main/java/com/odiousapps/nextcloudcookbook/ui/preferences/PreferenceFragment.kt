@@ -128,8 +128,15 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
             }
             launch {
                viewModel.theme.collect { theme ->
+                  // NOTE: don't also set themePreference.summary here --
+                  // onCreatePreferences() sets a SimpleSummaryProvider on
+                  // this preference, which automatically derives the
+                  // summary from .value. Manually calling setSummary() on
+                  // top of an active SummaryProvider throws
+                  // IllegalStateException("Preference already has a
+                  // SummaryProvider set."). Setting .value alone is
+                  // sufficient -- the provider updates the summary itself.
                   themePreference.value = theme.toString()
-                  themePreference.summary = themePreference.entry
                }
             }
          }
