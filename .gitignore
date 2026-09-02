@@ -105,3 +105,4 @@ Session.vim
 .externalNativeBuild
 .cxx
 release/
+/gradle
