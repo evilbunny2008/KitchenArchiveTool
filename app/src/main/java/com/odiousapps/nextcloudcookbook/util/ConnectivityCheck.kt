@@ -17,7 +17,8 @@ class ConnectivityCheck {
         fun isConnected(context: Context?): Boolean {
             val connMgr =
                 context?.applicationContext?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-            return connMgr.activeNetworkInfo?.isConnected ?: false
+            val capabilities = connMgr.getNetworkCapabilities(connMgr.activeNetwork)
+            return capabilities?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
         }
     }
 }
