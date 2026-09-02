@@ -1,8 +1,8 @@
 package com.odiousapps.nextcloudcookbook.services.sync
 
 import android.app.AlarmManager
-import android.app.IntentService
 import android.app.PendingIntent
+import android.app.Service
 import android.content.Context
 import android.content.Intent
 import android.content.pm.ServiceInfo
@@ -26,7 +26,7 @@ import java.util.concurrent.Executors
  * @author Felix N&uuml;sse
  * @version 1.0, 13.03.23
  */
-class SyncService : IntentService("SyncService") {
+class SyncService : Service() {
 
    companion object {
       val TAG = SyncService::class.java.toString()
@@ -75,21 +75,10 @@ class SyncService : IntentService("SyncService") {
       )
    }
 
-   @Deprecated("Deprecated in Java", ReplaceWith("null"))
-   override fun onHandleIntent(intent: Intent?) {
-      when (intent?.action) {
-         SYNC_SERVICE_START_BROADCAST -> {
-            startService(Intent(this, SyncService::class.java))
-         }
-      }
-   }
-
-   @Deprecated("Deprecated in Java", ReplaceWith("null"))
    override fun onBind(intent: Intent): IBinder? {
       return null
    }
 
-   @Deprecated("Deprecated in Java")
    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
       when (intent?.action) {
          SYNC_SERVICE_START_BROADCAST -> {
