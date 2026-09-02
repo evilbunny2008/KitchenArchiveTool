@@ -1,0 +1,33 @@
+[versions]
+# AGP, Kotlin, composeBom, and tvMaterial reuse the exact same versions
+# already live-verified for the sibling MX3 Launcher project (same
+# developer, same toolchain) -- see that project's README "Version
+# notes" section for how those were originally confirmed.
+agp = "9.4.0"
+kotlin = "2.4.0"
+composeBom = "2026.09.00"
+
+# Below this line: real, recently-current version numbers used as a
+# reasonable starting point, NOT independently verified against a live
+# source the way the ones above were. Android Studio will likely flag a
+# newer version being available on first sync -- worth accepting that
+# suggestion rather than treating these as pinned-for-a-reason.
+activityCompose = "1.13.0"
+appcompat = "1.8.0"
+coreKtx = "1.19.0"
+lifecycleRuntimeKtx = "2.11.0"
+
+[libraries]
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
