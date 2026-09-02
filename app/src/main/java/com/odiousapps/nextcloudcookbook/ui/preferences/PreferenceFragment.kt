@@ -92,9 +92,27 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
    }
 
    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
-      // observe values
-      lifecycleScope.launch {
-         lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED) {
+      (activity as MainActivity?)?.showToolbar(
+         showToolbar = true,
+         showSearch = false,
+         showSort = false
+      )
+
+      return super.onCreateView(inflater, container, savedInstanceState)
+   }
+
+   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+      super.onViewCreated(view, savedInstanceState)
+
+      // observe values -- uses viewLifecycleOwner (not the Fragment's own
+      // lifecycle) since this collects into views; the Fragment's lifecycle
+      // can outlive its view (e.g. while on the back stack), which would
+      // let repeatOnLifecycle keep a collector alive against a destroyed
+      // view. Must run from onViewCreated onward: viewLifecycleOwner isn't
+      // safely accessible before the view exists, i.e. not from onCreateView
+      // prior to the super.onCreateView() call that creates it.
+      viewLifecycleOwner.lifecycleScope.launch {
+         viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.RESUMED) {
             // NOTE: previously both collects were sequential in the same
             // coroutine (launchWhenResumed { flowA.collect{}; flowB.collect{} }).
             // Since these Flows never complete, the first collect() never
@@ -116,14 +134,6 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
             }
          }
       }
-
-      (activity as MainActivity?)?.showToolbar(
-         showToolbar = true,
-         showSearch = false,
-         showSort = false
-      )
-
-      return super.onCreateView(inflater, container, savedInstanceState)
    }
 
    override fun onPreferenceChange(preference: Preference, newValue: Any?): Boolean {
