@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/spacer_1x">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/accountList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        tools:listitem="@layout/item_account_switcher" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/spacer_1x"
+        android:layout_marginBottom="@dimen/spacer_1x"
+        android:background="?attr/colorControlNormal" />
+
+    <LinearLayout
+        android:id="@+id/addAccountRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/spacer_2x"
+        android:paddingTop="@dimen/spacer_1hx"
+        android:paddingEnd="@dimen/spacer_2x"
+        android:paddingBottom="@dimen/spacer_1hx">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="@dimen/spacer_2x"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_person_add" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_account"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manageAccountsRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/spacer_2x"
+        android:paddingTop="@dimen/spacer_1hx"
+        android:paddingEnd="@dimen/spacer_2x"
+        android:paddingBottom="@dimen/spacer_1hx">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="@dimen/spacer_2x"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_settings" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_accounts"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

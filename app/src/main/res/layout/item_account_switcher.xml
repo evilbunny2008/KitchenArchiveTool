@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/spacer_2x"
+    android:paddingTop="@dimen/spacer_1hx"
+    android:paddingEnd="@dimen/spacer_2x"
+    android:paddingBottom="@dimen/spacer_1hx">
+
+    <ImageView
+        android:id="@+id/accountAvatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_baseline_account_circle_24" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/accountName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacer_2x"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/accountCheck"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:contentDescription="@string/account_switcher_current_account_desc"
+        android:src="@drawable/ic_check_circle"
+        android:visibility="gone" />
+
+</LinearLayout>
