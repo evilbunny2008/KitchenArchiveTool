@@ -10,8 +10,13 @@ import com.android.build.api.artifact.SingleArtifact
 
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.serialization)
-    alias(libs.plugins.ksp)
+    alias(libs.plugins.kotlin.serialization) // required for @Serializable model classes
+    alias(libs.plugins.ksp) // required for Room's @Database/@Dao/@Entity annotation processing
+    // generates *Args/*Directions classes from res/navigation/navigation.xml
+    // -- was missing entirely, which is why RecipeDetailFragmentArgs,
+    // RecipeListFragmentDirections, and SearchFormFragmentDirections were
+    // all unresolved
+    alias(libs.plugins.androidx.navigation.safeargs)
 }
 
 android {
