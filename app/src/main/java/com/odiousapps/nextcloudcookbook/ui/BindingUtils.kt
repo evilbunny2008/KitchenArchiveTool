@@ -8,6 +8,7 @@
 package com.odiousapps.nextcloudcookbook.ui
 
 import android.annotation.SuppressLint
+import android.graphics.Color
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
@@ -89,7 +90,10 @@ fun TextView.setCookTime(item: DbRecipe?) {
          // tooltip
          tooltipText = context.getString(R.string.cooktime_tooltip)
       } else {
-         setBackgroundColor(android.R.color.transparent)
+         // was setBackgroundColor(android.R.color.transparent) -- that passed a
+         // resource ID where an actual ARGB color int was expected. Color.TRANSPARENT
+         // is the resolved value directly, with no resource lookup needed.
+         setBackgroundColor(Color.TRANSPARENT)
       }
    }
 }
