@@ -11,6 +11,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.View
+import android.widget.PopupMenu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.SearchView.OnQueryTextListener
@@ -65,6 +66,8 @@ class MainActivity : AppCompatActivity() {
 
    companion object {
       const val THEME_PREFERENCE_DEFAULT = 2
+      private const val MENU_ITEM_CURRENT_ACCOUNT = 1
+      private const val MENU_ITEM_SWITCH_ACCOUNT = 2
    }
 
    private lateinit var binding: ActivityMainBinding
@@ -174,7 +177,7 @@ class MainActivity : AppCompatActivity() {
          }
 
          accountSwitcher.setOnClickListener {
-            Accounts(applicationContext).openAccountChooser(context)
+            showAccountMenu(accountSwitcher)
          }
 
          searchbar.setOnQueryTextListener(object : OnQueryTextListener,
@@ -386,12 +389,48 @@ class MainActivity : AppCompatActivity() {
             .error(R.drawable.ic_baseline_account_circle_24)
             .apply(RequestOptions.circleCropTransform())
             .into(binding.accountSwitcher)
+         // secondary, lower-effort indicator of the current account -- shown
+         // on long-press, doesn't require opening the account menu popup
+         binding.accountSwitcher.tooltipText = ssoAccount.name
 
       } catch (_: NextcloudFilesAppAccountNotFoundException) {
          Logger.getLogger(this::class.java.name).severe("Please install the nextcloud app.")
       } catch (_: NoCurrentAccountSelectedException) {
          Logger.getLogger(this::class.java.name).severe("Please select an account.")
       }
+   }
+
+   /**
+    * Shows a popup naming the currently signed-in account, with an explicit
+    * "Switch account" action below it -- previously tapping the account icon
+    * jumped straight into the account chooser with no indication of which
+    * account was actually logged in.
+    */
+   private fun showAccountMenu(anchor: View) {
+      val accountName = try {
+         SingleAccountHelper.getCurrentSingleSignOnAccount(applicationContext).name
+      } catch (_: NextcloudFilesAppAccountNotFoundException) {
+         null
+      } catch (_: NoCurrentAccountSelectedException) {
+         null
+      }
+
+      val popup = PopupMenu(this, anchor)
+      if (accountName != null) {
+         popup.menu.add(Menu.NONE, MENU_ITEM_CURRENT_ACCOUNT, 0,
+            getString(R.string.account_switcher_signed_in_as, accountName)).isEnabled = false
+      }
+      popup.menu.add(Menu.NONE, MENU_ITEM_SWITCH_ACCOUNT, 1, getString(R.string.menu_switch_account))
+      popup.setOnMenuItemClickListener { item ->
+         when (item.itemId) {
+            MENU_ITEM_SWITCH_ACCOUNT -> {
+               Accounts(applicationContext).openAccountChooser(this)
+               true
+            }
+            else -> false
+         }
+      }
+      popup.show()
    }
 
    fun setSortIcon(sort: SortValue) {

@@ -203,6 +203,8 @@
    <string name="sync_service_notification_title">Sync Recipes</string>
    <string name="sync_service_notification_content">We are currently updating your recipes, we\'ll be back shortly! You may hide this notification in the notification settings.</string>
    <string name="manage_accounts">Accountmanagement</string>
+   <string name="account_switcher_signed_in_as">Signed in as %1$s</string>
+   <string name="menu_switch_account">Switch account</string>
 
    <!-- About -->
    <string name="about_title">About</string>
