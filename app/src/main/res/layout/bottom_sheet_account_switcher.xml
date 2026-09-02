@@ -11,7 +11,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:nestedScrollingEnabled="false"
+        android:visibility="gone"
         tools:listitem="@layout/item_account_switcher" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/loadingIndicator"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/spacer_2x"
+        android:layout_marginBottom="@dimen/spacer_2x"
+        android:indeterminate="true" />
 
     <View
         android:layout_width="match_parent"
