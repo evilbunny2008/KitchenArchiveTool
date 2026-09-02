@@ -202,7 +202,7 @@
    <string name="sync_service_channel_description">Used for foreground notfiication when syncing recipes</string>
    <string name="sync_service_notification_title">Sync Recipes</string>
    <string name="sync_service_notification_content">We are currently updating your recipes, we\'ll be back shortly! You may hide this notification in the notification settings.</string>
-   <string name="manage_accounts">Accountmanagement</string>
+   <string name="manage_accounts">Account management</string>
    <string name="add_account">Add account</string>
    <string name="account_switcher_current_account_desc">Current account</string>
 

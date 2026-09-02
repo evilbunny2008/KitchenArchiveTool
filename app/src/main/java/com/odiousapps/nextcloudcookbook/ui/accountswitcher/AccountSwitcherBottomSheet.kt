@@ -76,6 +76,8 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
                null
             }
          }
+         // current account first, rest follow in their original order (stable sort)
+         .sortedByDescending { it.isCurrent }
 
       binding.accountList.layoutManager = LinearLayoutManager(context)
       binding.accountList.adapter = AccountSwitcherAdapter(accounts) { item ->
