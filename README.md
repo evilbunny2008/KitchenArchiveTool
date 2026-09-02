@@ -9,11 +9,11 @@ You need the Nextcloud Android client to sync the recipes.
 
 [<img src="https://f-droid.org/badge/get-it-on.svg"
 alt="Get it on F-Droid"
-width="160">](https://f-droid.org/en/packages/de.micmun.android.nextcloudcookbook/)
+width="160">](https://f-droid.org/en/packages/com.odiousapps.nextcloudcookbook/)
 
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
 alt="Get it on Google Play"
-height="60">](https://play.google.com/store/apps/details?id=de.micmun.android.nextcloudcookbook)
+height="60">](https://play.google.com/store/apps/details?id=com.odiousapps.nextcloudcookbook)
 
 **First steps**
 

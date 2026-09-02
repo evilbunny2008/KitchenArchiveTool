@@ -6,7 +6,7 @@
 
    <fragment
       android:id="@+id/recipeListFragment"
-      android:name="de.micmun.android.nextcloudcookbook.ui.recipelist.RecipeListFragment"
+      android:name="com.odiousapps.nextcloudcookbook.ui.recipelist.RecipeListFragment"
       android:label="fragment_recipelist">
       <action
          android:id="@+id/action_recipeListFragment_to_recipeDetailFragment"
@@ -17,11 +17,11 @@
    </fragment>
    <fragment
       android:id="@+id/preferenceFragment"
-      android:name="de.micmun.android.nextcloudcookbook.ui.preferences.PreferenceFragment"
+      android:name="com.odiousapps.nextcloudcookbook.ui.preferences.PreferenceFragment"
       android:label="PreferenceFragment" />
    <fragment
       android:id="@+id/recipeDetailFragment"
-      android:name="de.micmun.android.nextcloudcookbook.ui.recipedetail.RecipeDetailFragment"
+      android:name="com.odiousapps.nextcloudcookbook.ui.recipedetail.RecipeDetailFragment"
       android:label="fragment_detail">
       <argument
          android:name="recipeId"
@@ -29,7 +29,7 @@
    </fragment>
    <fragment
       android:id="@+id/searchFormFragment"
-      android:name="de.micmun.android.nextcloudcookbook.ui.searchform.SearchFormFragment"
+      android:name="com.odiousapps.nextcloudcookbook.ui.searchform.SearchFormFragment"
       android:label="SearchFormFragment">
       <action
          android:id="@+id/action_searchFormFragment_to_recipeListFragment"
@@ -37,6 +37,6 @@
    </fragment>
    <fragment
       android:id="@+id/downloadFormFragment"
-      android:name="de.micmun.android.nextcloudcookbook.ui.downloadform.DownloadFormFragment"
+      android:name="com.odiousapps.nextcloudcookbook.ui.downloadform.DownloadFormFragment"
       android:label="DownloadFormFragment" />
 </navigation>

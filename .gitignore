@@ -89,7 +89,6 @@ tmtags
 *.un~
 Session.vim
 .netrwhist
-*~
 
 #############################################
 # Build Tools
@@ -105,4 +104,4 @@ Session.vim
 .externalNativeBuild
 .cxx
 release/
-/gradle
+/gradle*

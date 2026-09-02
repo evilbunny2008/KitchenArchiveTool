@@ -14,104 +14,106 @@
             android:orientation="vertical">
 
          <com.google.android.material.appbar.AppBarLayout
-               android:id="@+id/appBar"
-               android:layout_width="match_parent"
-               android:layout_height="?attr/actionBarSize"
-               android:background="@android:color/transparent"
-               app:elevation="0dp">
+             android:id="@+id/appBar"
+             android:layout_width="match_parent"
+             android:layout_height="?attr/actionBarSize"
+             android:background="@android:color/transparent"
+             app:elevation="0dp">
 
             <com.google.android.material.card.MaterialCardView
-                  android:id="@+id/home_toolbar"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:layout_marginStart="@dimen/spacer_1x"
-                  android:layout_marginTop="@dimen/spacer_1hx"
-                  android:layout_marginEnd="@dimen/spacer_1x"
-                  android:layout_marginBottom="@dimen/spacer_1hx"
-                  android:clickable="false"
-                  app:cardBackgroundColor="@color/appbar"
-                  app:cardCornerRadius="@dimen/spacer_4x"
-                  app:cardElevation="2dp"
-                  app:strokeWidth="0dp">
+                android:id="@+id/home_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacer_1x"
+                android:layout_marginTop="@dimen/spacer_1hx"
+                android:layout_marginEnd="@dimen/spacer_1x"
+                android:layout_marginBottom="@dimen/spacer_1hx"
+                android:clickable="false"
+                app:cardBackgroundColor="@color/appbar"
+                app:cardCornerRadius="@dimen/spacer_4x"
+                app:cardElevation="2dp"
+                app:strokeWidth="0dp">
 
                <LinearLayout
-                     android:id="@+id/normalToolbar"
-                     android:layout_width="match_parent"
-                     android:layout_height="wrap_content"
-                     android:orientation="horizontal"
-                     android:paddingStart="@dimen/spacer_1x"
-                     android:paddingEnd="@dimen/spacer_1x">
+                   android:id="@+id/normalToolbar"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:paddingStart="@dimen/spacer_1x"
+                   android:paddingEnd="@dimen/spacer_1x"
+                   android:orientation="horizontal">
 
                   <androidx.appcompat.widget.AppCompatImageButton
-                        android:id="@+id/menu_button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="?attr/selectableItemBackgroundBorderless"
-                        android:paddingStart="@dimen/spacer_1x"
-                        android:paddingTop="@dimen/spacer_2x"
-                        android:paddingEnd="@dimen/spacer_1x"
-                        android:paddingBottom="@dimen/spacer_2x"
-                        android:tint="@color/textColor"
-                        app:srcCompat="@drawable/ic_baseline_menu_24" />
+                      android:id="@+id/menu_button"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="?attr/selectableItemBackgroundBorderless"
+                      android:paddingStart="@dimen/spacer_1x"
+                      android:paddingTop="@dimen/spacer_2x"
+                      android:paddingEnd="@dimen/spacer_1x"
+                      android:paddingBottom="@dimen/spacer_2x"
+                      android:tint="@color/textColor"
+                      app:srcCompat="@drawable/ic_baseline_menu_24" />
 
                   <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/search_text"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginStart="12dp"
-                        android:layout_weight="1"
-                        android:ellipsize="end"
-                        android:gravity="start"
-                        android:lines="1"
-                        android:text="@string/search_in_all"
-                        android:textColor="@color/subtextColor"
-                        android:textSize="16sp" />
+                      android:id="@+id/search_text"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical"
+                      android:layout_marginStart="12dp"
+                      android:layout_weight="1"
+                      android:ellipsize="end"
+                      android:gravity="start"
+                      android:lines="1"
+                      android:text="@string/search_in_all"
+                      android:textColor="@color/subtextColor"
+                      android:textSize="16sp" />
 
                   <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@+id/sortorder"
-                        android:layout_width="?attr/actionBarSize"
-                        android:layout_height="?attr/actionBarSize"
-                        android:layout_gravity="center_vertical|end"
-                        android:background="?attr/selectableItemBackgroundBorderless"
-                        android:padding="12dp"
-                        android:tint="@color/icon_color"
-                        app:srcCompat="@drawable/sort_alphabetical_ascending" />
+                      android:id="@+id/sortorder"
+                      android:layout_width="?attr/actionBarSize"
+                      android:layout_height="?attr/actionBarSize"
+                      android:layout_gravity="center_vertical|end"
+                      android:background="?attr/selectableItemBackgroundBorderless"
+                      android:padding="12dp"
+                      android:tooltipText="@string/menu_sort_title"
+                      android:tint="@color/icon_color"
+                      app:srcCompat="@drawable/sort_alphabetical_ascending" />
 
                   <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@+id/accountSwitcher"
-                        android:layout_width="?attr/actionBarSize"
-                        android:layout_height="?attr/actionBarSize"
-                        android:layout_gravity="center_vertical|end"
-                        android:background="?attr/selectableItemBackgroundBorderless"
-                        android:padding="12dp"
-                        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+                      android:id="@+id/accountSwitcher"
+                      android:layout_width="?attr/actionBarSize"
+                      android:layout_height="?attr/actionBarSize"
+                      android:layout_gravity="center_vertical|end"
+                      android:background="?attr/selectableItemBackgroundBorderless"
+                      android:padding="12dp"
+                      android:tooltipText="@string/manage_accounts"
+                      app:srcCompat="@drawable/ic_baseline_account_circle_24" />
                </LinearLayout>
 
                <LinearLayout
-                     android:id="@+id/searchToolbar"
-                     android:layout_width="match_parent"
-                     android:layout_height="wrap_content"
-                     android:orientation="horizontal"
-                     android:visibility="gone">
+                   android:id="@+id/searchToolbar"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:visibility="gone">
 
                   <androidx.appcompat.widget.AppCompatImageButton
-                        android:id="@+id/backButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="?attr/selectableItemBackgroundBorderless"
-                        android:paddingStart="@dimen/spacer_1x"
-                        android:paddingTop="@dimen/spacer_2x"
-                        android:paddingEnd="@dimen/spacer_1x"
-                        android:paddingBottom="@dimen/spacer_2x"
-                        android:tint="@color/textColor"
-                        app:srcCompat="@drawable/md_nav_back" />
+                      android:id="@+id/backButton"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="?attr/selectableItemBackgroundBorderless"
+                      android:paddingStart="@dimen/spacer_1x"
+                      android:paddingTop="@dimen/spacer_2x"
+                      android:paddingEnd="@dimen/spacer_1x"
+                      android:paddingBottom="@dimen/spacer_2x"
+                      android:tint="@color/textColor"
+                      app:srcCompat="@drawable/md_nav_back" />
 
                   <androidx.appcompat.widget.SearchView
-                        android:id="@+id/searchbar"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginStart="4dp" />
+                      android:id="@+id/searchbar"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_marginStart="4dp" />
                </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>

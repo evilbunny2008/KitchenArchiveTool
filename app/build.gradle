@@ -9,7 +9,6 @@ buildscript {
 }
 
 plugins {
-   id 'com.google.devtools.ksp'
    id "com.android.application"
    id "kotlin-android"
    id "androidx.navigation.safeargs.kotlin"
@@ -19,12 +18,11 @@ apply plugin: 'kotlinx-serialization'
 
 android {
    defaultConfig {
-      applicationId "de.micmun.android.nextcloudcookbook"
-      minSdk 26
-      targetSdk 34
+      applicationId "com.odiousapps.nextcloudcookbook"
+      minSdk 29
+      targetSdk 37
       versionCode 302
-      versionName "3.0.2"
-      compileSdk 34
+      versionName "4.0.0"
 
       testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
       vectorDrawables.useSupportLibrary = true
@@ -47,9 +45,6 @@ android {
       sourceCompatibility = JavaVersion.VERSION_11
       targetCompatibility = JavaVersion.VERSION_11
    }
-   kotlinOptions {
-      jvmTarget = JavaVersion.VERSION_11.toString()
-   }
    buildFeatures {
       viewBinding true
       dataBinding true
@@ -57,42 +52,41 @@ android {
    lint {
       disable 'MissingTranslation'
    }
-   namespace 'de.micmun.android.nextcloudcookbook'
+   namespace 'com.odiousapps.nextcloudcookbook'
 }
 
 dependencies {
    implementation fileTree(dir: "libs", include: ["*.jar"])
-   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.3.21"
 
-   implementation group: 'org.jsoup', name: 'jsoup', version: '1.16.1'
+   implementation "org.jsoup:jsoup:1.23.2"
 
-   implementation "androidx.core:core-ktx:1.12.0"
+    implementation "androidx.core:core-ktx:1.19.0"
    implementation "androidx.legacy:legacy-support-v4:1.0.0"
-   implementation "androidx.appcompat:appcompat:$version_appcompat"
-   implementation "androidx.constraintlayout:constraintlayout:$version_constraintlayout"
-   implementation "androidx.recyclerview:recyclerview:$version_recyclerview"
-   implementation "androidx.navigation:navigation-fragment-ktx:$version_navigation"
-   implementation "androidx.navigation:navigation-ui-ktx:$version_navigation"
+   implementation "androidx.appcompat:appcompat:1.8.0"
+   implementation "androidx.constraintlayout:constraintlayout:2.2.2"
+   implementation "androidx.recyclerview:recyclerview:1.4.0"
+   implementation "androidx.navigation:navigation-fragment-ktx:2.10.0"
+   implementation "androidx.navigation:navigation-ui-ktx:2.10.0"
    implementation "androidx.preference:preference-ktx:$version_preference"
    implementation "androidx.legacy:legacy-preference-v14:1.0.0"
    // material design and viewpager2
-   implementation "com.google.android.material:material:$version_material"
-   implementation "androidx.viewpager2:viewpager2:$version_viewpager2"
+   implementation "com.google.android.material:material:1.14.0"
+   implementation "androidx.viewpager2:viewpager2:1.1.0"
    // Lifecycle dependencies
    //implementation "androidx.lifecycle:lifecycle-extensions:$version_lifecycle_extensions"
-   implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.7.0"
+   implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.11.0"
    // Coroutines
-   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$version_coroutine"
-   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version_coroutine"
+   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0"
+   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0"
    // room database
-   implementation "androidx.room:room-runtime:$version_room"
-   ksp "androidx.room:room-compiler:$version_room"
+   implementation "androidx.room:room-runtime:2.8.4"
    // optional - Kotlin Extensions and Coroutines support for Room
-   implementation "androidx.room:room-ktx:$version_room"
+   implementation "androidx.room:room-ktx:2.8.4"
    // storage access framework (SAF)
-   implementation "androidx.documentfile:documentfile:$version_document"
+   implementation "androidx.documentfile:documentfile:1.1.0"
    // datastore for settings
-   implementation "androidx.datastore:datastore-preferences:$version_datastore"
+   implementation "androidx.datastore:datastore-preferences:1.2.1"
 
    // Json parser
    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:$version_serialization"
@@ -101,16 +95,15 @@ dependencies {
    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.3'
 
    // permissions
-   implementation 'com.github.fondesa:kpermissions:3.4.0'
+   implementation 'com.github.fondesa:kpermissions:3.5.0'
    // simple storage
-   implementation 'com.anggrayudi:storage:1.5.5'
+   implementation 'com.anggrayudi:storage:3.0.1'
    implementation 'com.afollestad.material-dialogs:core:3.3.0'
 
    //nextcloud api
    implementation "com.github.nextcloud:Android-SingleSignOn:0.8.1"
-   implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+   implementation 'com.squareup.retrofit2:retrofit:3.0.0'
    implementation 'com.github.stefan-niedermann.nextcloud-commons:sso-glide:1.8.2'
 
-   implementation 'com.github.bumptech.glide:glide:4.15.1'
-   ksp 'com.github.bumptech.glide:compiler:4.15.1'
+   implementation 'com.github.bumptech.glide:glide:5.0.9'
 }

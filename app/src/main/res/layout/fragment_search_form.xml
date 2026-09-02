@@ -2,13 +2,13 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
-      tools:context="de.micmun.android.nextcloudcookbook.ui.searchform.SearchFormFragment">
+      tools:context="com.odiousapps.nextcloudcookbook.ui.searchform.SearchFormFragment">
 
    <data>
 
       <variable
             name="clickListener"
-            type="de.micmun.android.nextcloudcookbook.ui.searchform.SearchClickListener" />
+            type="com.odiousapps.nextcloudcookbook.ui.searchform.SearchClickListener" />
    </data>
 
    <ScrollView

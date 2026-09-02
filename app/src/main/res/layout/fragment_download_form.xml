@@ -2,13 +2,13 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
-      tools:context="de.micmun.android.nextcloudcookbook.ui.downloadform.DownloadClickListener">
+      tools:context="com.odiousapps.nextcloudcookbook.ui.downloadform.DownloadClickListener">
 
    <data>
 
       <variable
             name="clickListener"
-            type="de.micmun.android.nextcloudcookbook.ui.downloadform.DownloadClickListener" />
+            type="com.odiousapps.nextcloudcookbook.ui.downloadform.DownloadClickListener" />
    </data>
 
    <ScrollView
