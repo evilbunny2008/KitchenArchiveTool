@@ -3,6 +3,8 @@
  *
  * Copyright 2020 by MicMun
  */
+@file:Suppress("unused")
+
 package com.odiousapps.nextcloudcookbook.ui
 
 import android.annotation.SuppressLint

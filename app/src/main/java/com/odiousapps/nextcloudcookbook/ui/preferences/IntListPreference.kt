@@ -15,6 +15,7 @@ import androidx.preference.ListPreference
  * @author MicMun
  * @version 1.1, 07.04.21
  */
+@Suppress("unused")
 class IntListPreference : ListPreference {
    constructor(context: Context) : super(context)
    constructor(context: Context, attr: AttributeSet) : super(context, attr)
