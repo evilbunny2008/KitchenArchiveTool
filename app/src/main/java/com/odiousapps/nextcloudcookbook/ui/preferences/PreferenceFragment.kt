@@ -14,8 +14,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
@@ -24,6 +26,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.odiousapps.nextcloudcookbook.R
 import com.odiousapps.nextcloudcookbook.ui.MainActivity
 import com.odiousapps.nextcloudcookbook.util.StorageManager
+import kotlinx.coroutines.launch
 
 /**
  * Fragment for settings.
@@ -90,16 +93,27 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
 
    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
       // observe values
-      lifecycleScope.launchWhenResumed {
-         viewModel.recipeDirectory.collect { dir ->
-            val summary = if (dir.isEmpty()) "" else StorageManager.getDocumentFromString(requireContext(), dir)
-                                                        ?.getAbsolutePath(requireContext()) ?: ""
-            dirPreference.summary = summary
-            currentDirectory = dir
-         }
-         viewModel.theme.collect { theme ->
-            themePreference.value = theme.toString()
-            themePreference.summary = themePreference.entry
+      lifecycleScope.launch {
+         lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED) {
+            // NOTE: previously both collects were sequential in the same
+            // coroutine (launchWhenResumed { flowA.collect{}; flowB.collect{} }).
+            // Since these Flows never complete, the first collect() never
+            // returned, so the theme collector below never actually ran.
+            // Separate launches let both collect concurrently, as intended.
+            launch {
+               viewModel.recipeDirectory.collect { dir ->
+                  val summary = if (dir.isEmpty()) "" else StorageManager.getDocumentFromString(requireContext(), dir)
+                                                              ?.getAbsolutePath(requireContext()) ?: ""
+                  dirPreference.summary = summary
+                  currentDirectory = dir
+               }
+            }
+            launch {
+               viewModel.theme.collect { theme ->
+                  themePreference.value = theme.toString()
+                  themePreference.summary = themePreference.entry
+               }
+            }
          }
       }
 
