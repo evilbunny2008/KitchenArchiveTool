@@ -75,6 +75,7 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
       syncPreference = findPreference(getString(R.string.prefkey_enableSyncService))!!
       wifiOnlyPreference = findPreference(getString(R.string.prefkey_sync_wifi_only))!!
       themePreference.summaryProvider = ListPreference.SimpleSummaryProvider.getInstance()
+      syncPreference.summaryProvider = ListPreference.SimpleSummaryProvider.getInstance()
       val aboutPreference: Preference = findPreference(getString(R.string.prefkey_about))!!
 
       // change listener

@@ -7,7 +7,6 @@
 
       <Preference
             android:key="@string/prefkey_recipeDir"
-            android:summary="%s"
             android:title="@string/preftitle_recipeDir" />
    </PreferenceCategory>
    <PreferenceCategory
@@ -19,7 +18,6 @@
           android:entries="@array/sync_interval_names"
           android:entryValues="@array/sync_interval_values"
           android:key="@string/prefkey_enableSyncService"
-          android:summary="%s"
           android:title="@string/pref_title_enableSyncService" />
       <CheckBoxPreference
           android:defaultValue="true"
@@ -33,7 +31,6 @@
             android:entries="@array/theme_names"
             android:entryValues="@array/theme_values"
             android:key="@string/prefkey_theme"
-            android:summary="%s"
             android:title="@string/preftitle_theme" />
       <CheckBoxPreference
           android:defaultValue="true"
