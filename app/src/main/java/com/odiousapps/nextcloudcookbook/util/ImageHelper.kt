@@ -30,7 +30,14 @@ object ImageHelper {
     fun ImageView.setImageURIAsync(uri: Uri?, onSetImage: (ImageView.() -> Unit)? = null) {
         // cancel previously started job
         jobMap[this]?.cancel()
-        setImageBitmap(null)
+        // setImageDrawable(null), not setImageBitmap(null): the latter
+        // constructs a BitmapDrawable(resources, null) internally on most
+        // Android versions (no null-guard in that path), which is exactly
+        // what logs "BitmapDrawable created with null Bitmap" -- pure log
+        // noise for something that isn't actually wrong, but avoidable by
+        // using the API that doesn't touch BitmapDrawable at all when
+        // there's no bitmap to show.
+        setImageDrawable(null)
         // start job to load image
         uri?.let {
             // cancel job on detach, use only a single detach listener per image view even if
@@ -44,7 +51,15 @@ object ImageHelper {
             jobMap[this] = launchOnUiThread {
                 try {
                     onSetImage?.invoke(this@setImageURIAsync)
-                    setImageBitmap(getBitmapFromUri(it, context))
+                    val bitmap = getBitmapFromUri(it, context)
+                    if (bitmap != null) {
+                        setImageBitmap(bitmap)
+                    } else {
+                        // getBitmapFromUri can legitimately return null (missing
+                        // file, corrupted/undecodable image) -- same reasoning
+                        // as above applies here.
+                        setImageDrawable(null)
+                    }
                 } catch (_: SecurityException) {
                     PreferenceData.getInstance().setStorageAccessed(false)
                 }

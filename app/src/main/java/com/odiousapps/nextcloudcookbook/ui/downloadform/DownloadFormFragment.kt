@@ -223,10 +223,9 @@ class DownloadFormFragment : Fragment(), DownloadClickListener {
    private suspend fun fetchImage(url: String): Bitmap? {
       return withContext(Dispatchers.IO) {
          try {
-            val stream = URL(sanitizeURL(url)).openStream()
-            val bm = BitmapFactory.decodeStream(stream)
-            stream.close()
-            return@withContext bm
+            URL(sanitizeURL(url)).openStream().use { stream ->
+               return@withContext BitmapFactory.decodeStream(stream)
+            }
          } catch (_: MalformedURLException) {
             downloadError("Image URL malformed")
          } catch (_: IOException) {
