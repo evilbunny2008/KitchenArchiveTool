@@ -20,18 +20,6 @@ folder&gt;_).
 
 You also can choose the theme in the settings.
 
-## Screenshots
-
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_start.png" width="270" height="540" alt="Screenshot start with list"/>
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_detail_info.png" width="270" height="540" alt="Screenshot detail view with info tab"/>
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_detail_ingredients.png" width="270" height="540" alt="Screenshot detail view with ingredients tab"/>
-
-## Roadmap
-
-- Create new recipes
-- Edit recipes
-- ...
-
 ## Dependencies
 
 This app needs Android 10+ (minSdk is 29) and uses the libraries (see also app/build.gradle):
