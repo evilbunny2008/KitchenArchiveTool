@@ -4,8 +4,8 @@ This was forked from https://codeberg.org/MicMun/nextcloud-cookbook
 
 ## About
 
-This app is a viewer for recipes in Nextcloud App.
-You need the Nextcloud Android client to sync the recipes.
+This app is a viewer for recipes in Nextcloud Cookbook server app.
+You need the Nextcloud Android client app to sync the recipes.
 
 **First steps**
 
