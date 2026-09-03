@@ -29,6 +29,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.NavigationUI
 import androidx.preference.PreferenceManager
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.nextcloud.android.sso.AccountImporter
 import com.nextcloud.android.sso.exceptions.AccountImportCancelledException
@@ -391,11 +392,34 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
    }
 
    private fun updateProfilePicture() {
-      try {
-         val ssoAccount = SingleAccountHelper.getCurrentSingleSignOnAccount(applicationContext)
+      // SingleAccountHelper.getCurrentSingleSignOnAccount() is documented
+      // @WorkerThread (it does blocking AccountManager/Binder IPC calls) --
+      // this was previously being called directly on the main thread here.
+      lifecycleScope.launch {
+         val ssoAccount = try {
+            withContext(Dispatchers.IO) {
+               SingleAccountHelper.getCurrentSingleSignOnAccount(applicationContext)
+            }
+         } catch (_: NextcloudFilesAppAccountNotFoundException) {
+            Logger.getLogger(this::class.java.name).severe("Please install the nextcloud app.")
+            return@launch
+         } catch (_: NoCurrentAccountSelectedException) {
+            Logger.getLogger(this::class.java.name).severe("Please select an account.")
+            return@launch
+         }
+
          Glide
-            .with(this)
+            .with(this@MainActivity)
+            // Both cache layers are deliberately skipped: this avatar is
+            // small and only (re)loaded on app start and account switches,
+            // so the cost of always fetching fresh is negligible -- but a
+            // cached stale image (from whichever account was active before)
+            // silently lingering after switching accounts is a real,
+            // confusing correctness bug, which is worse than the minor
+            // extra network request.
             .load(ssoAccount.url + "/index.php/avatar/" + Uri.encode(ssoAccount.userId) + "/64")
+            .skipMemoryCache(true)
+            .diskCacheStrategy(DiskCacheStrategy.NONE)
             .placeholder(R.drawable.ic_baseline_account_circle_24)
             .error(R.drawable.ic_baseline_account_circle_24)
             .apply(RequestOptions.circleCropTransform())
@@ -403,11 +427,6 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
          // long-press indicator of the current account -- doesn't affect the
          // tap behavior, which opens the system account chooser as before
          binding.accountSwitcher.tooltipText = ssoAccount.name
-
-      } catch (_: NextcloudFilesAppAccountNotFoundException) {
-         Logger.getLogger(this::class.java.name).severe("Please install the nextcloud app.")
-      } catch (_: NoCurrentAccountSelectedException) {
-         Logger.getLogger(this::class.java.name).severe("Please select an account.")
       }
    }
 
