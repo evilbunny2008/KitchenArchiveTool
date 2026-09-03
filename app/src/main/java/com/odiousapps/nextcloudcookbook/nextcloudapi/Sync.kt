@@ -109,7 +109,7 @@ class Sync(mContext: Context) {
          // Todo: This breaks when both local and remote recipe have changed.
          //       The last one changed will be used.
          //       We need to think about if we want that. (When we implement editing)
-         if (dateRemote > dateLocal || dateRemote == 0) {
+         if (dateRemote > dateLocal || dateRemote == 0L) {
             Logger.getLogger(this::class.java.name).warning("Local Recipe out of date: $name")
             try {
                downloadRecipe(recipeMetadata)
