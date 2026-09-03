@@ -43,7 +43,5 @@
       <Preference
             android:key="@string/prefkey_about"
             android:summary="@string/about_summary" />
-      <Preference
-          android:summary="@string/about_specialthanks" />
    </PreferenceCategory>
 </PreferenceScreen>
