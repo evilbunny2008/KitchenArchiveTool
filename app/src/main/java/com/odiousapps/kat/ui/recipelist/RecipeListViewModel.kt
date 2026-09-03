@@ -75,10 +75,24 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
       _navigateToRecipe.value = null
    }
 
+   // The Job for whichever loadRecipes() call is currently collecting a
+   // Flow into `recipes`. Room's Flow queries invalidate at the table
+   // level, not per-query -- without cancelling the previous collection
+   // before starting a new one, every past call (a previous account, a
+   // previous sort/filter) stays alive and keeps re-emitting its own
+   // results into `recipes` whenever *anything* writes to the recipes
+   // table, including a background sync for an account since switched
+   // away from. Whichever collector happens to fire last wins, regardless
+   // of which account/filter is actually the current one -- this is what
+   // caused recipes from a previously-active account to reappear after
+   // switching to a different (empty) account.
+   private var loadRecipesJob: Job? = null
+
    fun loadRecipes() {
+      loadRecipesJob?.cancel()
       var tmp: Flow<List<DbRecipePreview>>
 
-      uiScope.launch {
+      loadRecipesJob = uiScope.launch {
          tmp =
             if (filter != null) {
                Log.d("RecipeListViewModel", "SEARCH ! $filter")
@@ -104,6 +118,7 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
             // if a stale row from before an insert/update matching change
             // doesn't get recognized as "the same recipe" as a freshly
             // re-synced one. Keeps the first occurrence per name, following
+
             // whichever sort order is currently active.
             list.distinctBy { it.name }
          }.collect {
