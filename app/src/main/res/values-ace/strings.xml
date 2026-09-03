@@ -19,7 +19,10 @@
 	<string name="copy_ing_message">Bahan-bahan nyang ka geusalen u papan klip</string>
 	<string name="copy_ingredients">Bahan copy</string>
 	<string name="copy_recipe_button_desc">Resep nyoe neu copy bak akun laen</string>
+	<string name="copy_to_account_failure">Hana jeuet ta salen resep: %1$s</string>
+	<string name="copy_to_account_in_progress">Meusalen \’%1$s\’ keu %2$s</string>
 	<string name="copy_to_account_none_available">Tambah akun laen dilee untuk copy resep antara awak nyan</string>
+	<string name="copy_to_account_success">Geusalen \’%1$s\’ keu %2$s. Foto nyan hana ji salen — server Cookbook hana cara ji teurimong, jadi tamah lom ngon jaroe meunyo droeneuh galak disinan</string>
 	<string name="copy_to_account_title">Salin resep nyoe keu</string>
 	<string name="dir_chooser_error">Kesalahan: Folder root hana jeuet!</string>
 	<string name="empty_list">Hana resep</string>

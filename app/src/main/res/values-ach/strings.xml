@@ -18,6 +18,12 @@
 	<string name="cooktime_tooltip">Yab cawa me tedo</string>
 	<string name="copy_ing_message">Jami ma ki keto i clipboard</string>
 	<string name="copy_ingredients">Kwany jami ma ki keto iye</string>
+	<string name="copy_recipe_button_desc">Coy kit me yubu cam ni i akaunti mukene</string>
+	<string name="copy_to_account_failure">Pe atwero kwanyo gin ma ki yubu ni: %1$s</string>
+	<string name="copy_to_account_in_progress">Kwanyo \’%1$s\’ me %2$s</string>
+	<string name="copy_to_account_none_available">Med akaunti mukene mukwongo me coyo jami ma ki yubu i kin gii</string>
+	<string name="copy_to_account_success">Ki kwanyo \’%1$s\’ me doko %2$s. cal ni pe ki kwanyo — latic me buk me tedo pe ki yoo me nongo acel, ki dong med ne ki cingi ka imito ni obed kunu</string>
+	<string name="copy_to_account_title">Coy gin ma ki yubu me yubu cam ni i</string>
 	<string name="dir_chooser_error">Bal: Folda ma tye i acaki pe ki yer!</string>
 	<string name="empty_list">Pe tye yoo me yubu cam</string>
 	<string name="error_no_network">Pe tye kubbe me cim</string>
