@@ -14,17 +14,26 @@ import org.json.JSONObject
 import java.io.File
 
 /**
- * Copies a single recipe's text/structured data (name, ingredients,
- * instructions, times, nutrition, etc.) from the recipe.json this app
- * already has cached locally to a *different* Nextcloud account's
- * Cookbook instance.
+ * Copies a single recipe's data, including its photo, from the recipe
+ * this app already has cached locally to a *different* Nextcloud
+ * account's Cookbook instance.
  *
- * The photo does not carry over. The Cookbook REST API has no endpoint
- * to upload image bytes when creating a recipe -- an image can only be
- * attached by referencing a file already present in that account's own
- * Nextcloud storage. This is an open upstream limitation, not something
- * this app can work around:
- * https://github.com/nextcloud/cookbook/issues/727
+ * The photo is carried over by URL, not by uploading bytes: Cookbook's
+ * own documentation confirms that if a recipe's "image" field is a URL
+ * rather than a local path, the server downloads it itself when the
+ * recipe is created -- https://nextcloud.github.io/cookbook/user/ ("The
+ * image can be loaded from a URL. Just type or paste the URL in the
+ * field. The cookbook app will download and use the image."). So this
+ * class points "image" at the *source* server's own image endpoint for
+ * this recipe and lets the *destination* server fetch it from there.
+ *
+ * Whether that fetch actually succeeds depends on whether the
+ * destination server can reach the source server's image URL without
+ * being logged in as the source account (this app's own SSO credentials
+ * aren't something a server-side HTTP request on a different Nextcloud
+ * instance can present). If the source server requires auth for that
+ * URL, Cookbook will end up with no image rather than a broken one --
+ * everything else about the recipe still copies over either way.
  *
  * Must be called from a background thread -- this performs network
  * requests via [NextcloudAPI.performNetworkRequestV2], same as the rest
@@ -37,13 +46,11 @@ class RecipeCopier(private val context: Context) {
 
       /**
        * Keys from a downloaded recipe.json that must not be replayed
-       * onto a different server: "id"/"recipe_id" belong to the source
-       * recipe on the source server and are meaningless (or, worse,
-       * could collide with an unrelated recipe) on the destination;
-       * the image fields point at a location on the source server that
-       * doesn't exist on the destination.
+       * onto a different server: they identify the recipe on the
+       * *source* server and are meaningless (or, worse, could collide
+       * with an unrelated recipe) on the destination.
        */
-      private val FIELDS_TO_STRIP = listOf("id", "recipe_id", "image", "imageUrl", "thumbImageUrl", "fullImageUrl")
+      private val FIELDS_TO_STRIP = listOf("id", "recipe_id")
    }
 
    sealed class Result {
@@ -53,7 +60,9 @@ class RecipeCopier(private val context: Context) {
 
    /**
     * @param recipeJsonFile the local recipe.json this recipe was last synced from
-    *   (DbRecipe.recipeCore.fileSystem.filePath)
+    *   (DbRecipe.recipeCore.fileSystem.filePath) -- its sibling METADATA file
+    *   (see Sync.kt) is also read, to find the source recipe's server-side id
+    *   for building its image URL
     * @param destinationAccountName the "name" (as AccountManager/SSO knows it) of
     *   the account to copy into -- NOT the display name, see
     *   SingleSignOnAccount.name / AccountSwitcherBottomSheet
@@ -71,6 +80,8 @@ class RecipeCopier(private val context: Context) {
       }
 
       FIELDS_TO_STRIP.forEach { json.remove(it) }
+
+      resolveSourceImageUrl(recipeJsonFile)?.let { json.put("image", it) }
 
       val destinationApi = try {
          val ssoAccount = AccountImporter.getSingleSignOnAccount(context, destinationAccountName)
@@ -95,5 +106,28 @@ class RecipeCopier(private val context: Context) {
       } finally {
          destinationApi.close()
       }
+   }
+
+   /**
+    * Builds a URL pointing at this recipe's full-size image on the
+    * *source* server, for the destination server to download itself.
+    * Returns null if the source recipe's server-side id can't be
+    * determined (e.g. a purely local recipe with no METADATA file) or
+    * there's no active source account -- callers should leave "image"
+    * out of the payload in that case rather than send a broken URL.
+    */
+   private fun resolveSourceImageUrl(recipeJsonFile: File): String? {
+      val metadataFile = File(recipeJsonFile.parentFile, Sync.METADATA)
+      if (!metadataFile.exists()) return null
+
+      val sourceRecipeId = try {
+         JSONObject(metadataFile.readText()).getString("recipe_id")
+      } catch (e: Exception) {
+         Log.w(TAG, "Could not read source recipe id from METADATA: ${e.message}")
+         return null
+      }
+
+      val sourceAccount = Accounts(context).getCurrentAccount() ?: return null
+      return "${sourceAccount.url}${CookbookAPI.API_RECIPE_BASE}/$sourceRecipeId/image?size=full"
    }
 }

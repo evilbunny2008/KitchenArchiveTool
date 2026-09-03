@@ -16,7 +16,7 @@ import kotlin.collections.ArrayList
 class CookbookAPI(private val mApi: NextcloudAPI) {
 
    companion object {
-      private const val API_RECIPE_BASE = "/index.php/apps/cookbook/api/v1/recipes"
+      const val API_RECIPE_BASE = "/index.php/apps/cookbook/api/v1/recipes"
       private val TAG = CookbookAPI::class.toString()
    }
 

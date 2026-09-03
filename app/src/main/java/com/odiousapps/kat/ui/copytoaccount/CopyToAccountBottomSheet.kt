@@ -7,6 +7,8 @@ import android.accounts.AccountManager
 import android.content.Context
 import android.net.Uri
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -31,6 +33,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
+import java.util.concurrent.Executors
 
 private const val NEXTCLOUD_ACCOUNT_TYPE = "nextcloud"
 private const val ARG_RECIPE_JSON_PATH = "recipe_json_path"
@@ -107,24 +110,37 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
 
    private fun copyRecipe(context: Context, recipeJsonPath: String, recipeName: String, target: CopyTargetItem) {
       dismiss()
-      Toast.makeText(
-         context,
-         getString(R.string.copy_to_account_in_progress, recipeName, target.displayName),
-         Toast.LENGTH_SHORT
-      ).show()
 
-      viewLifecycleOwner.lifecycleScope.launch {
-         val result = withContext(Dispatchers.IO) {
-            RecipeCopier(context).copyToAccount(File(recipeJsonPath), target.accountName)
-         }
+      // Deliberately NOT using viewLifecycleOwner.lifecycleScope here: dismiss()
+      // above tears this fragment's view down almost immediately, which cancels
+      // that scope -- a coroutine launched on it would very likely be cancelled
+      // before the network calls inside RecipeCopier ever finish, silently
+      // dropping the copy. Using an application-scoped background executor
+      // (matching Sync.kt's own pattern) lets the copy run to completion
+      // regardless of what the UI does in the meantime.
+      val appContext = context.applicationContext
+      val mainHandler = Handler(Looper.getMainLooper())
+
+      mainHandler.post {
+         Toast.makeText(
+            appContext,
+            appContext.getString(R.string.copy_to_account_in_progress, recipeName, target.displayName),
+            Toast.LENGTH_SHORT
+         ).show()
+      }
+
+      Executors.newSingleThreadExecutor().submit {
+         val result = RecipeCopier(appContext).copyToAccount(File(recipeJsonPath), target.accountName)
 
          val message = when (result) {
             is RecipeCopier.Result.Success ->
-               getString(R.string.copy_to_account_success, recipeName, target.displayName)
+               appContext.getString(R.string.copy_to_account_success, recipeName, target.displayName)
             is RecipeCopier.Result.Failure ->
-               getString(R.string.copy_to_account_failure, result.reason)
+               appContext.getString(R.string.copy_to_account_failure, result.reason)
          }
-         Toast.makeText(context, message, Toast.LENGTH_LONG).show()
+         mainHandler.post {
+            Toast.makeText(appContext, message, Toast.LENGTH_LONG).show()
+         }
       }
    }
 

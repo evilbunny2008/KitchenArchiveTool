@@ -23,7 +23,7 @@ class Sync(mContext: Context) {
 
    companion object {
       private val TAG = Sync::class.toString()
-      private const val METADATA = "METADATA"
+      const val METADATA = "METADATA"
       const val RECIPE = "recipe.json"
       const val NEW_FILE_MARKER = "NEWFILE"
 
