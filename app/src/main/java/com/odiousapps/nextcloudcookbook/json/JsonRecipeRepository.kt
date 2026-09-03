@@ -115,9 +115,10 @@ class JsonRecipeRepository {
          Log.e("JsonRecipeRepository", "Reading (${file.name}) failed! ")
          return null
       }
-      val reader = BufferedReader(InputStreamReader(inputStream))
 
-       val json: String = reader.lines().collect(Collectors.joining("\n"))
+      val json: String = BufferedReader(InputStreamReader(inputStream)).use { reader ->
+         reader.lines().collect(Collectors.joining("\n"))
+      }
 
       return RecipeJsonConverter.parse(json)?.copy(
          fileLocation = file.getAbsolutePath(context),

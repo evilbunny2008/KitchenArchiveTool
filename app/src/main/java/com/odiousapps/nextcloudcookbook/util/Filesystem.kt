@@ -62,11 +62,11 @@ class Filesystem(var mContext: Context) {
 
       val file = File(externalStorage, filename)
       file.createNewFile()
-      val stream = FileOutputStream(file)
       try {
-         stream.write(content)
-         stream.flush()
-         stream.close()
+         FileOutputStream(file).use { stream ->
+            stream.write(content)
+            stream.flush()
+         }
       } catch (e: Exception) {
          Logger.getLogger(this::class.java.name).severe(e.message.toString())
          e.printStackTrace()
@@ -75,22 +75,18 @@ class Filesystem(var mContext: Context) {
 
    fun readInternalFile(file: File): String {
       var content = ""
-      try {
-         val stream = FileInputStream(file)
-         val inputStream = InputStreamReader(stream)
-         val bufferedReader = BufferedReader(inputStream)
-
-         var readString: String? = bufferedReader.readLine()
-         while (readString != null) {
-            content += readString
-            readString = bufferedReader.readLine()
+      return try {
+         BufferedReader(InputStreamReader(FileInputStream(file))).use { bufferedReader ->
+            var readString: String? = bufferedReader.readLine()
+            while (readString != null) {
+               content += readString
+               readString = bufferedReader.readLine()
+            }
+            content
          }
-         bufferedReader.close()
-         inputStream.close()
-         stream.close()
-      } catch (_: FileNotFoundException){
+      } catch (_: FileNotFoundException) {
          //Log.e(TAG, "readInternalFile: File not found! ${file.absoluteFile}")
+         content
       }
-      return content
    }
 }

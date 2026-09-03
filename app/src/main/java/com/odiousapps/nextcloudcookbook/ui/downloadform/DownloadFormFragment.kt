@@ -130,8 +130,7 @@ class DownloadFormFragment : Fragment(), DownloadClickListener {
                      val recipeFile = recipeDir?.findOrCreateFile(Sync.RECIPE)
                      val writer = recipeFile?.openOutputStream(requireContext(), false)?.bufferedWriter()
                      // we write the full json to also keep fields we do not process yet
-                     writer?.write(pair.second.toString())
-                     writer?.close()
+                     writer?.use { it.write(pair.second.toString()) }
 
                      if (recipe.image?.isNotBlank() == true) {
                         val bm = fetchImage(recipe.image!!)
@@ -242,8 +241,7 @@ class DownloadFormFragment : Fragment(), DownloadClickListener {
       if (file != null) {
          val stream = file.openOutputStream(requireContext(), false)
          if (stream != null) {
-            bm.compress(Bitmap.CompressFormat.JPEG, 95, stream)
-            stream.close()
+            stream.use { bm.compress(Bitmap.CompressFormat.JPEG, 95, it) }
             return
          }
       }

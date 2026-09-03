@@ -8,9 +8,7 @@ import com.nextcloud.android.sso.api.NextcloudAPI
 import com.nextcloud.android.sso.exceptions.NextcloudHttpRequestFailedException
 import org.json.JSONArray
 import org.json.JSONObject
-import java.io.BufferedReader
 import java.io.IOException
-import java.io.InputStreamReader
 import java.util.*
 import java.util.logging.Logger
 import kotlin.collections.ArrayList
@@ -31,20 +29,19 @@ class CookbookAPI(private val mApi: NextcloudAPI) {
          .build()
 
       try {
-         val istream = mApi.performNetworkRequestV2(nextcloudRequest)
-         val r = BufferedReader(InputStreamReader(istream.body))
-         var json = ""
+         mApi.performNetworkRequestV2(nextcloudRequest).body.bufferedReader().use { r ->
+            var json = ""
 
-         var line: String?
-         while (r.readLine().also { line = it } != null) {
-            Logger.getLogger(this::class.java.name).warning(line)
-            json += line + '\n'
+            var line: String?
+            while (r.readLine().also { line = it } != null) {
+               Logger.getLogger(this::class.java.name).warning(line)
+               json += line + '\n'
+            }
+            val root = JSONArray(json)
+            for (i in 0 until root.length()) {
+               result.add(root.getJSONObject(i).toString())
+            }
          }
-         val root = JSONArray(json)
-         for (i in 0 until root.length()) {
-            result.add(root.getJSONObject(i).toString())
-         }
-
       } catch (e: Exception) {
          Logger.getLogger(this::class.java.name).severe("Unknown Exception in getRecipes: ${e.javaClass}: ${e.message}")
       }
@@ -60,14 +57,12 @@ class CookbookAPI(private val mApi: NextcloudAPI) {
          .build()
 
       try {
-         val istream = mApi.performNetworkRequestV2(nextcloudRequest)
-         val r = BufferedReader(InputStreamReader(istream.body))
-
-         var line: String?
-         while (r.readLine().also { line = it } != null) {
-            result += line + '\n'
+         mApi.performNetworkRequestV2(nextcloudRequest).body.bufferedReader().use { r ->
+            var line: String?
+            while (r.readLine().also { line = it } != null) {
+               result += line + '\n'
+            }
          }
-
 
       } catch (e: Exception) {
          Logger.getLogger(this::class.java.name).severe("Unknown Exception in getRecipe: ${e.javaClass}: ${e.message}")
@@ -86,19 +81,19 @@ class CookbookAPI(private val mApi: NextcloudAPI) {
          .build()
 
       try {
-         val istream = mApi.performNetworkRequestV2(nextcloudRequest)
-         val byteArray: ByteArray?
-         try {
-            byteArray = istream.body.readBytes()
+         mApi.performNetworkRequestV2(nextcloudRequest).body.use { body ->
+            try {
+               val byteArray = body.readBytes()
 
-            if (String(byteArray).startsWith("<svg")) {
-               // This image is the default svg. Do not store.
-               return null
+               if (String(byteArray).startsWith("<svg")) {
+                  // This image is the default svg. Do not store.
+                  return null
+               }
+
+               return byteArray
+            } catch (e: Exception) {
+               Logger.getLogger(this::class.java.name).severe("Unknown Exception in getImage, could not read bytes: ${e.javaClass}: ${e.message}")
             }
-
-            return byteArray
-         } catch (e: Exception) {
-            Logger.getLogger(this::class.java.name).severe("Unknown Exception in getImage, could not read bytes: ${e.javaClass}: ${e.message}")
          }
 
       } catch (e: NextcloudHttpRequestFailedException) {
@@ -117,14 +112,14 @@ class CookbookAPI(private val mApi: NextcloudAPI) {
          .build()
 
       try {
-         val istream = mApi.performNetworkRequestV2(nextcloudRequest)
-         val byteArray: ByteArray?
-         try {
-            byteArray = istream.body.readBytes()
-            Log.d(TAG, "Result: " + String(byteArray))
-            return String(byteArray)
-         } catch (e: IOException) {
-            Logger.getLogger(this::class.java.name).severe("IOException in createRecipe: ${e.javaClass}: ${e.message}")
+         mApi.performNetworkRequestV2(nextcloudRequest).body.use { body ->
+            try {
+               val byteArray = body.readBytes()
+               Log.d(TAG, "Result: " + String(byteArray))
+               return String(byteArray)
+            } catch (e: IOException) {
+               Logger.getLogger(this::class.java.name).severe("IOException in createRecipe: ${e.javaClass}: ${e.message}")
+            }
          }
 
       } catch (e: Exception) {

@@ -9,8 +9,6 @@ import com.nextcloud.android.sso.QueryParam
 import com.nextcloud.android.sso.aidl.NextcloudRequest
 import com.nextcloud.android.sso.api.NextcloudAPI
 import org.json.JSONObject
-import java.io.BufferedReader
-import java.io.InputStreamReader
 import java.util.Collections
 
 /**
@@ -41,8 +39,7 @@ class UserInfoAPI(private val mApi: NextcloudAPI) {
          .build()
 
       return try {
-         val istream = mApi.performNetworkRequestV2(nextcloudRequest)
-         val json = BufferedReader(InputStreamReader(istream.body)).readText()
+         val json = mApi.performNetworkRequestV2(nextcloudRequest).body.bufferedReader().use { it.readText() }
          Log.d(TAG, "Raw response from $API_USER: $json")
          val data = JSONObject(json).getJSONObject("ocs").getJSONObject("data")
          // field name has varied across server versions ("display-name" vs "displayname")
