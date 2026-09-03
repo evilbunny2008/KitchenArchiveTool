@@ -80,8 +80,7 @@
          <intent-filter>
             <action android:name="com.odiousapps.kat.services.RemainReceiver.REMAIN_ACTION" />
          </intent-filter>
-      </receiver> <!-- https://developer.android.com/training/scheduling/alarms#boot -->
-      <!-- See link for improvements of bootreciever -->
+      </receiver>
       <receiver
          android:name=".reciever.BootReceiver"
          android:exported="false">

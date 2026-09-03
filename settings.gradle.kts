@@ -20,11 +20,6 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        // Required for com.github.nextcloud:Android-SingleSignOn and
-        // com.github.stefan-niedermann.nextcloud-commons:sso-glide, which
-        // are built directly from their GitHub repos/tags via JitPack, not
-        // published to Maven Central -- confirmed via both projects' own
-        // README instructions.
         maven(url = "https://jitpack.io")
     }
 }

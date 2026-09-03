@@ -1,25 +1,12 @@
-// Several AGP Variant API members used below (outputFileName, artifacts.get,
-// onVariants/selector for this variant-configuration style) are still
-// marked @Incubating - meaning they work correctly today but the API
-// surface could change in a future AGP release, not that anything here is
-// broken. This is the standard, conventional way to suppress that specific
-// warning category for the whole build script.
 @file:Suppress("UnstableApiUsage")
 
 import com.android.build.api.artifact.SingleArtifact
 
 plugins {
     alias(libs.plugins.android.application)
-    // Testing whether Data Binding's Kotlin @BindingAdapter resolution
-    // (BindingUtils.kt) needs kapt-style stub generation -- see root
-    // build.gradle.kts comment for full reasoning.
     alias(libs.plugins.legacy.kapt)
-    alias(libs.plugins.kotlin.serialization) // required for @Serializable model classes
-    alias(libs.plugins.ksp) // required for Room's @Database/@Dao/@Entity annotation processing
-    // generates *Args/*Directions classes from res/navigation/navigation.xml
-    // -- was missing entirely, which is why RecipeDetailFragmentArgs,
-    // RecipeListFragmentDirections, and SearchFormFragmentDirections were
-    // all unresolved
+    alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.ksp)
     alias(libs.plugins.androidx.navigation.safeargs)
 }
 
