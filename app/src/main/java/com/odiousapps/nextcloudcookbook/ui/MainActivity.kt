@@ -114,6 +114,17 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
          windowInsets
       }
 
+      // Same edge-to-edge issue as the app bar above, but for the bottom
+      // navigation/gesture bar -- without this, the last row of the recipe
+      // list (and any other screen hosted here) renders underneath it.
+      // Applied to the nav host container itself rather than per-fragment,
+      // so every screen in the nav graph gets this fix in one place.
+      ViewCompat.setOnApplyWindowInsetsListener(binding.navHostFragment) { view, windowInsets ->
+         val navigationBarInsets = windowInsets.getInsets(WindowInsetsCompat.Type.navigationBars())
+         view.updatePadding(bottom = navigationBarInsets.bottom)
+         windowInsets
+      }
+
       // toolbar
       setupToolbars()
 
