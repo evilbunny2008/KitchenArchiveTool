@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-   <string name="app_name">Cookbook</string>
+   <string name="app_name" translatable="false">KAT</string>
    <string name="app_name_long" translatable="false">Kitchen Archive Tool</string>
    <string name="app_logo_desc">Launcher icon of the app showing a cookbook symbol</string>
 
@@ -105,7 +105,7 @@
    <string name="pref_title_enableSyncService">Background Synchronisation</string>
 
    <string name="pref_title_sync_wifi_only">Sync on Wifi only</string>
-   <string name="pref_summary_sync_wifi_only" >This disables syncing when the device is only connected via mobile data.</string>
+   <string name="pref_summary_sync_wifi_only">This disables syncing when the device is only connected via mobile data.</string>
 
    <string-array name="theme_values" translatable="false">
       <item>0</item>
@@ -209,10 +209,8 @@
    <!-- About -->
    <string name="about_title">About</string>
    <string name="about_version">App version: %1$s</string>
-   <string name="about_summary">© 2020-2023 by MicMun. License under GPLv3.\n\nKitchen Archive Tool is an app for
-      cookbook on nextcloud to manage recipes.</string>
-   <string name="about_specialthanks">We also thank Stefan Niedermann for his work with the Nextcloud Deck and Nextcloud Notes apps, which are a great inspiration</string>
-   <string name="menu_title_app">App</string>
+   <string name="about_summary">Kitchen Archive Tool is an Android app for the Nextcloud server Cookbook app to manage recipes.</string>
+   <string name="menu_title_app">KAT App</string>
     <string name="skip_for_local_storage">Skip for local storage</string>
     <string name="login">Login</string>
 
