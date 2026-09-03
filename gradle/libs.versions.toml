@@ -57,6 +57,7 @@ nextcloud-sso = { module = "com.github.nextcloud:Android-SingleSignOn", version.
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 nextcloud-commons-sso-glide = { module = "com.github.stefan-niedermann.nextcloud-commons:sso-glide", version.ref = "nextcloudCommonsSsoGlide" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+glide-ksp = { module = "com.github.bumptech.glide:ksp", version.ref = "glide" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -165,4 +165,12 @@ dependencies {
     implementation(libs.nextcloud.commons.sso.glide)
 
     implementation(libs.glide)
+    // Generates GeneratedAppGlideModule from the @GlideModule-annotated
+    // MainAppGlideModule below, and registers any LibraryGlideModules
+    // (e.g. the one from nextcloud-commons-sso-glide) -- without this,
+    // Glide silently ignores them and logs the "Failed to find
+    // GeneratedAppGlideModule" warning. ksp is used (not kapt) since the
+    // app calls Glide.with(...) directly rather than the deprecated
+    // generated GlideApp/GlideRequests API, which ksp doesn't support.
+    ksp(libs.glide.ksp)
 }
