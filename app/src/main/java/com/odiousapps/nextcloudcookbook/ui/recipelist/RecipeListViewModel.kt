@@ -26,6 +26,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -98,7 +99,14 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
                     }
                 }
             }
-         tmp.collect {
+         tmp.map { list ->
+            // Defensive dedup: a recipe can end up as two separate Room rows
+            // if a stale row from before an insert/update matching change
+            // doesn't get recognized as "the same recipe" as a freshly
+            // re-synced one. Keeps the first occurrence per name, following
+            // whichever sort order is currently active.
+            list.distinctBy { it.name }
+         }.collect {
             recipes.value = it
          }
       }
