@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_specialthanks">We also thank Stefan Niedermann for his work with the Nextcloud Deck and Nextcloud Notes apps, which are a great inspiration</string>
 	<string name="about_summary">Kitchen Archive Tool (KAT) is an Android app that utilises the Nextcloud server Cookbook app to manage recipes</string>
 	<string name="about_title">About</string>
 	<string name="about_version">App version: %1$s</string>
