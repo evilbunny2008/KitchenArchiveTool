@@ -1,1 +1,0 @@
-- Bugfix: Online-Synchronisierung funktioniert nicht (Issue #90)

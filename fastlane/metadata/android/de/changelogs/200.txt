@@ -1,4 +1,0 @@
-* Sieben Sprachen hinzugefügt: Finnisch, Dänisch, Schwedisch, Portugisisch, Isländisch, Estnisch and Baskisch
-* Neue Ladetechnick für Rezepte im Hintergrund (Fehlerkorrekturen)
-* Caching der Rezepte in einer sqlite-Datenbank
-* Benötigte Werkzeuge im Info-Tab anzeigen (Details)

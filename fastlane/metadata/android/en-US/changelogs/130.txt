@@ -1,3 +1,0 @@
-* Graphical improvements (icon with white color, detail view tabs in dark)
-* Bugfix: App crashes, if user switch too fast between two recipes
-* Update system libraries

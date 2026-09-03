@@ -1,8 +1,0 @@
-- Update des Login-Syncings (Anzeige als Ladevorgang) (Danke an newhinton)
-- Verbindungsprüfung vor dem Synchronisieren (Danke an TnSb)
-- Icon verbessert (Danke an TnSb)
-- Kategorien korrigiert
-- Aktualisierung der genutzten Bibliotheken
-- Berechtigungen gefixt
-- MinSDK auf 26
-- Doppelte Einträge korrigiert (#92)

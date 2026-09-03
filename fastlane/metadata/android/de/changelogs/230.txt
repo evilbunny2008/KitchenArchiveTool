@@ -1,6 +1,0 @@
-* Neu: Zutaten sind als erledigt markierbar (Danke an leafar)
-* Neu: Download mit einer URL wie in der Server-Anwendung (Danke an leafar)
-* Neu: Zutaten an Portionen anpassen (Danke an leafar)
-* Verbesserungen der Erledigt-Anzeige: Durchgestrichen und ein Tipp auf dem Text markiert ebenfalls (Danke an leafar)
-* Optimierungen der Suche und des Rezept-Handling
-* Übersetzungen integriert (Danke an mondstern, Quang Trung und J. Lavoie)

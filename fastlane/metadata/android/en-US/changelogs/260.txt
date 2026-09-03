@@ -1,1 +1,0 @@
-* Handle further ld+json formats for downloads (thanks to leafar)

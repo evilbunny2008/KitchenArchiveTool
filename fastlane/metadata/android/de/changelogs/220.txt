@@ -1,4 +1,0 @@
-+ Fehlerbehebung: Kleinere Korrekturen beim JSON-Parsing
-+ Neu: Nummerierte Anweisungen, die als erledigt markiert werden können
-+ Neu: Im Landscape-Modus werden Zutaten und Anweisungen nebeneinander angezeigt
-+ Übersetzungen aktualisiert

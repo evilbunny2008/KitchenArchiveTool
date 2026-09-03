@@ -1,8 +1,0 @@
-- Update login flows (thanks to newhinton)
-- Connectivity checks before syncing (thanks to TnSb)
-- Improve themeable icon (thanks to TnSb)
-- Fix categories
-- Update libraries
-- Fix permissions
-- MinSDK to 26
-- Fix double entries (#92)

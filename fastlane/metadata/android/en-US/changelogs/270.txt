@@ -1,2 +1,0 @@
-* New feature: Copy ingredients to clipboard
-* Improvement: datastore for settings

@@ -1,3 +1,0 @@
-* Wechsel von Klaxon zu kotlinx.serialization für JSON-Parsing
-* Neues Feature: Markiere Rezepte mit einem Stern (Favorit) -> Rezepte werden an den Beginn der Liste gesetzt (Danke an leafar)
-* Neues Feature: Kochtimer kann mit einem Touch auf die Kochzeit im Rezept gestartet werden

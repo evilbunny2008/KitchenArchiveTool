@@ -1,3 +1,0 @@
-* Korrigiert Issue #7: Bug beim Parsen des Felds "recipeCuisine" im JSON
-* Schließt Issue #6: Neues Feature Sortieroptionen
-* Neue Library-Versionen

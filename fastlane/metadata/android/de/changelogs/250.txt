@@ -1,2 +1,0 @@
-* Optimiert das Laden des Rezeptverzeichnis (Danke an leafar)
-* Unterstützung für Unicode Fractional Codepoints in der Skalierung der Zutaten (Danke an leafar)

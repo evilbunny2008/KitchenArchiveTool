@@ -1,1 +1,0 @@
-- Bugfix: Online-Sync does not work (Issue #90)

@@ -1,1 +1,0 @@
-* Fehlerbehebungen (Absturz der App, keine Bilder, Kategorie-Problem)

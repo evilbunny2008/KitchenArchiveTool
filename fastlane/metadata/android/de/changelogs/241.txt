@@ -1,2 +1,0 @@
-* Wechsel auf Java 11 im Buildskript
-* Aktualisierung der Libraries

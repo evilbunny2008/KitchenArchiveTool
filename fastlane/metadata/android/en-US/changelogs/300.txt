@@ -1,4 +1,0 @@
-- direct server synchronisation (thanks to newhinton)
-- new ui like other nextcloud apps (thanks to newhinton)
-- new cooking timer
-- Other optimizations
