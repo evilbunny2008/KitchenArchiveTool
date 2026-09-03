@@ -20,32 +20,32 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface RecipeDataDao {
    @Transaction
-   @Query("SELECT DISTINCT ${DbRecipePreview.DBFIELDS} FROM recipes ORDER BY starred DESC, LOWER(name) ASC")
-   fun getAllRecipePreviews(): Flow<List<DbRecipePreview>>
+   @Query("SELECT DISTINCT ${DbRecipePreview.DBFIELDS} FROM recipes WHERE fs_filePath LIKE :dirPrefix ESCAPE '\\' ORDER BY starred DESC, LOWER(name) ASC")
+   fun getAllRecipePreviews(dirPrefix: String): Flow<List<DbRecipePreview>>
 
    @Transaction
    @Query(
-      "SELECT DISTINCT ${DbRecipePreview.DBFIELDS} FROM recipes ORDER BY starred DESC, " +
+      "SELECT DISTINCT ${DbRecipePreview.DBFIELDS} FROM recipes WHERE fs_filePath LIKE :dirPrefix ESCAPE '\\' ORDER BY starred DESC, " +
             "CASE WHEN :isAsc = 1 THEN LOWER(name) END ASC," +
             "CASE WHEN :isAsc = 0 THEN LOWER(name) END DESC"
    )
-   fun sortByName(isAsc: Boolean): Flow<List<DbRecipePreview>>
+   fun sortByName(isAsc: Boolean, dirPrefix: String): Flow<List<DbRecipePreview>>
 
    @Transaction
    @Query(
-      "SELECT DISTINCT ${DbRecipePreview.DBFIELDS} FROM recipes ORDER BY starred DESC, " +
+      "SELECT DISTINCT ${DbRecipePreview.DBFIELDS} FROM recipes WHERE fs_filePath LIKE :dirPrefix ESCAPE '\\' ORDER BY starred DESC, " +
             "CASE WHEN :isAsc = 1 THEN datePublished END ASC," +
             "CASE WHEN :isAsc = 0 THEN datePublished END DESC"
    )
-   fun sortByDate(isAsc: Boolean): Flow<List<DbRecipePreview>>
+   fun sortByDate(isAsc: Boolean, dirPrefix: String): Flow<List<DbRecipePreview>>
 
    @Transaction
    @Query(
-      "SELECT DISTINCT ${DbRecipePreview.DBFIELDS} FROM recipes ORDER BY starred DESC, " +
+      "SELECT DISTINCT ${DbRecipePreview.DBFIELDS} FROM recipes WHERE fs_filePath LIKE :dirPrefix ESCAPE '\\' ORDER BY starred DESC, " +
             "CASE WHEN :isAsc = 1 THEN totalTime END ASC," +
             "CASE WHEN :isAsc = 0 THEN totalTime END DESC"
    )
-   fun sortByTotalTime(isAsc: Boolean): Flow<List<DbRecipePreview>>
+   fun sortByTotalTime(isAsc: Boolean, dirPrefix: String): Flow<List<DbRecipePreview>>
 
    @Transaction
    @Query("SELECT * FROM recipes WHERE id = :id")
@@ -54,6 +54,10 @@ interface RecipeDataDao {
    @Transaction
    @Query("SELECT * FROM recipes WHERE name = :n")
    fun findByName(n: String): DbRecipe?
+
+   @Transaction
+   @Query("SELECT * FROM recipes WHERE name = :n AND fs_filePath LIKE :dirPrefix ESCAPE '\\'")
+   fun findByNameInDir(n: String, dirPrefix: String): DbRecipe?
 
    @Transaction
    @Query("SELECT fs_filePath AS filePath, fs_lastModified AS lastModified FROM recipes")

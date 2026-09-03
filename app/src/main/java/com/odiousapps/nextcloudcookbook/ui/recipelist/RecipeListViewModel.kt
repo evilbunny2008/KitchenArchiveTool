@@ -81,20 +81,20 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
          tmp =
             if (filter != null) {
                Log.d("RecipeListViewModel", "SEARCH ! $filter")
-               recipeRepository.filterAll(sort, filter!!)
+               recipeRepository.filterAll(sort, filter!!, recipeDir)
             } else {
                 when (catFilter.type) {
                     CategoryFilter.CategoryFilterOption.ALL_CATEGORIES if sort == SortValue.NAME_A_Z -> {
-                        recipeRepository.getAllRecipePreviews()
+                        recipeRepository.getAllRecipePreviews(recipeDir)
                     }
                     CategoryFilter.CategoryFilterOption.ALL_CATEGORIES -> {
-                        recipeRepository.sort(sort)
+                        recipeRepository.sort(sort, recipeDir)
                     }
                     CategoryFilter.CategoryFilterOption.UNCATEGORIZED -> {
-                        recipeRepository.filterUncategorized(sort, filter)
+                        recipeRepository.filterUncategorized(sort, recipeDir, filter)
                     }
                     else -> {
-                        recipeRepository.filterCategory(sort, catFilter.name)
+                        recipeRepository.filterCategory(sort, catFilter.name, recipeDir)
                     }
                 }
             }
@@ -123,7 +123,7 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
          val dbList = list.stream()
             .map { Recipe2DbRecipeConverter(it).convert() }
             .collect(Collectors.toList())
-         recipeRepository.insertAll(dbList)
+         recipeRepository.insertAll(dbList, dir)
 
          isLoaded.postValue(true)
          if (!hidden) isUpdating.postValue(false)

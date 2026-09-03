@@ -24,6 +24,24 @@ class DbRecipeRepository private constructor(application: Application) {
    // we prepend 'recipes.' to resolve name ambiguities (e.g. column 'id')
    private val dbPreviewFields = DbRecipePreview.DBFIELDS.split(", ").joinToString(", ") { "recipes.$it" }
 
+   /**
+    * Builds a SQL LIKE pattern matching any file under the given recipe
+    * directory (each account has its own recipes/<accountName>/ folder --
+    * see Sync.kt -- so this is what scopes every query below to only the
+    * currently active account's recipes). '%' and '_' are SQL LIKE
+    * wildcards, so any literal occurrence of either in the path itself
+    * (e.g. an account name containing '_') is escaped, matched by the
+    * corresponding ESCAPE '\' clause on each query using this.
+    */
+   private fun likePrefix(recipeDir: String): String {
+      val escaped = recipeDir
+         .removeSuffix("/")
+         .replace("\\", "\\\\")
+         .replace("%", "\\%")
+         .replace("_", "\\_")
+      return "$escaped/%"
+   }
+
    companion object {
       @Volatile
       private var INSTANCE: DbRecipeRepository? = null
@@ -42,12 +60,12 @@ class DbRecipeRepository private constructor(application: Application) {
       }
    }
 
-   fun getAllRecipePreviews() = mRecipeDao.getAllRecipePreviews()
+   fun getAllRecipePreviews(recipeDir: String) = mRecipeDao.getAllRecipePreviews(likePrefix(recipeDir))
 
    fun getRecipe(id: Long) = mRecipeDao.getById(id)
 
    fun filterCategory(
-      sort: SortValue, category: String,
+      sort: SortValue, category: String, recipeDir: String,
       recipeFilter: RecipeFilter? = null
    ): Flow<List<DbRecipePreview>> {
       var select = "SELECT DISTINCT $dbPreviewFields FROM recipes WHERE recipeCategory = '${category}' "
@@ -59,14 +77,15 @@ class DbRecipeRepository private constructor(application: Application) {
                   ".recipeId" +
                   " WHERE recipeCategory REGEXP '(^|,)\\s*${category} AND " + getWhereClause(recipeFilter)
       }
+      select += " AND recipes.fs_filePath LIKE ? ESCAPE '\\' "
       select += " ORDER BY " + getOrderBy(sort)
 
-      val args = if (recipeFilter != null) arrayOf(recipeFilter.query) else null
+      val args = if (recipeFilter != null) arrayOf(recipeFilter.query, likePrefix(recipeDir)) else arrayOf(likePrefix(recipeDir))
       val query = SimpleSQLiteQuery(select, args)
       return mRecipeDao.filterRecipes(query)
    }
 
-   fun filterUncategorized(sort: SortValue, recipeFilter: RecipeFilter? = null): Flow<List<DbRecipePreview>> {
+   fun filterUncategorized(sort: SortValue, recipeDir: String, recipeFilter: RecipeFilter? = null): Flow<List<DbRecipePreview>> {
       var select = "SELECT DISTINCT $dbPreviewFields FROM recipes WHERE recipeCategory = ''"
       if (recipeFilter != null && recipeFilter.type != RecipeFilter.QueryType.QUERY_INGREDIENTS) {
          select += " AND " + getWhereClause(recipeFilter)
@@ -77,15 +96,16 @@ class DbRecipeRepository private constructor(application: Application) {
                   " WHERE recipeCategory = '' AND " + getWhereClause(recipeFilter)
       }
 
+      select += " AND recipes.fs_filePath LIKE ? ESCAPE '\\' "
       select += " ORDER BY " + getOrderBy(sort)
 
-      val args = if (recipeFilter != null) arrayOf(recipeFilter.query) else null
+      val args = if (recipeFilter != null) arrayOf(recipeFilter.query, likePrefix(recipeDir)) else arrayOf(likePrefix(recipeDir))
 
       val query = SimpleSQLiteQuery(select, args)
       return mRecipeDao.filterRecipes(query)
    }
 
-   fun filterAll(sort: SortValue, recipeFilter: RecipeFilter): Flow<List<DbRecipePreview>> {
+   fun filterAll(sort: SortValue, recipeFilter: RecipeFilter, recipeDir: String): Flow<List<DbRecipePreview>> {
       var select = when (recipeFilter.type) {
          RecipeFilter.QueryType.QUERY_KEYWORD -> "SELECT DISTINCT $dbPreviewFields FROM recipes" +
                " INNER JOIN recipeXKeywords x ON x.recipeId = recipes.id" +
@@ -97,9 +117,10 @@ class DbRecipeRepository private constructor(application: Application) {
          else -> "SELECT $dbPreviewFields FROM recipes WHERE " + getWhereClause(recipeFilter)
       }
 
+      select += " AND recipes.fs_filePath LIKE ? ESCAPE '\\' "
       select += " ORDER BY " + getOrderBy(sort)
 
-      val args = arrayOf(recipeFilter.query)
+      val args = arrayOf(recipeFilter.query, likePrefix(recipeDir))
 
       val query = SimpleSQLiteQuery(select, args)
       return mRecipeDao.filterRecipes(query)
@@ -109,27 +130,29 @@ class DbRecipeRepository private constructor(application: Application) {
 
    fun getKeywords() = mRecipeDao.getAllKeywords()
 
-   fun sort(sort: SortValue): Flow<List<DbRecipePreview>> {
+   fun sort(sort: SortValue, recipeDir: String): Flow<List<DbRecipePreview>> {
+      val dirPrefix = likePrefix(recipeDir)
       return when (sort) {
-         SortValue.NAME_A_Z -> mRecipeDao.sortByName(true)
-         SortValue.NAME_Z_A -> mRecipeDao.sortByName(false)
-         SortValue.DATE_ASC -> mRecipeDao.sortByDate(true)
-         SortValue.DATE_DESC -> mRecipeDao.sortByDate(false)
-         SortValue.TOTAL_TIME_ASC -> mRecipeDao.sortByTotalTime(true)
-         SortValue.TOTAL_TIME_DESC -> mRecipeDao.sortByTotalTime(false)
+         SortValue.NAME_A_Z -> mRecipeDao.sortByName(true, dirPrefix)
+         SortValue.NAME_Z_A -> mRecipeDao.sortByName(false, dirPrefix)
+         SortValue.DATE_ASC -> mRecipeDao.sortByDate(true, dirPrefix)
+         SortValue.DATE_DESC -> mRecipeDao.sortByDate(false, dirPrefix)
+         SortValue.TOTAL_TIME_ASC -> mRecipeDao.sortByTotalTime(true, dirPrefix)
+         SortValue.TOTAL_TIME_DESC -> mRecipeDao.sortByTotalTime(false, dirPrefix)
       }
    }
 
    fun getCategories(): Flow<List<String>> = mRecipeDao.getCategories()
 
-   fun insertAll(recipes: List<DbRecipe>) {
+   fun insertAll(recipes: List<DbRecipe>, recipeDir: String) {
+      val dirPrefix = likePrefix(recipeDir)
       RecipeDatabase.databaseWriteExecutor.execute {
          if (recipes.isNotEmpty()) {
             mRecipeDao.deleteAllKeywordRelations()
             mRecipeDao.deleteAllKeywords()
          }
          recipes.forEach { recipe ->
-            val r = mRecipeDao.findByName(recipe.recipeCore.name)
+            val r = mRecipeDao.findByNameInDir(recipe.recipeCore.name, dirPrefix)
 
             if (r == null) {
                val id = mRecipeDao.insert(recipe.recipeCore)

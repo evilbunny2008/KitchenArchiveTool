@@ -163,6 +163,13 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
                   settingViewModel.recipeDirectory.collect { dir ->
                      if (!isLoaded || PreferenceData.getInstance().isSyncServiceEnabled()) {
                         recipesViewModel.initRecipes(dir)
+                        // Rebuilds the list query against the (possibly new,
+                        // e.g. after switching accounts) directory -- without
+                        // this, the previously active query subscription
+                        // keeps filtering by whatever directory was in effect
+                        // when it was originally created, so the visible list
+                        // wouldn't reflect the account switch at all.
+                        loadData()
                      }
                   }
                }

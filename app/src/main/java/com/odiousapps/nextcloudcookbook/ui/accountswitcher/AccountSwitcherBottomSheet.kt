@@ -30,9 +30,13 @@ import com.odiousapps.nextcloudcookbook.databinding.BottomSheetAccountSwitcherBi
 import com.odiousapps.nextcloudcookbook.databinding.ItemAccountSwitcherBinding
 import com.odiousapps.nextcloudcookbook.nextcloudapi.Accounts
 import com.odiousapps.nextcloudcookbook.nextcloudapi.UserInfoAPI
+import com.odiousapps.nextcloudcookbook.services.sync.SyncService
+import com.odiousapps.nextcloudcookbook.settings.PreferenceData
+import com.odiousapps.nextcloudcookbook.util.Filesystem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import java.io.File
 
 private const val NEXTCLOUD_ACCOUNT_TYPE = "nextcloud"
 
@@ -89,8 +93,7 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
             b.accountList.visibility = View.VISIBLE
             b.accountList.adapter = AccountSwitcherAdapter(accounts) { item ->
                if (!item.isCurrent) {
-                  SingleAccountHelper.commitCurrentAccount(context, item.accountName)
-                  (activity as? AccountSwitcherHost)?.onAccountSwitched()
+                  switchToAccount(context, item.accountName)
                }
                dismiss()
             }
@@ -101,6 +104,38 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
    override fun onDestroyView() {
       super.onDestroyView()
       _binding = null
+   }
+
+   /**
+    * Switches the active account and points the recipe list at that
+    * account's own folder, then kicks off a sync -- the same sequence
+    * MainActivity/LoginActivity already perform when a NEW account is
+    * added via the system chooser (AccountImporter.onActivityResult),
+    * replicated here for switching between accounts already known to
+    * this app. Each account has its own recipes/<accountName>/ folder
+    * (see Sync.kt), so pointing recipeDir at it and letting
+    * RecipeListFragment's existing reactive collector on that preference
+    * pick up the change is what makes the recipe list show only this
+    * account's recipes -- no direct coupling to RecipeListFragment needed.
+    *
+    * Syncing (not purging local recipes unless they're gone from the
+    * server) is handled by Sync.kt's existing per-account logic; this
+    * only needs to trigger it, same as the existing flows already do.
+    */
+   private fun switchToAccount(context: Context, accountName: String) {
+      SingleAccountHelper.commitCurrentAccount(context, accountName)
+
+      val prefs = PreferenceData.getInstance()
+      viewLifecycleOwner.lifecycleScope.launch {
+         withContext(Dispatchers.IO) {
+            val externalDir = Filesystem(context).getInternalStoragePath()
+            val accountRecipeDir = File(externalDir, "recipes/$accountName/")
+            prefs.setRecipeDir(accountRecipeDir.absolutePath)
+         }
+         prefs.setSyncServiceEnabled()
+         (activity as? AccountSwitcherHost)?.onAccountSwitched()
+         context.startService(Intent(context, SyncService::class.java))
+      }
    }
 
    /**
