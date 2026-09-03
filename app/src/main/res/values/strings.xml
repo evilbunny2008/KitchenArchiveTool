@@ -1,149 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="about_summary">Kitchen Archive Tool is an Android app for the Nextcloud server Cookbook app to manage recipes</string>
-	<string name="about_title">About</string>
-	<string name="about_version">App version: %1$s</string>
-	<string name="account_switcher_current_account_desc">Current account</string>
-	<string name="add_account">Add account</string>
-	<string name="app_logo_desc">Launcher icon of the app showing a cookbook symbol</string>
-	<string name="app_name" translatable="false">weeWX App</string>
-	<string name="back_button">Back to list</string>
-	<string name="cancel_btn">Cancel the timer (invisible)</string>
-	<string name="channel_description">Channel for timer notifications</string>
-	<string name="channel_name">Timer channel</string>
-	<string name="cooktime_pause_btn">Pauses the timer</string>
-	<string name="cooktime_reset_btn">Stops and resets the timer</string>
-	<string name="cooktime_start_btn">Starts the timer</string>
-	<string name="cooktime_title">Cooking timer</string>
-	<string name="cooktime_tooltip">Start a cooking timer</string>
-	<string name="copy_ing_message">Ingredients copied to clipboard</string>
-	<string name="copy_ingredients">Copy ingredients</string>
-	<string name="dir_chooser_error">Error: Root folder is not allowed!</string>
-	<string name="empty_list">No recipes</string>
-	<string name="error_no_network">No network connection</string>
-	<string name="error_only_wifi">Synchronization only allowed on Wifi</string>
-	<string name="error_sync">Synchronization failed: %1$s</string>
-	<string name="folder_pick_cancel">Folder picker cancelled by user</string>
-	<string name="folder_pick_success">Folder %1$s selected</string>
-	<string name="form_download_commit">Download</string>
-	<string name="form_download_folder">Override target folder</string>
-	<string name="form_download_options">Options</string>
-	<string name="form_download_override_existing">Replace existing recipe folder</string>
-	<string name="form_download_title">Download Recipe</string>
-	<string name="form_download_url_hint">Recipe URL</string>
-	<string name="form_exact_search">Do an exact search?</string>
-	<string name="form_ignore_case">Ignore case?</string>
-	<string name="form_search_commit">Search</string>
-	<string name="form_search_hint">Search…</string>
-	<string name="form_search_options">Search options</string>
-	<string name="form_search_title">Advanced Search</string>
-	<string name="form_type_ingredients">Search by ingredient</string>
-	<string name="form_type_keyword">Search by keyword</string>
-	<string name="form_type_yield">Search by Yield</string>
-	<string name="form_types">Type to search</string>
-	<string name="granted_permissions">Granted: %s</string>
-	<string name="header_image_desc">Header image of recipe</string>
-	<string name="img_desc_logo">Logo of the recipe</string>
-	<string name="ingredients_yield">Yield</string>
-	<string name="label_source">Source:</string>
-	<string name="list_recipe_star_desc">Star icon indicating the favourite status of the recipe</string>
-	<string name="login">Login</string>
-	<string name="manage_accounts">Account management</string>
-	<string name="menu_all_categories">All categories</string>
-	<string name="menu_categories">Categories</string>
-	<string name="menu_download_title">Download</string>
-	<string name="menu_download_tooltip">download recipe</string>
-	<string name="menu_import_recipe">Import Recipe</string>
-	<string name="menu_refresh_tooltip">Refresh recipes</string>
-	<string name="menu_search_title">Advanced Search</string>
-	<string name="menu_search_tooltip">Search recipe</string>
-	<string name="menu_settings">Settings</string>
-	<string name="menu_settings_title">Settings</string>
-	<string name="menu_sort_title">Sort</string>
-	<string name="menu_sso">Single Sign On</string>
-	<string name="menu_title_app">KAT App</string>
-	<string name="menu_uncategorized">Uncategorized</string>
-	<string name="no_information">No Information</string>
-	<string name="no_ingredients">No Ingredients</string>
-	<string name="notification_text">Time remains: %1$s</string>
-	<string name="notification_title">Kitchen Archive Tool Timer</string>
-	<string name="nutrition_calories">Calories: %1$s</string>
-	<string name="nutrition_carbohydrate_content">Carbohydrate Content: %1$s</string>
-	<string name="nutrition_cholesterol_content">Cholesterol Content: %1$s</string>
-	<string name="nutrition_fat_content">Fat Content: %1$s</string>
-	<string name="nutrition_fiberContent">Fiber Content: %1$s</string>
-	<string name="nutrition_protein_content">Protein Content: %1$s</string>
-	<string name="nutrition_saturated_fat_content">Saturated Fat Content: %1$s</string>
-	<string name="nutrition_serving_size">Serving Size: %1$s</string>
-	<string name="nutrition_sodium_content">Sodium Content: %1$s</string>
-	<string name="nutrition_sugar_content">Sugar Content: %1$s</string>
-	<string name="nutrition_trans_fat_content">Trans Fat Content: %1$s</string>
-	<string name="nutrition_unsaturated_fat_content">Unsaturated Fat Content: %1$s</string>
-	<string name="permanently_denied_permissions">Permanently denied: %s</string>
-	<string name="permission_canceled">Cancelled by user</string>
-	<string name="permission_notification_required">The permission for showing notification is required for cooking timer</string>
-	<string name="permission_ok_message">Storage access has been granted for %1$s</string>
-	<string name="permission_please_grant">Please grant storage permissions</string>
-	<string name="permission_select_root">Please select %1$s</string>
-	<string name="permission_warning_nowrite">You have no write access to this storage, thus selecting this folder is useless.\nWould you like to grant access to this folder?</string>
-	<string name="permissions_error_message">Access denied! App need storage access, please activate in the settings</string>
-	<string name="permissions_required">Permissions are required!</string>
-	<string name="play_btn">Starts/Pause timer</string>
-	<string name="pref_category_design">Design</string>
-	<string name="pref_category_function">Functionality</string>
-	<string name="pref_category_sync">Synchronisation</string>
-	<string name="pref_summary_keep_screen_alive">Dont lock the screen when viewing a recipe</string>
-	<string name="pref_summary_sync_wifi_only">This disables syncing when the device is only connected via mobile data</string>
-	<string name="pref_title_enableSyncService">Background Synchronisation</string>
-	<string name="pref_title_keep_screen_alive">Keep the screen alive</string>
-	<string name="pref_title_sync_wifi_only">Sync on Wifi only</string>
-	<string name="preftitle_recipeDir">Recipe Directory</string>
-	<string name="preftitle_theme">Select Theme</string>
-	<string name="rationale_permissions">Rationale: %s</string>
-	<string name="recipe_details_tabs">Recipe is organized in tabs</string>
-	<string name="recipe_list_image_desc">Image thumbnail of recipe</string>
-	<string name="recipe_no_timer">This Recipe does not have a timer!</string>
-	<string name="request_again">Request again</string>
-	<string name="search_hint">Search by name</string>
-	<string name="search_in_all">Search…</string>
-	<string name="skip_for_local_storage">Skip for local storage</string>
-	<string name="sort_value_alpha_asc">Name A-Z</string>
-	<string name="sort_value_alpha_desc">Name Z-A</string>
-	<string name="sort_value_date_asc">Date published ascending</string>
-	<string name="sort_value_date_desc">Date published descending</string>
-	<string name="sort_value_time_asc">Total time ascending</string>
-	<string name="sort_value_time_desc">Total time descending</string>
-	<string name="stop_btn">Stops timer</string>
-	<string name="storage_permissions_not_granted">No storage access!</string>
-	<string name="sync_interval_name_1">Every Hour</string>
-	<string name="sync_interval_name_4">Every 4 Hours</string>
-	<string name="sync_interval_name_6">Every 6 Hours</string>
-	<string name="sync_interval_name_12">Every 12 Hours</string>
-	<string name="sync_interval_name_24">Every 24 Hours</string>
-	<string name="sync_interval_name_off">Off</string>
-	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
-	<string name="sync_service_channel_description">Used for foreground notfiication when syncing recipes</string>
-	<string name="sync_service_channel_name">Sync Service</string>
-	<string name="sync_service_notification_content">We are currently updating your recipes, we’ll be back shortly! You may hide this notification in the notification settings</string>
-	<string name="sync_service_notification_title">Sync Recipes</string>
-	<string name="tab_info_title">Info</string>
-	<string name="tab_ingredients_title">Ingredients</string>
-	<string name="tab_instructions_title">Instructions</string>
-	<string name="tab_nutritions_title">Nutritions</string>
-	<string name="text_author">Author:</string>
-	<string name="text_categories">Category:</string>
-	<string name="text_date_published">Date published: %1$s</string>
-	<string name="text_keywords">Keywords:</string>
-	<string name="text_no_keywords">No keywords</string>
-	<string name="text_tools">Needed tools:</string>
-	<string name="text_uncategorized">Uncategorized</string>
-	<string name="text_yield">Yield:</string>
-	<string name="theme_name_dark">Dark</string>
-	<string name="theme_name_light">Light</string>
-	<string name="theme_name_system">System</string>
-	<string name="title_dir_chooser">Choose a directory…</string>
-	<string name="title_duration">Durations in HH:MM</string>
-	<string name="tooltip_cook_time">Cooking</string>
-	<string name="tooltip_prep_time">Preparation</string>
-	<string name="tooltip_total_time">Total</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+   <string name="app_name">KAT</string>
+   <string name="app_name_long" translatable="false">Kitchen Archive Tool</string>
+   <string name="app_logo_desc">Launcher icon of the app showing a KAT symbol</string>
+
+   <string name="no_information">No Information.</string>
+
+   <!-- recipe list -->
+   <string name="empty_list">No recipes.</string>
+   <string name="recipe_list_image_desc">Image thumbnail of recipe</string>
+   <string name="error_sync">Synchronization failed: %1$s</string>
+   <string name="sync_progress_text">%1$d/%2$d - %3$s</string>
+   <string name="error_no_network">No network connection</string>
+   <string name="error_only_wifi">Synchronization only allowed on Wifi</string>
+
+   <!-- recipe detail -->
+   <string name="img_desc_logo">Logo of the recipe</string>
+   <string name="list_symbol" translatable="false">•</string>
+   <string name="done_image_desc" translatable="false">Done image</string>
+   <string name="title_duration">Durations in HH:MM</string>
+   <string name="tooltip_prep_time">Preparation</string>
+   <string name="tooltip_cook_time">Cooking</string>
+   <string name="tooltip_total_time">Total</string>
+
+   <!-- tab titles -->
+   <string name="tab_info_title">Info</string>
+   <string name="tab_ingredients_title">Ingredients</string>
+   <string name="tab_instructions_title">Instructions</string>
+   <string name="tab_nutritions_title">Nutritions</string>
+
+   <!-- tab infos -->
+   <string name="header_image_desc">Header image of recipe</string>
+   <string name="text_uncategorized">Uncategorized</string>
+   <string name="text_categories">Category:</string>
+   <string name="text_yield">Yield:</string>
+   <string name="text_author">Author:</string>
+   <string name="text_no_keywords">No keywords.</string>
+   <string name="text_keywords">Keywords:</string>
+   <string name="text_date_published">Date published: %1$s</string>
+   <string name="text_tools">Needed tools:</string>
+
+   <!-- Nutritions -->
+   <string name="nutrition_calories">Calories: %1$s</string>
+   <string name="nutrition_carbohydrate_content">Carbohydrate Content: %1$s</string>
+   <string name="nutrition_cholesterol_content">Cholesterol Content: %1$s</string>
+   <string name="nutrition_fat_content">Fat Content: %1$s</string>
+   <string name="nutrition_fiberContent">Fiber Content: %1$s</string>
+   <string name="nutrition_protein_content">Protein Content: %1$s</string>
+   <string name="nutrition_saturated_fat_content">Saturated Fat Content: %1$s</string>
+   <string name="nutrition_serving_size">Serving Size: %1$s</string>
+   <string name="nutrition_sodium_content">Sodium Content: %1$s</string>
+   <string name="nutrition_sugar_content">Sugar Content: %1$s</string>
+   <string name="nutrition_trans_fat_content">Trans Fat Content: %1$s</string>
+   <string name="nutrition_unsaturated_fat_content">Unsaturated Fat Content: %1$s</string>
+
+   <!-- menu -->
+   <string name="menu_search_title">Advanced Search</string>
+   <string name="menu_settings_title">Settings</string>
+   <string name="menu_sort_title">Sort</string>
+   <string name="menu_download_title">Download</string>
+   <string name="menu_refresh_tooltip">Refresh recipes</string>
+   <string name="menu_search_tooltip">Search recipe</string>
+   <string name="menu_download_tooltip">download recipe</string>
+   <string name="search_hint">Search by name</string>
+
+   <!-- search formular -->
+   <string name="form_search_title">Advanced Search</string>
+   <string name="form_search_hint">Search…</string>
+   <string name="form_ignore_case">Ignore case?</string>
+   <string name="form_exact_search">Do an exact search?</string>
+   <string name="form_types">Type to search</string>
+   <string name="form_type_keyword">Search by keyword</string>
+   <string name="form_type_ingredients">Search by ingredient</string>
+   <string name="form_type_yield">Search by Yield</string>
+   <string name="form_search_options">Search options</string>
+   <string name="form_search_commit">Search</string>
+
+   <!-- download formular -->
+   <string name="form_download_title">Download Recipe</string>
+   <string name="form_download_url_hint">Recipe URL</string>
+   <string name="form_download_options">Options</string>
+   <string name="form_download_override_existing">Replace existing recipe folder</string>
+   <string name="form_download_commit">Download</string>
+   <string name="form_download_folder">Override target folder</string>
+
+   <!-- navdrawer_menu -->
+   <string name="menu_all_categories">All categories</string>
+   <string name="menu_uncategorized">Uncategorized</string>
+
+   <!-- preferences -->
+   <string name="pref_category_function">Functionality</string>
+   <string name="pref_category_design">Design</string>
+   <string name="preftitle_recipeDir">Recipe Directory</string>
+   <string name="prefkey_recipeDir" translatable="false">recipe_directory</string>
+   <string name="title_dir_chooser">Choose a directory…</string>
+   <string name="dir_chooser_error">Error: Root folder is not allowed!</string>
+   <string name="prefkey_theme" translatable="false">theme_setting</string>
+   <string name="preftitle_theme">Select Theme</string>
+   <string name="prefkey_about" translatable="false">app_about</string>
+
+   <string name="pref_summary_keep_screen_alive">Dont lock the screen when viewing a recipe</string>
+   <string name="pref_title_keep_screen_alive">Keep the screen alive</string>
+
+   <string name="pref_category_sync">Synchronisation</string>
+   <string name="pref_title_enableSyncService">Background Synchronisation</string>
+
+   <string name="pref_title_sync_wifi_only">Sync on Wifi only</string>
+   <string name="pref_summary_sync_wifi_only" >This disables syncing when the device is only connected via mobile data.</string>
+
+   <string-array name="theme_values" translatable="false">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+   </string-array>
+
+   <string name="theme_name_light">Light</string>
+   <string name="theme_name_dark">Dark</string>
+   <string name="theme_name_system">System</string>
+
+   <string-array name="sort_values" translatable="false">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+   </string-array>
+
+   <string name="sort_value_alpha_asc">Name A-Z</string>
+   <string name="sort_value_alpha_desc">Name Z-A</string>
+   <string name="sort_value_date_asc">Date published ascending</string>
+   <string name="sort_value_date_desc">Date published descending</string>
+   <string name="sort_value_time_asc">Total time ascending</string>
+   <string name="sort_value_time_desc">Total time descending</string>
+
+
+   <string name="sync_interval_name_off">Off</string>
+   <string name="sync_interval_name_1">Every Hour</string>
+   <string name="sync_interval_name_4">Every 4 Hours</string>
+   <string name="sync_interval_name_6">Every 6 Hours</string>
+   <string name="sync_interval_name_12">Every 12 Hours</string>
+   <string name="sync_interval_name_24">Every 24 Hours</string>
+
+   <string-array name="sync_interval_values" translatable="false">
+      <item>0</item>
+      <item>1</item>
+      <item>4</item>
+      <item>6</item>
+      <item>12</item>
+      <item>24</item>
+   </string-array>
+
+   <string name="prefkey_keep_screen_alive" translatable="false">keep_screen_alive</string>
+   <string name="prefkey_sync_wifi_only" translatable="false">sync_wifi_only</string>
+   <string name="prefkey_enableSyncService" translatable="false">enableSyncService</string>
+
+
+   <!-- permissions -->
+   <string name="permission_granted" translatable="false">granted</string>
+   <string name="permission_denied" translatable="false">denied</string>
+   <string name="permission_select_root">Please select %1$s.</string>
+   <string name="permissions_error_message">Access denied! App need storage access, please activate in the settings.</string>
+   <string name="permission_canceled">Cancelled by user</string>
+   <string name="permission_ok_message">Storage access has been granted for %1$s.</string>
+   <string name="permission_please_grant">Please grant storage permissions.</string>
+   <string name="permission_warning_nowrite">You have no write access to this storage, thus selecting this folder is useless.\nWould you like to grant access to this folder?.</string>
+   <string name="folder_pick_cancel">Folder picker cancelled by user.</string>
+   <string name="folder_pick_success">Folder %1$s selected.</string>
+   <string name="ingredients_yield">Yield</string>
+   <string name="list_recipe_star_desc">Star icon indicating the favourite status of the recipe</string>
+   <string name="request_again">Request again</string>
+   <string name="permissions_required">Permissions are required!</string>
+   <string name="granted_permissions">Granted: %s</string>
+   <string name="rationale_permissions">Rationale: %s</string>
+   <string name="permanently_denied_permissions">Permanently denied: %s</string>
+   <string name="permission_notification_required">The permission for showing notification is required for cooking timer</string>
+
+   <!-- cooking timer -->
+   <string name="cooktime_tooltip">Start a cooking timer</string>
+   <string name="channel_description">Channel for timer notifications</string>
+   <string name="channel_name">Timer channel</string>
+   <string name="notification_text">Time remains: %1$s</string>
+   <string name="notification_title">Kitchen Archive Tool Timer</string>
+   <string name="cooktime_start_btn">Starts the timer</string>
+   <string name="cooktime_pause_btn">Pauses the timer</string>
+   <string name="cooktime_reset_btn">Stops and resets the timer</string>
+   <string name="cooktime_top_text" translatable="false">%1$s: %2$s</string>
+   <string name="cooktime_title">Cooking timer</string>
+
+   <!-- action buttons -->
+   <string name="copy_ingredients">Copy ingredients</string>
+   <string name="copy_ing_message">Ingredients copied to clipboard.</string>
+   <string name="menu_import_recipe">Import Recipe</string>
+   <string name="menu_settings">Settings</string>
+   <string name="menu_sso">Single Sign On</string>
+   <string name="menu_categories">Categories</string>
+   <string name="no_ingredients">No Ingredients</string>
+   <string name="label_source">Source:</string>
+   <string name="recipe_no_timer">This Recipe does not have a timer!</string>
+   <string name="search_in_all">Search…</string>
+   <string name="sync_service_channel_name">Sync Service</string>
+   <string name="sync_service_channel_description">Used for foreground notfiication when syncing recipes</string>
+   <string name="sync_service_notification_title">Sync Recipes</string>
+   <string name="sync_service_notification_content">We are currently updating your recipes, we\'ll be back shortly! You may hide this notification in the notification settings.</string>
+   <string name="manage_accounts">Account management</string>
+   <string name="add_account">Add account</string>
+   <string name="account_switcher_current_account_desc">Current account</string>
+
+   <!-- About -->
+   <string name="about_title">About</string>
+   <string name="about_version">App version: %1$s</string>
+   <string name="about_summary">Kitchen Archive Tool is an android app that uses the Nextcloud server app to manage recipes.</string>
+   <string name="about_specialthanks">We also thank Stefan Niedermann for his work with the Nextcloud Deck and Nextcloud Notes apps, which are a great inspiration</string>
+   <string name="menu_title_app">App</string>
+    <string name="skip_for_local_storage">Skip for local storage</string>
+    <string name="login">Login</string>
+
+   <string name="back_button">Back to list</string>
+   <string name="recipe_details_tabs">Recipe is organized in tabs</string>
+
+   <!-- timer -->
+   <string name="play_btn">Starts/Pause timer</string>
+   <string name="stop_btn">Stops timer</string>
+   <string name="cancel_btn">Cancel the timer (invisible)</string>
+    <string name="storage_permissions_not_granted">No storage access!</string>
 </resources>
