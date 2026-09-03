@@ -317,6 +317,7 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
    }
 
    override fun onRefresh() {
+      recipesViewModel.removeDuplicateRecipes()
       if (PreferenceData.getInstance().isWifiOnly()) {
          if (ConnectivityCheck.isConnectedToWifi(context)) {
             doSync(context)

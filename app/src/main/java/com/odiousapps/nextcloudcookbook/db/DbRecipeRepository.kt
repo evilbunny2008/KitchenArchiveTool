@@ -204,6 +204,26 @@ class DbRecipeRepository private constructor(application: Application) {
       }
    }
 
+   /**
+    * Removes duplicate recipe rows for the current account, keeping only
+    * the most recently inserted row per duplicate name. Duplicates can
+    * occur when a row inserted under an older insert/update matching rule
+    * doesn't get recognized as "the same recipe" as a freshly re-synced
+    * one, leaving two separate rows that both legitimately match the
+    * current account's directory. Meant to be run on an explicit,
+    * user-initiated refresh (swipe-to-refresh) rather than on every
+    * background sync, since it's a maintenance pass rather than routine
+    * sync work.
+    */
+   fun deleteDuplicates(recipeDir: String) {
+      val dirPrefix = likePrefix(recipeDir)
+      RecipeDatabase.databaseWriteExecutor.execute {
+         for (duplicate in mRecipeDao.findDuplicates(dirPrefix)) {
+            mRecipeDao.delete(duplicate.recipeCore)
+         }
+      }
+   }
+
    private fun getWhereClause(recipeFilter: RecipeFilter): String {
       val upper = if (recipeFilter.ignoreCase) "UPPER(%s) " else "%s "
 

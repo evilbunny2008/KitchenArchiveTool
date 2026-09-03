@@ -59,6 +59,19 @@ interface RecipeDataDao {
    @Query("SELECT * FROM recipes WHERE name = :n AND fs_filePath LIKE :dirPrefix ESCAPE '\\'")
    fun findByNameInDir(n: String, dirPrefix: String): DbRecipe?
 
+   /**
+    * Finds duplicate recipe rows within the given account's directory --
+    * every row sharing a name with another, except the most recently
+    * inserted (highest id) one, which is kept. See DbRecipeRepository's
+    * deleteDuplicates() doc comment for why duplicates can occur.
+    */
+   @Transaction
+   @Query(
+      "SELECT * FROM recipes WHERE fs_filePath LIKE :dirPrefix ESCAPE '\\' " +
+            "AND id NOT IN (SELECT MAX(id) FROM recipes WHERE fs_filePath LIKE :dirPrefix ESCAPE '\\' GROUP BY name)"
+   )
+   fun findDuplicates(dirPrefix: String): List<DbRecipe>
+
    @Transaction
    @Query("SELECT fs_filePath AS filePath, fs_lastModified AS lastModified FROM recipes")
    fun getAllFileInfos(): List<DbFilesystemRecipe>

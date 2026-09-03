@@ -112,6 +112,17 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
       }
    }
 
+   /**
+    * Removes duplicate recipe rows for the current account. Intended to be
+    * called from an explicit, user-initiated refresh -- see
+    * DbRecipeRepository.deleteDuplicates()'s doc comment.
+    */
+   fun removeDuplicateRecipes() {
+      if (recipeDir.isNotEmpty()) {
+         recipeRepository.deleteDuplicates(recipeDir)
+      }
+   }
+
    // read recipes
    fun initRecipes(path: String = "", hidden: Boolean = false) {
       if (path.isNotEmpty()) {
