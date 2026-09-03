@@ -18,6 +18,12 @@
 	<string name="cooktime_start_btn">Starts the timer</string>
 	<string name="cooktime_title">Cooking timer</string>
 	<string name="cooktime_tooltip">Start a cooking timer</string>
+	<string name="copy_recipe_button_desc">Copy this recipe to another account</string>
+	<string name="copy_to_account_title">Copy this recipe to…</string>
+	<string name="copy_to_account_none_available">Add another account first to copy recipes between them.</string>
+	<string name="copy_to_account_in_progress">Copying \"%1$s\" to %2$s…</string>
+	<string name="copy_to_account_success">Copied \"%1$s\" to %2$s. The photo wasn\'t copied — the Cookbook server has no way to receive one, so add it again by hand if you\'d like it there.</string>
+	<string name="copy_to_account_failure">Couldn\'t copy the recipe: %1$s</string>
 	<string name="cooktime_top_text" translatable="false">%1$s: %2$s</string>
 	<string name="copy_ing_message">Ingredients copied to clipboard</string>
 	<string name="copy_ingredients">Copy ingredients</string>

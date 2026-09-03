@@ -36,6 +36,7 @@ import com.odiousapps.kat.services.CooktimerService
 import com.odiousapps.kat.services.RemainReceiver
 import com.odiousapps.kat.settings.PreferenceData
 import com.odiousapps.kat.ui.*
+import com.odiousapps.kat.ui.copytoaccount.CopyToAccountBottomSheet
 import com.odiousapps.kat.ui.widget.BlinkAnimation
 import com.odiousapps.kat.util.DurationUtils
 import com.odiousapps.kat.util.ManagedAlarmPlayer
@@ -107,6 +108,16 @@ class RecipeDetailFragment : Fragment(), CookTimeClickListener, TimerClickListen
          @Suppress("DEPRECATION")
          requireActivity().onBackPressed()
          allowScreenSleep()
+      }
+
+      binding.copyToAccountButton.setOnClickListener {
+         val recipe = currentRecipe
+         if (recipe != null) {
+            CopyToAccountBottomSheet.newInstance(
+               recipeJsonPath = recipe.recipeCore.fileSystem.filePath,
+               recipeName = recipe.recipeCore.name
+            ).show(childFragmentManager, "copyToAccount")
+         }
       }
 
       // request for notification permission (since Android P = API 28)
@@ -275,12 +286,17 @@ class RecipeDetailFragment : Fragment(), CookTimeClickListener, TimerClickListen
       binding.cookTimerLayout.visibility = LinearLayout.GONE
       // isDetails does not matter when cooktimer is not visible
       updateCooktimerViewsVisibility(true)
+      binding.copyToAccountButton.visibility = View.VISIBLE
    }
 
    private fun showCooktimer() {
       binding.cookTimerLayout.visibility = LinearLayout.VISIBLE
       // isDetails is true, because only DetailView can start timer
       updateCooktimerViewsVisibility(true)
+      // cookTimerLayout and copyToAccountButton both anchor to the same
+      // top-end corner -- the timer chip takes priority while running,
+      // rather than the two overlapping.
+      binding.copyToAccountButton.visibility = View.GONE
    }
 
    private fun setTitle(title: String) {

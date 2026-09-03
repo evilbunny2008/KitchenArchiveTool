@@ -136,5 +136,21 @@
          app:layout_constraintStart_toStartOf="parent"
          app:layout_constraintTop_toTopOf="parent"
          android:contentDescription="@string/back_button"/>
+
+      <ImageButton
+         android:id="@+id/copyToAccountButton"
+         android:layout_width="48dp"
+         android:layout_height="48dp"
+         android:layout_marginTop="16dp"
+         android:layout_marginEnd="16dp"
+         android:adjustViewBounds="true"
+         android:background="@drawable/round_outline"
+         android:backgroundTint="@color/colorPrimary"
+         android:clipToOutline="true"
+         android:scaleType="center"
+         android:src="@drawable/ic_content_copy"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         android:contentDescription="@string/copy_recipe_button_desc"/>
    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
