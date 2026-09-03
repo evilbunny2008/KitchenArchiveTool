@@ -138,10 +138,20 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
 
       recipesViewModel.navigateToRecipe.observe(viewLifecycleOwner) { recipe ->
          recipe?.let {
-            this.findNavController()
-               .navigate(
+            val navController = this.findNavController()
+            // A rapid double-tap on a recipe row can fire this click
+            // handler twice before onRecipeNavigated() below clears the
+            // pending navigation event: the first tap already navigates
+            // away from recipeListFragment, so by the time the second one
+            // arrives here, the current destination is recipeDetailFragment
+            // -- and this specific action only exists from
+            // recipeListFragment, so invoking it again throws
+            // IllegalArgumentException instead of silently doing nothing.
+            if (navController.currentDestination?.id == R.id.recipeListFragment) {
+               navController.navigate(
                   RecipeListFragmentDirections.actionRecipeListFragmentToRecipeDetailFragment(recipe)
                )
+            }
             recipesViewModel.onRecipeNavigated()
          }
       }

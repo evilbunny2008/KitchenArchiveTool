@@ -7,6 +7,9 @@ import com.odiousapps.nextcloudcookbook.services.sync.SyncProgressIndicatorInter
 import com.odiousapps.nextcloudcookbook.util.Filesystem
 import org.json.JSONObject
 import java.io.File
+import java.time.OffsetDateTime
+import java.time.format.DateTimeFormatter
+import java.time.format.DateTimeParseException
 import java.util.concurrent.Executors
 import java.util.logging.Logger
 
@@ -24,6 +27,41 @@ class Sync(mContext: Context) {
       private const val METADATA = "METADATA"
       const val RECIPE = "recipe.json"
       const val NEW_FILE_MARKER = "NEWFILE"
+
+      // Nextcloud Cookbook's dateModified/dateCreated are ISO 8601 date-time
+      // strings (e.g. "2026-07-21T01:49:13+0000"), not integers -- confirmed
+      // directly from the server's own response. The previous code read
+      // this field with JSONObject.optInt(), which silently falls back to
+      // its 0 default for any non-numeric value, so every single recipe
+      // compared as "older than 0" and forced a full re-download on every
+      // sync, regardless of whether anything had actually changed. This
+      // was misattributed to an "upstream API inconsistency" (see the old
+      // comment below, now corrected) -- it was a client-side parsing bug.
+      private val DATE_MODIFIED_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssZ")
+   }
+
+   /**
+    * Parses a Nextcloud Cookbook dateModified/dateCreated string (ISO 8601,
+    * e.g. "2026-07-21T01:49:13+0000") into epoch seconds, for comparison.
+    * Returns 0 if the field is missing or unparseable, matching the
+    * previous code's "treat as very old / force re-download" fallback for
+    * that case.
+    */
+   private fun parseDateModified(json: JSONObject): Long {
+      val raw = json.optString("dateModified", "")
+      if (raw.isEmpty()) return 0L
+      return try {
+         OffsetDateTime.parse(raw, DATE_MODIFIED_FORMATTER).toEpochSecond()
+      } catch (_: DateTimeParseException) {
+         try {
+            // fall back to the standard colon-offset ISO format (e.g.
+            // "+00:00" instead of "+0000"), in case a different server
+            // version formats it that way
+            OffsetDateTime.parse(raw).toEpochSecond()
+         } catch (_: DateTimeParseException) {
+            0L
+         }
+      }
    }
 
    /**
@@ -63,17 +101,10 @@ class Sync(mContext: Context) {
             it.updateProgress(i++, remoteList.size, name)
          }
 
-         // TEMPORARY diagnostic logging -- remove once the dateModified
-         // stub-consistency question (upstream issue #1121, see comment
-         // below) is resolved one way or the other.
-         Log.d(TAG, "Recipe stub raw JSON for '$name': $recipe")
-
-         // Todo: Dates does not work properly. This is due to an upstream issue where the endpoint
-         //       Is not consistent. https://github.com/nextcloud/cookbook/issues/1121
-         val dateRemote = recipeMetadata.optInt("dateModified", 0)
-         val dateLocal = readMetadata(name).optInt("dateModified", 0)
-         Log.d(TAG, "'$name': dateRemote=$dateRemote dateLocal=$dateLocal " +
-               "-> ${if (dateRemote > dateLocal || dateRemote == 0) "FULL DOWNLOAD" else "skip (unchanged)"}")
+         // dateModified is an ISO 8601 string, not an integer -- see
+         // parseDateModified()'s doc comment for why this matters.
+         val dateRemote = parseDateModified(recipeMetadata)
+         val dateLocal = parseDateModified(readMetadata(name))
 
          // Todo: This breaks when both local and remote recipe have changed.
          //       The last one changed will be used.
@@ -227,7 +258,7 @@ class Sync(mContext: Context) {
       val file = File(externalDir, "recipes/$username/$name/$METADATA")
       val json = mFilesystem.readInternalFile(file)
       if (json == "") {
-         return JSONObject("{\"dateModified\": 0}")
+         return JSONObject()
       }
       return JSONObject(json)
    }
