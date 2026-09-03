@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="about_specialthanks">We also thank Stefan Niedermann for his work with the Nextcloud Deck and Nextcloud Notes apps, which are a great inspiration</string>
-	<string name="about_summary">Kitchen Archive Tool is an android app that uses the Nextcloud server app to manage recipes</string>
+	<string name="about_summary">Kitchen Archive Tool (KAT) is an Android app that utilises the Nextcloud server Cookbook app to manage recipes</string>
 	<string name="about_title">About</string>
 	<string name="about_version">App version: %1$s</string>
 	<string name="account_switcher_current_account_desc">Current account</string>
 	<string name="add_account">Add account</string>
-	<string name="app_logo_desc">Launcher icon of the app showing a KAT symbol</string>
+	<string name="app_logo_desc">Launcher icon of the KAT app</string>
 	<string name="app_name" translatable="false">KAT</string>
 	<string name="app_name_long" translatable="false">Kitchen Archive Tool</string>
 	<string name="back_button">Back to list</string>
@@ -126,6 +126,14 @@
 	<string name="sort_value_date_desc">Date published descending</string>
 	<string name="sort_value_time_asc">Total time ascending</string>
 	<string name="sort_value_time_desc">Total time descending</string>
+	<string-array name="sort_values" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
 	<string name="stop_btn">Stops timer</string>
 	<string name="storage_permissions_not_granted">No storage access!</string>
 	<string name="sync_interval_name_1">Every Hour</string>
@@ -134,6 +142,14 @@
 	<string name="sync_interval_name_12">Every 12 Hours</string>
 	<string name="sync_interval_name_24">Every 24 Hours</string>
 	<string name="sync_interval_name_off">Off</string>
+	<string-array name="sync_interval_values" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>4</item>
+		<item>6</item>
+		<item>12</item>
+		<item>24</item>
+	</string-array>
 	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
 	<string name="sync_service_channel_description">Used for foreground notfiication when syncing recipes</string>
 	<string name="sync_service_channel_name">Sync Service</string>
@@ -154,6 +170,11 @@
 	<string name="theme_name_dark">Dark</string>
 	<string name="theme_name_light">Light</string>
 	<string name="theme_name_system">System</string>
+	<string-array name="theme_values" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
 	<string name="title_dir_chooser">Choose a directory…</string>
 	<string name="title_duration">Durations in HH:MM</string>
 	<string name="tooltip_cook_time">Cooking</string>
