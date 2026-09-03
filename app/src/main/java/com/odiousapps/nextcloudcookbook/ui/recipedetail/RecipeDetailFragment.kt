@@ -16,6 +16,9 @@ import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.content.res.AppCompatResources
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updatePadding
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -118,6 +121,16 @@ class RecipeDetailFragment : Fragment(), CookTimeClickListener, TimerClickListen
          ).build()
 
       parent.showToolbar(false)
+
+      // This screen hides MainActivity's shared app bar (above), so its
+      // own top-of-screen content (backButton, and everything in
+      // linearLayout3) needs its own status bar inset handling -- without
+      // it, the back button renders underneath the status bar.
+      ViewCompat.setOnApplyWindowInsetsListener(binding.root) { view, windowInsets ->
+         val statusBarInsets = windowInsets.getInsets(WindowInsetsCompat.Type.statusBars())
+         view.updatePadding(top = statusBarInsets.top)
+         windowInsets
+      }
 
       keepScreenAlive()
 
