@@ -1,5 +1,6 @@
 package com.odiousapps.kat.ui.recipelist
 
+import android.accounts.AccountManager
 import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
@@ -11,6 +12,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.postDelayed
@@ -31,16 +33,21 @@ import com.odiousapps.kat.data.RecipeFilter
 import com.odiousapps.kat.data.SortValue
 import com.odiousapps.kat.databinding.FragmentRecipelistBinding
 import com.odiousapps.kat.db.DbRecipeRepository
+import com.odiousapps.kat.db.model.DbRecipePreview
 import com.odiousapps.kat.reciever.LocalBroadcastReceiver
 import com.odiousapps.kat.services.sync.SyncService
 import com.odiousapps.kat.settings.PreferenceData
 import com.odiousapps.kat.ui.CurrentSettingViewModel
 import com.odiousapps.kat.ui.CurrentSettingViewModelFactory
 import com.odiousapps.kat.ui.MainActivity
+import com.odiousapps.kat.ui.copytoaccount.CopyToAccountBottomSheet
 import com.odiousapps.kat.util.ConnectivityCheck
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+private const val NEXTCLOUD_ACCOUNT_TYPE = "nextcloud"
 
 /**
  * Fragment for list of recipes.
@@ -128,7 +135,10 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
 
       // data adapter
       adapter = RecipeListAdapter(
-         RecipeListListener { recipeName -> recipesViewModel.onRecipeClicked(recipeName) },
+         RecipeListListener(
+            clickListener = { recipeName -> recipesViewModel.onRecipeClicked(recipeName) },
+            longClickListener = { recipe, anchorView -> showRecipeContextMenu(recipe, anchorView) }
+         ),
          DbRecipeRepository.getInstance(requireActivity().application)
       )
       binding.recipeList.adapter = adapter
@@ -400,5 +410,51 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
 
    private fun dismissBroadcastListener() {
       mLocalBroadcastManager.unregisterReceiver(mLocalBroadcastReceiver)
+   }
+
+   /**
+    * Shows the long-press popup menu for a single recipe row. Currently
+    * just "copy to account", greyed out when there's no other account to
+    * copy into -- AccountManager.getAccountsByType() is a local, in-memory
+    * lookup (no network call), so this can run synchronously right here
+    * rather than needing a background thread.
+    */
+   private fun showRecipeContextMenu(recipe: DbRecipePreview, anchorView: View) {
+      val popup = PopupMenu(requireContext(), anchorView)
+      popup.menuInflater.inflate(R.menu.recipe_list_item_menu, popup.menu)
+
+      val hasOtherAccount = AccountManager.get(requireContext())
+         .getAccountsByType(NEXTCLOUD_ACCOUNT_TYPE).size > 1
+      popup.menu.findItem(R.id.menu_copy_recipe).isEnabled = hasOtherAccount
+
+      popup.setOnMenuItemClickListener { item ->
+         when (item.itemId) {
+            R.id.menu_copy_recipe -> {
+               openCopyToAccountSheet(recipe)
+               true
+            }
+            else -> false
+         }
+      }
+      popup.show()
+   }
+
+   /**
+    * The list only carries a DbRecipePreview (id/name/description/thumb/
+    * starred, see DbRecipePreview.DBFIELDS) -- CopyToAccountBottomSheet
+    * needs the recipe's local recipe.json path, which isn't part of that
+    * preview, so this looks up the full DbRecipe first.
+    */
+   private fun openCopyToAccountSheet(recipe: DbRecipePreview) {
+      val repository = DbRecipeRepository.getInstance(requireActivity().application)
+      viewLifecycleOwner.lifecycleScope.launch {
+         val fullRecipe = withContext(Dispatchers.IO) { repository.getRecipeSync(recipe.id) }
+         fullRecipe?.let {
+            CopyToAccountBottomSheet.newInstance(
+               recipeJsonPath = it.recipeCore.fileSystem.filePath,
+               recipeName = it.recipeCore.name
+            ).show(childFragmentManager, "copyToAccount")
+         }
+      }
    }
 }

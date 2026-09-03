@@ -8,7 +8,6 @@
 	<string name="app_logo_desc">Launcher icon of the KAT app</string>
 	<string name="app_name" translatable="false">KAT</string>
 	<string name="app_name_long" translatable="false">Kitchen Archive Tool</string>
-	<string name="back_button">Back to list</string>
 	<string name="cancel_btn">Cancel the timer (invisible)</string>
 	<string name="channel_description">Channel for timer notifications</string>
 	<string name="channel_name">Timer channel</string>
@@ -20,7 +19,6 @@
 	<string name="cooktime_top_text" translatable="false">%1$s: %2$s</string>
 	<string name="copy_ing_message">Ingredients copied to clipboard</string>
 	<string name="copy_ingredients">Copy ingredients</string>
-	<string name="copy_recipe_button_desc">Copy this recipe to another account</string>
 	<string name="copy_to_account_failure">Couldn’t copy the recipe: %1$s</string>
 	<string name="copy_to_account_in_progress">Copying \‘%1$s\’ to %2$s…</string>
 	<string name="copy_to_account_none_available">Add another account first to copy recipes between them</string>

@@ -64,6 +64,8 @@ class DbRecipeRepository private constructor(application: Application) {
 
    fun getRecipe(id: Long) = mRecipeDao.getById(id)
 
+   fun getRecipeSync(id: Long): DbRecipe? = mRecipeDao.getByIdSync(id)
+
    fun filterCategory(
       sort: SortValue, category: String, recipeDir: String,
       recipeFilter: RecipeFilter? = null

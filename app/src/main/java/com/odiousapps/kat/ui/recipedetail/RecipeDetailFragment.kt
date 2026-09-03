@@ -36,7 +36,6 @@ import com.odiousapps.kat.services.CooktimerService
 import com.odiousapps.kat.services.RemainReceiver
 import com.odiousapps.kat.settings.PreferenceData
 import com.odiousapps.kat.ui.*
-import com.odiousapps.kat.ui.copytoaccount.CopyToAccountBottomSheet
 import com.odiousapps.kat.ui.widget.BlinkAnimation
 import com.odiousapps.kat.util.DurationUtils
 import com.odiousapps.kat.util.ManagedAlarmPlayer
@@ -103,22 +102,6 @@ class RecipeDetailFragment : Fragment(), CookTimeClickListener, TimerClickListen
       binding.lifecycleOwner = viewLifecycleOwner
 
       val parent = (activity as MainActivity?)!!
-      binding.backButton.setOnClickListener {
-         Log.d("RecipeDetailFragment", "backButton pressed")
-         @Suppress("DEPRECATION")
-         requireActivity().onBackPressed()
-         allowScreenSleep()
-      }
-
-      binding.copyToAccountButton.setOnClickListener {
-         val recipe = currentRecipe
-         if (recipe != null) {
-            CopyToAccountBottomSheet.newInstance(
-               recipeJsonPath = recipe.recipeCore.fileSystem.filePath,
-               recipeName = recipe.recipeCore.name
-            ).show(childFragmentManager, "copyToAccount")
-         }
-      }
 
       // request for notification permission (since Android P = API 28)
       request = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
@@ -134,9 +117,9 @@ class RecipeDetailFragment : Fragment(), CookTimeClickListener, TimerClickListen
       parent.showToolbar(false)
 
       // This screen hides MainActivity's shared app bar (above), so its
-      // own top-of-screen content (backButton, and everything in
+      // own top-of-screen content (cookTimerLayout, and everything in
       // linearLayout3) needs its own status bar inset handling -- without
-      // it, the back button renders underneath the status bar.
+      // it, that content renders underneath the status bar.
       ViewCompat.setOnApplyWindowInsetsListener(binding.root) { view, windowInsets ->
          val statusBarInsets = windowInsets.getInsets(WindowInsetsCompat.Type.statusBars())
          view.updatePadding(top = statusBarInsets.top)
@@ -286,17 +269,12 @@ class RecipeDetailFragment : Fragment(), CookTimeClickListener, TimerClickListen
       binding.cookTimerLayout.visibility = LinearLayout.GONE
       // isDetails does not matter when cooktimer is not visible
       updateCooktimerViewsVisibility(true)
-      binding.copyToAccountButton.visibility = View.VISIBLE
    }
 
    private fun showCooktimer() {
       binding.cookTimerLayout.visibility = LinearLayout.VISIBLE
       // isDetails is true, because only DetailView can start timer
       updateCooktimerViewsVisibility(true)
-      // cookTimerLayout and copyToAccountButton both anchor to the same
-      // top-end corner -- the timer chip takes priority while running,
-      // rather than the two overlapping.
-      binding.copyToAccountButton.visibility = View.GONE
    }
 
    private fun setTitle(title: String) {

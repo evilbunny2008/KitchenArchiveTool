@@ -58,15 +58,15 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="end"
+          android:layout_marginTop="16dp"
           android:layout_marginEnd="24dp"
           android:background="@drawable/round_border"
           android:backgroundTint="@color/colorPrimary"
           android:paddingTop="4dp"
           android:paddingBottom="4dp"
           android:visibility="gone"
-          app:layout_constraintBottom_toBottomOf="@+id/backButton"
           app:layout_constraintEnd_toEndOf="parent"
-          app:layout_constraintTop_toTopOf="@+id/backButton">
+          app:layout_constraintTop_toTopOf="parent">
 
          <TextView
              android:id="@+id/countTimerTxt"
@@ -120,37 +120,5 @@
              android:tag="Cancel" />
 
       </LinearLayout>
-
-      <ImageButton
-         android:id="@+id/backButton"
-         android:layout_width="48dp"
-         android:layout_height="48dp"
-         android:layout_marginStart="16dp"
-         android:layout_marginTop="16dp"
-         android:adjustViewBounds="true"
-         android:background="@drawable/round_outline"
-         android:backgroundTint="@color/colorPrimary"
-         android:clipToOutline="true"
-         android:scaleType="center"
-         android:src="@drawable/md_nav_back"
-         app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toTopOf="parent"
-         android:contentDescription="@string/back_button"/>
-
-      <ImageButton
-         android:id="@+id/copyToAccountButton"
-         android:layout_width="48dp"
-         android:layout_height="48dp"
-         android:layout_marginTop="16dp"
-         android:layout_marginEnd="16dp"
-         android:adjustViewBounds="true"
-         android:background="@drawable/round_outline"
-         android:backgroundTint="@color/colorPrimary"
-         android:clipToOutline="true"
-         android:scaleType="center"
-         android:src="@drawable/ic_content_copy"
-         app:layout_constraintEnd_toEndOf="parent"
-         app:layout_constraintTop_toTopOf="parent"
-         android:contentDescription="@string/copy_recipe_button_desc"/>
    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

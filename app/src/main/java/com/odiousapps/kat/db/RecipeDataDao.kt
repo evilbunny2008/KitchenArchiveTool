@@ -51,6 +51,16 @@ interface RecipeDataDao {
    @Query("SELECT * FROM recipes WHERE id = :id")
    fun getById(id: Long): LiveData<DbRecipe?>
 
+   /**
+    * Same lookup as [getById], but a plain synchronous return instead of
+    * LiveData -- for one-shot background use (e.g. resolving a recipe's
+    * fileSystem.filePath for the copy-to-account long-press menu) where
+    * setting up a LiveData observer would be overkill.
+    */
+   @Transaction
+   @Query("SELECT * FROM recipes WHERE id = :id")
+   fun getByIdSync(id: Long): DbRecipe?
+
    @Transaction
    @Query("SELECT * FROM recipes WHERE name = :n")
    fun findByName(n: String): DbRecipe?
