@@ -2680,6 +2680,18 @@ def upload_to_nextcloud(recipe_json, nextcloud_url, username, password):
             file=sys.stderr,
         )
         sys.exit(1)
+    if response.status_code == 409:
+        print(
+            f"A recipe named '{recipe.name}' already exists on the server "
+            "(HTTP 409 Conflict) -- Cookbook won't create a second recipe "
+            "with the same name. If you're re-running this against a "
+            "recipe you already uploaded (e.g. from a cached JSON-LD file), "
+            "this is expected. Delete/rename the existing one on the "
+            "server first, or delete the cached JSON-LD file to re-scrape "
+            "and adjust the name, if you actually want a duplicate.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
     response.raise_for_status()
 
     # Confirmed from an actual server response: the Cookbook API returns
