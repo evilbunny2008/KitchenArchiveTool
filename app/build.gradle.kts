@@ -173,4 +173,11 @@ dependencies {
     // app calls Glide.with(...) directly rather than the deprecated
     // generated GlideApp/GlideRequests API, which ksp doesn't support.
     ksp(libs.glide.ksp)
+
+    // WorkManager -- replaces SyncService (foreground Service + raw
+    // AlarmManager repeating alarm) for background recipe sync. No
+    // FOREGROUND_SERVICE permission or persistent notification needed,
+    // Doze/battery-optimization compliance is automatic, and periodic
+    // work survives reboots without an app-side BOOT_COMPLETED receiver.
+    implementation(libs.androidx.work.runtime.ktx)
 }

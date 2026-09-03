@@ -18,37 +18,9 @@ import com.odiousapps.kat.R
 class NotificationChannelManager {
 
    companion object {
-      private const val SYNC_SERVICE_CHANNEL = "SYNC_SERVICE_CHANNEL"
-      const val SYNC_SERVICE_NOTIFICATION_ID = 1478543
-
       // Channel ID for notification channel
       private const val TIMER_CHANNEL = "nc_cooktimer"
       const val TIMER_NOTIFICATION_ID = 1478543
-
-      fun createSyncServiceNotificationChannel(context: Context) {
-         val name = context.getString(R.string.sync_service_channel_name)
-         val descriptionText = context.getString(R.string.sync_service_channel_description)
-         val importance = NotificationManager.IMPORTANCE_DEFAULT
-         val channel = NotificationChannel(SYNC_SERVICE_CHANNEL, name, importance).apply {
-            description = descriptionText
-         }
-         // Register the channel with the system
-         val notificationManager: NotificationManager =
-            context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-         notificationManager.createNotificationChannel(channel)
-      }
-
-      fun createSyncServiceNotification(context: Context): NotificationCompat.Builder {
-         return NotificationCompat.Builder(context, SYNC_SERVICE_CHANNEL)
-            .setSmallIcon(R.drawable.appicon_unscaled)
-            .setContentTitle(context.getString(R.string.sync_service_notification_title))
-            .setContentText(context.getString(R.string.sync_service_notification_content))
-            .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-            .setStyle(
-               NotificationCompat.BigTextStyle().bigText(context.getString(R.string.sync_service_notification_content))
-            )
-            .setAutoCancel(true)
-      }
 
       /**
        * Creates a notification channel when Android version >= O (API 26+).

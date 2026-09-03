@@ -154,10 +154,6 @@
 		<item>24</item>
 	</string-array>
 	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
-	<string name="sync_service_channel_description">Used for foreground notfiication when syncing recipes</string>
-	<string name="sync_service_channel_name">Sync Service</string>
-	<string name="sync_service_notification_content">We are currently updating your recipes, we’ll be back shortly! You may hide this notification in the notification settings</string>
-	<string name="sync_service_notification_title">Sync Recipes</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredients</string>
 	<string name="tab_instructions_title">Instructions</string>

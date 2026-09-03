@@ -43,7 +43,7 @@ import com.odiousapps.kat.data.CategoryFilter
 import com.odiousapps.kat.data.RecipeFilter
 import com.odiousapps.kat.data.SortValue
 import com.odiousapps.kat.databinding.ActivityMainBinding
-import com.odiousapps.kat.services.sync.SyncService
+import com.odiousapps.kat.services.sync.SyncScheduler
 import com.odiousapps.kat.settings.PreferenceData
 import com.odiousapps.kat.ui.accountswitcher.AccountSwitcherBottomSheet
 import com.odiousapps.kat.ui.recipelist.RecipeSearchCallback
@@ -205,7 +205,7 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
             }
          })
       }
-      SyncService().startServiceScheduling(applicationContext)
+      SyncScheduler.reschedule(applicationContext)
       updateProfilePicture()
 
       if (preferenceData.isSyncServiceEnabled()) {
@@ -371,7 +371,7 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
             PreferenceData.getInstance().setSyncServiceEnabled()
 
             updateProfilePicture()
-            startService(Intent(this, SyncService::class.java))
+            SyncScheduler.syncNow(applicationContext)
          }
       } catch (_: AccountImportCancelledException) {
       }

@@ -11,9 +11,9 @@ import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import com.odiousapps.kat.MainApplication
-import com.odiousapps.kat.services.sync.SyncService
-import com.odiousapps.kat.services.sync.SyncService.Companion.SYNC_SERVICE_INTERVAL_DEFAULT
-import com.odiousapps.kat.services.sync.SyncService.Companion.SYNC_SERVICE_WIFI_ONLY_DEFAULT
+import com.odiousapps.kat.services.sync.SyncScheduler
+import com.odiousapps.kat.services.sync.SyncScheduler.SYNC_SERVICE_INTERVAL_DEFAULT
+import com.odiousapps.kat.services.sync.SyncScheduler.SYNC_SERVICE_WIFI_ONLY_DEFAULT
 import com.odiousapps.kat.ui.MainActivity.Companion.THEME_PREFERENCE_DEFAULT
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
@@ -135,7 +135,7 @@ class PreferenceData private constructor() {
          MainApplication.AppContext.dataStore.edit { preferences ->
             preferences[isSyncServiceEnabled] = interval
          }
-         SyncService().startServiceScheduling(MainApplication.AppContext)
+         SyncScheduler.reschedule(MainApplication.AppContext)
       }
    }
 
@@ -144,7 +144,7 @@ class PreferenceData private constructor() {
          MainApplication.AppContext.dataStore.edit { preferences ->
             preferences[isSyncWifiOnly] = enable
          }
-         SyncService().startServiceScheduling(MainApplication.AppContext)
+         SyncScheduler.reschedule(MainApplication.AppContext)
       }
    }
 

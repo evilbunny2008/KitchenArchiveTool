@@ -30,7 +30,7 @@ import com.odiousapps.kat.databinding.BottomSheetAccountSwitcherBinding
 import com.odiousapps.kat.databinding.ItemAccountSwitcherBinding
 import com.odiousapps.kat.nextcloudapi.Accounts
 import com.odiousapps.kat.nextcloudapi.UserInfoAPI
-import com.odiousapps.kat.services.sync.SyncService
+import com.odiousapps.kat.services.sync.SyncScheduler
 import com.odiousapps.kat.settings.PreferenceData
 import com.odiousapps.kat.util.Filesystem
 import kotlinx.coroutines.Dispatchers
@@ -134,7 +134,7 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
          }
          prefs.setSyncServiceEnabled()
          (activity as? AccountSwitcherHost)?.onAccountSwitched()
-         context.startService(Intent(context, SyncService::class.java))
+         SyncScheduler.syncNow(context)
       }
    }
 

@@ -3,7 +3,6 @@ package com.odiousapps.kat.ui.recipelist
 import android.accounts.AccountManager
 import android.content.Context
 import android.content.DialogInterface
-import android.content.Intent
 import android.content.IntentFilter
 import android.os.Bundle
 import android.os.Handler
@@ -35,7 +34,8 @@ import com.odiousapps.kat.databinding.FragmentRecipelistBinding
 import com.odiousapps.kat.db.DbRecipeRepository
 import com.odiousapps.kat.db.model.DbRecipePreview
 import com.odiousapps.kat.reciever.LocalBroadcastReceiver
-import com.odiousapps.kat.services.sync.SyncService
+import com.odiousapps.kat.services.sync.SyncScheduler
+import com.odiousapps.kat.services.sync.SyncWorker
 import com.odiousapps.kat.settings.PreferenceData
 import com.odiousapps.kat.ui.CurrentSettingViewModel
 import com.odiousapps.kat.ui.CurrentSettingViewModelFactory
@@ -316,7 +316,7 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
 
    private fun doSync(context: Context?) {
       // load recipes from files
-      context?.startForegroundService(Intent(context, SyncService::class.java))
+      context?.let { SyncScheduler.syncNow(it) }
    }
 
    private fun onSyncFailure(id: Int) {
@@ -404,7 +404,7 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
       mLocalBroadcastManager = LocalBroadcastManager.getInstance(this.requireContext())
       mLocalBroadcastReceiver = LocalBroadcastReceiver(this)
       val intentFilter = IntentFilter()
-      intentFilter.addAction(SyncService.SYNC_SERVICE_UPDATE_BROADCAST)
+      intentFilter.addAction(SyncWorker.SYNC_UPDATE_BROADCAST)
       mLocalBroadcastManager.registerReceiver(mLocalBroadcastReceiver, intentFilter)
    }
 
