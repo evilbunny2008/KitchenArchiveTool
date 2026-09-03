@@ -36,8 +36,8 @@ android {
         applicationId = "com.odiousapps.kat"
         minSdk = 29
         targetSdk = 37
-        versionCode = 302
-        versionName = "3.0.2"
+        versionCode = 4000000
+        versionName = "4.0.0"
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled = true
     }
