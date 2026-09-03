@@ -63,10 +63,17 @@ class Sync(mContext: Context) {
             it.updateProgress(i++, remoteList.size, name)
          }
 
+         // TEMPORARY diagnostic logging -- remove once the dateModified
+         // stub-consistency question (upstream issue #1121, see comment
+         // below) is resolved one way or the other.
+         Log.d(TAG, "Recipe stub raw JSON for '$name': $recipe")
+
          // Todo: Dates does not work properly. This is due to an upstream issue where the endpoint
          //       Is not consistent. https://github.com/nextcloud/cookbook/issues/1121
          val dateRemote = recipeMetadata.optInt("dateModified", 0)
          val dateLocal = readMetadata(name).optInt("dateModified", 0)
+         Log.d(TAG, "'$name': dateRemote=$dateRemote dateLocal=$dateLocal " +
+               "-> ${if (dateRemote > dateLocal || dateRemote == 0) "FULL DOWNLOAD" else "skip (unchanged)"}")
 
          // Todo: This breaks when both local and remote recipe have changed.
          //       The last one changed will be used.
