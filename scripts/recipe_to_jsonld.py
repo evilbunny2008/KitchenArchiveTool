@@ -9,7 +9,14 @@ Install:
 
 Usage:
     python recipe_to_jsonld.py --url "https://example.com/some-recipe"
-    python recipe_to_jsonld.py --url "https://example.com/some-recipe" --nextcloud-url "https://nextcloud.example.com" --nextcloud-user "myuser" --nextcloud-pass "mypass"
+    python recipe_to_jsonld.py --url "https://example.com/some-recipe" --nextcloud-url "https://nextcloud.example.com" --nextcloud-user "myuser" --nextcloud-pass "myapppassword"
+        --nextcloud-pass must be a Nextcloud app password, not the account's
+        normal login password, if 2-factor authentication is enabled on
+        that account (the regular password is rejected outright in that
+        case). Generate one at: Nextcloud web UI -> Settings -> Security ->
+        Devices & sessions -> "Create new app password". Works identically
+        even without 2FA enabled, so it's the safer default either way --
+        it can be revoked independently of the account's real password.
     python recipe_to_jsonld.py --file saved_page.html --url "https://example.com/some-recipe" --out output.html
     python recipe_to_jsonld.py --use-venv --file saved_page.html
         Creates (or reuses) a dedicated virtual environment for this
@@ -2637,7 +2644,28 @@ def upload_to_nextcloud(recipe_json, nextcloud_url, username, password):
     )
 
     client = CookbookClient(username=username, password=password, base_url=nextcloud_url)
-    new_recipe_id = client.create_recipe(recipe)  # returns the new recipe's ID (str)
+    try:
+        new_recipe_id = client.create_recipe(recipe)  # returns the new recipe's ID (str)
+    except Exception as e:
+        # The underlying HTTP client varies by nextcloud_cookbook_api's own
+        # implementation (requests, httpx, urllib, ...), so check for a
+        # status code under whichever common attribute name it might use
+        # rather than assuming one specific exception type.
+        status = getattr(e, "status_code", None) or getattr(
+            getattr(e, "response", None), "status_code", None
+        ) or getattr(e, "code", None)
+        if status in (401, 403):
+            print(
+                "Authentication failed (HTTP "
+                f"{status}). If 2-factor authentication is enabled on this "
+                "Nextcloud account, --nextcloud-pass must be an app password, "
+                "not the account's normal login password -- generate one at: "
+                "Nextcloud web UI > Settings > Security > Devices & sessions > "
+                "\"Create new app password\".",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+        raise
     print(f"Created recipe '{recipe.name}' with ID: {new_recipe_id}")
     return new_recipe_id
 
@@ -2651,7 +2679,13 @@ def main():
     parser.add_argument("--out", help="Output file path (defaults to stdout). Skips Nextcloud upload if provided.")
     parser.add_argument("--nextcloud-url", help="Nextcloud instance URL (e.g., https://nextcloud.example.com)")
     parser.add_argument("--nextcloud-user", help="Nextcloud username")
-    parser.add_argument("--nextcloud-pass", help="Nextcloud password or app password")
+    parser.add_argument(
+        "--nextcloud-pass",
+        help="Nextcloud app password (Settings > Security > Devices & sessions > "
+             "\"Create new app password\"). Required, not just recommended, if the "
+             "account has 2-factor authentication enabled -- the normal account "
+             "password is rejected outright in that case.",
+    )
     parser.add_argument(
         "--use-venv", action="store_true",
         help="Create/reuse a dedicated virtual environment for this script's dependencies, "
