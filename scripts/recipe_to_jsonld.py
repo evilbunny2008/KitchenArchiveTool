@@ -6,6 +6,9 @@ Convert recipe web pages into schema.org Recipe JSON-LD using the
 
 Install:
     pip install recipe-scrapers
+    pip install requests
+        Only needed for --nextcloud-url uploads; almost certainly already
+        installed as a dependency of nextcloud-cookbook-api regardless.
 
 Usage:
     python recipe_to_jsonld.py --url "https://example.com/some-recipe"
@@ -43,7 +46,7 @@ import sys
 
 VENV_DIR = os.path.join(os.path.expanduser("~"), ".cache", "recipe_to_jsonld", "venv")
 VENV_ACTIVE_ENV_VAR = "RECIPE_TO_JSONLD_VENV_ACTIVE"
-REQUIRED_PACKAGES = ["recipe-scrapers", "beautifulsoup4", "nextcloud-cookbook-api"]
+REQUIRED_PACKAGES = ["recipe-scrapers", "beautifulsoup4", "nextcloud-cookbook-api", "requests"]
 
 
 def _bootstrap_venv_and_reexec():
@@ -92,12 +95,12 @@ from datetime import datetime, timezone
 
 from bs4 import BeautifulSoup
 
-from nextcloud_cookbook_api.client import CookbookClient
 from nextcloud_cookbook_api.models import Nutrition, Recipe
 
 from recipe_scrapers import scrape_html
 from recipe_scrapers._exceptions import RecipeScrapersExceptions
 
+import requests
 from urllib.error import URLError, HTTPError
 from urllib.parse import urljoin
 from urllib.request import Request, urlopen
@@ -2643,29 +2646,47 @@ def upload_to_nextcloud(recipe_json, nextcloud_url, username, password):
         nutrition=Nutrition.model_construct(type="NutritionInformation"),
     )
 
-    client = CookbookClient(username=username, password=password, base_url=nextcloud_url)
-    try:
-        new_recipe_id = client.create_recipe(recipe)  # returns the new recipe's ID (str)
-    except Exception as e:
-        # The underlying HTTP client varies by nextcloud_cookbook_api's own
-        # implementation (requests, httpx, urllib, ...), so check for a
-        # status code under whichever common attribute name it might use
-        # rather than assuming one specific exception type.
-        status = getattr(e, "status_code", None) or getattr(
-            getattr(e, "response", None), "status_code", None
-        ) or getattr(e, "code", None)
-        if status in (401, 403):
-            print(
-                "Authentication failed (HTTP "
-                f"{status}). If 2-factor authentication is enabled on this "
-                "Nextcloud account, --nextcloud-pass must be an app password, "
-                "not the account's normal login password -- generate one at: "
-                "Nextcloud web UI > Settings > Security > Devices & sessions > "
-                "\"Create new app password\".",
-                file=sys.stderr,
-            )
-            sys.exit(1)
-        raise
+    # CookbookClient.create_recipe() is NOT used here despite building a
+    # correctly-typed Recipe model above -- its internal HTTP requests use
+    # a leading-slash path (e.g. "/apps/cookbook/api/v1/recipes"), which
+    # standard URL-joining rules (RFC 3986, used by requests/httpx) treat
+    # as root-relative: it replaces the entire path of base_url, silently
+    # discarding anything after the domain. Confirmed by comparing actual
+    # request traffic: the Android app (which explicitly includes
+    # /index.php in every request) succeeds, while this library's request
+    # 404s with /index.php stripped, regardless of what's passed as
+    # base_url -- so no --nextcloud-url value can fix this from the
+    # outside. Sending the request directly avoids the broken URL join
+    # while still reusing the library's own (correctly-typed) Recipe model
+    # and its standard pydantic JSON serialization.
+    payload = recipe.model_dump(mode="json", by_alias=True, exclude_none=True)
+    create_url = nextcloud_url.rstrip("/") + "/index.php/apps/cookbook/api/v1/recipes"
+
+    response = requests.post(
+        create_url,
+        json=payload,
+        auth=(username, password),
+        headers={"Content-Type": "application/json"},
+    )
+
+    if response.status_code in (401, 403):
+        print(
+            "Authentication failed (HTTP "
+            f"{response.status_code}). If 2-factor authentication is enabled on this "
+            "Nextcloud account, --nextcloud-pass must be an app password, "
+            "not the account's normal login password -- generate one at: "
+            "Nextcloud web UI > Settings > Security > Devices & sessions > "
+            "\"Create new app password\".",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    response.raise_for_status()
+
+    # The Cookbook API returns the full created recipe object; the ID we
+    # want is nested under "id" -- if this shape turns out to be wrong for
+    # your server's API version, print(response.json()) to see the actual
+    # response and adjust this line accordingly.
+    new_recipe_id = response.json().get("id")
     print(f"Created recipe '{recipe.name}' with ID: {new_recipe_id}")
     return new_recipe_id
 
