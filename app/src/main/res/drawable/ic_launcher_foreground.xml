@@ -1,22 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  KAT launcher icon foreground: a cat face wearing a chef's toque.
+
+  Coordinate system: all pathData below is authored in a 240x240 working
+  space (matching the original design sketch), then mapped into the
+  108x108 adaptive-icon viewport by the single <group> transform below.
+  scale = 0.625, translate = (-21, -7.5625), chosen so the character's
+  bounding box (x:56..184, y:32..165 in the 240 space) lands centered in
+  the 108dp viewport with roughly even margin on all sides.
+
+  Eyes, the nose, and the inner-ear notches are cut as true holes via
+  android:fillType="evenOdd" (a nested subpath inside an outer subpath
+  is excluded from the fill) rather than being painted a flat color, so
+  the adaptive-icon background layer shows through them naturally;
+  no hardcoded color needs to match the background layer's color.
+-->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-  <group android:scaleX="0.35"
-      android:scaleY="0.35"
-      android:translateX="35.1"
-      android:translateY="35.1">
-    <group android:scaleX="0.103828126"
-        android:scaleY="0.103828126"
-        android:translateX="0"
-        android:translateY="0">
-      <path
-          android:pathData="M172.26,0C77.27,0.02 -0,65.07 -0,145.02l0,733.97c0,79.95 77.27,145.01 172.27,145.02l813.13,0c21.32,0 38.6,-14.55 38.6,-32.49L1024,878.98 1024,766.46 1024,257.54 1024,32.49c0,-17.95 -17.28,-32.49 -38.6,-32.49zM172.27,64.98l774.53,0l0,192.56 0,476.42L172.26,733.96c-35.12,0.01 -67.8,8.92 -95.06,24.17L77.2,145.02c0,-44.12 42.65,-80.03 95.07,-80.04zM946.8,959.01L172.27,959.01c-52.42,-0.01 -95.07,-35.91 -95.07,-80.04 0,-44.12 42.65,-80.03 95.07,-80.04l774.53,0l0,47.55l-607.78,0c-21.32,0 -38.6,14.55 -38.6,32.49 0,17.95 17.28,32.49 38.6,32.49l607.78,0z"
-          android:fillColor="#ffffff"/>
-      <path
-          android:pathData="m357.64,455.91l0,123.02c0,17.95 17.28,32.49 38.6,32.49l231.51,0c21.32,0 38.6,-14.55 38.6,-32.49L666.35,455.91c51,-17.23 86.35,-59.33 86.35,-107.45 0,-62.04 -58.28,-112.84 -131.18,-115.64 -25.7,-28.62 -65.74,-45.7 -109.53,-45.7 -43.81,0 -83.84,17.08 -109.53,45.7 -72.9,2.8 -131.18,53.6 -131.18,115.64 0,48.12 35.36,90.21 86.35,107.44zM408.81,297.69c2.92,0 5.89,0.18 8.85,0.55 16.59,2.06 32.81,-5.13 40.22,-17.77 10.26,-17.49 31,-28.36 54.13,-28.36 23.12,0 43.87,10.87 54.14,28.37 7.41,12.64 23.71,19.81 40.22,17.76 2.94,-0.36 5.9,-0.55 8.83,-0.55 33.26,0 60.33,22.78 60.33,50.78 0,25.5 -22.62,47.15 -52.62,50.35 -19.28,2.06 -33.74,15.87 -33.74,32.23l0,115.39L434.84,546.43L434.84,433.2c0,-0.04 0.01,-0.08 0.01,-0.11 1.28,-17.12 -13.48,-32.13 -33.69,-34.27 -30.03,-3.19 -52.67,-24.83 -52.67,-50.35 0,-28 27.06,-50.77 60.33,-50.77z"
-          android:fillColor="#ffffff"/>
-    </group>
+  <group
+      android:scaleX="0.625"
+      android:scaleY="0.625"
+      android:translateX="-21"
+      android:translateY="-7.5625">
+
+    <!-- Right ear: outer triangle, with inner-ear notch cut as a hole -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="
+          M144,102 L184,52 L174,126 Z
+          M148,108 L170,76 L164,120 Z" />
+
+    <!-- Left ear: outer triangle, with inner-ear notch cut as a hole -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="
+          M96,102 L56,52 L66,126 Z
+          M92,108 L70,76 L76,120 Z" />
+
+    <!-- Head, with both eyes and the nose cut as holes -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="
+          M70,132
+          Q66,100 100,98
+          Q120,94 140,98
+          Q174,100 170,132
+          Q176,168 120,180
+          Q64,168 70,132
+          Z
+          M107.5,138 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0 Z
+          M143.5,138 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0 Z
+          M114,152 L126,152 L120,158 Z" />
+
+    <!-- Mouth -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF0082C9"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="
+          M120,158 Q118,165 107,165
+          M120,158 Q122,165 133,165" />
+
+    <!-- Whiskers -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="
+          M110,156 L74,148
+          M110,160 L74,160
+          M110,164 L74,172
+          M130,156 L166,148
+          M130,160 L166,160
+          M130,164 L166,172" />
+
+    <!-- Chef's hat band -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="
+          M94,73
+          L146,73
+          A4,4 0 0 1 150,77
+          L150,90
+          A4,4 0 0 1 146,94
+          L94,94
+          A4,4 0 0 1 90,90
+          L90,77
+          A4,4 0 0 1 94,73
+          Z" />
+
+    <!-- Chef's hat puff: five overlapping circles forming a scalloped top -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="
+          M75,58 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0 Z
+          M92,51 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0 Z
+          M114,51 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0 Z
+          M135,58 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0 Z
+          M104,48 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0 Z" />
+
   </group>
 </vector>
