@@ -11,9 +11,6 @@
       android:name="android.permission.READ_EXTERNAL_STORAGE"
       android:maxSdkVersion="32" />
    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-   <uses-permission
-      android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-      android:minSdkVersion="34" />
    <uses-permission android:name="android.permission.VIBRATE" />
    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
