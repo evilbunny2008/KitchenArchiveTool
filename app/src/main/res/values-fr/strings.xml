@@ -69,7 +69,7 @@
     <string name="about_version">Version de l\'application : %1$s</string>
     <string name="about_summary">2020-2022 par MicMun. Licence sous GPLv3.
 \n
-\nNextcloud Cookbook est une application de livre de cuisine sur nextcloud pour gérer les recettes.</string>
+\nKitchen Archive Tool est une application de livre de cuisine sur nextcloud pour gérer les recettes.</string>
     <string name="theme_name_light">Clair</string>
     <string name="theme_name_dark">Sombre</string>
     <string name="theme_name_system">Système</string>
@@ -105,7 +105,7 @@
     <string name="notification_text">Temps restant : %1$s</string>
     <string name="channel_name">Canal de minuterie</string>
     <string name="cooktime_tooltip">Lancer un minuteur de cuisson</string>
-    <string name="notification_title">Nextcloud Cookbook Minuteur</string>
+    <string name="notification_title">Kitchen Archive Tool Minuteur</string>
     <string name="channel_description">Canal pour les notifications de la minuterie</string>
     <string name="list_recipe_star_desc">Icône étoile indiquant le statut de favori de la recette</string>
     <string name="dir_chooser_error">Erreur : Le dossier racine n\'est pas autorisé !</string>

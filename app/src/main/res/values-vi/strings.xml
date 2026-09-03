@@ -73,7 +73,7 @@
     <string name="menu_uncategorized">Chưa phân loại</string>
     <string name="about_summary">© 2020-2023 bởi MicMun. Được cấp phép dưới GPLv3.
 \n
-\nNextcloud Cookbook là một ứng dụng dành cho sách nấu ăn trên nextcloud để quản lý các công thức.</string>
+\nKitchen Archive Tool là một ứng dụng dành cho sách nấu ăn trên nextcloud để quản lý các công thức.</string>
     <string name="permission_select_root" tools:ignore="MissingTranslation">Vui lòng chọn %1$s.</string>
     <string name="permissions_error_message">Truy cập bị từ chối! Ứng dụng cần quyền truy cập bộ nhớ, vui lòng kích hoạt trong cài đặt.</string>
     <string name="permission_ok_message" tools:ignore="MissingTranslation">Quyền truy cập bộ nhớ đã được cấp cho %1$s.</string>
@@ -98,7 +98,7 @@
     <string name="cooktime_title">Giờ nấu ăn</string>
     <string name="cooktime_reset_btn">Dừng lại và reset bộ đếm thời gian</string>
     <string name="cooktime_pause_btn">Dừng lại hẹn giờ</string>
-    <string name="notification_title">Nextcloud Cookbook Giờ</string>
+    <string name="notification_title">Kitchen Archive Tool Giờ</string>
     <string name="dir_chooser_error">Lỗi: mục Gốc không được phép!</string>
     <string name="copy_ingredients">Sao chép phần</string>
     <string name="copy_ing_message">Thành phần sao chép vào nháp.</string>

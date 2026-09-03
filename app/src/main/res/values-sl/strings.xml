@@ -103,7 +103,7 @@
     <string name="pref_category_function">Funkcionalnost</string>
     <string name="about_summary">© 2020-2021 by MicMun. Licencirano pod GPLv3.
 \n
-\nNextcloud Cookbook je aplikacija za kuharsko knjigo na nextcloudu za upravljanje receptov.</string>
+\nKitchen Archive Tool je aplikacija za kuharsko knjigo na nextcloudu za upravljanje receptov.</string>
     <string name="permissions_error_message">Dostop zavrnjen! Aplikacija potrebuje dostop do shrambe. Dostop aktivirajte v nastavitvah.</string>
     <string name="permission_warning_nowrite">Nimate dostopa za pisanje v to shrambo, zato je izbira te mape nesmiselna.
 \nAli želite omogočiti dostop do te mape\?</string>

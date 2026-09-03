@@ -114,7 +114,7 @@
     <string name="about_version">Версія: %1$s</string>
     <string name="about_summary">© 2020-2023 MicMun. Ліцензовано на умовах GPLv3.
 \n
-\nNextcloud Cookbook — додаток для керування рецептами кулінарної книги на Nextcloud.</string>
+\nKitchen Archive Tool — додаток для керування рецептами кулінарної книги на Nextcloud.</string>
     <string name="menu_title_app">Додаток</string>
     <string name="login">Увійти</string>
     <string name="back_button">Повернутися до списку</string>
@@ -132,7 +132,7 @@
     <string name="menu_uncategorized">Без категорії</string>
     <string name="sync_interval_name_12">Кожні 12 годин</string>
     <string name="request_again">Повторний запит</string>
-    <string name="notification_title">Таймер Nextcloud Cookbook</string>
+    <string name="notification_title">Таймер Kitchen Archive Tool</string>
     <string name="copy_ing_message">Інгредієнти скопійовано в буфер обміну.</string>
     <string name="title_duration">Тривалість ГГ:ХХ</string>
     <string name="tooltip_prep_time">Підготовка</string>

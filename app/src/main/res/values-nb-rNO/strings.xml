@@ -87,7 +87,7 @@
     <string name="text_categories">Kategori:</string>
     <string name="about_summary">© 2020–2022 by MicMun. Lisensiert GPLv3.
 \n
-\nNextcloud Cookbook er et Nextcloud-kokebokprogram for håndtering av oppskrifter.</string>
+\nKitchen Archive Tool er et Nextcloud-kokebokprogram for håndtering av oppskrifter.</string>
     <string name="ingredients_yield">Gi</string>
     <string name="list_recipe_star_desc">Stjerneikon indikerer favorittstatus for oppskrift</string>
     <string name="cooktime_reset_btn">Stopper og tilbakestilles tidtakeren</string>
@@ -98,7 +98,7 @@
     <string name="channel_description">Kanal for timer meldinger</string>
     <string name="cooktime_tooltip">Starte en cooking timer</string>
     <string name="cooktime_title">Timer for matlaging</string>
-    <string name="notification_title">Nextcloud Cookbook Selvutløser</string>
+    <string name="notification_title">Kitchen Archive Tool Selvutløser</string>
     <string name="dir_chooser_error">Feil: Root-mappen er ikke tillatt!</string>
     <string name="copy_ingredients">Kopier ingredienser</string>
     <string name="copy_ing_message">Ingredienser kopiert til utklippstavlen.</string>

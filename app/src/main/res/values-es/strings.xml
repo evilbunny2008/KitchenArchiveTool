@@ -69,7 +69,7 @@
     <string name="about_version">Versión de la aplicación: %1$s</string>
     <string name="about_summary">© 2020-2022 por MicMun. Licencia bajo GPLv3.
 \n
-\nNextcloud Cookbook es una aplicación para el libro de cocina en nextcloud para gestionar las recetas.</string>
+\nKitchen Archive Tool es una aplicación para el libro de cocina en nextcloud para gestionar las recetas.</string>
     <string name="theme_name_light">Luz</string>
     <string name="theme_name_dark">Oscuro</string>
     <string name="theme_name_system">Sistema</string>
@@ -105,7 +105,7 @@
     <string name="cooktime_title">Temporizador para cocinar</string>
     <string name="cooktime_reset_btn">Detiene y reinicia el temporizador</string>
     <string name="cooktime_pause_btn">Pausa el temporizador</string>
-    <string name="notification_title">Nextcloud Cookbook Temporizador</string>
+    <string name="notification_title">Kitchen Archive Tool Temporizador</string>
     <string name="channel_name">Canal del temporizador</string>
     <string name="list_recipe_star_desc">Icono de estrella que indica el estado de favorito de la receta</string>
     <string name="dir_chooser_error">Error: La carpeta raíz no está permitida!</string>

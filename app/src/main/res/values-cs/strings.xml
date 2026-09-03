@@ -69,7 +69,7 @@
     <string name="about_version">Verze aplikace: %1$s</string>
     <string name="about_summary">© 2020-2023 by MicMun. Vydáno pod licencí GPLv3.
 \n
-\nNextcloud Cookbook je aplikace, sloužící ke správě receptů na Nextcloud serveru.</string>
+\nKitchen Archive Tool je aplikace, sloužící ke správě receptů na Nextcloud serveru.</string>
     <string name="theme_name_light">Světlý</string>
     <string name="theme_name_dark">Tmavý</string>
     <string name="theme_name_system">Dle systému</string>
@@ -105,7 +105,7 @@
     <string name="channel_name">Kanál časovače</string>
     <string name="channel_description">Kanál pro upozorňování z časovače</string>
     <string name="cooktime_tooltip">Spuštění časovače vaření</string>
-    <string name="notification_title">Nextcloud Cookbook časovač</string>
+    <string name="notification_title">Kitchen Archive Tool časovač</string>
     <string name="notification_text">Zbývající čas: %1$s</string>
     <string name="list_recipe_star_desc">Ikona hvězdičky označující oblíbenost receptu</string>
     <string name="dir_chooser_error">Chyba: Kořenovou složku není povoleno použít!</string>

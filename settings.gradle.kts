@@ -29,5 +29,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Nextcloud Cookbook"
+rootProject.name = "Kitchen Archive Tool"
 include(":app")

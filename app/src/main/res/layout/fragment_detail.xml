@@ -2,12 +2,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
    xmlns:app="http://schemas.android.com/apk/res-auto"
    xmlns:tools="http://schemas.android.com/tools"
-   tools:context="com.odiousapps.nextcloudcookbook.ui.recipedetail.RecipeDetailFragment">
+   tools:context="com.odiousapps.kat.ui.recipedetail.RecipeDetailFragment">
 
    <data>
       <variable
          name="timerClickListener"
-         type="com.odiousapps.nextcloudcookbook.ui.recipedetail.TimerClickListener" />
+         type="com.odiousapps.kat.ui.recipedetail.TimerClickListener" />
    </data>
 
    <androidx.constraintlayout.widget.ConstraintLayout

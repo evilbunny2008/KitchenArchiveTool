@@ -69,7 +69,7 @@
     <string name="about_version">Wersja App: %1$s</string>
     <string name="about_summary">© 2020-2022 przez MicMun. Licencja na GPLv3.
 \n
-\nNextcloud Cookbook to aplikacja do zarządzania przepisami w chmurze nextcloud.</string>
+\nKitchen Archive Tool to aplikacja do zarządzania przepisami w chmurze nextcloud.</string>
     <string name="theme_name_light">Światło</string>
     <string name="theme_name_dark">Mroczny</string>
     <string name="theme_name_system">Układ</string>
@@ -104,7 +104,7 @@
     <string name="channel_description">Kanał dla powiadomień zegara</string>
     <string name="cooktime_title">Timer gotowania</string>
     <string name="cooktime_reset_btn">Zatrzymuje i resetuje timer</string>
-    <string name="notification_title">Nextcloud Cookbook Czasomierz</string>
+    <string name="notification_title">Kitchen Archive Tool Czasomierz</string>
     <string name="channel_name">Kanał timera</string>
     <string name="cooktime_tooltip">Uruchomić zegar do gotowania</string>
     <string name="list_recipe_star_desc">Ikona gwiazdki oznaczająca status ulubionego przepisu</string>

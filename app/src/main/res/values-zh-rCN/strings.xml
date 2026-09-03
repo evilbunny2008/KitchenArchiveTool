@@ -134,7 +134,7 @@
     <string name="about_version">应用版本：%1$s</string>
     <string name="about_summary">© 2020-2023 作者：MicMun。根据 GPLv3 许可。
 \n
-\nNextcloud Cookbook 是 Nextcloud 上用于管理食谱的应用。</string>
+\nKitchen Archive Tool 是 Nextcloud 上用于管理食谱的应用。</string>
     <string name="about_specialthanks">我们还要感谢 Stefan Niedermann 在 Nextcloud Deck 和 Nextcloud Notes 应用上所做的工作，这是一个很好的灵感来源</string>
     <string name="menu_title_app">应用</string>
     <string name="skip_for_local_storage">跳过本地存储</string>

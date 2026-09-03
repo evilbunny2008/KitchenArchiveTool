@@ -78,7 +78,7 @@
          android:name=".services.RemainReceiver"
          android:exported="false">
          <intent-filter>
-            <action android:name="com.odiousapps.nextcloudcookbook.services.RemainReceiver.REMAIN_ACTION" />
+            <action android:name="com.odiousapps.kat.services.RemainReceiver.REMAIN_ACTION" />
          </intent-filter>
       </receiver> <!-- https://developer.android.com/training/scheduling/alarms#boot -->
       <!-- See link for improvements of bootreciever -->

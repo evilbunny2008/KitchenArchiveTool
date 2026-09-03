@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
    <string name="app_name">Cookbook</string>
-   <string name="app_name_long" translatable="false">Nextcloud Cookbook</string>
+   <string name="app_name_long" translatable="false">Kitchen Archive Tool</string>
    <string name="app_logo_desc">Launcher icon of the app showing a cookbook symbol</string>
 
    <string name="no_information">No Information.</string>
@@ -180,7 +180,7 @@
    <string name="channel_description">Channel for timer notifications</string>
    <string name="channel_name">Timer channel</string>
    <string name="notification_text">Time remains: %1$s</string>
-   <string name="notification_title">Nextcloud Cookbook Timer</string>
+   <string name="notification_title">Kitchen Archive Tool Timer</string>
    <string name="cooktime_start_btn">Starts the timer</string>
    <string name="cooktime_pause_btn">Pauses the timer</string>
    <string name="cooktime_reset_btn">Stops and resets the timer</string>
@@ -209,7 +209,7 @@
    <!-- About -->
    <string name="about_title">About</string>
    <string name="about_version">App version: %1$s</string>
-   <string name="about_summary">© 2020-2023 by MicMun. License under GPLv3.\n\nNextcloud Cookbook is an app for
+   <string name="about_summary">© 2020-2023 by MicMun. License under GPLv3.\n\nKitchen Archive Tool is an app for
       cookbook on nextcloud to manage recipes.</string>
    <string name="about_specialthanks">We also thank Stefan Niedermann for his work with the Nextcloud Deck and Nextcloud Notes apps, which are a great inspiration</string>
    <string name="menu_title_app">App</string>

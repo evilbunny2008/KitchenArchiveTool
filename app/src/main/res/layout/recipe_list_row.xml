@@ -6,10 +6,10 @@
     <data>
         <variable
             name="recipe"
-            type="com.odiousapps.nextcloudcookbook.db.model.DbRecipePreview" />
+            type="com.odiousapps.kat.db.model.DbRecipePreview" />
         <variable
             name="clickListener"
-            type="com.odiousapps.nextcloudcookbook.ui.recipelist.RecipeListListener" />
+            type="com.odiousapps.kat.ui.recipelist.RecipeListListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

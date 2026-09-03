@@ -2,17 +2,17 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
-      tools:context="com.odiousapps.nextcloudcookbook.ui.recipedetail.RecipeDetailFragment">
+      tools:context="com.odiousapps.kat.ui.recipedetail.RecipeDetailFragment">
 
    <data>
 
       <variable
             name="recipe"
-            type="com.odiousapps.nextcloudcookbook.db.model.DbRecipe" />
+            type="com.odiousapps.kat.db.model.DbRecipe" />
 
       <variable
             name="clickListener"
-            type="com.odiousapps.nextcloudcookbook.ui.recipedetail.CookTimeClickListener" />
+            type="com.odiousapps.kat.ui.recipedetail.CookTimeClickListener" />
    </data>
 
    <ScrollView

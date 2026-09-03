@@ -60,7 +60,7 @@
     <string name="form_search_options">Søgefunktion</string>
     <string name="about_summary">© 2020-2022 MicMun. Lisenssi GPLv3: n nojalla.
 \n
-\nNextcloud Cookbook on sovellus keittokirjaan nextcloudissa reseptien hallitsemiseksi.</string>
+\nKitchen Archive Tool on sovellus keittokirjaan nextcloudissa reseptien hallitsemiseksi.</string>
     <string name="theme_name_light">Lys</string>
     <string name="theme_name_dark">Mørk</string>
     <string name="sort_value_alpha_asc">Navn A-Z</string>
@@ -89,7 +89,7 @@
     <string name="form_download_override_existing">Udskift eksisterende opskriftsmappe</string>
     <string name="form_download_url_hint">Opskrift URL</string>
     <string name="ingredients_yield">Udbytte</string>
-    <string name="notification_title">Nextcloud Cookbook Klokken</string>
+    <string name="notification_title">Kitchen Archive Tool Klokken</string>
     <string name="channel_description">Kanal til timer-meddelelser</string>
     <string name="channel_name">Timer-kanal</string>
     <string name="notification_text">Der resterer tid: %1$s</string>

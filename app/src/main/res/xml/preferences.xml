@@ -14,7 +14,7 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:title="@string/pref_category_sync">
-      <com.odiousapps.nextcloudcookbook.ui.preferences.IntListPreference
+      <com.odiousapps.kat.ui.preferences.IntListPreference
           android:defaultValue="24"
           android:entries="@array/sync_interval_names"
           android:entryValues="@array/sync_interval_values"
@@ -28,7 +28,7 @@
           android:title="@string/pref_title_sync_wifi_only" />
    </PreferenceCategory>
    <PreferenceCategory android:title="@string/pref_category_design">
-      <com.odiousapps.nextcloudcookbook.ui.preferences.IntListPreference
+      <com.odiousapps.kat.ui.preferences.IntListPreference
             android:defaultValue="2"
             android:entries="@array/theme_names"
             android:entryValues="@array/theme_values"

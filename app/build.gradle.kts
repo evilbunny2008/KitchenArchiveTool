@@ -24,7 +24,7 @@ plugins {
 }
 
 android {
-    namespace = "com.odiousapps.nextcloudcookbook"
+    namespace = "com.odiousapps.kat"
     compileSdk {
         version = release(37)
     }
@@ -46,7 +46,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.odiousapps.nextcloudcookbook"
+        applicationId = "com.odiousapps.kat"
         minSdk = 29
         targetSdk = 37
         versionCode = 302
@@ -88,7 +88,7 @@ android {
 androidComponents {
     onVariants(selector().withBuildType("release")) { variant ->
         // NOTE: was "MX3ButtonMapper" (leftover from the sibling project) -- corrected.
-        val appName = "NextcloudCookbook"
+        val appName = "kat"
         val versionName = variant.outputs.first().versionName
         val variantNameCapitalized = variant.name.replaceFirstChar { it.uppercase() }
         val ideListingTaskName = "produce${variantNameCapitalized}BundleIdeListingFile"
