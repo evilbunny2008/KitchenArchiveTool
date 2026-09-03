@@ -11,7 +11,6 @@ import java.time.OffsetDateTime
 import java.time.format.DateTimeFormatter
 import java.time.format.DateTimeParseException
 import java.util.concurrent.Executors
-import java.util.logging.Logger
 
 class Sync(mContext: Context) {
 
@@ -96,7 +95,7 @@ class Sync(mContext: Context) {
          val recipeMetadata = JSONObject(recipe)
          val recipeId = recipeMetadata.getString("recipe_id")
          val name = recipeMetadata.getString("name")
-         Logger.getLogger(this::class.java.name).warning("Pulling Recipe: $name")
+         Log.d(TAG, "Pulling Recipe: $name")
          mStatusCallbacks.forEach {
             it.updateProgress(i++, remoteList.size, name)
          }
@@ -110,18 +109,18 @@ class Sync(mContext: Context) {
          //       The last one changed will be used.
          //       We need to think about if we want that. (When we implement editing)
          if (dateRemote > dateLocal || dateRemote == 0L) {
-            Logger.getLogger(this::class.java.name).warning("Local Recipe out of date: $name")
+            Log.d(TAG, "Local Recipe out of date: $name")
             try {
                downloadRecipe(recipeMetadata)
             } catch (e: Exception) {
                e.printStackTrace()
-               Logger.getLogger(this::class.java.name).severe("Error pulling recipe: ${e.message}")
+               Log.e(TAG, "Error pulling recipe: ${e.message}")
             }
          } else if (dateRemote < dateLocal) {
-            Logger.getLogger(this::class.java.name).severe("Remote Recipe out of date: $name")
+            Log.w(TAG, "Remote Recipe out of date: $name")
             //update file on the remote
          } else {
-            Logger.getLogger(this::class.java.name).severe("The Recipe is unchanged. Not syncing.")
+            Log.d(TAG, "The Recipe is unchanged. Not syncing.")
          }
          recipeIds.add(recipeId)
       }
@@ -180,7 +179,7 @@ class Sync(mContext: Context) {
          }
          File(folder, NEW_FILE_MARKER).delete()
       } else {
-         Logger.getLogger(this::class.java.name).severe("Upload failed! Recipe probably already exists!")
+         Log.w(TAG, "Upload failed! Recipe probably already exists!")
          pushJsonToRemote(folder, "(Copy)")
       }
    }
@@ -207,7 +206,7 @@ class Sync(mContext: Context) {
                      mFilesystem.deleteRecursive(folder)
                   }
                } else {
-                  Logger.getLogger(this::class.java.name).severe("Metadatafile empty while cleaning old recipes!")
+                  Log.w(TAG, "Metadatafile empty while cleaning old recipes!")
                }
             }
          }
@@ -238,14 +237,14 @@ class Sync(mContext: Context) {
                mFilesystem.writeDataToInternal("recipes/$username/$name/", "$size.jpg", bytes)
             }
          } catch (e: Exception) {
-            Logger.getLogger(this::class.java.name).severe("Error pulling image - $size: ${e.message}")
+            Log.e(TAG, "Error pulling image - $size: ${e.message}")
          }
       }
    }
 
    private fun getUsername(): String {
       if (mAccounts.getCurrentAccount() == null) {
-         Logger.getLogger(this::class.java.name).severe("There is no account, cannot create directory!")
+         Log.e(TAG, "There is no account, cannot create directory!")
          return "local"
       }
       return mAccounts.getCurrentAccount()!!.name
