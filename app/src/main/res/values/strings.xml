@@ -22,9 +22,9 @@
 	<string name="copy_ingredients">Copy ingredients</string>
 	<string name="copy_recipe_button_desc">Copy this recipe to another account</string>
 	<string name="copy_to_account_failure">Couldn’t copy the recipe: %1$s</string>
-	<string name="copy_to_account_in_progress">Copying \’%1$s\’ to %2$s…</string>
+	<string name="copy_to_account_in_progress">Copying \‘%1$s\’ to %2$s…</string>
 	<string name="copy_to_account_none_available">Add another account first to copy recipes between them</string>
-	<string name="copy_to_account_success">Copied \’%1$s\’ to %2$s. If the photo doesn’t show up there, that server couldn’t fetch it from here — add it again by hand</string>
+	<string name="copy_to_account_success">Copied \‘%1$s\’ to %2$s. If the photo doesn’t show up there, that server couldn’t fetch it from here — add it again by hand</string>
 	<string name="copy_to_account_title">Copy this recipe to…</string>
 	<string name="dir_chooser_error">Error: Root folder is not allowed!</string>
 	<string name="done_image_desc" translatable="false">Done image</string>
