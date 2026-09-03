@@ -2682,11 +2682,10 @@ def upload_to_nextcloud(recipe_json, nextcloud_url, username, password):
         sys.exit(1)
     response.raise_for_status()
 
-    # The Cookbook API returns the full created recipe object; the ID we
-    # want is nested under "id" -- if this shape turns out to be wrong for
-    # your server's API version, print(response.json()) to see the actual
-    # response and adjust this line accordingly.
-    new_recipe_id = response.json().get("id")
+    # Confirmed from an actual server response: the Cookbook API returns
+    # the new recipe's ID directly as a bare JSON value (e.g. 1801), not
+    # wrapped in an object -- so response.json() IS the ID itself.
+    new_recipe_id = response.json()
     print(f"Created recipe '{recipe.name}' with ID: {new_recipe_id}")
     return new_recipe_id
 
