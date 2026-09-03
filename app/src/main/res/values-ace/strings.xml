@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_specialthanks">Kamoe pih meuturi teurimong geunaseh keu Stefan Niedermann ateuh buet gobnyan ngon aplikasi Nextcloud Deck ngon Catatan Nextcloud, nyang jeuet keu inspirasi nyang that rayeuk</string>
 	<string name="about_summary">Alat Arsip Dapu (KAT) nakeuh saboh aplikasi Android nyang memanfaatkan aplikasi Buku Masakan server Nextcloud keu geuatoe resep</string>
 	<string name="about_title">Teuntang</string>
 	<string name="about_version">Versi aplikasi: %1$s</string>
 	<string name="account_switcher_current_account_desc">Rekening jinoe</string>
 	<string name="add_account">Tambah akun</string>
 	<string name="app_logo_desc">Ikon peluncur aplikasi KAT</string>
-	<string name="back_button">Kembali ke daftar</string>
 	<string name="cancel_btn">Batalkan timer (hana deuh)</string>
 	<string name="channel_description">Saluran keu pemberitahuan watee</string>
 	<string name="channel_name">Saluran timer</string>
@@ -18,7 +16,6 @@
 	<string name="cooktime_tooltip">Mulai watee taguen</string>
 	<string name="copy_ing_message">Bahan-bahan nyang ka geusalen u papan klip</string>
 	<string name="copy_ingredients">Bahan copy</string>
-	<string name="copy_recipe_button_desc">Resep nyoe neu copy bak akun laen</string>
 	<string name="copy_to_account_failure">Hana jeuet ta salen resep: %1$s</string>
 	<string name="copy_to_account_in_progress">Meusalen \’%1$s\’ keu %2$s</string>
 	<string name="copy_to_account_none_available">Tambah akun laen dilee untuk copy resep antara awak nyan</string>
@@ -128,10 +125,6 @@
 	<string name="sync_interval_name_24">Tiëp 24 Jam</string>
 	<string name="sync_interval_name_off">Piyoh</string>
 	<string name="sync_progress_text">%1$uroe/%2$uroe - %3$uroe</string>
-	<string name="sync_service_channel_description">Dipakek keu notfiication latar ukeu watee sinkronisasi resep</string>
-	<string name="sync_service_channel_name">Layanan Sinkronisasi</string>
-	<string name="sync_service_notification_content">Saat nyoe kamoe teungoh meu-update resep-resep droeneuh, hana trep le kamoe akan meugisa! Droeneuh jeuet neusom pemberitahuan nyoe lam pengaturan pemberitahuan</string>
-	<string name="sync_service_notification_title">Resep Sinkronisasi</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Asoe</string>
 	<string name="tab_instructions_title">Peurentah</string>

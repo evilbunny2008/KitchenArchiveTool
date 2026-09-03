@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_specialthanks">Ons bedank ook Stefan Niedermann vir sy werk met die Nextcloud Deck en Nextcloud Notes-toepassings, wat ’n groot inspirasie is</string>
 	<string name="about_summary">Kitchen Archive Tool (KAT) is ’n Android-toepassing wat die Nextcloud server Cookbook-toepassing gebruik om resepte te bestuur</string>
 	<string name="about_title">Oor</string>
 	<string name="about_version">Programweergawe: %1$s</string>
 	<string name="account_switcher_current_account_desc">Lopende rekening</string>
 	<string name="add_account">Voeg rekening by</string>
 	<string name="app_logo_desc">Launcher-ikoon van die KAT-toepassing</string>
-	<string name="back_button">Terug na lys</string>
 	<string name="cancel_btn">Kanselleer die timer (onsigbaar)</string>
 	<string name="channel_description">Kanaal vir timer kennisgewings</string>
 	<string name="channel_name">Timer kanaal</string>
@@ -18,7 +16,6 @@
 	<string name="cooktime_tooltip">Begin ’n kooktydhouer</string>
 	<string name="copy_ing_message">Bestanddele na knipbord gekopieer</string>
 	<string name="copy_ingredients">Kopieer bestanddele</string>
-	<string name="copy_recipe_button_desc">Kopieer hierdie resep na ’n ander rekening</string>
 	<string name="copy_to_account_failure">Kon nie die resep kopieer nie: %1$s</string>
 	<string name="copy_to_account_in_progress">Kopieer tans \’%1$s\’ na %2$s</string>
 	<string name="copy_to_account_none_available">Voeg eers ’n ander rekening by om resepte tussen hulle te kopieer</string>
@@ -128,10 +125,6 @@
 	<string name="sync_interval_name_24">Elke 24 uur</string>
 	<string name="sync_interval_name_off">Af</string>
 	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
-	<string name="sync_service_channel_description">Word gebruik vir voorgrondkennisgewing wanneer resepte gesinkroniseer word</string>
-	<string name="sync_service_channel_name">Sinkroniseer diens</string>
-	<string name="sync_service_notification_content">Ons is tans besig om jou resepte op te dateer, ons sal binnekort terug wees! Jy kan hierdie kennisgewing in die kennisgewinginstellings versteek</string>
-	<string name="sync_service_notification_title">Sinkroniseer resepte</string>
 	<string name="tab_info_title">Inligting</string>
 	<string name="tab_ingredients_title">Bestanddele</string>
 	<string name="tab_instructions_title">Instruksies</string>

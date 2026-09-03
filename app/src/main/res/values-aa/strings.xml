@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_specialthanks">kalah nanu gadda gacisna Stefan Niedermann taamah ciggiila qammurreh deek kee ciggiltah tan qammurreh kassit abnissoosa, toh kaxxa uguugus</string>
 	<string name="about_summary">Alaysoh qarih kobxiseenah silac (KAT) yaanam Andirooxih abnissoy ciggilta qammurreh ayfaf maaqoh alaysoh kitaabih abnissot xoqoysimta</string>
 	<string name="about_title">Ama caagidih</string>
 	<string name="about_version">Assabaltâ bicsa: %1$s</string>
 	<string name="account_switcher_current_account_desc">Awayih akkaawonti</string>
 	<string name="add_account">akkaawonti osis</string>
 	<string name="app_logo_desc">KAT assabaltah qemmisiyyi aykoonu</string>
-	<string name="back_button">Rorta fan uduur</string>
 	<string name="cancel_btn">Waqla lowsiiseyna duuga (ambulle wayta)</string>
 	<string name="channel_description">wakti maysaxxagoogih gita</string>
 	<string name="channel_name">Waqla le gita</string>
@@ -18,7 +16,6 @@
 	<string name="cooktime_tooltip">maaqoh alaysoh uddur qemmis</string>
 	<string name="copy_ing_message">Faaritte garuq luucih korseenih</string>
 	<string name="copy_ingredients">faaritte korraq</string>
-	<string name="copy_recipe_button_desc">tama maaqo bicsiyyi miracsenta gersi akkaawontit kors</string>
 	<string name="copy_to_account_failure">maaqo bicsiyyi miracsenta korsam maduuda: %1$s</string>
 	<string name="copy_to_account_in_progress">korraq \’%1$s\’ ilaa %2$s</string>
 	<string name="copy_to_account_none_available">Ken fanat tanih tan maaqo bicsiyyih korraq qimmol gersi akkaawonti osis</string>
@@ -128,10 +125,6 @@
 	<string name="sync_interval_name_24">Kulli 24 Saaqata</string>
 	<string name="sync_interval_name_off">Baysu</string>
 	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
-	<string name="sync_service_channel_description">fooci ardih maysaxxagal xoqoysil asele</string>
-	<string name="sync_service_channel_name">Ayfaafay ceelo</string>
-	<string name="sync_service_notification_content">Awayih ibak ku maaqo bicsiyyih qaynat qimmisneh nan, nanu kaadu uxih wadirih gacenno! Atu tama maysaxxaga maysaxxagah guddaaqah addat qellissam duuddah</string>
-	<string name="sync_service_notification_title">maaqo bicsih miracsenta ceelallo</string>
 	<string name="tab_info_title">Oyti</string>
 	<string name="tab_ingredients_title">Caxa’ sifa</string>
 	<string name="tab_instructions_title">Amri</string>

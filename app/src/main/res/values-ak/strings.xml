@@ -6,7 +6,6 @@
 	<string name="account_switcher_current_account_desc">Mprempren akontaabu</string>
 	<string name="add_account">Fa akontaabu ka ho</string>
 	<string name="app_logo_desc">Launcher ahyɛnsode a ɛwɔ KAT app no ​​mu</string>
-	<string name="back_button">San kɔ list no so</string>
 	<string name="cancel_btn">Twa bere nhyehyɛe no mu (a wontumi nhu)</string>
 	<string name="channel_description">Channel ma timer amanneɛbɔ ahorow</string>
 	<string name="channel_name">Timer kwan a wɔfa so yɛ adwuma</string>
@@ -17,7 +16,6 @@
 	<string name="cooktime_tooltip">Fi ase yɛ bere a wode bɛnoa aduan</string>
 	<string name="copy_ing_message">Nneɛma a wɔde yɛ aduan a wɔayɛ ho mfonini akɔ clipboard so</string>
 	<string name="copy_ingredients">Kɔpi nneɛma a wɔde yɛ aduan no</string>
-	<string name="copy_recipe_button_desc">Kɔpi saa aduan yi ho kɔ akontaabu foforo so</string>
 	<string name="copy_to_account_failure">Entumi nkyerɛw aduannoa no: %1$s</string>
 	<string name="copy_to_account_in_progress">Worekyerɛw \’%1$s\’ akɔ %2$s</string>
 	<string name="copy_to_account_none_available">Fa akontaabu foforo ka ho kan na woakyerɛw aduannoa ho akwankyerɛ wɔ wɔn ntam</string>
@@ -127,10 +125,6 @@
 	<string name="sync_interval_name_24">Nnɔnhwerew 24 Biara</string>
 	<string name="sync_interval_name_off">Adum</string>
 	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
-	<string name="sync_service_channel_description">Wɔde di dwuma ma foreground notfiication bere a syncing recipes</string>
-	<string name="sync_service_channel_name">Sync Ɔsom Dwumadibea</string>
-	<string name="sync_service_notification_content">Mprempren yɛreyɛ wo recipes no foforo, yɛbɛsan aba bere tiaa bi! Wubetumi de saa amanneɛbɔ yi asie wɔ amanneɛbɔ nhyehyɛe no mu</string>
-	<string name="sync_service_notification_title">Sync Nnuan Ho Nneɛma a Wɔyɛ</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Akadeɛ</string>
 	<string name="tab_instructions_title">Akwankyerɛ</string>

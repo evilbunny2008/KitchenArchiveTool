@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_specialthanks">Иара убас, Стефан Нидерман ҭабуп ҳәа иаҳҳәоит Nextcloud Deck, Nextcloud Notes апрограммақәа рыла иҟаиҵаз аусуразы, урҭ ҳгәы шьҭызхуа</string>
 	<string name="about_summary">Ачысмаҭәа Архив Аинструмент (KAT) ари Android апрограмма ауп, уи Nextcloud асервер Cookbook апрограмма ахархәара амоуп ареципқәа рнапхгаразы</string>
 	<string name="about_title">Иазкны</string>
 	<string name="about_version">Апрограмма аверсиа: %1$s</string>
 	<string name="account_switcher_current_account_desc">Уажәтәи аҳасабтә</string>
 	<string name="add_account">Ахыԥхьаӡара ацҵатәуп</string>
 	<string name="app_logo_desc">КАТ апрограма аус арура аҵакыга</string>
-	<string name="back_button">Ахьӡынҵахь ахынҳәра</string>
 	<string name="cancel_btn">Аамҭанырбага аԥыхтәуп (иубарҭам)</string>
 	<string name="channel_description">Аамҭанырбага ардыррақәа рзы аканал</string>
 	<string name="channel_name">Аамҭанырбагатә канал</string>
@@ -18,7 +16,6 @@
 	<string name="cooktime_tooltip">Ачысҟаҵара аамҭанырбага алагара</string>
 	<string name="copy_ing_message">Аингредиентқәа аклиптаблицахь иқәҭыхуп</string>
 	<string name="copy_ingredients">Ахәҭақәа рықәҭыхра</string>
-	<string name="copy_recipe_button_desc">Ари ареципт даҽа акаунтк ахь иқәҭыхтәуп</string>
 	<string name="copy_to_account_failure">Арецепт ақәҭыхра ауам: %1$s</string>
 	<string name="copy_to_account_in_progress">Акопиа аҟаҵара \’%1$s\’ %2$s ахь</string>
 	<string name="copy_to_account_none_available">Раԥхьа даҽа аккаунтк ацҵа, рыбжьара арецепқәа рықәҭыхразы</string>
@@ -128,10 +125,6 @@
 	<string name="sync_interval_name_24">Сааҭ 24 рышьҭахь</string>
 	<string name="sync_interval_name_off">Ирцәоу</string>
 	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
-	<string name="sync_service_channel_description">Арецептқәа реиқәыршәараан аԥхьатәи ардырразы ахархәара амоуп</string>
-	<string name="sync_service_channel_name">Амаҵзура асинхронизациа</string>
-	<string name="sync_service_notification_content">Уажәазы ​​шәрецептқәа ҳарҿыцуеит, хара имгакәа ҳхынҳәуеит! Ари ардырра ардырра архиарақәа рҿы иҵәахыр ҟалоит</string>
-	<string name="sync_service_notification_title">Арецептқәа рсинхронизациа</string>
 	<string name="tab_info_title">Аинформациа</string>
 	<string name="tab_ingredients_title">Аингредиентқәа</string>
 	<string name="tab_instructions_title">Аинструкциақәа</string>

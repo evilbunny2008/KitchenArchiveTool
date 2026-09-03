@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_specialthanks">Wapwoyo bene Stefan Niedermann pi ticce ki Nextcloud Deck ki Nextcloud Notes apps, ma obedo gin ma okonyo dano</string>
 	<string name="about_summary">Gin ma ki lwongo ni Kitchen Archive Tool (KAT) tye app ma ki tiyo kwede i Android ma tiyo ki Nextcloud server Cookbook app me gwoko jami ma ki yubu</string>
 	<string name="about_title">Ma kwako</string>
 	<string name="about_version">Kit me tic: %1$s</string>
 	<string name="account_switcher_current_account_desc">Akaunti ma itye kwede i kare ni</string>
 	<string name="add_account">Med akaunti</string>
 	<string name="app_logo_desc">Lanyut me yabo KAT app</string>
-	<string name="back_button">Dok cen i kin piny</string>
 	<string name="cancel_btn">Juku cawa (ma pe nen)</string>
 	<string name="channel_description">Yo me miyo ngec ma mako cawa</string>
 	<string name="channel_name">Yoo me cawa</string>
@@ -18,7 +16,6 @@
 	<string name="cooktime_tooltip">Yab cawa me tedo</string>
 	<string name="copy_ing_message">Jami ma ki keto i clipboard</string>
 	<string name="copy_ingredients">Kwany jami ma ki keto iye</string>
-	<string name="copy_recipe_button_desc">Coy kit me yubu cam ni i akaunti mukene</string>
 	<string name="copy_to_account_failure">Pe atwero kwanyo gin ma ki yubu ni: %1$s</string>
 	<string name="copy_to_account_in_progress">Kwanyo \’%1$s\’ me %2$s</string>
 	<string name="copy_to_account_none_available">Med akaunti mukene mukwongo me coyo jami ma ki yubu i kin gii</string>
@@ -128,10 +125,6 @@
 	<string name="sync_interval_name_24">I cawa 24 weng</string>
 	<string name="sync_interval_name_off">Pe tye</string>
 	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
-	<string name="sync_service_channel_description">Ki tiiyo kwede me miyo ngec ma anyim ka ki tye ka rwate ki jami ma ki yubu</string>
-	<string name="sync_service_channel_name">Tic me rwate</string>
-	<string name="sync_service_notification_content">Wa tye ka loko kit me yubu cam ni, wabi dwogo cok cok ni! Itwero kano ngec man i yub me ngec</string>
-	<string name="sync_service_notification_title">Ribo kit me yubu cam</string>
 	<string name="tab_info_title">Ngec</string>
 	<string name="tab_ingredients_title">Jemi ma ki yubu kwede</string>
 	<string name="tab_instructions_title">Ngo ma omyera ilub</string>
