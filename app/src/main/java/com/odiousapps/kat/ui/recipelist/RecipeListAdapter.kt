@@ -6,7 +6,6 @@
 package com.odiousapps.kat.ui.recipelist
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
@@ -68,8 +67,8 @@ class RecipeListAdapter(private val clickListener: RecipeListListener, private v
             starSwitcher.showNext()
             repository.updateStar(recipe.id, starSwitcher.currentView.id == R.id.recipeOverviewStarOn)
          }
-         binding.root.setOnLongClickListener { anchorView ->
-            clickListener.onLongClick(recipe, anchorView)
+         binding.root.setOnLongClickListener {
+            clickListener.onLongClick(recipe)
             true
          }
          binding.executePendingBindings()
@@ -88,8 +87,8 @@ class RecipeListAdapter(private val clickListener: RecipeListListener, private v
 
 class RecipeListListener(
    val clickListener: (recipeId: Long) -> Unit,
-   val longClickListener: (recipe: DbRecipePreview, anchorView: View) -> Unit
+   val longClickListener: (recipe: DbRecipePreview) -> Unit
 ) {
    fun onClick(recipe: DbRecipePreview) = clickListener(recipe.id)
-   fun onLongClick(recipe: DbRecipePreview, anchorView: View) = longClickListener(recipe, anchorView)
+   fun onLongClick(recipe: DbRecipePreview) = longClickListener(recipe)
 }

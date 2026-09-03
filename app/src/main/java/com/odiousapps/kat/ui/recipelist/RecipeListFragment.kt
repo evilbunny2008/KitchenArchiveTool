@@ -11,9 +11,11 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.PopupMenu
+import android.widget.ArrayAdapter
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.core.content.ContextCompat
 import androidx.core.view.postDelayed
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
@@ -33,6 +35,7 @@ import com.odiousapps.kat.data.SortValue
 import com.odiousapps.kat.databinding.FragmentRecipelistBinding
 import com.odiousapps.kat.db.DbRecipeRepository
 import com.odiousapps.kat.db.model.DbRecipePreview
+import com.odiousapps.kat.nextcloudapi.RecipeDeleter
 import com.odiousapps.kat.reciever.LocalBroadcastReceiver
 import com.odiousapps.kat.services.sync.SyncScheduler
 import com.odiousapps.kat.services.sync.SyncWorker
@@ -46,6 +49,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import java.io.File
 
 private const val NEXTCLOUD_ACCOUNT_TYPE = "nextcloud"
 
@@ -137,7 +141,7 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
       adapter = RecipeListAdapter(
          RecipeListListener(
             clickListener = { recipeName -> recipesViewModel.onRecipeClicked(recipeName) },
-            longClickListener = { recipe, anchorView -> showRecipeContextMenu(recipe, anchorView) }
+            longClickListener = { recipe -> showRecipeContextMenu(recipe) }
          ),
          DbRecipeRepository.getInstance(requireActivity().application)
       )
@@ -413,30 +417,34 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
    }
 
    /**
-    * Shows the long-press popup menu for a single recipe row. Currently
-    * just "copy to account", greyed out when there's no other account to
-    * copy into -- AccountManager.getAccountsByType() is a local, in-memory
-    * lookup (no network call), so this can run synchronously right here
-    * rather than needing a background thread.
+    * Shows the long-press action menu for a single recipe row, as a
+    * centered dialog (like a typical Android long-press context menu)
+    * rather than a dropdown anchored to the row -- a plain AlertDialog is
+    * centered by default, so no special positioning is needed.
+    *
+    * "Copy to account" is greyed out (but still visible) when there's no
+    * other account to copy into -- AccountManager.getAccountsByType() is
+    * a local, in-memory lookup (no network call), so this can run
+    * synchronously right here rather than needing a background thread.
     */
-   private fun showRecipeContextMenu(recipe: DbRecipePreview, anchorView: View) {
-      val popup = PopupMenu(requireContext(), anchorView)
-      popup.menuInflater.inflate(R.menu.recipe_list_item_menu, popup.menu)
-
+   private fun showRecipeContextMenu(recipe: DbRecipePreview) {
       val hasOtherAccount = AccountManager.get(requireContext())
          .getAccountsByType(NEXTCLOUD_ACCOUNT_TYPE).size > 1
-      popup.menu.findItem(R.id.menu_copy_recipe).isEnabled = hasOtherAccount
 
-      popup.setOnMenuItemClickListener { item ->
-         when (item.itemId) {
-            R.id.menu_copy_recipe -> {
-               openCopyToAccountSheet(recipe)
-               true
-            }
-            else -> false
+      val actions = listOf(
+         RecipeContextAction(getString(R.string.copy_to_account_title), hasOtherAccount) {
+            openCopyToAccountSheet(recipe)
+         },
+         RecipeContextAction(getString(R.string.delete_recipe), true, isDestructive = true) {
+            confirmDeleteRecipe(recipe)
          }
-      }
-      popup.show()
+      )
+
+      val adapter = RecipeContextActionAdapter(requireContext(), actions)
+      AlertDialog.Builder(requireContext())
+         .setTitle(recipe.name)
+         .setAdapter(adapter) { _, which -> actions[which].onSelected() }
+         .show()
    }
 
    /**
@@ -455,6 +463,92 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
                recipeName = it.recipeCore.name
             ).show(childFragmentManager, "copyToAccount")
          }
+      }
+   }
+
+   /**
+    * Confirms before deleting -- this removes the recipe from the server,
+    * not just the local list, and can't be undone.
+    */
+   private fun confirmDeleteRecipe(recipe: DbRecipePreview) {
+      AlertDialog.Builder(requireContext())
+         .setTitle(R.string.delete_recipe_confirm_title)
+         .setMessage(getString(R.string.delete_recipe_confirm_message, recipe.name))
+         .setPositiveButton(R.string.delete_recipe_confirm_positive) { _, _ -> deleteRecipe(recipe) }
+         .setNegativeButton(android.R.string.cancel, null)
+         .show()
+   }
+
+   /**
+    * Same DbRecipePreview -> full DbRecipe lookup as openCopyToAccountSheet,
+    * needed here for the recipe's local folder (RecipeDeleter reads its
+    * sibling METADATA file to find the recipe's server-side id).
+    */
+   private fun deleteRecipe(recipe: DbRecipePreview) {
+      val repository = DbRecipeRepository.getInstance(requireActivity().application)
+      viewLifecycleOwner.lifecycleScope.launch {
+         val result = withContext(Dispatchers.IO) {
+            val fullRecipe = repository.getRecipeSync(recipe.id)
+            val recipeFolder = fullRecipe?.recipeCore?.fileSystem?.filePath?.let { File(it).parentFile }
+            if (fullRecipe == null || recipeFolder == null) {
+               RecipeDeleter.Result.Failure("Could not find this recipe locally")
+            } else {
+               RecipeDeleter(requireContext().applicationContext).deleteRecipe(recipeFolder).also { result ->
+                  if (result is RecipeDeleter.Result.Success) {
+                     repository.deleteRecipe(fullRecipe.recipeCore.name)
+                  }
+               }
+            }
+         }
+
+         when (result) {
+            is RecipeDeleter.Result.Success ->
+               Toast.makeText(requireContext(), getString(R.string.delete_recipe_success, recipe.name), Toast.LENGTH_SHORT).show()
+            is RecipeDeleter.Result.Failure ->
+               Toast.makeText(requireContext(), getString(R.string.delete_recipe_failure, result.reason), Toast.LENGTH_LONG).show()
+         }
+      }
+   }
+
+   /** A single row in the recipe long-press action dialog. */
+   private data class RecipeContextAction(
+      val label: String,
+      val enabled: Boolean,
+      val isDestructive: Boolean = false,
+      val onSelected: () -> Unit
+   )
+
+   /**
+    * Renders each action's label, greying out disabled rows (e.g. "copy"
+    * with no other account to copy into) and tinting destructive ones
+    * (delete) in the error color -- plain ArrayAdapter/simple_list_item_1
+    * doesn't apply either on its own.
+    */
+   private class RecipeContextActionAdapter(context: Context, private val actions: List<RecipeContextAction>) :
+      ArrayAdapter<String>(context, android.R.layout.simple_list_item_1, actions.map { it.label }) {
+
+      override fun areAllItemsEnabled() = false
+      override fun isEnabled(position: Int) = actions[position].enabled
+
+      override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+         val view = super.getView(position, convertView, parent) as TextView
+         val action = actions[position]
+         view.isEnabled = action.enabled
+         when {
+            !action.enabled -> {
+               view.alpha = 0.4f
+               view.setTextColor(ContextCompat.getColor(context, R.color.textColor))
+            }
+            action.isDestructive -> {
+               view.alpha = 1f
+               view.setTextColor(ContextCompat.getColor(context, R.color.colorError))
+            }
+            else -> {
+               view.alpha = 1f
+               view.setTextColor(ContextCompat.getColor(context, R.color.textColor))
+            }
+         }
+         return view
       }
    }
 }

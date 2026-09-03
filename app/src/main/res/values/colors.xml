@@ -11,4 +11,5 @@
     <color name="cooktimeBackground">#F2F2F2</color>
     <color name="appbar">#ffffff</color>
     <color name="icon_color">#757575</color>
+    <color name="colorError">#D32F2F</color>
 </resources>

@@ -127,4 +127,26 @@ class CookbookAPI(private val mApi: NextcloudAPI) {
       }
       return null
    }
+
+   /**
+    * Deletes a recipe from the server. Returns true only if the request
+    * actually succeeded -- callers should not remove anything locally
+    * (DB row, files) unless this returns true, or a deletion that only
+    * failed on the server would leave the local copy gone while the
+    * server still has it, silently re-appearing on the next sync.
+    */
+   fun deleteRecipe(id: String): Boolean {
+      val nextcloudRequest: NextcloudRequest = NextcloudRequest.Builder()
+         .setMethod("DELETE")
+         .setUrl(Uri.encode("$API_RECIPE_BASE/$id", "/"))
+         .build()
+
+      return try {
+         mApi.performNetworkRequestV2(nextcloudRequest).body.use { }
+         true
+      } catch (e: Exception) {
+         Logger.getLogger(this::class.java.name).severe("Unknown Exception in deleteRecipe: ${e.javaClass}: ${e.message}")
+         false
+      }
+   }
 }

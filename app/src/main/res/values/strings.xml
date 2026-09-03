@@ -20,10 +20,16 @@
 	<string name="copy_ing_message">Ingredients copied to clipboard</string>
 	<string name="copy_ingredients">Copy ingredients</string>
 	<string name="copy_to_account_failure">Couldn’t copy the recipe: %1$s</string>
-	<string name="copy_to_account_in_progress">Copying \’%1$s\’ to %2$s…</string>
+	<string name="copy_to_account_in_progress">Copying \‘%1$s\’ to %2$s…</string>
 	<string name="copy_to_account_none_available">Add another account first to copy recipes between them</string>
-	<string name="copy_to_account_success">Copied \’%1$s\’ to %2$s. If the photo doesn’t show up there, that server couldn’t fetch it from here — add it again by hand</string>
+	<string name="copy_to_account_success">Copied \‘%1$s\’ to %2$s. If the photo doesn’t show up there, that server couldn’t fetch it from here — add it again by hand</string>
 	<string name="copy_to_account_title">Copy this recipe to…</string>
+	<string name="delete_recipe">Delete recipe</string>
+	<string name="delete_recipe_confirm_message">\"%1$s\" will be permanently deleted from the server. This can’t be undone.</string>
+	<string name="delete_recipe_confirm_positive">Delete</string>
+	<string name="delete_recipe_confirm_title">Delete this recipe?</string>
+	<string name="delete_recipe_failure">Couldn’t delete the recipe: %1$s</string>
+	<string name="delete_recipe_success">Deleted \"%1$s\"</string>
 	<string name="dir_chooser_error">Error: Root folder is not allowed!</string>
 	<string name="done_image_desc" translatable="false">Done image</string>
 	<string name="empty_list">No recipes</string>
