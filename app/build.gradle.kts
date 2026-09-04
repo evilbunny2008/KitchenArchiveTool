@@ -59,6 +59,22 @@ android {
         }
     }
 
+    // Silences "Unable to strip the following libraries, packaging them as
+    // they are: libdatastore_shared_counter.so" in the build log. That .so
+    // (from AndroidX DataStore, used for its multi-process file-locking)
+    // ships from Google already stripped of debug symbols -- `nm` on it
+    // shows no symbols at all -- so AGP's strip step has nothing to do and
+    // was only ever failing at that no-op, hence the warning. Telling AGP
+    // to keep whatever's already there for this one file skips the strip
+    // attempt entirely instead of attempting and warning on failure; since
+    // there's nothing in it to strip either way, this changes nothing
+    // about the built APK, just the build log.
+    packaging {
+        jniLibs {
+            keepDebugSymbols += "**/libdatastore_shared_counter.so"
+        }
+    }
+
     compileOptions {
         isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_21
