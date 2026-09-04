@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Kitchen Archive Tool (KAT) is `n Android-toepassing wat die Nextcloud server Cookbook-toepassing gebruik om resepte te bestuur</string>
+	<string name="about_summary">Kitchen Archive Tool (KAT) is ’n Android-toepassing wat die Nextcloud server Cookbook-toepassing gebruik om resepte te bestuur</string>
 	<string name="about_title">Oor</string>
 	<string name="about_version">Programweergawe: %1$s</string>
 	<string name="account_switcher_current_account_desc">Lopende rekening</string>
@@ -13,14 +13,20 @@
 	<string name="cooktime_reset_btn">Stop en stel die timer terug</string>
 	<string name="cooktime_start_btn">Begin die timer</string>
 	<string name="cooktime_title">Kooktydhouer</string>
-	<string name="cooktime_tooltip">Begin `n kooktydhouer</string>
+	<string name="cooktime_tooltip">Begin ’n kooktydhouer</string>
 	<string name="copy_ing_message">Bestanddele na knipbord gekopieer</string>
 	<string name="copy_ingredients">Kopieer bestanddele</string>
 	<string name="copy_to_account_failure">Kon nie die resep kopieer nie: %1$s</string>
-	<string name="copy_to_account_in_progress">Kopieer tans `%1$s` na %2$s</string>
-	<string name="copy_to_account_none_available">Voeg eers `n ander rekening by om resepte tussen hulle te kopieer</string>
-	<string name="copy_to_account_success">Het `%1$s` na %2$s gekopieer. Die foto is nie gekopieer nie - die Kookboekbediener het geen manier om een ​​te ontvang nie, so voeg dit weer met die hand by as jy dit daar wil hê</string>
+	<string name="copy_to_account_in_progress">Kopieer tans ’%1$s’ na %2$s</string>
+	<string name="copy_to_account_none_available">Voeg eers ’n ander rekening by om resepte tussen hulle te kopieer</string>
+	<string name="copy_to_account_success">Het ’%1$s’ na %2$s gekopieer. Die foto is nie gekopieer nie - die Kookboekbediener het geen manier om een ​​te ontvang nie, so voeg dit weer met die hand by as jy dit daar wil hê</string>
 	<string name="copy_to_account_title">Kopieer hierdie resep na</string>
+	<string name="delete_recipe">Vee resep uit</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ sal permanent van die bediener verwyder word. Dit kan nie ongedaan gemaak word nie</string>
+	<string name="delete_recipe_confirm_positive">Vee uit</string>
+	<string name="delete_recipe_confirm_title">Vee hierdie resep uit?</string>
+	<string name="delete_recipe_failure">Kon nie die resep uitvee nie: %1$s</string>
+	<string name="delete_recipe_success">Het ’%1$s’ uitgevee</string>
 	<string name="dir_chooser_error">Fout: Wortelvouer word nie toegelaat nie!</string>
 	<string name="empty_list">Geen resepte nie</string>
 	<string name="error_no_network">Geen netwerkverbinding nie</string>
@@ -34,7 +40,7 @@
 	<string name="form_download_override_existing">Vervang bestaande reseplêer</string>
 	<string name="form_download_title">Laai Resep af</string>
 	<string name="form_download_url_hint">Resep URL</string>
-	<string name="form_exact_search">Doen `n presiese soektog?</string>
+	<string name="form_exact_search">Doen ’n presiese soektog?</string>
 	<string name="form_ignore_case">Ignoreer geval?</string>
 	<string name="form_search_commit">Soek</string>
 	<string name="form_search_hint">Soek</string>
@@ -95,7 +101,7 @@
 	<string name="pref_category_design">Ontwerp</string>
 	<string name="pref_category_function">Funksionaliteit</string>
 	<string name="pref_category_sync">Sinchronisasie</string>
-	<string name="pref_summary_keep_screen_alive">Moenie die skerm sluit wanneer jy na `n resep kyk nie</string>
+	<string name="pref_summary_keep_screen_alive">Moenie die skerm sluit wanneer jy na ’n resep kyk nie</string>
 	<string name="pref_summary_sync_wifi_only">Dit deaktiveer sinkronisering wanneer die toestel slegs via mobiele data gekoppel is</string>
 	<string name="pref_title_enableSyncService">Agtergrondsinchronisasie</string>
 	<string name="pref_title_keep_screen_alive">Hou die skerm lewendig</string>
@@ -105,7 +111,7 @@
 	<string name="rationale_permissions">Rasionaal: %s</string>
 	<string name="recipe_details_tabs">Resep is in oortjies georganiseer</string>
 	<string name="recipe_list_image_desc">Prent-kleinkiekie van resep</string>
-	<string name="recipe_no_timer">Hierdie resep het nie `n timer nie!</string>
+	<string name="recipe_no_timer">Hierdie resep het nie ’n timer nie!</string>
 	<string name="request_again">Versoek weer</string>
 	<string name="search_hint">Soek op naam</string>
 	<string name="search_in_all">Soek</string>
@@ -139,7 +145,7 @@
 	<string name="theme_name_dark">Donker</string>
 	<string name="theme_name_light">Lig</string>
 	<string name="theme_name_system">Stelsel</string>
-	<string name="title_dir_chooser">Kies `n gids</string>
+	<string name="title_dir_chooser">Kies ’n gids</string>
 	<string name="title_duration">Tydsduur in UU:MM</string>
 	<string name="tooltip_cook_time">Kook</string>
 	<string name="tooltip_prep_time">Voorbereiding</string>
