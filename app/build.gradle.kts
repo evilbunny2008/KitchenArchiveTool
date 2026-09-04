@@ -4,8 +4,10 @@ import com.android.build.api.artifact.SingleArtifact
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.RegularFileProperty
 import org.gradle.api.provider.Property
+import org.gradle.api.provider.Provider
 import org.gradle.api.tasks.InputFile
 import org.gradle.api.tasks.Input
+import org.gradle.api.tasks.OutputFile
 import org.gradle.api.tasks.TaskAction
 
 plugins {
@@ -98,15 +100,28 @@ abstract class RenameBundleTask : DefaultTask() {
     @get:Input
     abstract val renamedFileName: Property<String>
 
+    // Declared explicitly so Gradle has a real output to track for this
+    // task, rather than none at all (a task with inputs but no declared
+    // outputs is always re-run regardless, per Gradle's docs, so this
+    // wasn't why the task might be getting skipped -- but it's still the
+    // correct way to declare a task that produces a file, and every other
+    // AGP-recommended variant-artifact task follows this shape).
+    @get:OutputFile
+    val renamedFile: Provider<File> = bundleFile.zip(renamedFileName) { bundle, name ->
+        File(bundle.asFile.parentFile, name)
+    }
+
     @TaskAction
     fun rename() {
         val file = bundleFile.get().asFile
+        logger.lifecycle("renameBundle: source bundle at $file (exists=${file.exists()})")
         if (file.exists()) {
-            val renamedFile = File(file.parentFile, renamedFileName.get())
-            file.copyTo(renamedFile, overwrite = true)
+            val renamed = renamedFile.get()
+            file.copyTo(renamed, overwrite = true)
             file.delete()
+            logger.lifecycle("renameBundle: renamed to $renamed")
         } else {
-            println("Expected bundle file not found at $file - skipping rename")
+            logger.lifecycle("renameBundle: expected bundle file not found at $file - skipping rename")
         }
     }
 }
