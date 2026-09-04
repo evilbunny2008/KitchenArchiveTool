@@ -29,6 +29,7 @@ import androidx.navigation.ui.NavigationUI
 import androidx.preference.PreferenceManager
 import com.bumptech.glide.Glide
 import com.odiousapps.kat.nextcloudapi.Accounts
+import com.odiousapps.kat.nextcloudapi.AvatarCache
 import com.odiousapps.kat.nextcloudapi.AvatarFetcher
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
@@ -409,11 +410,27 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
             return@launch
          }
 
-         // See AvatarFetcher's doc comment: fetched ourselves, rather than
-         // handed to Glide as a URL/SingleSignOnUrl, because
-         // nextcloud-commons:sso-glide's Glide integration leaks the
-         // underlying network resource on every load.
-         val avatarBytes = withContext(Dispatchers.IO) {
+         // long-press indicator of the current account -- doesn't affect the
+         // tap behavior, which opens the system account chooser as before
+         binding.accountSwitcher.tooltipText = ssoAccount.name
+
+         // Shows instantly from a previous fetch (AvatarCache is keyed by
+         // account name, so unlike Glide's own cache -- deliberately left
+         // disabled below -- there's no risk of a stale image from a
+         // *different* account leaking through here after a switch).
+         val cachedBytes = withContext(Dispatchers.IO) { AvatarCache.read(applicationContext, ssoAccount.name) }
+         if (cachedBytes != null) {
+            loadAvatar(cachedBytes)
+         }
+
+         // Refreshed in the background regardless of whether a cached
+         // image was just shown, so the cache (and the displayed image,
+         // if it actually changed) stay current without ever blocking on
+         // the network first. See AvatarFetcher's doc comment: fetched
+         // ourselves, rather than handed to Glide as a URL/SingleSignOnUrl,
+         // because nextcloud-commons:sso-glide's Glide integration leaks
+         // the underlying network resource on every load.
+         val freshBytes = withContext(Dispatchers.IO) {
             val api = Accounts(applicationContext).getApiToAccount()
             try {
                api?.let { AvatarFetcher.fetchAvatarBytes(it, ssoAccount) }
@@ -421,27 +438,32 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
                api?.close()
             }
          }
-
-         Glide
-            .with(this@MainActivity)
-            // Both cache layers are deliberately skipped: this avatar is
-            // small and only (re)loaded on app start and account switches,
-            // so the cost of always fetching fresh is negligible -- but a
-            // cached stale image (from whichever account was active before)
-            // silently lingering after switching accounts is a real,
-            // confusing correctness bug, which is worse than the minor
-            // extra network request.
-            .load(avatarBytes)
-            .skipMemoryCache(true)
-            .diskCacheStrategy(DiskCacheStrategy.NONE)
-            .placeholder(R.drawable.ic_baseline_account_circle_24)
-            .error(R.drawable.ic_baseline_account_circle_24)
-            .apply(RequestOptions.circleCropTransform())
-            .into(binding.accountSwitcher)
-         // long-press indicator of the current account -- doesn't affect the
-         // tap behavior, which opens the system account chooser as before
-         binding.accountSwitcher.tooltipText = ssoAccount.name
+         if (freshBytes != null) {
+            withContext(Dispatchers.IO) { AvatarCache.write(applicationContext, ssoAccount.name, freshBytes) }
+            loadAvatar(freshBytes)
+         } else if (cachedBytes == null) {
+            // nothing cached and the fetch failed -- fall back to the placeholder
+            loadAvatar(null)
+         }
       }
+   }
+
+   private fun loadAvatar(bytes: ByteArray?) {
+      Glide
+         .with(this@MainActivity)
+         // Both Glide cache layers are deliberately skipped: AvatarCache
+         // above already handles persistence (correctly keyed per
+         // account), so Glide caching these bytes too would just be
+         // redundant -- and a stale image from a *different* account
+         // silently lingering here after switching would be a real,
+         // confusing correctness bug.
+         .load(bytes)
+         .skipMemoryCache(true)
+         .diskCacheStrategy(DiskCacheStrategy.NONE)
+         .placeholder(R.drawable.ic_baseline_account_circle_24)
+         .error(R.drawable.ic_baseline_account_circle_24)
+         .apply(RequestOptions.circleCropTransform())
+         .into(binding.accountSwitcher)
    }
 
    fun setSortIcon(sort: SortValue) {

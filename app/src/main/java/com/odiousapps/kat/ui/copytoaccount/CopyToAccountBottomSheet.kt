@@ -27,6 +27,7 @@ import com.odiousapps.kat.R
 import com.odiousapps.kat.databinding.BottomSheetCopyToAccountBinding
 import com.odiousapps.kat.databinding.ItemAccountSwitcherBinding
 import com.odiousapps.kat.nextcloudapi.Accounts
+import com.odiousapps.kat.nextcloudapi.AvatarCache
 import com.odiousapps.kat.nextcloudapi.AvatarFetcher
 import com.odiousapps.kat.nextcloudapi.RecipeCopier
 import com.odiousapps.kat.nextcloudapi.UserInfoAPI
@@ -191,7 +192,7 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
                   accountName = ssoAccount.name,
                   displayName = ssoAccount.userId,
                   subtitle = "${ssoAccount.userId}@$hostname",
-                  avatarBytes = null
+                  avatarBytes = AvatarCache.read(context, ssoAccount.name)
                )
             } catch (_: Exception) {
                // account known to AccountManager but not (or no longer)
@@ -224,8 +225,9 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
          // Glide integration leaks the underlying network resource on
          // every load.
          val avatarBytes = AvatarFetcher.fetchAvatarBytes(api, ssoAccount)
+         avatarBytes?.let { AvatarCache.write(context, ssoAccount.name, it) }
          val displayName = UserInfoAPI(api).getDisplayName() ?: item.displayName
-         item.copy(displayName = displayName, avatarBytes = avatarBytes)
+         item.copy(displayName = displayName, avatarBytes = avatarBytes ?: item.avatarBytes)
       } catch (_: Exception) {
          item
       } finally {
