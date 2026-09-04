@@ -4,10 +4,7 @@
    <dimen name="tab_ingredients_text_size">18sp</dimen>
    <dimen name="tab_instructions_text_size">18sp</dimen>
    <dimen name="tab_nutritions_text_size">18sp</dimen>
-   <dimen name="text_big">18sp</dimen>
-   <dimen name="text_normal">16sp</dimen>
    <dimen name="text_small">14sp</dimen>
-   <dimen name="header_image_height">150dp</dimen>
    <dimen name="instruction_counter_size">35dp</dimen>
 
    <!-- Margins for floating button to copy ingredients -->
