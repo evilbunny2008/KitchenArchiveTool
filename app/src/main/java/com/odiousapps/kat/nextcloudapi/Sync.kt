@@ -16,7 +16,7 @@ class Sync(mContext: Context) {
 
    private val mAccounts: Accounts = Accounts(mContext.applicationContext)
    private val mAPI: NextcloudAPI = mAccounts.getApiToAccount()!!
-   private var mCookbookAPI: CookbookAPI = CookbookAPI(mAPI)
+   private val mCookbookAPI: CookbookAPI = CookbookAPI(mAPI)
    private var mClosed = false
    private var mFilesystem = Filesystem(mContext)
    private var mStatusCallbacks = arrayListOf<SyncProgressIndicatorInterface>()
@@ -87,7 +87,14 @@ class Sync(mContext: Context) {
          throw ApiClosedException("The Api has already been closed. Please reinstantiate this class!")
       }
 
-      mCookbookAPI = CookbookAPI(mAccounts.getApiToAccount()!!)
+      // mCookbookAPI is already initialized as a field, wrapping mAPI --
+      // previously this line re-fetched a brand new NextcloudAPI connection
+      // here and reassigned mCookbookAPI to wrap it, orphaning the original
+      // mAPI connection (which is all closeAPI() actually closes) and
+      // leaking a live AIDL connection to the Nextcloud Files app on every
+      // single sync. Sync instances are always constructed immediately
+      // before use (see SyncWorker.doWork()), so there was never a reason
+      // to re-fetch here.
       val remoteList = mCookbookAPI.getRecipes()
       val recipeIds = ArrayList<String>()
       var i = 1
