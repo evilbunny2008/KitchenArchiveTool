@@ -3,7 +3,10 @@
 import com.android.build.api.artifact.SingleArtifact
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.RegularFileProperty
+import org.gradle.api.provider.Property
+import org.gradle.api.provider.Provider
 import org.gradle.api.tasks.InputFile
+import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.OutputFile
 import org.gradle.api.tasks.TaskAction
 
@@ -41,8 +44,8 @@ android {
         applicationId = "com.odiousapps.kat"
         minSdk = 29
         targetSdk = 37
-        versionCode = 4000000
-        versionName = "4.0.0"
+        versionCode = 1
+        versionName = "0.0.1"
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled = true
     }
@@ -66,21 +69,20 @@ android {
     }
 }
 
-// Copies the release .aab from AGP's default build output location
-// (app/build/outputs/bundle/release/app-release.aab) to
-// app/release/<appName>-<versionName>.aab (already gitignored) -- a
-// separate, deliberately-chosen destination outside the build/ directory,
-// so it survives a clean build. (An earlier version of this comment
-// claimed the build output location *was* app/release/ and this task
-// just renamed in place there; that was wrong -- confirmed directly by
-// this task's own diagnostic logging showing the real source path.)
-// Critically, this must run *after* AGP's own internal
-// "produce...BundleIdeListingFile" task, which declares the bundle at
-// its default name/location as one of its own inputs - deleting it any
-// earlier fails that task's input validation with "file doesn't exist".
+// Renames the release .aab from AGP's default "app-release.aab" to
+// "<appName>-<versionName>.aab", in place, within app/release/ (already
+// gitignored) - which turns out to already be this project's actual bundle
+// output location (confirmed by an AGP validation error naming that exact
+// path as a declared input elsewhere), not a separate custom destination to
+// copy into as originally assumed. Critically, this must run *after* AGP's
+// own internal "produce...BundleIdeListingFile" task, which declares the
+// bundle at its default name as one of its own inputs - renaming (or
+// deleting) it any earlier fails that task's input validation with "file
+// doesn't exist", which is what happened when this was ordered the other
+// way around.
 //
 // Defined as a proper typed task class (not a closure passed to
-// tasks.register) with Provider/Property-typed inputs: an earlier version
+// tasks.register) with Provider/Property-typed inputs: the previous version
 // captured the whole AGP `variant` object inside a doLast {} closure, and
 // resolved variant.artifacts.get(SingleArtifact.BUNDLE) at execution time
 // from within that closure. `variant` internally holds live references to
@@ -95,19 +97,29 @@ abstract class RenameBundleTask : DefaultTask() {
     @get:InputFile
     abstract val bundleFile: RegularFileProperty
 
+    @get:Input
+    abstract val renamedFileName: Property<String>
+
+    // Declared explicitly so Gradle has a real output to track for this
+    // task, rather than none at all (a task with inputs but no declared
+    // outputs is always re-run regardless, per Gradle's docs, so this
+    // wasn't why the task might be getting skipped -- but it's still the
+    // correct way to declare a task that produces a file, and every other
+    // AGP-recommended variant-artifact task follows this shape).
     @get:OutputFile
-    abstract val destinationFile: RegularFileProperty
+    val renamedFile: Provider<File> = bundleFile.zip(renamedFileName) { bundle, name ->
+        File(bundle.asFile.parentFile, name)
+    }
 
     @TaskAction
     fun rename() {
         val file = bundleFile.get().asFile
         logger.lifecycle("renameBundle: source bundle at $file (exists=${file.exists()})")
         if (file.exists()) {
-            val destination = destinationFile.get().asFile
-            destination.parentFile.mkdirs()
-            file.copyTo(destination, overwrite = true)
+            val renamed = renamedFile.get()
+            file.copyTo(renamed, overwrite = true)
             file.delete()
-            logger.lifecycle("renameBundle: moved to $destination")
+            logger.lifecycle("renameBundle: renamed to $renamed")
         } else {
             logger.lifecycle("renameBundle: expected bundle file not found at $file - skipping rename")
         }
@@ -130,10 +142,10 @@ androidComponents {
 
         val renameBundle = tasks.register("renameBundle$variantNameCapitalized", RenameBundleTask::class.java) {
             group = "build"
-            description = "Copies the $variantNameCapitalized .aab to app/release/$appName-<versionName>.aab"
+            description = "Renames the $variantNameCapitalized .aab in place to $appName-<versionName>.aab"
             mustRunAfter(ideListingTaskName)
             bundleFile.set(variant.artifacts.get(SingleArtifact.BUNDLE))
-            destinationFile.set(layout.projectDirectory.file("release/$appName-${versionName.get()}.aab"))
+            renamedFileName.set("$appName-${versionName.get()}.aab")
         }
         // Hooks the rename onto the standard "bundle" task graph, so it also
         // runs automatically from Android Studio's Build > Generate Signed
