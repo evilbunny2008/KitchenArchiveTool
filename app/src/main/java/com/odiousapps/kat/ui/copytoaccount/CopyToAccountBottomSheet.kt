@@ -40,6 +40,12 @@ import java.io.File
 import java.util.concurrent.Executors
 
 private const val NEXTCLOUD_ACCOUNT_TYPE = "nextcloud"
+
+/** ByteArray's own == is reference equality, not content -- this is null-safe content comparison. */
+private fun bytesEqual(a: ByteArray?, b: ByteArray?): Boolean {
+   if (a == null || b == null) return a == null && b == null
+   return a.contentEquals(b)
+}
 private const val ARG_RECIPE_JSON_PATH = "recipe_json_path"
 private const val ARG_RECIPE_NAME = "recipe_name"
 
@@ -252,8 +258,21 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
       /** Replaces one row's data (matched by accountName) and redraws just that row. */
       fun updateItem(updated: CopyTargetItem) {
          val index = items.indexOfFirst { it.accountName == updated.accountName }
-         if (index != -1) {
-            items[index] = updated
+         if (index == -1) return
+
+         val current = items[index]
+         items[index] = updated
+
+         // Skip the redraw if nothing user-visible actually changed: Glide
+         // resets to .placeholder() before swapping in a new image on
+         // every load, even when the bytes are identical -- so a redundant
+         // rebind here would flicker every row's avatar back to the
+         // placeholder icon on every single sheet open, undermining the
+         // point of caching.
+         val unchanged = current.displayName == updated.displayName &&
+            current.subtitle == updated.subtitle &&
+            bytesEqual(current.avatarBytes, updated.avatarBytes)
+         if (!unchanged) {
             notifyItemChanged(index)
          }
       }

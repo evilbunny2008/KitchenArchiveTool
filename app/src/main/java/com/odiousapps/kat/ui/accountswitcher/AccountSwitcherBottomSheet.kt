@@ -48,6 +48,12 @@ import java.io.File
 
 private const val NEXTCLOUD_ACCOUNT_TYPE = "nextcloud"
 
+/** ByteArray's own == is reference equality, not content -- this is null-safe content comparison. */
+private fun bytesEqual(a: ByteArray?, b: ByteArray?): Boolean {
+   if (a == null || b == null) return a == null && b == null
+   return a.contentEquals(b)
+}
+
 /**
  * Shows every Nextcloud account this app currently has access to, with the
  * active one marked by a checkmark. Unlike the system account chooser
@@ -311,8 +317,22 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
       /** Replaces one row's data (matched by accountName) and redraws just that row. */
       fun updateItem(updated: AccountSwitcherItem) {
          val index = items.indexOfFirst { it.accountName == updated.accountName }
-         if (index != -1) {
-            items[index] = updated
+         if (index == -1) return
+
+         val current = items[index]
+         items[index] = updated
+
+         // Skip the redraw if nothing user-visible actually changed: Glide
+         // resets to .placeholder() before swapping in a new image on
+         // every load, even when the bytes are identical -- so a redundant
+         // rebind here would flicker every row's avatar back to the
+         // placeholder icon on every single sheet open, undermining the
+         // point of caching.
+         val unchanged = current.displayName == updated.displayName &&
+            current.subtitle == updated.subtitle &&
+            current.isCurrent == updated.isCurrent &&
+            bytesEqual(current.avatarBytes, updated.avatarBytes)
+         if (!unchanged) {
             notifyItemChanged(index)
          }
       }

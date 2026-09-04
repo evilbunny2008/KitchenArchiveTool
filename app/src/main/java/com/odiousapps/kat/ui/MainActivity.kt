@@ -440,7 +440,16 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
          }
          if (freshBytes != null) {
             withContext(Dispatchers.IO) { AvatarCache.write(applicationContext, ssoAccount.name, freshBytes) }
-            loadAvatar(freshBytes)
+            // Skip the reload entirely if nothing actually changed: Glide
+            // resets the target to .placeholder() before swapping in a new
+            // image on every load, even when the bytes are identical --
+            // triggering a visible flicker back to the placeholder icon on
+            // every single screen open, which defeats the point of caching
+            // (a correct cache hit would otherwise be invisible, since the
+            // avatar was already showing correctly from cachedBytes above).
+            if (cachedBytes == null || !freshBytes.contentEquals(cachedBytes)) {
+               loadAvatar(freshBytes)
+            }
          } else if (cachedBytes == null) {
             // nothing cached and the fetch failed -- fall back to the placeholder
             loadAvatar(null)
