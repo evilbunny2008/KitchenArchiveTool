@@ -1,6 +1,12 @@
 @file:Suppress("UnstableApiUsage")
 
 import com.android.build.api.artifact.SingleArtifact
+import org.gradle.api.DefaultTask
+import org.gradle.api.file.RegularFileProperty
+import org.gradle.api.provider.Property
+import org.gradle.api.tasks.InputFile
+import org.gradle.api.tasks.Input
+import org.gradle.api.tasks.TaskAction
 
 plugins {
     alias(libs.plugins.android.application)
@@ -72,6 +78,39 @@ android {
 // deleting) it any earlier fails that task's input validation with "file
 // doesn't exist", which is what happened when this was ordered the other
 // way around.
+//
+// Defined as a proper typed task class (not a closure passed to
+// tasks.register) with Provider/Property-typed inputs: the previous version
+// captured the whole AGP `variant` object inside a doLast {} closure, and
+// resolved variant.artifacts.get(SingleArtifact.BUNDLE) at execution time
+// from within that closure. `variant` internally holds live references to
+// Project, Configuration, and other Task objects (JavaCompile, etc.) --
+// none of which the configuration cache is able to serialize, so every
+// build failed to cache with errors naming exactly those types. Declaring
+// bundleFile as a RegularFileProperty and wiring it from
+// variant.artifacts.get(...) (itself a Provider<RegularFile>) at
+// configuration time means only the resolved file path is ever captured --
+// the task action itself never touches `variant` at all.
+abstract class RenameBundleTask : DefaultTask() {
+    @get:InputFile
+    abstract val bundleFile: RegularFileProperty
+
+    @get:Input
+    abstract val renamedFileName: Property<String>
+
+    @TaskAction
+    fun rename() {
+        val file = bundleFile.get().asFile
+        if (file.exists()) {
+            val renamedFile = File(file.parentFile, renamedFileName.get())
+            file.copyTo(renamedFile, overwrite = true)
+            file.delete()
+        } else {
+            println("Expected bundle file not found at $file - skipping rename")
+        }
+    }
+}
+
 androidComponents {
     onVariants(selector().withBuildType("release")) { variant ->
         // NOTE: was "MX3ButtonMapper" (leftover from the sibling project) -- corrected.
@@ -86,20 +125,12 @@ androidComponents {
             output.outputFileName.set("$appName-${versionName.get()}.apk")
         }
 
-        val renameBundle = tasks.register("renameBundle$variantNameCapitalized") {
+        val renameBundle = tasks.register("renameBundle$variantNameCapitalized", RenameBundleTask::class.java) {
             group = "build"
             description = "Renames the $variantNameCapitalized .aab in place to $appName-<versionName>.aab"
             mustRunAfter(ideListingTaskName)
-            doLast {
-                val bundleFile = variant.artifacts.get(SingleArtifact.BUNDLE).get().asFile
-                if (bundleFile.exists()) {
-                    val renamedFile = File(bundleFile.parentFile, "$appName-${versionName.get()}.aab")
-                    bundleFile.copyTo(renamedFile, overwrite = true)
-                    bundleFile.delete()
-                } else {
-                    println("Expected bundle file not found at $bundleFile - skipping rename")
-                }
-            }
+            bundleFile.set(variant.artifacts.get(SingleArtifact.BUNDLE))
+            renamedFileName.set("$appName-${versionName.get()}.aab")
         }
         // Hooks the rename onto the standard "bundle" task graph, so it also
         // runs automatically from Android Studio's Build > Generate Signed
