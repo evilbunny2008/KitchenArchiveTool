@@ -17,9 +17,9 @@
 	<string name="copy_ing_message">Nneɛma a wɔde yɛ aduan a wɔayɛ ho mfonini akɔ clipboard so</string>
 	<string name="copy_ingredients">Kɔpi nneɛma a wɔde yɛ aduan no</string>
 	<string name="copy_to_account_failure">Entumi nkyerɛw aduannoa no: %1$s</string>
-	<string name="copy_to_account_in_progress">Worekyerɛw \’%1$s\’ akɔ %2$s</string>
+	<string name="copy_to_account_in_progress">Worekyerɛw `%1$s` akɔ %2$s</string>
 	<string name="copy_to_account_none_available">Fa akontaabu foforo ka ho kan na woakyerɛw aduannoa ho akwankyerɛ wɔ wɔn ntam</string>
-	<string name="copy_to_account_success">Wɔakyerɛw \’%1$s\’ akɔ %2$s. Wɔannyɛ mfonini no — Cookbook server no nni ɔkwan biara a ɛbɛfa so anya bi, enti fa nsa ka ho bio sɛ ​​wopɛ sɛ ɛwɔ hɔ a</string>
+	<string name="copy_to_account_success">Wɔakyerɛw `%1$s` akɔ %2$s. Wɔannyɛ mfonini no — Cookbook server no nni ɔkwan biara a ɛbɛfa so anya bi, enti fa nsa ka ho bio sɛ ​​wopɛ sɛ ɛwɔ hɔ a</string>
 	<string name="copy_to_account_title">Copy saa recipe yi to</string>
 	<string name="dir_chooser_error">Mfomso: Wɔmma root folda ho kwan!</string>
 	<string name="empty_list">Nnuan ho nyansahyɛ biara nni hɔ</string>
@@ -35,7 +35,7 @@
 	<string name="form_download_title">Twe Nnuan Ho Nsɛm</string>
 	<string name="form_download_url_hint">Nnuan ho nyansahyɛ URL</string>
 	<string name="form_exact_search">Yɛ nhwehwɛmu pɔtee bi?</string>
-	<string name="form_ignore_case">Bu w’ani gu asɛm no so?</string>
+	<string name="form_ignore_case">Bu w`ani gu asɛm no so?</string>
 	<string name="form_search_commit">Hwehwɛ</string>
 	<string name="form_search_hint">Hwehwɛ</string>
 	<string name="form_search_options">Hwehwɛ nneɛma a wubetumi apaw</string>
@@ -124,7 +124,6 @@
 	<string name="sync_interval_name_12">Nnɔnhwerew 12 biara</string>
 	<string name="sync_interval_name_24">Nnɔnhwerew 24 Biara</string>
 	<string name="sync_interval_name_off">Adum</string>
-	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Akadeɛ</string>
 	<string name="tab_instructions_title">Akwankyerɛ</string>

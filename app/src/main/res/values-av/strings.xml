@@ -17,9 +17,9 @@
 	<string name="copy_ing_message">Ингредиентал буфералде копия гьарун руго</string>
 	<string name="copy_ingredients">Ингредиентазул копия</string>
 	<string name="copy_to_account_failure">Рецепт копия гьабизе кӀвечӀо: %1$s</string>
-	<string name="copy_to_account_in_progress">Копирование ’%1$s’ в %2$s</string>
+	<string name="copy_to_account_in_progress">Копирование `%1$s` в %2$s</string>
 	<string name="copy_to_account_none_available">Гьезда гьоркьор рецептал копия гьаризе цин цоги аккаунт тӀаде жубай</string>
-	<string name="copy_to_account_success">Копия гьабуна ’%1$s’ %2$s -алде. Если фото не показывается там, то этот сервер не мог забрать его отсюда — добавьте его снова вручную</string>
+	<string name="copy_to_account_success">Копия гьабуна `%1$s` %2$s -алде. Если фото не показывается там, то этот сервер не мог забрать его отсюда — добавьте его снова вручную</string>
 	<string name="copy_to_account_title">Гьаб рецепт копия гьабе</string>
 	<string name="dir_chooser_error">ГӀалатӀ: Аслияб папка риччаларо!</string>
 	<string name="empty_list">Рецептал гьечӀо</string>
@@ -124,7 +124,6 @@
 	<string name="sync_interval_name_12">Щибаб 12 сагӀаталдасан</string>
 	<string name="sync_interval_name_24">Щибаб 24 сагӀаталдасан</string>
 	<string name="sync_interval_name_off">ЧӀезабизе</string>
-	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
 	<string name="tab_info_title">Инфо</string>
 	<string name="tab_ingredients_title">Ингредиенты</string>
 	<string name="tab_instructions_title">Инструкции</string>

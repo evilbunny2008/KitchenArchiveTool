@@ -17,9 +17,9 @@
 	<string name="copy_ing_message">Аингредиентқәа аклиптаблицахь иқәҭыхуп</string>
 	<string name="copy_ingredients">Ахәҭақәа рықәҭыхра</string>
 	<string name="copy_to_account_failure">Арецепт ақәҭыхра ауам: %1$s</string>
-	<string name="copy_to_account_in_progress">Акопиа аҟаҵара \’%1$s\’ %2$s ахь</string>
+	<string name="copy_to_account_in_progress">Акопиа аҟаҵара `%1$s` %2$s ахь</string>
 	<string name="copy_to_account_none_available">Раԥхьа даҽа аккаунтк ацҵа, рыбжьара арецепқәа рықәҭыхразы</string>
-	<string name="copy_to_account_success">Иқәҭыхуп \’%1$s\’ %2$s ахь. Афото ақәҭыхра ҟамлаӡеит — Cookbook асервер аҿы уи аиура амҩа ыҟам, убри аҟнытә напыла даҽазнык иацҵа, убраҟа уҭахызар</string>
+	<string name="copy_to_account_success">Иқәҭыхуп `%1$s` %2$s ахь. Афото ақәҭыхра ҟамлаӡеит — Cookbook асервер аҿы уи аиура амҩа ыҟам, убри аҟнытә напыла даҽазнык иацҵа, убраҟа уҭахызар</string>
 	<string name="copy_to_account_title">Ари арецип ақәҭыхра</string>
 	<string name="dir_chooser_error">Агха: Апапка ашьагәыҭ азин амаӡам!</string>
 	<string name="empty_list">Арецептқәа ыҟам</string>
@@ -124,7 +124,6 @@
 	<string name="sync_interval_name_12">Сааҭ 12 рышьҭахь</string>
 	<string name="sync_interval_name_24">Сааҭ 24 рышьҭахь</string>
 	<string name="sync_interval_name_off">Ирцәоу</string>
-	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
 	<string name="tab_info_title">Аинформациа</string>
 	<string name="tab_ingredients_title">Аингредиентқәа</string>
 	<string name="tab_instructions_title">Аинструкциақәа</string>

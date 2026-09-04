@@ -17,9 +17,9 @@
 	<string name="copy_ing_message">Faaritte garuq luucih korseenih</string>
 	<string name="copy_ingredients">faaritte korraq</string>
 	<string name="copy_to_account_failure">maaqo bicsiyyi miracsenta korsam maduuda: %1$s</string>
-	<string name="copy_to_account_in_progress">korraq \’%1$s\’ ilaa %2$s</string>
+	<string name="copy_to_account_in_progress">korraq `%1$s` ilaa %2$s</string>
 	<string name="copy_to_account_none_available">Ken fanat tanih tan maaqo bicsiyyih korraq qimmol gersi akkaawonti osis</string>
-	<string name="copy_to_account_success">korsimeh \’%1$s\’ ilaa %2$s. Foto copy abeh sugem — Cookbook server inkih elle geytimam mali, tohih taagah qagitaak gabat ossimtaah, tokkel faxxam tekkek</string>
+	<string name="copy_to_account_success">korsimeh `%1$s` ilaa %2$s. Foto copy abeh sugem — Cookbook server inkih elle geytimam mali, tohih taagah qagitaak gabat ossimtaah, tokkel faxxam tekkek</string>
 	<string name="copy_to_account_title">tama maaqo bicsiyyi miracsenta korraq</string>
 	<string name="dir_chooser_error">Hoxa: ramid folxer midniminna!</string>
 	<string name="empty_list">maaqo bicsiyyi miracsenta uli</string>
@@ -124,9 +124,8 @@
 	<string name="sync_interval_name_12">Kulli 12 Saaqata</string>
 	<string name="sync_interval_name_24">Kulli 24 Saaqata</string>
 	<string name="sync_interval_name_off">Baysu</string>
-	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
 	<string name="tab_info_title">Oyti</string>
-	<string name="tab_ingredients_title">Caxa’ sifa</string>
+	<string name="tab_ingredients_title">Caxa` sifa</string>
 	<string name="tab_instructions_title">Amri</string>
 	<string name="tab_nutritions_title">Maaqiddi</string>
 	<string name="text_author">Kutbe-abe:</string>

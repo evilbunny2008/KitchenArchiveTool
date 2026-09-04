@@ -17,9 +17,9 @@
 	<string name="copy_ing_message">Jami ma ki keto i clipboard</string>
 	<string name="copy_ingredients">Kwany jami ma ki keto iye</string>
 	<string name="copy_to_account_failure">Pe atwero kwanyo gin ma ki yubu ni: %1$s</string>
-	<string name="copy_to_account_in_progress">Kwanyo \’%1$s\’ me %2$s</string>
+	<string name="copy_to_account_in_progress">Kwanyo `%1$s` me %2$s</string>
 	<string name="copy_to_account_none_available">Med akaunti mukene mukwongo me coyo jami ma ki yubu i kin gii</string>
-	<string name="copy_to_account_success">Ki kwanyo \’%1$s\’ me doko %2$s. cal ni pe ki kwanyo — latic me buk me tedo pe ki yoo me nongo acel, ki dong med ne ki cingi ka imito ni obed kunu</string>
+	<string name="copy_to_account_success">Ki kwanyo `%1$s` me doko %2$s. cal ni pe ki kwanyo — latic me buk me tedo pe ki yoo me nongo acel, ki dong med ne ki cingi ka imito ni obed kunu</string>
 	<string name="copy_to_account_title">Coy gin ma ki yubu me yubu cam ni i</string>
 	<string name="dir_chooser_error">Bal: Folda ma tye i acaki pe ki yer!</string>
 	<string name="empty_list">Pe tye yoo me yubu cam</string>
@@ -48,7 +48,7 @@
 	<string name="header_image_desc">Cal ma tye i wi karatac me yubu cam</string>
 	<string name="img_desc_logo">cal pa gin ma ki yubu me yubu cam ni</string>
 	<string name="ingredients_yield">Kelo</string>
-	<string name="label_source">Ka m’oa iye:</string>
+	<string name="label_source">Ka m`oa iye:</string>
 	<string name="list_recipe_star_desc">Lakalatwe ma nyutu kit ma jami ma ki yubu ni tye kwede</string>
 	<string name="login">Dony</string>
 	<string name="manage_accounts">Gwoko akaunti</string>
@@ -92,7 +92,7 @@
 	<string name="permissions_error_message">Ki kwero donyo! App mito ka gwoko jami, tim ber iket i yub</string>
 	<string name="permissions_required">twero mite!</string>
 	<string name="play_btn">Cako/Juko cawa</string>
-	<string name="pref_category_design">Pulan ma nyutu kit m’obi bedo kwede</string>
+	<string name="pref_category_design">Pulan ma nyutu kit m`obi bedo kwede</string>
 	<string name="pref_category_function">Tic</string>
 	<string name="pref_category_sync">Ribbe</string>
 	<string name="pref_summary_keep_screen_alive">Pe i juku cim ka itye ka neno gin ma ki yubu me yubu cam</string>
@@ -124,12 +124,11 @@
 	<string name="sync_interval_name_12">I cawa 12 weng</string>
 	<string name="sync_interval_name_24">I cawa 24 weng</string>
 	<string name="sync_interval_name_off">Pe tye</string>
-	<string name="sync_progress_text">%1$d/%2$d - %3$s</string>
 	<string name="tab_info_title">Ngec</string>
 	<string name="tab_ingredients_title">Jemi ma ki yubu kwede</string>
 	<string name="tab_instructions_title">Ngo ma omyera ilub</string>
 	<string name="tab_nutritions_title">Cam mabeco</string>
-	<string name="text_author">Ngat m’ocoyo:</string>
+	<string name="text_author">Ngat m`ocoyo:</string>
 	<string name="text_categories">Gurup:</string>
 	<string name="text_date_published">Nino dwe ma ki coyo: %1$s</string>
 	<string name="text_keywords">Lok ma pire tek:</string>
