@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">Ongekategoriseer</string>
 	<string name="no_information">Geen inligting</string>
 	<string name="no_ingredients">Geen bestanddele</string>
+	<string name="no_instructions">Geen instruksies nie</string>
 	<string name="notification_text">Tyd oor: %1$s</string>
 	<string name="notification_title">Kombuis Argief Gereedskap Timer</string>
 	<string name="nutrition_calories">Kalorieë: %1$s</string>

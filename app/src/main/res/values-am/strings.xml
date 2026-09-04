@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">ያልተመደበ</string>
 	<string name="no_information">ምንም መረጃ የለም።</string>
 	<string name="no_ingredients">ምንም ንጥረ ነገሮች የሉም</string>
+	<string name="no_instructions">ምንም መመሪያ የለም።</string>
 	<string name="notification_text">የሚቀረው ጊዜ፡ %1$s</string>
 	<string name="notification_title">የወጥ ቤት መዝገብ ቤት መሣሪያ ጊዜ ቆጣሪ</string>
 	<string name="nutrition_calories">ካሎሪዎች፡ %1$s</string>

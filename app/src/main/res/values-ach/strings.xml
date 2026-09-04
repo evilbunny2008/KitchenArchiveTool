@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">Pe ki keto i dul</string>
 	<string name="no_information">Pe tye ngec mo</string>
 	<string name="no_ingredients">Pe tye jami ma ki keto iye</string>
+	<string name="no_instructions">Pe tye cik mo</string>
 	<string name="notification_text">Cawa odong: %1$s</string>
 	<string name="notification_title">Cawa me gwoko jami me ot tedo</string>
 	<string name="nutrition_calories">Calories: %1$s</string>

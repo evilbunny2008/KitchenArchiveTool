@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">অশ্রেণীভুক্ত</string>
 	<string name="no_information">কোন তথ্য নেই</string>
 	<string name="no_ingredients">কোন উপাদান নেই</string>
+	<string name="no_instructions">কোন নির্দেশনা নেই</string>
 	<string name="notification_text">সময় বাকি আছে: %1$s</string>
 	<string name="notification_title">রান্নাঘর সংরক্ষণাগার টুল টাইমার</string>
 	<string name="nutrition_calories">ক্যালোরি: %1$s</string>

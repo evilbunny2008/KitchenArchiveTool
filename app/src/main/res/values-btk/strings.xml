@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">Dang digoari</string>
 	<string name="no_information">Dang adong hatorangan</string>
 	<string name="no_ingredients">Dang adong bahan</string>
+	<string name="no_instructions">Dang adong Petunjuk</string>
 	<string name="notification_text">Tingki na tinggal: %1$s</string>
 	<string name="notification_title">Jam Alat Arsip Dapur</string>
 	<string name="nutrition_calories">Kalori: %1$s</string>

@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">རིགས་དབྱེ་མེད།</string>
 	<string name="no_information">གནས་ཚུལ་མེད།</string>
 	<string name="no_ingredients">རྒྱུ་ཆ་མེད།</string>
+	<string name="no_instructions">བཀའ་སློབ་མེད།</string>
 	<string name="notification_text">དུས་ཚོད་ལྷག་ཡོད།: %1$s</string>
 	<string name="notification_title">ཐབ་ཚང་གི་ཡིག་ཚགས་ལག་ཆའི་དུས་ཚོད།</string>
 	<string name="nutrition_calories">ཚ་ཚད།: %1$s</string>

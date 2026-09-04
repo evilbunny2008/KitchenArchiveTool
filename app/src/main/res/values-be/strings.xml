@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">Без катэгорыі</string>
 	<string name="no_information">Інфармацыі няма</string>
 	<string name="no_ingredients">Без інгрэдыентаў</string>
+	<string name="no_instructions">Няма інструкцый</string>
 	<string name="notification_text">Засталося часу: %1$s</string>
 	<string name="notification_title">Інструмент кухоннага архіва Таймер</string>
 	<string name="nutrition_calories">Калорыі: %1$s</string>

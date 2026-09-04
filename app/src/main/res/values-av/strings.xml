@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">Категория гьечӀого</string>
 	<string name="no_information">Информация гьечӀо</string>
 	<string name="no_ingredients">Ингредиентал гьечӀо</string>
+	<string name="no_instructions">Инструкция гьечӀо</string>
 	<string name="notification_text">Заман хутӀана: %1$s</string>
 	<string name="notification_title">Кухняялъул архивалъул инструментазул таймер</string>
 	<string name="nutrition_calories">Калориял: %1$s</string>
