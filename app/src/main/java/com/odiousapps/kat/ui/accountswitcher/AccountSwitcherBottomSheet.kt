@@ -8,6 +8,8 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.provider.Settings
 import android.text.Spannable
 import android.text.SpannableStringBuilder
@@ -33,6 +35,8 @@ import com.odiousapps.kat.nextcloudapi.UserInfoAPI
 import com.odiousapps.kat.services.sync.SyncScheduler
 import com.odiousapps.kat.settings.PreferenceData
 import com.odiousapps.kat.util.Filesystem
+import kotlinx.coroutines.runBlocking
+import java.util.concurrent.Executors
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -126,15 +130,41 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
       SingleAccountHelper.commitCurrentAccount(context, accountName)
 
       val prefs = PreferenceData.getInstance()
-      viewLifecycleOwner.lifecycleScope.launch {
-         withContext(Dispatchers.IO) {
-            val externalDir = Filesystem(context).getInternalStoragePath()
-            val accountRecipeDir = File(externalDir, "recipes/$accountName/")
-            prefs.setRecipeDir(accountRecipeDir.absolutePath)
-         }
+      val appContext = context.applicationContext
+      // Captured on the main thread, before hopping to a background
+      // thread below -- Fragment.getActivity() isn't safe to call off
+      // the main thread.
+      val hostActivity = activity as? AccountSwitcherHost
+      val mainHandler = Handler(Looper.getMainLooper())
+
+      // Deliberately NOT using viewLifecycleOwner.lifecycleScope here: the
+      // row's click handler calls dismiss() immediately after this
+      // function returns, which tears this fragment's view down almost
+      // right away and cancels that scope -- a coroutine launched on it
+      // was very likely being cancelled before onAccountSwitched()/
+      // syncNow() ever ran. That matches exactly what was reported: the
+      // recipe list did update (fs_filePath's write below tends to land
+      // before cancellation catches up with it, since it starts first),
+      // but the account-switcher avatar and the immediate post-switch
+      // sync -- the last steps in this sequence -- reliably lost the race
+      // and never fired, leaving the previous account's avatar showing
+      // until the next full app restart (when MainActivity.onCreate's own
+      // independent updateProfilePicture() call runs instead). A plain
+      // background executor survives the bottom sheet closing, same
+      // pattern CopyToAccountBottomSheet uses for its own post-dismiss
+      // background work.
+      Executors.newSingleThreadExecutor().submit {
+         val externalDir = Filesystem(appContext).getInternalStoragePath()
+         val accountRecipeDir = File(externalDir, "recipes/$accountName/")
+         // setRecipeDir is a suspend fun (DataStore-backed); runBlocking
+         // here is safe since we're already off the main thread, and
+         // matches how PreferenceData itself already bridges its own
+         // suspend calls from non-suspend callers (see
+         // setSyncServiceInterval).
+         runBlocking { prefs.setRecipeDir(accountRecipeDir.absolutePath) }
          prefs.setSyncServiceEnabled()
-         (activity as? AccountSwitcherHost)?.onAccountSwitched()
-         SyncScheduler.syncNow(context)
+         mainHandler.post { hostActivity?.onAccountSwitched() }
+         SyncScheduler.syncNow(appContext)
       }
    }
 
