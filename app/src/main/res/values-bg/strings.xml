@@ -74,7 +74,6 @@
 	<string name="menu_uncategorized">Некатегоризиран</string>
 	<string name="no_information">Няма информация</string>
 	<string name="no_ingredients">Без съставки</string>
-	<string name="no_instructions">Няма инструкции</string>
 	<string name="notification_text">Оставащо време: %1$s</string>
 	<string name="notification_title">Инструмент за кухненски архив Таймер</string>
 	<string name="nutrition_calories">Калории: %1$s</string>

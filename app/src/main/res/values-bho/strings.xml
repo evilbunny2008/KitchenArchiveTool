@@ -74,7 +74,6 @@
 	<string name="menu_uncategorized">बिना श्रेणीबद्ध कइल गइल बा</string>
 	<string name="no_information">कवनो जानकारी नइखे</string>
 	<string name="no_ingredients">कवनो सामग्री नइखे</string>
-	<string name="no_instructions">कवनो निर्देश नइखे</string>
 	<string name="notification_text">समय बाचल बा: %1$s</string>
 	<string name="notification_title">रसोई संग्रह उपकरण टाइमर के बा</string>
 	<string name="nutrition_calories">कैलोरी: %1$s के बा</string>

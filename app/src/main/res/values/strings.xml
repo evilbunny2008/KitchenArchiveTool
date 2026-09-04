@@ -185,5 +185,4 @@
 	<string name="tooltip_cook_time">Cooking</string>
 	<string name="tooltip_prep_time">Preparation</string>
 	<string name="tooltip_total_time">Total</string>
-	<string name="no_instructions">No Instructions</string>
 </resources>

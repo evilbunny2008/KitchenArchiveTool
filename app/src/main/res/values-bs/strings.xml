@@ -74,7 +74,6 @@
 	<string name="menu_uncategorized">Uncategorized</string>
 	<string name="no_information">Nema informacija</string>
 	<string name="no_ingredients">Bez sastojaka</string>
-	<string name="no_instructions">Nema instrukcija</string>
 	<string name="notification_text">Preostalo vrijeme: %1$s</string>
 	<string name="notification_title">Tajmer za alat za arhiviranje kuhinje</string>
 	<string name="nutrition_calories">Kalorije: %1$s</string>

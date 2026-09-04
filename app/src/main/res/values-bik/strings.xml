@@ -74,7 +74,6 @@
 	<string name="menu_uncategorized">Daing kategorya</string>
 	<string name="no_information">Mayo nin Impormasyon</string>
 	<string name="no_ingredients">Mayo nin mga sangkap</string>
-	<string name="no_instructions">Mayo nin mga Instruksiyon</string>
 	<string name="notification_text">An oras natatada: %1$s</string>
 	<string name="notification_title">Timer kan Kagamitan sa Arkibo sa Kusina</string>
 	<string name="nutrition_calories">Kaloriya: %1$s</string>

@@ -74,7 +74,6 @@
 	<string name="menu_uncategorized">Kateqoriyasız</string>
 	<string name="no_information">Məlumat yoxdur</string>
 	<string name="no_ingredients">Tərkibi yoxdur</string>
-	<string name="no_instructions">Təlimat yoxdur</string>
 	<string name="notification_text">Vaxt qalır: %1$s</string>
 	<string name="notification_title">Mətbəx Arxiv Aləti Taymeri</string>
 	<string name="nutrition_calories">Kalori: %1$s</string>
