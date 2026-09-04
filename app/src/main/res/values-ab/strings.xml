@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">Акатегориа иаҵанамкуа</string>
 	<string name="no_information">Аинформациа ыҟам</string>
 	<string name="no_ingredients">Ахәҭақәа ыҟам</string>
+	<string name="no_instructions">Абжьгара ыҟам</string>
 	<string name="notification_text">Аамҭа аанхоит: %1$s</string>
 	<string name="notification_title">Ачысмаҭәа Архив Аинструмент Аамҭарбага</string>
 	<string name="nutrition_calories">Акалориақәа: %1$s</string>

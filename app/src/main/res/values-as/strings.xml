@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">অশ্ৰেণীবদ্ধ</string>
 	<string name="no_information">কোনো তথ্য নাই</string>
 	<string name="no_ingredients">কোনো উপাদান নাই</string>
+	<string name="no_instructions">কোনো নিৰ্দেশনা নাই</string>
 	<string name="notification_text">সময় বাকী আছে: %1$s</string>
 	<string name="notification_title">পাকঘৰৰ আৰ্কাইভ সঁজুলি টাইমাৰ</string>
 	<string name="nutrition_calories">কেলৰি: %1$s</string>

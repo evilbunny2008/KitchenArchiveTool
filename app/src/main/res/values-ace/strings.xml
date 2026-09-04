@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">Hana dikategorikan</string>
 	<string name="no_information">Hana informasi</string>
 	<string name="no_ingredients">Hana bahan</string>
+	<string name="no_instructions">Hana peutunyok</string>
 	<string name="notification_text">Watèë nyang mantong na: %1$s</string>
 	<string name="notification_title">Peugot Alat Arsip Dapu</string>
 	<string name="nutrition_calories">Kalori: %1$s</string>

@@ -74,6 +74,7 @@
 	<string name="menu_uncategorized">Tafibikwe mu fiputulwa</string>
 	<string name="no_information">Tapali amashiwi</string>
 	<string name="no_ingredients">Tapali ifya kusankanyamo</string>
+	<string name="no_instructions">Tapali Amafunde</string>
 	<string name="notification_text">Inshita iyashala: %1$s</string>
 	<string name="notification_title">Inshita ya fibombelo fyakusungilamo ifyaku ng’anda</string>
 	<string name="nutrition_calories">Amakalori: %1$s</string>
