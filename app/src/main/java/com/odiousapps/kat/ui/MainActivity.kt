@@ -29,6 +29,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.NavigationUI
 import androidx.preference.PreferenceManager
 import com.bumptech.glide.Glide
+import it.niedermann.nextcloud.sso.glide.SingleSignOnUrl
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.nextcloud.android.sso.AccountImporter
@@ -417,7 +418,7 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
             // silently lingering after switching accounts is a real,
             // confusing correctness bug, which is worse than the minor
             // extra network request.
-            .load(ssoAccount.url + "/index.php/avatar/" + Uri.encode(ssoAccount.userId) + "/64")
+            .load(SingleSignOnUrl(ssoAccount, ssoAccount.url + "/index.php/avatar/" + Uri.encode(ssoAccount.userId) + "/64"))
             .skipMemoryCache(true)
             .diskCacheStrategy(DiskCacheStrategy.NONE)
             .placeholder(R.drawable.ic_baseline_account_circle_24)

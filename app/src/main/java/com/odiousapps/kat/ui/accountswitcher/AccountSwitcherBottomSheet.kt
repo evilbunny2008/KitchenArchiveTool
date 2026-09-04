@@ -21,6 +21,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import it.niedermann.nextcloud.sso.glide.SingleSignOnUrl
 import com.bumptech.glide.request.RequestOptions
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.gson.GsonBuilder
@@ -258,7 +259,7 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
             itemBinding.accountName.text = buildLabel(item.displayName, item.subtitle)
             itemBinding.accountCheck.visibility = if (item.isCurrent) View.VISIBLE else View.GONE
             Glide.with(itemBinding.root)
-               .load(item.avatarUrl)
+               .load(SingleSignOnUrl(item.accountName, item.avatarUrl))
                .placeholder(R.drawable.ic_baseline_account_circle_24)
                .error(R.drawable.ic_baseline_account_circle_24)
                .apply(RequestOptions.circleCropTransform())
