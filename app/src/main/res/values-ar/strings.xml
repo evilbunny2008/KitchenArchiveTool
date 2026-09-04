@@ -19,7 +19,7 @@
 	<string name="copy_to_account_failure">تعذر نسخ الوصفة: %1$s</string>
 	<string name="copy_to_account_in_progress">جارٍ نسخ ’%1$s’ إلى %2$s</string>
 	<string name="copy_to_account_none_available">أضف حسابًا آخر أولاً لنسخ الوصفات بينهما</string>
-	<string name="copy_to_account_success">تم نسخ ’%1$s’ إلى %2$s. إذا لم تظهر الصورة هناك، فهذا يعني أن هذا الخادم لن يتمكن من جلبها من هنا - قم بإضافتها مرة أخرى يدويًا</string>
+	<string name="copy_to_account_success">تم نسخ ’%1$s’ إلى %2$s</string>
 	<string name="copy_to_account_title">انسخ هذه الوصفة إلى</string>
 	<string name="delete_recipe">حذف الوصفة</string>
 	<string name="delete_recipe_confirm_message">سيتم حذف ’%1$s’ نهائيًا من الخادم. لا يمكن التراجع عن هذا</string>
