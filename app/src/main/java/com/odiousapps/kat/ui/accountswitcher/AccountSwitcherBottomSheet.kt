@@ -39,6 +39,8 @@ import com.odiousapps.kat.util.Filesystem
 import kotlinx.coroutines.runBlocking
 import java.util.concurrent.Executors
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -87,21 +89,32 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
          }
       }
 
-      // Fetching each account's display name requires a network call (see
-      // UserInfoAPI) -- do this off the main thread, showing a loading
-      // indicator in the meantime.
+      // The initial render is local-only (AccountManager + SSO account
+      // info, no network) so it appears essentially instantly regardless
+      // of how many accounts are signed in -- matching how the Nextcloud
+      // Files app's own account switcher shows up immediately. Each row's
+      // real display name and avatar are fetched afterward, in the
+      // background, concurrently across accounts rather than one at a
+      // time -- see enrichAccountsInBackground's doc comment for why this
+      // replaced the previous sequential-per-account approach.
       viewLifecycleOwner.lifecycleScope.launch {
-         val accounts = withContext(Dispatchers.IO) { loadAccounts(context) }
+         val accounts = withContext(Dispatchers.IO) { loadAccountsFast(context) }
+
+         val adapter = AccountSwitcherAdapter(accounts) { item ->
+            if (!item.isCurrent) {
+               switchToAccount(context, item.accountName)
+            }
+            dismiss()
+         }
 
          _binding?.let { b ->
             b.loadingIndicator.visibility = View.GONE
             b.accountList.visibility = View.VISIBLE
-            b.accountList.adapter = AccountSwitcherAdapter(accounts) { item ->
-               if (!item.isCurrent) {
-                  switchToAccount(context, item.accountName)
-               }
-               dismiss()
-            }
+            b.accountList.adapter = adapter
+         }
+
+         enrichAccountsInBackground(context, accounts) { updated ->
+            adapter.updateItem(updated)
          }
       }
    }
@@ -174,7 +187,14 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
     * server-side display name. Runs on a background thread -- must not be
     * called from the main thread, since it performs network requests.
     */
-   private fun loadAccounts(context: Context): List<AccountSwitcherItem> {
+   /**
+    * Builds the initial account list from purely local data (AccountManager
+    * + SSO account info) -- no network calls, so this returns essentially
+    * instantly regardless of how many accounts are signed in. Display name
+    * falls back to the login username and there's no avatar yet; both get
+    * filled in by [enrichAccountsInBackground] afterward.
+    */
+   private fun loadAccountsFast(context: Context): List<AccountSwitcherItem> {
       val currentAccountName = try {
          SingleAccountHelper.getCurrentSingleSignOnAccount(context).name
       } catch (_: Exception) {
@@ -190,28 +210,11 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
                val ssoAccount = AccountImporter.getSingleSignOnAccount(context, account.name)
                val hostname = Uri.parse(ssoAccount.url).host ?: ssoAccount.url
 
-               var api: NextcloudAPI? = null
-               var avatarBytes: ByteArray? = null
-               val displayName = try {
-                  api = NextcloudAPI(context, ssoAccount, GsonBuilder().create())
-                  // See AvatarFetcher's doc comment: fetched ourselves,
-                  // rather than handed to Glide as a URL, because
-                  // nextcloud-commons:sso-glide's Glide integration leaks
-                  // the underlying network resource on every load. Reuses
-                  // this same connection rather than opening another one.
-                  avatarBytes = AvatarFetcher.fetchAvatarBytes(api, ssoAccount)
-                  UserInfoAPI(api).getDisplayName()
-               } catch (_: Exception) {
-                  null
-               } finally {
-                  api?.close()
-               } ?: ssoAccount.userId // fall back to the login username if the server call fails
-
                AccountSwitcherItem(
                   accountName = ssoAccount.name,
-                  displayName = displayName,
+                  displayName = ssoAccount.userId,
                   subtitle = "${ssoAccount.userId}@$hostname",
-                  avatarBytes = avatarBytes,
+                  avatarBytes = null,
                   isCurrent = ssoAccount.name == currentAccountName
                )
             } catch (_: Exception) {
@@ -220,8 +223,63 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
                null
             }
          }
-         // current account first, rest follow in their original order (stable sort)
+         // current account first, rest follow in their original order (stable
+         // sort) -- fixed at this point and not re-sorted by enrichment
+         // afterward, so rows don't jump around as their data fills in
          .sortedByDescending { it.isCurrent }
+   }
+
+   /**
+    * Fetches each account's real display name and avatar and reports them
+    * back via [onUpdated] as each one completes, one row at a time.
+    *
+    * Concurrent across accounts (not sequential): the previous version of
+    * this bottom sheet opened a NextcloudAPI connection and made its
+    * network calls for account 1, then account 2, then account 3 and so
+    * on, one fully after another -- so with N accounts signed in, nothing
+    * appeared until N round trips had each finished in turn. Firing them
+    * all at once and letting whichever finishes first update its own row
+    * immediately is both what makes multi-account switching feel fast and
+    * closer to how the Nextcloud Files app's own switcher behaves.
+    */
+   private suspend fun enrichAccountsInBackground(
+      context: Context,
+      accounts: List<AccountSwitcherItem>,
+      onUpdated: (AccountSwitcherItem) -> Unit
+   ) {
+      withContext(Dispatchers.IO) {
+         accounts.map { item ->
+            async {
+               val enriched = enrichAccount(context, item)
+               withContext(Dispatchers.Main) { onUpdated(enriched) }
+            }
+         }.awaitAll()
+      }
+   }
+
+   /** The network part of loading one account's row: display name + avatar. */
+   private fun enrichAccount(context: Context, item: AccountSwitcherItem): AccountSwitcherItem {
+      val ssoAccount = try {
+         AccountImporter.getSingleSignOnAccount(context, item.accountName)
+      } catch (_: Exception) {
+         return item
+      }
+
+      var api: NextcloudAPI? = null
+      return try {
+         api = NextcloudAPI(context, ssoAccount, GsonBuilder().create())
+         // See AvatarFetcher's doc comment: fetched ourselves, rather than
+         // handed to Glide as a URL, because nextcloud-commons:sso-glide's
+         // Glide integration leaks the underlying network resource on
+         // every load.
+         val avatarBytes = AvatarFetcher.fetchAvatarBytes(api, ssoAccount)
+         val displayName = UserInfoAPI(api).getDisplayName() ?: item.displayName
+         item.copy(displayName = displayName, avatarBytes = avatarBytes)
+      } catch (_: Exception) {
+         item
+      } finally {
+         api?.close()
+      }
    }
 
    /**
@@ -242,9 +300,20 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
    )
 
    private class AccountSwitcherAdapter(
-      private val items: List<AccountSwitcherItem>,
+      initialItems: List<AccountSwitcherItem>,
       private val onClick: (AccountSwitcherItem) -> Unit
    ) : RecyclerView.Adapter<AccountSwitcherAdapter.ViewHolder>() {
+
+      private val items = initialItems.toMutableList()
+
+      /** Replaces one row's data (matched by accountName) and redraws just that row. */
+      fun updateItem(updated: AccountSwitcherItem) {
+         val index = items.indexOfFirst { it.accountName == updated.accountName }
+         if (index != -1) {
+            items[index] = updated
+            notifyItemChanged(index)
+         }
+      }
 
       override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
          val itemBinding = ItemAccountSwitcherBinding.inflate(

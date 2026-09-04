@@ -31,6 +31,8 @@ import com.odiousapps.kat.nextcloudapi.AvatarFetcher
 import com.odiousapps.kat.nextcloudapi.RecipeCopier
 import com.odiousapps.kat.nextcloudapi.UserInfoAPI
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -87,17 +89,34 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
       val recipeJsonPath = requireArguments().getString(ARG_RECIPE_JSON_PATH)!!
       val recipeName = requireArguments().getString(ARG_RECIPE_NAME)!!
 
+      // The initial render is local-only (AccountManager + SSO account
+      // info, no network) so it appears essentially instantly regardless
+      // of how many accounts are signed in -- matching how the Nextcloud
+      // Files app's own account switcher shows up immediately, and how
+      // AccountSwitcherBottomSheet now works too. Each row's real display
+      // name and avatar are fetched afterward, in the background,
+      // concurrently across accounts rather than one at a time.
       viewLifecycleOwner.lifecycleScope.launch {
-         val accounts = withContext(Dispatchers.IO) { loadOtherAccounts(context) }
+         val accounts = withContext(Dispatchers.IO) { loadOtherAccountsFast(context) }
 
          _binding?.let { b ->
             b.loadingIndicator.visibility = View.GONE
             if (accounts.isEmpty()) {
                b.noOtherAccountsText.visibility = View.VISIBLE
             } else {
-               b.accountList.visibility = View.VISIBLE
-               b.accountList.adapter = CopyTargetAdapter(accounts) { item ->
+               val adapter = CopyTargetAdapter(accounts) { item ->
                   copyRecipe(context, recipeJsonPath, recipeName, item)
+               }
+               b.accountList.visibility = View.VISIBLE
+               b.accountList.adapter = adapter
+
+               withContext(Dispatchers.IO) {
+                  accounts.map { item ->
+                     async {
+                        val enriched = enrichAccount(context, item)
+                        withContext(Dispatchers.Main) { adapter.updateItem(enriched) }
+                     }
+                  }.awaitAll()
                }
             }
          }
@@ -151,7 +170,14 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
     * display name. Runs on a background thread -- must not be called
     * from the main thread, since it performs network requests.
     */
-   private fun loadOtherAccounts(context: Context): List<CopyTargetItem> {
+   /**
+    * Builds the initial account list (everyone except the one the recipe
+    * already belongs to) from purely local data -- no network calls, so
+    * this returns essentially instantly. Display name falls back to the
+    * login username and there's no avatar yet; see enrichAccount, called
+    * separately per row afterward.
+    */
+   private fun loadOtherAccountsFast(context: Context): List<CopyTargetItem> {
       val currentAccountName = Accounts(context).getCurrentAccount()?.name
 
       return AccountManager.get(context).getAccountsByType(NEXTCLOUD_ACCOUNT_TYPE)
@@ -161,28 +187,11 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
                val ssoAccount = AccountImporter.getSingleSignOnAccount(context, account.name)
                val hostname = Uri.parse(ssoAccount.url).host ?: ssoAccount.url
 
-               var api: NextcloudAPI? = null
-               var avatarBytes: ByteArray? = null
-               val displayName = try {
-                  api = NextcloudAPI(context, ssoAccount, GsonBuilder().create())
-                  // See AvatarFetcher's doc comment: fetched ourselves,
-                  // rather than handed to Glide as a URL, because
-                  // nextcloud-commons:sso-glide's Glide integration leaks
-                  // the underlying network resource on every load. Reuses
-                  // this same connection rather than opening another one.
-                  avatarBytes = AvatarFetcher.fetchAvatarBytes(api, ssoAccount)
-                  UserInfoAPI(api).getDisplayName()
-               } catch (_: Exception) {
-                  null
-               } finally {
-                  api?.close()
-               } ?: ssoAccount.userId // fall back to the login username if the server call fails
-
                CopyTargetItem(
                   accountName = ssoAccount.name,
-                  displayName = displayName,
+                  displayName = ssoAccount.userId,
                   subtitle = "${ssoAccount.userId}@$hostname",
-                  avatarBytes = avatarBytes
+                  avatarBytes = null
                )
             } catch (_: Exception) {
                // account known to AccountManager but not (or no longer)
@@ -190,6 +199,38 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
                null
             }
          }
+   }
+
+   /**
+    * Fetches an account's real display name and avatar -- the network
+    * part split out from loadOtherAccountsFast so it can run
+    * concurrently per account in the background after the list is
+    * already showing (previously this ran sequentially per account,
+    * blocking the whole list from appearing until every account's
+    * network call had finished in turn).
+    */
+   private fun enrichAccount(context: Context, item: CopyTargetItem): CopyTargetItem {
+      val ssoAccount = try {
+         AccountImporter.getSingleSignOnAccount(context, item.accountName)
+      } catch (_: Exception) {
+         return item
+      }
+
+      var api: NextcloudAPI? = null
+      return try {
+         api = NextcloudAPI(context, ssoAccount, GsonBuilder().create())
+         // See AvatarFetcher's doc comment: fetched ourselves, rather than
+         // handed to Glide as a URL, because nextcloud-commons:sso-glide's
+         // Glide integration leaks the underlying network resource on
+         // every load.
+         val avatarBytes = AvatarFetcher.fetchAvatarBytes(api, ssoAccount)
+         val displayName = UserInfoAPI(api).getDisplayName() ?: item.displayName
+         item.copy(displayName = displayName, avatarBytes = avatarBytes)
+      } catch (_: Exception) {
+         item
+      } finally {
+         api?.close()
+      }
    }
 
    private data class CopyTargetItem(
@@ -200,9 +241,20 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
    )
 
    private class CopyTargetAdapter(
-      private val items: List<CopyTargetItem>,
+      initialItems: List<CopyTargetItem>,
       private val onClick: (CopyTargetItem) -> Unit
    ) : RecyclerView.Adapter<CopyTargetAdapter.ViewHolder>() {
+
+      private val items = initialItems.toMutableList()
+
+      /** Replaces one row's data (matched by accountName) and redraws just that row. */
+      fun updateItem(updated: CopyTargetItem) {
+         val index = items.indexOfFirst { it.accountName == updated.accountName }
+         if (index != -1) {
+            items[index] = updated
+            notifyItemChanged(index)
+         }
+      }
 
       override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
          val itemBinding = ItemAccountSwitcherBinding.inflate(
