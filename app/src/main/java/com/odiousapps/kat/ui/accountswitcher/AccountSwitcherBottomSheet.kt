@@ -21,7 +21,6 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import it.niedermann.nextcloud.sso.glide.SingleSignOnUrl
 import com.bumptech.glide.request.RequestOptions
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.gson.GsonBuilder
@@ -32,6 +31,7 @@ import com.odiousapps.kat.R
 import com.odiousapps.kat.databinding.BottomSheetAccountSwitcherBinding
 import com.odiousapps.kat.databinding.ItemAccountSwitcherBinding
 import com.odiousapps.kat.nextcloudapi.Accounts
+import com.odiousapps.kat.nextcloudapi.AvatarFetcher
 import com.odiousapps.kat.nextcloudapi.UserInfoAPI
 import com.odiousapps.kat.services.sync.SyncScheduler
 import com.odiousapps.kat.settings.PreferenceData
@@ -191,8 +191,15 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
                val hostname = Uri.parse(ssoAccount.url).host ?: ssoAccount.url
 
                var api: NextcloudAPI? = null
+               var avatarBytes: ByteArray? = null
                val displayName = try {
                   api = NextcloudAPI(context, ssoAccount, GsonBuilder().create())
+                  // See AvatarFetcher's doc comment: fetched ourselves,
+                  // rather than handed to Glide as a URL, because
+                  // nextcloud-commons:sso-glide's Glide integration leaks
+                  // the underlying network resource on every load. Reuses
+                  // this same connection rather than opening another one.
+                  avatarBytes = AvatarFetcher.fetchAvatarBytes(api, ssoAccount)
                   UserInfoAPI(api).getDisplayName()
                } catch (_: Exception) {
                   null
@@ -204,7 +211,7 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
                   accountName = ssoAccount.name,
                   displayName = displayName,
                   subtitle = "${ssoAccount.userId}@$hostname",
-                  avatarUrl = ssoAccount.url + "/index.php/avatar/" + Uri.encode(ssoAccount.userId) + "/64",
+                  avatarBytes = avatarBytes,
                   isCurrent = ssoAccount.name == currentAccountName
                )
             } catch (_: Exception) {
@@ -230,7 +237,7 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
       val displayName: String,
       /** "userId@hostname", shown in brackets and smaller print next to the display name */
       val subtitle: String,
-      val avatarUrl: String,
+      val avatarBytes: ByteArray?,
       val isCurrent: Boolean
    )
 
@@ -259,7 +266,7 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
             itemBinding.accountName.text = buildLabel(item.displayName, item.subtitle)
             itemBinding.accountCheck.visibility = if (item.isCurrent) View.VISIBLE else View.GONE
             Glide.with(itemBinding.root)
-               .load(SingleSignOnUrl(item.accountName, item.avatarUrl))
+               .load(item.avatarBytes)
                .placeholder(R.drawable.ic_baseline_account_circle_24)
                .error(R.drawable.ic_baseline_account_circle_24)
                .apply(RequestOptions.circleCropTransform())

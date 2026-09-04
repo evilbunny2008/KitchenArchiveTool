@@ -7,7 +7,6 @@ package com.odiousapps.kat.ui
 
 import android.app.SearchManager
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.View
@@ -29,7 +28,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.NavigationUI
 import androidx.preference.PreferenceManager
 import com.bumptech.glide.Glide
-import it.niedermann.nextcloud.sso.glide.SingleSignOnUrl
+import com.odiousapps.kat.nextcloudapi.Accounts
+import com.odiousapps.kat.nextcloudapi.AvatarFetcher
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.nextcloud.android.sso.AccountImporter
@@ -409,6 +409,19 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
             return@launch
          }
 
+         // See AvatarFetcher's doc comment: fetched ourselves, rather than
+         // handed to Glide as a URL/SingleSignOnUrl, because
+         // nextcloud-commons:sso-glide's Glide integration leaks the
+         // underlying network resource on every load.
+         val avatarBytes = withContext(Dispatchers.IO) {
+            val api = Accounts(applicationContext).getApiToAccount()
+            try {
+               api?.let { AvatarFetcher.fetchAvatarBytes(it, ssoAccount) }
+            } finally {
+               api?.close()
+            }
+         }
+
          Glide
             .with(this@MainActivity)
             // Both cache layers are deliberately skipped: this avatar is
@@ -418,7 +431,7 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
             // silently lingering after switching accounts is a real,
             // confusing correctness bug, which is worse than the minor
             // extra network request.
-            .load(SingleSignOnUrl(ssoAccount, ssoAccount.url + "/index.php/avatar/" + Uri.encode(ssoAccount.userId) + "/64"))
+            .load(avatarBytes)
             .skipMemoryCache(true)
             .diskCacheStrategy(DiskCacheStrategy.NONE)
             .placeholder(R.drawable.ic_baseline_account_circle_24)
