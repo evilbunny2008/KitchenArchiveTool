@@ -354,7 +354,37 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
    override fun onResume() {
       setupBroadcastListener()
       loadData()
+      syncIfPossible()
       super.onResume()
+   }
+
+   /**
+    * Kicks off a background sync whenever the recipe list becomes visible
+    * again -- returning from another screen, reopening the app, etc. --
+    * not just on an explicit pull-to-refresh or account switch. Without
+    * this, recently-changed server-side state (most notably: a recipe
+    * just copied in from another account) wouldn't show up until the
+    * person happened to trigger one of those two other paths, or the
+    * periodic background sync eventually got around to it.
+    *
+    * Silently skipped if there's no network or the wifi-only setting
+    * blocks it -- unlike onRefresh()'s explicit user action, which
+    * surfaces a toast for those same cases, a passive resume trigger
+    * shouldn't nag about connectivity the person didn't explicitly ask
+    * to check. SyncScheduler.syncNow()'s own KEEP work policy already
+    * prevents this from piling up duplicate syncs if one's already in
+    * flight (e.g. right after switching accounts, which also syncs).
+    */
+   private fun syncIfPossible() {
+      val ctx = context ?: return
+      val hasNetwork = if (PreferenceData.getInstance().isWifiOnly()) {
+         ConnectivityCheck.isConnectedToWifi(ctx)
+      } else {
+         ConnectivityCheck.isConnected(ctx)
+      }
+      if (hasNetwork) {
+         doSync(ctx)
+      }
    }
 
    override fun searchRecipes(filter: RecipeFilter) {

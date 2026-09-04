@@ -133,7 +133,16 @@ class Sync(mContext: Context) {
       }
       cleanOldRecipes(recipeIds)
       addNewRecipes()
-      closeAPI()
+      // Deliberately not closing the API connection here -- both real
+      // callers (SyncWorker, LoginActivity) already call closeAPI()
+      // themselves right after this returns. Closing it a second time
+      // here too meant every sync double-closed the connection; if that
+      // throws (double-close isn't guaranteed to be a safe no-op), it
+      // would propagate out of the caller's own closeAPI() call and get
+      // reported as a sync failure even though synchronizeRecipes() had
+      // already fully succeeded moments earlier -- including the local DB
+      // insert of anything just downloaded, which would already be
+      // sitting there correctly despite the misleading failure result.
    }
 
    /**
