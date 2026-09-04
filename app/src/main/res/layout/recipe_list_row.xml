@@ -24,7 +24,6 @@
             android:gravity="center|center_horizontal"
             android:paddingTop="16dp"
             android:paddingEnd="16dp"
-            android:paddingLeft="16dp"
             android:paddingBottom="16dp"
             app:layout_constraintBottom_toBottomOf="@+id/recipeOverviewImage"
             app:layout_constraintStart_toStartOf="parent"

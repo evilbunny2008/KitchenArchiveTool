@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.edit
@@ -82,6 +83,14 @@ class LoginActivity : AppCompatActivity(), SyncProgressIndicatorInterface {
 
       val login: Button = findViewById(R.id.buttonLogin)
       val skip: Button = findViewById(R.id.buttonSkip)
+
+      // View.clipToOutline (the XML attribute, API 31+) vs
+      // View.setClipToOutline() (the method, API 21+): the same
+      // property, but the XML attribute wasn't added to the platform
+      // until API 31, well above this app's minSdk of 29. Setting it
+      // here instead works across this app's whole supported range from
+      // a single layout file, no -v31 layout variant needed.
+      findViewById<ImageView>(R.id.image).clipToOutline = true
 
       login.setOnClickListener {
          Accounts(applicationContext).openAccountChooser(this)

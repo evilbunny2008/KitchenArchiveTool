@@ -21,7 +21,6 @@
             android:layout_above="@+id/welcome_text"
             android:layout_gravity="center"
             android:background="@drawable/circle"
-            android:clipToOutline="true"
             android:contentDescription="@null"
             android:padding="24dp"
             android:src="@drawable/appicon_unscaled"
@@ -73,7 +72,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextContrastCheck" />
 
         <Button
             android:id="@+id/buttonSkip"
