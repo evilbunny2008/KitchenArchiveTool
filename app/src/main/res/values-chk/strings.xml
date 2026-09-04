@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Kiroch</string>
 	<string name="theme_name_light">Saram</string>
 	<string name="theme_name_system">Urenapan angang</string>
+	<string name="title">Iten wisan</string>
 	<string name="title_dir_chooser">Fili ew nenien tumun</string>
 	<string name="title_duration">Fansoun lon HH:MM</string>
 	<string name="tooltip_cook_time">Kuk</string>

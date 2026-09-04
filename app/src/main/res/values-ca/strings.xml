@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Fosc</string>
 	<string name="theme_name_light">Llum</string>
 	<string name="theme_name_system">Sistema</string>
+	<string name="title">Títol</string>
 	<string name="title_dir_chooser">Tria un directori</string>
 	<string name="title_duration">Durades en HH:MM</string>
 	<string name="tooltip_cook_time">Cuinar</string>

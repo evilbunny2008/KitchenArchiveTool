@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Teñval</string>
 	<string name="theme_name_light">Skañv</string>
 	<string name="theme_name_system">Reizhiad</string>
+	<string name="title">Titl</string>
 	<string name="title_dir_chooser">Dibabit ur renkell</string>
 	<string name="title_duration">Padelezh e HH:MM</string>
 	<string name="tooltip_cook_time">O keginañ</string>

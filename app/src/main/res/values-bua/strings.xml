@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Харанхы</string>
 	<string name="theme_name_light">Хүнгэн</string>
 	<string name="theme_name_system">Системэ</string>
+	<string name="title">Хэргэм</string>
 	<string name="title_dir_chooser">Сан шэлэхэ</string>
 	<string name="title_duration">HH:MM-дэхи үргэлжэлэл</string>
 	<string name="tooltip_cook_time">Шанаха</string>

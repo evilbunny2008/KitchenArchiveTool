@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Ngitngit</string>
 	<string name="theme_name_light">Kahayag</string>
 	<string name="theme_name_system">Sistema</string>
+	<string name="title">Titulo</string>
 	<string name="title_dir_chooser">Pagpili og direktoryo</string>
 	<string name="title_duration">Mga gidugayon sa HH:MM</string>
 	<string name="tooltip_cook_time">Pagluto</string>

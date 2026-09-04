@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">অন্ধকার</string>
 	<string name="theme_name_light">আলো</string>
 	<string name="theme_name_system">সিস্টেম</string>
+	<string name="title">শিরোনাম</string>
 	<string name="title_dir_chooser">একটি ডিরেক্টরি নির্বাচন করুন</string>
 	<string name="title_duration">HH:MM-তে সময়কাল</string>
 	<string name="tooltip_cook_time">রান্না</string>

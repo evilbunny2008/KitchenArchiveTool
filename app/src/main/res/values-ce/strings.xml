@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Бодане</string>
 	<string name="theme_name_light">Серло</string>
 	<string name="theme_name_system">Система</string>
+	<string name="title">ЦӀе</string>
 	<string name="title_dir_chooser">Каталог харжа</string>
 	<string name="title_duration">Дураци в ХХ:ММ</string>
 	<string name="tooltip_cook_time">Юург кечъян</string>

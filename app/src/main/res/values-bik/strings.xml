@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Madiklom</string>
 	<string name="theme_name_light">Liwanag</string>
 	<string name="theme_name_system">Sistema</string>
+	<string name="title">Titulo</string>
 	<string name="title_dir_chooser">Pumili nin direktoryo</string>
 	<string name="title_duration">Mga Durasyon sa HH:MM</string>
 	<string name="tooltip_cook_time">Nagluluto</string>

@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">མུན་ནག</string>
 	<string name="theme_name_light">འོད</string>
 	<string name="theme_name_system">མ་ལག</string>
+	<string name="title">མིང་བྱང</string>
 	<string name="title_dir_chooser">སྣོད་ཐོ་ཞིག་འདེམས།</string>
 	<string name="title_duration">དུས་ཡུན་HH:MMནང་།</string>
 	<string name="tooltip_cook_time">གཡོས་སྦྱོར</string>

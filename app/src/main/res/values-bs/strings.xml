@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Dark</string>
 	<string name="theme_name_light">Light</string>
 	<string name="theme_name_system">Sistem</string>
+	<string name="title">Naslov</string>
 	<string name="title_dir_chooser">Odaberite direktorij</string>
 	<string name="title_duration">Trajanje u HH:MM</string>
 	<string name="tooltip_cook_time">Kuvanje</string>

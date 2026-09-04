@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Шем</string>
 	<string name="theme_name_light">Тӱня</string>
 	<string name="theme_name_system">Система</string>
+	<string name="title">Лӱм</string>
 	<string name="title_dir_chooser">Каталогым ойырен налза</string>
 	<string name="title_duration">HH:MM-ыште жап</string>
 	<string name="tooltip_cook_time">Кулинария</string>

@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Golap</string>
 	<string name="theme_name_light">Rondang</string>
 	<string name="theme_name_system">Sistim</string>
+	<string name="title">Titel</string>
 	<string name="title_dir_chooser">Pillit ma sada direktori</string>
 	<string name="title_duration">Durasi di HH:MM</string>
 	<string name="tooltip_cook_time">Mangalompa</string>

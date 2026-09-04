@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Homhum</string>
 	<string name="theme_name_light">Nalalang</string>
 	<string name="theme_name_system">Sistema</string>
+	<string name="title">Titilu</string>
 	<string name="title_dir_chooser">Pulan un direksion</string>
 	<string name="title_duration">Durasion gi HH:MM</string>
 	<string name="tooltip_cook_time">Mu nanalagu</string>
