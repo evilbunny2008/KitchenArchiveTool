@@ -250,8 +250,17 @@ class DbRecipeRepository private constructor(application: Application) {
       return "starred DESC, " + when (sort) {
          SortValue.NAME_A_Z -> "LOWER(name) asc"
          SortValue.NAME_Z_A -> "LOWER(name) desc"
-         SortValue.DATE_ASC -> "datePublished asc"
-         SortValue.DATE_DESC -> "datePublished desc"
+         // datePublished is an optional schema.org field, only meaningfully
+         // set for recipes imported from an external source that itself
+         // declared a publish date -- most recipes leave it blank, so
+         // sorting on it alone ties nearly everything together and the
+         // visible order ends up dominated by incidental tie-breaking
+         // (looking essentially alphabetical) rather than by date at all.
+         // dateCreated is always stamped by the server regardless of how
+         // a recipe was made, so falling back to it keeps the sort
+         // meaningful for every recipe.
+         SortValue.DATE_ASC -> "COALESCE(NULLIF(datePublished, ''), dateCreated) asc"
+         SortValue.DATE_DESC -> "COALESCE(NULLIF(datePublished, ''), dateCreated) desc"
          SortValue.TOTAL_TIME_ASC -> "totalTime asc"
          SortValue.TOTAL_TIME_DESC -> "totalTime desc"
       }

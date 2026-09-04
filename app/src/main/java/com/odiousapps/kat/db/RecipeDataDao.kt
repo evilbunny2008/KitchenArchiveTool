@@ -34,8 +34,8 @@ interface RecipeDataDao {
    @Transaction
    @Query(
       "SELECT DISTINCT ${DbRecipePreview.DBFIELDS} FROM recipes WHERE fs_filePath LIKE :dirPrefix ESCAPE '\\' ORDER BY starred DESC, " +
-            "CASE WHEN :isAsc = 1 THEN datePublished END ASC," +
-            "CASE WHEN :isAsc = 0 THEN datePublished END DESC"
+            "CASE WHEN :isAsc = 1 THEN COALESCE(NULLIF(datePublished, ''), dateCreated) END ASC," +
+            "CASE WHEN :isAsc = 0 THEN COALESCE(NULLIF(datePublished, ''), dateCreated) END DESC"
    )
    fun sortByDate(isAsc: Boolean, dirPrefix: String): Flow<List<DbRecipePreview>>
 
