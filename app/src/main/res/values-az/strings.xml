@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Qaranlıq</string>
 	<string name="theme_name_light">İşıq</string>
 	<string name="theme_name_system">Sistem</string>
+	<string name="title">Başlıq</string>
 	<string name="title_dir_chooser">Kataloq seçin</string>
 	<string name="title_duration">Müddətlər SS:MM</string>
 	<string name="tooltip_cook_time">Bişirmək</string>

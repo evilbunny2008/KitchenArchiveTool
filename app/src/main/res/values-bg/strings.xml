@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Тъмно</string>
 	<string name="theme_name_light">светлина</string>
 	<string name="theme_name_system">система</string>
+	<string name="title">Заглавие</string>
 	<string name="title_dir_chooser">Изберете директория</string>
 	<string name="title_duration">Продължителности в ЧЧ:ММ</string>
 	<string name="tooltip_cook_time">готвене</string>

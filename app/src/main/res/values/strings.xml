@@ -79,6 +79,7 @@
 	<string name="menu_uncategorized">Uncategorized</string>
 	<string name="no_information">No Information</string>
 	<string name="no_ingredients">No Ingredients</string>
+	<string name="no_instructions">No Instructions</string>
 	<string name="notification_text">Time remains: %1$s</string>
 	<string name="notification_title">Kitchen Archive Tool Timer</string>
 	<string name="nutrition_calories">Calories: %1$s</string>
@@ -180,10 +181,10 @@
 		<item>1</item>
 		<item>2</item>
 	</string-array>
+	<string name="title">Title</string>
 	<string name="title_dir_chooser">Choose a directory…</string>
 	<string name="title_duration">Durations in HH:MM</string>
 	<string name="tooltip_cook_time">Cooking</string>
 	<string name="tooltip_prep_time">Preparation</string>
 	<string name="tooltip_total_time">Total</string>
-	<string name="no_instructions">No Instructions</string>
 </resources>

@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Цёмны</string>
 	<string name="theme_name_light">Святло</string>
 	<string name="theme_name_system">сістэма</string>
+	<string name="title">Назва</string>
 	<string name="title_dir_chooser">Выберыце каталог</string>
 	<string name="title_duration">Працягласць у ГГ:ХХ</string>
 	<string name="tooltip_cook_time">Кулінарыя</string>

@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">अंधेर</string>
 	<string name="theme_name_light">दिया</string>
 	<string name="theme_name_system">ब्यवस्था</string>
+	<string name="title">नाम</string>
 	<string name="title_dir_chooser">एक निर्देशिका चुनौ</string>
 	<string name="title_duration">एचएच:एमएम मा अवधि</string>
 	<string name="tooltip_cook_time">खाना बनाना</string>

@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">অন্ধকাৰ</string>
 	<string name="theme_name_light">পাতল</string>
 	<string name="theme_name_system">পদ্ধতি</string>
+	<string name="title">অলপ</string>
 	<string name="title_dir_chooser">এটা ডাইৰেকটৰি বাছক</string>
 	<string name="title_duration">HH:MM ত সময়সীমা</string>
 	<string name="tooltip_cook_time">ৰন্ধা</string>

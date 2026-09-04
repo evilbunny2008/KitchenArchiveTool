@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">ጨለማ</string>
 	<string name="theme_name_light">ብርሃን</string>
 	<string name="theme_name_system">ስርዓት</string>
+	<string name="title">ርዕስ</string>
 	<string name="title_dir_chooser">ማውጫ ምረጥ</string>
 	<string name="title_duration">የቆይታ ጊዜ በHH፡MM</string>
 	<string name="tooltip_cook_time">ምግብ ማብሰል</string>

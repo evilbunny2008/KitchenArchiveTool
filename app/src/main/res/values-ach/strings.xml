@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Col</string>
 	<string name="theme_name_light">Lero</string>
 	<string name="theme_name_system">Cictim</string>
+	<string name="title">Kit ma ki lwongo kwede</string>
 	<string name="title_dir_chooser">Yer kama ibi gwoko iye jami</string>
 	<string name="title_duration">kare i HH:MM</string>
 	<string name="tooltip_cook_time">Tedo</string>

@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">БецӀаб</string>
 	<string name="theme_name_light">Канлъи</string>
 	<string name="theme_name_system">Низам</string>
+	<string name="title">Титул</string>
 	<string name="title_dir_chooser">Каталог тӀаса бище</string>
 	<string name="title_duration">Длительность в ХХ:ММ</string>
 	<string name="tooltip_cook_time">Квен гьабизе</string>

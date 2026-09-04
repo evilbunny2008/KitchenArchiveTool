@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Seupoet</string>
 	<string name="theme_name_light">Ble</string>
 	<string name="theme_name_system">Sistem</string>
+	<string name="title">Judui</string>
 	<string name="title_dir_chooser">Pileh saboh direktori</string>
 	<string name="title_duration">Durasi lam HH:MM</string>
 	<string name="tooltip_cook_time">Magun</string>

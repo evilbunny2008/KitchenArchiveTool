@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Donker</string>
 	<string name="theme_name_light">Lig</string>
 	<string name="theme_name_system">Stelsel</string>
+	<string name="title">Titel</string>
 	<string name="title_dir_chooser">Kies ’n gids</string>
 	<string name="title_duration">Tydsduur in UU:MM</string>
 	<string name="tooltip_cook_time">Kook</string>

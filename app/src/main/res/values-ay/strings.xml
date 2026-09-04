@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Ch’amaka</string>
 	<string name="theme_name_light">Qhana</string>
 	<string name="theme_name_system">Sistima</string>
+	<string name="title">Titulu</string>
 	<string name="title_dir_chooser">Mä directorio ajlliñamawa</string>
 	<string name="title_duration">Duración ukax HH:MM ukankiwa</string>
 	<string name="tooltip_cook_time">Phayaskasa</string>

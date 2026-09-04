@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">Peteng</string>
 	<string name="theme_name_light">Terang</string>
 	<string name="theme_name_system">Sistem</string>
+	<string name="title">Judul</string>
 	<string name="title_dir_chooser">Pilih direktori</string>
 	<string name="title_duration">Durasi ring HH:MM</string>
 	<string name="tooltip_cook_time">Nyakan</string>

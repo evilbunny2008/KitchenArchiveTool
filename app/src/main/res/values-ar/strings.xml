@@ -146,6 +146,7 @@
 	<string name="theme_name_dark">مظلم</string>
 	<string name="theme_name_light">ضوء</string>
 	<string name="theme_name_system">نظام</string>
+	<string name="title">عنوان</string>
 	<string name="title_dir_chooser">اختر الدليل</string>
 	<string name="title_duration">الفترات في سمو: د</string>
 	<string name="tooltip_cook_time">طبخ</string>
