@@ -432,11 +432,9 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
          // the underlying network resource on every load.
          val freshBytes = withContext(Dispatchers.IO) {
             val api = Accounts(applicationContext).getApiToAccount()
-            try {
-               api?.let { AvatarFetcher.fetchAvatarBytes(it, ssoAccount) }
-            } finally {
-               api?.close()
-            }
+             api.use { api ->
+                 api?.let { AvatarFetcher.fetchAvatarBytes(it, ssoAccount) }
+             }
          }
          if (freshBytes != null) {
             withContext(Dispatchers.IO) { AvatarCache.write(applicationContext, ssoAccount.name, freshBytes) }

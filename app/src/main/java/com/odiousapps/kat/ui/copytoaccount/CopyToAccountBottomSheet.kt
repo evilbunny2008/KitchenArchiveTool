@@ -13,7 +13,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -246,9 +245,31 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
       val displayName: String,
       val subtitle: String,
       val avatarBytes: ByteArray?,
-   )
+   ) {
+       override fun equals(other: Any?): Boolean {
+           if (this === other) return true
+           if (javaClass != other?.javaClass) return false
 
-   private class CopyTargetAdapter(
+           other as CopyTargetItem
+
+           if (accountName != other.accountName) return false
+           if (displayName != other.displayName) return false
+           if (subtitle != other.subtitle) return false
+           if (!avatarBytes.contentEquals(other.avatarBytes)) return false
+
+           return true
+       }
+
+       override fun hashCode(): Int {
+           var result = accountName.hashCode()
+           result = 31 * result + displayName.hashCode()
+           result = 31 * result + subtitle.hashCode()
+           result = 31 * result + (avatarBytes?.contentHashCode() ?: 0)
+           return result
+       }
+   }
+
+    private class CopyTargetAdapter(
       initialItems: List<CopyTargetItem>,
       private val onClick: (CopyTargetItem) -> Unit
    ) : RecyclerView.Adapter<CopyTargetAdapter.ViewHolder>() {

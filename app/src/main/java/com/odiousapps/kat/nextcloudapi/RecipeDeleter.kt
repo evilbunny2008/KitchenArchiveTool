@@ -51,10 +51,8 @@ class RecipeDeleter(private val context: Context) {
       val api = Accounts(context).getApiToAccount()
          ?: return Result.Failure("No active account")
 
-      val deleted = try {
-         CookbookAPI(api).deleteRecipe(recipeId)
-      } finally {
-         api.close()
+      val deleted = api.use { api ->
+          CookbookAPI(api).deleteRecipe(recipeId)
       }
 
       if (!deleted) {

@@ -305,9 +305,33 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
       val subtitle: String,
       val avatarBytes: ByteArray?,
       val isCurrent: Boolean
-   )
+   ) {
+       override fun equals(other: Any?): Boolean {
+           if (this === other) return true
+           if (javaClass != other?.javaClass) return false
 
-   private class AccountSwitcherAdapter(
+           other as AccountSwitcherItem
+
+           if (isCurrent != other.isCurrent) return false
+           if (accountName != other.accountName) return false
+           if (displayName != other.displayName) return false
+           if (subtitle != other.subtitle) return false
+           if (!avatarBytes.contentEquals(other.avatarBytes)) return false
+
+           return true
+       }
+
+       override fun hashCode(): Int {
+           var result = isCurrent.hashCode()
+           result = 31 * result + accountName.hashCode()
+           result = 31 * result + displayName.hashCode()
+           result = 31 * result + subtitle.hashCode()
+           result = 31 * result + (avatarBytes?.contentHashCode() ?: 0)
+           return result
+       }
+   }
+
+    private class AccountSwitcherAdapter(
       initialItems: List<AccountSwitcherItem>,
       private val onClick: (AccountSwitcherItem) -> Unit
    ) : RecyclerView.Adapter<AccountSwitcherAdapter.ViewHolder>() {

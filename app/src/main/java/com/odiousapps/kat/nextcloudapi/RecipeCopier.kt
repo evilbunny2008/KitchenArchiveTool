@@ -162,10 +162,8 @@ class RecipeCopier(private val context: Context) {
       }
 
       val sourceApi = Accounts(context).getApiToAccount() ?: return null
-      val imageBytes = try {
-         CookbookAPI(sourceApi).getImage(sourceRecipeId, "full")
-      } finally {
-         sourceApi.close()
+      val imageBytes = sourceApi.use { sourceApi ->
+          CookbookAPI(sourceApi).getImage(sourceRecipeId, "full")
       } ?: return null
 
       val path = tempImagePath(sourceRecipeId)
