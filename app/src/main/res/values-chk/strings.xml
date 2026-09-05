@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Kopwe apacha ngeni pwal eu account akkomw pwe kopwe kopwe recipe lefiler</string>
 	<string name="copy_to_account_success">Kopwe ’%1$s’ ngeni %2$s</string>
 	<string name="copy_to_account_title">Kopwe ei recipe ngeni</string>
+	<string name="current_account_not_found_exception_message">Ewe pworaus mi tingor ese nom lon ewe appin Nextcloud</string>
+	<string name="current_account_not_found_exception_title">Akaun ese kuna</string>
 	<string name="delete_recipe">Kopwe angei ewe resipi</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ epwe chok nomw non ewe nenien angang. Ei ese tongeni epwe fis</string>
 	<string name="delete_recipe_confirm_positive">Tonu</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Emon Sain On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Ese kapachelong</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Setin</string>
 	<string name="no_information">Ese wor poraus</string>
 	<string name="no_ingredients">Ese wor pisekin angang</string>
 	<string name="no_instructions">Ese wor kapasen emmwen</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Kuk</string>
 	<string name="tooltip_prep_time">Amwonata</string>
 	<string name="tooltip_total_time">Kapachanapan</string>
+	<string name="unknown_error">Ewe tipis ese fat</string>
 </resources>

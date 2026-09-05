@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Царна юкъахь рецепташ копировать ян хьалха кхин цхьа аккаунт тӀетоха</string>
 	<string name="copy_to_account_success">Коп йина ’%1$s’ %2$s чу</string>
 	<string name="copy_to_account_title">ХӀара рецепт копировать е</string>
+	<string name="current_account_not_found_exception_message">Дехар дина чоь ца карийна Nextcloud Files Ӏалашонца</string>
+	<string name="current_account_not_found_exception_title">Аккаунт ца карийна</string>
 	<string name="delete_recipe">Рецепт дӀаяккха</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ гуттаренна а сервер чуьра дӀадоккхур ду. ХӀара юхадерзо йиш яц</string>
 	<string name="delete_recipe_confirm_positive">ДӀадаккха</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Цхьаъ бен воцу куьг</string>
 	<string name="menu_title_app">Апп</string>
 	<string name="menu_uncategorized">Категори йоцуш</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Настройкаш</string>
 	<string name="no_information">Цхьа а информаци яц</string>
 	<string name="no_ingredients">Цхьа а ингредиент яц</string>
 	<string name="no_instructions">Цхьа а тӀедиллар дац</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Юург кечъян</string>
 	<string name="tooltip_prep_time">Кечам</string>
 	<string name="tooltip_total_time">Дерриг</string>
+	<string name="unknown_error">Ца девзаш долу гӀалат</string>
 </resources>

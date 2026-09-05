@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Na’i otro na kuenta fine’nina para un kopia i resåta siha gi entre siha</string>
 	<string name="copy_to_account_success">Ma kopia ’%1$s’ para %2$s</string>
 	<string name="copy_to_account_title">Kopia este na riseta para</string>
+	<string name="current_account_not_found_exception_message">I kuenta ni’ ma faisen ti ma sodda’ gi i app Nextcloud Files</string>
+	<string name="current_account_not_found_exception_title">Ti ma sodda’ i kuenta</string>
 	<string name="delete_recipe">Na’suha i riseta</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ para u ma na’suha gi i setbiente. Ti siña ma na’suha este</string>
 	<string name="delete_recipe_confirm_positive">Funas</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Un Sign On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Ti ma’kategoriha</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Setbisio siha</string>
 	<string name="no_information">Taya’ Infotmasion</string>
 	<string name="no_ingredients">Taya’ Ingrediente siha</string>
 	<string name="no_instructions">taya’ instruksion siha</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Mu nanalagu</string>
 	<string name="tooltip_prep_time">Preperasion</string>
 	<string name="tooltip_total_time">Totat</string>
+	<string name="unknown_error">Ti ma tungo’ na isao</string>
 </resources>
