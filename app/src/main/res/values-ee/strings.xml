@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Tsɔ akɔnta bubu kpee gbã be nàwɔ nuɖaɖa ŋuti kɔpi le wo dome</string>
 	<string name="copy_to_account_success">Woŋlɔ ’%1$s’ ɖe %2$s me</string>
 	<string name="copy_to_account_title">Kpɔ nuɖaɖa sia ƒe kɔpi na</string>
+	<string name="current_account_not_found_exception_message">Womeke ɖe akɔnta si wobia la ŋu le Nextcloud Files dɔwɔnua me o</string>
+	<string name="current_account_not_found_exception_title">Womekpɔ akɔntabubua o</string>
 	<string name="delete_recipe">Tsɔ nuɖaɖa ŋuti mɔfiame ɖa</string>
 	<string name="delete_recipe_confirm_message">Woatutu ’%1$s’ ɖa tegbee le dɔdzikpɔla la me. Womate ŋu agbugbɔ esia awɔ o</string>
 	<string name="delete_recipe_confirm_positive">Ɖe ɖa</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Dzesi Ðeka Ðeka Ðe Edzi</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Womeɖoe ɖe hatsotsowo me o</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Ðoɖowo</string>
 	<string name="no_information">Nyatakaka aɖeke meli o</string>
 	<string name="no_ingredients">Nusiwo Wotsɔ Wɔe Menye O</string>
 	<string name="no_instructions">Mɔfiame aɖeke Meli o</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Nuɖaɖa</string>
 	<string name="tooltip_prep_time">Dzadzraɖo</string>
 	<string name="tooltip_total_time">Ƒuƒoƒo</string>
+	<string name="unknown_error">Vodada si womenya o</string>
 </resources>

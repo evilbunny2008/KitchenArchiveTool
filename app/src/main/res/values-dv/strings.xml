@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">އެދެމެދުގައި ރެސިޕީތައް ކޮޕީ ކުރުމަށް ފުރަތަމަ އެހެން އެކައުންޓެއް އިތުރު ކުރާށެވެ</string>
 	<string name="copy_to_account_success">’%1$s’ %2$s އަށް ކޮޕީކޮށްފައިވެއެވެ</string>
 	<string name="copy_to_account_title">މި ރެސިޕީ ކޮޕީ ކޮށްލައްވާ</string>
+	<string name="current_account_not_found_exception_message">އެދިފައިވާ އެކައުންޓް ނެކްސްޓްކްލައުޑް ފައިލްސް އެޕް އިން ނުފެނުނެވެ</string>
+	<string name="current_account_not_found_exception_title">އެކައުންޓް ނުފެނޭ</string>
 	<string name="delete_recipe">ރެސިޕީ ޑިލީޓް ކުރުން</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ ދާއިމީކޮށް ސަރވަރ އިން ޑިލީޓް ކުރެވޭނެއެވެ. މިކަން ފަހަތަށް ނުޖެހޭނެ</string>
 	<string name="delete_recipe_confirm_positive">ޑިލީޓް</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">ސިންގަލް ސައިން އޮން</string>
 	<string name="menu_title_app">އެޕް</string>
 	<string name="menu_uncategorized">ކެޓަގަރީ ނުކުރެވިފައި</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">ސެޓިންގސް</string>
 	<string name="no_information">މައުލޫމާތެއް ނެތެވެ</string>
 	<string name="no_ingredients">ނޯ އިންގްރިޑިއެންޓްސް</string>
 	<string name="no_instructions">ނޯ އިންސްޓްރަކްޝަންސް</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">ކެއްކުން</string>
 	<string name="tooltip_prep_time">ތައްޔާރުވުން</string>
 	<string name="tooltip_total_time">ޖުމްލަ</string>
+	<string name="unknown_error">ނޭނގޭ ގޯހެއް</string>
 </resources>

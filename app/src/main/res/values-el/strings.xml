@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Προσθέστε πρώτα έναν άλλο λογαριασμό για να αντιγράψετε συνταγές μεταξύ τους</string>
 	<string name="copy_to_account_success">Αντιγράφηκε το ’%1$s’ στο %2$s</string>
 	<string name="copy_to_account_title">Αντιγράψτε αυτή τη συνταγή στο</string>
+	<string name="current_account_not_found_exception_message">Ο λογαριασμός που ζητήθηκε δεν βρέθηκε στην εφαρμογή Nextcloud Files</string>
+	<string name="current_account_not_found_exception_title">Ο λογαριασμός δεν βρέθηκε</string>
 	<string name="delete_recipe">Διαγραφή συνταγής</string>
 	<string name="delete_recipe_confirm_message">Το ’%1$s’ θα διαγραφεί οριστικά από τον διακομιστή. Αυτό δεν μπορεί να αναιρεθεί</string>
 	<string name="delete_recipe_confirm_positive">Διαγράφω</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Single Sign On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Χωρίς κατηγοριοποίηση</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Ρυθμίσεις</string>
 	<string name="no_information">Καμία πληροφορία</string>
 	<string name="no_ingredients">Χωρίς Συστατικά</string>
 	<string name="no_instructions">Δεν υπάρχουν οδηγίες</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Μαγείρεμα</string>
 	<string name="tooltip_prep_time">Παρασκευή</string>
 	<string name="tooltip_total_time">Σύνολο</string>
+	<string name="unknown_error">Άγνωστο σφάλμα</string>
 </resources>
