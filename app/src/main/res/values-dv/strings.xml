@@ -34,12 +34,6 @@
 	<string name="error_sync">ސިންކްރޮނައިޒޭޝަން ނާކާމިޔާބު: %1$s</string>
 	<string name="folder_pick_cancel">ފޯލްޑަރ ޕިކަރ ކެންސަލް ކޮށްފައިވަނީ ޔޫޒަރ އިންނެވެ</string>
 	<string name="folder_pick_success">ފޯލްޑަރ %1$s ހޮވާފައިވެއެވެ</string>
-	<string name="form_download_commit">ޑައުންލޯޑް</string>
-	<string name="form_download_folder">ޓާގެޓް ފޯލްޑަރ އޯވަރރައިޑް ކުރުން</string>
-	<string name="form_download_options">އިޚްތިޔާރުތައް</string>
-	<string name="form_download_override_existing">މިހާރު ހުރި ރެސިޕީ ފޯލްޑަރ ބަދަލުކުރުން</string>
-	<string name="form_download_title">ޑައުންލޯޑް ރެސިޕީ</string>
-	<string name="form_download_url_hint">ރެސިޕީ ޔޫއާރްއެލް</string>
 	<string name="form_exact_search">ސީދާ ސަރޗެއް ކުރާށެވެ؟</string>
 	<string name="form_ignore_case">އިގްނޯރ ކޭސް؟</string>
 	<string name="form_search_commit">ހޯދުން</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">ކެޓަގަރީތަކެވެ</string>
 	<string name="menu_download_title">ޑައުންލޯޑް</string>
 	<string name="menu_download_tooltip">ޑައުންލޯޑް ރެސިޕީ</string>
-	<string name="menu_import_recipe">އިމްޕޯޓް ރެސިޕީ</string>
 	<string name="menu_refresh_tooltip">ރެސިޕީތައް ތާޒާކޮށްލާށެވެ</string>
 	<string name="menu_search_title">އެޑްވާންސްޑް ސަރޗް</string>
 	<string name="menu_search_tooltip">ސަރޗް ރެސިޕީ</string>

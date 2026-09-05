@@ -34,12 +34,6 @@
 	<string name="error_sync">Penyegerakan enda mujur: %1$s</string>
 	<string name="folder_pick_cancel">Pemilih folder dikinsil ulih pengguna</string>
 	<string name="folder_pick_success">Folder %1$s udah dipilih</string>
-	<string name="form_download_commit">Muat turun</string>
-	<string name="form_download_folder">Ngalihka folder ti dituju</string>
-	<string name="form_download_options">Pilihan</string>
-	<string name="form_download_override_existing">Ganti folder resipi ke udah bisi</string>
-	<string name="form_download_title">Download Resipi enggau</string>
-	<string name="form_download_url_hint">URL resipi</string>
 	<string name="form_exact_search">Ngaga pengawa ngiga enggau betul?</string>
 	<string name="form_ignore_case">Enda ibuhka kes?</string>
 	<string name="form_search_commit">Ngiga</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategori</string>
 	<string name="menu_download_title">Muat turun</string>
 	<string name="menu_download_tooltip">download resipi</string>
-	<string name="menu_import_recipe">Resipi Import</string>
 	<string name="menu_refresh_tooltip">Resipi ti baru</string>
 	<string name="menu_search_title">Pengawa Ngiga ti Lanjutan</string>
 	<string name="menu_search_tooltip">Ngiga resipi</string>

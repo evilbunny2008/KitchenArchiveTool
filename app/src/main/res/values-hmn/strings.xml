@@ -34,12 +34,6 @@
 	<string name="error_sync">Synchronization ua tsis tiav: %1$s</string>
 	<string name="folder_pick_cancel">Folder picker tso tseg los ntawm tus neeg siv</string>
 	<string name="folder_pick_success">Folder %1$s xaiv</string>
-	<string name="form_download_commit">Download tau</string>
-	<string name="form_download_folder">Override lub hom phiaj folder</string>
-	<string name="form_download_options">Kev xaiv</string>
-	<string name="form_download_override_existing">Hloov cov ntawv qhia zaub mov uas twb muaj lawm</string>
-	<string name="form_download_title">Download Daim ntawv qhia</string>
-	<string name="form_download_url_hint">Daim ntawv qhia URL</string>
 	<string name="form_exact_search">Ua qhov kev tshawb nrhiav tseeb?</string>
 	<string name="form_ignore_case">Tsis quav ntsej li cas?</string>
 	<string name="form_search_commit">Nrhiav</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Pawg</string>
 	<string name="menu_download_title">Download tau</string>
 	<string name="menu_download_tooltip">download daim ntawv qhia</string>
-	<string name="menu_import_recipe">Ntshuam daim ntawv qhia</string>
 	<string name="menu_refresh_tooltip">Hloov cov zaub mov txawv</string>
 	<string name="menu_search_title">Advanced Search</string>
 	<string name="menu_search_tooltip">Nrhiav daim ntawv qhia</string>

@@ -34,12 +34,6 @@
 	<string name="error_sync">Синхронизация япылмады: %1$s</string>
 	<string name="folder_pick_cancel">Къулланыджы тарафындан папка сечиджиси лягъу этильди</string>
 	<string name="folder_pick_success">%1$s папкасы сечильди</string>
-	<string name="form_download_commit">Юклемек</string>
-	<string name="form_download_folder">Макъсадлы папканы четке ташламакъ</string>
-	<string name="form_download_options">Вариантлар</string>
-	<string name="form_download_override_existing">Бар олгъан рецептлер папкасыны денъиштиринъиз</string>
-	<string name="form_download_title">Рецептни юклемек</string>
-	<string name="form_download_url_hint">Рецептнинъ адреси</string>
 	<string name="form_exact_search">Там къыдырув япынъыз?</string>
 	<string name="form_ignore_case">Падежни козьге алмамакъ?</string>
 	<string name="form_search_commit">Къыдырмакъ</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Категориялар</string>
 	<string name="menu_download_title">Юклемек</string>
 	<string name="menu_download_tooltip">рецепти юклемек</string>
-	<string name="menu_import_recipe">Импорт рецепти</string>
 	<string name="menu_refresh_tooltip">Рецептлерни янъыдан япынъыз</string>
 	<string name="menu_search_title">Илери къыдырув</string>
 	<string name="menu_search_tooltip">Рецептни къыдырынъыз</string>

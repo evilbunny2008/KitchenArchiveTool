@@ -34,12 +34,6 @@
 	<string name="error_sync">Fallou a sincronización: %1$s</string>
 	<string name="folder_pick_cancel">O usuario cancelou o selector de cartafoles</string>
 	<string name="folder_pick_success">Seleccionouse o cartafol %1$s</string>
-	<string name="form_download_commit">Descargar</string>
-	<string name="form_download_folder">Anular cartafol de destino</string>
-	<string name="form_download_options">Opcións</string>
-	<string name="form_download_override_existing">Substitúe o cartafol de receitas existente</string>
-	<string name="form_download_title">Descargar receita</string>
-	<string name="form_download_url_hint">URL da receita</string>
 	<string name="form_exact_search">Fai unha busca exacta?</string>
 	<string name="form_ignore_case">Ignorar maiúsculas e minúsculas?</string>
 	<string name="form_search_commit">Busca</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Categorías</string>
 	<string name="menu_download_title">Descargar</string>
 	<string name="menu_download_tooltip">descargar receita</string>
-	<string name="menu_import_recipe">Importar receita</string>
 	<string name="menu_refresh_tooltip">Actualiza receitas</string>
 	<string name="menu_search_title">Busca avanzada</string>
 	<string name="menu_search_tooltip">Busca receita</string>

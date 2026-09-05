@@ -34,12 +34,6 @@
 	<string name="error_sync">Cha dod y co-chroshaghey: %1$s</string>
 	<string name="folder_pick_cancel">Picker folder er ny scughey liorish y cleaysh</string>
 	<string name="folder_pick_success">Ta’n coadan %1$s er ny reih</string>
-	<string name="form_download_commit">Íoslódáil</string>
-	<string name="form_download_folder">Cur stiagh y coadan target</string>
-	<string name="form_download_options">Roghyn</string>
-	<string name="form_download_override_existing">Cur stiagh y coadan recipe t’ayn</string>
-	<string name="form_download_title">Lurg y recipe</string>
-	<string name="form_download_url_hint">URL y rheynn</string>
 	<string name="form_exact_search">Do ronney exact?</string>
 	<string name="form_ignore_case">Cur-my-ner cass?</string>
 	<string name="form_search_commit">Briaght</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Rannaghyn</string>
 	<string name="menu_download_title">Íoslódáil</string>
 	<string name="menu_download_tooltip">recipe y lhoobey</string>
-	<string name="menu_import_recipe">Recipe y chur stiagh</string>
 	<string name="menu_refresh_tooltip">Recipes y ghlenney</string>
 	<string name="menu_search_title">Clasht Ard-oik</string>
 	<string name="menu_search_tooltip">Recipe y lhoobey</string>

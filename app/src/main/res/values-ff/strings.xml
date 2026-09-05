@@ -34,12 +34,6 @@
 	<string name="error_sync">Sinkronisaasiyoŋ oo ŋakki: %1$s</string>
 	<string name="folder_pick_cancel">Cuɓoowo foldere huutortooɗo oo haɗi ɗum</string>
 	<string name="folder_pick_success">Dowla %1$s cuɓaama</string>
-	<string name="form_download_commit">Hoosugo do internaati</string>
-	<string name="form_download_folder">Sosde foldere target</string>
-	<string name="form_download_options">Cuɓe</string>
-	<string name="form_download_override_existing">Lomto foldere restoraa gonnde</string>
-	<string name="form_download_title">Sosde Resipe</string>
-	<string name="form_download_url_hint">URL restoraaji</string>
 	<string name="form_exact_search">Waɗde njiylawu laaɓtuɗo?</string>
 	<string name="form_ignore_case">Yejjite haala?</string>
 	<string name="form_search_commit">Teffol</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategoriiji</string>
 	<string name="menu_download_title">Hoosugo do internaati</string>
 	<string name="menu_download_tooltip">ƴettude restora</string>
-	<string name="menu_import_recipe">Resetaaji naatgol</string>
 	<string name="menu_refresh_tooltip">Hesɗitin resooji</string>
 	<string name="menu_search_title">Njiylawu yahruɗo yeeso</string>
 	<string name="menu_search_tooltip">Yiylo restora</string>

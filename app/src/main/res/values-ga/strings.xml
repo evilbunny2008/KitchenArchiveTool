@@ -34,12 +34,6 @@
 	<string name="error_sync">Theip ar an sioncronú: %1$s</string>
 	<string name="folder_pick_cancel">Roghnóir fillteáin cealaithe ag an úsáideoir</string>
 	<string name="folder_pick_success">Fillteán %1$s roghnaithe</string>
-	<string name="form_download_commit">Íosluchtaigh</string>
-	<string name="form_download_folder">Sáraigh spriocfhillteán</string>
-	<string name="form_download_options">Roghanna</string>
-	<string name="form_download_override_existing">Ionadaigh an fillteán oidis atá ann cheana féin</string>
-	<string name="form_download_title">Íoslódáil an t-oideas</string>
-	<string name="form_download_url_hint">URL oideas</string>
 	<string name="form_exact_search">Déan cuardach cruinn?</string>
 	<string name="form_ignore_case">Déan neamhaird de chás?</string>
 	<string name="form_search_commit">Cuardach</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Catagóirí</string>
 	<string name="menu_download_title">Íosluchtaigh</string>
 	<string name="menu_download_tooltip">oideas íoslódáil</string>
-	<string name="menu_import_recipe">Iompórtáil oideas</string>
 	<string name="menu_refresh_tooltip">Oidis a athnuachan</string>
 	<string name="menu_search_title">Cuardach Casta</string>
 	<string name="menu_search_tooltip">Cuardach oideas</string>

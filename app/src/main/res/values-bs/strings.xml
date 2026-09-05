@@ -34,12 +34,6 @@
 	<string name="error_sync">Sinhronizacija nije uspjela: %1$s</string>
 	<string name="folder_pick_cancel">Korisnik je otkazao birač foldera</string>
 	<string name="folder_pick_success">Odabran folder %1$s</string>
-	<string name="form_download_commit">Preuzmi</string>
-	<string name="form_download_folder">Poništi ciljni folder</string>
-	<string name="form_download_options">Opcije</string>
-	<string name="form_download_override_existing">Zamijenite postojeći folder sa receptima</string>
-	<string name="form_download_title">Preuzmite Recept</string>
-	<string name="form_download_url_hint">URL recepta</string>
 	<string name="form_exact_search">Uradite tačnu pretragu?</string>
 	<string name="form_ignore_case">Ignorirati velika i mala slova?</string>
 	<string name="form_search_commit">Traži</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategorije</string>
 	<string name="menu_download_title">Preuzmi</string>
 	<string name="menu_download_tooltip">preuzmi recept</string>
-	<string name="menu_import_recipe">Import Recipe</string>
 	<string name="menu_refresh_tooltip">Osvježite recepte</string>
 	<string name="menu_search_title">Napredno pretraživanje</string>
 	<string name="menu_search_tooltip">Traži recept</string>

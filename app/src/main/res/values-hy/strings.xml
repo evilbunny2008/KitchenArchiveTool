@@ -34,12 +34,6 @@
 	<string name="error_sync">Համաժամացումը ձախողվեց՝ %1$s</string>
 	<string name="folder_pick_cancel">Թղթապանակ ընտրիչը չեղարկվել է օգտատիրոջ կողմից</string>
 	<string name="folder_pick_success">Ընտրված է %1$s պանակը</string>
-	<string name="form_download_commit">Բեռնել</string>
-	<string name="form_download_folder">Վերացնել թիրախային թղթապանակը</string>
-	<string name="form_download_options">Ընտրանքներ</string>
-	<string name="form_download_override_existing">Փոխարինեք առկա բաղադրատոմսերի պանակը</string>
-	<string name="form_download_title">Ներբեռնեք բաղադրատոմսը</string>
-	<string name="form_download_url_hint">Բաղադրատոմսի URL</string>
 	<string name="form_exact_search">Ճշգրիտ որոնում կատարե՞լ:</string>
 	<string name="form_ignore_case">Անտեսե՞լ գործը:</string>
 	<string name="form_search_commit">Որոնում</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Կատեգորիաներ</string>
 	<string name="menu_download_title">Բեռնել</string>
 	<string name="menu_download_tooltip">բեռնել բաղադրատոմսը</string>
-	<string name="menu_import_recipe">Ներմուծման բաղադրատոմս</string>
 	<string name="menu_refresh_tooltip">Թարմացրեք բաղադրատոմսերը</string>
 	<string name="menu_search_title">Ընդլայնված որոնում</string>
 	<string name="menu_search_tooltip">Որոնել բաղադրատոմսը</string>

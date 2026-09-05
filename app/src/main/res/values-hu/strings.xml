@@ -34,12 +34,6 @@
 	<string name="error_sync">A szinkronizálás nem sikerült: %1$s</string>
 	<string name="folder_pick_cancel">A mappaválasztót a felhasználó törölte</string>
 	<string name="folder_pick_success">%1$s mappa kiválasztva</string>
-	<string name="form_download_commit">Letöltés</string>
-	<string name="form_download_folder">Célmappa felülbírálása</string>
-	<string name="form_download_options">Opciók</string>
-	<string name="form_download_override_existing">Cserélje le a meglévő recept mappát</string>
-	<string name="form_download_title">Recept letöltése</string>
-	<string name="form_download_url_hint">Recept URL-je</string>
 	<string name="form_exact_search">Végezzen pontos keresést?</string>
 	<string name="form_ignore_case">Figyelmen kívül hagyja a kis- és nagybetűket?</string>
 	<string name="form_search_commit">Keresés</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategóriák</string>
 	<string name="menu_download_title">Letöltés</string>
 	<string name="menu_download_tooltip">recept letöltése</string>
-	<string name="menu_import_recipe">Recept importálása</string>
 	<string name="menu_refresh_tooltip">Receptek frissítése</string>
 	<string name="menu_search_title">Speciális keresés</string>
 	<string name="menu_search_tooltip">Recept keresése</string>

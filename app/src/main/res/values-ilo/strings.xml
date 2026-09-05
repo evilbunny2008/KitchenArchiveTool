@@ -34,12 +34,6 @@
 	<string name="error_sync">Napaay ti panagsinkronisar: %1$s</string>
 	<string name="folder_pick_cancel">Folder picker a nakansela ti agar-aramat</string>
 	<string name="folder_pick_success">Napili ti folder %1$s</string>
-	<string name="form_download_commit">I-download</string>
-	<string name="form_download_folder">I-override ti target a folder</string>
-	<string name="form_download_options">Dagiti Pagpilian</string>
-	<string name="form_download_override_existing">Sukatan ti addan a folder ti resipe</string>
-	<string name="form_download_title">I-download ti Resipe</string>
-	<string name="form_download_url_hint">URL ti resipe</string>
 	<string name="form_exact_search">Aramidenyo ti eksakto a panagbirok?</string>
 	<string name="form_ignore_case">Di ikankano ti kaso?</string>
 	<string name="form_search_commit">Agbirok</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Dagiti Kategoria</string>
 	<string name="menu_download_title">I-download</string>
 	<string name="menu_download_tooltip">i-download ti resipe</string>
-	<string name="menu_import_recipe">Resipe ti Panag-import</string>
 	<string name="menu_refresh_tooltip">Refresh dagiti resipe</string>
 	<string name="menu_search_title">Narang-ay a Panagsapul</string>
 	<string name="menu_search_tooltip">Agbirok iti resipe</string>

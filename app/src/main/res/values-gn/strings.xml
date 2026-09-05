@@ -34,12 +34,6 @@
 	<string name="error_sync">Ñembojoaju ndoikói: %1$s</string>
 	<string name="folder_pick_cancel">Carpeta poravoha omboykéva puruhára rupive</string>
 	<string name="folder_pick_success">Carpeta %1$s ojeporavóva</string>
-	<string name="form_download_commit">Mboguejy</string>
-	<string name="form_download_folder">Ojeheja rei pe carpeta destino rehegua</string>
-	<string name="form_download_options">Opciones rehegua</string>
-	<string name="form_download_override_existing">Emyengovia carpeta receta rehegua oĩmava</string>
-	<string name="form_download_title">Descargar Receta rehegua</string>
-	<string name="form_download_url_hint">Receta URL rehegua</string>
 	<string name="form_exact_search">¿Ejapo peteĩ búsqueda exacta?</string>
 	<string name="form_ignore_case">¿Omboyke káso?</string>
 	<string name="form_search_commit">Jeheka</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Categorías rehegua</string>
 	<string name="menu_download_title">Mboguejy</string>
 	<string name="menu_download_tooltip">receta descarga rehegua</string>
-	<string name="menu_import_recipe">Receta Importación rehegua</string>
 	<string name="menu_refresh_tooltip">Ombopyahu umi receta</string>
 	<string name="menu_search_title">Jeporeka Avanzada rehegua</string>
 	<string name="menu_search_tooltip">Ojeheka receta rehegua</string>

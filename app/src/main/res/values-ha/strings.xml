@@ -34,12 +34,6 @@
 	<string name="error_sync">An kasa aiki tare: %1$s</string>
 	<string name="folder_pick_cancel">Mai amfani ya soke zaɓen babban fayil</string>
 	<string name="folder_pick_success">An zaɓi babban fayil %1$s</string>
-	<string name="form_download_commit">Zazzagewa</string>
-	<string name="form_download_folder">Shake babban fayil ɗin manufa</string>
-	<string name="form_download_options">Zabuka</string>
-	<string name="form_download_override_existing">Sauya babban fayil ɗin girke-girke na yanzu</string>
-	<string name="form_download_title">Zazzage girke-girke</string>
-	<string name="form_download_url_hint">URL girke-girke</string>
 	<string name="form_exact_search">Yi bincike daidai?</string>
 	<string name="form_ignore_case">Yi watsi da harka?</string>
 	<string name="form_search_commit">Bincika</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Categories</string>
 	<string name="menu_download_title">Zazzagewa</string>
 	<string name="menu_download_tooltip">download girke-girke</string>
-	<string name="menu_import_recipe">Shigo da girke-girke</string>
 	<string name="menu_refresh_tooltip">Sake girke girke-girke</string>
 	<string name="menu_search_title">Babban Bincike</string>
 	<string name="menu_search_tooltip">Bincika girke-girke</string>

@@ -34,12 +34,6 @@
 	<string name="error_sync">Dai nagin mapanggana an pag-synchronize: %1$s</string>
 	<string name="folder_pick_cancel">An parapili nin folder kinanselar kan paragamit</string>
 	<string name="folder_pick_success">Folder %1$s pinili</string>
-	<string name="form_download_commit">Kuanon sa internet</string>
-	<string name="form_download_folder">I-override an target na folder</string>
-	<string name="form_download_options">Mga Opsyon</string>
-	<string name="form_download_override_existing">Palitan an yaon nang folder nin resipe</string>
-	<string name="form_download_title">I-download an Resipe</string>
-	<string name="form_download_url_hint">URL kan Resipe</string>
 	<string name="form_exact_search">Maggibo nin eksaktong paghanap?</string>
 	<string name="form_ignore_case">Dai pag-intindihon an kaso?</string>
 	<string name="form_search_commit">Maghanap</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Mga Kategorya</string>
 	<string name="menu_download_title">Kuanon sa internet</string>
 	<string name="menu_download_tooltip">i-download an resipe</string>
-	<string name="menu_import_recipe">Import Recipe</string>
 	<string name="menu_refresh_tooltip">I-refresh an mga resipe</string>
 	<string name="menu_search_title">Advanced Search</string>
 	<string name="menu_search_tooltip">Maghanap nin resipe</string>

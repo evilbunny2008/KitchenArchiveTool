@@ -34,12 +34,6 @@
 	<string name="error_sync">Sinkronisasi gagal: %1$s</string>
 	<string name="folder_pick_cancel">Pemilih folder dibatalkan oleh pengguna</string>
 	<string name="folder_pick_success">Folder %1$s dipilih</string>
-	<string name="form_download_commit">Unduh</string>
-	<string name="form_download_folder">Ganti folder target</string>
-	<string name="form_download_options">Pilihan</string>
-	<string name="form_download_override_existing">Ganti folder resep yang ada</string>
-	<string name="form_download_title">Unduh Resep</string>
-	<string name="form_download_url_hint">URL resep</string>
 	<string name="form_exact_search">Lakukan pencarian yang tepat?</string>
 	<string name="form_ignore_case">Abaikan kasus?</string>
 	<string name="form_search_commit">Mencari</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategori</string>
 	<string name="menu_download_title">Unduh</string>
 	<string name="menu_download_tooltip">unduh resep</string>
-	<string name="menu_import_recipe">Impor Resep</string>
 	<string name="menu_refresh_tooltip">Segarkan resep</string>
 	<string name="menu_search_title">Pencarian Lanjutan</string>
 	<string name="menu_search_tooltip">Cari resep</string>

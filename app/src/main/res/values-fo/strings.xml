@@ -34,12 +34,6 @@
 	<string name="error_sync">Samskipan miseydnaðist: %1$s</string>
 	<string name="folder_pick_cancel">Mappuveljari avlýstur av brúkara</string>
 	<string name="folder_pick_success">Mappa %1$s vald</string>
-	<string name="form_download_commit">Niðurtøka</string>
-	<string name="form_download_folder">Yvirhála markmappuna</string>
-	<string name="form_download_options">Møguleikar</string>
-	<string name="form_download_override_existing">Skift verandi uppskriftsmappu út</string>
-	<string name="form_download_title">Heinta uppskrift</string>
-	<string name="form_download_url_hint">Uppskrift URL</string>
 	<string name="form_exact_search">Ger eina nágreiniliga leitan?</string>
 	<string name="form_ignore_case">Ignorera málið?</string>
 	<string name="form_search_commit">Leita</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Flokkar</string>
 	<string name="menu_download_title">Niðurtøka</string>
 	<string name="menu_download_tooltip">heinta uppskrift</string>
-	<string name="menu_import_recipe">Innflyta uppskrift</string>
 	<string name="menu_refresh_tooltip">Fríska uppskriftir</string>
 	<string name="menu_search_title">Framkomin leitan</string>
 	<string name="menu_search_tooltip">Leita eftir uppskrift</string>

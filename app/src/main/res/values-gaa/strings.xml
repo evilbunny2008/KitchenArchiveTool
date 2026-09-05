@@ -34,12 +34,6 @@
 	<string name="error_sync">Nɔ ni akɛtoɔ he lɛ nyɛɛɛ: %1$s</string>
 	<string name="folder_pick_cancel">Mɔ ni kɛtsuɔ nii lɛ fo folda picker lɛ mli</string>
 	<string name="folder_pick_success">Folda %1$s ni ahala</string>
-	<string name="form_download_commit">Jie awo</string>
-	<string name="form_download_folder">Tsɔɔmɔ folda ni akɛtaoɔ nii lɛ nɔ</string>
-	<string name="form_download_options">Nihalamɔi</string>
-	<string name="form_download_override_existing">Tsɔɔmɔ niyenii he gbɛjianɔtoo wolo ni yɔɔ momo lɛ</string>
-	<string name="form_download_title">Gbalamɔ Resipi</string>
-	<string name="form_download_url_hint">Niyenii he gbɛjianɔtoo URL</string>
 	<string name="form_exact_search">Feemɔ taomɔ pɔtɛɛ ko?</string>
 	<string name="form_ignore_case">Kuu ohiɛ oshwie sane lɛ nɔ?</string>
 	<string name="form_search_commit">Taomɔ</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Hei</string>
 	<string name="menu_download_title">Jie awo</string>
 	<string name="menu_download_tooltip">gbalamɔ niyenii he gbɛjianɔtoo lɛ</string>
-	<string name="menu_import_recipe">Resipi ni akɛbaajɛ maŋsɛɛ aba</string>
 	<string name="menu_refresh_tooltip">Tsɔɔmɔ niyenii he gbɛjianɔtoi lɛ ehee</string>
 	<string name="menu_search_title">Taomɔ ni etee hiɛ</string>
 	<string name="menu_search_tooltip">Taomɔ niyenii he gbɛjianɔtoo</string>

@@ -34,12 +34,6 @@
 	<string name="error_sync">Senkronizasyon echwe: %1$s</string>
 	<string name="folder_pick_cancel">Itilizatè a te anile selveur dosye</string>
 	<string name="folder_pick_success">Dosye %1$s chwazi</string>
-	<string name="form_download_commit">Telechaje</string>
-	<string name="form_download_folder">Ranplase katab sib</string>
-	<string name="form_download_options">Opsyon</string>
-	<string name="form_download_override_existing">Ranplase katab resèt ki egziste deja</string>
-	<string name="form_download_title">Telechaje resèt</string>
-	<string name="form_download_url_hint">URL resèt la</string>
 	<string name="form_exact_search">Èske yon rechèch egzak?</string>
 	<string name="form_ignore_case">Ignore ka?</string>
 	<string name="form_search_commit">Rechèch</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategori</string>
 	<string name="menu_download_title">Telechaje</string>
 	<string name="menu_download_tooltip">telechaje resèt la</string>
-	<string name="menu_import_recipe">Enpòte resèt</string>
 	<string name="menu_refresh_tooltip">Rafrechi resèt yo</string>
 	<string name="menu_search_title">Rechèch avanse</string>
 	<string name="menu_search_tooltip">Chèche resèt</string>

@@ -34,12 +34,6 @@
 	<string name="error_sync">ʻAʻole hiki ke hoʻonohonoho ʻia: %1$s</string>
 	<string name="folder_pick_cancel">Hoʻopau ʻia ka mea koho waihona e ka mea hoʻohana</string>
 	<string name="folder_pick_success">Koho ʻia ka waihona %1$s</string>
-	<string name="form_download_commit">Hoʻoiho</string>
-	<string name="form_download_folder">Hoʻopau i ka waihona pahuhopu</string>
-	<string name="form_download_options">Nā koho</string>
-	<string name="form_download_override_existing">E hoʻololi i ka waihona meaʻai i loaʻa</string>
-	<string name="form_download_title">Hoʻoiho i ka meaʻai</string>
-	<string name="form_download_url_hint">URL meaʻai</string>
 	<string name="form_exact_search">Hana i kahi hulina pololei?</string>
 	<string name="form_ignore_case">Haʻalele i ka hihia?</string>
 	<string name="form_search_commit">Huli</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Māhele</string>
 	<string name="menu_download_title">Hoʻoiho</string>
 	<string name="menu_download_tooltip">download meaʻai</string>
-	<string name="menu_import_recipe">Mea ʻai lawe mai</string>
 	<string name="menu_refresh_tooltip">Hoʻomaʻamaʻa i nā meaʻai</string>
 	<string name="menu_search_title">Huli Kiʻekiʻe</string>
 	<string name="menu_search_tooltip">Huli meaʻai</string>

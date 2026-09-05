@@ -34,12 +34,6 @@
 	<string name="error_sync">Dh’fhàillig an t-sioncronachadh: %1$s</string>
 	<string name="folder_pick_cancel">Neach-togail pasgan air a chuir dheth leis an neach-cleachdaidh</string>
 	<string name="folder_pick_success">Thagh am pasgan %1$s</string>
-	<string name="form_download_commit">Luchdaich sìos</string>
-	<string name="form_download_folder">Thoir thairis am pasgan targaid</string>
-	<string name="form_download_options">Roghainnean</string>
-	<string name="form_download_override_existing">Cuir an àite am pasgan reasabaidh a th’ ann mar-thà</string>
-	<string name="form_download_title">Luchdaich sìos Recipe</string>
-	<string name="form_download_url_hint">URL reasabaidh</string>
 	<string name="form_exact_search">Dèan sgrùdadh mionaideach?</string>
 	<string name="form_ignore_case">Leig seachad cùis?</string>
 	<string name="form_search_commit">Rannsaich</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Roinnean-seòrsa</string>
 	<string name="menu_download_title">Luchdaich sìos</string>
 	<string name="menu_download_tooltip">luchdaich sìos recipe</string>
-	<string name="menu_import_recipe">Recipe Import</string>
 	<string name="menu_refresh_tooltip">Luchdaich a-nuas reasabaidhean</string>
 	<string name="menu_search_title">Rannsachadh Adhartach</string>
 	<string name="menu_search_tooltip">Lorg reasabaidh</string>

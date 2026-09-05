@@ -34,12 +34,6 @@
 	<string name="error_sync">Sinkronigo malsukcesis: %1$s</string>
 	<string name="folder_pick_cancel">Dosierujo nuligita de uzanto</string>
 	<string name="folder_pick_success">Dosierujo %1$s elektita</string>
-	<string name="form_download_commit">Elŝutu</string>
-	<string name="form_download_folder">Anstataŭigi celan dosierujon</string>
-	<string name="form_download_options">Opcioj</string>
-	<string name="form_download_override_existing">Anstataŭigi ekzistantan recepta dosierujo</string>
-	<string name="form_download_title">Elŝutu Recepton</string>
-	<string name="form_download_url_hint">Recepto URL</string>
 	<string name="form_exact_search">Ĉu ĝusta serĉo?</string>
 	<string name="form_ignore_case">Ignori majusklan?</string>
 	<string name="form_search_commit">Serĉu</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategorioj</string>
 	<string name="menu_download_title">Elŝutu</string>
 	<string name="menu_download_tooltip">elŝutu recepton</string>
-	<string name="menu_import_recipe">Importi Recepton</string>
 	<string name="menu_refresh_tooltip">Refreŝigi receptojn</string>
 	<string name="menu_search_title">Altnivela Serĉo</string>
 	<string name="menu_search_tooltip">Serĉu recepton</string>

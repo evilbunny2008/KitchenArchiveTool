@@ -34,12 +34,6 @@
 	<string name="error_sync">Samstilling mistókst: %1$s</string>
 	<string name="folder_pick_cancel">Notandi hætti við möppuval</string>
 	<string name="folder_pick_success">Mappan %1$s valin</string>
-	<string name="form_download_commit">Sækja</string>
-	<string name="form_download_folder">Hneka markmöppu</string>
-	<string name="form_download_options">Valmöguleikar</string>
-	<string name="form_download_override_existing">Skiptu um núverandi uppskriftarmöppu</string>
-	<string name="form_download_title">Sækja uppskrift</string>
-	<string name="form_download_url_hint">Uppskriftarslóð</string>
 	<string name="form_exact_search">Gerðu nákvæma leit?</string>
 	<string name="form_ignore_case">Hunsa málið?</string>
 	<string name="form_search_commit">Leita</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Flokkar</string>
 	<string name="menu_download_title">Sækja</string>
 	<string name="menu_download_tooltip">Sækja uppskrift</string>
-	<string name="menu_import_recipe">Flytja inn uppskrift</string>
 	<string name="menu_refresh_tooltip">Endurnýjaðu uppskriftir</string>
 	<string name="menu_search_title">Ítarleg leit</string>
 	<string name="menu_search_tooltip">Leitaðu að uppskrift</string>

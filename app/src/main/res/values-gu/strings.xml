@@ -34,12 +34,6 @@
 	<string name="error_sync">સિંક્રનાઇઝેશન નિષ્ફળ થયું: %1$s</string>
 	<string name="folder_pick_cancel">વપરાશકર્તા દ્વારા ફોલ્ડર પીકર રદ કરવામાં આવ્યું</string>
 	<string name="folder_pick_success">ફોલ્ડર %1$s પસંદ કર્યું</string>
-	<string name="form_download_commit">ડાઉનલોડ કરો</string>
-	<string name="form_download_folder">લક્ષ્ય ફોલ્ડરને ઓવરરાઇડ કરો</string>
-	<string name="form_download_options">વિકલ્પો</string>
-	<string name="form_download_override_existing">હાલના રેસીપી ફોલ્ડરને બદલો</string>
-	<string name="form_download_title">રેસીપી ડાઉનલોડ કરો</string>
-	<string name="form_download_url_hint">રેસીપી URL</string>
 	<string name="form_exact_search">ચોક્કસ શોધ કરશો?</string>
 	<string name="form_ignore_case">કેસ અવગણો?</string>
 	<string name="form_search_commit">શોધો</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">શ્રેણીઓ</string>
 	<string name="menu_download_title">ડાઉનલોડ કરો</string>
 	<string name="menu_download_tooltip">રેસીપી ડાઉનલોડ કરો</string>
-	<string name="menu_import_recipe">આયાત રેસીપી</string>
 	<string name="menu_refresh_tooltip">રેસિપી રિફ્રેશ કરો</string>
 	<string name="menu_search_title">અદ્યતન શોધ</string>
 	<string name="menu_search_tooltip">રેસીપી શોધો</string>

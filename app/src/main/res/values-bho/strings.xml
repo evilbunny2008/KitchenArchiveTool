@@ -34,12 +34,6 @@
 	<string name="error_sync">सिंक्रनाइजेशन विफल हो गइल: %1$s</string>
 	<string name="folder_pick_cancel">फोल्डर पिकर उपयोगकर्ता द्वारा रद्द कर दिहल गइल</string>
 	<string name="folder_pick_success">फोल्डर %1$s चुनल गइल बा</string>
-	<string name="form_download_commit">डाउनलोड करीं</string>
-	<string name="form_download_folder">लक्ष्य फोल्डर के ओवरराइड करीं</string>
-	<string name="form_download_options">विकल्प बा</string>
-	<string name="form_download_override_existing">मौजूदा रेसिपी फोल्डर के बदल दीं</string>
-	<string name="form_download_title">रेसिपी डाउनलोड करीं</string>
-	<string name="form_download_url_hint">रेसिपी के यूआरएल बा</string>
 	<string name="form_exact_search">एगो सटीक खोज करीं?</string>
 	<string name="form_ignore_case">केस के अनदेखी कइल जाव?</string>
 	<string name="form_search_commit">तलाशी</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">श्रेणी के बा</string>
 	<string name="menu_download_title">डाउनलोड करीं</string>
 	<string name="menu_download_tooltip">डाउनलोड करे के रेसिपी बा</string>
-	<string name="menu_import_recipe">आयात के रेसिपी के बारे में बतावल गइल बा</string>
 	<string name="menu_refresh_tooltip">रेसिपी के ताजा करे के बा</string>
 	<string name="menu_search_title">एडवांस खोज के बारे में बतावल गइल बा</string>
 	<string name="menu_search_tooltip">खोज के रेसिपी बा</string>

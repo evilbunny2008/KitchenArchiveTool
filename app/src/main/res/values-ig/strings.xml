@@ -34,12 +34,6 @@
 	<string name="error_sync">Mmekọrịta dara: %1$s</string>
 	<string name="folder_pick_cancel">Onye ọrụ kagburu onye na-ahọrọ folda</string>
 	<string name="folder_pick_success">ahọpụtara nchekwa %1$s</string>
-	<string name="form_download_commit">Budata</string>
-	<string name="form_download_folder">Wepụ folda ebumnuche</string>
-	<string name="form_download_options">Nhọrọ</string>
-	<string name="form_download_override_existing">Dochie folda uzommeputa dị ugbu a</string>
-	<string name="form_download_title">Download Ntụziaka</string>
-	<string name="form_download_url_hint">URL nri</string>
 	<string name="form_exact_search">Mee nyocha kpọmkwem?</string>
 	<string name="form_ignore_case">Ileghara ikpe anya?</string>
 	<string name="form_search_commit">Chọọ</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Otu</string>
 	<string name="menu_download_title">Budata</string>
 	<string name="menu_download_tooltip">download uzommeputa</string>
-	<string name="menu_import_recipe">Mbubata Ntụziaka</string>
 	<string name="menu_refresh_tooltip">Tinyegharịa ntụziaka</string>
 	<string name="menu_search_title">Ọchụchọ dị elu</string>
 	<string name="menu_search_tooltip">Chọọ uzommeputa</string>

@@ -34,12 +34,6 @@
 	<string name="error_sync">མཉམ་འབྱུང་འཐུས་ཤོར་འབྱུང་ཡོདཔ།: %1$s</string>
 	<string name="folder_pick_cancel">ལག་ལེན་པ་གིས་ སྣོད་འཛིན་སེལ་འཐུ་འབད་མི་ཆ་མེད་བཏང་ཡོདཔ།</string>
 	<string name="folder_pick_success">སྣོད་འཛིན་ %1$s སེལ་འཐུ་འབད་ཡོདཔ།</string>
-	<string name="form_download_commit">ཕབས་ལེན</string>
-	<string name="form_download_folder">དམིགས་གཏད་སྣོད་འཛིན་བཀག་ཆ་འབད།</string>
-	<string name="form_download_options">གདམ་ཁ་ཚུ།</string>
-	<string name="form_download_override_existing">ད་ལྟོ་ཡོད་པའི་བཟོ་ཐབས་སྣོད་འཛིན་ཚབ་བཙུགས།</string>
-	<string name="form_download_title">བཟོ་ཐབས།</string>
-	<string name="form_download_url_hint">བཞེས་སྒོའི་ཡུ་ཨར་ཨེལ།</string>
 	<string name="form_exact_search">འཚོལ་ཞིབ་གཏན་གཏན་ཅིག་འབད་ག?</string>
 	<string name="form_ignore_case">གནད་དོན་སྣང་མེད་བཞག?</string>
 	<string name="form_search_commit">འཚོལ༌ནི</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">དབྱེ་རིམ།</string>
 	<string name="menu_download_title">ཕབས་ལེན</string>
 	<string name="menu_download_tooltip">བཟོ་ཐབས།</string>
-	<string name="menu_import_recipe">ནང་འདྲེན་འབད་ཐངས།</string>
 	<string name="menu_refresh_tooltip">བཟོ་ཐངས་ཚུ་གསརཔ་བཟོ།</string>
 	<string name="menu_search_title">མཐོ་རིམ་འཚོལ་ཞིབ།</string>
 	<string name="menu_search_tooltip">བཞེས་སྒོ་འཚོལ།</string>
