@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="about_summary">Kitchen Archive Tool (KAT) is un Android-app die de Nextcloud-server Cookbook-app gebruuk um recepte te behere</string>
+	<string name="about_title">Euver</string>
+	<string name="about_version">Appversie: %1$s</string>
+	<string name="account_switcher_current_account_desc">Huideg rekening</string>
+	<string name="add_account">Account toevoege</string>
+	<string name="app_logo_desc">Launcherpictogram vaan de KAT-app</string>
+	<string name="cancel_btn">Annuleer de timer (oonziechbaar)</string>
+	<string name="channel_description">Kanaal veur timermeldinge</string>
+	<string name="channel_name">Timerkanaal</string>
+	<string name="cooktime_pause_btn">Pauzeert de timer</string>
+	<string name="cooktime_reset_btn">Stop en reset de timer</string>
+	<string name="cooktime_start_btn">Start de timer</string>
+	<string name="cooktime_title">Kooktimer</string>
+	<string name="cooktime_tooltip">Begin un kooktimer</string>
+	<string name="copy_ing_message">Ingrediënte gekopieerd nao klembord</string>
+	<string name="copy_ingredients">Ingrediënte kopiere</string>
+	<string name="copy_to_account_failure">Kon ut recept neet kopiëre: %1$s</string>
+	<string name="copy_to_account_in_progress">’%1$s’ kopiëre nao %2$s</string>
+	<string name="copy_to_account_none_available">Voeg iers un aander account toe um recepte tusse ze te kopiëre</string>
+	<string name="copy_to_account_success">’%1$s’ gekopieerd nao %2$s</string>
+	<string name="copy_to_account_title">Kopieer dit recept nao</string>
+	<string name="delete_recipe">Recept wisse</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ zal permanent vaan de server weure verwijderd. Dit kin neet weure ongedaon</string>
+	<string name="delete_recipe_confirm_positive">Verwijdere</string>
+	<string name="delete_recipe_confirm_title">Wis dit recept?</string>
+	<string name="delete_recipe_failure">Kon ’t recept neet verwijdere: %1$s</string>
+	<string name="delete_recipe_success">’%1$s’ gewies</string>
+	<string name="dir_chooser_error">Fout: Rootmap is neet touwgestande!</string>
+	<string name="empty_list">Gein recepte</string>
+	<string name="error_no_network">Gein netwerkverbinding</string>
+	<string name="error_only_wifi">Synchronisatie is allein touwgestande op Wifi</string>
+	<string name="error_sync">Synchronisatie mislök: %1$s</string>
+	<string name="folder_pick_cancel">Mapkiezer geannuleerd door gebroeker</string>
+	<string name="folder_pick_success">Map %1$s geselecteerd</string>
+	<string name="form_exact_search">Doe ’n exacte zeuktoch?</string>
+	<string name="form_ignore_case">Geval negere?</string>
+	<string name="form_search_commit">Zeuke</string>
+	<string name="form_search_hint">Zeuke</string>
+	<string name="form_search_options">Zoekopties</string>
+	<string name="form_search_title">Geavanseerde zeuktoch</string>
+	<string name="form_type_ingredients">Zoek op ingrediënt</string>
+	<string name="form_type_keyword">Zoek op sleutelwoord</string>
+	<string name="form_type_yield">Zoeke op opbrings</string>
+	<string name="form_types">Typ um te zeuke</string>
+</resources>
