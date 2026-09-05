@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Hannergrond Synchroniséierung</string>
 	<string name="pref_title_keep_screen_alive">Halt den Ecran lieweg</string>
 	<string name="pref_title_sync_wifi_only">Synchroniséiert nëmmen op Wifi</string>
-	<string name="preftitle_recipe_import_url">Rezept Import Service URL</string>
 	<string name="preftitle_recipeDir">Rezept Verzeechnes</string>
 	<string name="preftitle_theme">Wielt Thema</string>
 	<string name="rationale_permissions">Begrënnung: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Aloggen Zäit verwandelt. Probéiert nach eng Kéier</string>
 	<string name="recipe_import_login_title">Aloggen op Nextcloud</string>
 	<string name="recipe_import_menu_title">Import Rezept vun URL</string>
-	<string name="recipe_import_no_server_configured">Setzt e Rezept Import Service URL an Astellungen als éischt</string>
 	<string name="recipe_list_image_desc">Miniaturbild vum Rezept</string>
 	<string name="recipe_no_timer">Dëst Rezept huet keen Timer!</string>
 	<string name="request_again">Demande erëm</string>

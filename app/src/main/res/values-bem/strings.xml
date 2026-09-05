@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Ukulinganisha kwa pa numa</string>
 	<string name="pref_title_keep_screen_alive">Sunga icikope ica mweo</string>
 	<string name="pref_title_sync_wifi_only">Ukulinganisha pa Wifi fye</string>
-	<string name="preftitle_recipe_import_url">URL iyakutwala ifyakulya</string>
 	<string name="preftitle_recipeDir">Ubutantiko bwa fyakulya</string>
 	<string name="preftitle_theme">Saleni Umutwe</string>
 	<string name="rationale_permissions">Icilenga: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Inshita ya kwingililamo naipwa. Esheni nakabili</string>
 	<string name="recipe_import_login_title">Ingila mwikumbi lyakonkapo</string>
 	<string name="recipe_import_menu_title">Leteni ifyakulya ukufuma ku URL</string>
-	<string name="recipe_import_no_server_configured">Tekeni URL iyakutwala ifyakulya mufipekanishiwe intanshi</string>
 	<string name="recipe_list_image_desc">Icikope icinono ica mipangilwe ya fyakulya</string>
 	<string name="recipe_no_timer">Iyi Recipe tayakwata inshita!</string>
 	<string name="request_again">Ipushe nakabili</string>

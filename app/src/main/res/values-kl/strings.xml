@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Tungavilersuutit Synkronisering</string>
 	<string name="pref_title_keep_screen_alive">Skærmi inuuneqassaaq</string>
 	<string name="pref_title_sync_wifi_only">Wifi-mi kisimi synkroniseqarit</string>
-	<string name="preftitle_recipe_import_url">Nerisassiornermik tunisassiornermut sullissivik URL</string>
 	<string name="preftitle_recipeDir">Recept-katalogi</string>
 	<string name="preftitle_theme">Toqqaruk Tema</string>
 	<string name="rationale_permissions">Pissutaasoq: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Login piffissaq qaangiuppoq. Misilittariaqarpat</string>
 	<string name="recipe_import_login_title">Nextcloudimut iserit</string>
 	<string name="recipe_import_menu_title">Nerisassiorneq URL-imiit tuniuk</string>
-	<string name="recipe_import_no_server_configured">Siullermik Inuussutissarsiutinut nerisassiornermut kiffartuussinermut URL-imik inissitsigit</string>
 	<string name="recipe_list_image_desc">Nerisassiornermut assilisassiaq</string>
 	<string name="recipe_no_timer">Una Recept timer-eqanngilaq!</string>
 	<string name="request_again">Piumasaqaateqaqqippoq</string>

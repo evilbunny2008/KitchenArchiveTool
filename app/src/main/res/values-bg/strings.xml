@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Фонова синхронизация</string>
 	<string name="pref_title_keep_screen_alive">Поддържайте екрана жив</string>
 	<string name="pref_title_sync_wifi_only">Синхронизиране само през Wi-Fi</string>
-	<string name="preftitle_recipe_import_url">URL адрес на услугата за импортиране на рецепта</string>
 	<string name="preftitle_recipeDir">Указател с рецепти</string>
 	<string name="preftitle_theme">Изберете Тема</string>
 	<string name="rationale_permissions">Обосновка: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Времето за влизане изтече. Опитайте отново</string>
 	<string name="recipe_import_login_title">Влезте в Nextcloud</string>
 	<string name="recipe_import_menu_title">Импортиране на рецепта от URL</string>
-	<string name="recipe_import_no_server_configured">Първо задайте URL адрес на услуга за импортиране на рецепта в Настройки</string>
 	<string name="recipe_list_image_desc">Миниизображение на рецепта</string>
 	<string name="recipe_no_timer">Тази рецепта няма таймер!</string>
 	<string name="request_again">Заявка отново</string>

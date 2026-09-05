@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Pag-synchronize sang Background</string>
 	<string name="pref_title_keep_screen_alive">Hupti nga buhi ang screen</string>
 	<string name="pref_title_sync_wifi_only">Mag-sync sa Wifi lang</string>
-	<string name="preftitle_recipe_import_url">URL sang serbisyo sa pag-import sang resipe</string>
 	<string name="preftitle_recipeDir">Direktoryo sang Resipe</string>
 	<string name="preftitle_theme">Pilia ang Tema</string>
 	<string name="rationale_permissions">Rason: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Ang pag-login natapos na. Tilawi liwat</string>
 	<string name="recipe_import_login_title">Mag-log in sa Nextcloud</string>
 	<string name="recipe_import_menu_title">I-import ang resipe gikan sa URL</string>
-	<string name="recipe_import_no_server_configured">Ibutang anay ang URL sang serbisyo sa pag-import sang resipe sa Mga Setting</string>
 	<string name="recipe_list_image_desc">Thumbnail sang laragway sang resipe</string>
 	<string name="recipe_no_timer">Ini nga Resipe wala sing timer!</string>
 	<string name="request_again">Magpangabay liwat</string>

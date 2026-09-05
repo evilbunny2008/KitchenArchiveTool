@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">همگام سازی پس زمینه</string>
 	<string name="pref_title_keep_screen_alive">صفحه نمایش را زنده نگه دارید</string>
 	<string name="pref_title_sync_wifi_only">فقط روی Wifi همگام سازی کنید</string>
-	<string name="preftitle_recipe_import_url">URL سرویس واردات دستور غذا</string>
 	<string name="preftitle_recipeDir">فهرست دستور العمل ها</string>
 	<string name="preftitle_theme">تم را انتخاب کنید</string>
 	<string name="rationale_permissions">دلیل: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">زمان ورود به سیستم تمام شد. دوباره امتحان کنید</string>
 	<string name="recipe_import_login_title">وارد Nextcloud شوید</string>
 	<string name="recipe_import_menu_title">دستور غذا را از URL وارد کنید</string>
-	<string name="recipe_import_no_server_configured">ابتدا یک URL سرویس واردات دستور غذا را در تنظیمات تنظیم کنید</string>
 	<string name="recipe_list_image_desc">تصویر کوچک دستور غذا</string>
 	<string name="recipe_no_timer">این دستور پخت تایمر ندارد!</string>
 	<string name="request_again">دوباره درخواست کن</string>

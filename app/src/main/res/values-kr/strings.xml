@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Ngaworam Kǝltǝ</string>
 	<string name="pref_title_keep_screen_alive">Screen dəga kənəngatə</string>
 	<string name="pref_title_sync_wifi_only">Wifi baslan sync</string>
-	<string name="preftitle_recipe_import_url">URL sabis awo kǝmbube ikkobe</string>
 	<string name="preftitle_recipeDir">Darektori Recipebe</string>
 	<string name="preftitle_theme">Mauduwu karne</string>
 	<string name="rationale_permissions">Dalil: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Loktu loginbe dawono. Waltǝ jarabne</string>
 	<string name="recipe_import_login_title">Nextcloud ro gayin</string>
 	<string name="recipe_import_menu_title">Recipe URL lan ikko</string>
-	<string name="recipe_import_no_server_configured">URL awo kəmbube ikkobe suro Settingsben buro salakkin</string>
 	<string name="recipe_list_image_desc">Foto gana kǝmbu detabe</string>
 	<string name="recipe_no_timer">Recipe adə timer bawo!</string>
 	<string name="request_again">Waltǝm mǝradǝne</string>

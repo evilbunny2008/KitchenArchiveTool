@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Sinkronisasi Latar Belakang</string>
 	<string name="pref_title_keep_screen_alive">Tetep layar idup</string>
 	<string name="pref_title_sync_wifi_only">Sinkronisasi ring Wifi kémanten</string>
-	<string name="preftitle_recipe_import_url">URL layanan impor resep</string>
 	<string name="preftitle_recipeDir">Direktori Resep</string>
 	<string name="preftitle_theme">Pilih Tema</string>
 	<string name="rationale_permissions">Rasional: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Galah ngranjing sampun telas. Indayang malih</string>
 	<string name="recipe_import_login_title">Ngranjing ka Awan Selanturnyané</string>
 	<string name="recipe_import_menu_title">Impor resep saking URL</string>
-	<string name="recipe_import_no_server_configured">Atur dumun URL layanan impor resep ring Setélan</string>
 	<string name="recipe_list_image_desc">Gambar mini resep</string>
 	<string name="recipe_no_timer">Resep puniki nenten madue timer!</string>
 	<string name="request_again">Pinunas malih</string>

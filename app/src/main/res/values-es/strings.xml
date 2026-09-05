@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Sincronización en segundo plano</string>
 	<string name="pref_title_keep_screen_alive">Mantén viva la pantalla</string>
 	<string name="pref_title_sync_wifi_only">Sincronización solo por Wifi</string>
-	<string name="preftitle_recipe_import_url">URL del servicio de importación de recetas</string>
 	<string name="preftitle_recipeDir">Directorio de recetas</string>
 	<string name="preftitle_theme">Seleccionar tema</string>
 	<string name="rationale_permissions">Justificación: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Se agotó el tiempo de inicio de sesión. Intentar otra vez</string>
 	<string name="recipe_import_login_title">Inicia sesión en Nextcloud</string>
 	<string name="recipe_import_menu_title">Importar receta desde URL</string>
-	<string name="recipe_import_no_server_configured">Establezca primero una URL del servicio de importación de recetas en Configuración</string>
 	<string name="recipe_list_image_desc">Miniatura de imagen de la receta</string>
 	<string name="recipe_no_timer">¡Esta receta no tiene cronómetro!</string>
 	<string name="request_again">Solicitar nuevamente</string>

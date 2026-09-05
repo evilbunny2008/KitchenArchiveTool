@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Ֆոնային համաժամացում</string>
 	<string name="pref_title_keep_screen_alive">Պահպանեք էկրանը կենդանի</string>
 	<string name="pref_title_sync_wifi_only">Համաժամեցեք միայն Wi-Fi-ով</string>
-	<string name="preftitle_recipe_import_url">Բաղադրատոմսի ներմուծման ծառայության URL</string>
 	<string name="preftitle_recipeDir">Բաղադրատոմսերի տեղեկատու</string>
 	<string name="preftitle_theme">Ընտրեք թեմա</string>
 	<string name="rationale_permissions">Հիմնավորումը՝ %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Մուտքի ժամանակը սպառվել է: Նորից փորձեք:</string>
 	<string name="recipe_import_login_title">Մուտք գործեք Nextcloud</string>
 	<string name="recipe_import_menu_title">Ներմուծեք բաղադրատոմսը URL-ից</string>
-	<string name="recipe_import_no_server_configured">Նախ Կարգավորումներում սահմանեք բաղադրատոմսերի ներմուծման ծառայության URL</string>
 	<string name="recipe_list_image_desc">Բաղադրատոմսի պատկերի մանրապատկեր</string>
 	<string name="recipe_no_timer">Այս բաղադրատոմսը չունի ժամանակաչափ:</string>
 	<string name="request_again">Նորից խնդրեք</string>

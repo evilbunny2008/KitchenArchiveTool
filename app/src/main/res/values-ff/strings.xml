@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Sinkronisaasiyoŋ caggal</string>
 	<string name="pref_title_keep_screen_alive">Waɗde ekran oo ina wuura</string>
 	<string name="pref_title_sync_wifi_only">Sinkron e Wifi tan</string>
-	<string name="preftitle_recipe_import_url">URL sarwiis naatgol restoraaji</string>
 	<string name="preftitle_recipeDir">Reggindo Resetaaji</string>
 	<string name="preftitle_theme">Suɓo Tiitoonde</string>
 	<string name="rationale_permissions">Hujja: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Wakkati nastugo timmi. Enndu kadi</string>
 	<string name="recipe_import_login_title">Naat e Nextcloud</string>
 	<string name="recipe_import_menu_title">Naatnude restoraaji ummoraade e URL</string>
-	<string name="recipe_import_no_server_configured">Seŋo URL sarwiis naatgol resipe e nder Dottaaɗe ko adii</string>
 	<string name="recipe_list_image_desc">Natal ɓuuɓngal e restora</string>
 	<string name="recipe_no_timer">Oo Recipe alaa waktu!</string>
 	<string name="request_again">Ɗaɓɓu kadi</string>

@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Background Synchronization</string>
 	<string name="pref_title_keep_screen_alive">Khaws qhov screen ciaj sia</string>
 	<string name="pref_title_sync_wifi_only">Sync ntawm Wifi nkaus xwb</string>
-	<string name="preftitle_recipe_import_url">Daim ntawv qhia import URL</string>
 	<string name="preftitle_recipeDir">Daim ntawv qhia Directory</string>
 	<string name="preftitle_theme">Xaiv lub ntsiab</string>
 	<string name="rationale_permissions">Qhov laj thawj: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">ID nkag mus tau sijhawm. Sim dua</string>
 	<string name="recipe_import_login_title">Nkag mus rau Nextcloud</string>
 	<string name="recipe_import_menu_title">Ntshuam daim ntawv qhia los ntawm URL</string>
-	<string name="recipe_import_no_server_configured">Teem ib daim ntawv qhia ntshuam kev pabcuam URL hauv Chaw ua ntej</string>
 	<string name="recipe_list_image_desc">Duab thumbnail ntawm daim ntawv qhia</string>
 	<string name="recipe_no_timer">Daim ntawv qhia no tsis muaj timer!</string>
 	<string name="request_again">Thov dua</string>

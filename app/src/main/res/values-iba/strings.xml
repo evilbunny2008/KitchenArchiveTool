@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Penyegerakan Latar Belakang</string>
 	<string name="pref_title_keep_screen_alive">Jaga skrin nya idup</string>
 	<string name="pref_title_sync_wifi_only">Sync ba Wifi aja</string>
-	<string name="preftitle_recipe_import_url">URL servis import resipi</string>
 	<string name="preftitle_recipeDir">Direktori Resipi</string>
 	<string name="preftitle_theme">Pilih Tema</string>
 	<string name="rationale_permissions">Rasional: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Login udah abis maya. Uji baru</string>
 	<string name="recipe_import_login_title">Log masuk ngagai Nextcloud</string>
 	<string name="recipe_import_menu_title">Import resipi ari URL</string>
-	<string name="recipe_import_no_server_configured">Tetapka URL servis import resipi ba Atur dulu</string>
 	<string name="recipe_list_image_desc">Gambar mit resipi</string>
 	<string name="recipe_no_timer">Resipi tu nadai ngembuan timer!</string>
 	<string name="request_again">Pinta baru</string>

@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Aiki tare a bangon baya</string>
 	<string name="pref_title_keep_screen_alive">Rike allon a raye</string>
 	<string name="pref_title_sync_wifi_only">Aiki tare akan Wifi kawai</string>
-	<string name="preftitle_recipe_import_url">URL sabis na shigo da girke-girke</string>
 	<string name="preftitle_recipeDir">Littafin Abinci</string>
 	<string name="preftitle_theme">Zaɓi Jigo</string>
 	<string name="rationale_permissions">Dalilin: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Login ya ƙare. Gwada kuma</string>
 	<string name="recipe_import_login_title">Shiga zuwa Nextcloud</string>
 	<string name="recipe_import_menu_title">Shigo da girke-girke daga URL</string>
-	<string name="recipe_import_no_server_configured">Saita URL ɗin shigo da girke-girke a cikin Saitunan farko</string>
 	<string name="recipe_list_image_desc">Hoton thumbnail na girke-girke</string>
 	<string name="recipe_no_timer">Wannan girke-girke ba shi da mai ƙidayar lokaci!</string>
 	<string name="request_again">nema sake</string>

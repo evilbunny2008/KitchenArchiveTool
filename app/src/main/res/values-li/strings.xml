@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Achtergroondsynchronisatie</string>
 	<string name="pref_title_keep_screen_alive">Houd ut scherm levedig</string>
 	<string name="pref_title_sync_wifi_only">Synchronisere allein op Wifi</string>
-	<string name="preftitle_recipe_import_url">Recepte-importservice-URL</string>
 	<string name="preftitle_recipeDir">Receptegids</string>
 	<string name="preftitle_theme">Thema kies</string>
 	<string name="rationale_permissions">Rationale: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Aonmelde is verlore. Probeer nog ummer</string>
 	<string name="recipe_import_login_title">Log in bij Nextcloud</string>
 	<string name="recipe_import_menu_title">Recept importere vaan URL</string>
-	<string name="recipe_import_no_server_configured">Stel iers ’n URL vaan ’n receptimportservice in Instellinge in</string>
 	<string name="recipe_list_image_desc">Miniatuur vaan ’t recept</string>
 	<string name="recipe_no_timer">Dit resep heet gein timer!</string>
 	<string name="request_again">Verzörg nog ummer</string>

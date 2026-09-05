@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Sinkronisasi Latar Belakang</string>
 	<string name="pref_title_keep_screen_alive">Jaga agar layar tetap hidup</string>
 	<string name="pref_title_sync_wifi_only">Sinkronisasi hanya pada Wifi</string>
-	<string name="preftitle_recipe_import_url">URL layanan impor resep</string>
 	<string name="preftitle_recipeDir">Direktori Resep</string>
 	<string name="preftitle_theme">Pilih Tema</string>
 	<string name="rationale_permissions">Alasan: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Waktu masuk habis. Coba lagi</string>
 	<string name="recipe_import_login_title">Masuk ke Nextcloud</string>
 	<string name="recipe_import_menu_title">Impor resep dari URL</string>
-	<string name="recipe_import_no_server_configured">Tetapkan URL layanan impor resep di Pengaturan terlebih dahulu</string>
 	<string name="recipe_list_image_desc">Gambar thumbnail resep</string>
 	<string name="recipe_no_timer">Resep ini tidak memiliki pengatur waktu!</string>
 	<string name="request_again">Minta lagi</string>

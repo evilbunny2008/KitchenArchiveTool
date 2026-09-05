@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Sinkronelaat an drekleur</string>
 	<string name="pref_title_keep_screen_alive">Derc’hel bev ar skramm</string>
 	<string name="pref_title_sync_wifi_only">Sinkronelaat war ar Wifi hepken</string>
-	<string name="preftitle_recipe_import_url">URL ar servij enporzhiañ rekipeoù</string>
 	<string name="preftitle_recipeDir">Roll ar rekipeoù</string>
 	<string name="preftitle_theme">Dibab Tem</string>
 	<string name="rationale_permissions">Dibab : %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Diamzeret eo an amzer kennaskañ. Klaskit en-dro</string>
 	<string name="recipe_import_login_title">Kevreañ ouzh Nextcloud</string>
 	<string name="recipe_import_menu_title">Enporzhiañ ar rekipe diouzh an URL</string>
-	<string name="recipe_import_no_server_configured">Lakait URL ur servij enporzhiañ rekipeoù en arventennoù da gentañ</string>
 	<string name="recipe_list_image_desc">Skeudenn vihan ar rekipe</string>
 	<string name="recipe_no_timer">N’eus ket ur c’horn-amzer gant ar rekipe-mañ !</string>
 	<string name="request_again">Goulenn en-dro</string>

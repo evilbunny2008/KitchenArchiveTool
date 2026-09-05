@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Hevdemkirinê Background</string>
 	<string name="pref_title_keep_screen_alive">Ekranê zindî bihêlin</string>
 	<string name="pref_title_sync_wifi_only">Tenê li ser Wifi hevdeng bikin</string>
-	<string name="preftitle_recipe_import_url">Reçeteya karûbarê importê URL</string>
 	<string name="preftitle_recipeDir">Recipe Directory</string>
 	<string name="preftitle_theme">Mijar Hilbijêre</string>
 	<string name="rationale_permissions">Aqil: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Dema têketinê qediya. Dubare bixebitin</string>
 	<string name="recipe_import_login_title">Têkeve Nextcloud</string>
 	<string name="recipe_import_menu_title">Reçeteya ji URL-ê derxînin</string>
-	<string name="recipe_import_no_server_configured">Pêşî di Mîhengan de URL-ya karûbarê importa reçeteyê saz bikin</string>
 	<string name="recipe_list_image_desc">Nîgara wêneyê ya reçeteyê</string>
 	<string name="recipe_no_timer">Vê Reçeteyê demjimêrek tune!</string>
 	<string name="request_again">Dîsa daxwaz bikin</string>

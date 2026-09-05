@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Фон синхронизация</string>
 	<string name="pref_title_keep_screen_alive">Керӧй экран ловъяӧн</string>
 	<string name="pref_title_sync_wifi_only">Синхронизируйтны сӧмын Wifi вылын</string>
-	<string name="preftitle_recipe_import_url">Рецепт импортируйтан сервислӧн URL-адрес</string>
 	<string name="preftitle_recipeDir">Рецептъяс серти каталог</string>
 	<string name="preftitle_theme">Бӧрйы тема</string>
 	<string name="rationale_permissions">Обоснование: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Логин тайм-аут. Зільӧй нӧшта</string>
 	<string name="recipe_import_login_title">Локтӧй Nextcloud</string>
 	<string name="recipe_import_menu_title">Импортируйтны рецепт URL-адрес серти</string>
-	<string name="recipe_import_no_server_configured">Медводз лӧсьӧдӧй рецепт импортируйтан сервислысь URL-адрессӧ Настройкаясын</string>
 	<string name="recipe_list_image_desc">Рецепт серти ичӧт серпас</string>
 	<string name="recipe_no_timer">Тайӧ Рецептлӧн абу таймер!</string>
 	<string name="request_again">Корӧй выльысь</string>

@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Bakgrundssamskipan</string>
 	<string name="pref_title_keep_screen_alive">Halt skermin á lívi</string>
 	<string name="pref_title_sync_wifi_only">Synkronisera bert á Wifi</string>
-	<string name="preftitle_recipe_import_url">URL til innflutningstænastu til uppskriftir</string>
 	<string name="preftitle_recipeDir">Uppskriftsskrá</string>
 	<string name="preftitle_theme">Vel Tema</string>
 	<string name="rationale_permissions">Grundgeving: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Innritan er útgingin. Royn aftur</string>
 	<string name="recipe_import_login_title">‎ Rita inn á Nextcloud‎</string>
 	<string name="recipe_import_menu_title">Innflyt uppskrift frá URL</string>
-	<string name="recipe_import_no_server_configured">Set eina uppskrifts-innflutningstænastu URL í Innstillingum fyrst</string>
 	<string name="recipe_list_image_desc">Myndasmámynd av uppskrift</string>
 	<string name="recipe_no_timer">Hendan uppskriftin hevur ikki tíðarætlan!</string>
 	<string name="request_again">Bið um aftur</string>

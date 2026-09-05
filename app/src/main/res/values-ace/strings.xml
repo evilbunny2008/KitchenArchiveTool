@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Sinkronisasi Latar Likot</string>
 	<string name="pref_title_keep_screen_alive">Jaga layar nyan beu udep</string>
 	<string name="pref_title_sync_wifi_only">Sinkronisasi bak Wifi mantong</string>
-	<string name="preftitle_recipe_import_url">URL layanan impor resep</string>
 	<string name="preftitle_recipeDir">Direktori Resep</string>
 	<string name="preftitle_theme">Pileh Tema</string>
 	<string name="rationale_permissions">Rasional: %s</string>
@@ -115,7 +114,7 @@
 	<string name="recipe_import_login_timed_out">Login ka habeh watee. Cuba lom</string>
 	<string name="recipe_import_login_title">Neutamong lam Nextcloud</string>
 	<string name="recipe_import_menu_title">Impor resep dari URL</string>
-	<string name="recipe_import_no_server_configured">Teutapkan URL layanan impor resep lam Pengaturan dilee</string>
+	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar ubit resep</string>
 	<string name="recipe_no_timer">Resep nyoe hana timer!</string>
 	<string name="request_again">Lake lom</string>

@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">পটভূমি সমন্বয়</string>
 	<string name="pref_title_keep_screen_alive">পৰ্দাখন জীয়াই ৰাখক</string>
 	<string name="pref_title_sync_wifi_only">কেৱল Wifi ত ছিংক কৰক</string>
-	<string name="preftitle_recipe_import_url">ৰেচিপি আমদানি সেৱা URL</string>
 	<string name="preftitle_recipeDir">ৰেচিপি ডাইৰেক্টৰী</string>
 	<string name="preftitle_theme">থিম নিৰ্ব্বাচন কৰক</string>
 	<string name="rationale_permissions">যুক্তি: %s</string>
@@ -115,7 +114,7 @@
 	<string name="recipe_import_login_timed_out">লগইনৰ সময় শেষ হৈ গ’ল। আকৌ এবাৰ চেষ্টা কৰক।</string>
 	<string name="recipe_import_login_title">Nextcloud ত লগ ইন কৰক</string>
 	<string name="recipe_import_menu_title">URL ৰ পৰা ৰেচিপি আমদানি কৰক</string>
-	<string name="recipe_import_no_server_configured">প্ৰথমে সংহতিসমূহত এটা ৰেচিপি আমদানি সেৱা URL নিৰ্ধাৰণ কৰক</string>
+	<string name="recipe_import_service_url_hint">ৰেচিপি আমদানি সেৱা URL</string>
 	<string name="recipe_list_image_desc">ৰেচিপিৰ ছবিৰ থাম্বনেইল</string>
 	<string name="recipe_no_timer">এই Recipe ত টাইমাৰ নাই!</string>
 	<string name="request_again">আকৌ অনুৰোধ কৰক</string>

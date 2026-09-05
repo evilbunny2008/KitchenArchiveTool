@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Megbenyawo ƒe Ðekawɔwɔ</string>
 	<string name="pref_title_keep_screen_alive">Na screen la nanɔ agbe</string>
 	<string name="pref_title_sync_wifi_only">Sync le Wifi ɖeɖeko dzi</string>
-	<string name="preftitle_recipe_import_url">Nuɖaɖa ƒe import subɔsubɔ URL</string>
 	<string name="preftitle_recipeDir">Nuɖaɖa ƒe Nyatakakadzraɖoƒe</string>
 	<string name="preftitle_theme">Tia Tanya</string>
 	<string name="rationale_permissions">Susu si tae: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Ɣeyiɣi si woatsɔ age ɖe eme la wu enu. Gadze agbagba ake</string>
 	<string name="recipe_import_login_title">Ge ɖe Nextcloud me</string>
 	<string name="recipe_import_menu_title">Tsɔ nuɖaɖa tso URL dzi</string>
-	<string name="recipe_import_no_server_configured">Ðo nuɖaɖa ƒe import service URL le Settings me gbã</string>
 	<string name="recipe_list_image_desc">Nɔnɔmetata ƒe nɔnɔmetata sue aɖe si ku ɖe nuɖaɖa ŋu</string>
 	<string name="recipe_no_timer">Ɣeyiɣidzidzenu mele Nuɖaɖa sia si o!</string>
 	<string name="request_again">Gabia ake</string>

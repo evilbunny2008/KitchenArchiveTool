@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Sincronizazion di sfont</string>
 	<string name="pref_title_keep_screen_alive">Mantignî in vite il schermi</string>
 	<string name="pref_title_sync_wifi_only">Sincronizâ dome su Wifi</string>
-	<string name="preftitle_recipe_import_url">URL dal servizi di impuartazion des ricetis</string>
 	<string name="preftitle_recipeDir">Repertori des ricetis</string>
 	<string name="preftitle_theme">Seleziona Teme</string>
 	<string name="rationale_permissions">Motivazion: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Il timp di accession al è finît. Prove di gnûf</string>
 	<string name="recipe_import_login_title">Accedi a Nextcloud</string>
 	<string name="recipe_import_menu_title">Importâ la ricete dal URL</string>
-	<string name="recipe_import_no_server_configured">Imposta prin un URL dal servizi di impuartazion di ricetis intes Impostazions</string>
 	<string name="recipe_list_image_desc">Miniature de imagjin de ricete</string>
 	<string name="recipe_no_timer">Cheste Ricete no à un cronometri!</string>
 	<string name="request_again">Domande di gnûf</string>

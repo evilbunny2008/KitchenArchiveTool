@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Mmekọrịta ndabere</string>
 	<string name="pref_title_keep_screen_alive">Debe ihuenyo ndụ</string>
 	<string name="pref_title_sync_wifi_only">Mekọrịta naanị na Wifi</string>
-	<string name="preftitle_recipe_import_url">URL ọrụ mbubata nri nri</string>
 	<string name="preftitle_recipeDir">Ndekọ nri</string>
 	<string name="preftitle_theme">Họrọ Okwu</string>
 	<string name="rationale_permissions">Ihe kpatara ya: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Oge nbanye agwụla. Nwaa ọzọ</string>
 	<string name="recipe_import_login_title">Banye na Nextcloud</string>
 	<string name="recipe_import_menu_title">Bubata uzommeputa site na URL</string>
-	<string name="recipe_import_no_server_configured">Tọọ URL mbubata nri nri n’ime Ntọala mbụ</string>
 	<string name="recipe_list_image_desc">Foto thumbnail nke uzommeputa</string>
 	<string name="recipe_no_timer">Ntụziaka a enweghị ngụ oge!</string>
 	<string name="request_again">Rịọ ọzọ</string>

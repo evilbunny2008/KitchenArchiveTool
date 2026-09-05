@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">백그라운드 동기화</string>
 	<string name="pref_title_keep_screen_alive">화면을 생생하게 유지하세요</string>
 	<string name="pref_title_sync_wifi_only">Wi-Fi에서만 동기화</string>
-	<string name="preftitle_recipe_import_url">레시피 가져오기 서비스 URL</string>
 	<string name="preftitle_recipeDir">레시피 디렉토리</string>
 	<string name="preftitle_theme">테마 선택</string>
 	<string name="rationale_permissions">근거: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">로그인 시간이 초과되었습니다. 다시 시도해 보세요</string>
 	<string name="recipe_import_login_title">Nextcloud에 로그인</string>
 	<string name="recipe_import_menu_title">URL에서 레시피 가져오기</string>
-	<string name="recipe_import_no_server_configured">먼저 설정에서 레시피 가져오기 서비스 URL을 설정하세요</string>
 	<string name="recipe_list_image_desc">레시피의 이미지 썸네일</string>
 	<string name="recipe_no_timer">이 레시피에는 타이머가 없습니다!</string>
 	<string name="request_again">다시 요청</string>

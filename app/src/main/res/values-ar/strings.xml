@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">مزامنة الخلفية</string>
 	<string name="pref_title_keep_screen_alive">إبقاء الشاشة على قيد الحياة</string>
 	<string name="pref_title_sync_wifi_only">المزامنة على شبكة Wifi فقط</string>
-	<string name="preftitle_recipe_import_url">وصفة URL لخدمة الاستيراد</string>
 	<string name="preftitle_recipeDir">دليل الوصفة</string>
 	<string name="preftitle_theme">حدد الموضوع</string>
 	<string name="rationale_permissions">الأساس المنطقي: %s</string>
@@ -115,7 +114,7 @@
 	<string name="recipe_import_login_timed_out">انتهت مهلة تسجيل الدخول. حاول ثانية</string>
 	<string name="recipe_import_login_title">قم بتسجيل الدخول إلى Nextcloud</string>
 	<string name="recipe_import_menu_title">استيراد وصفة من URL</string>
-	<string name="recipe_import_no_server_configured">قم بتعيين عنوان URL لخدمة استيراد الوصفات في الإعدادات أولاً</string>
+	<string name="recipe_import_service_url_hint">وصفة URL لخدمة الاستيراد</string>
 	<string name="recipe_list_image_desc">صورة مصغرة للوصفة</string>
 	<string name="recipe_no_timer">هذه الوصفة لا تحتوي على مؤقت!</string>
 	<string name="request_again">اطلب مرة أخرى</string>

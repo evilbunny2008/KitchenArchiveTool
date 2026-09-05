@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Sinkronisasen ewe Pworaus</string>
 	<string name="pref_title_keep_screen_alive">Kopwe tumunu pwe ewe skrin epwe manau</string>
 	<string name="pref_title_sync_wifi_only">Sink won Wifi chok</string>
-	<string name="preftitle_recipe_import_url">URL ren angangen uwei pisek</string>
 	<string name="preftitle_recipeDir">Ewe Puken Resipe</string>
 	<string name="preftitle_theme">Fili ewe itelap</string>
 	<string name="rationale_permissions">Popun: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Login fansoun a wes. Sotuni sefan</string>
 	<string name="recipe_import_login_title">Kopwe tolong lon ewe Nextcloud</string>
 	<string name="recipe_import_menu_title">Kopwe uweato ewe kokkot seni ewe URL</string>
-	<string name="recipe_import_no_server_configured">Kopwe akkomw seti ew URL ren angangen uwei pisek non Settings</string>
 	<string name="recipe_list_image_desc">Ewe sasingin ewe recipe</string>
 	<string name="recipe_no_timer">Ei Resipe ese wor an fansoun!</string>
 	<string name="request_again">Kopwe tingor sefan</string>

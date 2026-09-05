@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">पृष्ठभूमि तुल्यकालन</string>
 	<string name="pref_title_keep_screen_alive">स्क्रीन को जीवंत रखें</string>
 	<string name="pref_title_sync_wifi_only">केवल वाईफ़ाई पर सिंक करें</string>
-	<string name="preftitle_recipe_import_url">रेसिपी आयात सेवा यूआरएल</string>
 	<string name="preftitle_recipeDir">रेसिपी निर्देशिका</string>
 	<string name="preftitle_theme">थीम चुनें</string>
 	<string name="rationale_permissions">तर्क: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">लॉगिन का समय समाप्त हो गया. पुनः प्रयास करें।</string>
 	<string name="recipe_import_login_title">नेक्स्टक्लाउड में लॉग इन करें</string>
 	<string name="recipe_import_menu_title">URL से नुस्खा आयात करें</string>
-	<string name="recipe_import_no_server_configured">पहले सेटिंग्स में रेसिपी आयात सेवा यूआरएल सेट करें</string>
 	<string name="recipe_list_image_desc">रेसिपी की छवि थंबनेल</string>
 	<string name="recipe_no_timer">इस रेसिपी में टाइमर नहीं है!</string>
 	<string name="request_again">पुनः अनुरोध करें</string>

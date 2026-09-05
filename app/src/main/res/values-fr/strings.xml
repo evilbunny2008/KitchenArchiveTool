@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Synchronisation en arrière-plan</string>
 	<string name="pref_title_keep_screen_alive">Gardez l’écran vivant</string>
 	<string name="pref_title_sync_wifi_only">Synchronisation sur Wifi uniquement</string>
-	<string name="preftitle_recipe_import_url">URL du service d’importation de recettes</string>
 	<string name="preftitle_recipeDir">Répertoire de recettes</string>
 	<string name="preftitle_theme">Sélectionnez un thème</string>
 	<string name="rationale_permissions">Justification : %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">La connexion a expiré. Essayer à nouveau</string>
 	<string name="recipe_import_login_title">Connectez-vous à Nextcloud</string>
 	<string name="recipe_import_menu_title">Importer la recette depuis l’URL</string>
-	<string name="recipe_import_no_server_configured">Définissez d’abord une URL de service d’importation de recettes dans Paramètres</string>
 	<string name="recipe_list_image_desc">Image miniature de la recette</string>
 	<string name="recipe_no_timer">Cette recette n’a pas de minuterie !</string>
 	<string name="request_again">Demander à nouveau</string>

@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">ބެކްގްރައުންޑް ސިންކްރޮނައިޒޭޝަން</string>
 	<string name="pref_title_keep_screen_alive">ސްކްރީން ދިރުވާށެވެ</string>
 	<string name="pref_title_sync_wifi_only">ހަމައެކަނި ވައިފައި އިން ސިންކް ކުރާށެވެ</string>
-	<string name="preftitle_recipe_import_url">ރެސިޕީ އިމްޕޯޓް ސާވިސް ޔޫއާރްއެލް</string>
 	<string name="preftitle_recipeDir">ރެސިޕީ ޑައިރެކްޓަރީ</string>
 	<string name="preftitle_theme">ތީމް ހޮވާށެވެ</string>
 	<string name="rationale_permissions">ރަޝިއަލް: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">ލޮގިން ޓައިމް އައުޓް ވެއްޖެއެވެ. އަނެއްކާވެސް މަސައްކަތް ކުރާށެވެ</string>
 	<string name="recipe_import_login_title">ނެކްސްޓްކްލައުޑަށް ލޮގްއިން ވާށެވެ</string>
 	<string name="recipe_import_menu_title">ޔޫއާރްއެލް އިން ރެސިޕީ އިމްޕޯޓްކުރުން</string>
-	<string name="recipe_import_no_server_configured">ފުރަތަމަ ސެޓިންގސް ގައި ރެސިޕީ އިމްޕޯޓް ސާވިސް ޔޫއާރްއެލް އެއް ސެޓް ކުރާށެވެ</string>
 	<string name="recipe_list_image_desc">ރެސިޕީގެ އިމޭޖް ތަމްބްނެއިލް</string>
 	<string name="recipe_no_timer">މި ރެސިޕީގައި ޓައިމަރެއް ނެތް!</string>
 	<string name="request_again">އަނެއްކާވެސް ރިކުއެސްޓް ކުރާށެވެ</string>

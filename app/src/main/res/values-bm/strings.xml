@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Background Synchronisation (Kɔrɔɲɔgɔnmaya)</string>
 	<string name="pref_title_keep_screen_alive">Aw bɛ ekran to ɲɛnamaya la</string>
 	<string name="pref_title_sync_wifi_only">Sync kɛ Wifi dɔrɔn de kan</string>
-	<string name="preftitle_recipe_import_url">Recette import baarakɛyɔrɔ URL</string>
 	<string name="preftitle_recipeDir">Recette Annuaire (Annuaire des recettes)</string>
 	<string name="preftitle_theme">Barokun sugandi</string>
 	<string name="rationale_permissions">Kumasen: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Donni waati tɛmɛna. Aw bɛ segin ka a lajɛ</string>
 	<string name="recipe_import_login_title">Aw bɛ don Nextcloud kɔnɔ</string>
 	<string name="recipe_import_menu_title">I ka furakɛcogo ladon ka bɔ URL la</string>
-	<string name="recipe_import_no_server_configured">Recipe import service URL dɔ sigi Settings kɔnɔ fɔlɔ</string>
 	<string name="recipe_list_image_desc">Jaa fitinin min bɛ furakɛcogo jira</string>
 	<string name="recipe_no_timer">Nin Recipe in tɛ ni waati jatebɔlan ye!</string>
 	<string name="request_again">Aw ye ɲinini kɛ tuguni</string>

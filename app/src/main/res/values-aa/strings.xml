@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Aydaadi ittalluk abit</string>
 	<string name="pref_title_keep_screen_alive">Alaalaqa manol dacrisa</string>
 	<string name="pref_title_sync_wifi_only">Wifi dubuk celsis</string>
-	<string name="preftitle_recipe_import_url">maaqo bicsiyyih culmah ayfaafayih URL</string>
 	<string name="preftitle_recipeDir">maaqo bicsih oyti</string>
 	<string name="preftitle_theme">Mafdaga meexa</string>
 	<string name="rationale_permissions">Sabab: %s</string>
@@ -115,7 +114,7 @@
 	<string name="recipe_import_login_timed_out">Culmah uddur gaba kaleh. Qagitaak gibbata</string>
 	<string name="recipe_import_login_title">Ciggiila qammurre fan cul</string>
 	<string name="recipe_import_menu_title">maaqo bicsiyyi miracsenta URL ik culus</string>
-	<string name="recipe_import_no_server_configured">maaqo bicsiyyih culmah ayfaf URL guddaaqah addat naharak massoosa</string>
+	<string name="recipe_import_service_url_hint">maaqo bicsiyyih culmah ayfaafayih URL</string>
 	<string name="recipe_list_image_desc">maaqo bicsih miracsenta muuci qunxa muuci</string>
 	<string name="recipe_no_timer">Ta maaqo bicsih cugda wakti lowsiise mali!</string>
 	<string name="request_again">Qagitaak essera</string>

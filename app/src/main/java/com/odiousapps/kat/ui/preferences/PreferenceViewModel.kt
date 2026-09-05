@@ -24,17 +24,10 @@ class PreferenceViewModel(application: Application) : AndroidViewModel(applicati
 
    internal val recipeDirectory: Flow<String> = prefData.getRecipeDir()
    internal val theme: Flow<Int> = prefData.getTheme()
-   internal val recipeImportUrl: Flow<String> = prefData.getRecipeImportUrl()
 
    fun setRecipeDirectory(recipeDirectory: String) {
       viewModelScope.launch(Dispatchers.IO) {
          prefData.setRecipeDir(recipeDirectory)
-      }
-   }
-
-   fun setRecipeImportUrl(url: String) {
-      viewModelScope.launch(Dispatchers.IO) {
-         prefData.setRecipeImportUrl(url)
       }
    }
 

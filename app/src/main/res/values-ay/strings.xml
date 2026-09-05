@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Ukax Sincronización de Fondos ukankiwa</string>
 	<string name="pref_title_keep_screen_alive">Pantallaxa wali ch’amawa</string>
 	<string name="pref_title_sync_wifi_only">Wifi ukakiw sincronización luraña</string>
-	<string name="preftitle_recipe_import_url">Receta importación servicio URL ukax mä juk’a pachanakanwa</string>
 	<string name="preftitle_recipeDir">Directorio de Recetas ukaxa mä juk’a pachanakwa lurasi</string>
 	<string name="preftitle_theme">Tema ukxa ajlliñamawa</string>
 	<string name="rationale_permissions">Ukax akham sañ muni: %s</string>
@@ -115,7 +114,7 @@
 	<string name="recipe_import_login_timed_out">Uñt’ayasiñatakix pachax tukusxiwa. Mayampiw yantʼañama</string>
 	<string name="recipe_import_login_title">Nextcloud ukar mantañamawa</string>
 	<string name="recipe_import_menu_title">URL ukan receta apsuña</string>
-	<string name="recipe_import_no_server_configured">Nayraqatax mä URL servicio de importación de recetas ukar Configuración ukan utt’ayatawa</string>
+	<string name="recipe_import_service_url_hint">Receta importación servicio URL ukax mä juk’a pachanakanwa</string>
 	<string name="recipe_list_image_desc">Imajin jisk’a uñacht’awi receta</string>
 	<string name="recipe_no_timer">¡Aka Receta ukax janiw mä tiempor uñt’aykiti!</string>
 	<string name="request_again">Mayampi mayiñani</string>

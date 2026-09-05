@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Synchronisaghey y ghraih</string>
 	<string name="pref_title_keep_screen_alive">Cum yn screen beo</string>
 	<string name="pref_title_sync_wifi_only">Sync er Wifi ny lomarcan</string>
-	<string name="preftitle_recipe_import_url">URL seirveish import y red</string>
 	<string name="preftitle_recipeDir">Tastey Recipe</string>
 	<string name="preftitle_theme">Taght Theme</string>
 	<string name="rationale_permissions">Reesht: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Ta’n traa login er jeet. Feayrish reesht</string>
 	<string name="recipe_import_login_title">Cur stiagh ayns Nextcloud</string>
 	<string name="recipe_import_menu_title">Import y redid veih URL</string>
-	<string name="recipe_import_no_server_configured">Cur URL seirveish import recipe ayns Soitçhyn arrey</string>
 	<string name="recipe_list_image_desc">Deiney beg jeh’n recipe</string>
 	<string name="recipe_no_timer">Ta’n Recipe shoh gyn timer!</string>
 	<string name="request_again">Irree magh reesht</string>

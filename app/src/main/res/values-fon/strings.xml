@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Nǔ e ɖò gudo lɛ é sín nǔwiwa</string>
 	<string name="pref_title_keep_screen_alive">Mi hɛn ɖiɖe ɔ ɖó gbɛ</string>
 	<string name="pref_title_sync_wifi_only">Sync ɖò Wifi jí kɛɖɛ</string>
-	<string name="preftitle_recipe_import_url">URL nuɖuɖu hɛn wá</string>
 	<string name="preftitle_recipeDir">Nǔɖuɖu sín wema</string>
 	<string name="preftitle_theme">Hɛn Xota</string>
 	<string name="rationale_permissions">Hwɛjijɔ: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Hwenu e è na byɔ mɛ é ko wá yì. Lɛ̌ vɔ tɛ́n kpɔ́n</string>
 	<string name="recipe_import_login_title">Mi byɔ Nextcloud mɛ</string>
 	<string name="recipe_import_menu_title">Sɔ́ nǔɖúɖu sín URL jí</string>
-	<string name="recipe_import_no_server_configured">Sɔ́ URL e nɔ hɛn nǔɖuɖu wá é ɖé ɖó Nǔjlajla lɛ mɛ jɛ nukɔn</string>
 	<string name="recipe_list_image_desc">Nuɖuɖu ɔ sín ɖiɖe kpɛví</string>
 	<string name="recipe_no_timer">Recipe elɔ ɖó hwenu ɖé ǎ!</string>
 	<string name="request_again">Mi lɛvɔ byɔ</string>

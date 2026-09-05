@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Okukwataganya eby’emabega</string>
 	<string name="pref_title_keep_screen_alive">Kuuma screen nga nnamu</string>
 	<string name="pref_title_sync_wifi_only">Sync ku Wifi yokka</string>
-	<string name="preftitle_recipe_import_url">URL y’empeereza y’okuyingiza enkola y’emmere</string>
 	<string name="preftitle_recipeDir">Endagiriro y’enkola y’emmere</string>
 	<string name="preftitle_theme">Londa Omulamwa</string>
 	<string name="rationale_permissions">Ensonga enkulu: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Okuyingira kwaggwaako. Gezaako nate</string>
 	<string name="recipe_import_login_title">Yingira mu Nextcloud</string>
 	<string name="recipe_import_menu_title">Yingiza enkola y’emmere okuva ku URL</string>
-	<string name="recipe_import_no_server_configured">Teeka URL y’empeereza y’okuyingiza enkola mu Nsengeka sooka</string>
 	<string name="recipe_list_image_desc">Ekifaananyi ekitono eky’enkola y’emmere</string>
 	<string name="recipe_no_timer">Recipe eno terina timer!</string>
 	<string name="request_again">Ddamu osabe</string>

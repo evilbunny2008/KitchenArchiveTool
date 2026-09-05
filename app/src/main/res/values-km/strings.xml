@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">ការធ្វើសមកាលកម្មផ្ទៃខាងក្រោយ</string>
 	<string name="pref_title_keep_screen_alive">រក្សាអេក្រង់ឱ្យនៅរស់</string>
 	<string name="pref_title_sync_wifi_only">ធ្វើសមកាលកម្មនៅលើ Wifi ប៉ុណ្ណោះ។</string>
-	<string name="preftitle_recipe_import_url">URL សេវាកម្មនាំចូលរូបមន្ត</string>
 	<string name="preftitle_recipeDir">បញ្ជីមុខម្ហូប</string>
 	<string name="preftitle_theme">ជ្រើសរើសប្រធានបទ</string>
 	<string name="rationale_permissions">ហេតុផល៖ %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">ការចូលបានអស់ពេលហើយ។ ព្យាយាមម្តងទៀត។</string>
 	<string name="recipe_import_login_title">ចូលទៅ Nextcloud</string>
 	<string name="recipe_import_menu_title">នាំចូលរូបមន្តពី URL</string>
-	<string name="recipe_import_no_server_configured">កំណត់ URL សេវាកម្មនាំចូលរូបមន្តក្នុងការកំណត់ជាមុនសិន</string>
 	<string name="recipe_list_image_desc">រូបភាពតូចនៃរូបមន្ត</string>
 	<string name="recipe_no_timer">រូបមន្តនេះមិនមានកម្មវិធីកំណត់ម៉ោងទេ!</string>
 	<string name="request_again">ស្នើសុំម្តងទៀត</string>

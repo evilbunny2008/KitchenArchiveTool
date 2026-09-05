@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">ფონის სინქრონიზაცია</string>
 	<string name="pref_title_keep_screen_alive">შეინახეთ ეკრანი ცოცხალი</string>
 	<string name="pref_title_sync_wifi_only">სინქრონიზაცია მხოლოდ Wifi-ზე</string>
-	<string name="preftitle_recipe_import_url">რეცეპტის იმპორტის სერვისის URL</string>
 	<string name="preftitle_recipeDir">რეცეპტების დირექტორია</string>
 	<string name="preftitle_theme">აირჩიეთ თემა</string>
 	<string name="rationale_permissions">დასაბუთება: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">შესვლის დრო ამოიწურა. სცადეთ ხელახლა</string>
 	<string name="recipe_import_login_title">შედით Nextcloud-ში</string>
 	<string name="recipe_import_menu_title">რეცეპტის იმპორტი URL-დან</string>
-	<string name="recipe_import_no_server_configured">დააყენეთ რეცეპტის იმპორტის სერვისის URL ჯერ პარამეტრებში</string>
 	<string name="recipe_list_image_desc">რეცეპტის სურათის მინიატურა</string>
 	<string name="recipe_no_timer">ამ რეცეპტს არ აქვს ტაიმერი!</string>
 	<string name="request_again">კვლავ მოითხოვეთ</string>

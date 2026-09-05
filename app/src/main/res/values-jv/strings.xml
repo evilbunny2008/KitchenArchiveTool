@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Sinkronisasi latar mburi</string>
 	<string name="pref_title_keep_screen_alive">Tansah layar urip</string>
 	<string name="pref_title_sync_wifi_only">Nyelarasake mung ing Wifi</string>
-	<string name="preftitle_recipe_import_url">URL layanan impor resep</string>
 	<string name="preftitle_recipeDir">Direktori Resep</string>
 	<string name="preftitle_theme">Pilih Tema</string>
 	<string name="rationale_permissions">Rasional: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Wektu mlebu wis entek. Coba maneh</string>
 	<string name="recipe_import_login_title">Mlebu menyang Nextcloud</string>
 	<string name="recipe_import_menu_title">Impor resep saka URL</string>
-	<string name="recipe_import_no_server_configured">Setel URL layanan impor resep ing Setelan dhisik</string>
 	<string name="recipe_list_image_desc">Gambar thumbnail resep</string>
 	<string name="recipe_no_timer">Resep iki ora duwe timer!</string>
 	<string name="request_again">Njaluk maneh</string>

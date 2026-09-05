@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">הינטערגרונט סינגקראַנאַזיישאַן</string>
 	<string name="pref_title_keep_screen_alive">האַלטן די פאַרשטעלן לעבעדיק</string>
 	<string name="pref_title_sync_wifi_only">סינק בלויז אויף Wi-Fi</string>
-	<string name="preftitle_recipe_import_url">רעצעפּט אַרייַנפיר דינסט URL</string>
 	<string name="preftitle_recipeDir">רעצעפּט Directory</string>
 	<string name="preftitle_theme">אויסקלייַבן טעמע</string>
 	<string name="rationale_permissions">סיבה: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">לאָגין טיימד אויס. פּרוּווט ווידער</string>
 	<string name="recipe_import_login_title">קלאָץ אין צו Nextcloud</string>
 	<string name="recipe_import_menu_title">אַרייַנפיר רעצעפּט פֿון URL</string>
-	<string name="recipe_import_no_server_configured">שטעלן אַ רעצעפּט אַרייַנפיר דינסט URL אין סעטטינגס ערשטער</string>
 	<string name="recipe_list_image_desc">בילד טאַמנייל פון רעצעפּט</string>
 	<string name="recipe_no_timer">דעם רעצעפּט טוט נישט האָבן אַ טייַמער!</string>
 	<string name="request_again">בעטן ווידער</string>

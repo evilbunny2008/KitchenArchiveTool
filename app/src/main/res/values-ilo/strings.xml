@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Panagsinkronisar ti Background</string>
 	<string name="pref_title_keep_screen_alive">Pagtalinaedem a sibibiag ti iskrin</string>
 	<string name="pref_title_sync_wifi_only">Ag-sync iti Wifi laeng</string>
-	<string name="preftitle_recipe_import_url">URL ti serbisio ti panagala ti resipe</string>
 	<string name="preftitle_recipeDir">Direktorio ti Resipe</string>
 	<string name="preftitle_theme">Pilien ti Tema</string>
 	<string name="rationale_permissions">Rason: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Nalpasen ti oras ti panaglogin. Padasem manen</string>
 	<string name="recipe_import_login_title">Aglog-in iti Nextcloud</string>
 	<string name="recipe_import_menu_title">I-import ti resipe manipud iti URL</string>
-	<string name="recipe_import_no_server_configured">Itakderan ti URL ti serbisio ti panagala ti resipe iti Settings nga umuna</string>
 	<string name="recipe_list_image_desc">Image thumbnail ti resipe</string>
 	<string name="recipe_no_timer">Awan ti timer daytoy a Recipe!</string>
 	<string name="request_again">Agkiddaw manen</string>

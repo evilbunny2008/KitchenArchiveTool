@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Συγχρονισμός φόντου</string>
 	<string name="pref_title_keep_screen_alive">Κρατήστε την οθόνη ζωντανή</string>
 	<string name="pref_title_sync_wifi_only">Συγχρονισμός μόνο σε Wi-Fi</string>
-	<string name="preftitle_recipe_import_url">URL υπηρεσίας εισαγωγής συνταγής</string>
 	<string name="preftitle_recipeDir">Κατάλογος Συνταγών</string>
 	<string name="preftitle_theme">Επιλέξτε Θέμα</string>
 	<string name="rationale_permissions">Αιτιολογία: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Λήξη χρόνου σύνδεσης. Προσπαθήστε ξανά</string>
 	<string name="recipe_import_login_title">Συνδεθείτε στο Nextcloud</string>
 	<string name="recipe_import_menu_title">Εισαγωγή συνταγής από τη διεύθυνση URL</string>
-	<string name="recipe_import_no_server_configured">Ορίστε πρώτα μια διεύθυνση URL υπηρεσίας εισαγωγής συνταγών στις Ρυθμίσεις</string>
 	<string name="recipe_list_image_desc">Μικρογραφία εικόνας συνταγής</string>
 	<string name="recipe_no_timer">Αυτή η συνταγή δεν έχει χρονόμετρο!</string>
 	<string name="request_again">Ζητήστε ξανά</string>

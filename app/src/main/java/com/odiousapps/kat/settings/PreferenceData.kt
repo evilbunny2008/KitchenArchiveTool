@@ -76,13 +76,6 @@ class PreferenceData private constructor() {
          }
    }
 
-   fun getRecipeImportUrl(): Flow<String> {
-      return MainApplication.AppContext.dataStore.data
-         .map { preferences ->
-            preferences[recipeImportUrlKey] ?: ""
-         }
-   }
-
    /** One-shot read for callers outside a Flow-collecting context (e.g. right before launching the login flow). */
    fun getRecipeImportUrlSync(): String {
       var url = ""

@@ -8,10 +8,6 @@
       <Preference
             android:key="@string/prefkey_recipeDir"
             android:title="@string/preftitle_recipeDir" />
-      <EditTextPreference
-            android:inputType="textUri"
-            android:key="@string/prefkey_recipe_import_url"
-            android:title="@string/preftitle_recipe_import_url" />
    </PreferenceCategory>
    <PreferenceCategory
        android:layout_width="match_parent"

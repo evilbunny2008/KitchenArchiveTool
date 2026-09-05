@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Фондық синхрондау</string>
 	<string name="pref_title_keep_screen_alive">Экранды тірі қалдырыңыз</string>
 	<string name="pref_title_sync_wifi_only">Тек Wi-Fi арқылы синхрондау</string>
-	<string name="preftitle_recipe_import_url">Рецепт импорттау қызметінің URL мекенжайы</string>
 	<string name="preftitle_recipeDir">Рецепттер каталогы</string>
 	<string name="preftitle_theme">Тақырыпты таңдаңыз</string>
 	<string name="rationale_permissions">Негіздеме: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Жүйеге кіру уақыты аяқталды. Қайтадан байқап көріңіз</string>
 	<string name="recipe_import_login_title">NextCloud жүйесіне кіріңіз</string>
 	<string name="recipe_import_menu_title">URL мекенжайынан рецепт импорттау</string>
-	<string name="recipe_import_no_server_configured">Алдымен Параметрлерде рецепт импорттау қызметінің URL мекенжайын орнатыңыз</string>
 	<string name="recipe_list_image_desc">Рецепттің нобайы</string>
 	<string name="recipe_no_timer">Бұл рецептте таймер жоқ!</string>
 	<string name="request_again">Қайтадан сұрау</string>

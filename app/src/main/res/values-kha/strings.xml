@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Ka jingpyniadei ia ka lyngkhot lyngkhai</string>
 	<string name="pref_title_keep_screen_alive">Pynsah ia ka screen kaba im</string>
 	<string name="pref_title_sync_wifi_only">Sync tang ha ka Wifi</string>
-	<string name="preftitle_recipe_import_url">URL jong ka jingshakri ban wanrah jingbam</string>
 	<string name="preftitle_recipeDir">Ka jingthoh jingtar</string>
 	<string name="preftitle_theme">Jied ia ka phang</string>
 	<string name="rationale_permissions">Ka jingpynshong nongrim: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Ka por login ka la kut. Pyrshang biang</string>
 	<string name="recipe_import_login_title">Log in sha ka Nextcloud</string>
 	<string name="recipe_import_menu_title">Pynrung ia ka rukom shet na ka URL</string>
-	<string name="recipe_import_no_server_configured">Pynbeit shwa ia ka URL jong ka jingshakri ban wanrah jingbam ha ki jingpynbeit</string>
 	<string name="recipe_list_image_desc">Ka dur rit jong ka rukom shet</string>
 	<string name="recipe_no_timer">Kane ka Recipe kam don timer!</string>
 	<string name="request_again">Kyrpad biang</string>

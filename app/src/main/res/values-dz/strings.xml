@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">རྒྱབ་གཞི་མཉམ་འབྱུང་།</string>
 	<string name="pref_title_keep_screen_alive">གསལ་གཞི་གསོན་པོར་བཞག།</string>
 	<string name="pref_title_sync_wifi_only">Wifi གུ་རྐྱངམ་ཅིག་མཉམ་འབྱུང་འབད།</string>
-	<string name="preftitle_recipe_import_url">བཟོ་ཐངས་ནང་འདྲེན་ཞབས་ཏོག་ཡུ་ཨར་ཨེལ།</string>
 	<string name="preftitle_recipeDir">བཟོ་ཐབས་སྣོད་ཐོ།</string>
 	<string name="preftitle_theme">བརྗོད་དོན་སེལ་འཐུ་འབད།</string>
 	<string name="rationale_permissions">རྒྱུ་མཚན་: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">ནང་བསྐྱོད་དུས་ཚོད་རྫོགས་ཡོདཔ། ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད།</string>
 	<string name="recipe_import_login_title">Nextcloud ལུ་ ནང་བསྐྱོད་འབད།</string>
 	<string name="recipe_import_menu_title">ཡུ་ཨར་ཨེལ་ལས་བཟོ་ཐངས་ནང་འདྲེན་འབད།</string>
-	<string name="recipe_import_no_server_configured">དང་པ་ར་སྒྲིག་སྟངས་ཚུ་ནང་ བཟོ་ཐབས་ནང་འདྲེན་ཞབས་ཏོག་ཡུ་ཨར་ཨེལ་ཅིག་གཞི་སྒྲིག་འབད།</string>
 	<string name="recipe_list_image_desc">བཟོ་ཐངས་ཀྱི་པར་རིས་མཐེབ་གཞོང་།</string>
 	<string name="recipe_no_timer">འདི་ལུ་དུས་ཚོད་བཀོད་མི་མེདཔ་ཨིན།</string>
 	<string name="request_again">སླར་ཡང་ཞུ་བ།</string>

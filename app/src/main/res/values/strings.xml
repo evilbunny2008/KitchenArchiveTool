@@ -20,18 +20,18 @@
 	<string name="copy_ing_message">Ingredients copied to clipboard</string>
 	<string name="copy_ingredients">Copy ingredients</string>
 	<string name="copy_to_account_failure">Couldn’t copy the recipe: %1$s</string>
-	<string name="copy_to_account_in_progress">Copying ‘%1$s’ to %2$s…</string>
+	<string name="copy_to_account_in_progress">Copying ’%1$s’ to %2$s…</string>
 	<string name="copy_to_account_none_available">Add another account first to copy recipes between them</string>
-	<string name="copy_to_account_success">Copied ‘%1$s’ to %2$s</string>
+	<string name="copy_to_account_success">Copied ’%1$s’ to %2$s</string>
 	<string name="copy_to_account_title">Copy this recipe to…</string>
-	<string name="current_account_not_found_exception_title" translatable="false">Account not found</string>
 	<string name="current_account_not_found_exception_message" translatable="false">The requested account was not found in Nextcloud Files app</string>
+	<string name="current_account_not_found_exception_title" translatable="false">Account not found</string>
 	<string name="delete_recipe">Delete recipe</string>
-	<string name="delete_recipe_confirm_message">"%1$s" will be permanently deleted from the server. This can’t be undone.</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ will be permanently deleted from the server. This can’t be undone</string>
 	<string name="delete_recipe_confirm_positive">Delete</string>
 	<string name="delete_recipe_confirm_title">Delete this recipe?</string>
 	<string name="delete_recipe_failure">Couldn’t delete the recipe: %1$s</string>
-	<string name="delete_recipe_success">Deleted "%1$s"</string>
+	<string name="delete_recipe_success">Deleted ’%1$s’</string>
 	<string name="dir_chooser_error">Error: Root folder is not allowed!</string>
 	<string name="done_image_desc" translatable="false">Done image</string>
 	<string name="empty_list">No recipes</string>
@@ -113,11 +113,9 @@
 	<string name="prefkey_about" translatable="false">app_about</string>
 	<string name="prefkey_enableSyncService" translatable="false">enableSyncService</string>
 	<string name="prefkey_keep_screen_alive" translatable="false">keep_screen_alive</string>
-	<string name="prefkey_recipe_import_url" translatable="false">recipe_import_service_url</string>
 	<string name="prefkey_recipeDir" translatable="false">recipe_directory</string>
 	<string name="prefkey_sync_wifi_only" translatable="false">sync_wifi_only</string>
 	<string name="prefkey_theme" translatable="false">theme_setting</string>
-	<string name="preftitle_recipe_import_url">Recipe import service URL</string>
 	<string name="preftitle_recipeDir">Recipe Directory</string>
 	<string name="preftitle_theme">Select Theme</string>
 	<string name="rationale_permissions">Rationale: %s</string>
@@ -129,10 +127,10 @@
 	<string name="recipe_import_in_progress">Importing recipe…</string>
 	<string name="recipe_import_login_close">Cancel login</string>
 	<string name="recipe_import_login_init_failed">Couldn’t start the login process: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login timed out. Try again.</string>
+	<string name="recipe_import_login_timed_out">Login timed out. Try again</string>
 	<string name="recipe_import_login_title">Log in to Nextcloud</string>
 	<string name="recipe_import_menu_title">Import recipe from URL</string>
-	<string name="recipe_import_no_server_configured">Set a recipe import service URL in Settings first</string>
+	<string name="recipe_import_service_url_hint">Recipe import service URL</string>
 	<string name="recipe_list_image_desc">Image thumbnail of recipe</string>
 	<string name="recipe_no_timer">This Recipe does not have a timer!</string>
 	<string name="request_again">Request again</string>

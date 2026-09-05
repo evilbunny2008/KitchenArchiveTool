@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">ব্যাকগ্রাউন্ড সিঙ্ক্রোনাইজেশন</string>
 	<string name="pref_title_keep_screen_alive">পর্দা বাঁচিয়ে রাখুন</string>
 	<string name="pref_title_sync_wifi_only">শুধুমাত্র ওয়াইফাইতে সিঙ্ক করুন</string>
-	<string name="preftitle_recipe_import_url">রেসিপি আমদানি পরিষেবা URL</string>
 	<string name="preftitle_recipeDir">রেসিপি ডিরেক্টরি</string>
 	<string name="preftitle_theme">থিম নির্বাচন করুন</string>
 	<string name="rationale_permissions">যুক্তি: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">লগইন করার সময় শেষ আবার চেষ্টা করুন</string>
 	<string name="recipe_import_login_title">নেক্সটক্লাউডে লগ ইন করুন</string>
 	<string name="recipe_import_menu_title">URL থেকে রেসিপি আমদানি করুন</string>
-	<string name="recipe_import_no_server_configured">প্রথমে সেটিংসে একটি রেসিপি আমদানি পরিষেবা URL সেট করুন৷</string>
 	<string name="recipe_list_image_desc">রেসিপি ছবির থাম্বনেল</string>
 	<string name="recipe_no_timer">এই রেসিপি একটি টাইমার নেই!</string>
 	<string name="request_again">আবার অনুরোধ</string>

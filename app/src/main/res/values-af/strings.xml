@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Agtergrondsinchronisasie</string>
 	<string name="pref_title_keep_screen_alive">Hou die skerm lewendig</string>
 	<string name="pref_title_sync_wifi_only">Sinkroniseer slegs op Wifi</string>
-	<string name="preftitle_recipe_import_url">Resep invoer diens URL</string>
 	<string name="preftitle_recipeDir">Reseptegids</string>
 	<string name="preftitle_theme">Kies Tema</string>
 	<string name="rationale_permissions">Rasionaal: %s</string>
@@ -115,7 +114,7 @@
 	<string name="recipe_import_login_timed_out">Aanmelding het uitgetel. Probeer weer</string>
 	<string name="recipe_import_login_title">Meld aan by Nextcloud</string>
 	<string name="recipe_import_menu_title">Voer resep vanaf URL in</string>
-	<string name="recipe_import_no_server_configured">Stel eers ’n resep-invoerdiens-URL in Instellings</string>
+	<string name="recipe_import_service_url_hint">Resep invoer diens URL</string>
 	<string name="recipe_list_image_desc">Prent-kleinkiekie van resep</string>
 	<string name="recipe_no_timer">Hierdie resep het nie ’n timer nie!</string>
 	<string name="request_again">Versoek weer</string>

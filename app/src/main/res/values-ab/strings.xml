@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Афон асинхронизациа</string>
 	<string name="pref_title_keep_screen_alive">Аекран аԥсы ҭаны иаанкылатәуп</string>
 	<string name="pref_title_sync_wifi_only">Wifi мацарала асинхронизациа</string>
-	<string name="preftitle_recipe_import_url">Арецепт аимпорт амаҵзура URL</string>
 	<string name="preftitle_recipeDir">Арецептқәа рдиректориа</string>
 	<string name="preftitle_theme">Атема алхтәуп</string>
 	<string name="rationale_permissions">Аҵаҵӷәы: %s</string>
@@ -115,7 +114,7 @@
 	<string name="recipe_import_login_timed_out">Аҭалара аамҭа нҵәеит. Даҽазнык шәҽазышәшәа</string>
 	<string name="recipe_import_login_title">Анаҩстәи аԥсҭҳәа аҭалара</string>
 	<string name="recipe_import_menu_title">Арецепт аимпорт URL аҟынтәи</string>
-	<string name="recipe_import_no_server_configured">Аиқәыршәарақәа рҿы раԥхьа арецепт аимпорт амаҵзура URL шьақәыргылатәуп</string>
+	<string name="recipe_import_service_url_hint">Арецепт аимпорт амаҵзура URL</string>
 	<string name="recipe_list_image_desc">Арецепт асахьа хәыҷ</string>
 	<string name="recipe_no_timer">Ари Арецепт атаимер амаӡам!</string>
 	<string name="request_again">Даҽазнык аҳәара</string>

@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Ñemboheko tenondegua</string>
 	<string name="pref_title_keep_screen_alive">Eñongatu pe pantalla oikovéva</string>
 	<string name="pref_title_sync_wifi_only">Oñembojoaju Wifi-pe añoite</string>
-	<string name="preftitle_recipe_import_url">URL servicio importación receta rehegua</string>
 	<string name="preftitle_recipeDir">Recetas rehegua Directorio</string>
 	<string name="preftitle_theme">Eiporavo Tema</string>
 	<string name="rationale_permissions">Motivo: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Oike tiempo oñemohu’ã. Eñeha’ã jey</string>
 	<string name="recipe_import_login_title">Eike Nextcloud-pe</string>
 	<string name="recipe_import_menu_title">Egueru receta URL-gui</string>
-	<string name="recipe_import_no_server_configured">Emohenda peteĩ URL servicio importación receta rehegua Ñembohekorãme raẽ</string>
 	<string name="recipe_list_image_desc">Ta’anga michĩmi receta rehegua</string>
 	<string name="recipe_no_timer">¡Ko Receta ndorekói peteĩ temporizador!</string>
 	<string name="request_again">Ejerure jey</string>

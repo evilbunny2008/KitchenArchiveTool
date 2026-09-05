@@ -18,7 +18,6 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import androidx.preference.EditTextPreference
 import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
@@ -43,7 +42,6 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
    private lateinit var themePreference: IntListPreference
    private lateinit var syncPreference: IntListPreference
    private lateinit var wifiOnlyPreference: Preference
-   private lateinit var recipeImportUrlPreference: EditTextPreference
 
    private val getContent = registerForActivityResult(ActivityResultContracts.OpenDocumentTree()) {
       it?.let { uri ->
@@ -76,10 +74,8 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
       themePreference = findPreference(getString(R.string.prefkey_theme))!!
       syncPreference = findPreference(getString(R.string.prefkey_enableSyncService))!!
       wifiOnlyPreference = findPreference(getString(R.string.prefkey_sync_wifi_only))!!
-      recipeImportUrlPreference = findPreference(getString(R.string.prefkey_recipe_import_url))!!
       themePreference.summaryProvider = ListPreference.SimpleSummaryProvider.getInstance()
       syncPreference.summaryProvider = ListPreference.SimpleSummaryProvider.getInstance()
-      recipeImportUrlPreference.summaryProvider = EditTextPreference.SimpleSummaryProvider.getInstance()
       val aboutPreference: Preference = findPreference(getString(R.string.prefkey_about))!!
 
       // change listener
@@ -87,7 +83,6 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
       themePreference.onPreferenceChangeListener = this
       syncPreference.onPreferenceChangeListener = this
       wifiOnlyPreference.onPreferenceChangeListener = this
-      recipeImportUrlPreference.onPreferenceChangeListener = this
 
       // click listener
       dirPreference.onPreferenceClickListener = this
@@ -145,14 +140,6 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
                   themePreference.value = theme.toString()
                }
             }
-            launch {
-               viewModel.recipeImportUrl.collect { url ->
-                  // Same reasoning as themePreference above: this preference
-                  // also has a SimpleSummaryProvider set, so setting .text
-                  // is enough -- the summary updates itself from it.
-                  recipeImportUrlPreference.text = url
-               }
-            }
          }
       }
    }
@@ -162,7 +149,6 @@ class PreferenceFragment : PreferenceFragmentCompat(), Preference.OnPreferenceCh
          dirPreference -> viewModel.setRecipeDirectory(newValue.toString())
          syncPreference -> viewModel.setSyncServiceInterval(newValue.toString().toInt())
          wifiOnlyPreference -> viewModel.setWifiOnly(newValue.toString().toBoolean())
-         recipeImportUrlPreference -> viewModel.setRecipeImportUrl(newValue.toString())
          themePreference -> {
             viewModel.setTheme(newValue.toString().toInt())
             // recreate activity

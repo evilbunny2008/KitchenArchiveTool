@@ -100,7 +100,6 @@
 	<string name="pref_title_enableSyncService">Фон синхронизациясы</string>
 	<string name="pref_title_keep_screen_alive">Экранны джанлы тут</string>
 	<string name="pref_title_sync_wifi_only">Синхронизация тек Wifi иле</string>
-	<string name="preftitle_recipe_import_url">Рецепт импорт хызметининъ URL адреси</string>
 	<string name="preftitle_recipeDir">Рецептлер джедвели</string>
 	<string name="preftitle_theme">Мевзуны сечип алынъыз</string>
 	<string name="rationale_permissions">Нетидже: %s</string>
@@ -115,7 +114,6 @@
 	<string name="recipe_import_login_timed_out">Кириш вакъты битти. Кене тырышынъыз</string>
 	<string name="recipe_import_login_title">Невбеттеки булуткъа киринъиз</string>
 	<string name="recipe_import_menu_title">Рецептни URL-ден импорт этинъиз</string>
-	<string name="recipe_import_no_server_configured">Башта ’Параметрлер’де рецепт импорт хызметининъ URL адресини къой</string>
 	<string name="recipe_list_image_desc">Рецептнинъ ресимининъ кичик ресими</string>
 	<string name="recipe_no_timer">Бу Рецептнинъ таймери ёкъ!</string>
 	<string name="request_again">Кене де риджа этинъиз</string>
