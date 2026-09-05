@@ -2,10 +2,10 @@
 /**
  * import_recipe.php
  *
- * Accepts a Nextcloud username/password and a recipe URL from the app,
- * validates them, and runs the existing recipe_to_jsonld.py (already in
- * the KitchenArchiveTool repo) to scrape+convert the page and upload the
- * result straight into Nextcloud Cookbook.
+ * Accepts a Nextcloud hostname/username/password and a recipe URL from
+ * the app, validates them, and runs the existing recipe_to_jsonld.py
+ * (already in the KitchenArchiveTool repo) to scrape+convert the page and
+ * upload the result straight into that Nextcloud instance's Cookbook.
  *
  * SECURITY DESIGN:
  * This never builds a shell command *string* from user input and tries to
@@ -24,19 +24,23 @@
  * process runs; a pipe isn't. The username still goes on the command
  * line -- lower sensitivity, and recipe_to_jsonld.py doesn't offer a
  * stdin alternative for it.
+ *
+ * The hostname is accepted from the client (not a fixed server-side
+ * constant): the app this talks to supports multiple Nextcloud accounts
+ * across different servers, so the bridge needs to as well. Worth being
+ * aware of the tradeoff this reopens versus a single fixed instance: this
+ * endpoint will now attempt Basic Auth against *any* hostname a caller
+ * supplies, which is only actually useful to someone who already has a
+ * valid username+app-password for that host -- it can't do anything
+ * without real credentials -- but it does mean this server will make
+ * outbound requests to hosts of a caller's choosing. If this bridge is
+ * ever exposed beyond your own app, consider an allow-list of hostnames
+ * here.
  */
 
 header('Content-Type: application/json');
 
 // --- Configuration -------------------------------------------------------
-// Fixed here, not accepted from the client: letting the caller specify
-// *which* Nextcloud server to send credentials to would turn this
-// endpoint into an open relay that could be pointed at any server on the
-// internet using whatever username/password someone submits. Since this
-// bridge is presumably only ever used against your own instance, hardcode
-// it here instead.
-const NEXTCLOUD_URL = 'https://your-nextcloud-instance.example.com';
-
 // Path to recipe_to_jsonld.py. Keep it outside the web root if it isn't
 // already, so it can't be requested directly over HTTP.
 const SCRIPT_PATH = '/path/to/recipe_to_jsonld.py';
@@ -63,11 +67,21 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 // --- 2. Read and validate input -----------------------------------------
+$hostname = $_POST['hostname'] ?? '';
 $username = $_POST['username'] ?? '';
 $password = $_POST['password'] ?? '';
 $recipeUrl = $_POST['recipe_url'] ?? '';
 
 $errors = [];
+
+if ($hostname === '' || !filter_var($hostname, FILTER_VALIDATE_URL)) {
+    $errors[] = 'hostname must be a valid URL';
+} else {
+    $hostnameScheme = parse_url($hostname, PHP_URL_SCHEME);
+    if (!in_array($hostnameScheme, ['http', 'https'], true)) {
+        $errors[] = 'hostname must use http or https';
+    }
+}
 
 if ($username === '' || mb_strlen($username) > 256) {
     $errors[] = 'username is required and must be under 256 characters';
@@ -104,7 +118,7 @@ $command = [
     $pythonBin,
     SCRIPT_PATH,
     '--url', $recipeUrl,
-    '--nextcloud-url', NEXTCLOUD_URL,
+    '--nextcloud-url', $hostname,
     '--nextcloud-user', $username,
     '--nextcloud-pass-stdin',
 ];

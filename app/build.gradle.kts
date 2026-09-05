@@ -239,6 +239,17 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.legacy.support.v4)
+    // For encrypting the recipe-import app password at rest (see
+    // RecipeImportCredentialStore). EncryptedSharedPreferences is
+    // deprecated as of security-crypto 1.1.0-alpha07 in favor of
+    // DataStore+Tink, but it's still fully functional in this stable
+    // 1.1.0 release, and it's a well-tested, well-understood API --
+    // hand-rolling fresh Tink/Keystore code for this instead isn't
+    // something that can be properly verified without a real device's
+    // Keystore to test against, and getting encryption code subtly wrong
+    // is worse than using a proven (if deprecated) library. Worth
+    // revisiting if/when a mature DataStore+Tink helper becomes standard.
+    implementation(libs.androidx.security.crypto)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.recyclerview)

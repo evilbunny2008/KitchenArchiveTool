@@ -26,6 +26,10 @@
    <item android:title="@string/menu_title_app">
       <menu>
          <item
+               android:id="@+id/app_import_recipe"
+               android:icon="@drawable/ic_recipe_import"
+               android:title="@string/recipe_import_menu_title" />
+         <item
                android:id="@+id/app_settings"
                android:icon="@drawable/ic_settings"
                android:title="@string/menu_settings" />

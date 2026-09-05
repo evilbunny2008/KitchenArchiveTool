@@ -21,5 +21,6 @@ class Pref {
       const val STORAGE_ACCESS = "storage_access"
       const val SYNC_SERVICE = "enableSyncService"
       const val SYNC_WIFI_ONLY = "sync_wifi_only"
+      const val RECIPE_IMPORT_URL = "recipe_import_service_url"
    }
 }

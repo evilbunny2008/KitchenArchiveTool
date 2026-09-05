@@ -49,6 +49,9 @@
       <activity
          android:name=".ui.MainActivity"
          android:exported="false" />
+      <activity
+         android:name=".ui.recipeimport.RecipeImportLoginActivity"
+         android:exported="false" />
 
       <service
          android:name=".services.CooktimerService"

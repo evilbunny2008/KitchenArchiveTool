@@ -113,13 +113,26 @@
 	<string name="prefkey_about" translatable="false">app_about</string>
 	<string name="prefkey_enableSyncService" translatable="false">enableSyncService</string>
 	<string name="prefkey_keep_screen_alive" translatable="false">keep_screen_alive</string>
+	<string name="prefkey_recipe_import_url" translatable="false">recipe_import_service_url</string>
 	<string name="prefkey_recipeDir" translatable="false">recipe_directory</string>
 	<string name="prefkey_sync_wifi_only" translatable="false">sync_wifi_only</string>
 	<string name="prefkey_theme" translatable="false">theme_setting</string>
+	<string name="preftitle_recipe_import_url">Recipe import service URL</string>
 	<string name="preftitle_recipeDir">Recipe Directory</string>
 	<string name="preftitle_theme">Select Theme</string>
 	<string name="rationale_permissions">Rationale: %s</string>
 	<string name="recipe_details_tabs">Recipe is organized in tabs</string>
+	<string name="recipe_import_dialog_hint">Recipe URL</string>
+	<string name="recipe_import_dialog_positive">Import</string>
+	<string name="recipe_import_dialog_title">Import recipe from URL</string>
+	<string name="recipe_import_failure">Couldn’t import the recipe: %1$s</string>
+	<string name="recipe_import_in_progress">Importing recipe…</string>
+	<string name="recipe_import_login_close">Cancel login</string>
+	<string name="recipe_import_login_init_failed">Couldn’t start the login process: %1$s</string>
+	<string name="recipe_import_login_timed_out">Login timed out. Try again.</string>
+	<string name="recipe_import_login_title">Log in to Nextcloud</string>
+	<string name="recipe_import_menu_title">Import recipe from URL</string>
+	<string name="recipe_import_no_server_configured">Set a recipe import service URL in Settings first</string>
 	<string name="recipe_list_image_desc">Image thumbnail of recipe</string>
 	<string name="recipe_no_timer">This Recipe does not have a timer!</string>
 	<string name="request_again">Request again</string>

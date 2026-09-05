@@ -8,8 +8,14 @@ package com.odiousapps.kat.ui
 import android.app.SearchManager
 import android.content.Intent
 import android.os.Bundle
+import android.text.InputType
 import android.view.Menu
 import android.view.View
+import android.widget.EditText
+import android.widget.FrameLayout
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.SearchView.OnQueryTextListener
@@ -31,6 +37,8 @@ import com.bumptech.glide.Glide
 import com.odiousapps.kat.nextcloudapi.Accounts
 import com.odiousapps.kat.nextcloudapi.AvatarCache
 import com.odiousapps.kat.nextcloudapi.AvatarFetcher
+import com.odiousapps.kat.nextcloudapi.RecipeImportClient
+import com.odiousapps.kat.nextcloudapi.RecipeImportCredentialStore
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.nextcloud.android.sso.AccountImporter
@@ -49,6 +57,7 @@ import com.odiousapps.kat.databinding.ActivityMainBinding
 import com.odiousapps.kat.services.sync.SyncScheduler
 import com.odiousapps.kat.settings.PreferenceData
 import com.odiousapps.kat.ui.accountswitcher.AccountSwitcherBottomSheet
+import com.odiousapps.kat.ui.recipeimport.RecipeImportLoginActivity
 import com.odiousapps.kat.ui.recipelist.RecipeSearchCallback
 import com.odiousapps.kat.util.Filesystem
 import kotlinx.coroutines.Dispatchers
@@ -231,6 +240,9 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
             navController.navigate(R.id.preferenceFragment)
             showToolbar(showToolbar = true, showSearch = false)
          }
+         R.id.app_import_recipe -> {
+            showImportRecipeDialog()
+         }
          R.id.menu_all_categories, R.id.menu_uncategorized -> {
             navController.navigate(R.id.recipeListFragment)
             showToolbar(showToolbar = true, showSearch = true)
@@ -245,6 +257,128 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
    override fun onNewIntent(intent: Intent) {
       super.onNewIntent(intent)
       handleIntent(intent)
+   }
+
+   // --- Recipe import from URL ---------------------------------------------
+   //
+   // Flow: ask for a URL -> if this account doesn't already have a stored
+   // app password for the import bridge, send the user through
+   // RecipeImportLoginActivity's WebView to get one (Nextcloud's own Login
+   // Flow v2, see that class and NextcloudLoginFlow) -> POST hostname
+   // /username/app-password/recipe URL to the configured bridge script
+   // (RecipeImportClient) -> show the result.
+
+   /** Holds the URL the user asked to import while RecipeImportLoginActivity is running. */
+   private var pendingRecipeImportUrl: String? = null
+
+   private val recipeImportLoginLauncher = registerForActivityResult(
+      ActivityResultContracts.StartActivityForResult()
+   ) { result ->
+      val recipeUrl = pendingRecipeImportUrl
+      pendingRecipeImportUrl = null
+
+      if (result.resultCode == RESULT_OK && recipeUrl != null) {
+         // RecipeImportLoginActivity only signals success/failure -- it
+         // deliberately doesn't hand the credential back via Intent
+         // extras (see its own doc comment), so it's read back from
+         // encrypted storage here instead.
+         val account = Accounts(this).getCurrentAccount()
+         val credentials = account?.let { RecipeImportCredentialStore.get(this, it.name) }
+         if (credentials != null) {
+            performRecipeImport(credentials.server, credentials.loginName, credentials.appPassword, recipeUrl)
+         }
+      }
+      // Cancelled or failed: RecipeImportLoginActivity has already shown
+      // its own error/timeout message in that case, nothing more to do here.
+   }
+
+   private fun showImportRecipeDialog() {
+      val serviceUrl = PreferenceData.getInstance().getRecipeImportUrlSync()
+      if (serviceUrl.isBlank()) {
+         Toast.makeText(this, R.string.recipe_import_no_server_configured, Toast.LENGTH_LONG).show()
+         return
+      }
+
+      val editText = EditText(this).apply {
+         hint = getString(R.string.recipe_import_dialog_hint)
+         inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_URI
+      }
+      // Plain EditText has no built-in margin from a dialog's edges;
+      // wrapping it in a padded container avoids the text field running
+      // flush against the dialog's own frame.
+      val margin = (24 * resources.displayMetrics.density).toInt()
+      val container = FrameLayout(this).apply {
+         setPadding(margin, margin / 2, margin, 0)
+         addView(editText)
+      }
+
+      AlertDialog.Builder(this)
+         .setTitle(R.string.recipe_import_dialog_title)
+         .setView(container)
+         .setPositiveButton(R.string.recipe_import_dialog_positive) { _, _ ->
+            val recipeUrl = editText.text.toString().trim()
+            if (recipeUrl.isNotEmpty()) {
+               startRecipeImport(recipeUrl)
+            }
+         }
+         .setNegativeButton(android.R.string.cancel, null)
+         .show()
+   }
+
+   private fun startRecipeImport(recipeUrl: String) {
+      val account = Accounts(this).getCurrentAccount()
+      if (account == null) {
+         Toast.makeText(this, R.string.current_account_not_found_exception_message, Toast.LENGTH_LONG).show()
+         return
+      }
+
+      val cached = RecipeImportCredentialStore.get(this, account.name)
+      if (cached != null) {
+         performRecipeImport(cached.server, cached.loginName, cached.appPassword, recipeUrl)
+      } else {
+         pendingRecipeImportUrl = recipeUrl
+         recipeImportLoginLauncher.launch(
+            RecipeImportLoginActivity.newIntent(this, account.url, account.name)
+         )
+      }
+   }
+
+   private fun performRecipeImport(hostname: String, username: String, password: String, recipeUrl: String) {
+      val serviceUrl = PreferenceData.getInstance().getRecipeImportUrlSync()
+      if (serviceUrl.isBlank()) {
+         Toast.makeText(this, R.string.recipe_import_no_server_configured, Toast.LENGTH_LONG).show()
+         return
+      }
+
+      Toast.makeText(this, R.string.recipe_import_in_progress, Toast.LENGTH_SHORT).show()
+
+      lifecycleScope.launch {
+         val result = withContext(Dispatchers.IO) {
+            RecipeImportClient.importRecipe(serviceUrl, hostname, username, password, recipeUrl)
+         }
+         when (result) {
+            is RecipeImportClient.Result.Success ->
+               Toast.makeText(this@MainActivity, result.message, Toast.LENGTH_LONG).show()
+            is RecipeImportClient.Result.Failure -> {
+               // A 401/403 from the bridge script means the stored app
+               // password was revoked server-side (e.g. from Nextcloud's
+               // own Devices & sessions page) -- clear it so the next
+               // attempt goes through RecipeImportLoginActivity again for
+               // a fresh one, rather than repeating the same failure
+               // forever.
+               if (result.reason.contains("401") || result.reason.contains("403")) {
+                  Accounts(this@MainActivity).getCurrentAccount()?.let {
+                     RecipeImportCredentialStore.clear(this@MainActivity, it.name)
+                  }
+               }
+               Toast.makeText(
+                  this@MainActivity,
+                  getString(R.string.recipe_import_failure, result.reason),
+                  Toast.LENGTH_LONG
+               ).show()
+            }
+         }
+      }
    }
 
    fun getMenu(): Menu {
