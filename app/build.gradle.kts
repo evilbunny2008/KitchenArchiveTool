@@ -84,12 +84,17 @@ android {
 
 // Copies the release .aab from AGP's default build output location
 // (app/build/outputs/bundle/release/app-release.aab) to
-// app/release/<appName>-<versionName>.aab (already gitignored) -- a
+// app/dist/<appName>-<versionName>.aab (already gitignored) -- a
 // separate, deliberately-chosen destination outside the build/ directory,
-// so it survives a clean build. (An earlier version of this comment
-// claimed the build output location *was* app/release/ and this task
-// just renamed in place there; that was wrong -- confirmed directly by
-// this task's own diagnostic logging showing the real source path.)
+// so it survives a clean build. (Originally this copied to app/release/
+// instead: don't rename it back to that. app/release/ turned out to
+// collide with Android Studio's own "Generate Signed Bundle" wizard,
+// which independently remembers/defaults to a <module>/release/
+// destination of its own and writes its own app-release.aab there on
+// every signed-bundle build -- completely unrelated to this task, but
+// landing in the exact same folder, which made it look like this task
+// wasn't deleting the original when actually a second, IDE-driven copy
+// was reappearing after each build. dist/ doesn't collide with anything.)
 // Critically, this must run *after* AGP's own internal
 // "produce...BundleIdeListingFile" task, which declares the bundle at
 // its default name/location as one of its own inputs - deleting it any
@@ -155,10 +160,10 @@ androidComponents {
 
         val renameBundle = tasks.register("renameBundle$variantNameCapitalized", RenameBundleTask::class.java) {
             group = "build"
-            description = "Copies the $variantNameCapitalized .aab to app/release/$appName-<versionName>.aab"
+            description = "Copies the $variantNameCapitalized .aab to app/dist/$appName-<versionName>.aab"
             mustRunAfter(ideListingTaskName)
             bundleFile.set(variant.artifacts.get(SingleArtifact.BUNDLE))
-            destinationFile.set(layout.projectDirectory.file("release/$appName-${versionName.get()}.aab"))
+            destinationFile.set(layout.projectDirectory.file("dist/$appName-${versionName.get()}.aab"))
         }
         // Hooks the rename onto the standard "bundle" task graph, so it also
         // runs automatically from Android Studio's Build > Generate Signed
