@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Tambahon ma akun na asing jolo asa boi disalin resep di antara ni nasida</string>
 	<string name="copy_to_account_success">Disalin ’%1$s’ tu %2$ss</string>
 	<string name="copy_to_account_title">Salin ma resep on tu</string>
+	<string name="current_account_not_found_exception_message">Akun na dipangido ndang dapot di aplikasi Berkas Awan Selanjutna</string>
+	<string name="current_account_not_found_exception_title">Akun dang dapot</string>
 	<string name="delete_recipe">Hapus resep</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ na laho dihapus salelengna sian server. Ndang boi on diulahon</string>
 	<string name="delete_recipe_confirm_positive">Manghorus</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Tunggal Tanda On</string>
 	<string name="menu_title_app">Aplikasi</string>
 	<string name="menu_uncategorized">Dang digoari</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Pengaturan</string>
 	<string name="no_information">Dang adong hatorangan</string>
 	<string name="no_ingredients">Dang adong bahan</string>
 	<string name="no_instructions">Dang adong Petunjuk</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Mangalompa</string>
 	<string name="tooltip_prep_time">Parhobason</string>
 	<string name="tooltip_total_time">Lonsam</string>
+	<string name="unknown_error">Hasalaan na so binoto</string>
 </resources>
