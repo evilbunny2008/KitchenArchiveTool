@@ -108,7 +108,7 @@
                       android:paddingEnd="@dimen/spacer_1x"
                       android:paddingBottom="@dimen/spacer_2x"
                       android:tint="@color/textColor"
-                      app:srcCompat="@drawable/md_nav_back" />
+                      app:srcCompat="@drawable/ic_back_arrow" />
 
                   <androidx.appcompat.widget.SearchView
                       android:id="@+id/searchbar"
