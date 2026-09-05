@@ -2,8 +2,11 @@
 
 import com.android.build.api.artifact.SingleArtifact
 import org.gradle.api.DefaultTask
+import org.gradle.api.file.DirectoryProperty
 import org.gradle.api.file.RegularFileProperty
+import org.gradle.api.tasks.InputFiles
 import org.gradle.api.tasks.InputFile
+import org.gradle.api.tasks.OutputDirectory
 import org.gradle.api.tasks.OutputFile
 import org.gradle.api.tasks.TaskAction
 
@@ -144,6 +147,45 @@ abstract class RenameBundleTask : DefaultTask() {
     }
 }
 
+// Copies the release APK(s) from AGP's default build output location
+// (app/build/outputs/apk/release/) to app/dist/ too, alongside the
+// renamed bundle above. Unlike RenameBundleTask, this doesn't delete the
+// originals -- there's no equivalent reason to (no known collision with
+// anything else that writes to the APK output directory), so this is a
+// plain copy, not a move.
+//
+// APK artifacts are exposed via SingleArtifact.APK: despite the name, this
+// resolves to a *directory* (marked Artifact.ContainsMany in AGP's own
+// docs), since a variant can in principle produce more than one APK
+// (per-ABI splits, etc.), even though this project's release variant only
+// ever produces one. Copying every .apk file found in that directory
+// handles both cases without needing to special-case one vs. many, and
+// without needing AGP's BuiltArtifactsLoader machinery (which exists for
+// reading the accompanying metadata file precisely -- not needed here
+// since a plain file-extension filter already skips it).
+abstract class CopyApkTask : DefaultTask() {
+    @get:InputFiles
+    abstract val apkDirectory: DirectoryProperty
+
+    @get:OutputDirectory
+    abstract val destinationDirectory: DirectoryProperty
+
+    @TaskAction
+    fun copy() {
+        val srcDir = apkDirectory.get().asFile
+        val destDir = destinationDirectory.get().asFile
+        destDir.mkdirs()
+
+        val apkFiles = srcDir.listFiles { f -> f.extension == "apk" } ?: emptyArray()
+        logger.lifecycle("copyApk: found ${apkFiles.size} apk file(s) in $srcDir")
+        apkFiles.forEach { apk ->
+            val dest = File(destDir, apk.name)
+            apk.copyTo(dest, overwrite = true)
+            logger.lifecycle("copyApk: copied to $dest")
+        }
+    }
+}
+
 androidComponents {
     onVariants(selector().withBuildType("release")) { variant ->
         // NOTE: was "MX3ButtonMapper" (leftover from the sibling project) -- corrected.
@@ -152,8 +194,10 @@ androidComponents {
         val variantNameCapitalized = variant.name.replaceFirstChar { it.uppercase() }
         val ideListingTaskName = "produce${variantNameCapitalized}BundleIdeListingFile"
 
-        // APK variant outputs support a directly settable filename, unlike
-        // the bundle (AAB) case above - no separate rename/copy task needed.
+        // outputFileName only renames the file within AGP's default output
+        // directory (app/build/outputs/apk/release/) -- getting it into
+        // app/dist/ too still needs the separate copyApk task below, same
+        // as the bundle.
         variant.outputs.forEach { output ->
             output.outputFileName.set("$appName-${versionName.get()}.apk")
         }
@@ -165,13 +209,24 @@ androidComponents {
             bundleFile.set(variant.artifacts.get(SingleArtifact.BUNDLE))
             destinationFile.set(layout.projectDirectory.file("dist/$appName-${versionName.get()}.aab"))
         }
-        // Hooks the rename onto the standard "bundle" task graph, so it also
-        // runs automatically from Android Studio's Build > Generate Signed
-        // App Bundle flow (which invokes bundleRelease directly), not just
-        // when this task is run explicitly by name.
+
+        val copyApk = tasks.register("copyApk$variantNameCapitalized", CopyApkTask::class.java) {
+            group = "build"
+            description = "Copies the $variantNameCapitalized apk(s) to app/dist/"
+            apkDirectory.set(variant.artifacts.get(SingleArtifact.APK))
+            destinationDirectory.set(layout.projectDirectory.dir("dist"))
+        }
+
+        // Hooks both onto their standard task graphs, so they also run
+        // automatically from Android Studio's Build menu flows (which
+        // invoke bundleRelease/assembleRelease directly), not just when
+        // run explicitly by name.
         afterEvaluate {
             tasks.named("bundle$variantNameCapitalized") {
                 finalizedBy(renameBundle)
+            }
+            tasks.named("assemble$variantNameCapitalized") {
+                finalizedBy(copyApk)
             }
         }
     }
