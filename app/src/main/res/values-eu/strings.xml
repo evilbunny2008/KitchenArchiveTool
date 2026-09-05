@@ -34,6 +34,12 @@
 	<string name="error_sync">Sinkronizazioak huts egin du: %1$s</string>
 	<string name="folder_pick_cancel">Erabiltzaileak bertan behera utzi du karpeta-hautatzailea</string>
 	<string name="folder_pick_success">%1$s karpeta hautatu da</string>
+	<string name="form_download_commit">Deskargatu</string>
+	<string name="form_download_folder">Gainidatzi xede karpeta</string>
+	<string name="form_download_options">Aukerak</string>
+	<string name="form_download_override_existing">Ordeztu lehendik dagoen errezeta karpeta</string>
+	<string name="form_download_title">Deskargatu Errezeta</string>
+	<string name="form_download_url_hint">Errezetaren URLa</string>
 	<string name="form_exact_search">Bilaketa zehatza egin?</string>
 	<string name="form_ignore_case">Maiuskulak baztertu?</string>
 	<string name="form_search_commit">Bilatu</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Kategoriak</string>
 	<string name="menu_download_title">Deskargatu</string>
 	<string name="menu_download_tooltip">deskargatu errezeta</string>
+	<string name="menu_import_recipe">Inportatu Errezeta</string>
 	<string name="menu_refresh_tooltip">Freskatu errezetak</string>
 	<string name="menu_search_title">Bilaketa aurreratua</string>
 	<string name="menu_search_tooltip">Bilatu errezeta</string>

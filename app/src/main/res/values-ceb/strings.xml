@@ -34,6 +34,12 @@
 	<string name="error_sync">Napakyas ang pag-synchronize: %1$s</string>
 	<string name="folder_pick_cancel">Folder picker gikansela sa user</string>
 	<string name="folder_pick_success">Gipili ang folder nga %1$s</string>
+	<string name="form_download_commit">Pag-download</string>
+	<string name="form_download_folder">I-override ang target nga folder</string>
+	<string name="form_download_options">Mga kapilian</string>
+	<string name="form_download_override_existing">Ilisan ang kasamtangan nga folder sa resipe</string>
+	<string name="form_download_title">Pag-download sa Resipe</string>
+	<string name="form_download_url_hint">URL sa resipe</string>
 	<string name="form_exact_search">Paghimo ug eksaktong pagpangita?</string>
 	<string name="form_ignore_case">Ignore case?</string>
 	<string name="form_search_commit">Pangitaa</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Mga kategoriya</string>
 	<string name="menu_download_title">Pag-download</string>
 	<string name="menu_download_tooltip">download resipe</string>
+	<string name="menu_import_recipe">Import nga Recipe</string>
 	<string name="menu_refresh_tooltip">I-refresh ang mga resipe</string>
 	<string name="menu_search_title">Abanteng Pagpangita</string>
 	<string name="menu_search_tooltip">Pangitaa ang resipe</string>

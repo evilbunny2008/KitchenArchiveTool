@@ -34,6 +34,12 @@
 	<string name="error_sync">Sinkronizasiyɔn ma se ka kɛ: %1$s</string>
 	<string name="folder_pick_cancel">Tɔnɔbaga ye dosiye sugandibaga bɔ yen</string>
 	<string name="folder_pick_success">Dosiye %1$s sugandira</string>
+	<string name="form_download_commit">Ka telesarize</string>
+	<string name="form_download_folder">Laɲini dosiye yɛlɛma</string>
+	<string name="form_download_options">Sugandili</string>
+	<string name="form_download_override_existing">Aw ye dumuni dilancogo kɔrɔw yɛlɛma</string>
+	<string name="form_download_title">Recipe telesarse</string>
+	<string name="form_download_url_hint">Dumuni dilancogo URL</string>
 	<string name="form_exact_search">I ka ɲinini tigitigi dɔ kɛ wa?</string>
 	<string name="form_ignore_case">Ka ban koo la wa?</string>
 	<string name="form_search_commit">Ɲini</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Suguyaw</string>
 	<string name="menu_download_title">Ka telesarize</string>
 	<string name="menu_download_tooltip">furakɛcogo telesarse</string>
+	<string name="menu_import_recipe">Dumuni dilan cogo ladon</string>
 	<string name="menu_refresh_tooltip">Resipiw kurakuraya</string>
 	<string name="menu_search_title">ɲinini ɲɛtaga</string>
 	<string name="menu_search_tooltip">Aw ye dumuni dilancogo ɲini</string>

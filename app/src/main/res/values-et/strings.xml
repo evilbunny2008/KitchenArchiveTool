@@ -34,6 +34,12 @@
 	<string name="error_sync">Sünkroonimine ebaõnnestus: %1$s</string>
 	<string name="folder_pick_cancel">Kasutaja tühistas kaustavalija</string>
 	<string name="folder_pick_success">Kaust %1$s on valitud</string>
+	<string name="form_download_commit">Laadi alla</string>
+	<string name="form_download_folder">Alista sihtkaust</string>
+	<string name="form_download_options">Valikud</string>
+	<string name="form_download_override_existing">Asenda olemasolev retseptikaust</string>
+	<string name="form_download_title">Laadi alla retsept</string>
+	<string name="form_download_url_hint">Retsepti URL</string>
 	<string name="form_exact_search">Kas teha täpne otsing?</string>
 	<string name="form_ignore_case">Kas ignoreerida?</string>
 	<string name="form_search_commit">Otsi</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Kategooriad</string>
 	<string name="menu_download_title">Laadi alla</string>
 	<string name="menu_download_tooltip">retsept alla laadida</string>
+	<string name="menu_import_recipe">Impordi retsept</string>
 	<string name="menu_refresh_tooltip">Värskendage retsepte</string>
 	<string name="menu_search_title">Täpsem otsing</string>
 	<string name="menu_search_tooltip">Otsi retsept</string>

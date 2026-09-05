@@ -34,6 +34,12 @@
 	<string name="error_sync">সিঙ্ক্রোনাইজেশন ব্যর্থ হয়েছে: %1$s৷</string>
 	<string name="folder_pick_cancel">ফোল্ডার পিকার ব্যবহারকারী দ্বারা বাতিল করা হয়েছে</string>
 	<string name="folder_pick_success">ফোল্ডার %1$s নির্বাচন করা হয়েছে৷</string>
+	<string name="form_download_commit">ডাউনলোড করুন</string>
+	<string name="form_download_folder">লক্ষ্য ফোল্ডার ওভাররাইড করুন</string>
+	<string name="form_download_options">অপশন</string>
+	<string name="form_download_override_existing">বিদ্যমান রেসিপি ফোল্ডারটি প্রতিস্থাপন করুন</string>
+	<string name="form_download_title">রেসিপি ডাউনলোড করুন</string>
+	<string name="form_download_url_hint">রেসিপি URL</string>
 	<string name="form_exact_search">একটি সঠিক অনুসন্ধান করবেন?</string>
 	<string name="form_ignore_case">মামলা উপেক্ষা?</string>
 	<string name="form_search_commit">অনুসন্ধান করুন</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">ক্যাটাগরি</string>
 	<string name="menu_download_title">ডাউনলোড করুন</string>
 	<string name="menu_download_tooltip">রেসিপি ডাউনলোড করুন</string>
+	<string name="menu_import_recipe">রেসিপি আমদানি করুন</string>
 	<string name="menu_refresh_tooltip">রেসিপি রিফ্রেশ করুন</string>
 	<string name="menu_search_title">উন্নত অনুসন্ধান</string>
 	<string name="menu_search_tooltip">অনুসন্ধান রেসিপি</string>

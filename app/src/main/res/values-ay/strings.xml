@@ -34,6 +34,12 @@
 	<string name="error_sync">Sincronización ukax janiw phuqhaskiti: %1$s</string>
 	<string name="folder_pick_cancel">Carpeta ajllirixa apnaqiriruxa cancelatawa</string>
 	<string name="folder_pick_success">Carpeta %1$s ukax ajllitawa</string>
+	<string name="form_download_commit">Apaqaña</string>
+	<string name="form_download_folder">Ukax mä carpeta de meta ukar jaqukipatawa</string>
+	<string name="form_download_options">Ajlliñanaka</string>
+	<string name="form_download_override_existing">Jichha utjki uka receta carpeta ukar mayjt’ayaña</string>
+	<string name="form_download_title">Receta apsuña</string>
+	<string name="form_download_url_hint">URL ukax receta ukankiwa</string>
 	<string name="form_exact_search">¿Mä chiqapa thaqhañati?</string>
 	<string name="form_ignore_case">¿Jan yäqañati caso?</string>
 	<string name="form_search_commit">Thaqhata</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Categorías ukanaka</string>
 	<string name="menu_download_title">Apaqaña</string>
 	<string name="menu_download_tooltip">receta apsuñataki</string>
+	<string name="menu_import_recipe">Importación ukax Receta satawa</string>
 	<string name="menu_refresh_tooltip">Recetas ukanaka machaqar tukuyaña</string>
 	<string name="menu_search_title">Nayrar sartañ thakhi</string>
 	<string name="menu_search_tooltip">Uñakipt’añataki receta</string>

@@ -34,6 +34,12 @@
 	<string name="error_sync">ہمگام کنگ بے سوب بوت: %1$s</string>
 	<string name="folder_pick_cancel">کارمرز کنوخ ئا شہ فولڈر چنوک منسوخ کثہ</string>
 	<string name="folder_pick_success">فولڈر %1$s گچین کنگ بوتگ</string>
+	<string name="form_download_commit">ایرگیج</string>
+	<string name="form_download_folder">ٹارگٹ فولڈر ءَ اوور رائڈ کن اِت</string>
+	<string name="form_download_options">آپشن</string>
+	<string name="form_download_override_existing">استیں نسخہ ئے فولڈر ئا بدل کن</string>
+	<string name="form_download_title">نسخہ ڈاؤن لوڈ کن</string>
+	<string name="form_download_url_hint">نسخہ یو آر ایل</string>
 	<string name="form_exact_search">یک درستیں پٹ ءُ پولے بکن اِت؟</string>
 	<string name="form_ignore_case">کیس ءَ نادیدہ کن؟</string>
 	<string name="form_search_commit">شوہاز کن</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">زمرہ جات</string>
 	<string name="menu_download_title">ایرگیج</string>
 	<string name="menu_download_tooltip">نسخہ ڈاؤن لوڈ کن</string>
+	<string name="menu_import_recipe">درآمد نسخہ</string>
 	<string name="menu_refresh_tooltip">نسخہ آں نوخ کن</string>
 	<string name="menu_search_title">دیمروئی کتگیں پٹ ءُ پول</string>
 	<string name="menu_search_tooltip">نسخہ ئے شوھاز کن</string>

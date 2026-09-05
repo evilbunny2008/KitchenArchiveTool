@@ -34,6 +34,12 @@
 	<string name="error_sync">Sinsinnan ma ɲɛ: %1$s</string>
 	<string name="folder_pick_cancel">Foli tabaga min tiɲɛna baarakɛla fɛ</string>
 	<string name="folder_pick_success">Foli %1$s sugandilen don</string>
+	<string name="form_download_commit">Ka telesarize</string>
+	<string name="form_download_folder">Laɲini foli (foli) min bɛ a la, o wuli ka bɔ a nɔ na</string>
+	<string name="form_download_options">Sugandili minnu bɛ kɛ</string>
+	<string name="form_download_override_existing">Aw bɛ furakɛcogo foli min bɛ yen, o bila a nɔ na</string>
+	<string name="form_download_title">Télécharger Recette</string>
+	<string name="form_download_url_hint">Recette URL ye</string>
 	<string name="form_exact_search">Aw ye ɲinini tigitigi kɛ wa?</string>
 	<string name="form_ignore_case">Ignorer case ye wa?</string>
 	<string name="form_search_commit">Ɲini</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Kategoriw (kategoriw)</string>
 	<string name="menu_download_title">Ka telesarize</string>
 	<string name="menu_download_tooltip">telesarse furakɛcogo</string>
+	<string name="menu_import_recipe">Import Recipe (Dɔgɔtɔrɔso ladoncogo)</string>
 	<string name="menu_refresh_tooltip">Recipes (furakɛcogo kura) kɛ</string>
 	<string name="menu_search_title">Ɲini caman kɛli</string>
 	<string name="menu_search_tooltip">Ɲini furakɛcogo</string>

@@ -34,6 +34,12 @@
 	<string name="error_sync">Échec de la synchronisation : %1$s</string>
 	<string name="folder_pick_cancel">Sélecteur de dossiers annulé par l’utilisateur</string>
 	<string name="folder_pick_success">Dossier %1$s sélectionné</string>
+	<string name="form_download_commit">Télécharger</string>
+	<string name="form_download_folder">Remplacer le dossier cible</string>
+	<string name="form_download_options">Possibilités</string>
+	<string name="form_download_override_existing">Remplacer le dossier de recettes existant</string>
+	<string name="form_download_title">Télécharger la recette</string>
+	<string name="form_download_url_hint">URL de la recette</string>
 	<string name="form_exact_search">Faire une recherche précise?</string>
 	<string name="form_ignore_case">Ignorer le cas ?</string>
 	<string name="form_search_commit">Recherche</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Catégories</string>
 	<string name="menu_download_title">Télécharger</string>
 	<string name="menu_download_tooltip">télécharger la recette</string>
+	<string name="menu_import_recipe">Importer la recette</string>
 	<string name="menu_refresh_tooltip">Actualiser les recettes</string>
 	<string name="menu_search_title">Recherche avancée</string>
 	<string name="menu_search_tooltip">Rechercher une recette</string>

@@ -34,6 +34,12 @@
 	<string name="error_sync">Синхронизаций лектын огыл: %1$s</string>
 	<string name="folder_pick_cancel">Папкым ойырен налше пайдаланышын кораҥдыме</string>
 	<string name="folder_pick_success">%1$s папкым ойырен налме</string>
+	<string name="form_download_commit">Скачать</string>
+	<string name="form_download_folder">Цель папкым вашталташ</string>
+	<string name="form_download_options">Вариант-влак</string>
+	<string name="form_download_override_existing">Уло рецепт папкым вашталташ</string>
+	<string name="form_download_title">Рецептым скачать</string>
+	<string name="form_download_url_hint">Рецепт URL</string>
 	<string name="form_exact_search">Лач кычалмашым ыштыза?</string>
 	<string name="form_ignore_case">Игнорировать случай?</string>
 	<string name="form_search_commit">Кычалаш</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Категорий-влак</string>
 	<string name="menu_download_title">Скачать</string>
 	<string name="menu_download_tooltip">рецепт скачать</string>
+	<string name="menu_import_recipe">Рецептым пурташ</string>
 	<string name="menu_refresh_tooltip">Рецепт-влакым уэмдаш</string>
 	<string name="menu_search_title">Умбакыже кычалмаш</string>
 	<string name="menu_search_tooltip">Рецептым кычалза</string>

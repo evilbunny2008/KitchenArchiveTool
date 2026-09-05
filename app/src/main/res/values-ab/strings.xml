@@ -34,6 +34,12 @@
 	<string name="error_sync">Асинхронизациа ауам: %1$s</string>
 	<string name="folder_pick_cancel">Аҭаӡ алхга ахархәаҩ иаԥыхуп</string>
 	<string name="folder_pick_success">Аҭаӡ %1$s алхуп</string>
+	<string name="form_download_commit">Аҭгара</string>
+	<string name="form_download_folder">Иаԥыхтәуп ахықәкы аҭаӡ</string>
+	<string name="form_download_options">Авариантқәа</string>
+	<string name="form_download_override_existing">Иҟоу ареципқәа рҭаӡ ԥсахтәуп</string>
+	<string name="form_download_title">Арецепт хҩылаа</string>
+	<string name="form_download_url_hint">Арецепт URL</string>
 	<string name="form_exact_search">Ииашоу аԥшаара ҟашәҵа?</string>
 	<string name="form_ignore_case">Аҭагылазаашьа мап ацәкра?</string>
 	<string name="form_search_commit">Аԥшаара</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Акатегориақәа</string>
 	<string name="menu_download_title">Аҭгара</string>
 	<string name="menu_download_tooltip">Арецепт хҩылаа</string>
+	<string name="menu_import_recipe">Арецепт аимпорт</string>
 	<string name="menu_refresh_tooltip">Арецептқәа рырҿыцра</string>
 	<string name="menu_search_title">Инарҭбаау аԥшаара</string>
 	<string name="menu_search_tooltip">Арецепт аԥшаара</string>

@@ -34,6 +34,12 @@
 	<string name="error_sync">Syngronisaasje mislearre: %1$s</string>
 	<string name="folder_pick_cancel">Mappenkiezer annulearre troch brûker</string>
 	<string name="folder_pick_success">Map %1$s selektearre</string>
+	<string name="form_download_commit">Download</string>
+	<string name="form_download_folder">Doelmap oerskriuwe</string>
+	<string name="form_download_options">Opsjes</string>
+	<string name="form_download_override_existing">Ferfange besteande resept map</string>
+	<string name="form_download_title">Download Recipe</string>
+	<string name="form_download_url_hint">Recipe URL</string>
 	<string name="form_exact_search">In krekte sykopdracht dwaan?</string>
 	<string name="form_ignore_case">Negearje gefal?</string>
 	<string name="form_search_commit">Sykje</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Kategoryen</string>
 	<string name="menu_download_title">Download</string>
 	<string name="menu_download_tooltip">download resept</string>
+	<string name="menu_import_recipe">Ymportearje Recipe</string>
 	<string name="menu_refresh_tooltip">Ferfarskje resepten</string>
 	<string name="menu_search_title">Avansearre sykjen</string>
 	<string name="menu_search_tooltip">Sykje resept</string>

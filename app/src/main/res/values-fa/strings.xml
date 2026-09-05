@@ -34,6 +34,12 @@
 	<string name="error_sync">همگام سازی انجام نشد: %1$s</string>
 	<string name="folder_pick_cancel">انتخابگر پوشه توسط کاربر لغو شد</string>
 	<string name="folder_pick_success">پوشه %1$s انتخاب شد</string>
+	<string name="form_download_commit">دانلود کنید</string>
+	<string name="form_download_folder">پوشه هدف را لغو کنید</string>
+	<string name="form_download_options">گزینه ها</string>
+	<string name="form_download_override_existing">پوشه دستور موجود را جایگزین کنید</string>
+	<string name="form_download_title">دانلود دستور غذا</string>
+	<string name="form_download_url_hint">آدرس دستور غذا</string>
 	<string name="form_exact_search">جستجوی دقیق انجام دهید؟</string>
 	<string name="form_ignore_case">مورد نادیده گرفته شود؟</string>
 	<string name="form_search_commit">جستجو کنید</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">دسته بندی ها</string>
 	<string name="menu_download_title">دانلود کنید</string>
 	<string name="menu_download_tooltip">دانلود دستور پخت</string>
+	<string name="menu_import_recipe">دستور واردات</string>
 	<string name="menu_refresh_tooltip">تازه کردن دستور العمل ها</string>
 	<string name="menu_search_title">جستجوی پیشرفته</string>
 	<string name="menu_search_tooltip">جستجوی دستور پخت</string>

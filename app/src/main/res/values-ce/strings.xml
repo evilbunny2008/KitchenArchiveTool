@@ -34,6 +34,12 @@
 	<string name="error_sync">Синхронизаци ца хилира: %1$s</string>
 	<string name="folder_pick_cancel">Папка схьаяккхархо дӀаяьккхина лелочо</string>
 	<string name="folder_pick_success">Папка %1$s хаьржина</string>
+	<string name="form_download_commit">Чудаккхар</string>
+	<string name="form_download_folder">Ӏалашонан папка дӀаяккха</string>
+	<string name="form_download_options">Варианташ</string>
+	<string name="form_download_override_existing">ХӀинца йолу рецептийн папка хийца</string>
+	<string name="form_download_title">Скачать Рецепт</string>
+	<string name="form_download_url_hint">Рецептан URL</string>
 	<string name="form_exact_search">Нийса лехамаш бе?</string>
 	<string name="form_ignore_case">Падеж тергал ца еш?</string>
 	<string name="form_search_commit">Лахар</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Категореш</string>
 	<string name="menu_download_title">Чудаккхар</string>
 	<string name="menu_download_tooltip">скачать рецепт</string>
+	<string name="menu_import_recipe">Импорт ян рецепт</string>
 	<string name="menu_refresh_tooltip">Рецепташ карлаяхар</string>
 	<string name="menu_search_title">Кхиаме лехамаш</string>
 	<string name="menu_search_tooltip">Рецепт лаха</string>
