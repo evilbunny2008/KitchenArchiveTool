@@ -34,12 +34,6 @@
 	<string name="error_sync">La sincronizazion e je falide: %1$s</string>
 	<string name="folder_pick_cancel">Selezionadôr di cjartis cancelât dal utent</string>
 	<string name="folder_pick_success">Cjartele %1$s selezionade</string>
-	<string name="form_download_commit">Scjamâ</string>
-	<string name="form_download_folder">Sostituî la cjarte di destinazion</string>
-	<string name="form_download_options">Opzions</string>
-	<string name="form_download_override_existing">Rimplaçâ la cjarte des recetis esistent</string>
-	<string name="form_download_title">Scaricâ la ricete</string>
-	<string name="form_download_url_hint">URL de ricete</string>
 	<string name="form_exact_search">Fâ une ricercje precise?</string>
 	<string name="form_ignore_case">Ignorâ il câs?</string>
 	<string name="form_search_commit">Ricercje</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Categoriis</string>
 	<string name="menu_download_title">Scjamâ</string>
 	<string name="menu_download_tooltip">scaricâ la ricete</string>
-	<string name="menu_import_recipe">Ricete di impuartazion</string>
 	<string name="menu_refresh_tooltip">Rifrescjâ lis recetis</string>
 	<string name="menu_search_title">Ricercje avanzade</string>
 	<string name="menu_search_tooltip">Cirî la ricete</string>

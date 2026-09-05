@@ -34,12 +34,6 @@
 	<string name="error_sync">Sinkronisasi nénten prasida: %1$s</string>
 	<string name="folder_pick_cancel">Pamilih folder kakancel olih sanganggé</string>
 	<string name="folder_pick_success">Kop %1$s sampun kapilih</string>
-	<string name="form_download_commit">Ngunduh</string>
-	<string name="form_download_folder">Ngalih folder sané kaaptiang</string>
-	<string name="form_download_options">Pilihan</string>
-	<string name="form_download_override_existing">Gentosin folder resep sané sampun wénten</string>
-	<string name="form_download_title">Unduh Resep</string>
-	<string name="form_download_url_hint">URL resep</string>
 	<string name="form_exact_search">Laksanayang panyliksikan sané patut?</string>
 	<string name="form_ignore_case">Tusing runguang kasus?</string>
 	<string name="form_search_commit">Ngalih</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategori</string>
 	<string name="menu_download_title">Ngunduh</string>
 	<string name="menu_download_tooltip">unduh resep</string>
-	<string name="menu_import_recipe">Resep Impor</string>
 	<string name="menu_refresh_tooltip">Segerang resep</string>
 	<string name="menu_search_title">Panyliksikan Lanturan</string>
 	<string name="menu_search_tooltip">Sliksik resep</string>

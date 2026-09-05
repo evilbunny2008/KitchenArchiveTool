@@ -34,12 +34,6 @@
 	<string name="error_sync">Synchronizace se nezdařila: %1$s</string>
 	<string name="folder_pick_cancel">Uživatel zrušil výběr složky</string>
 	<string name="folder_pick_success">Vybrána složka %1$s</string>
-	<string name="form_download_commit">Stáhnout</string>
-	<string name="form_download_folder">Přepsat cílovou složku</string>
-	<string name="form_download_options">Možnosti</string>
-	<string name="form_download_override_existing">Nahradit existující složku receptů</string>
-	<string name="form_download_title">Stáhnout Recept</string>
-	<string name="form_download_url_hint">Adresa URL receptu</string>
 	<string name="form_exact_search">Proveďte přesné vyhledávání?</string>
 	<string name="form_ignore_case">Ignorovat malá a velká písmena?</string>
 	<string name="form_search_commit">Vyhledávání</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategorie</string>
 	<string name="menu_download_title">Stáhnout</string>
 	<string name="menu_download_tooltip">stáhnout recept</string>
-	<string name="menu_import_recipe">Importovat recept</string>
 	<string name="menu_refresh_tooltip">Obnovit recepty</string>
 	<string name="menu_search_title">Pokročilé vyhledávání</string>
 	<string name="menu_search_tooltip">Hledat recept</string>

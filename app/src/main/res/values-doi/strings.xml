@@ -34,12 +34,6 @@
 	<string name="error_sync">समन्वयन असफल: %1$s</string>
 	<string name="folder_pick_cancel">फोल्डर पिकर बरतूनी आसेआ रद्द कीता गेआ</string>
 	<string name="folder_pick_success">फोल्डर %1$s चुनेआ गेदा ऐ</string>
-	<string name="form_download_commit">डाउनलोड</string>
-	<string name="form_download_folder">लक्ष्य फोल्डर गी ओवरराइड करो</string>
-	<string name="form_download_options">विकल्प</string>
-	<string name="form_download_override_existing">मौजूदा नुस्खा फोल्डर गी बदलो</string>
-	<string name="form_download_title">नुस्खा डाउनलोड करो</string>
-	<string name="form_download_url_hint">नुस्खा यूआरएल</string>
 	<string name="form_exact_search">इक सटीक खोज करो?</string>
 	<string name="form_ignore_case">केस गी अनदेखा करो?</string>
 	<string name="form_search_commit">तपाश</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">श्रेणियाँ</string>
 	<string name="menu_download_title">डाउनलोड</string>
 	<string name="menu_download_tooltip">डाउनलोड नुस्खा</string>
-	<string name="menu_import_recipe">आयात नुस्खा</string>
 	<string name="menu_refresh_tooltip">नुस्खे ताज़ा करो</string>
 	<string name="menu_search_title">उन्नत खोज</string>
 	<string name="menu_search_tooltip">नुस्खा खोजें</string>

@@ -34,12 +34,6 @@
 	<string name="error_sync">Синхронизаци ӑнӑҫсӑр пулчӗ: %1$s</string>
 	<string name="folder_pick_cancel">Папка суйласа илекене пользователь пӑрахӑҫланӑ</string>
 	<string name="folder_pick_success">Папка %1$s суйласа илнӗ</string>
-	<string name="form_download_commit">Уçласа ил</string>
-	<string name="form_download_folder">Тӗллевлӗ папкӑна улӑштармалла</string>
-	<string name="form_download_options">Вариантсем</string>
-	<string name="form_download_override_existing">Хальхи рецептсен папкине улӑштармалла</string>
-	<string name="form_download_title">Скачать рецепт</string>
-	<string name="form_download_url_hint">Рецепт URL</string>
 	<string name="form_exact_search">Тӗрӗс шырав тӑвӑр-и?</string>
 	<string name="form_ignore_case">Игнор тӗслӗхӗ?</string>
 	<string name="form_search_commit">Шырав</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Категорисем</string>
 	<string name="menu_download_title">Уçласа ил</string>
 	<string name="menu_download_tooltip">рецепт скачать</string>
-	<string name="menu_import_recipe">Импорт рецептӗ</string>
 	<string name="menu_refresh_tooltip">Рецептсене ҫӗнетӗр</string>
 	<string name="menu_search_title">Анлӑ шырав</string>
 	<string name="menu_search_tooltip">Рецепт шыраса тупӑр</string>

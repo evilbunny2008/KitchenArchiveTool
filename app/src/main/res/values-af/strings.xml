@@ -34,12 +34,6 @@
 	<string name="error_sync">Sinchronisasie het misluk: %1$s</string>
 	<string name="folder_pick_cancel">Vouerkieser is deur gebruiker gekanselleer</string>
 	<string name="folder_pick_success">Vouer %1$s gekies</string>
-	<string name="form_download_commit">Laai af</string>
-	<string name="form_download_folder">Ignoreer teikenlêergids</string>
-	<string name="form_download_options">Opsies</string>
-	<string name="form_download_override_existing">Vervang bestaande reseplêer</string>
-	<string name="form_download_title">Laai Resep af</string>
-	<string name="form_download_url_hint">Resep URL</string>
 	<string name="form_exact_search">Doen ’n presiese soektog?</string>
 	<string name="form_ignore_case">Ignoreer geval?</string>
 	<string name="form_search_commit">Soek</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategorieë</string>
 	<string name="menu_download_title">Laai af</string>
 	<string name="menu_download_tooltip">laai resep af</string>
-	<string name="menu_import_recipe">Voer resep in</string>
 	<string name="menu_refresh_tooltip">Verfris resepte</string>
 	<string name="menu_search_title">Gevorderde soektog</string>
 	<string name="menu_search_tooltip">Soek resep</string>

@@ -144,7 +144,7 @@ class DbRecipeRepository private constructor(application: Application) {
       }
    }
 
-   fun getCategories(): Flow<List<String>> = mRecipeDao.getCategories()
+   fun getCategories(recipeDir: String): Flow<List<String>> = mRecipeDao.getCategories(likePrefix(recipeDir))
 
    fun insertAll(recipes: List<DbRecipe>, recipeDir: String) {
       val dirPrefix = likePrefix(recipeDir)

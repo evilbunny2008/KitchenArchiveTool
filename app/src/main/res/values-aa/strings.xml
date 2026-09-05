@@ -34,12 +34,6 @@
 	<string name="error_sync">ittalluk abit radeh: %1$s</string>
 	<string name="folder_pick_cancel">Folxer ugse xoqoysima duugeh</string>
 	<string name="folder_pick_success">cibti %1$s meexinteh</string>
-	<string name="form_download_commit">Oobis</string>
-	<string name="form_download_folder">hadaf folxer baysa</string>
-	<string name="form_download_options">Doorititte</string>
-	<string name="form_download_override_existing">Sugte maaqo bicsiyyih folxer milaaga</string>
-	<string name="form_download_title">maaqo bicsiyyi miracsenta oobis</string>
-	<string name="form_download_url_hint">maaqo bicsiyyi URL</string>
 	<string name="form_exact_search">hunun kusaq abaa?</string>
 	<string name="form_ignore_case">Caagid habbal?</string>
 	<string name="form_search_commit">Gorana</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Qaynatitte</string>
 	<string name="menu_download_title">Oobis</string>
 	<string name="menu_download_tooltip">maaqo bicsiyyi miracsenta oobis</string>
-	<string name="menu_import_recipe">Maaqô bicsih cugda</string>
 	<string name="menu_refresh_tooltip">maaqo bicsiyyi miracsenta uqusbus</string>
 	<string name="menu_search_title">fooca fan goranto</string>
 	<string name="menu_search_tooltip">maaqo bicsiyyi miracsenta gorrisa</string>

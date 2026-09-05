@@ -106,8 +106,8 @@ interface RecipeDataDao {
    fun filterRecipes(query: SupportSQLiteQuery): Flow<List<DbRecipePreview>>
 
    @Transaction
-   @Query("SELECT DISTINCT recipeCategory FROM recipes WHERE recipeCategory != '' ORDER BY recipeCategory")
-   fun getCategories(): Flow<List<String>>
+   @Query("SELECT DISTINCT recipeCategory FROM recipes WHERE recipeCategory != '' AND fs_filePath LIKE :dirPrefix ESCAPE '\\' ORDER BY recipeCategory")
+   fun getCategories(dirPrefix: String): Flow<List<String>>
 
    @Insert
    fun insert(recipe: DbRecipeCore): Long

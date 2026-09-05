@@ -34,12 +34,6 @@
 	<string name="error_sync">Methodd y cysoni: %1$s</string>
 	<string name="folder_pick_cancel">Dewisydd ffolder wedi’i ganslo gan ddefnyddiwr</string>
 	<string name="folder_pick_success">Plygell %1$s wedi’i dewis</string>
-	<string name="form_download_commit">Lawrlwythwch</string>
-	<string name="form_download_folder">Diystyru ffolder targed</string>
-	<string name="form_download_options">Opsiynau</string>
-	<string name="form_download_override_existing">Amnewid ffolder ryseitiau presennol</string>
-	<string name="form_download_title">Lawrlwythwch Rysáit</string>
-	<string name="form_download_url_hint">URL rysáit</string>
 	<string name="form_exact_search">Gwneud chwiliad manwl gywir?</string>
 	<string name="form_ignore_case">Anwybyddu achos?</string>
 	<string name="form_search_commit">Chwiliwch</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Categorïau</string>
 	<string name="menu_download_title">Lawrlwythwch</string>
 	<string name="menu_download_tooltip">lawrlwytho rysáit</string>
-	<string name="menu_import_recipe">Mewnforio Rysáit</string>
 	<string name="menu_refresh_tooltip">Adnewyddu ryseitiau</string>
 	<string name="menu_search_title">Chwiliad Manwl</string>
 	<string name="menu_search_tooltip">Chwilio rysáit</string>

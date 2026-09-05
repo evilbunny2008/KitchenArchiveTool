@@ -13,7 +13,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.asLiveData
 import com.odiousapps.kat.data.CategoryFilter
 import com.odiousapps.kat.data.RecipeFilter
 import com.odiousapps.kat.data.SortValue
@@ -30,7 +29,6 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
-import java.time.Duration
 import java.util.stream.Collectors
 
 /**
@@ -46,7 +44,15 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
    private val uiScope = CoroutineScope(Dispatchers.Main + viewModelJob)
 
    private val recipeRepository = DbRecipeRepository.getInstance(app)
-   val categories = recipeRepository.getCategories().asLiveData(Duration.ofSeconds(10), Dispatchers.Main)
+   // Backed by a cancellable Job (loadCategoriesJob, see initRecipes) rather
+   // than a single Flow bound once at construction: recipeDir can change
+   // over this ViewModel's lifetime (switching accounts), and the same
+   // stale-collector risk loadRecipes() already had to be fixed for
+   // applies here too -- an old collector left running after a switch
+   // would keep emitting a different account's categories into this list.
+   val categories: LiveData<List<String>>
+      field = MutableLiveData<List<String>>(emptyList())
+   private var loadCategoriesJob: Job? = null
 
     val recipes: LiveData<List<DbRecipePreview>>
         field = MutableLiveData<List<DbRecipePreview>>()
@@ -152,6 +158,8 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
 
       if (!hidden) isUpdating.postValue(true)
 
+      loadCategories(dir)
+
       uiScope.launch {
          val list = getRecipesFromRepo(dir)
          val dbList = list.stream()
@@ -161,6 +169,21 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
 
          isLoaded.postValue(true)
          if (!hidden) isUpdating.postValue(false)
+      }
+   }
+
+   /**
+    * Reloads the category-filter list for [dir]. Always cancels and
+    * relaunches rather than reusing an in-flight collector -- see this
+    * property's own doc comment above for why (recipeDir can change
+    * across this ViewModel's lifetime, and an old collector left running
+    * for a previous account would otherwise keep leaking that account's
+    * categories back into the list after switching away from it).
+    */
+   private fun loadCategories(dir: String) {
+      loadCategoriesJob?.cancel()
+      loadCategoriesJob = uiScope.launch {
+         recipeRepository.getCategories(dir).collect { categories.value = it }
       }
    }
 

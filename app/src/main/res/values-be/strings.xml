@@ -34,12 +34,6 @@
 	<string name="error_sync">Збой сінхранізацыі: %1$s</string>
 	<string name="folder_pick_cancel">Сродак выбару тэчак адменены карыстальнікам</string>
 	<string name="folder_pick_success">Выбрана папка %1$s</string>
-	<string name="form_download_commit">Спампаваць</string>
-	<string name="form_download_folder">Перавызначыць мэтавую папку</string>
-	<string name="form_download_options">Параметры</string>
-	<string name="form_download_override_existing">Замяніць існуючую тэчку рэцэптаў</string>
-	<string name="form_download_title">Спампаваць рэцэпт</string>
-	<string name="form_download_url_hint">URL-адрас рэцэпту</string>
 	<string name="form_exact_search">Зрабіць дакладны пошук?</string>
 	<string name="form_ignore_case">Ігнараваць рэгістр?</string>
 	<string name="form_search_commit">Пошук</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Катэгорыі</string>
 	<string name="menu_download_title">Спампаваць</string>
 	<string name="menu_download_tooltip">спампаваць рэцэпт</string>
-	<string name="menu_import_recipe">Імпартны рэцэпт</string>
 	<string name="menu_refresh_tooltip">Абнавіць рэцэпты</string>
 	<string name="menu_search_title">Пашыраны пошук</string>
 	<string name="menu_search_tooltip">Рэцэпт пошуку</string>

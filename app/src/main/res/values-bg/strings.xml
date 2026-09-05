@@ -34,12 +34,6 @@
 	<string name="error_sync">Неуспешна синхронизация: %1$s</string>
 	<string name="folder_pick_cancel">Инструментът за избор на папка е отменен от потребителя</string>
 	<string name="folder_pick_success">Избрана е папка %1$s</string>
-	<string name="form_download_commit">Изтегляне</string>
-	<string name="form_download_folder">Замяна на целевата папка</string>
-	<string name="form_download_options">Опции</string>
-	<string name="form_download_override_existing">Заменете съществуващата папка с рецепти</string>
-	<string name="form_download_title">Изтегляне на рецепта</string>
-	<string name="form_download_url_hint">URL адрес на рецепта</string>
 	<string name="form_exact_search">Направете точно търсене?</string>
 	<string name="form_ignore_case">Игнориране на регистъра на буквите?</string>
 	<string name="form_search_commit">Търсене</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Категории</string>
 	<string name="menu_download_title">Изтегляне</string>
 	<string name="menu_download_tooltip">изтегляне на рецепта</string>
-	<string name="menu_import_recipe">Рецепта за импортиране</string>
 	<string name="menu_refresh_tooltip">Обновяване на рецепти</string>
 	<string name="menu_search_title">Разширено търсене</string>
 	<string name="menu_search_tooltip">Рецепта за търсене</string>
