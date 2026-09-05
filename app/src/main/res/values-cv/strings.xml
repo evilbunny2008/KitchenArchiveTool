@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Вӗсем хушшинче рецептсем копилеме малтан тепӗр аккаунт хушӑр</string>
 	<string name="copy_to_account_success">’%1$s’ ҫине %2$s копилленӗ</string>
 	<string name="copy_to_account_title">Ҫак рецепта ҫырса илӗр</string>
+	<string name="current_account_not_found_exception_message">Ыйтнӑ аккаунта Nextcloud Files приложенийӗнче тупаймарӗҫ</string>
+	<string name="current_account_not_found_exception_title">Аккаунт тупӑнман</string>
 	<string name="delete_recipe">Рецепта пӗтермелле</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ сервертан яланлӑхах пӗтет. Куна каялла тавӑрма ҫук</string>
 	<string name="delete_recipe_confirm_positive">Хурат</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Пӗр хутчен кӗрсе</string>
 	<string name="menu_title_app">Приложени</string>
 	<string name="menu_uncategorized">Категорисӗр</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Настройкӑсем</string>
 	<string name="no_information">Информаци ҫук</string>
 	<string name="no_ingredients">Ингредиентсем ҫук</string>
 	<string name="no_instructions">Инструкци ҫук</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Пӗçерекен</string>
 	<string name="tooltip_prep_time">Хатӗрленÿ</string>
 	<string name="tooltip_total_time">Пурӗ</string>
+	<string name="unknown_error">Паллӑ мар йӑнӑш</string>
 </resources>

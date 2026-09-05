@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Tääu ë akutnhom dɛ̈t thïn tueŋ ba kä ye cam thɔ̈ɔ̈ŋ në kɛmken</string>
 	<string name="copy_to_account_success">Acï ’%1$s’ tën %2$s</string>
 	<string name="copy_to_account_title">Copy ye kë ye cam kënë tënë</string>
+	<string name="current_account_not_found_exception_message">Kë cï thiëëc akëc yök në app de Kä cïke thiëëc yiic</string>
+	<string name="current_account_not_found_exception_title">Akaun akëc yök</string>
 	<string name="delete_recipe">Cuɔth kë ye cam</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ abï jäl ëbɛ̈n tënë thäät ë thäät. Yekënë acïï lëu bï dhuɔ̈kciëën</string>
 	<string name="delete_recipe_confirm_positive">Cothden wei</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Gät Tök</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Acï tek yic</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Kä ye keek guiir</string>
 	<string name="no_information">Acïn wël</string>
 	<string name="no_ingredients">Acïn kä ye tääu thïn</string>
 	<string name="no_instructions">Acïn lööŋ</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Bɛ̈i ye ke tɔ̈c</string>
 	<string name="tooltip_prep_time">Kä juëc apɛi</string>
 	<string name="tooltip_total_time">Adat</string>
+	<string name="unknown_error">Kë cï wuɔ̈c kuc</string>
 </resources>
