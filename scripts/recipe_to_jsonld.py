@@ -20,6 +20,13 @@ Usage:
         Devices & sessions -> "Create new app password". Works identically
         even without 2FA enabled, so it's the safer default either way --
         it can be revoked independently of the account's real password.
+    echo "myapppassword" | python recipe_to_jsonld.py --url "..." --nextcloud-url "..." --nextcloud-user "myuser" --nextcloud-pass-stdin
+        Same as above, but the password is read from stdin instead of
+        --nextcloud-pass. Use this for any caller where the password
+        shouldn't become a process argument -- e.g. a web server invoking
+        this script on a user's behalf, where another local user on that
+        same machine could otherwise read it straight off the process
+        list (`ps aux` / /proc/<pid>/cmdline) while this script runs.
     python recipe_to_jsonld.py --file saved_page.html --url "https://example.com/some-recipe" --out output.html
     python recipe_to_jsonld.py --use-venv --file saved_page.html
         Creates (or reuses) a dedicated virtual environment for this
@@ -2716,7 +2723,17 @@ def main():
         help="Nextcloud app password (Settings > Security > Devices & sessions > "
              "\"Create new app password\"). Required, not just recommended, if the "
              "account has 2-factor authentication enabled -- the normal account "
-             "password is rejected outright in that case.",
+             "password is rejected outright in that case. Mutually exclusive with "
+             "--nextcloud-pass-stdin.",
+    )
+    parser.add_argument(
+        "--nextcloud-pass-stdin", action="store_true",
+        help="Read the Nextcloud app password from stdin (one line, trailing newline "
+             "stripped) instead of passing it via --nextcloud-pass. Use this for any "
+             "caller where the password shouldn't become a process argument -- command "
+             "lines are visible to other local users on the same machine via `ps aux` / "
+             "/proc/<pid>/cmdline for as long as this process runs, which a pipe read "
+             "isn't. Mutually exclusive with --nextcloud-pass.",
     )
     parser.add_argument(
         "--use-venv", action="store_true",
@@ -2728,6 +2745,22 @@ def main():
 
     if not args.url and not args.file:
         parser.error("Provide --url (to fetch live) or --file (+ optional --url for canonical URL)")
+
+    if args.nextcloud_pass and args.nextcloud_pass_stdin:
+        parser.error("--nextcloud-pass and --nextcloud-pass-stdin are mutually exclusive")
+
+    if args.nextcloud_url and not (args.nextcloud_pass or args.nextcloud_pass_stdin):
+        parser.error("--nextcloud-url requires a password: either --nextcloud-pass or --nextcloud-pass-stdin")
+
+    if args.nextcloud_pass_stdin:
+        # Read exactly one line -- not sys.stdin.read() -- so a caller that
+        # writes just the password (no trailing newline at all) doesn't
+        # leave this blocked waiting for EOF, and so anything accidentally
+        # piped in after the password on the same stream can't end up
+        # silently appended to it.
+        args.nextcloud_pass = sys.stdin.readline().rstrip("\n")
+        if not args.nextcloud_pass:
+            parser.error("--nextcloud-pass-stdin was given but stdin had no password on it")
 
     recipe_json = None
     if args.file:
