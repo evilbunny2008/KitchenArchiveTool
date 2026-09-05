@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Standard Material Design "arrow_back" glyph; replaces
+  materialDialogsCore's bundled md_nav_back drawable (see
+  activity_main.xml, the only place it was referenced), so that
+  dependency doesn't need to stay in the project for a single icon.
+  Colored black here since the one place this is used applies its own
+  android:tint (see activity_main.xml).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M20,11H7.83l5.59,-5.59L12,4l-8,8 8,8 1.41,-1.41L7.83,13H20v-2z" />
+</vector>
