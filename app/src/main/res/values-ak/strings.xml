@@ -34,6 +34,12 @@
 	<string name="error_sync">Nkitahodi no adi nkogu: %1$s</string>
 	<string name="folder_pick_cancel">Folder picker a ɔde di dwuma no twaa mu</string>
 	<string name="folder_pick_success">Folda %1$s a wɔapaw</string>
+	<string name="form_download_commit">Twe</string>
+	<string name="form_download_folder">Bu botae folda no so</string>
+	<string name="form_download_options">Nneɛma a wubetumi apaw</string>
+	<string name="form_download_override_existing">Fa recipe folda a ɛwɔ hɔ dedaw no si ananmu</string>
+	<string name="form_download_title">Twe Nnuan Ho Nsɛm</string>
+	<string name="form_download_url_hint">Nnuan ho nyansahyɛ URL</string>
 	<string name="form_exact_search">Yɛ nhwehwɛmu pɔtee bi?</string>
 	<string name="form_ignore_case">Bu w’ani gu asɛm no so?</string>
 	<string name="form_search_commit">Hwehwɛ</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Nkyekyɛm ahorow</string>
 	<string name="menu_download_title">Twe</string>
 	<string name="menu_download_tooltip">download aduannoa ho nyansahyɛ</string>
+	<string name="menu_import_recipe">Import Nnuan a Wɔde Yɛ Nneɛma</string>
 	<string name="menu_refresh_tooltip">Fa aduannoa ho nyansahyɛ ahorow yɛ foforo</string>
 	<string name="menu_search_title">Nhwehwɛmu a Ɛkɔ Anim</string>
 	<string name="menu_search_tooltip">Hwehwɛ aduannoa ho akwankyerɛ</string>

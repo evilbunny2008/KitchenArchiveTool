@@ -34,6 +34,12 @@
 	<string name="error_sync">فشلت المزامنة: %1$s</string>
 	<string name="folder_pick_cancel">تم إلغاء منتقي المجلدات من قبل المستخدم</string>
 	<string name="folder_pick_success">تم تحديد المجلد %1$s</string>
+	<string name="form_download_commit">تحميل</string>
+	<string name="form_download_folder">تجاوز المجلد الهدف</string>
+	<string name="form_download_options">خيارات</string>
+	<string name="form_download_override_existing">استبدل مجلد الوصفة الموجود</string>
+	<string name="form_download_title">تحميل وصفة</string>
+	<string name="form_download_url_hint">عنوان URL للوصفة</string>
 	<string name="form_exact_search">هل تقوم بالبحث الدقيق؟</string>
 	<string name="form_ignore_case">تجاهل الحالة؟</string>
 	<string name="form_search_commit">يبحث</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">فئات</string>
 	<string name="menu_download_title">تحميل</string>
 	<string name="menu_download_tooltip">تحميل وصفة</string>
+	<string name="menu_import_recipe">وصفة الاستيراد</string>
 	<string name="menu_refresh_tooltip">تحديث الوصفات</string>
 	<string name="menu_search_title">بحث متقدم</string>
 	<string name="menu_search_tooltip">وصفة البحث</string>

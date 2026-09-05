@@ -34,6 +34,12 @@
 	<string name="error_sync">E sega ni rawa na veivakaduavatataki: %1$s</string>
 	<string name="folder_pick_cancel">Na digitaki ni folder sa bokoci mai vei koya e vakayagataka</string>
 	<string name="folder_pick_success">Na folder %1$s digitaki</string>
+	<string name="form_download_commit">Lavetaka</string>
+	<string name="form_download_folder">Vakasuka na folder ni takete</string>
+	<string name="form_download_options">Digidigi</string>
+	<string name="form_download_override_existing">Sosomitaka na folder ni recipe sa tu rawa</string>
+	<string name="form_download_title">Lavetaka na Recipe</string>
+	<string name="form_download_url_hint">URL ni kakana</string>
 	<string name="form_exact_search">Cakava e dua na vakasaqaqara dodonu?</string>
 	<string name="form_ignore_case">Vakawalena na kisi?</string>
 	<string name="form_search_commit">Vakasaqaqara</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Veiwasewase</string>
 	<string name="menu_download_title">Lavetaka</string>
 	<string name="menu_download_tooltip">lavetaka na ivakarau ni kana</string>
+	<string name="menu_import_recipe">Vakacuruma na ivakarau ni kakana</string>
 	<string name="menu_refresh_tooltip">Vakavoutaka na ivakarau ni kakana</string>
 	<string name="menu_search_title">Vakasaqaqara Toso ki liu</string>
 	<string name="menu_search_tooltip">Vakasaqara na resipi</string>

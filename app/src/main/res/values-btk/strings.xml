@@ -34,6 +34,12 @@
 	<string name="error_sync">Sinkronisasi gagal: %1$s</string>
 	<string name="folder_pick_cancel">Pamillit map dibatalhon pangguna</string>
 	<string name="folder_pick_success">Map %1$s na dipillit</string>
+	<string name="form_download_commit">Donlod</string>
+	<string name="form_download_folder">Gantihon map sasaran</string>
+	<string name="form_download_options">Pilihan</string>
+	<string name="form_download_override_existing">Gantihon map resep naung adong</string>
+	<string name="form_download_title">Unduh Resep</string>
+	<string name="form_download_url_hint">URL resep</string>
 	<string name="form_exact_search">Ulahon ma pencarian na tepat?</string>
 	<string name="form_ignore_case">Abaikan kasus?</string>
 	<string name="form_search_commit">Mangalului</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Golongan</string>
 	<string name="menu_download_title">Donlod</string>
 	<string name="menu_download_tooltip">unduh resep</string>
+	<string name="menu_import_recipe">Resep Impor</string>
 	<string name="menu_refresh_tooltip">Segarkan resep</string>
 	<string name="menu_search_title">Pencarian Lanjut</string>
 	<string name="menu_search_tooltip">Lului ma resep</string>

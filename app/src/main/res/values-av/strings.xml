@@ -34,6 +34,12 @@
 	<string name="error_sync">Синхронизация гьабизе кӀвечӀо: %1$s</string>
 	<string name="folder_pick_cancel">Папка тӀаса бищиялъул алат хӀалтӀизабулес нахъе бахъана</string>
 	<string name="folder_pick_success">Папка %1$s тӀаса бищун</string>
+	<string name="form_download_commit">Реххизе</string>
+	<string name="form_download_folder">Переопределить целевую папку</string>
+	<string name="form_download_options">Вариантал</string>
+	<string name="form_download_override_existing">Хисизе цебего букӀараб рецептазул папка</string>
+	<string name="form_download_title">Скачать Рецепт</string>
+	<string name="form_download_url_hint">Рецепталъул URL</string>
 	<string name="form_exact_search">МухӀканаб цӀех-рех гьабе?</string>
 	<string name="form_ignore_case">Падеж кӀвар кьечӀого тезе?</string>
 	<string name="form_search_commit">Ралагьизе</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Категориял</string>
 	<string name="menu_download_title">Реххизе</string>
 	<string name="menu_download_tooltip">скачать рецепт</string>
+	<string name="menu_import_recipe">Импорталъул рецепт</string>
 	<string name="menu_refresh_tooltip">Рецептал цӀи гьари</string>
 	<string name="menu_search_title">ЦӀикӀкӀараб цӀех-рех</string>
 	<string name="menu_search_tooltip">Рецепт балагье</string>

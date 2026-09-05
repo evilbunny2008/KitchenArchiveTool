@@ -34,6 +34,12 @@
 	<string name="error_sync">Error de sincronización: %1$s</string>
 	<string name="folder_pick_cancel">Selector de carpetas cancelado por el usuario</string>
 	<string name="folder_pick_success">Carpeta %1$s seleccionada</string>
+	<string name="form_download_commit">Descargar</string>
+	<string name="form_download_folder">Anular la carpeta de destino</string>
+	<string name="form_download_options">Opciones</string>
+	<string name="form_download_override_existing">Reemplazar la carpeta de recetas existente</string>
+	<string name="form_download_title">Descargar Receta</string>
+	<string name="form_download_url_hint">URL de la receta</string>
 	<string name="form_exact_search">¿Hacer una búsqueda exacta?</string>
 	<string name="form_ignore_case">¿Ignorar caso?</string>
 	<string name="form_search_commit">Buscar</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Categorías</string>
 	<string name="menu_download_title">Descargar</string>
 	<string name="menu_download_tooltip">descargar receta</string>
+	<string name="menu_import_recipe">Importar receta</string>
 	<string name="menu_refresh_tooltip">Actualizar recetas</string>
 	<string name="menu_search_title">Búsqueda avanzada</string>
 	<string name="menu_search_tooltip">Buscar receta</string>

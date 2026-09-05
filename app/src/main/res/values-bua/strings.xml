@@ -34,6 +34,12 @@
 	<string name="error_sync">Синхронизаци амжалтагүй болоо: %1$s</string>
 	<string name="folder_pick_cancel">Папка шэлэхэ хэрэгсэл хэрэглэгшын болюулагдаба</string>
 	<string name="folder_pick_success">%1$s папка шэлэгдэбэ</string>
+	<string name="form_download_commit">Татаха</string>
+	<string name="form_download_folder">Зорилготой папкые һэлгэхэ</string>
+	<string name="form_download_options">Шэлжэлтэнүүд</string>
+	<string name="form_download_override_existing">Байһан жороо үгэнүүдэй папка һэлгэхэ</string>
+	<string name="form_download_title">Жор татажа абаха</string>
+	<string name="form_download_url_hint">Жорын URL</string>
 	<string name="form_exact_search">Тодорхой бэдэрэлгэ хэхэ гү?</string>
 	<string name="form_ignore_case">Хэрэг анхаралгүй орхихо гү?</string>
 	<string name="form_search_commit">Бэдэрэлгэ</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Ангилалнууд</string>
 	<string name="menu_download_title">Татаха</string>
 	<string name="menu_download_tooltip">жороо татажа абаха</string>
+	<string name="menu_import_recipe">Жор оруулха</string>
 	<string name="menu_refresh_tooltip">Жорнуудые шэнэлхэ</string>
 	<string name="menu_search_title">Дээрэхи бэдэрэлгэ</string>
 	<string name="menu_search_tooltip">Жор бэдэрхэ</string>

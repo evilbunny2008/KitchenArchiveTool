@@ -34,6 +34,12 @@
 	<string name="error_sync">Synkronointi epäonnistui: %1$s</string>
 	<string name="folder_pick_cancel">Käyttäjä peruutti kansionvalitsimen</string>
 	<string name="folder_pick_success">Kansio %1$s valittu</string>
+	<string name="form_download_commit">Lataa</string>
+	<string name="form_download_folder">Ohita kohdekansio</string>
+	<string name="form_download_options">Vaihtoehdot</string>
+	<string name="form_download_override_existing">Korvaa olemassa oleva reseptikansio</string>
+	<string name="form_download_title">Lataa Resepti</string>
+	<string name="form_download_url_hint">Reseptin URL-osoite</string>
 	<string name="form_exact_search">Tee tarkka haku?</string>
 	<string name="form_ignore_case">Ohita kirjainkoko?</string>
 	<string name="form_search_commit">Haku</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Luokat</string>
 	<string name="menu_download_title">Lataa</string>
 	<string name="menu_download_tooltip">lataa resepti</string>
+	<string name="menu_import_recipe">Tuo resepti</string>
 	<string name="menu_refresh_tooltip">Päivitä reseptit</string>
 	<string name="menu_search_title">Tarkennettu haku</string>
 	<string name="menu_search_tooltip">Etsi resepti</string>

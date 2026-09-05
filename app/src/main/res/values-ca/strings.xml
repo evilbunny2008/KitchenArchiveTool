@@ -34,6 +34,12 @@
 	<string name="error_sync">La sincronització ha fallat: %1$s</string>
 	<string name="folder_pick_cancel">L’usuari ha cancel·lat el selector de carpetes</string>
 	<string name="folder_pick_success">Carpeta %1$s seleccionada</string>
+	<string name="form_download_commit">Descarregar</string>
+	<string name="form_download_folder">Anul·la la carpeta de destinació</string>
+	<string name="form_download_options">Opcions</string>
+	<string name="form_download_override_existing">Substitueix la carpeta de receptes existent</string>
+	<string name="form_download_title">Descarrega la recepta</string>
+	<string name="form_download_url_hint">URL de la recepta</string>
 	<string name="form_exact_search">Feu una cerca exacta?</string>
 	<string name="form_ignore_case">Ignorar majúscules i minúscules?</string>
 	<string name="form_search_commit">Cerca</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Categories</string>
 	<string name="menu_download_title">Descarregar</string>
 	<string name="menu_download_tooltip">descarregar la recepta</string>
+	<string name="menu_import_recipe">Importa la recepta</string>
 	<string name="menu_refresh_tooltip">Actualitzar receptes</string>
 	<string name="menu_search_title">Cerca avançada</string>
 	<string name="menu_search_tooltip">Cerca recepta</string>

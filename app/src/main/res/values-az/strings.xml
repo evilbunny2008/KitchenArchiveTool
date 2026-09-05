@@ -34,6 +34,12 @@
 	<string name="error_sync">Sinxronizasiya alınmadı: %1$s</string>
 	<string name="folder_pick_cancel">Qovluq seçici istifadəçi tərəfindən ləğv edildi</string>
 	<string name="folder_pick_success">%1$s qovluğu seçildi</string>
+	<string name="form_download_commit">Yüklə</string>
+	<string name="form_download_folder">Hədəf qovluğu ləğv edin</string>
+	<string name="form_download_options">Seçimlər</string>
+	<string name="form_download_override_existing">Mövcud resept qovluğunu dəyişdirin</string>
+	<string name="form_download_title">Resepti yükləyin</string>
+	<string name="form_download_url_hint">Resept URL</string>
 	<string name="form_exact_search">Dəqiq axtarış aparın?</string>
 	<string name="form_ignore_case">İşə məhəl qoymamaq?</string>
 	<string name="form_search_commit">Axtar</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Kateqoriyalar</string>
 	<string name="menu_download_title">Yüklə</string>
 	<string name="menu_download_tooltip">resepti yükləyin</string>
+	<string name="menu_import_recipe">İdxal Resepti</string>
 	<string name="menu_refresh_tooltip">Reseptləri təzələyin</string>
 	<string name="menu_search_title">Qabaqcıl Axtarış</string>
 	<string name="menu_search_tooltip">Resept axtarın</string>

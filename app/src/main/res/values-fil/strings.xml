@@ -34,6 +34,12 @@
 	<string name="error_sync">Nabigo ang pag-synchronize: %1$s</string>
 	<string name="folder_pick_cancel">Kinansela ng user ang tagapili ng folder</string>
 	<string name="folder_pick_success">Pinili ang folder na %1$s</string>
+	<string name="form_download_commit">I-download</string>
+	<string name="form_download_folder">I-override ang target na folder</string>
+	<string name="form_download_options">Mga pagpipilian</string>
+	<string name="form_download_override_existing">Palitan ang umiiral na folder ng recipe</string>
+	<string name="form_download_title">I-download ang Recipe</string>
+	<string name="form_download_url_hint">URL ng recipe</string>
 	<string name="form_exact_search">Gumawa ng eksaktong paghahanap?</string>
 	<string name="form_ignore_case">Huwag pansinin ang kaso?</string>
 	<string name="form_search_commit">Maghanap</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Mga kategorya</string>
 	<string name="menu_download_title">I-download</string>
 	<string name="menu_download_tooltip">i-download ang recipe</string>
+	<string name="menu_import_recipe">Import Recipe</string>
 	<string name="menu_refresh_tooltip">I-refresh ang mga recipe</string>
 	<string name="menu_search_title">Masusing Paghahanap</string>
 	<string name="menu_search_tooltip">Maghanap ng recipe</string>

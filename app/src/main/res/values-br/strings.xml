@@ -34,6 +34,12 @@
 	<string name="error_sync">C’hwitet en deus ar sinkronelaat : %1$s</string>
 	<string name="folder_pick_cancel">Diuzer teuliadoù nullet gant an implijer</string>
 	<string name="folder_pick_success">Diuzet eo bet an teuliad %1$s</string>
+	<string name="form_download_commit">Pellgargañ</string>
+	<string name="form_download_folder">Dilec’hiañ an teuliad tarzh</string>
+	<string name="form_download_options">Dibarzhioù</string>
+	<string name="form_download_override_existing">Erlec’hiañ an teuliad rekipeoù zo dija</string>
+	<string name="form_download_title">Pellgargañ ar rekipe</string>
+	<string name="form_download_url_hint">URL ar rekipe</string>
 	<string name="form_exact_search">Ober un enklask resis?</string>
 	<string name="form_ignore_case">Disoñjal ar c’has?</string>
 	<string name="form_search_commit">Klask</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Rummadoù</string>
 	<string name="menu_download_title">Pellgargañ</string>
 	<string name="menu_download_tooltip">pellgargañ ar rekipe</string>
+	<string name="menu_import_recipe">Enporzhiañ rekipe</string>
 	<string name="menu_refresh_tooltip">Freskaat ar rekipeoù</string>
 	<string name="menu_search_title">Klask araokaet</string>
 	<string name="menu_search_tooltip">Klask rekipeoù</string>

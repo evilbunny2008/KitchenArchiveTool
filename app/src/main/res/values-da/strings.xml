@@ -34,6 +34,12 @@
 	<string name="error_sync">Synkronisering mislykkedes: %1$s</string>
 	<string name="folder_pick_cancel">Mappevælger annulleret af bruger</string>
 	<string name="folder_pick_success">Mappe %1$s er valgt</string>
+	<string name="form_download_commit">Download</string>
+	<string name="form_download_folder">Tilsidesæt målmappe</string>
+	<string name="form_download_options">Valgmuligheder</string>
+	<string name="form_download_override_existing">Erstat eksisterende opskriftsmappe</string>
+	<string name="form_download_title">Download opskrift</string>
+	<string name="form_download_url_hint">Opskrifts URL</string>
 	<string name="form_exact_search">Foretag en nøjagtig søgning?</string>
 	<string name="form_ignore_case">Ignorer sagen?</string>
 	<string name="form_search_commit">Søge</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Kategorier</string>
 	<string name="menu_download_title">Download</string>
 	<string name="menu_download_tooltip">download opskrift</string>
+	<string name="menu_import_recipe">Importer opskrift</string>
 	<string name="menu_refresh_tooltip">Opdater opskrifter</string>
 	<string name="menu_search_title">Avanceret søgning</string>
 	<string name="menu_search_tooltip">Søg opskrift</string>

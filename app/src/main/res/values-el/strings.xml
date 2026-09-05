@@ -34,6 +34,12 @@
 	<string name="error_sync">Ο συγχρονισμός απέτυχε: %1$s</string>
 	<string name="folder_pick_cancel">Το εργαλείο επιλογής φακέλου ακυρώθηκε από τον χρήστη</string>
 	<string name="folder_pick_success">Επιλέχθηκε ο φάκελος %1$s</string>
+	<string name="form_download_commit">Λήψη</string>
+	<string name="form_download_folder">Παράκαμψη φακέλου στόχου</string>
+	<string name="form_download_options">Επιλογές</string>
+	<string name="form_download_override_existing">Αντικαταστήστε τον υπάρχοντα φάκελο συνταγών</string>
+	<string name="form_download_title">Κατεβάστε τη συνταγή</string>
+	<string name="form_download_url_hint">URL συνταγής</string>
 	<string name="form_exact_search">Κάνε μια ακριβή αναζήτηση;</string>
 	<string name="form_ignore_case">Παράβλεψη περίπτωσης;</string>
 	<string name="form_search_commit">Ερευνα</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Κατηγορίες</string>
 	<string name="menu_download_title">Λήψη</string>
 	<string name="menu_download_tooltip">κατεβάστε συνταγή</string>
+	<string name="menu_import_recipe">Συνταγή εισαγωγής</string>
 	<string name="menu_refresh_tooltip">Ανανεώστε τις συνταγές</string>
 	<string name="menu_search_title">Σύνθετη αναζήτηση</string>
 	<string name="menu_search_tooltip">Αναζήτηση συνταγής</string>

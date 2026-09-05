@@ -34,6 +34,12 @@
 	<string name="error_sync">Ukulinganisha kwafilwa: %1$s</string>
 	<string name="folder_pick_cancel">Icakusalapo ifipe cakanshiwa no muntu uubomfya</string>
 	<string name="folder_pick_success">Icibikilo %1$s icasalilwe</string>
+	<string name="form_download_commit">Ukusenda</string>
+	<string name="form_download_folder">Ukucimfya folda iyo ulefwaya</string>
+	<string name="form_download_options">Ifyakusalapo</string>
+	<string name="form_download_override_existing">Shintilishenipo folda ya fyakulya iyabako</string>
+	<string name="form_download_title">Kopa ifyakulya</string>
+	<string name="form_download_url_hint">URL ya fyakulya</string>
 	<string name="form_exact_search">Bushe kuti mwafwaya bwino bwino?</string>
 	<string name="form_ignore_case">Ukukanabika amano ku mulandu?</string>
 	<string name="form_search_commit">Fwaya fwaya</string>
@@ -56,6 +62,7 @@
 	<string name="menu_categories">Imisango</string>
 	<string name="menu_download_title">Ukusenda</string>
 	<string name="menu_download_tooltip">ukusenda ifyakulya</string>
+	<string name="menu_import_recipe">Ukuleta ifyakulya</string>
 	<string name="menu_refresh_tooltip">Ukubwekeshapo ifyakulya</string>
 	<string name="menu_search_title">Ukufwaya ukwakulisha</string>
 	<string name="menu_search_tooltip">Fwayeni ifyakulya</string>
