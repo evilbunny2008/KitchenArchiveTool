@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Wewehin dumun akun tiosan anggén nyalin resep ring pantaraning ipun</string>
 	<string name="copy_to_account_success">Kasalin ’%1$s’ ka %2$s</string>
 	<string name="copy_to_account_title">Salin resep puniki ka</string>
-	<string name="current_account_not_found_exception_message">Akun sané katunasin nénten kapanggih ring aplikasi Berkas Nextcloud</string>
-	<string name="current_account_not_found_exception_title">Akun nénten kapanggih</string>
 	<string name="delete_recipe">Icalang resep</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ pacang kaicalang selami-laminipun saking sérver. Puniki nénten prasida kawaliang</string>
 	<string name="delete_recipe_confirm_positive">Apus</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Ngranjing Tunggal</string>
 	<string name="menu_title_app">Aplikasi</string>
 	<string name="menu_uncategorized">Tan kakategoriang</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Setélan</string>
 	<string name="no_information">Nénten wénten informasi</string>
 	<string name="no_ingredients">Nénten wénten Bahan</string>
 	<string name="no_instructions">Nénten wénten pituduh</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Nyakan</string>
 	<string name="tooltip_prep_time">Parsiapan</string>
 	<string name="tooltip_total_time">Samiané</string>
-	<string name="unknown_error">Kaiwangan sané nénten kauningin</string>
 </resources>

@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Fügen Sie zunächst ein weiteres Konto hinzu, um Rezepte zwischen ihnen zu kopieren</string>
 	<string name="copy_to_account_success">’%1$s’ nach %2$s kopiert</string>
 	<string name="copy_to_account_title">Kopieren Sie dieses Rezept nach</string>
-	<string name="current_account_not_found_exception_message">Das angeforderte Konto wurde in der Nextcloud Files-App nicht gefunden</string>
-	<string name="current_account_not_found_exception_title">Konto nicht gefunden</string>
 	<string name="delete_recipe">Rezept löschen</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ wird dauerhaft vom Server gelöscht. Dies kann nicht rückgängig gemacht werden</string>
 	<string name="delete_recipe_confirm_positive">Löschen</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Single Sign-On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Nicht kategorisiert</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Einstellungen</string>
 	<string name="no_information">Keine Informationen</string>
 	<string name="no_ingredients">Keine Zutaten</string>
 	<string name="no_instructions">Keine Anweisungen</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Kochen</string>
 	<string name="tooltip_prep_time">Vorbereitung</string>
 	<string name="tooltip_total_time">Gesamt</string>
-	<string name="unknown_error">Unbekannter Fehler</string>
 </resources>

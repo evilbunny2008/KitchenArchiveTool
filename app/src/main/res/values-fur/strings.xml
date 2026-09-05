@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Azontâ un altri conto prin par copiâ lis recetis tra di lôr</string>
 	<string name="copy_to_account_success">Copiât ’%1$s’ in %2$s</string>
 	<string name="copy_to_account_title">Copiâ cheste ricete par</string>
-	<string name="current_account_not_found_exception_message">Il conto domandât nol è stât cjatât inte aplicazion Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">Conto no cjatât</string>
 	<string name="delete_recipe">Cancelâ la ricete</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ al sarà cancelât in mût permanent dal servidôr. Chest nol pues jessi disfat</string>
 	<string name="delete_recipe_confirm_positive">Scancelâ</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Accedi ugnul</string>
 	<string name="menu_title_app">Aplicazion</string>
 	<string name="menu_uncategorized">No categorizât</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Impostazions</string>
 	<string name="no_information">Nissune informazion</string>
 	<string name="no_ingredients">Nissun ingredient</string>
 	<string name="no_instructions">Nissune istruzion</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Cusinâ</string>
 	<string name="tooltip_prep_time">Preparazion</string>
 	<string name="tooltip_total_time">Totâl</string>
-	<string name="unknown_error">Erôr no cognossût</string>
 </resources>

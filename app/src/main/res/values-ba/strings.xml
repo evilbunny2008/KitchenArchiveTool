@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Улар араһында рецептарҙы күсерергә тәүҙә икенсе иҫәп яҙмаһын өҫтәгеҙ</string>
 	<string name="copy_to_account_success">’%1$s’ күсерелгән %2$s. Әгәр фотоһүрәт күрһәтмәй’ унда, был сервер ала алманы, уны бынан — өҫтәргә, уны тағы ла ҡул менән</string>
 	<string name="copy_to_account_title">Был рецепты күсерергә</string>
-	<string name="current_account_not_found_exception_message">Һоралған иҫәп яҙмаһы Nextcloud файлдар ҡушымтаһында табылмаған</string>
-	<string name="current_account_not_found_exception_title">Иҫәп яҙмаһы табылмаған</string>
 	<string name="delete_recipe">Рецептты юйырға</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ серверҙан мәңгелеккә юйыласаҡ. Был&amp;#8217;т кире ҡайтарып булмай</string>
 	<string name="delete_recipe_confirm_positive">Бөтөрөргә</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Бер тапҡыр инә</string>
 	<string name="menu_title_app">Ҡушымта</string>
 	<string name="menu_uncategorized">Категорияһыҙ</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Көйләүҙәр</string>
 	<string name="no_information">Мәғлүмәт юҡ</string>
 	<string name="no_ingredients">Ингредиенттар юҡ</string>
 	<string name="no_instructions">Инструкция юҡ</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Бешереү</string>
 	<string name="tooltip_prep_time">Әҙерлек</string>
 	<string name="tooltip_total_time">Дөйөм</string>
-	<string name="unknown_error">Билдәһеҙ хата</string>
 </resources>

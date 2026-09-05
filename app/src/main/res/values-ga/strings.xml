@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Cuir cuntas eile leis ar dtús chun oidis a chóipeáil eatarthu</string>
 	<string name="copy_to_account_success">Cóipeáladh ’%1$s’ go %2$s</string>
 	<string name="copy_to_account_title">Cóipeáil an t-oideas seo chuig</string>
-	<string name="current_account_not_found_exception_message">Ní bhfuarthas an cuntas iarrtha san aip Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">Cuntas gan aimsiú</string>
 	<string name="delete_recipe">Scrios an t-oideas</string>
 	<string name="delete_recipe_confirm_message">Scriosfar ’%1$s’ go buan ón bhfreastalaí. Ní féidir é seo a chealú</string>
 	<string name="delete_recipe_confirm_positive">Scrios</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Síniú Aonair Ar</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Gan catagóir</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Socruithe</string>
 	<string name="no_information">Gan Eolas</string>
 	<string name="no_ingredients">Uimh Comhábhair</string>
 	<string name="no_instructions">Uimh Treoracha</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Cócaireacht</string>
 	<string name="tooltip_prep_time">Ullmhúchán</string>
 	<string name="tooltip_total_time">Iomlán</string>
-	<string name="unknown_error">Earráid anaithnid</string>
 </resources>

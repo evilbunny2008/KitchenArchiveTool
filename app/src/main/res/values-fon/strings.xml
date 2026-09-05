@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Gɔ́ akɔnta ɖevo na jɛ nukɔn bo na dó kpɔ́n nǔ e è nɔ ɖa lɛ é ɖò ye tɛntin</string>
 	<string name="copy_to_account_success">È kpɔ́n ’%1$s’ dó %2$s jí</string>
 	<string name="copy_to_account_title">Kpɔ́n nǔɖúɖú élɔ́ dó</string>
-	<string name="current_account_not_found_exception_message">È mɔ akɔnta e è byɔ é ɖò Nextcloud Files app mɛ ǎ</string>
-	<string name="current_account_not_found_exception_title">È mɔ akɔnta ɔ ǎ</string>
 	<string name="delete_recipe">Súnsún nǔɖúɖú ɔ́</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ na súnsún sín serveur ɔ jí tɛgbɛ. È sixu jla nǔ elɔ ɖó ǎ</string>
 	<string name="delete_recipe_confirm_positive">Ɖè</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Nǔwlanwlán ɖokpo géé</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">È ma sɔ́ ɖó tɛnmɛ tɛnmɛ ǎ</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Nǔjlɛ́dónùwú</string>
 	<string name="no_information">Nǔ ɖebǔ ɖò finɛ ǎ</string>
 	<string name="no_ingredients">Nǔɖuɖu ɖebu ɖ’emɛ ǎ</string>
 	<string name="no_instructions">Alixlɛ́mɛ ɖě ɖò finɛ ǎ</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Sɔ́ nù</string>
 	<string name="tooltip_prep_time">Nùxámɛ</string>
 	<string name="tooltip_total_time">Nùkúnnúmɛ</string>
-	<string name="unknown_error">Nǔwanyido e è ma tuùn ǎ é</string>
 </resources>

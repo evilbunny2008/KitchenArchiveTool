@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Nayraqatax yaqha cuenta yapxatañamawa jupanak taypin recetas copiañataki</string>
 	<string name="copy_to_account_success">’%1$s’ ukat %2$s ukar copiata. Uka jamuqx jan ukan uñacht’ayaskan ukhax uka servidor ukax janiw aka chiqat apsuñjamäkänti — amparamp wasitat yapxataña</string>
 	<string name="copy_to_account_title">Aka receta ukax</string>
-	<string name="current_account_not_found_exception_message">Mayt’at cuentax janiw Nextcloud Files app ukan jikxataskänti</string>
-	<string name="current_account_not_found_exception_title">Cuenta ukax janiw jikxataskiti</string>
 	<string name="delete_recipe">Receta chhaqtayaña</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ ukax wiñayatakiw servidor ukan chhaqtayatäni. Ukax janiw kutt’ayatäkaspati</string>
 	<string name="delete_recipe_confirm_positive">Phiskhsuña</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Mä sapa Señal On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Jani categorizado ukhama</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Ukax mä juk’a pachanakanwa</string>
 	<string name="no_information">Janiwa Yatiyawixa utjkiti</string>
 	<string name="no_ingredients">Janiwa Ingredientes utjkiti</string>
 	<string name="no_instructions">Janiw Yatichäwinakax utjkiti</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Phayaskasa</string>
 	<string name="tooltip_prep_time">Wakiyawi</string>
 	<string name="tooltip_total_time">Taqpacha</string>
-	<string name="unknown_error">Jan uñt’at pantjasiwi</string>
 </resources>

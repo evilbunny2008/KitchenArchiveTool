@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Foegje earst in oar akkount ta om resepten tusken har te kopiearjen</string>
 	<string name="copy_to_account_success">’%1$s’ kopiearre nei %2$s</string>
 	<string name="copy_to_account_title">Kopiearje dit resept nei</string>
-	<string name="current_account_not_found_exception_message">It frege akkount is net fûn yn Nextcloud Files app</string>
-	<string name="current_account_not_found_exception_title">Account net fûn</string>
 	<string name="delete_recipe">Resept wiskje</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ sil permanint wiske wurde fan de tsjinner. Dit kin net ûngedien makke wurde</string>
 	<string name="delete_recipe_confirm_positive">Wiskje</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Single Sign On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Uncategorized</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Ynstellings</string>
 	<string name="no_information">Gjin ynformaasje</string>
 	<string name="no_ingredients">Gjin yngrediïnten</string>
 	<string name="no_instructions">Gjin ynstruksjes</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Koken</string>
 	<string name="tooltip_prep_time">Tarieding</string>
 	<string name="tooltip_total_time">Totaal</string>
-	<string name="unknown_error">Unbekende flater</string>
 </resources>

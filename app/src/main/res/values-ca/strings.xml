@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Afegiu primer un altre compte per copiar receptes entre ells</string>
 	<string name="copy_to_account_success">S’ha copiat ’%1$s’ a %2$s</string>
 	<string name="copy_to_account_title">Copia aquesta recepta a</string>
-	<string name="current_account_not_found_exception_message">El compte sol·licitat no s’ha trobat a l’aplicació Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">No s’ha trobat el compte</string>
 	<string name="delete_recipe">Esborra la recepta</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ s’eliminarà permanentment del servidor. Això no es pot desfer</string>
 	<string name="delete_recipe_confirm_positive">Suprimeix</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Inici de sessió únic</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Sense categoria</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Configuració</string>
 	<string name="no_information">Sense informació</string>
 	<string name="no_ingredients">Sense ingredients</string>
 	<string name="no_instructions">Sense instruccions</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Cuinar</string>
 	<string name="tooltip_prep_time">Preparació</string>
 	<string name="tooltip_total_time">Total</string>
-	<string name="unknown_error">Error desconegut</string>
 </resources>

@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Magdagdag muna ng isa pang account para kopyahin ang mga recipe sa pagitan nila</string>
 	<string name="copy_to_account_success">Kinopya ang ’%1$s’ sa %2$s</string>
 	<string name="copy_to_account_title">Kopyahin ang recipe na ito sa</string>
-	<string name="current_account_not_found_exception_message">Ang hiniling na account ay hindi nakita sa Nextcloud Files app</string>
-	<string name="current_account_not_found_exception_title">Hindi nahanap ang account</string>
 	<string name="delete_recipe">Tanggalin ang recipe</string>
 	<string name="delete_recipe_confirm_message">Ang ’%1$s’ ay permanenteng tatanggalin mula sa server. Hindi na ito maaaring bawiin</string>
 	<string name="delete_recipe_confirm_positive">Tanggalin</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Single Sign On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Hindi nakategorya</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Mga setting</string>
 	<string name="no_information">Walang Impormasyon</string>
 	<string name="no_ingredients">Walang Sangkap</string>
 	<string name="no_instructions">Walang Tagubilin</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Pagluluto</string>
 	<string name="tooltip_prep_time">Paghahanda</string>
 	<string name="tooltip_total_time">Kabuuan</string>
-	<string name="unknown_error">Hindi kilalang error</string>
 </resources>

@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Първо добавете друг акаунт, за да копирате рецепти между тях</string>
 	<string name="copy_to_account_success">’%1$s’ бе копиран в %2$s</string>
 	<string name="copy_to_account_title">Копирайте тази рецепта в</string>
-	<string name="current_account_not_found_exception_message">Заявеният акаунт не е намерен в приложението Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">Акаунтът не е намерен</string>
 	<string name="delete_recipe">Изтриване на рецепта</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ ще бъде изтрит за постоянно от сървъра. Това не може да бъде отменено</string>
 	<string name="delete_recipe_confirm_positive">Изтриване</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Единично влизане</string>
 	<string name="menu_title_app">Приложение</string>
 	<string name="menu_uncategorized">Некатегоризиран</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Настройки</string>
 	<string name="no_information">Няма информация</string>
 	<string name="no_ingredients">Без съставки</string>
 	<string name="no_instructions">Няма инструкции</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">готвене</string>
 	<string name="tooltip_prep_time">Подготовка</string>
 	<string name="tooltip_total_time">Общо</string>
-	<string name="unknown_error">Неизвестна грешка</string>
 </resources>

@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Prvo dodajte drugi nalog da kopirate recepte između njih</string>
 	<string name="copy_to_account_success">Kopirano ’%1$s’ u %2$s</string>
 	<string name="copy_to_account_title">Kopirajte ovaj recept na</string>
-	<string name="current_account_not_found_exception_message">Traženi račun nije pronađen u aplikaciji Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">Račun nije pronađen</string>
 	<string name="delete_recipe">Izbriši recept</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ će biti trajno izbrisan sa servera. Ovo se ne može poništiti</string>
 	<string name="delete_recipe_confirm_positive">Izbriši</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Single Sign On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Uncategorized</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Postavke</string>
 	<string name="no_information">Nema informacija</string>
 	<string name="no_ingredients">Bez sastojaka</string>
 	<string name="no_instructions">Nema instrukcija</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Kuvanje</string>
 	<string name="tooltip_prep_time">Priprema</string>
 	<string name="tooltip_total_time">Ukupno</string>
-	<string name="unknown_error">Nepoznata greška</string>
 </resources>

@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Gehitu beste kontu bat lehenik errezetak haien artean kopiatzeko</string>
 	<string name="copy_to_account_success">’%1$s’ %2$s era kopiatu da</string>
 	<string name="copy_to_account_title">Kopiatu errezeta hau</string>
-	<string name="current_account_not_found_exception_message">Eskatutako kontua ez da aurkitu Nextcloud Files aplikazioan</string>
-	<string name="current_account_not_found_exception_title">Ez da kontua aurkitu</string>
 	<string name="delete_recipe">Ezabatu errezeta</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ betiko ezabatuko da zerbitzaritik. Hau ezin da desegin</string>
 	<string name="delete_recipe_confirm_positive">Ezabatu</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Saioa bakarra</string>
 	<string name="menu_title_app">Aplikazioa</string>
 	<string name="menu_uncategorized">Kategoriarik gabe</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Ezarpenak</string>
 	<string name="no_information">Informaziorik ez</string>
 	<string name="no_ingredients">Osagairik gabe</string>
 	<string name="no_instructions">Argibiderik ez</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Sukaldaritza</string>
 	<string name="tooltip_prep_time">Prestaketa</string>
 	<string name="tooltip_total_time">Guztira</string>
-	<string name="unknown_error">Errore ezezaguna</string>
 </resources>

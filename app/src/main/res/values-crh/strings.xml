@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Оларнынъ арасындаки рецептлерни кочюрмек ичюн башта башкъа эсап къош</string>
 	<string name="copy_to_account_success">’%1$s’ %2$s ге кочюрильди</string>
 	<string name="copy_to_account_title">Бу рецептни кочюрип</string>
-	<string name="current_account_not_found_exception_message">Истеген эсап Nextcloud Files къулланмасында тапылмады</string>
-	<string name="current_account_not_found_exception_title">Эсап тапылмады</string>
 	<string name="delete_recipe">Рецептни ёкъ этмек</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ серверден даима ёкъ этиледжек. Буны кери къайтармакъ мумкюн дегиль</string>
 	<string name="delete_recipe_confirm_positive">Сильмек</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Бир кере кирмек</string>
 	<string name="menu_title_app">Яп</string>
 	<string name="menu_uncategorized">Категориясыз</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Параметрлер</string>
 	<string name="no_information">Малюмат ёкъ</string>
 	<string name="no_ingredients">Ингредиентлер ёкъ</string>
 	<string name="no_instructions">Талим ёкъ</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Аш пиширюв</string>
 	<string name="tooltip_prep_time">Азырлыкъ</string>
 	<string name="tooltip_total_time">Топлам оларакъ</string>
-	<string name="unknown_error">Белли олмагъан хата</string>
 </resources>

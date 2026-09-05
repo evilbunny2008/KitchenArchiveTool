@@ -24,26 +24,8 @@
 	<string name="copy_to_account_none_available">Add another account first to copy recipes between them</string>
 	<string name="copy_to_account_success">Copied ‘%1$s’ to %2$s</string>
 	<string name="copy_to_account_title">Copy this recipe to…</string>
-	<!--
-	  Below: unused placeholders for four string names AAPT2 warns about at
-	  build time ("removing resource ... without required default value").
-	  These names don't come from this app's own code; they're orphaned
-	  entries in some locale-specific translation files bundled with the
-	  Android-SingleSignOn dependency (confirmed by checking that library's
-	  own base strings.xml, where these exact names don't appear at all;
-	  only similarly-named current equivalents do, e.g. unknown_error_title
-	  instead of unknown_error), leftovers from an old rename on the
-	  library's side that never got cleaned out of every locale file.
-	  Nothing (library or app) references these old names anymore, so
-	  supplying a default here doesn't change any actual behavior; it
-	  just satisfies AAPT2's requirement that every resource name have a
-	  default somewhere, which stops it from dropping (and warning about)
-	  the otherwise unreachable translated entries. Marked non-translatable
-	  since there's no point generating 50+ locale translations for text
-	  nothing ever displays.
-	-->
-	<string name="current_account_not_found_exception_title">Account not found</string>
-	<string name="current_account_not_found_exception_message">The requested account was not found in Nextcloud Files app</string>
+	<string name="current_account_not_found_exception_title" translatable="false">Account not found</string>
+	<string name="current_account_not_found_exception_message" translatable="false">The requested account was not found in Nextcloud Files app</string>
 	<string name="delete_recipe">Delete recipe</string>
 	<string name="delete_recipe_confirm_message">"%1$s" will be permanently deleted from the server. This can’t be undone.</string>
 	<string name="delete_recipe_confirm_positive">Delete</string>
@@ -97,7 +79,7 @@
 	<string name="menu_sso">Single Sign On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Uncategorized</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Settings</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings" translatable="false">Settings</string>
 	<string name="no_information">No Information</string>
 	<string name="no_ingredients">No Ingredients</string>
 	<string name="no_instructions">No Instructions</string>
@@ -208,5 +190,5 @@
 	<string name="tooltip_cook_time">Cooking</string>
 	<string name="tooltip_prep_time">Preparation</string>
 	<string name="tooltip_total_time">Total</string>
-	<string name="unknown_error">Unknown error</string>
+	<string name="unknown_error" translatable="false">Unknown error</string>
 </resources>

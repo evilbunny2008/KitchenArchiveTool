@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">ओह लोग के बीच के रेसिपी कॉपी करे खातिर पहिले एगो अउरी खाता जोड़ीं</string>
 	<string name="copy_to_account_success">’%1$s’ के %2$s में कॉपी कइल गइल</string>
 	<string name="copy_to_account_title">एह रेसिपी के कॉपी करीं</string>
-	<string name="current_account_not_found_exception_message">नेक्स्टक्लाउड फाइल्स ऐप में अनुरोधित खाता ना मिलल</string>
-	<string name="current_account_not_found_exception_title">खाता ना मिलल</string>
 	<string name="delete_recipe">रेसिपी के हटा दिहल जाव</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ के सर्वर से स्थायी रूप से हटा दिहल जाई। एकरा के वापस ना कइल जा सके</string>
 	<string name="delete_recipe_confirm_positive">हटाईं</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">एकल साइन ऑन बा</string>
 	<string name="menu_title_app">ऐप के बा</string>
 	<string name="menu_uncategorized">बिना श्रेणीबद्ध कइल गइल बा</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">सेटिंग्स के बारे में बतावल गइल बा</string>
 	<string name="no_information">कवनो जानकारी नइखे</string>
 	<string name="no_ingredients">कवनो सामग्री नइखे</string>
 	<string name="no_instructions">कवनो निर्देश नइखे</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">खाना बनावल</string>
 	<string name="tooltip_prep_time">तईयारी</string>
 	<string name="tooltip_total_time">कुल</string>
-	<string name="unknown_error">अज्ञात त्रुटि हो गइल बा</string>
 </resources>

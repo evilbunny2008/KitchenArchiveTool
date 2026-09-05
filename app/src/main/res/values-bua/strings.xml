@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Тэдэнэй хоорондо жороо үгэнүүдые хуулбарилхын тулада түрүүн ондоо данса нэмэхэ</string>
 	<string name="copy_to_account_success">’%1$s’-ые %2$s дэ хуулбарилаа</string>
 	<string name="copy_to_account_title">Энэ жороо үгэ хуулажа</string>
-	<string name="current_account_not_found_exception_message">Хүсэһэн данса Nextcloud Files апп соо олдоогүй</string>
-	<string name="current_account_not_found_exception_title">Данса олдоогүй</string>
 	<string name="delete_recipe">Жор усадхаха</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ серверһээ хэтын хэтэдэ усадхагдаха. Энээниие һэргээжэ болохогүй</string>
 	<string name="delete_recipe_confirm_positive">Зайлуулха</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Нэгэ нэбтэрэлгэ</string>
 	<string name="menu_title_app">Апп</string>
 	<string name="menu_uncategorized">Ангилалгүй</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Тохиргоонууд</string>
 	<string name="no_information">Мэдээсэл үгы</string>
 	<string name="no_ingredients">Найрлагагүй</string>
 	<string name="no_instructions">Заабари үгы</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Шанаха</string>
 	<string name="tooltip_prep_time">Бэлэдхэл</string>
 	<string name="tooltip_total_time">Бүхы</string>
-	<string name="unknown_error">Мэдэгдээгүй алдуу</string>
 </resources>

@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Гьезда гьоркьор рецептал копия гьаризе цин цоги аккаунт тӀаде жубай</string>
 	<string name="copy_to_account_success">Копия гьабуна ’%1$s’ %2$s -алде. Если фото не показывается там, то этот сервер не мог забрать его отсюда — добавьте его снова вручную</string>
 	<string name="copy_to_account_title">Гьаб рецепт копия гьабе</string>
-	<string name="current_account_not_found_exception_message">Запрошенный аккаунт не найден в приложении Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">Аккаунт не найден</string>
 	<string name="delete_recipe">Рецепт бацӀцӀад гьабизе</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ сервералдаса даималъего бацӀцӀине буго. Гьеб нахъе бахъизе кӀоларо</string>
 	<string name="delete_recipe_confirm_positive">РикӀкӀад гьабизе</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Цо нухалъ хъвай-хъвагӀай</string>
 	<string name="menu_title_app">Приложение</string>
 	<string name="menu_uncategorized">Категория гьечӀого</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Настройки</string>
 	<string name="no_information">Информация гьечӀо</string>
 	<string name="no_ingredients">Ингредиентал гьечӀо</string>
 	<string name="no_instructions">Инструкция гьечӀо</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Квен гьабизе</string>
 	<string name="tooltip_prep_time">ХӀадурлъи гьаби</string>
 	<string name="tooltip_total_time">Киназего</string>
-	<string name="unknown_error">Лъалареб гъалатӀ</string>
 </resources>

@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">དེ་ཚུ་གི་བར་ན་ བཞེས་སྒོ་ཚུ་འདྲ་བཤུས་རྐྱབ་ནིའི་དོན་ལུ་ དང་པ་རང་ རྩིས་ཐོ་གཞན་མི་ཅིག་ཁ་སྐོང་བརྐྱབ།</string>
 	<string name="copy_to_account_success">’%1$s’ འདི་ %2$s ལུ་འདྲ་བཤུས་འབད་ཡོདཔ།</string>
 	<string name="copy_to_account_title">བཟོ་ཐབས་འདི་འདྲ་བཤུས་རྐྱབས།</string>
-	<string name="current_account_not_found_exception_message">ཞུ་བ་འབད་ཡོད་པའི་རྩིས་ཐོ་འདི་ ནེགསི་ཀླའུཌི་ཡིག་སྣོད་ཚུ་ གློག་རིམ་ནང་ འཚོལ་མ་ཐོབ།</string>
-	<string name="current_account_not_found_exception_title">རྩིས་ཐོ་མ་ཐོབ།</string>
 	<string name="delete_recipe">བཟོ་ཐངས་བཏོན་གཏང་།</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ འདི་ སར་བར་ནང་ལས་ རྟག་བརྟན་སྦེ་ བཏོན་གཏང་འོང་། འདི་འབད་བཤོལ་འབད་མི་བཏུབ།</string>
 	<string name="delete_recipe_confirm_positive">བཏོན༌གཏང༌བ</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">མིང་རྟགས་རྐྱང་པ།</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">དབྱེ་སེལ་མ་འབད་བ།</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">སྒྲིག་སྟངས་ཚུ།</string>
 	<string name="no_information">བརྡ་དོན་མེད།</string>
 	<string name="no_ingredients">རྒྱུ་ཆ་མེད།</string>
 	<string name="no_instructions">བཀའ་སློབ་མེད།</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">ཐབ་གཡོག</string>
 	<string name="tooltip_prep_time">གྲ༌སྒྲིག</string>
 	<string name="tooltip_total_time">ཡོངས༌བསྡོམ</string>
-	<string name="unknown_error">མ་ཤེས་པའི་འཛོལ་བ།</string>
 </resources>

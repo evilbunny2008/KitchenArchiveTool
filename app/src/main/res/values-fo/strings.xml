@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Legg eina aðra kontu til fyrst fyri at avrita uppskriftir teirra millum</string>
 	<string name="copy_to_account_success">Avritað ’%1$s’ til %2$s</string>
 	<string name="copy_to_account_title">Avrita hesa uppskriftina til</string>
-	<string name="current_account_not_found_exception_message">Umbidna kontan varð ikki funnin í Nextcloud Fílur appini</string>
-	<string name="current_account_not_found_exception_title">Konta ikki funnin</string>
 	<string name="delete_recipe">Strika uppskrift</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ verður varandi strikað frá ambætaranum. Hetta kann ikki rættast</string>
 	<string name="delete_recipe_confirm_positive">Strúka burtur</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Ein skelti á</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Óflokkað</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Innstillingar</string>
 	<string name="no_information">Ongar upplýsingar</string>
 	<string name="no_ingredients">Einki tilfar</string>
 	<string name="no_instructions">Eingin vegleiðing</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Matgerða</string>
 	<string name="tooltip_prep_time">Fyrireiking</string>
 	<string name="tooltip_total_time">Samantald upphædd</string>
-	<string name="unknown_error">Ókendur feilur</string>
 </resources>

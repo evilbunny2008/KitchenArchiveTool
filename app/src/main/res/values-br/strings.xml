@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Ouzhpennit ur gont all da gentañ evit eilañ rekipeoù etrezo</string>
 	<string name="copy_to_account_success">Eilet ’%1$s’ da %2$s</string>
 	<string name="copy_to_account_title">Eilañ ar rekipe-mañ da</string>
-	<string name="current_account_not_found_exception_message">N’eo ket bet kavet ar gont goulennet en arload Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">N’eo ket bet kavet ur gont</string>
 	<string name="delete_recipe">Dilemel ar rekipe</string>
 	<string name="delete_recipe_confirm_message">Diverket e vo ’%1$s’ diouzh an dafariad da viken. N’haller ket distreiñ d’an dra-se</string>
 	<string name="delete_recipe_confirm_positive">Dilemel</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Kevreañ unvan</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Dirummet</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Arventennoù</string>
 	<string name="no_information">Titour ebet</string>
 	<string name="no_ingredients">Danvez ebet</string>
 	<string name="no_instructions">Titouroù ebet</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">O keginañ</string>
 	<string name="tooltip_prep_time">Prientidigezh</string>
 	<string name="tooltip_total_time">Hollad</string>
-	<string name="unknown_error">Fazi dianav</string>
 </resources>

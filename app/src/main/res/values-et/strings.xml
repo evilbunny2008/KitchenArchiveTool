@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Retseptide kopeerimiseks nende vahel lisage esmalt teine ​​konto</string>
 	<string name="copy_to_account_success">’%1$s’ kopeeriti asukohta %2$s</string>
 	<string name="copy_to_account_title">Kopeerige see retsept siia</string>
-	<string name="current_account_not_found_exception_message">Taotletud kontot ei leitud rakendusest Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">Kontot ei leitud</string>
 	<string name="delete_recipe">Kustuta retsept</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ kustutatakse serverist jäädavalt. Seda ei saa tagasi võtta</string>
 	<string name="delete_recipe_confirm_positive">Kustuta</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Ühekordne sisselogimine</string>
 	<string name="menu_title_app">Rakendus</string>
 	<string name="menu_uncategorized">Kategooriata</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Seaded</string>
 	<string name="no_information">Info puudub</string>
 	<string name="no_ingredients">Koostisosad puuduvad</string>
 	<string name="no_instructions">Juhised puuduvad</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Toiduvalmistamine</string>
 	<string name="tooltip_prep_time">Ettevalmistus</string>
 	<string name="tooltip_total_time">Kokku</string>
-	<string name="unknown_error">Tundmatu viga</string>
 </resources>

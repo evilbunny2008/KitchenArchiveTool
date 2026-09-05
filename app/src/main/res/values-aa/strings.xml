@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Ken fanat tanih tan maaqo bicsiyyih korraq qimmol gersi akkaawonti osis</string>
 	<string name="copy_to_account_success">korsimeh ’%1$s’ ilaa %2$s. Foto copy abeh sugem — Cookbook server inkih elle geytimam mali, tohih taagah qagitaak gabat ossimtaah, tokkel faxxam tekkek</string>
 	<string name="copy_to_account_title">tama maaqo bicsiyyi miracsenta korraq</string>
-	<string name="current_account_not_found_exception_message">esserimte akkaawonti ciggiila qammurreh cibtih abnissol mageytiminna</string>
-	<string name="current_account_not_found_exception_title">Cisab mageytima</string>
 	<string name="delete_recipe">maaqo bicsiyyi miracsenta duuga</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ maytanih ayfaf duugumele. Taham gactam madudda</string>
 	<string name="delete_recipe_confirm_positive">Bayis</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Inki Asta Fakut tan</string>
 	<string name="menu_title_app">Assabalta</string>
 	<string name="menu_uncategorized">kurruume wayte</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">guddaaqa</string>
 	<string name="no_information">Oyti mayan</string>
 	<string name="no_ingredients">Faaritte uli</string>
 	<string name="no_instructions">Miracsentitte matan</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Maaqoh alaysiyya</string>
 	<string name="tooltip_prep_time">Bicà</string>
 	<string name="tooltip_total_time">Amolladih</string>
-	<string name="unknown_error">Amixxige sinni qellat</string>
 </resources>

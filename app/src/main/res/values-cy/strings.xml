@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Ychwanegwch gyfrif arall yn gyntaf i gopïo ryseitiau rhyngddynt</string>
 	<string name="copy_to_account_success">Wedi copïo ’%1$s’ i %2$s</string>
 	<string name="copy_to_account_title">Copïwch y rysáit hwn i</string>
-	<string name="current_account_not_found_exception_message">Ni chanfuwyd y cyfrif y gofynnwyd amdano yn ap Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">Cyfrif heb ei ganfod</string>
 	<string name="delete_recipe">Dileu rysáit</string>
 	<string name="delete_recipe_confirm_message">Bydd ’%1$s’ yn cael ei ddileu yn barhaol o’r gweinydd. Ni ellir dadwneud hyn</string>
 	<string name="delete_recipe_confirm_positive">Dileu</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Arwyddo Sengl</string>
 	<string name="menu_title_app">Ap</string>
 	<string name="menu_uncategorized">Uncategorized</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Gosodiadau</string>
 	<string name="no_information">Dim Gwybodaeth</string>
 	<string name="no_ingredients">Dim Cynhwysion</string>
 	<string name="no_instructions">Dim Cyfarwyddiadau</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Coginio</string>
 	<string name="tooltip_prep_time">Paratoi</string>
 	<string name="tooltip_total_time">Cyfanswm</string>
-	<string name="unknown_error">Gwall anhysbys</string>
 </resources>

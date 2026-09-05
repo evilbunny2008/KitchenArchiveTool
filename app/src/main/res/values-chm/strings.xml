@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Нунын коклаште рецепт-влакым копироватлаш ончыч вес аккаунтым ешарыза</string>
 	<string name="copy_to_account_success">’%1$s’-ым %2$s ыш копироватлен</string>
 	<string name="copy_to_account_title">Тиде рецептым копироватлаш</string>
-	<string name="current_account_not_found_exception_message">Йодмо шотышто Nextcloud Files приложенийыште муын огыл</string>
-	<string name="current_account_not_found_exception_title">Шот мумо огыл</string>
 	<string name="delete_recipe">Рецептым кораҥдаш</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ сервер гыч мӧҥгеш кораҥдалтеш. Тидым ышташ ок лий</string>
 	<string name="delete_recipe_confirm_positive">Кораҥдаш</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Ик гана пураш</string>
 	<string name="menu_title_app">Приложений</string>
 	<string name="menu_uncategorized">Категорий деч посна</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Параметр-влак</string>
 	<string name="no_information">Информаций уке</string>
 	<string name="no_ingredients">Нимогай кочкыш вещества уке</string>
 	<string name="no_instructions">Инструкций уке</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Кулинария</string>
 	<string name="tooltip_prep_time">Ямдылалтыт</string>
 	<string name="tooltip_total_time">Чылаже</string>
-	<string name="unknown_error">Палыдыме йоҥылыш</string>
 </resources>

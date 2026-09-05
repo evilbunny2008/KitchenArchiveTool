@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Pagdugang og laing account una aron makopya ang mga resipe tali kanila</string>
 	<string name="copy_to_account_success">Gikopya ang ’%1$s’ ngadto sa %2$s</string>
 	<string name="copy_to_account_title">Kopyaha kini nga resipe sa</string>
-	<string name="current_account_not_found_exception_message">Ang gihangyo nga account wala makit-an sa Nextcloud Files app</string>
-	<string name="current_account_not_found_exception_title">Wala makit-an ang account</string>
 	<string name="delete_recipe">Pagtangtang sa resipe</string>
 	<string name="delete_recipe_confirm_message">Ang ’%1$s’ permanenteng mapapas gikan sa server. Kini dili na mabawi</string>
 	<string name="delete_recipe_confirm_positive">Pagtangtang</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Single Sign On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Uncategorized</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Mga setting</string>
 	<string name="no_information">Walay Impormasyon</string>
 	<string name="no_ingredients">Walay Ingredients</string>
 	<string name="no_instructions">Walay Instruksyon</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Pagluto</string>
 	<string name="tooltip_prep_time">Pagpangandam</string>
 	<string name="tooltip_total_time">Total</string>
-	<string name="unknown_error">Wala mailhi nga sayup</string>
 </resources>

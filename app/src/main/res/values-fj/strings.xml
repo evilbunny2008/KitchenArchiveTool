@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Kuria e dua tale na akaude taumada me kopitaka na recipes ena kedrau maliwa</string>
 	<string name="copy_to_account_success">Kopitaki ’%1$s’ ki na %2$s</string>
 	<string name="copy_to_account_title">Kopitaka na ivakarau oqo ki na</string>
-	<string name="current_account_not_found_exception_message">Na akaude kerei e sega ni kunei ena Nextcloud faile app</string>
-	<string name="current_account_not_found_exception_title">Sega ni kunei na akaude</string>
 	<string name="delete_recipe">Bokoca na ivakarau ni kana</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ ena bokoci vakadua mai na veiqaravi. E sega ni rawa ni vakasukai oqo</string>
 	<string name="delete_recipe_confirm_positive">Bokoca</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Saini duadua</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Sega ni vakawasewasetaki</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Tuvatuva</string>
 	<string name="no_information">Sega na itukutuku</string>
 	<string name="no_ingredients">Sega na veika e vakayagataki</string>
 	<string name="no_instructions">Sega na veidusimaki</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Vakasaqa</string>
 	<string name="tooltip_prep_time">Vakarautaki</string>
 	<string name="tooltip_total_time">Iwiliwili taucoko</string>
-	<string name="unknown_error">Cala sega ni kilai</string>
 </resources>

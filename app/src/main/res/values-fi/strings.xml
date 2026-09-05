@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Lisää ensin toinen tili kopioidaksesi reseptejä niiden välillä</string>
 	<string name="copy_to_account_success">%1$s kopioitiin kohteeseen %2$s</string>
 	<string name="copy_to_account_title">Kopioi tämä resepti kohteeseen</string>
-	<string name="current_account_not_found_exception_message">Pyydettyä tiliä ei löytynyt Nextcloud Files -sovelluksesta</string>
-	<string name="current_account_not_found_exception_title">Tiliä ei löydy</string>
 	<string name="delete_recipe">Poista resepti</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ poistetaan pysyvästi palvelimelta. Tätä ei voi kumota</string>
 	<string name="delete_recipe_confirm_positive">Poistaa</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Kertakirjautuminen</string>
 	<string name="menu_title_app">Sovellus</string>
 	<string name="menu_uncategorized">Luokittelematon</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Asetukset</string>
 	<string name="no_information">Ei tietoa</string>
 	<string name="no_ingredients">Ei ainesosia</string>
 	<string name="no_instructions">Ei ohjeita</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Ruoanlaitto</string>
 	<string name="tooltip_prep_time">Valmistelu</string>
 	<string name="tooltip_total_time">Kokonais</string>
-	<string name="unknown_error">Tuntematon virhe</string>
 </resources>

@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Med akaunti mukene mukwongo me coyo jami ma ki yubu i kin gii</string>
 	<string name="copy_to_account_success">Ki kwanyo ’%1$s’ me doko %2$s. cal ni pe ki kwanyo — latic me buk me tedo pe ki yoo me nongo acel, ki dong med ne ki cingi ka imito ni obed kunu</string>
 	<string name="copy_to_account_title">Coy gin ma ki yubu me yubu cam ni i</string>
-	<string name="current_account_not_found_exception_message">Akaunti ma ki penyo ni pe ki nongo i Nextcloud Files app</string>
-	<string name="current_account_not_found_exception_title">Akaunti pe ki nongo</string>
 	<string name="delete_recipe">Kwany kit me yubu cam ni</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ ki bi rwenyo matwal ki i kom latic. Man pe kitwero dwoko cen</string>
 	<string name="delete_recipe_confirm_positive">Weyo</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Donyo acel</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Pe ki keto i dul</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Kit ma ki keto kwede</string>
 	<string name="no_information">Pe tye ngec mo</string>
 	<string name="no_ingredients">Pe tye jami ma ki keto iye</string>
 	<string name="no_instructions">Pe tye cik mo</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Tedo</string>
 	<string name="tooltip_prep_time">Yubu</string>
 	<string name="tooltip_total_time">Wel weng</string>
-	<string name="unknown_error">Bal ma pe ki ngeyo</string>
 </resources>

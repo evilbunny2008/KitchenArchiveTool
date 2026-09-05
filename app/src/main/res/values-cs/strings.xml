@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Nejprve přidejte další účet, abyste mezi ně zkopírovali recepty</string>
 	<string name="copy_to_account_success">’%1$s’ zkopírováno do %2$s</string>
 	<string name="copy_to_account_title">Zkopírujte tento recept do</string>
-	<string name="current_account_not_found_exception_message">Požadovaný účet nebyl v aplikaci Nextcloud Files nalezen</string>
-	<string name="current_account_not_found_exception_title">Účet nenalezen</string>
 	<string name="delete_recipe">Smazat recept</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ bude trvale smazáno ze serveru. Toto nelze vrátit zpět</string>
 	<string name="delete_recipe_confirm_positive">Vymazat</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Jednotné přihlášení</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Nezařazené</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Nastavení</string>
 	<string name="no_information">Žádné informace</string>
 	<string name="no_ingredients">Žádné ingredience</string>
 	<string name="no_instructions">Žádné pokyny</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Vaření</string>
 	<string name="tooltip_prep_time">Příprava</string>
 	<string name="tooltip_total_time">Celkový</string>
-	<string name="unknown_error">Neznámá chyba</string>
 </resources>

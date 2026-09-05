@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Ɓeydu konte goɗɗe ko adii ngam ƴettude recipeeji hakkunde majji</string>
 	<string name="copy_to_account_success">Koppi ’%1$s’ e %2$s</string>
 	<string name="copy_to_account_title">Koppir ndeeɗoo deftere to</string>
-	<string name="current_account_not_found_exception_message">Konte ɗaɓɓaaɗe ɗee tawaaka e app Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">Konte ɗee njiytaaka</string>
 	<string name="delete_recipe">Mumtu resipe</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ maa momte haa abada e serwer oo. Ɗuum waawaa ustaade</string>
 	<string name="delete_recipe_confirm_positive">Wilugo</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Sign Gooto On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Kategoriyaaka</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Dottaaɗe</string>
 	<string name="no_information">Alaa Kabaaru</string>
 	<string name="no_ingredients">Alaa ko woni heen</string>
 	<string name="no_instructions">Alaa Jamirooje</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">Deffugo</string>
 	<string name="tooltip_prep_time">Taskaram</string>
 	<string name="tooltip_total_time">Fu</string>
-	<string name="unknown_error">Juumre nde anndaaka</string>
 </resources>

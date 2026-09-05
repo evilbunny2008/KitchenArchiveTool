@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">Aghjunghjite un altru contu prima per copià e ricette trà elli</string>
 	<string name="copy_to_account_success">Copiatu ’%1$s’ à %2$s</string>
 	<string name="copy_to_account_title">Copia sta ricetta à</string>
-	<string name="current_account_not_found_exception_message">U contu dumandatu ùn hè micca truvatu in l’app Nextcloud Files</string>
-	<string name="current_account_not_found_exception_title">Cuntu micca trovu</string>
 	<string name="delete_recipe">Sguassà a ricetta</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ serà sguassatu permanentemente da u servitore. Questu ùn pò micca esse annullatu</string>
 	<string name="delete_recipe_confirm_positive">Sguassà</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Single Sign On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Uncategorized</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Settings</string>
 	<string name="no_information">Nisuna infurmazione</string>
 	<string name="no_ingredients">Nisun Ingredienti</string>
 	<string name="no_instructions">Nisuna Istruzzioni</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">A cucina</string>
 	<string name="tooltip_prep_time">Preparazione</string>
 	<string name="tooltip_total_time">Totale</string>
-	<string name="unknown_error">Errore scunnisciutu</string>
 </resources>

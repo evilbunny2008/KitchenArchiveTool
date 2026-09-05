@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">ابتدا حساب دیگری اضافه کنید تا دستور العمل ها را بین آنها کپی کنید</string>
 	<string name="copy_to_account_success">’%1$s’ در %2$s کپی شد</string>
 	<string name="copy_to_account_title">این دستور پخت را در</string>
-	<string name="current_account_not_found_exception_message">حساب درخواستی در برنامه Nextcloud Files پیدا نشد</string>
-	<string name="current_account_not_found_exception_title">حساب پیدا نشد</string>
 	<string name="delete_recipe">دستور غذا را حذف کنید</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ برای همیشه از سرور حذف خواهد شد. این قابل واگرد نیست</string>
 	<string name="delete_recipe_confirm_positive">حذف کنید</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">Single Sign On</string>
 	<string name="menu_title_app">برنامه</string>
 	<string name="menu_uncategorized">دسته بندی نشده</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">تنظیمات</string>
 	<string name="no_information">بدون اطلاعات</string>
 	<string name="no_ingredients">بدون مواد تشکیل دهنده</string>
 	<string name="no_instructions">بدون دستورالعمل</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">آشپزی</string>
 	<string name="tooltip_prep_time">آماده سازی</string>
 	<string name="tooltip_total_time">مجموع</string>
-	<string name="unknown_error">خطای ناشناخته</string>
 </resources>

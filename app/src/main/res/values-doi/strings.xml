@@ -21,8 +21,6 @@
 	<string name="copy_to_account_none_available">उंदे बश्कार नुस्खे नकल करने लेई पैह् ले इक होर खाता जोड़ो</string>
 	<string name="copy_to_account_success">’%1$s’ गी %2$s च नकल कीती गेई</string>
 	<string name="copy_to_account_title">इस नुस्खे दी नकल करो</string>
-	<string name="current_account_not_found_exception_message">मंग कीती गेदी खाता नेक्स्टक्लाउड फाइलें ऐप च नेईं लब्भा</string>
-	<string name="current_account_not_found_exception_title">खाता नहीं मिलया</string>
 	<string name="delete_recipe">नुस्खा dलीट करो</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ गी सर्वर थमां स्थाई रूप कन्नै हटाई दित्ता जाग. इसगी वापस नेईं कीता जाई सकदा।</string>
 	<string name="delete_recipe_confirm_positive">म्हेसना</string>
@@ -74,7 +72,6 @@
 	<string name="menu_sso">सिंगल साइन ऑन</string>
 	<string name="menu_title_app">ऐप</string>
 	<string name="menu_uncategorized">अश्रेणीबद्ध</string>
-	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">सेटिंग्स</string>
 	<string name="no_information">कोई जानकारी नहीं</string>
 	<string name="no_ingredients">कोई सामग्री नहीं</string>
 	<string name="no_instructions">कोई निर्देश नहीं</string>
@@ -155,5 +152,4 @@
 	<string name="tooltip_cook_time">रुट्टी बनाना</string>
 	<string name="tooltip_prep_time">तेयारी</string>
 	<string name="tooltip_total_time">कुल</string>
-	<string name="unknown_error">अज्ञात त्रुटि</string>
 </resources>
