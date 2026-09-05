@@ -119,7 +119,7 @@
 	<string name="preftitle_recipeDir">Recipe Directory</string>
 	<string name="preftitle_theme">Select Theme</string>
 	<string name="rationale_permissions">Rationale: %s</string>
-	<string name="recipe_details_tabs">Recipe is organised in tabs</string>
+	<string name="recipe_details_tabs">Recipe is organized in tabs</string>
 	<string name="recipe_import_dialog_hint">Recipe URL</string>
 	<string name="recipe_import_dialog_positive">Import</string>
 	<string name="recipe_import_dialog_title">Import recipe from URL</string>
