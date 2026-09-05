@@ -105,3 +105,4 @@ Session.vim
 .cxx
 release/
 /gradle*
+dist/
