@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Ka por login ka la kut. Pyrshang biang</string>
 	<string name="recipe_import_login_title">Log in sha ka Nextcloud</string>
 	<string name="recipe_import_menu_title">Pynrung ia ka rukom shet na ka URL</string>
+	<string name="recipe_import_service_url_hint">URL jong ka jingshakri ban wanrah jingbam</string>
 	<string name="recipe_list_image_desc">Ka dur rit jong ka rukom shet</string>
 	<string name="recipe_no_timer">Kane ka Recipe kam don timer!</string>
 	<string name="request_again">Kyrpad biang</string>

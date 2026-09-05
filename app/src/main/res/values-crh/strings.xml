@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Кириш вакъты битти. Кене тырышынъыз</string>
 	<string name="recipe_import_login_title">Невбеттеки булуткъа киринъиз</string>
 	<string name="recipe_import_menu_title">Рецептни URL-ден импорт этинъиз</string>
+	<string name="recipe_import_service_url_hint">Рецепт импорт хызметининъ URL адреси</string>
 	<string name="recipe_list_image_desc">Рецептнинъ ресимининъ кичик ресими</string>
 	<string name="recipe_no_timer">Бу Рецептнинъ таймери ёкъ!</string>
 	<string name="request_again">Кене де риджа этинъиз</string>

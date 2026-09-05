@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Λήξη χρόνου σύνδεσης. Προσπαθήστε ξανά</string>
 	<string name="recipe_import_login_title">Συνδεθείτε στο Nextcloud</string>
 	<string name="recipe_import_menu_title">Εισαγωγή συνταγής από τη διεύθυνση URL</string>
+	<string name="recipe_import_service_url_hint">URL υπηρεσίας εισαγωγής συνταγής</string>
 	<string name="recipe_list_image_desc">Μικρογραφία εικόνας συνταγής</string>
 	<string name="recipe_no_timer">Αυτή η συνταγή δεν έχει χρονόμετρο!</string>
 	<string name="request_again">Ζητήστε ξανά</string>

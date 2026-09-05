@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Aonmelde is verlore. Probeer nog ummer</string>
 	<string name="recipe_import_login_title">Log in bij Nextcloud</string>
 	<string name="recipe_import_menu_title">Recept importere vaan URL</string>
+	<string name="recipe_import_service_url_hint">Recepte-importservice-URL</string>
 	<string name="recipe_list_image_desc">Miniatuur vaan ’t recept</string>
 	<string name="recipe_no_timer">Dit resep heet gein timer!</string>
 	<string name="request_again">Verzörg nog ummer</string>

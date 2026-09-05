@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Loktu loginbe dawono. Waltǝ jarabne</string>
 	<string name="recipe_import_login_title">Nextcloud ro gayin</string>
 	<string name="recipe_import_menu_title">Recipe URL lan ikko</string>
+	<string name="recipe_import_service_url_hint">URL sabis awo kǝmbube ikkobe</string>
 	<string name="recipe_list_image_desc">Foto gana kǝmbu detabe</string>
 	<string name="recipe_no_timer">Recipe adə timer bawo!</string>
 	<string name="request_again">Waltǝm mǝradǝne</string>

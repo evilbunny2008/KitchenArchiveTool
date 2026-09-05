@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Masuk ma habis tingkina. Coba ma muse</string>
 	<string name="recipe_import_login_title">Masuk ma tu awan na mangihut</string>
 	<string name="recipe_import_menu_title">Impor resep sian URL</string>
+	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar kecil resep</string>
 	<string name="recipe_no_timer">Resep on ndang adong tingkina!</string>
 	<string name="request_again">Pangidoan muse</string>

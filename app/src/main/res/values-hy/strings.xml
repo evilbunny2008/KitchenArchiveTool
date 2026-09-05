@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Մուտքի ժամանակը սպառվել է: Նորից փորձեք:</string>
 	<string name="recipe_import_login_title">Մուտք գործեք Nextcloud</string>
 	<string name="recipe_import_menu_title">Ներմուծեք բաղադրատոմսը URL-ից</string>
+	<string name="recipe_import_service_url_hint">Բաղադրատոմսի ներմուծման ծառայության URL</string>
 	<string name="recipe_list_image_desc">Բաղադրատոմսի պատկերի մանրապատկեր</string>
 	<string name="recipe_no_timer">Այս բաղադրատոմսը չունի ժամանակաչափ:</string>
 	<string name="request_again">Նորից խնդրեք</string>

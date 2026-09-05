@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Час для ўваходу скончыўся. Паспрабуйце яшчэ раз</string>
 	<string name="recipe_import_login_title">Увайдзіце ў Nextcloud</string>
 	<string name="recipe_import_menu_title">Імпартаваць рэцэпт з URL</string>
+	<string name="recipe_import_service_url_hint">URL службы імпарту рэцэптаў</string>
 	<string name="recipe_list_image_desc">Мініяцюра рэцэпту</string>
 	<string name="recipe_no_timer">Гэты рэцэпт не мае таймера!</string>
 	<string name="request_again">Зноў запытаць</string>

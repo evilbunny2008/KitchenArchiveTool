@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Hwenu e è na byɔ mɛ é ko wá yì. Lɛ̌ vɔ tɛ́n kpɔ́n</string>
 	<string name="recipe_import_login_title">Mi byɔ Nextcloud mɛ</string>
 	<string name="recipe_import_menu_title">Sɔ́ nǔɖúɖu sín URL jí</string>
+	<string name="recipe_import_service_url_hint">URL nuɖuɖu hɛn wá</string>
 	<string name="recipe_list_image_desc">Nuɖuɖu ɔ sín ɖiɖe kpɛví</string>
 	<string name="recipe_no_timer">Recipe elɔ ɖó hwenu ɖé ǎ!</string>
 	<string name="request_again">Mi lɛvɔ byɔ</string>

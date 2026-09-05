@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">زمان ورود به سیستم تمام شد. دوباره امتحان کنید</string>
 	<string name="recipe_import_login_title">وارد Nextcloud شوید</string>
 	<string name="recipe_import_menu_title">دستور غذا را از URL وارد کنید</string>
+	<string name="recipe_import_service_url_hint">URL سرویس واردات دستور غذا</string>
 	<string name="recipe_list_image_desc">تصویر کوچک دستور غذا</string>
 	<string name="recipe_no_timer">این دستور پخت تایمر ندارد!</string>
 	<string name="request_again">دوباره درخواست کن</string>

@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">ログインがタイムアウトしました。もう一度やり直してください。</string>
 	<string name="recipe_import_login_title">Nextcloudにログインする</string>
 	<string name="recipe_import_menu_title">URLからレシピをインポート</string>
+	<string name="recipe_import_service_url_hint">レシピインポートサービスURL</string>
 	<string name="recipe_list_image_desc">レシピの画像サムネイル</string>
 	<string name="recipe_no_timer">このレシピにはタイマーがありません。</string>
 	<string name="request_again">再度リクエストしてください</string>

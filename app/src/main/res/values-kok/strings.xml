@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">लॉगिन वेळ सोंपलो. परतून यत्न करात</string>
 	<string name="recipe_import_login_title">नेक्स्टक्लाउडांत लॉग इन करात</string>
 	<string name="recipe_import_menu_title">URL वयल्यान रेसिपी आयात करात</string>
+	<string name="recipe_import_service_url_hint">रेसिपी आयात सेवा URL</string>
 	<string name="recipe_list_image_desc">रेसिपीचें प्रतिमा लघुप्रतिमा</string>
 	<string name="recipe_no_timer">ह्या रेसिपींत टाइमर ना!</string>
 	<string name="request_again">परतून विनंती करात</string>

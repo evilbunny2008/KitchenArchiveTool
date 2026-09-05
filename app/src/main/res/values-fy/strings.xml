@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Oanmelde time-out. Besykje opnij</string>
 	<string name="recipe_import_login_title">Oanmelde by Nextcloud</string>
 	<string name="recipe_import_menu_title">Ymportearje resept fan URL</string>
+	<string name="recipe_import_service_url_hint">Recipe ymportearje tsjinst URL</string>
 	<string name="recipe_list_image_desc">Ofbyldings thumbnail fan resept</string>
 	<string name="recipe_no_timer">Dit resept hat gjin timer!</string>
 	<string name="request_again">Nochris oanfreegje</string>

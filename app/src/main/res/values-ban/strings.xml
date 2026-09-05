@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Galah ngranjing sampun telas. Indayang malih</string>
 	<string name="recipe_import_login_title">Ngranjing ka Awan Selanturnyané</string>
 	<string name="recipe_import_menu_title">Impor resep saking URL</string>
+	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar mini resep</string>
 	<string name="recipe_no_timer">Resep puniki nenten madue timer!</string>
 	<string name="request_again">Pinunas malih</string>

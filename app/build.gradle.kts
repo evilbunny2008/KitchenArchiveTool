@@ -241,7 +241,7 @@ dependencies {
     implementation(libs.androidx.legacy.support.v4)
     // For encrypting the recipe-import app password at rest (see
     // RecipeImportCredentialStore). EncryptedSharedPreferences is
-    // deprecated as of security-crypto 1.1.0-alpha07 in favor of
+    // deprecated as of security-crypto 1.1.0-alpha07 in favour of
     // DataStore+Tink, but it's still fully functional in this stable
     // 1.1.0 release, and it's a well-tested, well-understood API --
     // hand-rolling fresh Tink/Keystore code for this instead isn't
@@ -302,7 +302,7 @@ dependencies {
     // WorkManager -- replaces SyncService (foreground Service + raw
     // AlarmManager repeating alarm) for background recipe sync. No
     // FOREGROUND_SERVICE permission or persistent notification needed,
-    // Doze/battery-optimization compliance is automatic, and periodic
+    // Doze/battery-optimisation compliance is automatic, and periodic
     // work survives reboots without an app-side BOOT_COMPLETED receiver.
     implementation(libs.androidx.work.runtime.ktx)
 }

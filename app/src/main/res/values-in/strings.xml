@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Waktu masuk habis. Coba lagi</string>
 	<string name="recipe_import_login_title">Masuk ke Nextcloud</string>
 	<string name="recipe_import_menu_title">Impor resep dari URL</string>
+	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar thumbnail resep</string>
 	<string name="recipe_no_timer">Resep ini tidak memiliki pengatur waktu!</string>
 	<string name="request_again">Minta lagi</string>

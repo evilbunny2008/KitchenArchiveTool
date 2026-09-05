@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Naubos na an oras kan pag-login. Probaran giraray</string>
 	<string name="recipe_import_login_title">Mag-log in sa Nextcloud</string>
 	<string name="recipe_import_menu_title">I-import an resipe gikan sa URL</string>
+	<string name="recipe_import_service_url_hint">URL kan serbisyo sa pag-import nin resipe</string>
 	<string name="recipe_list_image_desc">Thumbnail kan resipe</string>
 	<string name="recipe_no_timer">An Resipe na ini mayo nin timer!</string>
 	<string name="request_again">Maghagad giraray</string>

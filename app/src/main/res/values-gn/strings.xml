@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Oike tiempo oñemohu’ã. Eñeha’ã jey</string>
 	<string name="recipe_import_login_title">Eike Nextcloud-pe</string>
 	<string name="recipe_import_menu_title">Egueru receta URL-gui</string>
+	<string name="recipe_import_service_url_hint">URL servicio importación receta rehegua</string>
 	<string name="recipe_list_image_desc">Ta’anga michĩmi receta rehegua</string>
 	<string name="recipe_no_timer">¡Ko Receta ndorekói peteĩ temporizador!</string>
 	<string name="request_again">Ejerure jey</string>

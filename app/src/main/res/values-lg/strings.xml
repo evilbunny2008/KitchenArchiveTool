@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Okuyingira kwaggwaako. Gezaako nate</string>
 	<string name="recipe_import_login_title">Yingira mu Nextcloud</string>
 	<string name="recipe_import_menu_title">Yingiza enkola y’emmere okuva ku URL</string>
+	<string name="recipe_import_service_url_hint">URL y’empeereza y’okuyingiza enkola y’emmere</string>
 	<string name="recipe_list_image_desc">Ekifaananyi ekitono eky’enkola y’emmere</string>
 	<string name="recipe_no_timer">Recipe eno terina timer!</string>
 	<string name="request_again">Ddamu osabe</string>

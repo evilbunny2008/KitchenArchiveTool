@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Se agotó el tiempo de inicio de sesión. Intentar otra vez</string>
 	<string name="recipe_import_login_title">Inicia sesión en Nextcloud</string>
 	<string name="recipe_import_menu_title">Importar receta desde URL</string>
+	<string name="recipe_import_service_url_hint">URL del servicio de importación de recetas</string>
 	<string name="recipe_list_image_desc">Miniatura de imagen de la receta</string>
 	<string name="recipe_no_timer">¡Esta receta no tiene cronómetro!</string>
 	<string name="request_again">Solicitar nuevamente</string>

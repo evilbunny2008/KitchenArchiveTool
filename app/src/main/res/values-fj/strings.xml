@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Sa oti na gauna ni curu. Tovolea tale</string>
 	<string name="recipe_import_login_title">Vakacuruma ki na o ka tarava</string>
 	<string name="recipe_import_menu_title">Kauta mai na ivakarau ni kana mai na URL</string>
+	<string name="recipe_import_service_url_hint">URL ni veiqaravi ni vakacuru ilavo ni recipe</string>
 	<string name="recipe_list_image_desc">Na iyaloyalo lailai ni recipe</string>
 	<string name="recipe_no_timer">Na Recipe oqo e sega ni dua na kena gauna!</string>
 	<string name="request_again">Kerea tale</string>

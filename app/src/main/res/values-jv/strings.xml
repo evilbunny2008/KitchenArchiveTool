@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Wektu mlebu wis entek. Coba maneh</string>
 	<string name="recipe_import_login_title">Mlebu menyang Nextcloud</string>
 	<string name="recipe_import_menu_title">Impor resep saka URL</string>
+	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar thumbnail resep</string>
 	<string name="recipe_no_timer">Resep iki ora duwe timer!</string>
 	<string name="request_again">Njaluk maneh</string>

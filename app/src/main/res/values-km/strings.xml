@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">ការចូលបានអស់ពេលហើយ។ ព្យាយាមម្តងទៀត។</string>
 	<string name="recipe_import_login_title">ចូលទៅ Nextcloud</string>
 	<string name="recipe_import_menu_title">នាំចូលរូបមន្តពី URL</string>
+	<string name="recipe_import_service_url_hint">URL សេវាកម្មនាំចូលរូបមន្ត</string>
 	<string name="recipe_list_image_desc">រូបភាពតូចនៃរូបមន្ត</string>
 	<string name="recipe_no_timer">រូបមន្តនេះមិនមានកម្មវិធីកំណត់ម៉ោងទេ!</string>
 	<string name="request_again">ស្នើសុំម្តងទៀត</string>

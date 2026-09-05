@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Login udah abis maya. Uji baru</string>
 	<string name="recipe_import_login_title">Log masuk ngagai Nextcloud</string>
 	<string name="recipe_import_menu_title">Import resipi ari URL</string>
+	<string name="recipe_import_service_url_hint">URL servis import resipi</string>
 	<string name="recipe_list_image_desc">Gambar mit resipi</string>
 	<string name="recipe_no_timer">Resipi tu nadai ngembuan timer!</string>
 	<string name="request_again">Pinta baru</string>

@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Aloggen Zäit verwandelt. Probéiert nach eng Kéier</string>
 	<string name="recipe_import_login_title">Aloggen op Nextcloud</string>
 	<string name="recipe_import_menu_title">Import Rezept vun URL</string>
+	<string name="recipe_import_service_url_hint">Rezept Import Service URL</string>
 	<string name="recipe_list_image_desc">Miniaturbild vum Rezept</string>
 	<string name="recipe_no_timer">Dëst Rezept huet keen Timer!</string>
 	<string name="request_again">Demande erëm</string>

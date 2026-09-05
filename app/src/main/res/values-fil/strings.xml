@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Nag-time out ang pag-login. Subukan muli</string>
 	<string name="recipe_import_login_title">Mag-log in sa Nextcloud</string>
 	<string name="recipe_import_menu_title">Mag-import ng recipe mula sa URL</string>
+	<string name="recipe_import_service_url_hint">URL ng serbisyo sa pag-import ng recipe</string>
 	<string name="recipe_list_image_desc">Thumbnail ng larawan ng recipe</string>
 	<string name="recipe_no_timer">Ang Recipe na ito ay walang timer!</string>
 	<string name="request_again">Humiling muli</string>

@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Жүйеге кіру уақыты аяқталды. Қайтадан байқап көріңіз</string>
 	<string name="recipe_import_login_title">NextCloud жүйесіне кіріңіз</string>
 	<string name="recipe_import_menu_title">URL мекенжайынан рецепт импорттау</string>
+	<string name="recipe_import_service_url_hint">Рецепт импорттау қызметінің URL мекенжайы</string>
 	<string name="recipe_list_image_desc">Рецепттің нобайы</string>
 	<string name="recipe_no_timer">Бұл рецептте таймер жоқ!</string>
 	<string name="request_again">Қайтадан сұрау</string>

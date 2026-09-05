@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Nalpasen ti oras ti panaglogin. Padasem manen</string>
 	<string name="recipe_import_login_title">Aglog-in iti Nextcloud</string>
 	<string name="recipe_import_menu_title">I-import ti resipe manipud iti URL</string>
+	<string name="recipe_import_service_url_hint">URL ti serbisio ti panagala ti resipe</string>
 	<string name="recipe_list_image_desc">Image thumbnail ti resipe</string>
 	<string name="recipe_no_timer">Awan ti timer daytoy a Recipe!</string>
 	<string name="request_again">Agkiddaw manen</string>

@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">תם הזמן הקצוב לכניסה. נסה שוב</string>
 	<string name="recipe_import_login_title">היכנס ל-Nextcloud</string>
 	<string name="recipe_import_menu_title">ייבא מתכון מ-URL</string>
+	<string name="recipe_import_service_url_hint">כתובת אתר של שירות ייבוא ​​מתכון</string>
 	<string name="recipe_list_image_desc">תמונה ממוזערת של המתכון</string>
 	<string name="recipe_no_timer">למתכון הזה אין טיימר!</string>
 	<string name="request_again">תבקש שוב</string>

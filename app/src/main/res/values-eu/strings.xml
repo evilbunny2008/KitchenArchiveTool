@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Saioa hasteko denbora-muga gainditu da. Saiatu berriro</string>
 	<string name="recipe_import_login_title">Hasi saioa Nextcloud-en</string>
 	<string name="recipe_import_menu_title">Inportatu errezeta URLtik</string>
+	<string name="recipe_import_service_url_hint">Errezeta inportatzeko zerbitzuaren URLa</string>
 	<string name="recipe_list_image_desc">Errezetaren irudiaren miniatura</string>
 	<string name="recipe_no_timer">Errezeta honek ez du tenporizadorerik!</string>
 	<string name="request_again">Eskatu berriro</string>

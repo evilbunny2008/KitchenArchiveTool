@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Ensaluto elĉerpita. Provu denove</string>
 	<string name="recipe_import_login_title">Ensalutu al Nextcloud</string>
 	<string name="recipe_import_menu_title">Importi recepton de URL</string>
+	<string name="recipe_import_service_url_hint">Recepto-importservo URL</string>
 	<string name="recipe_list_image_desc">Bildeto de la recepto</string>
 	<string name="recipe_no_timer">Ĉi tiu Recepto ne havas tempigilon!</string>
 	<string name="request_again">Petu denove</string>

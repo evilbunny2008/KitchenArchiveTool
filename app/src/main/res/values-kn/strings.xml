@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">ಲಾಗಿನ್ ಸಮಯ ಮೀರಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</string>
 	<string name="recipe_import_login_title">Nextcloud ಗೆ ಲಾಗ್ ಇನ್ ಮಾಡಿ</string>
 	<string name="recipe_import_menu_title">URL ನಿಂದ ಪಾಕವಿಧಾನವನ್ನು ಆಮದು ಮಾಡಿ</string>
+	<string name="recipe_import_service_url_hint">ಪಾಕವಿಧಾನ ಆಮದು ಸೇವೆ URL</string>
 	<string name="recipe_list_image_desc">ಪಾಕವಿಧಾನದ ಚಿತ್ರ ಥಂಬ್‌ನೇಲ್</string>
 	<string name="recipe_no_timer">ಈ ಪಾಕವಿಧಾನವು ಟೈಮರ್ ಅನ್ನು ಹೊಂದಿಲ್ಲ!</string>
 	<string name="request_again">ಮತ್ತೊಮ್ಮೆ ವಿನಂತಿಸಿ</string>

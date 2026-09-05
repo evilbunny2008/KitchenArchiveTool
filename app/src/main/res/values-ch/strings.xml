@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Ti siña hu hålom. Påtte ta’lo</string>
 	<string name="recipe_import_login_title">hålom gi Nextcloud</string>
 	<string name="recipe_import_menu_title">Na’halom i resåta ginen URL</string>
+	<string name="recipe_import_service_url_hint">URL i setbisio ni’ para u ma’importa i resåta</string>
 	<string name="recipe_list_image_desc">I litråtu ni’ dikike’ gi i riseta</string>
 	<string name="recipe_no_timer">Ti guaha tiempo-ña este na riseta!</string>
 	<string name="request_again">Manmafa’na’an ta’lo</string>

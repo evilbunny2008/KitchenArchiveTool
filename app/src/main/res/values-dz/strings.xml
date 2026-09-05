@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">ནང་བསྐྱོད་དུས་ཚོད་རྫོགས་ཡོདཔ། ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད།</string>
 	<string name="recipe_import_login_title">Nextcloud ལུ་ ནང་བསྐྱོད་འབད།</string>
 	<string name="recipe_import_menu_title">ཡུ་ཨར་ཨེལ་ལས་བཟོ་ཐངས་ནང་འདྲེན་འབད།</string>
+	<string name="recipe_import_service_url_hint">བཟོ་ཐངས་ནང་འདྲེན་ཞབས་ཏོག་ཡུ་ཨར་ཨེལ།</string>
 	<string name="recipe_list_image_desc">བཟོ་ཐངས་ཀྱི་པར་རིས་མཐེབ་གཞོང་།</string>
 	<string name="recipe_no_timer">འདི་ལུ་དུས་ཚོད་བཀོད་མི་མེདཔ་ཨིན།</string>
 	<string name="request_again">སླར་ཡང་ཞུ་བ།</string>

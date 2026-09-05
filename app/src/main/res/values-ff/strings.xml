@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Wakkati nastugo timmi. Enndu kadi</string>
 	<string name="recipe_import_login_title">Naat e Nextcloud</string>
 	<string name="recipe_import_menu_title">Naatnude restoraaji ummoraade e URL</string>
+	<string name="recipe_import_service_url_hint">URL sarwiis naatgol restoraaji</string>
 	<string name="recipe_list_image_desc">Natal ɓuuɓngal e restora</string>
 	<string name="recipe_no_timer">Oo Recipe alaa waktu!</string>
 	<string name="request_again">Ɗaɓɓu kadi</string>

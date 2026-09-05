@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">लॉगिन दा टाइम आउट हो गया। फिर कोशिश करो।</string>
 	<string name="recipe_import_login_title">नेक्स्टक्लाउड च लॉग इन करो</string>
 	<string name="recipe_import_menu_title">यूआरएल थमां नुस्खा आयात करो</string>
+	<string name="recipe_import_service_url_hint">नुस्खा आयात सेवा यूआरएल</string>
 	<string name="recipe_list_image_desc">नुस्खा दा छवि थंबनेल</string>
 	<string name="recipe_no_timer">इस Recipe च टाइमर नेईं ऐ !</string>
 	<string name="request_again">फिर रिक्वेस्ट करो</string>

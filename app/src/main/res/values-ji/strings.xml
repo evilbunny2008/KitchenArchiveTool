@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">לאָגין טיימד אויס. פּרוּווט ווידער</string>
 	<string name="recipe_import_login_title">קלאָץ אין צו Nextcloud</string>
 	<string name="recipe_import_menu_title">אַרייַנפיר רעצעפּט פֿון URL</string>
+	<string name="recipe_import_service_url_hint">רעצעפּט אַרייַנפיר דינסט URL</string>
 	<string name="recipe_list_image_desc">בילד טאַמנייל פון רעצעפּט</string>
 	<string name="recipe_no_timer">דעם רעצעפּט טוט נישט האָבן אַ טייַמער!</string>
 	<string name="request_again">בעטן ווידער</string>

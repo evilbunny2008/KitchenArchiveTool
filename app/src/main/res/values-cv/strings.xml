@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Логин вӑхӑчӗ тухнӑ. Тепӗр хут тытӑнса пӑхӑр</string>
 	<string name="recipe_import_login_title">Nextcloud ҫине кӗрӗр</string>
 	<string name="recipe_import_menu_title">URL-ран рецепт илсе килӗр</string>
+	<string name="recipe_import_service_url_hint">Рецепт импорт службин URL-адресӗ</string>
 	<string name="recipe_list_image_desc">Рецептӑн ӳкерчӗкӗн пӗчӗк ӳкерчӗкӗ</string>
 	<string name="recipe_no_timer">Ку рецептӑн таймерӗ ҫук!</string>
 	<string name="request_again">Тепӗр хут ыйтӑр</string>

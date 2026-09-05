@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Be ni akɛboteɔ mli lɛ eho. Kaa ekoŋŋ</string>
 	<string name="recipe_import_login_title">Botemɔ Nextcloud lɛ mli</string>
 	<string name="recipe_import_menu_title">Resipi kɛjɛ URL</string>
+	<string name="recipe_import_service_url_hint">Resipi sɛɛvis sɛɛvis URL</string>
 	<string name="recipe_list_image_desc">Mfoniri bibioo ni kɔɔ niyenii he gbɛjianɔtoo he</string>
 	<string name="recipe_no_timer">Nɛkɛ Recipe nɛɛ bɛ be he gbɛjianɔtoo!</string>
 	<string name="request_again">Bi ekoŋŋ</string>

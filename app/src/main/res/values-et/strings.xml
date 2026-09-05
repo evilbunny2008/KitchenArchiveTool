@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Sisselogimine aegus. Proovi uuesti</string>
 	<string name="recipe_import_login_title">Logige Nextcloudi sisse</string>
 	<string name="recipe_import_menu_title">Importige retsept URL-ist</string>
+	<string name="recipe_import_service_url_hint">Retsepti importimise teenuse URL</string>
 	<string name="recipe_list_image_desc">Retsepti pisipilt</string>
 	<string name="recipe_no_timer">Sellel retseptil pole taimerit!</string>
 	<string name="request_again">Taotlege uuesti</string>

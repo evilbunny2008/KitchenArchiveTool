@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Ua pau ka manawa komo. Hana hou</string>
 	<string name="recipe_import_login_title">E komo i Nextcloud</string>
 	<string name="recipe_import_menu_title">E lawe mai i ka meaʻai mai URL</string>
+	<string name="recipe_import_service_url_hint">URL lawelawe lawe ʻai meaʻai</string>
 	<string name="recipe_list_image_desc">Kiʻi liʻiliʻi o ka meaʻai</string>
 	<string name="recipe_no_timer">ʻAʻohe manawa o kēia ʻai!</string>
 	<string name="request_again">Noi hou</string>

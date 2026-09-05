@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Login piffissaq qaangiuppoq. Misilittariaqarpat</string>
 	<string name="recipe_import_login_title">Nextcloudimut iserit</string>
 	<string name="recipe_import_menu_title">Nerisassiorneq URL-imiit tuniuk</string>
+	<string name="recipe_import_service_url_hint">Nerisassiornermik tunisassiornermut sullissivik URL</string>
 	<string name="recipe_list_image_desc">Nerisassiornermut assilisassiaq</string>
 	<string name="recipe_no_timer">Una Recept timer-eqanngilaq!</string>
 	<string name="request_again">Piumasaqaateqaqqippoq</string>

@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">লগইন করার সময় শেষ আবার চেষ্টা করুন</string>
 	<string name="recipe_import_login_title">নেক্সটক্লাউডে লগ ইন করুন</string>
 	<string name="recipe_import_menu_title">URL থেকে রেসিপি আমদানি করুন</string>
+	<string name="recipe_import_service_url_hint">রেসিপি আমদানি পরিষেবা URL</string>
 	<string name="recipe_list_image_desc">রেসিপি ছবির থাম্বনেল</string>
 	<string name="recipe_no_timer">এই রেসিপি একটি টাইমার নেই!</string>
 	<string name="request_again">আবার অনুরোধ</string>

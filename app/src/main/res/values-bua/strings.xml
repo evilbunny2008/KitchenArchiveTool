@@ -114,6 +114,7 @@
 	<string name="recipe_import_login_timed_out">Нэгэ нэбтэрхэ саг үнгэрөө. Дахин туршагты</string>
 	<string name="recipe_import_login_title">Nextcloud руу орохо</string>
 	<string name="recipe_import_menu_title">URL-һээ жороо оруулха</string>
+	<string name="recipe_import_service_url_hint">Жор импортын албанай URL</string>
 	<string name="recipe_list_image_desc">Жорын зураг</string>
 	<string name="recipe_no_timer">Энэ жороо саг хэмжүүргүй!</string>
 	<string name="request_again">Дахин гуйха</string>
