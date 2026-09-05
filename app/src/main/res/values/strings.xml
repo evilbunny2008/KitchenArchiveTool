@@ -40,12 +40,6 @@
 	<string name="error_sync">Synchronization failed: %1$s</string>
 	<string name="folder_pick_cancel">Folder picker cancelled by user</string>
 	<string name="folder_pick_success">Folder %1$s selected</string>
-	<string name="form_download_commit">Download</string>
-	<string name="form_download_folder">Override target folder</string>
-	<string name="form_download_options">Options</string>
-	<string name="form_download_override_existing">Replace existing recipe folder</string>
-	<string name="form_download_title">Download Recipe</string>
-	<string name="form_download_url_hint">Recipe URL</string>
 	<string name="form_exact_search">Do an exact search?</string>
 	<string name="form_ignore_case">Ignore case?</string>
 	<string name="form_search_commit">Search</string>
@@ -69,7 +63,6 @@
 	<string name="menu_categories">Categories</string>
 	<string name="menu_download_title">Download</string>
 	<string name="menu_download_tooltip">download recipe</string>
-	<string name="menu_import_recipe">Import Recipe</string>
 	<string name="menu_refresh_tooltip">Refresh recipes</string>
 	<string name="menu_search_title">Advanced Search</string>
 	<string name="menu_search_tooltip">Search recipe</string>
