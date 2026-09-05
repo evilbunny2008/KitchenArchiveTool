@@ -34,12 +34,6 @@
 	<string name="error_sync">Ribo ne obale: %1$s</string>
 	<string name="folder_pick_cancel">Gin ma kwanyo folda ki juku ki latic</string>
 	<string name="folder_pick_success">Ka gwoko %1$s ma ki yero</string>
-	<string name="form_download_commit">Dawunlod</string>
-	<string name="form_download_folder">Kwanyo folda ma imito</string>
-	<string name="form_download_options">Jami ma itwero yero</string>
-	<string name="form_download_override_existing">Lok ka gwoko jami ma ki yubu con</string>
-	<string name="form_download_title">Kwany kit me yubu cam</string>
-	<string name="form_download_url_hint">URL me kit me yubu cam</string>
 	<string name="form_exact_search">Tim yenyo maber?</string>
 	<string name="form_ignore_case">Pe iket cwinyi i kom lok ni?</string>
 	<string name="form_search_commit">Moyo</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Dul</string>
 	<string name="menu_download_title">Dawunlod</string>
 	<string name="menu_download_tooltip">kwany kit me yubu cam</string>
-	<string name="menu_import_recipe">Kel gin ma ki yubu me yubu cam</string>
 	<string name="menu_refresh_tooltip">Lok kit me yubu cam manyen</string>
 	<string name="menu_search_title">Yenyo ma malo</string>
 	<string name="menu_search_tooltip">Yeny kit me yubu cam</string>

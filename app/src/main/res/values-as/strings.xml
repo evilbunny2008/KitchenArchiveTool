@@ -34,12 +34,6 @@
 	<string name="error_sync">সমন্বয় ব্যৰ্থ: %1$s</string>
 	<string name="folder_pick_cancel">ব্যৱহাৰকাৰীয়ে বাতিল কৰা ফোল্ডাৰ পিকাৰ</string>
 	<string name="folder_pick_success">ফোল্ডাৰ %1$s নিৰ্বাচিত কৰা হৈছে</string>
-	<string name="form_download_commit">ডাউনল’ড</string>
-	<string name="form_download_folder">লক্ষ্য ফোল্ডাৰ অভাৰৰাইড কৰক</string>
-	<string name="form_download_options">বিকল্পসমূহ</string>
-	<string name="form_download_override_existing">বৰ্তমানৰ ৰেচিপি ফোল্ডাৰ সলনি কৰক</string>
-	<string name="form_download_title">ডাউনলোড ৰেচিপি</string>
-	<string name="form_download_url_hint">ৰেচিপিৰ URL</string>
 	<string name="form_exact_search">সঠিক অনুসন্ধান কৰক?</string>
 	<string name="form_ignore_case">গোচৰক আওকাণ কৰক?</string>
 	<string name="form_search_commit">সন্ধান</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">শ্ৰেণীসমূহ</string>
 	<string name="menu_download_title">ডাউনল’ড</string>
 	<string name="menu_download_tooltip">ডাউনলোড ৰেচিপি</string>
-	<string name="menu_import_recipe">আমদানি ৰেচিপি</string>
 	<string name="menu_refresh_tooltip">ৰেচিপি সতেজ কৰক</string>
 	<string name="menu_search_title">উন্নত অনুসন্ধান</string>
 	<string name="menu_search_tooltip">ৰেচিপি সন্ধান কৰক</string>

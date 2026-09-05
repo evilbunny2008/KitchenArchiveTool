@@ -34,12 +34,6 @@
 	<string name="error_sync">Ti siña i sinkronisasion: %1$s</string>
 	<string name="folder_pick_cancel">I picker folder ma kansela ni’ i taotao</string>
 	<string name="folder_pick_success">Ma selekta i %1$s na karpeta</string>
-	<string name="form_download_commit">Gua’åni</string>
-	<string name="form_download_folder">Na’suha i target folder</string>
-	<string name="form_download_options">Siha i Siha</string>
-	<string name="form_download_override_existing">Na’lå’la’ i resåta siha ni’ esta gaige</string>
-	<string name="form_download_title">Na’hålom i Resåta</string>
-	<string name="form_download_url_hint">URL i resåta</string>
 	<string name="form_exact_search">Hafa un eksakto na inaligao?</string>
 	<string name="form_ignore_case">Ignora i kason?</string>
 	<string name="form_search_commit">Aligao</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategoriha siha</string>
 	<string name="menu_download_title">Gua’åni</string>
 	<string name="menu_download_tooltip">na’hålom i resåta</string>
-	<string name="menu_import_recipe">Import Recipe</string>
 	<string name="menu_refresh_tooltip">Na’lå’la’ i riseta siha</string>
 	<string name="menu_search_title">Inaligao ni’ Manma’gås-ta</string>
 	<string name="menu_search_tooltip">Fanli’e’ i resåta</string>

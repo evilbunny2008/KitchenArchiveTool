@@ -34,12 +34,6 @@
 	<string name="error_sync">Synchronisierung fehlgeschlagen: %1$s</string>
 	<string name="folder_pick_cancel">Ordnerauswahl wurde vom Benutzer abgebrochen</string>
 	<string name="folder_pick_success">Ordner %1$s ausgewählt</string>
-	<string name="form_download_commit">Herunterladen</string>
-	<string name="form_download_folder">Zielordner überschreiben</string>
-	<string name="form_download_options">Optionen</string>
-	<string name="form_download_override_existing">Ersetzen Sie den vorhandenen Rezeptordner</string>
-	<string name="form_download_title">Rezept herunterladen</string>
-	<string name="form_download_url_hint">Rezept-URL</string>
 	<string name="form_exact_search">Eine genaue Suche durchführen?</string>
 	<string name="form_ignore_case">Groß-/Kleinschreibung ignorieren?</string>
 	<string name="form_search_commit">Suchen</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategorien</string>
 	<string name="menu_download_title">Herunterladen</string>
 	<string name="menu_download_tooltip">Rezept herunterladen</string>
-	<string name="menu_import_recipe">Rezept importieren</string>
 	<string name="menu_refresh_tooltip">Rezepte aktualisieren</string>
 	<string name="menu_search_title">Erweiterte Suche</string>
 	<string name="menu_search_tooltip">Rezept suchen</string>

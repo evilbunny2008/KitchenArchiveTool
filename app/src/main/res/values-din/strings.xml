@@ -34,12 +34,6 @@
 	<string name="error_sync">Kë cï thɔ̈ɔ̈ŋ acï löny: %1$s</string>
 	<string name="folder_pick_cancel">Kë ye käŋ kuanycök acï cuɔp wei në raan luui ë yeen</string>
 	<string name="folder_pick_success">Kë cï tɔ̈ɔ̈u %1$s acï kuany</string>
-	<string name="form_download_commit">Bɛ̈i piny</string>
-	<string name="form_download_folder">Tääu ë kë wïc nhom piny</string>
-	<string name="form_download_options">Kä bï ke lɔc</string>
-	<string name="form_download_override_existing">Wa kë tɔ̈u wënthɛɛr yenë käŋ tɔ̈ɔ̈u thïn waar</string>
-	<string name="form_download_title">Bääi kë ye cam bei</string>
-	<string name="form_download_url_hint">URL de kë ye cam</string>
 	<string name="form_exact_search">Loi kë wïc ë yic?</string>
 	<string name="form_ignore_case">Kuɔ̈c kë cï rot looi?</string>
 	<string name="form_search_commit">Wïc</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kä cïke tek yiic</string>
 	<string name="menu_download_title">Bɛ̈i piny</string>
 	<string name="menu_download_tooltip">kuɛ̈ny ë rïcipe</string>
-	<string name="menu_import_recipe">Luɔɔi de cäm bɛ̈i bei</string>
 	<string name="menu_refresh_tooltip">Cɔk kä ye cam cɔ̈kpiny</string>
 	<string name="menu_search_title">Kë kɔɔr lɔ tueŋ</string>
 	<string name="menu_search_tooltip">Kɔɔr kë bï cam</string>

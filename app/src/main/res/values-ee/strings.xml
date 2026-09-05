@@ -34,12 +34,6 @@
 	<string name="error_sync">Nuwɔwɔ ɖekae do kpo nu: %1$s</string>
 	<string name="folder_pick_cancel">Folder picker si zãla te fli ɖe eme</string>
 	<string name="folder_pick_success">Wotia agbalẽdzraɖoƒe %1$s</string>
-	<string name="form_download_commit">Hee ɖa anyi</string>
-	<string name="form_download_folder">Trɔ asi le taɖodzinu ƒe agbalẽdzraɖoƒe ŋu</string>
-	<string name="form_download_options">Tiatia siwo nàte ŋu awɔ</string>
-	<string name="form_download_override_existing">Tsɔ nuɖaɖa ŋuti agbalẽdzraɖoƒe si li xoxo la ɖɔ li</string>
-	<string name="form_download_title">Download Nuɖaɖa ŋuti mɔfiame</string>
-	<string name="form_download_url_hint">Nuɖaɖa ŋuti URL</string>
 	<string name="form_exact_search">Ðe numekuku aɖe si sɔ pɛpɛpɛa?</string>
 	<string name="form_ignore_case">Aɖabaŋeŋe ƒu nya dzia?</string>
 	<string name="form_search_commit">Di</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Ƒomewo ƒe hatsotsowo</string>
 	<string name="menu_download_title">Hee ɖa anyi</string>
 	<string name="menu_download_tooltip">download nuɖaɖa ŋuti mɔfiame</string>
-	<string name="menu_import_recipe">Nuɖaɖa ƒe Nuɖaɖa si Wotsɔ tso Duta Va Duta</string>
 	<string name="menu_refresh_tooltip">Gbugbɔgawɔ nuɖaɖawo</string>
 	<string name="menu_search_title">Didi Deŋgɔ</string>
 	<string name="menu_search_tooltip">Di nuɖaɖa ŋuti mɔfiame</string>

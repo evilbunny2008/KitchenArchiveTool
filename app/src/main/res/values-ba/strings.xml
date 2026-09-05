@@ -34,12 +34,6 @@
 	<string name="error_sync">Синхронлаштырыу уңышһыҙлыҡҡа осраны: %1$s</string>
 	<string name="folder_pick_cancel">Ҡулланыусы тарафынан папка һайлаусы юҡҡа сығарылған</string>
 	<string name="folder_pick_success">Папка %1$s һайланған</string>
-	<string name="form_download_commit">Йөктәтергә</string>
-	<string name="form_download_folder">Маҡсатлы папканы өҫкә сығарыу</string>
-	<string name="form_download_options">Варианттар</string>
-	<string name="form_download_override_existing">Булған рецепттар папкаһын алмаштырыу</string>
-	<string name="form_download_title">Скачать Рецепт</string>
-	<string name="form_download_url_hint">Рецепт URL-адресы</string>
 	<string name="form_exact_search">Теүәл эҙләү эшләргә?</string>
 	<string name="form_ignore_case">Осраҡты иғтибарға алмаҫҡа?</string>
 	<string name="form_search_commit">Эҙләргә</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Категориялар</string>
 	<string name="menu_download_title">Йөктәтергә</string>
 	<string name="menu_download_tooltip">скачать рецепт</string>
-	<string name="menu_import_recipe">Импорт рецепты</string>
 	<string name="menu_refresh_tooltip">Рецепттарҙы яңыртыу</string>
 	<string name="menu_search_title">Киҫкен эҙләү</string>
 	<string name="menu_search_tooltip">Рецепт эҙләү</string>

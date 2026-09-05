@@ -45,47 +45,6 @@ class RecipeJsonConverter {
          }
       }
 
-      fun parseFromWeb(json: String): JsonObject? {
-         // websites may provide multiple ld-json in one script tag as an array
-         try {
-            val jsArray = getParser().parseToJsonElement(json).jsonArray
-
-            for (obj in jsArray) {
-               // could also check js["@context"] == "http://schema.org"
-               if (obj is JsonObject && (obj.jsonObject["@type"]?.jsonPrimitive?.content
-                       ?: "") == "Recipe"
-               ) {
-                  return obj
-               }
-            }
-            return null
-         } catch (_: Exception) {
-         }
-
-         // others provide a root object with a "@graph" array
-         try {
-            val graph = getParser().parseToJsonElement(json).jsonObject["@graph"]
-            val arr = graph?.jsonArray
-            arr?.let { jsArray ->
-               for (obj in jsArray) {
-                  if (obj is JsonObject && (obj.jsonObject["@type"]?.jsonPrimitive?.content
-                          ?: "") == "Recipe"
-                  ) {
-                     return obj
-                  }
-               }
-               return null
-            }
-         } catch (_: Exception) {
-         }
-
-         val jsonObject = getParser().parseToJsonElement(json).jsonObject
-         if ((jsonObject["@type"]?.jsonPrimitive?.content ?: "") == "Recipe") {
-            return jsonObject
-         }
-         return null
-      }
-
       private fun getParser(): Json {
          return Json {
             ignoreUnknownKeys = true

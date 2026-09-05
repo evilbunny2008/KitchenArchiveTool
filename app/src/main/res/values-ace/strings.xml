@@ -34,12 +34,6 @@
 	<string name="error_sync">Sinkronisasi hana meuhasé: %1$s</string>
 	<string name="folder_pick_cancel">Peumileh folder geubatasi le ureueng ngui</string>
 	<string name="folder_pick_success">Folder %1$s ka geupiléh</string>
-	<string name="form_download_commit">Coek dari internet</string>
-	<string name="form_download_folder">Neugantoe folder target</string>
-	<string name="form_download_options">Pilihan</string>
-	<string name="form_download_override_existing">Gantoe folder resep nyang ka na</string>
-	<string name="form_download_title">Download Resep Aceh</string>
-	<string name="form_download_url_hint">URL resep</string>
 	<string name="form_exact_search">Peugot pencarian nyang tepat?</string>
 	<string name="form_ignore_case">Abaikan kasus nyan?</string>
 	<string name="form_search_commit">Mita</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">Kategori</string>
 	<string name="menu_download_title">Coek dari internet</string>
 	<string name="menu_download_tooltip">download resep</string>
-	<string name="menu_import_recipe">Resep Impor</string>
 	<string name="menu_refresh_tooltip">Resep segar</string>
 	<string name="menu_search_title">Cari Lanjutan</string>
 	<string name="menu_search_tooltip">Neumita resep</string>

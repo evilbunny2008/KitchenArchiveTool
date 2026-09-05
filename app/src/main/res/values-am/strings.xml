@@ -34,12 +34,6 @@
 	<string name="error_sync">ማመሳሰል አልተሳካም፡ %1$s</string>
 	<string name="folder_pick_cancel">አቃፊ መራጭ በተጠቃሚ ተሰርዟል።</string>
 	<string name="folder_pick_success">አቃፊ %1$s ተመርጧል</string>
-	<string name="form_download_commit">አውርድ</string>
-	<string name="form_download_folder">የዒላማ ማህደርን ይሽሩ</string>
-	<string name="form_download_options">አማራጮች</string>
-	<string name="form_download_override_existing">ያለውን የምግብ አዘገጃጀት አቃፊ ይተኩ</string>
-	<string name="form_download_title">የምግብ አዘገጃጀት አውርድ</string>
-	<string name="form_download_url_hint">የምግብ አዘገጃጀት URL</string>
 	<string name="form_exact_search">ትክክለኛ ፍለጋ አድርግ?</string>
 	<string name="form_ignore_case">ጉዳይን ችላ በል?</string>
 	<string name="form_search_commit">ፈልግ</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">ምድቦች</string>
 	<string name="menu_download_title">አውርድ</string>
 	<string name="menu_download_tooltip">አውርድ አዘገጃጀት</string>
-	<string name="menu_import_recipe">የምግብ አሰራር አስመጣ</string>
 	<string name="menu_refresh_tooltip">የምግብ አሰራሮችን ያድሱ</string>
 	<string name="menu_search_title">የላቀ ፍለጋ</string>
 	<string name="menu_search_tooltip">የምግብ አዘገጃጀት ፈልግ</string>

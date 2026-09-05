@@ -46,10 +46,6 @@ android {
         targetSdk = 37
         versionCode = 1
         versionName = "0.0.1"
-        // Only relevant for API < 21 (vector drawables aren't natively
-        // supported by the platform before Lollipop) -- moot with minSdk 29.
-        // vectorDrawables.useSupportLibrary = true
-        multiDexEnabled = true
     }
 
     buildTypes {
@@ -237,8 +233,6 @@ androidComponents {
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 
-    implementation(libs.jsoup)
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.legacy.support.v4)
     implementation(libs.androidx.appcompat)
@@ -247,23 +241,31 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.preference.ktx)
+
     // material design and viewpager2
     implementation(libs.material)
     implementation(libs.androidx.viewpager2)
+
     // Lifecycle dependencies
     implementation(libs.androidx.lifecycle.livedata.ktx)
+
     // Coroutines
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
+
     // room database
     implementation(libs.androidx.room.runtime)
+
     // optional - Kotlin Extensions and Coroutines support for Room
     implementation(libs.androidx.room.ktx)
+
     // Room's annotation processor -- was entirely missing before, meaning
     // @Database/@Dao/@Entity classes had no generated implementations
     ksp(libs.androidx.room.compiler)
+
     // storage access framework (SAF)
     implementation(libs.androidx.documentfile)
+
     // datastore for settings
     implementation(libs.androidx.datastore.preferences)
 
@@ -275,6 +277,7 @@ dependencies {
 
     // permissions
     implementation(libs.kpermissions)
+
     // simple storage
     implementation(libs.anggrayudi.storage)
 

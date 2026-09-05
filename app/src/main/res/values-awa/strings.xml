@@ -34,12 +34,6 @@
 	<string name="error_sync">सिंक्रनाइज़ेशन विफल रहा: %1$s</string>
 	<string name="folder_pick_cancel">उपयोगकर्ता द्वारा फ़ोल्डर पिकर रद्द कर दीन गा है</string>
 	<string name="folder_pick_success">फ़ोल्डर %1$s चुना गा है</string>
-	<string name="form_download_commit">डाउनलोड करब</string>
-	<string name="form_download_folder">लक्ष्य फ़ोल्डर का ओवरराइड करा</string>
-	<string name="form_download_options">विकल्प</string>
-	<string name="form_download_override_existing">मौजूदा नुस्खा फ़ोल्डर का बदलौ</string>
-	<string name="form_download_title">नुस्खा डाउनलोड करा</string>
-	<string name="form_download_url_hint">नुस्खा यूआरएल</string>
 	<string name="form_exact_search">एक सटीक खोज करा?</string>
 	<string name="form_ignore_case">केस का अनदेखा करा?</string>
 	<string name="form_search_commit">ख्वाजव</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">श्रेणी</string>
 	<string name="menu_download_title">डाउनलोड करब</string>
 	<string name="menu_download_tooltip">नुस्खा डाउनलोड करा</string>
-	<string name="menu_import_recipe">आयात नुस्खा</string>
 	<string name="menu_refresh_tooltip">व्यंजनों का ताज़ा करा</string>
 	<string name="menu_search_title">उन्नत खोज</string>
 	<string name="menu_search_tooltip">नुस्खा खोजौ</string>

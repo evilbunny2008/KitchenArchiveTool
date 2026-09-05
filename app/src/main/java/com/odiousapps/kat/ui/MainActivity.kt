@@ -227,10 +227,6 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
             navController.navigate(R.id.searchFormFragment)
             showToolbar(showToolbar = true, showSearch = false)
          }
-         R.id.app_import_recipe -> {
-            navController.navigate(R.id.downloadFormFragment)
-            showToolbar(showToolbar = true, showSearch = false)
-         }
          R.id.app_settings -> {
             navController.navigate(R.id.preferenceFragment)
             showToolbar(showToolbar = true, showSearch = false)

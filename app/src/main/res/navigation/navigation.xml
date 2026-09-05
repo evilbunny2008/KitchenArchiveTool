@@ -35,8 +35,4 @@
          android:id="@+id/action_searchFormFragment_to_recipeListFragment"
          app:destination="@id/recipeListFragment" />
    </fragment>
-   <fragment
-      android:id="@+id/downloadFormFragment"
-      android:name="com.odiousapps.kat.ui.downloadform.DownloadFormFragment"
-      android:label="DownloadFormFragment" />
 </navigation>

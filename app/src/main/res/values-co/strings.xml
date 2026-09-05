@@ -34,12 +34,6 @@
 	<string name="error_sync">Sincronizazione falluta: %1$s</string>
 	<string name="folder_pick_cancel">U selettore di cartulare annullatu da l’utilizatore</string>
 	<string name="folder_pick_success">Cartulare %1$s sceltu</string>
-	<string name="form_download_commit">Scaricate</string>
-	<string name="form_download_folder">Override u cartulare di destinazione</string>
-	<string name="form_download_options">Opzioni</string>
-	<string name="form_download_override_existing">Sustituisce u cartulare di ricette esistenti</string>
-	<string name="form_download_title">Scaricate a ricetta</string>
-	<string name="form_download_url_hint">URL di a ricetta</string>
 	<string name="form_exact_search">Fate una ricerca precisa?</string>
 	<string name="form_ignore_case">Ignore u casu?</string>
 	<string name="form_search_commit">Ricerca</string>
@@ -62,7 +56,6 @@
 	<string name="menu_categories">I categurie</string>
 	<string name="menu_download_title">Scaricate</string>
 	<string name="menu_download_tooltip">scaricate a ricetta</string>
-	<string name="menu_import_recipe">Import Ricetta</string>
 	<string name="menu_refresh_tooltip">Refresh recette</string>
 	<string name="menu_search_title">Ricerca avanzata</string>
 	<string name="menu_search_tooltip">Ricerca ricetta</string>
