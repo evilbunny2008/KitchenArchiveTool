@@ -122,8 +122,17 @@ abstract class RenameBundleTask : DefaultTask() {
             val destination = destinationFile.get().asFile
             destination.parentFile.mkdirs()
             file.copyTo(destination, overwrite = true)
-            file.delete()
-            logger.lifecycle("renameBundle: moved to $destination")
+            logger.lifecycle("renameBundle: copied to $destination")
+            // File.delete() never throws on failure, it just returns false --
+            // check it explicitly so a failed delete (e.g. something else
+            // still has the source file open/locked at this point) shows up
+            // in the log instead of silently leaving the original behind
+            // with no indication why.
+            if (file.delete()) {
+                logger.lifecycle("renameBundle: removed original $file")
+            } else {
+                logger.warn("renameBundle: could not delete original $file after copying -- it may be locked by another process; the copy at $destination is still correct")
+            }
         } else {
             logger.lifecycle("renameBundle: expected bundle file not found at $file - skipping rename")
         }
