@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Aw bɛ kɔnti wɛrɛ fara a kan fɔlɔ walasa ka furakɛcogo dɔw kopi u ni ɲɔgɔn cɛ</string>
 	<string name="copy_to_account_success">’%1$s’ kopilen don ka kɛ %2$s ye</string>
 	<string name="copy_to_account_title">Aw ye nin furakɛcogo in kopi kɛ ka</string>
+	<string name="current_account_not_found_exception_message">Jatebɔsɛbɛn min ɲinina, o ma sɔrɔ Nextcloud Files app kɔnɔ</string>
+	<string name="current_account_not_found_exception_title">Jatebɔsɛbɛn ma sɔrɔ</string>
 	<string name="delete_recipe">Recette ( furakɛcogo) bɔ</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ bɛna bɔ baarakɛyɔrɔ la kudayi. O tɛ se ka kɔsegin</string>
 	<string name="delete_recipe_confirm_positive">Ka jɔsi</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Siginiden kelen On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">A ma kɛ kuluw ye</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Settings (Labɛnw)</string>
 	<string name="no_information">Kunnafoni si tɛ yen</string>
 	<string name="no_ingredients">No Ingredients (Fɛn minnu bɛ kɛ ka fɛnw kɛ)</string>
 	<string name="no_instructions">Ladilikanw tɛ yen</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Tobili</string>
 	<string name="tooltip_prep_time">Labɛnli</string>
 	<string name="tooltip_total_time">Kasabi</string>
+	<string name="unknown_error">Misali dɔnbali</string>
 </resources>

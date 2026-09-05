@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Onların arasında reseptləri kopyalamaq üçün əvvəlcə başqa hesab əlavə edin</string>
 	<string name="copy_to_account_success">’%1$s’ %2$s a kopyalandı. Şəkil orada görünmürsə, həmin server onu buradan götürə bilməz – onu yenidən əl ilə əlavə edin</string>
 	<string name="copy_to_account_title">Bu resepti kopyalayın</string>
+	<string name="current_account_not_found_exception_message">Tələb olunan hesab Nextcloud Files proqramında tapılmadı</string>
+	<string name="current_account_not_found_exception_title">Hesab tapılmadı</string>
 	<string name="delete_recipe">Resepti silin</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ serverdən həmişəlik silinəcək. Bu geri qaytarıla bilməz</string>
 	<string name="delete_recipe_confirm_positive">Sil</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Tək Giriş</string>
 	<string name="menu_title_app">Tətbiq</string>
 	<string name="menu_uncategorized">Kateqoriyasız</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Parametrlər</string>
 	<string name="no_information">Məlumat yoxdur</string>
 	<string name="no_ingredients">Tərkibi yoxdur</string>
 	<string name="no_instructions">Təlimat yoxdur</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Bişirmək</string>
 	<string name="tooltip_prep_time">Hazırlıq</string>
 	<string name="tooltip_total_time">Cəmi</string>
+	<string name="unknown_error">Naməlum xəta</string>
 </resources>

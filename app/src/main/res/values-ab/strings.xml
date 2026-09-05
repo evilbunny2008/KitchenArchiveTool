@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Раԥхьа даҽа аккаунтк ацҵа, рыбжьара арецепқәа рықәҭыхразы</string>
 	<string name="copy_to_account_success">Иқәҭыхуп ’%1$s’ %2$s ахь. Афото ақәҭыхра ҟамлаӡеит — Cookbook асервер аҿы уи аиура амҩа ыҟам, убри аҟнытә напыла даҽазнык иацҵа, убраҟа уҭахызар</string>
 	<string name="copy_to_account_title">Ари арецип ақәҭыхра</string>
+	<string name="current_account_not_found_exception_message">Иаҳәаз ахыԥхьаӡара Nextcloud Files апрограммаҿы иԥшаам</string>
+	<string name="current_account_not_found_exception_title">Ахыԥхьаӡара ԥшаам</string>
 	<string name="delete_recipe">Арецепт аԥыхтәуп</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ наӡаӡа асервер аҟынтә иаԥыххоит. Ари ԥсахра ауам</string>
 	<string name="delete_recipe_confirm_positive">Аныхра</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Зныктәи аҭалара</string>
 	<string name="menu_title_app">Апрограмма</string>
 	<string name="menu_uncategorized">Акатегориа иаҵанамкуа</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Архиарақәа</string>
 	<string name="no_information">Аинформациа ыҟам</string>
 	<string name="no_ingredients">Ахәҭақәа ыҟам</string>
 	<string name="no_instructions">Абжьгара ыҟам</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Афатә аҟаҵара</string>
 	<string name="tooltip_prep_time">Архиара</string>
 	<string name="tooltip_total_time">Азеиԥш</string>
+	<string name="unknown_error">Идырым агха</string>
 </resources>

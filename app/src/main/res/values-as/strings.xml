@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">সিহঁতৰ মাজত ৰেচিপি কপি কৰিবলৈ প্ৰথমে আন এটা একাউণ্ট যোগ কৰক</string>
 	<string name="copy_to_account_success">’%1$s’ ক %2$s লৈ কপি কৰা হৈছে। যদি ফটোখন তাত দেখা নাযায়, তেন্তে সেই চাৰ্ভাৰে ইয়াৰ পৰা আনিব নোৱাৰিলে — হাতেৰে আকৌ যোগ কৰক৷</string>
 	<string name="copy_to_account_title">এই ৰেচিপি কপি কৰক</string>
+	<string name="current_account_not_found_exception_message">অনুৰোধ কৰা একাউণ্টটো Nextcloud Files এপত পোৱা নগ’ল</string>
+	<string name="current_account_not_found_exception_title">একাউণ্ট পোৱা নগ’ল</string>
 	<string name="delete_recipe">ৰেচিপি মচি পেলাওক</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ চাৰ্ভাৰৰ পৰা স্থায়ীভাৱে মচি পেলোৱা হ’ব । এইটো বাতিল কৰিব নোৱাৰি৷</string>
 	<string name="delete_recipe_confirm_positive">বিলোপ</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">একক চাইন অন</string>
 	<string name="menu_title_app">এপ</string>
 	<string name="menu_uncategorized">অশ্ৰেণীবদ্ধ</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">ছেটিংছ</string>
 	<string name="no_information">কোনো তথ্য নাই</string>
 	<string name="no_ingredients">কোনো উপাদান নাই</string>
 	<string name="no_instructions">কোনো নিৰ্দেশনা নাই</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">ৰন্ধা</string>
 	<string name="tooltip_prep_time">প্ৰস্তুতি</string>
 	<string name="tooltip_total_time">মুঠ</string>
+	<string name="unknown_error">অজ্ঞাত ভুল</string>
 </resources>

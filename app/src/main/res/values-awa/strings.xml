@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">ओनके बीच नुस्खा कॉपी करै के लिए पहिले एक अउर खाता जोड़ौ</string>
 	<string name="copy_to_account_success">’%1$s’ का %2$s मा कॉपी कीन गा है। अगर फोटो वहिजा नाहीं दिखाई देत है, तौ उ सर्वर इहाँ से नाहीं ला सकत है - हाथ से फिर से जोड़ौ</string>
 	<string name="copy_to_account_title">ई नुस्खा का कॉपी कइके</string>
+	<string name="current_account_not_found_exception_message">अनुरोधित खाता नेक्स्टक्लाउड फाइल्स ऐप मा नाहीं मिला</string>
+	<string name="current_account_not_found_exception_title">खाता नहीं मिला</string>
 	<string name="delete_recipe">नुस्खा हटावा</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ सर्वर से स्थायी रूप से हटा दीन जाई। ई पूर्ववत नाहीं कीन जा सकत है</string>
 	<string name="delete_recipe_confirm_positive">मिटावब</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">एकल साइन ऑन</string>
 	<string name="menu_title_app">ऐप</string>
 	<string name="menu_uncategorized">अवर्गीकृत</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">सेटिंग्स</string>
 	<string name="no_information">कौनो जानकारी नाहीं</string>
 	<string name="no_ingredients">कौनो सामग्री नाहीं</string>
 	<string name="no_instructions">कौनो निर्देश नाहीं</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">खाना बनाना</string>
 	<string name="tooltip_prep_time">तयारी</string>
 	<string name="tooltip_total_time">कुलि</string>
+	<string name="unknown_error">अज्ञात त्रुटि</string>
 </resources>

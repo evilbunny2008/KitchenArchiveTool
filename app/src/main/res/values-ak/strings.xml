@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Fa akontaabu foforo ka ho kan na woakyerɛw aduannoa ho akwankyerɛ wɔ wɔn ntam</string>
 	<string name="copy_to_account_success">Wɔakyerɛw ’%1$s’ akɔ %2$s. Wɔannyɛ mfonini no — Cookbook server no nni ɔkwan biara a ɛbɛfa so anya bi, enti fa nsa ka ho bio sɛ ​​wopɛ sɛ ɛwɔ hɔ a</string>
 	<string name="copy_to_account_title">Copy saa recipe yi to</string>
+	<string name="current_account_not_found_exception_message">Wɔanhu akontaabu a wɔsrɛɛ no ​​wɔ Nextcloud Files app no ​​mu</string>
+	<string name="current_account_not_found_exception_title">Akontaabu a wɔanhu</string>
 	<string name="delete_recipe">Popa aduannoa ho akwankyerɛ</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ bɛpopa afi somfo no so daa. Eyi ntumi nsan nkɔ</string>
 	<string name="delete_recipe_confirm_positive">Pepa</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Nsɛnkyerɛnne Baako On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Wɔnkyekyɛɛ mu</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Nsiesiei a Wɔde Yɛ Adwuma</string>
 	<string name="no_information">Nsɛm biara nni hɔ</string>
 	<string name="no_ingredients">Nneɛma a Wɔde Yɛ No Biara</string>
 	<string name="no_instructions">Akwankyerɛ Biara Nni Hɔ</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Aduanenoa</string>
 	<string name="tooltip_prep_time">Ahoboa</string>
 	<string name="tooltip_total_time">Ne nyinaa</string>
+	<string name="unknown_error">Mfomso a wonnim</string>
 </resources>

@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">Magdagdag nin saro pang account nguna tanganing makakopya nin mga resipe sa pag-ultanan ninda</string>
 	<string name="copy_to_account_success">Kinopya an ’%1$s’ pasiring sa %2$s</string>
 	<string name="copy_to_account_title">Kopyahon an resipe na ini sa</string>
+	<string name="current_account_not_found_exception_message">An hinahagad na account dai nakua sa Nextcloud Files app</string>
+	<string name="current_account_not_found_exception_title">Dai nakua an account</string>
 	<string name="delete_recipe">Buraon an resipe</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ permanenteng hahaleon gikan sa serbidor.’ Dai na ini pwedeng ibalik</string>
 	<string name="delete_recipe_confirm_positive">Haleon</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">Solong Pag-sign On</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Daing kategorya</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">Mga Setting</string>
 	<string name="no_information">Mayo nin Impormasyon</string>
 	<string name="no_ingredients">Mayo nin mga sangkap</string>
 	<string name="no_instructions">Mayo nin mga Instruksiyon</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">Nagluluto</string>
 	<string name="tooltip_prep_time">Preparasyon</string>
 	<string name="tooltip_total_time">Kabilugan</string>
+	<string name="unknown_error">Dai aram na sala</string>
 </resources>

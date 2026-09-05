@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">ایشانی میان ءَ نسخہ کاپی کنگ ءِ ھاترا پیسر ءَ دگہ اکاؤنٹے ھوار کن اِت</string>
 	<string name="copy_to_account_success">’%1$s’ ءَ %2$s ءَ کاپی کتگ۔ اگر عکس اوذا پیش نہ کئیث، آں سرور ایشی ئا شہ ایذا نہ کثہ۔ دست ئا پذا ھوار کن</string>
 	<string name="copy_to_account_title">اے نسخہ ءَ کاپی کن اِت</string>
+	<string name="current_account_not_found_exception_message">درخواست کثغیں اکاؤنٹ نیکسٹ کلاؤڈ فائلز ایپ ئا دست نہ کپثہ</string>
+	<string name="current_account_not_found_exception_title">اکاؤنٹ نہ رستگ</string>
 	<string name="delete_recipe">نسخہ حذف کن</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ سرور ءَ چہ پہ دائمی ھلاس کنگ بیت۔ اے کار ءَ پدا کنگ نہ بیت</string>
 	<string name="delete_recipe_confirm_positive">گار کنگ</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">یکیں سائن ءِ سرا</string>
 	<string name="menu_title_app">ایپ</string>
 	<string name="menu_uncategorized">بے درجہ بندی</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">ترتیبات</string>
 	<string name="no_information">ہچ وڑیں زانتکاری نیستیں</string>
 	<string name="no_ingredients">ہچ چیز نیستیں</string>
 	<string name="no_instructions">ہچ ہدایت نیستیں</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">گرادگ</string>
 	<string name="tooltip_prep_time">بند و بست</string>
 	<string name="tooltip_total_time">سرجمی</string>
+	<string name="unknown_error">نامعلومیں ردی</string>
 </resources>

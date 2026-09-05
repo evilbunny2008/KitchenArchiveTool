@@ -21,6 +21,8 @@
 	<string name="copy_to_account_none_available">أضف حسابًا آخر أولاً لنسخ الوصفات بينهما</string>
 	<string name="copy_to_account_success">تم نسخ ’%1$s’ إلى %2$s</string>
 	<string name="copy_to_account_title">انسخ هذه الوصفة إلى</string>
+	<string name="current_account_not_found_exception_message">لم يتم العثور على الحساب المطلوب في تطبيق Nextcloud Files</string>
+	<string name="current_account_not_found_exception_title">لم يتم العثور على الحساب</string>
 	<string name="delete_recipe">حذف الوصفة</string>
 	<string name="delete_recipe_confirm_message">سيتم حذف ’%1$s’ نهائيًا من الخادم. لا يمكن التراجع عن هذا</string>
 	<string name="delete_recipe_confirm_positive">يمسح</string>
@@ -72,6 +74,7 @@
 	<string name="menu_sso">تسجيل الدخول الموحد</string>
 	<string name="menu_title_app">برنامج</string>
 	<string name="menu_uncategorized">غير مصنف</string>
+	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings">إعدادات</string>
 	<string name="no_information">لا توجد معلومات</string>
 	<string name="no_ingredients">لا المكونات</string>
 	<string name="no_instructions">لا تعليمات</string>
@@ -152,4 +155,5 @@
 	<string name="tooltip_cook_time">طبخ</string>
 	<string name="tooltip_prep_time">تحضير</string>
 	<string name="tooltip_total_time">المجموع</string>
+	<string name="unknown_error">خطأ غير معروف</string>
 </resources>
