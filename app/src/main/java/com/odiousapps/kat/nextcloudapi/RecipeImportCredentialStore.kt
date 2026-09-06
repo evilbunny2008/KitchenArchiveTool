@@ -3,6 +3,8 @@
  *
  * Copyright 2026 by MicMun
  */
+@file:Suppress("DEPRECATION")
+
 package com.odiousapps.kat.nextcloudapi
 
 import android.content.Context
@@ -10,6 +12,7 @@ import android.content.SharedPreferences
 import androidx.security.crypto.EncryptedSharedPreferences
 import androidx.security.crypto.MasterKey
 import org.json.JSONObject
+import androidx.core.content.edit
 
 /**
  * Stores the app password obtained via [NextcloudLoginFlow] for the
@@ -65,7 +68,7 @@ object RecipeImportCredentialStore {
          put("loginName", credentials.loginName)
          put("appPassword", credentials.appPassword)
       }
-      prefs(context).edit().putString(accountName, json.toString()).apply()
+      prefs(context).edit { putString(accountName, json.toString()) }
    }
 
    /**
@@ -77,6 +80,6 @@ object RecipeImportCredentialStore {
     * RecipeImportLoginActivity to obtain a fresh one.
     */
    fun clear(context: Context, accountName: String) {
-      prefs(context).edit().remove(accountName).apply()
+      prefs(context).edit { remove(accountName) }
    }
 }
