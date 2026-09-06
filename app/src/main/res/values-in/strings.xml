@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Pilih Tema</string>
 	<string name="rationale_permissions">Alasan: %s</string>
 	<string name="recipe_details_tabs">Resep disusun dalam tab</string>
+	<string name="recipe_import_dialog_hint">URL resep</string>
+	<string name="recipe_import_dialog_positive">Impor</string>
+	<string name="recipe_import_dialog_title">Impor resep dari URL</string>
+	<string name="recipe_import_failure">Tidak dapat mengimpor resep: %1$s</string>
+	<string name="recipe_import_in_progress">Impor resep</string>
+	<string name="recipe_import_login_close">Batalkan masuk</string>
+	<string name="recipe_import_login_init_failed">Tidak dapat memulai proses masuk: %1$s</string>
+	<string name="recipe_import_login_timed_out">Waktu masuk habis. Coba lagi</string>
+	<string name="recipe_import_login_title">Masuk ke Nextcloud</string>
+	<string name="recipe_import_menu_title">Impor resep dari URL</string>
+	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar thumbnail resep</string>
 	<string name="recipe_no_timer">Resep ini tidak memiliki pengatur waktu!</string>
 	<string name="request_again">Minta lagi</string>

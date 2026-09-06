@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Tema ukxa ajlliñamawa</string>
 	<string name="rationale_permissions">Ukax akham sañ muni: %s</string>
 	<string name="recipe_details_tabs">Receta ukaxa tablas ukanakanwa wakicht’ata</string>
+	<string name="recipe_import_dialog_hint">URL ukax receta ukankiwa</string>
+	<string name="recipe_import_dialog_positive">Apayaniña</string>
+	<string name="recipe_import_dialog_title">URL ukan receta apsuña</string>
+	<string name="recipe_import_failure">Janiw uka receta ukar apkatañjamäkiti: %1$s</string>
+	<string name="recipe_import_in_progress">Importación ukax receta</string>
+	<string name="recipe_import_login_close">Uñt’ayasiñatakix cancelañamawa</string>
+	<string name="recipe_import_login_init_failed">Janiw mantañ thakhi qalltañjamäkiti: %1$s</string>
+	<string name="recipe_import_login_timed_out">Uñt’ayasiñatakix pachax tukusxiwa. Mayampiw yantʼañama</string>
+	<string name="recipe_import_login_title">Nextcloud ukar mantañamawa</string>
+	<string name="recipe_import_menu_title">URL ukan receta apsuña</string>
+	<string name="recipe_import_service_url_hint">Receta importación servicio URL ukax mä juk’a pachanakanwa</string>
 	<string name="recipe_list_image_desc">Imajin jisk’a uñacht’awi receta</string>
 	<string name="recipe_no_timer">¡Aka Receta ukax janiw mä tiempor uñt’aykiti!</string>
 	<string name="request_again">Mayampi mayiñani</string>

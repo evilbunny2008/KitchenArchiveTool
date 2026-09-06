@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Pilien ti Tema</string>
 	<string name="rationale_permissions">Rason: %s</string>
 	<string name="recipe_details_tabs">Naurnos ti resipe kadagiti tab</string>
+	<string name="recipe_import_dialog_hint">URL ti resipe</string>
+	<string name="recipe_import_dialog_positive">Gumatang ti sabali a pagilian</string>
+	<string name="recipe_import_dialog_title">I-import ti resipe manipud iti URL</string>
+	<string name="recipe_import_failure">Saan a mai-import ti resipe: %1$s</string>
+	<string name="recipe_import_in_progress">Panag-import ti resipe</string>
+	<string name="recipe_import_login_close">Kanselaen ti panaglogin</string>
+	<string name="recipe_import_login_init_failed">Saan a mairugi ti proseso ti panaglogin: %1$s</string>
+	<string name="recipe_import_login_timed_out">Nalpasen ti oras ti panaglogin. Padasem manen</string>
+	<string name="recipe_import_login_title">Aglog-in iti Nextcloud</string>
+	<string name="recipe_import_menu_title">I-import ti resipe manipud iti URL</string>
+	<string name="recipe_import_service_url_hint">URL ti serbisio ti panagala ti resipe</string>
 	<string name="recipe_list_image_desc">Image thumbnail ti resipe</string>
 	<string name="recipe_no_timer">Awan ti timer daytoy a Recipe!</string>
 	<string name="request_again">Agkiddaw manen</string>

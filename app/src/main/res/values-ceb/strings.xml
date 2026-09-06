@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Pilia ang Tema</string>
 	<string name="rationale_permissions">Rasyonal: %s</string>
 	<string name="recipe_details_tabs">Ang resipe giorganisar sa mga tab</string>
+	<string name="recipe_import_dialog_hint">URL sa resipe</string>
+	<string name="recipe_import_dialog_positive">Import</string>
+	<string name="recipe_import_dialog_title">Import resipe gikan sa URL</string>
+	<string name="recipe_import_failure">Dili ma-import ang resipe: %1$s</string>
+	<string name="recipe_import_in_progress">Gi-import nga resipe</string>
+	<string name="recipe_import_login_close">Cancel login</string>
+	<string name="recipe_import_login_init_failed">Dili makasugod sa proseso sa pag-login: %1$s</string>
+	<string name="recipe_import_login_timed_out">Nag-time out ang pag-login. Sulayi pag-usab</string>
+	<string name="recipe_import_login_title">Log in sa Nextcloud</string>
+	<string name="recipe_import_menu_title">Import resipe gikan sa URL</string>
+	<string name="recipe_import_service_url_hint">URL sa serbisyo sa pag-import sa resipe</string>
 	<string name="recipe_list_image_desc">Image thumbnail sa resipe</string>
 	<string name="recipe_no_timer">Kini nga Recipe walay timer!</string>
 	<string name="request_again">Paghangyo pag-usab</string>

@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">થીમ પસંદ કરો</string>
 	<string name="rationale_permissions">તર્ક: %s</string>
 	<string name="recipe_details_tabs">રેસીપી ટેબમાં ગોઠવાયેલ છે</string>
+	<string name="recipe_import_dialog_hint">રેસીપી URL</string>
+	<string name="recipe_import_dialog_positive">આયાત કરો</string>
+	<string name="recipe_import_dialog_title">URL થી રેસીપી આયાત કરો</string>
+	<string name="recipe_import_failure">રેસીપી આયાત કરી શકાઈ નથી: %1$s</string>
+	<string name="recipe_import_in_progress">રેસીપી આયાત કરી રહ્યું છે</string>
+	<string name="recipe_import_login_close">લૉગિન રદ કરો</string>
+	<string name="recipe_import_login_init_failed">લૉગિન પ્રક્રિયા શરૂ કરી શકાઈ નથી: %1$s</string>
+	<string name="recipe_import_login_timed_out">લૉગિનનો સમય સમાપ્ત થયો. ફરી પ્રયાસ કરો</string>
+	<string name="recipe_import_login_title">નેક્સ્ટક્લાઉડમાં લૉગ ઇન કરો</string>
+	<string name="recipe_import_menu_title">URL થી રેસીપી આયાત કરો</string>
+	<string name="recipe_import_service_url_hint">રેસીપી આયાત સેવા URL</string>
 	<string name="recipe_list_image_desc">રેસીપીની છબી થંબનેલ</string>
 	<string name="recipe_no_timer">આ રેસીપીમાં ટાઈમર નથી!</string>
 	<string name="request_again">ફરી વિનંતી</string>

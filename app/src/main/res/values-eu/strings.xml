@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Hautatu Gaia</string>
 	<string name="rationale_permissions">Arrazoia: %s</string>
 	<string name="recipe_details_tabs">Errezeta fitxetan antolatuta dago</string>
+	<string name="recipe_import_dialog_hint">Errezetaren URLa</string>
+	<string name="recipe_import_dialog_positive">Inportatu</string>
+	<string name="recipe_import_dialog_title">Inportatu errezeta URLtik</string>
+	<string name="recipe_import_failure">Ezin izan da errezeta inportatu: %1$s</string>
+	<string name="recipe_import_in_progress">Errezeta inportatzen</string>
+	<string name="recipe_import_login_close">Utzi saioa hasteko</string>
+	<string name="recipe_import_login_init_failed">Ezin izan da saioa hasteko prozesua hasi: %1$s</string>
+	<string name="recipe_import_login_timed_out">Saioa hasteko denbora-muga gainditu da. Saiatu berriro</string>
+	<string name="recipe_import_login_title">Hasi saioa Nextcloud-en</string>
+	<string name="recipe_import_menu_title">Inportatu errezeta URLtik</string>
+	<string name="recipe_import_service_url_hint">Errezeta inportatzeko zerbitzuaren URLa</string>
 	<string name="recipe_list_image_desc">Errezetaren irudiaren miniatura</string>
 	<string name="recipe_no_timer">Errezeta honek ez du tenporizadorerik!</string>
 	<string name="request_again">Eskatu berriro</string>

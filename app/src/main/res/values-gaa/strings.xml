@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Halamɔ Yitso lɛ</string>
 	<string name="rationale_permissions">Yiŋtoo: %s</string>
 	<string name="recipe_details_tabs">Ato niyenii he gbɛjianɔtoo he gbɛjianɔ yɛ tabs amli</string>
+	<string name="recipe_import_dialog_hint">Niyenii he gbɛjianɔtoo URL</string>
+	<string name="recipe_import_dialog_positive">Ashɛɔ</string>
+	<string name="recipe_import_dialog_title">Resipi kɛjɛ URL</string>
+	<string name="recipe_import_failure">Enyɛɛɛ ekɛ niyenii he gbɛjianɔtoo lɛ aba: %1$s</string>
+	<string name="recipe_import_in_progress">Resipi ni akɛbaa</string>
+	<string name="recipe_import_login_close">Fo mlibotemɔ</string>
+	<string name="recipe_import_login_init_failed">Enyɛɛɛ eje gbɛjianɔtoo ni akɛboteɔ mli lɛ shishi: %1$s</string>
+	<string name="recipe_import_login_timed_out">Be ni akɛboteɔ mli lɛ eho. Kaa ekoŋŋ</string>
+	<string name="recipe_import_login_title">Botemɔ Nextcloud lɛ mli</string>
+	<string name="recipe_import_menu_title">Resipi kɛjɛ URL</string>
+	<string name="recipe_import_service_url_hint">Resipi sɛɛvis sɛɛvis URL</string>
 	<string name="recipe_list_image_desc">Mfoniri bibioo ni kɔɔ niyenii he gbɛjianɔtoo he</string>
 	<string name="recipe_no_timer">Nɛkɛ Recipe nɛɛ bɛ be he gbɛjianɔtoo!</string>
 	<string name="request_again">Bi ekoŋŋ</string>

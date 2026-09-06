@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Họrọ Okwu</string>
 	<string name="rationale_permissions">Ihe kpatara ya: %s</string>
 	<string name="recipe_details_tabs">A haziri ihe oriri na taabụ</string>
+	<string name="recipe_import_dialog_hint">URL nri</string>
+	<string name="recipe_import_dialog_positive">Bubata</string>
+	<string name="recipe_import_dialog_title">Bubata uzommeputa site na URL</string>
+	<string name="recipe_import_failure">Enweghị ike ibubata uzommeputa: %1$s</string>
+	<string name="recipe_import_in_progress">Na-ebubata uzommeputa</string>
+	<string name="recipe_import_login_close">Kagbuo nbanye</string>
+	<string name="recipe_import_login_init_failed">Enweghị ike ịmalite usoro nbanye: %1$s</string>
+	<string name="recipe_import_login_timed_out">Oge nbanye agwụla. Nwaa ọzọ</string>
+	<string name="recipe_import_login_title">Banye na Nextcloud</string>
+	<string name="recipe_import_menu_title">Bubata uzommeputa site na URL</string>
+	<string name="recipe_import_service_url_hint">URL ọrụ mbubata nri nri</string>
 	<string name="recipe_list_image_desc">Foto thumbnail nke uzommeputa</string>
 	<string name="recipe_no_timer">Ntụziaka a enweghị ngụ oge!</string>
 	<string name="request_again">Rịọ ọzọ</string>

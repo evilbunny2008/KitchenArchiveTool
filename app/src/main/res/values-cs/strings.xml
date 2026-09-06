@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Vyberte téma</string>
 	<string name="rationale_permissions">Odůvodnění: %s</string>
 	<string name="recipe_details_tabs">Recept je uspořádán do karet</string>
+	<string name="recipe_import_dialog_hint">Adresa URL receptu</string>
+	<string name="recipe_import_dialog_positive">Importovat</string>
+	<string name="recipe_import_dialog_title">Importujte recept z adresy URL</string>
+	<string name="recipe_import_failure">Nelze importovat recept: %1$s</string>
+	<string name="recipe_import_in_progress">Import receptu</string>
+	<string name="recipe_import_login_close">Zrušit přihlášení</string>
+	<string name="recipe_import_login_init_failed">Přihlašovací proces nelze spustit: %1$s</string>
+	<string name="recipe_import_login_timed_out">Časový limit přihlášení vypršel. Zkuste to znovu</string>
+	<string name="recipe_import_login_title">Přihlaste se do Nextcloud</string>
+	<string name="recipe_import_menu_title">Importujte recept z adresy URL</string>
+	<string name="recipe_import_service_url_hint">Adresa URL služby importu receptů</string>
 	<string name="recipe_list_image_desc">Miniatura obrázku receptu</string>
 	<string name="recipe_no_timer">Tento recept nemá časovač!</string>
 	<string name="request_again">Požádejte znovu</string>

@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Sélectionnez un thème</string>
 	<string name="rationale_permissions">Justification : %s</string>
 	<string name="recipe_details_tabs">La recette est organisée en onglets</string>
+	<string name="recipe_import_dialog_hint">URL de la recette</string>
+	<string name="recipe_import_dialog_positive">Importer</string>
+	<string name="recipe_import_dialog_title">Importer la recette depuis l’URL</string>
+	<string name="recipe_import_failure">Impossible d’importer la recette : %1$s</string>
+	<string name="recipe_import_in_progress">Importer une recette</string>
+	<string name="recipe_import_login_close">Annuler la connexion</string>
+	<string name="recipe_import_login_init_failed">Impossible de démarrer le processus de connexion : %1$s</string>
+	<string name="recipe_import_login_timed_out">La connexion a expiré. Essayer à nouveau</string>
+	<string name="recipe_import_login_title">Connectez-vous à Nextcloud</string>
+	<string name="recipe_import_menu_title">Importer la recette depuis l’URL</string>
+	<string name="recipe_import_service_url_hint">URL du service d’importation de recettes</string>
 	<string name="recipe_list_image_desc">Image miniature de la recette</string>
 	<string name="recipe_no_timer">Cette recette n’a pas de minuterie !</string>
 	<string name="request_again">Demander à nouveau</string>

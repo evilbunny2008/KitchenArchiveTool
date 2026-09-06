@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Taght Theme</string>
 	<string name="rationale_permissions">Reesht: %s</string>
 	<string name="recipe_details_tabs">Ta’n rishid ry-eaddagh ayns tabbyn</string>
+	<string name="recipe_import_dialog_hint">URL y rheynn</string>
+	<string name="recipe_import_dialog_positive">Madyr</string>
+	<string name="recipe_import_dialog_title">Import y redid veih URL</string>
+	<string name="recipe_import_failure">Cha b’aashagh y red y chur magh: %1$s</string>
+	<string name="recipe_import_in_progress">Recipe y chur stiagh</string>
+	<string name="recipe_import_login_close">Cur lhiggey stiagh</string>
+	<string name="recipe_import_login_init_failed">Cha b’aashagh y phroseas login toshiaght: %1$s</string>
+	<string name="recipe_import_login_timed_out">Ta’n traa login er jeet. Feayrish reesht</string>
+	<string name="recipe_import_login_title">Cur stiagh ayns Nextcloud</string>
+	<string name="recipe_import_menu_title">Import y redid veih URL</string>
+	<string name="recipe_import_service_url_hint">URL seirveish import y red</string>
 	<string name="recipe_list_image_desc">Deiney beg jeh’n recipe</string>
 	<string name="recipe_no_timer">Ta’n Recipe shoh gyn timer!</string>
 	<string name="request_again">Irree magh reesht</string>

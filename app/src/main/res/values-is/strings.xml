@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Veldu Þema</string>
 	<string name="rationale_permissions">Rökstuðningur: %s</string>
 	<string name="recipe_details_tabs">Uppskrift er skipulögð í flipa</string>
+	<string name="recipe_import_dialog_hint">Uppskriftarslóð</string>
+	<string name="recipe_import_dialog_positive">Innflutningur</string>
+	<string name="recipe_import_dialog_title">Flytja inn uppskrift frá URL</string>
+	<string name="recipe_import_failure">Ekki tókst að flytja inn uppskriftina: %1$s</string>
+	<string name="recipe_import_in_progress">Flytur inn uppskrift</string>
+	<string name="recipe_import_login_close">Hætta við innskráningu</string>
+	<string name="recipe_import_login_init_failed">Gat ekki ræst innskráningarferlið: %1$s</string>
+	<string name="recipe_import_login_timed_out">Innskráning rann út. Reyndu aftur</string>
+	<string name="recipe_import_login_title">Skráðu þig inn á Nextcloud</string>
+	<string name="recipe_import_menu_title">Flytja inn uppskrift frá URL</string>
+	<string name="recipe_import_service_url_hint">Slóð innflutningsþjónustu uppskrifta</string>
 	<string name="recipe_list_image_desc">Smámynd af uppskrift</string>
 	<string name="recipe_no_timer">Þessi uppskrift er ekki með tímamæli!</string>
 	<string name="request_again">Beiðni aftur</string>

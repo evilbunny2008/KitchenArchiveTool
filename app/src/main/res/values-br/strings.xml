@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Dibab Tem</string>
 	<string name="rationale_permissions">Dibab : %s</string>
 	<string name="recipe_details_tabs">Renket eo ar rekipe e ivinelloù</string>
+	<string name="recipe_import_dialog_hint">URL ar rekipe</string>
+	<string name="recipe_import_dialog_positive">Enporzhiañ</string>
+	<string name="recipe_import_dialog_title">Enporzhiañ ar rekipe diouzh an URL</string>
+	<string name="recipe_import_failure">N’haller ket enporzhiañ ar rekipe : %1$s</string>
+	<string name="recipe_import_in_progress">Oc’h enporzhiañ ar rekipe</string>
+	<string name="recipe_import_login_close">Nullañ an enskrivadur</string>
+	<string name="recipe_import_login_init_failed">N’haller ket loc’hañ an argerzh kennaskañ : %1$s</string>
+	<string name="recipe_import_login_timed_out">Diamzeret eo an amzer kennaskañ. Klaskit en-dro</string>
+	<string name="recipe_import_login_title">Kevreañ ouzh Nextcloud</string>
+	<string name="recipe_import_menu_title">Enporzhiañ ar rekipe diouzh an URL</string>
+	<string name="recipe_import_service_url_hint">URL ar servij enporzhiañ rekipeoù</string>
 	<string name="recipe_list_image_desc">Skeudenn vihan ar rekipe</string>
 	<string name="recipe_no_timer">N’eus ket ur c’horn-amzer gant ar rekipe-mañ !</string>
 	<string name="request_again">Goulenn en-dro</string>

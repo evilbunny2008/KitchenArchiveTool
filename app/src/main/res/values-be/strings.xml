@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Выберыце Тэма</string>
 	<string name="rationale_permissions">Абгрунтаванне: %s</string>
 	<string name="recipe_details_tabs">Рэцэпт арганізаваны ва ўкладках</string>
+	<string name="recipe_import_dialog_hint">URL-адрас рэцэпту</string>
+	<string name="recipe_import_dialog_positive">Імпарт</string>
+	<string name="recipe_import_dialog_title">Імпартаваць рэцэпт з URL</string>
+	<string name="recipe_import_failure">Немагчыма імпартаваць рэцэпт: %1$s</string>
+	<string name="recipe_import_in_progress">Імпарт рэцэпта</string>
+	<string name="recipe_import_login_close">Адмяніць уваход</string>
+	<string name="recipe_import_login_init_failed">Не атрымалася запусціць працэс уваходу: %1$s</string>
+	<string name="recipe_import_login_timed_out">Час для ўваходу скончыўся. Паспрабуйце яшчэ раз</string>
+	<string name="recipe_import_login_title">Увайдзіце ў Nextcloud</string>
+	<string name="recipe_import_menu_title">Імпартаваць рэцэпт з URL</string>
+	<string name="recipe_import_service_url_hint">URL службы імпарту рэцэптаў</string>
 	<string name="recipe_list_image_desc">Мініяцюра рэцэпту</string>
 	<string name="recipe_no_timer">Гэты рэцэпт не мае таймера!</string>
 	<string name="request_again">Зноў запытаць</string>

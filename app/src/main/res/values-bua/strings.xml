@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Сэдэб шэлэхэ</string>
 	<string name="rationale_permissions">Ушар шалтагаан: %s</string>
 	<string name="recipe_details_tabs">Жор таблицануудаар эмхидхэгдэһэн байна</string>
+	<string name="recipe_import_dialog_hint">Жорын URL</string>
+	<string name="recipe_import_dialog_positive">Импорт</string>
+	<string name="recipe_import_dialog_title">URL-һээ жороо оруулха</string>
+	<string name="recipe_import_failure">Жор оруулха аргагүй: %1$s</string>
+	<string name="recipe_import_in_progress">Жор оруулна</string>
+	<string name="recipe_import_login_close">Нэгэ нэбтэрэлгэ болюулха</string>
+	<string name="recipe_import_login_init_failed">Нэгэ нэбтэрэлгын үйлэ ябасые эхилүүлжэ шадаагүй: %1$s</string>
+	<string name="recipe_import_login_timed_out">Нэгэ нэбтэрхэ саг үнгэрөө. Дахин туршагты</string>
+	<string name="recipe_import_login_title">Nextcloud руу орохо</string>
+	<string name="recipe_import_menu_title">URL-һээ жороо оруулха</string>
+	<string name="recipe_import_service_url_hint">Жор импортын албанай URL</string>
 	<string name="recipe_list_image_desc">Жорын зураг</string>
 	<string name="recipe_no_timer">Энэ жороо саг хэмжүүргүй!</string>
 	<string name="request_again">Дахин гуйха</string>

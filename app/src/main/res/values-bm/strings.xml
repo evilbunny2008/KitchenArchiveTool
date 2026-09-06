@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Barokun sugandi</string>
 	<string name="rationale_permissions">Kumasen: %s</string>
 	<string name="recipe_details_tabs">Recipe labɛnna tabw kɔnɔ</string>
+	<string name="recipe_import_dialog_hint">Recette URL ye</string>
+	<string name="recipe_import_dialog_positive">Ka ladon</string>
+	<string name="recipe_import_dialog_title">I ka furakɛcogo ladon ka bɔ URL la</string>
+	<string name="recipe_import_failure">A ma se ka furakɛcogo in ladon: %1$s</string>
+	<string name="recipe_import_in_progress">Importation recette</string>
+	<string name="recipe_import_login_close">A’ ye donnakow dabila</string>
+	<string name="recipe_import_login_init_failed">A ma se ka doncogo daminɛ: %1$s</string>
+	<string name="recipe_import_login_timed_out">Donni waati tɛmɛna. Aw bɛ segin ka a lajɛ</string>
+	<string name="recipe_import_login_title">Aw bɛ don Nextcloud kɔnɔ</string>
+	<string name="recipe_import_menu_title">I ka furakɛcogo ladon ka bɔ URL la</string>
+	<string name="recipe_import_service_url_hint">Recette import baarakɛyɔrɔ URL</string>
 	<string name="recipe_list_image_desc">Jaa fitinin min bɛ furakɛcogo jira</string>
 	<string name="recipe_no_timer">Nin Recipe in tɛ ni waati jatebɔlan ye!</string>
 	<string name="request_again">Aw ye ɲinini kɛ tuguni</string>

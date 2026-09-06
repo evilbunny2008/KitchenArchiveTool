@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">থিম নির্বাচন করুন</string>
 	<string name="rationale_permissions">যুক্তি: %s</string>
 	<string name="recipe_details_tabs">রেসিপি ট্যাবে সংগঠিত হয়</string>
+	<string name="recipe_import_dialog_hint">রেসিপি URL</string>
+	<string name="recipe_import_dialog_positive">আমদানি</string>
+	<string name="recipe_import_dialog_title">URL থেকে রেসিপি আমদানি করুন</string>
+	<string name="recipe_import_failure">রেসিপি আমদানি করা যায়নি: %1$s</string>
+	<string name="recipe_import_in_progress">রেসিপি আমদানি করা হচ্ছে</string>
+	<string name="recipe_import_login_close">লগইন বাতিল করুন</string>
+	<string name="recipe_import_login_init_failed">লগইন প্রক্রিয়া শুরু করা যায়নি: %1$s</string>
+	<string name="recipe_import_login_timed_out">লগইন করার সময় শেষ আবার চেষ্টা করুন</string>
+	<string name="recipe_import_login_title">নেক্সটক্লাউডে লগ ইন করুন</string>
+	<string name="recipe_import_menu_title">URL থেকে রেসিপি আমদানি করুন</string>
+	<string name="recipe_import_service_url_hint">রেসিপি আমদানি পরিষেবা URL</string>
 	<string name="recipe_list_image_desc">রেসিপি ছবির থাম্বনেল</string>
 	<string name="recipe_no_timer">এই রেসিপি একটি টাইমার নেই!</string>
 	<string name="request_again">আবার অনুরোধ</string>

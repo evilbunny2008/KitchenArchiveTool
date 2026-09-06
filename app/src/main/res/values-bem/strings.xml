@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Saleni Umutwe</string>
 	<string name="rationale_permissions">Icilenga: %s</string>
 	<string name="recipe_details_tabs">Ifyakulya fyatantikwa mu fiputulwa</string>
+	<string name="recipe_import_dialog_hint">URL ya fyakulya</string>
+	<string name="recipe_import_dialog_positive">Ukuletamo</string>
+	<string name="recipe_import_dialog_title">Leteni ifyakulya ukufuma ku URL</string>
+	<string name="recipe_import_failure">Teti tulete ifyakupanga: %1$s</string>
+	<string name="recipe_import_in_progress">Ukuleta ifyakulya</string>
+	<string name="recipe_import_login_close">Ukukansha ukwingila</string>
+	<string name="recipe_import_login_init_failed">Teti citendeke inshila iya kwingililamo: %1$s</string>
+	<string name="recipe_import_login_timed_out">Inshita ya kwingililamo naipwa. Esheni nakabili</string>
+	<string name="recipe_import_login_title">Ingila mwikumbi lyakonkapo</string>
+	<string name="recipe_import_menu_title">Leteni ifyakulya ukufuma ku URL</string>
+	<string name="recipe_import_service_url_hint">URL iyakutwala ifyakulya</string>
 	<string name="recipe_list_image_desc">Icikope icinono ica mipangilwe ya fyakulya</string>
 	<string name="recipe_no_timer">Iyi Recipe tayakwata inshita!</string>
 	<string name="request_again">Ipushe nakabili</string>

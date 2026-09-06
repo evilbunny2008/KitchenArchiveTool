@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Pileh Tema</string>
 	<string name="rationale_permissions">Rasional: %s</string>
 	<string name="recipe_details_tabs">Resep geu atoe lam tab</string>
+	<string name="recipe_import_dialog_hint">URL resep</string>
+	<string name="recipe_import_dialog_positive">Impor</string>
+	<string name="recipe_import_dialog_title">Impor resep dari URL</string>
+	<string name="recipe_import_failure">Hana jeuet ta import resep: %1$s</string>
+	<string name="recipe_import_in_progress">Resep impor</string>
+	<string name="recipe_import_login_close">Batal login</string>
+	<string name="recipe_import_login_init_failed">Hana jeuet geumulai proses login: %1$s</string>
+	<string name="recipe_import_login_timed_out">Login ka habeh watee. Cuba lom</string>
+	<string name="recipe_import_login_title">Neutamong lam Nextcloud</string>
+	<string name="recipe_import_menu_title">Impor resep dari URL</string>
+	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar ubit resep</string>
 	<string name="recipe_no_timer">Resep nyoe hana timer!</string>
 	<string name="request_again">Lake lom</string>

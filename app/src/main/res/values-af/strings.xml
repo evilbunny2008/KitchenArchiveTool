@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Kies Tema</string>
 	<string name="rationale_permissions">Rasionaal: %s</string>
 	<string name="recipe_details_tabs">Resep is in oortjies georganiseer</string>
+	<string name="recipe_import_dialog_hint">Resep URL</string>
+	<string name="recipe_import_dialog_positive">Invoer</string>
+	<string name="recipe_import_dialog_title">Voer resep vanaf URL in</string>
+	<string name="recipe_import_failure">Kon nie die resep invoer nie: %1$s</string>
+	<string name="recipe_import_in_progress">Voer tans resep in …</string>
+	<string name="recipe_import_login_close">Kanselleer aanmelding</string>
+	<string name="recipe_import_login_init_failed">Kon nie die aanmeldproses begin nie: %1$s</string>
+	<string name="recipe_import_login_timed_out">Aanmelding het uitgetel. Probeer weer</string>
+	<string name="recipe_import_login_title">Meld aan by Nextcloud</string>
+	<string name="recipe_import_menu_title">Voer resep vanaf URL in</string>
+	<string name="recipe_import_service_url_hint">Resep invoer diens URL</string>
 	<string name="recipe_list_image_desc">Prent-kleinkiekie van resep</string>
 	<string name="recipe_no_timer">Hierdie resep het nie ’n timer nie!</string>
 	<string name="request_again">Versoek weer</string>

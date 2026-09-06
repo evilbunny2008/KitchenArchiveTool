@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Xaiv lub ntsiab</string>
 	<string name="rationale_permissions">Qhov laj thawj: %s</string>
 	<string name="recipe_details_tabs">Daim ntawv qhia yog npaj rau hauv tabs</string>
+	<string name="recipe_import_dialog_hint">Daim ntawv qhia URL</string>
+	<string name="recipe_import_dialog_positive">Ntshuam</string>
+	<string name="recipe_import_dialog_title">Ntshuam daim ntawv qhia los ntawm URL</string>
+	<string name="recipe_import_failure">Tsis tuaj yeem import daim ntawv qhia: %1$s</string>
+	<string name="recipe_import_in_progress">Importing daim ntawv qhia</string>
+	<string name="recipe_import_login_close">Ncua tseg tus ID nkag mus</string>
+	<string name="recipe_import_login_init_failed">Tsis tuaj yeem pib txheej txheem nkag mus: %1$s</string>
+	<string name="recipe_import_login_timed_out">ID nkag mus tau sijhawm. Sim dua</string>
+	<string name="recipe_import_login_title">Nkag mus rau Nextcloud</string>
+	<string name="recipe_import_menu_title">Ntshuam daim ntawv qhia los ntawm URL</string>
+	<string name="recipe_import_service_url_hint">Daim ntawv qhia import URL</string>
 	<string name="recipe_list_image_desc">Duab thumbnail ntawm daim ntawv qhia</string>
 	<string name="recipe_no_timer">Daim ntawv qhia no tsis muaj timer!</string>
 	<string name="request_again">Thov dua</string>

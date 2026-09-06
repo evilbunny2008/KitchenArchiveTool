@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Paw Asɛmti no</string>
 	<string name="rationale_permissions">Nteaseɛ a ɛwɔ mu: %s</string>
 	<string name="recipe_details_tabs">Wɔahyehyɛ aduannoa ho nhyehyɛe wɔ tabs mu</string>
+	<string name="recipe_import_dialog_hint">Nnuan ho nyansahyɛ URL</string>
+	<string name="recipe_import_dialog_positive">Kra bra</string>
+	<string name="recipe_import_dialog_title">Fa aduannoa ho nyansahyɛ fi URL mu ba</string>
+	<string name="recipe_import_failure">Entumi mfa aduannoa ho nyansahyɛ no mmra: %1$s</string>
+	<string name="recipe_import_in_progress">Importing aduannoa ho nyansahyɛ</string>
+	<string name="recipe_import_login_close">Twa login no mu</string>
+	<string name="recipe_import_login_init_failed">Entumi mfi ase nkɔhyɛn nhyehyɛe no mu: %1$s</string>
+	<string name="recipe_import_login_timed_out">Login bere awie. Bɔ mmɔden bio</string>
+	<string name="recipe_import_login_title">Kɔ Nextcloud mu</string>
+	<string name="recipe_import_menu_title">Fa aduannoa ho nyansahyɛ fi URL mu ba</string>
+	<string name="recipe_import_service_url_hint">Recipe import ɔsom URL</string>
 	<string name="recipe_list_image_desc">Mfonini ketewaa bi a ɛfa aduannoa ho</string>
 	<string name="recipe_no_timer">Saa Recipe yi nni timer!</string>
 	<string name="request_again">Bisa bio</string>

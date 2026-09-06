@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">བརྗོད་གཞི་འདེམས།</string>
 	<string name="rationale_permissions">རྒྱུ་མཚན།: %s</string>
 	<string name="recipe_details_tabs">བཟོ་སྟངས་དེ་མཆོང་ལྡེ་ནང་བསྒྲིགས་ཡོད།</string>
+	<string name="recipe_import_dialog_hint">བཟོ་སྟངས་URL</string>
+	<string name="recipe_import_dialog_positive">ནང་འདྲེན་དངོས་ཟོག</string>
+	<string name="recipe_import_dialog_title">URLནས་བཟོ་སྟངས་ནང་འདྲེན་བྱེད།</string>
+	<string name="recipe_import_failure">བཟོ་ཐབས་ནང་འདྲེན་བྱེད་མ་ཐུབ། %1$s</string>
+	<string name="recipe_import_in_progress">བཟོ་སྟངས་ནང་འདྲེན་བྱེད་པ།</string>
+	<string name="recipe_import_login_close">ནང་འཇུག་མེད་པར་བཟོས།</string>
+	<string name="recipe_import_login_init_failed">ནང་འཇུག་བྱ་རིམ་འགོ་འཛུགས་མ་ཐུབ།: %1$s</string>
+	<string name="recipe_import_login_timed_out">ནང་འཇུག་དུས་ཚོད་རྫོགས་སོང་། ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།</string>
+	<string name="recipe_import_login_title">Nextcloud ནང་ཐོ་འགོད་བྱོས།</string>
+	<string name="recipe_import_menu_title">URLནས་བཟོ་སྟངས་ནང་འདྲེན་བྱེད།</string>
+	<string name="recipe_import_service_url_hint">བཟོ་སྟངས་ནང་འདྲེན་ཞབས་ཞུའི་URL</string>
 	<string name="recipe_list_image_desc">བཟོ་སྟངས་ཀྱི་པར་རིས་མཐེབ།</string>
 	<string name="recipe_no_timer">བཟོ་ཐབས་འདི་ལ་དུས་ཚོད་གཏན་འཁེལ་མེད།</string>
 	<string name="request_again">ཡང་བསྐྱར་རེ་འདུན་ཞུས།</string>

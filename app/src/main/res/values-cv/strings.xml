@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Тема суйласа илӗр</string>
 	<string name="rationale_permissions">Сӑлтавӗ: %s</string>
 	<string name="recipe_details_tabs">Рецепт вкладкӑсем тӑрӑх йӗркеленнӗ</string>
+	<string name="recipe_import_dialog_hint">Рецепт URL</string>
+	<string name="recipe_import_dialog_positive">Импорт</string>
+	<string name="recipe_import_dialog_title">URL-ран рецепт илсе килӗр</string>
+	<string name="recipe_import_failure">Рецепта импортлаймарӑмӑр: %1$s</string>
+	<string name="recipe_import_in_progress">Рецепт импортлани</string>
+	<string name="recipe_import_login_close">Логина пӑрахӑҫла</string>
+	<string name="recipe_import_login_init_failed">Логин процесне пуҫлаймарӑмӑр: %1$s</string>
+	<string name="recipe_import_login_timed_out">Логин вӑхӑчӗ тухнӑ. Тепӗр хут тытӑнса пӑхӑр</string>
+	<string name="recipe_import_login_title">Nextcloud ҫине кӗрӗр</string>
+	<string name="recipe_import_menu_title">URL-ран рецепт илсе килӗр</string>
+	<string name="recipe_import_service_url_hint">Рецепт импорт службин URL-адресӗ</string>
 	<string name="recipe_list_image_desc">Рецептӑн ӳкерчӗкӗн пӗчӗк ӳкерчӗкӗ</string>
 	<string name="recipe_no_timer">Ку рецептӑн таймерӗ ҫук!</string>
 	<string name="request_again">Тепӗр хут ыйтӑр</string>

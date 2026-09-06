@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Yer wi lok</string>
 	<string name="rationale_permissions">Tyen lok: %s</string>
 	<string name="recipe_details_tabs">Kit me yubu cam ni ki yubu i dul ma pat pat</string>
+	<string name="recipe_import_dialog_hint">URL me kit me yubu cam</string>
+	<string name="recipe_import_dialog_positive">Gi m’acata ma aa ki woko</string>
+	<string name="recipe_import_dialog_title">Kel gin ma ki yubu me yubu cam ki i URL</string>
+	<string name="recipe_import_failure">Pi twero kelo gin ma ki yubu ni: %1$s</string>
+	<string name="recipe_import_in_progress">Kelo kit me yubu cam</string>
+	<string name="recipe_import_login_close">Juko donyo</string>
+	<string name="recipe_import_login_init_failed">Pi twero cako yub me donyo: %1$s</string>
+	<string name="recipe_import_login_timed_out">Kare me donyo otum. Tem doki</string>
+	<string name="recipe_import_login_title">Dony i Nextcloud</string>
+	<string name="recipe_import_menu_title">Kel gin ma ki yubu me yubu cam ki i URL</string>
+	<string name="recipe_import_service_url_hint">URL me tic me kelo jami acama</string>
 	<string name="recipe_list_image_desc">Cal matidi pa gin ma ki yubu me yubu cam</string>
 	<string name="recipe_no_timer">Kit me yubu cam ni pe ki cawa!</string>
 	<string name="request_again">Peny doki</string>

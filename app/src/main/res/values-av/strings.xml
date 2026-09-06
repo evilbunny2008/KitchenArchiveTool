@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Тема тӀаса бище</string>
 	<string name="rationale_permissions">ГӀилла: %s</string>
 	<string name="recipe_details_tabs">Рецепт гӀуцӀун букӀуна вкладкабазда</string>
+	<string name="recipe_import_dialog_hint">Рецепталъул URL</string>
+	<string name="recipe_import_dialog_positive">КъватӀиса къайи босие</string>
+	<string name="recipe_import_dialog_title">Рецепт импорт гьабе URL-алдаса</string>
+	<string name="recipe_import_failure">Рецепт импорт гьабизе кӀвечӀо: %1$s</string>
+	<string name="recipe_import_in_progress">Импорт гьабулеб рецепт</string>
+	<string name="recipe_import_login_close">Отменить логин</string>
+	<string name="recipe_import_login_init_failed">КӀвечӀо лъугьине процесс байбихьизе: %1$s</string>
+	<string name="recipe_import_login_timed_out">Логиналъул заман лъугӀана. Цоги нухалъ хӀалбихье</string>
+	<string name="recipe_import_login_title">Вход в Некстклауд</string>
+	<string name="recipe_import_menu_title">Рецепт импорт гьабе URL-алдаса</string>
+	<string name="recipe_import_service_url_hint">Рецепт импорталъул хъулухъалъул URL</string>
 	<string name="recipe_list_image_desc">Рецепталъул сураталъул гьитӀинаб сурат</string>
 	<string name="recipe_no_timer">Этот Рецепт не имеет таймера!</string>
 	<string name="request_again">ЦӀидасан гьаре</string>

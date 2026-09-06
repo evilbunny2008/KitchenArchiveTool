@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Επιλέξτε Θέμα</string>
 	<string name="rationale_permissions">Αιτιολογία: %s</string>
 	<string name="recipe_details_tabs">Η συνταγή είναι οργανωμένη σε καρτέλες</string>
+	<string name="recipe_import_dialog_hint">URL συνταγής</string>
+	<string name="recipe_import_dialog_positive">Εισαγωγή</string>
+	<string name="recipe_import_dialog_title">Εισαγωγή συνταγής από τη διεύθυνση URL</string>
+	<string name="recipe_import_failure">Δεν ήταν δυνατή η εισαγωγή της συνταγής: %1$s</string>
+	<string name="recipe_import_in_progress">Εισαγωγή συνταγής</string>
+	<string name="recipe_import_login_close">Ακύρωση σύνδεσης</string>
+	<string name="recipe_import_login_init_failed">Δεν ήταν δυνατή η έναρξη της διαδικασίας σύνδεσης: %1$s</string>
+	<string name="recipe_import_login_timed_out">Λήξη χρόνου σύνδεσης. Προσπαθήστε ξανά</string>
+	<string name="recipe_import_login_title">Συνδεθείτε στο Nextcloud</string>
+	<string name="recipe_import_menu_title">Εισαγωγή συνταγής από τη διεύθυνση URL</string>
+	<string name="recipe_import_service_url_hint">URL υπηρεσίας εισαγωγής συνταγής</string>
 	<string name="recipe_list_image_desc">Μικρογραφία εικόνας συνταγής</string>
 	<string name="recipe_no_timer">Αυτή η συνταγή δεν έχει χρονόμετρο!</string>
 	<string name="request_again">Ζητήστε ξανά</string>

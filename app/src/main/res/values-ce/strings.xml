@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Тема хьажа</string>
 	<string name="rationale_permissions">Бахьана: %s</string>
 	<string name="recipe_details_tabs">Рецепт вовшахтоьхна ю вкладкашкахь</string>
+	<string name="recipe_import_dialog_hint">Рецептан URL</string>
+	<string name="recipe_import_dialog_positive">Импорт ян</string>
+	<string name="recipe_import_dialog_title">Рецепт импорт е URL чуьра</string>
+	<string name="recipe_import_failure">Рецепт импорт ян аьтто ца баьлла: %1$s</string>
+	<string name="recipe_import_in_progress">Импорт еш йолу рецепт</string>
+	<string name="recipe_import_login_close">Логин дӀаяккха</string>
+	<string name="recipe_import_login_init_failed">Чуваларан процесс йолаяла аьтто ца баьлла: %1$s</string>
+	<string name="recipe_import_login_timed_out">Логин хан чекхъяьлла. Юха а хьажа</string>
+	<string name="recipe_import_login_title">Некстклауд чу вала</string>
+	<string name="recipe_import_menu_title">Рецепт импорт е URL чуьра</string>
+	<string name="recipe_import_service_url_hint">Рецепт импортан сервисан URL</string>
 	<string name="recipe_list_image_desc">Суьртан жима сурт рецептан</string>
 	<string name="recipe_no_timer">ХӀокху Рецептехь таймер яц!</string>
 	<string name="request_again">Юха а дехар де</string>

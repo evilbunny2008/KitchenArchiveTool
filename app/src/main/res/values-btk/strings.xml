@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Pillit ma Tema</string>
 	<string name="rationale_permissions">Rasional: %s</string>
 	<string name="recipe_details_tabs">Resep disusun di bagasan tab</string>
+	<string name="recipe_import_dialog_hint">URL resep</string>
+	<string name="recipe_import_dialog_positive">Impor</string>
+	<string name="recipe_import_dialog_title">Impor resep sian URL</string>
+	<string name="recipe_import_failure">Ndang boi diimpor resep: %1$s</string>
+	<string name="recipe_import_in_progress">Resep impor</string>
+	<string name="recipe_import_login_close">Batal masuk</string>
+	<string name="recipe_import_login_init_failed">Ndang boi dipungka proses masuk: %1$s</string>
+	<string name="recipe_import_login_timed_out">Masuk ma habis tingkina. Coba ma muse</string>
+	<string name="recipe_import_login_title">Masuk ma tu awan na mangihut</string>
+	<string name="recipe_import_menu_title">Impor resep sian URL</string>
+	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar kecil resep</string>
 	<string name="recipe_no_timer">Resep on ndang adong tingkina!</string>
 	<string name="request_again">Pangidoan muse</string>

@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Seleccione Tema</string>
 	<string name="rationale_permissions">Xustificación: %s</string>
 	<string name="recipe_details_tabs">A receita está organizada en pestanas</string>
+	<string name="recipe_import_dialog_hint">URL da receita</string>
+	<string name="recipe_import_dialog_positive">Importar</string>
+	<string name="recipe_import_dialog_title">Importar receita desde o URL</string>
+	<string name="recipe_import_failure">Non se puido importar a receita: %1$s</string>
+	<string name="recipe_import_in_progress">Importando receita</string>
+	<string name="recipe_import_login_close">Cancelar o inicio de sesión</string>
+	<string name="recipe_import_login_init_failed">Non se puido iniciar o proceso de inicio de sesión: %1$s</string>
+	<string name="recipe_import_login_timed_out">Esgotouse o tempo de inicio de sesión. Téntao de novo</string>
+	<string name="recipe_import_login_title">Inicia sesión en Nextcloud</string>
+	<string name="recipe_import_menu_title">Importar receita desde o URL</string>
+	<string name="recipe_import_service_url_hint">URL do servizo de importación de receitas</string>
 	<string name="recipe_list_image_desc">Imaxe en miniatura da receita</string>
 	<string name="recipe_no_timer">Esta receita non ten temporizador!</string>
 	<string name="request_again">Solicita de novo</string>

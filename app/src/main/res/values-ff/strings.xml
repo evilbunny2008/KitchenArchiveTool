@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Suɓo Tiitoonde</string>
 	<string name="rationale_permissions">Hujja: %s</string>
 	<string name="recipe_details_tabs">Reseta ina yuɓɓinee e tabs</string>
+	<string name="recipe_import_dialog_hint">URL restoraaji</string>
+	<string name="recipe_import_dialog_positive">Nastinugo ha lesdi</string>
+	<string name="recipe_import_dialog_title">Naatnude restoraaji ummoraade e URL</string>
+	<string name="recipe_import_failure">Waawaa naatde e restoraaji ɗii: %1$s</string>
+	<string name="recipe_import_in_progress">Naatgol restora</string>
+	<string name="recipe_import_login_close">Woppu naatde</string>
+	<string name="recipe_import_login_init_failed">Waawaa fuɗɗoraade golle naatnugol: %1$s</string>
+	<string name="recipe_import_login_timed_out">Wakkati nastugo timmi. Enndu kadi</string>
+	<string name="recipe_import_login_title">Naat e Nextcloud</string>
+	<string name="recipe_import_menu_title">Naatnude restoraaji ummoraade e URL</string>
+	<string name="recipe_import_service_url_hint">URL sarwiis naatgol restoraaji</string>
 	<string name="recipe_list_image_desc">Natal ɓuuɓngal e restora</string>
 	<string name="recipe_no_timer">Oo Recipe alaa waktu!</string>
 	<string name="request_again">Ɗaɓɓu kadi</string>

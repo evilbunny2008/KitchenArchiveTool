@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Vælg tema</string>
 	<string name="rationale_permissions">Begrundelse: %s</string>
 	<string name="recipe_details_tabs">Opskriften er organiseret i faner</string>
+	<string name="recipe_import_dialog_hint">Opskrifts URL</string>
+	<string name="recipe_import_dialog_positive">Importere</string>
+	<string name="recipe_import_dialog_title">Importer opskrift fra URL</string>
+	<string name="recipe_import_failure">Kunne ikke importere opskriften: %1$s</string>
+	<string name="recipe_import_in_progress">Importerer opskrift</string>
+	<string name="recipe_import_login_close">Annuller login</string>
+	<string name="recipe_import_login_init_failed">Kunne ikke starte login-processen: %1$s</string>
+	<string name="recipe_import_login_timed_out">Log på timeout. Prøv igen</string>
+	<string name="recipe_import_login_title">Log ind på Nextcloud</string>
+	<string name="recipe_import_menu_title">Importer opskrift fra URL</string>
+	<string name="recipe_import_service_url_hint">Opskrift import service URL</string>
 	<string name="recipe_list_image_desc">Miniaturebillede af opskriften</string>
 	<string name="recipe_no_timer">Denne opskrift har ikke en timer!</string>
 	<string name="request_again">Anmod igen</string>

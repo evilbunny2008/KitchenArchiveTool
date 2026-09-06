@@ -104,6 +104,17 @@
 	<string name="preftitle_theme">Seleccioneu el tema</string>
 	<string name="rationale_permissions">Justificació: %s</string>
 	<string name="recipe_details_tabs">La recepta està organitzada en pestanyes</string>
+	<string name="recipe_import_dialog_hint">URL de la recepta</string>
+	<string name="recipe_import_dialog_positive">Importar</string>
+	<string name="recipe_import_dialog_title">Importa la recepta des de l’URL</string>
+	<string name="recipe_import_failure">No s’ha pogut importar la recepta: %1$s</string>
+	<string name="recipe_import_in_progress">S’està important la recepta</string>
+	<string name="recipe_import_login_close">Cancel·la l’inici de sessió</string>
+	<string name="recipe_import_login_init_failed">No s’ha pogut iniciar el procés d’inici de sessió: %1$s</string>
+	<string name="recipe_import_login_timed_out">S’ha esgotat el temps d’inici de sessió. Torna-ho a provar</string>
+	<string name="recipe_import_login_title">Inicieu sessió a Nextcloud</string>
+	<string name="recipe_import_menu_title">Importa la recepta des de l’URL</string>
+	<string name="recipe_import_service_url_hint">URL del servei d’importació de receptes</string>
 	<string name="recipe_list_image_desc">Imatge en miniatura de la recepta</string>
 	<string name="recipe_no_timer">Aquesta recepta no té temporitzador!</string>
 	<string name="request_again">Sol·licitar de nou</string>
