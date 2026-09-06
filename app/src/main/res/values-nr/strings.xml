@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="about_summary">I-Kitchen Archive Tool (KAT) lihlelo lokusebenza le-Android elisebenzisa i-app ye-Nextcloud server Cookbook ukuphatha amaresiphi</string>
+	<string name="about_title">Mayelana</string>
+	<string name="about_version">Inguqulo yohlelo lokusebenza: %1$s</string>
+	<string name="account_switcher_current_account_desc">I-akhawundi yamanje</string>
+	<string name="add_account">Faka i-akhawundi</string>
+	<string name="app_logo_desc">Isithonjana sokuqalisa sohlelo lokusebenza lwe-KAT</string>
+	<string name="cancel_btn">Khansela isibali sikhathi (esingabonakali)</string>
+	<string name="channel_description">Itjhaneli yezaziso zesikhathi</string>
+	<string name="channel_name">Isiteshi sesikhathi</string>
+</resources>
