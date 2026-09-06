@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Azɔwanú e nɔ hɛn nǔ ɖ’ayǐ ɖò adohwɛsá é (KAT) nyí nǔ e è nɔ zán ɖò Android jí é ɖé bo nɔ zán nǔ e è nɔ ylɔ ɖɔ Nextcloud serveur Cookbook é dó kpé nukún dó nǔɖuɖu e è nɔ ɖa lɛ é wu</string>
+	<string name="about_summary">Azɔwanú e nɔ hɛn nǔ ɖ‘ayǐ ɖò adohwɛsá é (KAT) nyí nǔ e è nɔ zán ɖò Android jí é ɖé bo nɔ zán nǔ e è nɔ ylɔ ɖɔ Nextcloud serveur Cookbook é dó kpé nukún dó nǔɖuɖu e è nɔ ɖa lɛ é wu</string>
 	<string name="about_title">Nùɖé</string>
 	<string name="about_version">App ɔ sín alɔkpa: %1$s</string>
 	<string name="account_switcher_current_account_desc">Akɔnta din tɔn</string>
@@ -17,16 +17,16 @@
 	<string name="copy_ing_message">È wlan nǔ e è na zán lɛ é dó tavo jí</string>
 	<string name="copy_ingredients">Kpɔ́n nǔ e è na zán lɛ é</string>
 	<string name="copy_to_account_failure">Mi sixú kpɔ́n nǔɖúɖú ɔ́ ă: %1$s</string>
-	<string name="copy_to_account_in_progress">’%1$s’ ɖiɖe ɖo %2$s mɛ</string>
+	<string name="copy_to_account_in_progress">’%1$s‘ ɖiɖe ɖo %2$s mɛ</string>
 	<string name="copy_to_account_none_available">Gɔ́ akɔnta ɖevo na jɛ nukɔn bo na dó kpɔ́n nǔ e è nɔ ɖa lɛ é ɖò ye tɛntin</string>
-	<string name="copy_to_account_success">È kpɔ́n ’%1$s’ dó %2$s jí</string>
+	<string name="copy_to_account_success">È kpɔ́n ’%1$s‘ dó %2$s jí</string>
 	<string name="copy_to_account_title">Kpɔ́n nǔɖúɖú élɔ́ dó</string>
 	<string name="delete_recipe">Súnsún nǔɖúɖú ɔ́</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ na súnsún sín serveur ɔ jí tɛgbɛ. È sixu jla nǔ elɔ ɖó ǎ</string>
+	<string name="delete_recipe_confirm_message">’%1$s‘ na súnsún sín serveur ɔ jí tɛgbɛ. È sixu jla nǔ elɔ ɖó ǎ</string>
 	<string name="delete_recipe_confirm_positive">Ɖè</string>
 	<string name="delete_recipe_confirm_title">Susun nuɖuɖu elɔ à?</string>
 	<string name="delete_recipe_failure">Mi sixú súnsún nuɖúɖú ɔ́ ă: %1$s</string>
-	<string name="delete_recipe_success">È súnsún ’%1$s’</string>
+	<string name="delete_recipe_success">È súnsún ’%1$s‘</string>
 	<string name="dir_chooser_error">Nuwanyido: È na gbè root folder ǎ!</string>
 	<string name="empty_list">Nuɖuɖu ɖebu ɖemɛ ǎ</string>
 	<string name="error_no_network">Kancica réseau tɔn ɖebu ɖemɛ ǎ</string>
@@ -73,9 +73,9 @@
 	<string name="nutrition_calories">Nuɖuɖu: %1$s</string>
 	<string name="nutrition_carbohydrate_content">Nǔ e mɛ è nɔ mɔ glucose ɖè é: %1$s</string>
 	<string name="nutrition_cholesterol_content">Nǔ e ɖò lan mɛ é: %1$s</string>
-	<string name="nutrition_fat_content">Nǔ e ɖ’é mɛ é: %1$s</string>
+	<string name="nutrition_fat_content">Nǔ e ɖ‘é mɛ é: %1$s</string>
 	<string name="nutrition_fiberContent">Nǔ e ɖ’é mɛ é: %1$s</string>
-	<string name="nutrition_protein_content">Nǔ e ɖ’emɛ é: %1$s</string>
+	<string name="nutrition_protein_content">Nǔ e ɖ‘emɛ é: %1$s</string>
 	<string name="nutrition_saturated_fat_content">Nǔ e ɖò jǒ mɛ é: %1$s</string>
 	<string name="nutrition_serving_size">Nǔɖuɖu sín ɖaxó: %1$s</string>
 	<string name="nutrition_sodium_content">Nǔ e ɖ’emɛ é: %1$s</string>

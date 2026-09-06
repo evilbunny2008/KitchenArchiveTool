@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Icibombelo ca kusungilamo ifya kulya (KAT) ni citabo ca Android icibomfya icitabo ca ku ng’anda ica ku ng’anda pa kusunga ifya kulya</string>
+	<string name="about_summary">Icibombelo ca kusungilamo ifya kulya (KAT) ni citabo ca Android icibomfya icitabo ca ku ng’anda ica ku ng‘anda pa kusunga ifya kulya</string>
 	<string name="about_title">Pali</string>
 	<string name="about_version">Umusango wa cibombelo: %1$s</string>
 	<string name="account_switcher_current_account_desc">Akaunti ya nomba</string>
@@ -17,16 +17,16 @@
 	<string name="copy_ing_message">Ifyakusankanyamo fyakopololwa pa cipampa</string>
 	<string name="copy_ingredients">Kopa ifya kusankanyamo</string>
 	<string name="copy_to_account_failure">Teti mukope ifyakupanga: %1$s</string>
-	<string name="copy_to_account_in_progress">Ukukopa ’%1$s’ ukufika kuli %2$s</string>
+	<string name="copy_to_account_in_progress">Ukukopa ’%1$s‘ ukufika kuli %2$s</string>
 	<string name="copy_to_account_none_available">Lundapo akaunti imbi intanshi pakukopa ifyakulya pakati kabo</string>
-	<string name="copy_to_account_success">Yakopololwe ’%1$s’ ukufika kuli %2$s</string>
+	<string name="copy_to_account_success">Yakopololwe ’%1$s‘ ukufika kuli %2$s</string>
 	<string name="copy_to_account_title">Kopa iyi inshila ku</string>
 	<string name="delete_recipe">Fuuta ifyakulya</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ ikafuutwa umuyayaya ukufuma pa cibikilo. Ici tekuti cibweshiwemo</string>
+	<string name="delete_recipe_confirm_message">’%1$s‘ ikafuutwa umuyayaya ukufuma pa cibikilo. Ici tekuti cibweshiwemo</string>
 	<string name="delete_recipe_confirm_positive">Ukufuta</string>
 	<string name="delete_recipe_confirm_title">Bushe kuti mwafumyapo iyi inshila?</string>
 	<string name="delete_recipe_failure">Teti cifuute ifyakupanga: %1$s</string>
-	<string name="delete_recipe_success">Icafuutwa ’%1$s’</string>
+	<string name="delete_recipe_success">Icafuutwa ’%1$s‘</string>
 	<string name="dir_chooser_error">Icilubo: Folda ya mishila tayasuminishiwa!</string>
 	<string name="empty_list">Tapali ifyakupanga</string>
 	<string name="error_no_network">Tapali ukuminkanya kwa intaneti</string>

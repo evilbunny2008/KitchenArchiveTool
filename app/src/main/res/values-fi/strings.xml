@@ -22,7 +22,7 @@
 	<string name="copy_to_account_success">%1$s kopioitiin kohteeseen %2$s</string>
 	<string name="copy_to_account_title">Kopioi tämä resepti kohteeseen</string>
 	<string name="delete_recipe">Poista resepti</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ poistetaan pysyvästi palvelimelta. Tätä ei voi kumota</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ poistetaan pysyvästi palvelimelta. Tätä ei voi kumota</string>
 	<string name="delete_recipe_confirm_positive">Poistaa</string>
 	<string name="delete_recipe_confirm_title">Poistetaanko tämä resepti?</string>
 	<string name="delete_recipe_failure">Reseptiä ei voitu poistaa: %1$s</string>

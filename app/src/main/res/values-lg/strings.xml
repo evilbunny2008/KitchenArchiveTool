@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Kitchen Archive Tool (KAT) ye app ya Android ekozesa app ya Nextcloud server Cookbook okuddukanya enkola y’okufumba</string>
+	<string name="about_summary">Kitchen Archive Tool (KAT) ye app ya Android ekozesa app ya Nextcloud server Cookbook okuddukanya enkola y‘okufumba</string>
 	<string name="about_title">Ku</string>
 	<string name="about_version">Enkyusa ya app: %1$s</string>
 	<string name="account_switcher_current_account_desc">Akawunti ya kati</string>
@@ -13,21 +13,21 @@
 	<string name="cooktime_reset_btn">Ayimiriza n’azzaawo ekiseera</string>
 	<string name="cooktime_start_btn">Atandika ekiseera ekigere</string>
 	<string name="cooktime_title">Ekiseera ky’okufumba</string>
-	<string name="cooktime_tooltip">Tandika ekiseera ky’okufumba</string>
+	<string name="cooktime_tooltip">Tandika ekiseera ky‘okufumba</string>
 	<string name="copy_ing_message">Ebirungo ebikoppoloddwa ku clipboard</string>
 	<string name="copy_ingredients">Koppa ebirungo</string>
 	<string name="copy_to_account_failure">Teyasobodde kukoppa nkola ya nkola: %1$s</string>
-	<string name="copy_to_account_in_progress">Okukoppa ’%1$s’ okudda ku %2$s</string>
+	<string name="copy_to_account_in_progress">Okukoppa ’%1$s‘ okudda ku %2$s</string>
 	<string name="copy_to_account_none_available">Sooka osseemu akawunti endala okukoppa enkola z’emmere wakati waabwe</string>
-	<string name="copy_to_account_success">Yakoppa ’%1$s’ okudda ku %2$s</string>
+	<string name="copy_to_account_success">Yakoppa ‘%1$s’ okudda ku %2$s</string>
 	<string name="copy_to_account_title">Koppa enkola eno ku</string>
 	<string name="delete_recipe">Ssaako enkola y’okufumba</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ ejja kusazibwamu enkalakkalira okuva ku seva. Kino tekiyinza kuddibwamu</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ ejja kusazibwamu enkalakkalira okuva ku seva. Kino tekiyinza kuddibwamu</string>
 	<string name="delete_recipe_confirm_positive">Okusiimuula</string>
 	<string name="delete_recipe_confirm_title">Ssaako enkola eno?</string>
 	<string name="delete_recipe_failure">Teyasobodde kusazaamu nkola ya nkola: %1$s</string>
-	<string name="delete_recipe_success">’%1$s’ esaziddwamu</string>
-	<string name="dir_chooser_error">Ensobi: Ekitabo ky’emirandira tekikkirizibwa!</string>
+	<string name="delete_recipe_success">‘%1$s’ esaziddwamu</string>
+	<string name="dir_chooser_error">Ensobi: Ekitabo ky‘emirandira tekikkirizibwa!</string>
 	<string name="empty_list">Tewali nkola za nkola</string>
 	<string name="error_no_network">Tewali kuyungibwa ku mutimbagano</string>
 	<string name="error_only_wifi">Okukwatagana kukkirizibwa ku Wifi yokka</string>
@@ -39,7 +39,7 @@
 	<string name="form_search_commit">Okunoonya</string>
 	<string name="form_search_hint">Okunoonya</string>
 	<string name="form_search_options">Enkola z’okunoonya</string>
-	<string name="form_search_title">Okunoonya okw’omulembe</string>
+	<string name="form_search_title">Okunoonya okw‘omulembe</string>
 	<string name="form_type_ingredients">Noonya okusinziira ku kirungo</string>
 	<string name="form_type_keyword">Noonya okusinziira ku kigambo ekikulu</string>
 	<string name="form_type_yield">Noonya okusinziira ku Yield</string>
@@ -58,7 +58,7 @@
 	<string name="menu_download_tooltip">download enkola y’okufumba</string>
 	<string name="menu_refresh_tooltip">Okuzza obuggya enkola z’okufumba</string>
 	<string name="menu_search_title">Okunoonya okw’omulembe</string>
-	<string name="menu_search_tooltip">Noonya enkola y’okufumba</string>
+	<string name="menu_search_tooltip">Noonya enkola y‘okufumba</string>
 	<string name="menu_settings">Enteekateeka</string>
 	<string name="menu_settings_title">Enteekateeka</string>
 	<string name="menu_sort_title">Engeri</string>
@@ -84,7 +84,7 @@
 	<string name="nutrition_unsaturated_fat_content">Ebirimu Amasavu Amangi: %1$s</string>
 	<string name="permanently_denied_permissions">Egaaniddwa enkalakkalira: %s</string>
 	<string name="permission_canceled">Esaziddwamu omukozesa</string>
-	<string name="permission_notification_required">Olukusa lw’okulaga okumanyisibwa lwetaagibwa ku ssaawa y’okufumba</string>
+	<string name="permission_notification_required">Olukusa lw’okulaga okumanyisibwa lwetaagibwa ku ssaawa y‘okufumba</string>
 	<string name="permission_ok_message">Okuyingira mu kutereka kukkiriziddwa ku %1$s</string>
 	<string name="permission_please_grant">Nsaba owe olukusa lw’okutereka</string>
 	<string name="permission_select_root">Nsaba olonde %1$s</string>
@@ -100,13 +100,13 @@
 	<string name="pref_title_enableSyncService">Okukwataganya eby’emabega</string>
 	<string name="pref_title_keep_screen_alive">Kuuma screen nga nnamu</string>
 	<string name="pref_title_sync_wifi_only">Sync ku Wifi yokka</string>
-	<string name="preftitle_recipeDir">Endagiriro y’enkola y’emmere</string>
+	<string name="preftitle_recipeDir">Endagiriro y’enkola y‘emmere</string>
 	<string name="preftitle_theme">Londa Omulamwa</string>
 	<string name="rationale_permissions">Ensonga enkulu: %s</string>
 	<string name="recipe_details_tabs">Enkola y’emmere etegekeddwa mu tabu</string>
 	<string name="recipe_import_dialog_hint">URL y’enkola y’emmere</string>
 	<string name="recipe_import_dialog_positive">Okuyingiza</string>
-	<string name="recipe_import_dialog_title">Yingiza enkola y’emmere okuva ku URL</string>
+	<string name="recipe_import_dialog_title">Yingiza enkola y‘emmere okuva ku URL</string>
 	<string name="recipe_import_failure">Teyasobodde kuyingiza nkola ya nkola: %1$s</string>
 	<string name="recipe_import_in_progress">Okuyingiza enkola y’emmere</string>
 	<string name="recipe_import_login_close">Sazaamu okuyingira</string>
