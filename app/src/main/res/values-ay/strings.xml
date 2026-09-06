@@ -11,18 +11,18 @@
 	<string name="channel_name">Ukax mä canal ukhamawa</string>
 	<string name="cooktime_pause_btn">Ukax mä juk’a pachanakanwa</string>
 	<string name="cooktime_reset_btn">Ukax sayt’ayatawa ukat pachar kutt’ayaraki</string>
-	<string name="cooktime_start_btn">Ukax pacha uñt‘ayañatakiw qalltawayi</string>
+	<string name="cooktime_start_btn">Ukax pacha uñt’ayañatakiw qalltawayi</string>
 	<string name="cooktime_title">Phayaña pacha</string>
 	<string name="cooktime_tooltip">Mä phayaña pacha qalltaña</string>
 	<string name="copy_ing_message">Ingredientes ukax portapapeles ukar copiatawa</string>
 	<string name="copy_ingredients">Copia ingredientes ukanaka</string>
 	<string name="copy_to_account_failure">Janiw uka recetax copiañjamäkiti: %1$s</string>
-	<string name="copy_to_account_in_progress">’%1$s‘ ukat %2$s ukar copiaña</string>
+	<string name="copy_to_account_in_progress">’%1$s’ ukat %2$s ukar copiaña</string>
 	<string name="copy_to_account_none_available">Nayraqatax yaqha cuenta yapxatañamawa jupanak taypin recetas copiañataki</string>
-	<string name="copy_to_account_success">’%1$s‘ ukat %2$s ukar copiata. Uka jamuqx jan ukan uñacht’ayaskan ukhax uka servidor ukax janiw aka chiqat apsuñjamäkänti — amparamp wasitat yapxataña</string>
+	<string name="copy_to_account_success">’%1$s’ ukat %2$s ukar copiata. Uka jamuqx jan ukan uñacht’ayaskan ukhax uka servidor ukax janiw aka chiqat apsuñjamäkänti — amparamp wasitat yapxataña</string>
 	<string name="copy_to_account_title">Aka receta ukax</string>
 	<string name="delete_recipe">Receta chhaqtayaña</string>
-	<string name="delete_recipe_confirm_message">‘%1$s’ ukax wiñayatakiw servidor ukan chhaqtayatäni. Ukax janiw kutt‘ayatäkaspati</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ ukax wiñayatakiw servidor ukan chhaqtayatäni. Ukax janiw kutt’ayatäkaspati</string>
 	<string name="delete_recipe_confirm_positive">Phiskhsuña</string>
 	<string name="delete_recipe_confirm_title">¿Aka receta chhaqtayaña?</string>
 	<string name="delete_recipe_failure">Janiw uka receta chhaqtayañjamäkiti: %1$s</string>
@@ -30,7 +30,7 @@
 	<string name="dir_chooser_error">Pantjasiw: ¡Saphi carpetax janiw jaysatäkiti!</string>
 	<string name="empty_list">Janiw kuna recetas ukanakas utjkiti</string>
 	<string name="error_no_network">Janiwa red ukaxa utjkiti</string>
-	<string name="error_only_wifi">Sincronización ukax Wifi ukan uñt‘ayatawa</string>
+	<string name="error_only_wifi">Sincronización ukax Wifi ukan uñt’ayatawa</string>
 	<string name="error_sync">Sincronización ukax janiw phuqhaskiti: %1$s</string>
 	<string name="folder_pick_cancel">Carpeta ajllirixa apnaqiriruxa cancelatawa</string>
 	<string name="folder_pick_success">Carpeta %1$s ukax ajllitawa</string>
@@ -43,7 +43,7 @@
 	<string name="form_type_ingredients">Ingrediente ukarjam thaqhaña</string>
 	<string name="form_type_keyword">Uka arunakampi thaqhaña</string>
 	<string name="form_type_yield">Rendimiento ukarjam thaqhaña</string>
-	<string name="form_types">Uka thaqhañataki qillqt‘aña</string>
+	<string name="form_types">Uka thaqhañataki qillqt’aña</string>
 	<string name="granted_permissions">Ukax akhamawa: %s</string>
 	<string name="header_image_desc">P’iqinchawi uñacht’awi receta</string>
 	<string name="img_desc_logo">Logotipo ukax receta ukankiwa</string>
@@ -60,7 +60,7 @@
 	<string name="menu_search_title">Nayrar sartañ thakhi</string>
 	<string name="menu_search_tooltip">Uñakipt’añataki receta</string>
 	<string name="menu_settings">Ukax mä juk’a pachanakanwa</string>
-	<string name="menu_settings_title">Ukax mä juk‘a pachanakanwa</string>
+	<string name="menu_settings_title">Ukax mä juk’a pachanakanwa</string>
 	<string name="menu_sort_title">May maya</string>
 	<string name="menu_sso">Mä sapa Señal On</string>
 	<string name="menu_title_app">App</string>
@@ -70,7 +70,7 @@
 	<string name="no_instructions">Janiw Yatichäwinakax utjkiti</string>
 	<string name="notification_text">Pachax qhiparakiwa: %1$s</string>
 	<string name="notification_title">Cocina Archivo Herramienta Ukax mä juk’a pachanakanwa</string>
-	<string name="nutrition_calories">Calorías: %1$s ukat juk‘ampinaka</string>
+	<string name="nutrition_calories">Calorías: %1$s ukat juk’ampinaka</string>
 	<string name="nutrition_carbohydrate_content">Carbohidratos ukaxa: %1$s</string>
 	<string name="nutrition_cholesterol_content">Colesterol ukax akhamawa: %1$s</string>
 	<string name="nutrition_fat_content">Ukax akhamawa: %1$s</string>
@@ -100,7 +100,7 @@
 	<string name="pref_title_enableSyncService">Ukax Sincronización de Fondos ukankiwa</string>
 	<string name="pref_title_keep_screen_alive">Pantallaxa wali ch’amawa</string>
 	<string name="pref_title_sync_wifi_only">Wifi ukakiw sincronización luraña</string>
-	<string name="preftitle_recipeDir">Directorio de Recetas ukaxa mä juk‘a pachanakwa lurasi</string>
+	<string name="preftitle_recipeDir">Directorio de Recetas ukaxa mä juk’a pachanakwa lurasi</string>
 	<string name="preftitle_theme">Tema ukxa ajlliñamawa</string>
 	<string name="rationale_permissions">Ukax akham sañ muni: %s</string>
 	<string name="recipe_details_tabs">Receta ukaxa tablas ukanakanwa wakicht’ata</string>
@@ -109,7 +109,7 @@
 	<string name="recipe_import_dialog_title">URL ukan receta apsuña</string>
 	<string name="recipe_import_failure">Janiw uka receta ukar apkatañjamäkiti: %1$s</string>
 	<string name="recipe_import_in_progress">Importación ukax receta</string>
-	<string name="recipe_import_login_close">Uñt‘ayasiñatakix cancelañamawa</string>
+	<string name="recipe_import_login_close">Uñt’ayasiñatakix cancelañamawa</string>
 	<string name="recipe_import_login_init_failed">Janiw mantañ thakhi qalltañjamäkiti: %1$s</string>
 	<string name="recipe_import_login_timed_out">Uñt’ayasiñatakix pachax tukusxiwa. Mayampiw yantʼañama</string>
 	<string name="recipe_import_login_title">Nextcloud ukar mantañamawa</string>
@@ -141,7 +141,7 @@
 	<string name="tab_nutritions_title">Manq’añanaka</string>
 	<string name="text_author">Awtura:</string>
 	<string name="text_categories">Kasta:</string>
-	<string name="text_date_published">Uñt‘ayata uru: %1$s</string>
+	<string name="text_date_published">Uñt’ayata uru: %1$s</string>
 	<string name="text_keywords">Jisk’a arunaka:</string>
 	<string name="text_no_keywords">Janiw kuna arunakas utjkiti</string>
 	<string name="text_tools">Kuna herramientas ukanakas wakisi:</string>

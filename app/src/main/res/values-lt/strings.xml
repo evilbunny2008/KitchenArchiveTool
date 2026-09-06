@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">’Kitchen Archive Tool’ (KAT) yra ’Android’ programa, kuri receptams tvarkyti naudoja ’Nextcloud’ serverio ’Cookbook‘ programą</string>
+	<string name="about_summary">’Kitchen Archive Tool’ (KAT) yra ’Android’ programa, kuri receptams tvarkyti naudoja ’Nextcloud’ serverio ’Cookbook’ programą</string>
 	<string name="about_title">Apie</string>
 	<string name="about_version">Programos versija: %1$s</string>
 	<string name="account_switcher_current_account_desc">Einamoji sąskaita</string>
@@ -17,20 +17,20 @@
 	<string name="copy_ing_message">Ingredientai nukopijuoti į mainų sritį</string>
 	<string name="copy_ingredients">Nukopijuokite ingredientus</string>
 	<string name="copy_to_account_failure">Nepavyko nukopijuoti recepto: %1$s</string>
-	<string name="copy_to_account_in_progress">Kopijuojamas ’%1$s’ į ‘%2$s’</string>
+	<string name="copy_to_account_in_progress">Kopijuojamas ’%1$s’ į ’%2$s’</string>
 	<string name="copy_to_account_none_available">Pirmiausia pridėkite kitą paskyrą, kad galėtumėte kopijuoti receptus tarp jų</string>
-	<string name="copy_to_account_success">‘%1$s’ nukopijuotas į ‘%2$s’</string>
+	<string name="copy_to_account_success">’%1$s’ nukopijuotas į ’%2$s’</string>
 	<string name="copy_to_account_title">Nukopijuokite šį receptą į</string>
 	<string name="delete_recipe">Ištrinti receptą</string>
-	<string name="delete_recipe_confirm_message">‘%1$s’ bus visam laikui ištrintas iš serverio. To negalima anuliuoti</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ bus visam laikui ištrintas iš serverio. To negalima anuliuoti</string>
 	<string name="delete_recipe_confirm_positive">Ištrinti</string>
 	<string name="delete_recipe_confirm_title">Ištrinti šį receptą?</string>
 	<string name="delete_recipe_failure">Nepavyko ištrinti recepto: %1$s</string>
-	<string name="delete_recipe_success">Ištrinta ‘%1$s’</string>
+	<string name="delete_recipe_success">Ištrinta ’%1$s’</string>
 	<string name="dir_chooser_error">Klaida: šakninis aplankas neleidžiamas!</string>
 	<string name="empty_list">Jokių receptų</string>
 	<string name="error_no_network">Nėra tinklo ryšio</string>
-	<string name="error_only_wifi">Sinchronizuoti leidžiama tik ’Wi-Fi‘</string>
+	<string name="error_only_wifi">Sinchronizuoti leidžiama tik ’Wi-Fi’</string>
 	<string name="error_sync">Sinchronizuoti nepavyko: %1$s</string>
 	<string name="folder_pick_cancel">Naudotojas atšaukė aplanko rinkiklį</string>
 	<string name="folder_pick_success">Pasirinktas aplankas %1$s</string>
