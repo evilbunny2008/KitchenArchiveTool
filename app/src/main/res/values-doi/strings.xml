@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">थीम चुनें</string>
 	<string name="rationale_permissions">तर्क: % s</string>
 	<string name="recipe_details_tabs">नुस्खा टैब च व्यवस्थित कीता गेदा ऐ</string>
-	<string name="recipe_import_dialog_hint">नुस्खा यूआरएल</string>
-	<string name="recipe_import_dialog_positive">दरामद</string>
-	<string name="recipe_import_dialog_title">यूआरएल थमां नुस्खा आयात करो</string>
-	<string name="recipe_import_failure">नुस्खा आयात नेईं करी सकेआ: %1$s</string>
-	<string name="recipe_import_in_progress">आयात करने दी नुस्खा</string>
-	<string name="recipe_import_login_close">लॉगिन रद्द करो</string>
-	<string name="recipe_import_login_init_failed">लॉग इन प्रक्रिया शुरू नेईं करी सकेआ: %1$s</string>
-	<string name="recipe_import_login_timed_out">लॉगिन दा टाइम आउट हो गया। फिर कोशिश करो।</string>
-	<string name="recipe_import_login_title">नेक्स्टक्लाउड च लॉग इन करो</string>
-	<string name="recipe_import_menu_title">यूआरएल थमां नुस्खा आयात करो</string>
-	<string name="recipe_import_service_url_hint">नुस्खा आयात सेवा यूआरएल</string>
 	<string name="recipe_list_image_desc">नुस्खा दा छवि थंबनेल</string>
 	<string name="recipe_no_timer">इस Recipe च टाइमर नेईं ऐ !</string>
 	<string name="request_again">फिर रिक्वेस्ट करो</string>

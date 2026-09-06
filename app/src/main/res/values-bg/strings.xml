@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Изберете Тема</string>
 	<string name="rationale_permissions">Обосновка: %s</string>
 	<string name="recipe_details_tabs">Рецептата е организирана в раздели</string>
-	<string name="recipe_import_dialog_hint">URL адрес на рецепта</string>
-	<string name="recipe_import_dialog_positive">Импортиране</string>
-	<string name="recipe_import_dialog_title">Импортиране на рецепта от URL</string>
-	<string name="recipe_import_failure">Рецептата не можа да се импортира: %1$s</string>
-	<string name="recipe_import_in_progress">Рецептата се импортира</string>
-	<string name="recipe_import_login_close">Отказ от влизане</string>
-	<string name="recipe_import_login_init_failed">Процесът на влизане не можа да започне: %1$s</string>
-	<string name="recipe_import_login_timed_out">Времето за влизане изтече. Опитайте отново</string>
-	<string name="recipe_import_login_title">Влезте в Nextcloud</string>
-	<string name="recipe_import_menu_title">Импортиране на рецепта от URL</string>
-	<string name="recipe_import_service_url_hint">URL адрес на услугата за импортиране на рецепта</string>
 	<string name="recipe_list_image_desc">Миниизображение на рецепта</string>
 	<string name="recipe_no_timer">Тази рецепта няма таймер!</string>
 	<string name="request_again">Заявка отново</string>

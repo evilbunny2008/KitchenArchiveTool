@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Odaberite temu</string>
 	<string name="rationale_permissions">Obrazloženje: %s</string>
 	<string name="recipe_details_tabs">Recept je organiziran u kartice</string>
-	<string name="recipe_import_dialog_hint">URL recepta</string>
-	<string name="recipe_import_dialog_positive">Uvoz</string>
-	<string name="recipe_import_dialog_title">Uvezi recept s URL-a</string>
-	<string name="recipe_import_failure">Nije moguće uvesti recept: %1$s</string>
-	<string name="recipe_import_in_progress">Uvoz recepta</string>
-	<string name="recipe_import_login_close">Odustani od prijave</string>
-	<string name="recipe_import_login_init_failed">Nije moguće pokrenuti postupak prijave: %1$s</string>
-	<string name="recipe_import_login_timed_out">Prijava je istekla. Pokušajte ponovno</string>
-	<string name="recipe_import_login_title">Prijavite se na Nextcloud</string>
-	<string name="recipe_import_menu_title">Uvezi recept s URL-a</string>
-	<string name="recipe_import_service_url_hint">URL usluge uvoza recepata</string>
 	<string name="recipe_list_image_desc">Sličica recepta</string>
 	<string name="recipe_no_timer">Ovaj recept nema tajmer!</string>
 	<string name="request_again">Ponovi zahtjev</string>

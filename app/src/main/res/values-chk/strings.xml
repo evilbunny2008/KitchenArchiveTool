@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Fili ewe itelap</string>
 	<string name="rationale_permissions">Popun: %s</string>
 	<string name="recipe_details_tabs">Resipi a kokkot lon ekkewe tab</string>
-	<string name="recipe_import_dialog_hint">URL ren ewe resipi</string>
-	<string name="recipe_import_dialog_positive">Tinanong</string>
-	<string name="recipe_import_dialog_title">Kopwe uweato ewe kokkot seni ewe URL</string>
-	<string name="recipe_import_failure">Ese tongeni an epwe wor ewe resin: %1$s</string>
-	<string name="recipe_import_in_progress">Ewe resipi mi uweato</string>
-	<string name="recipe_import_login_close">Kanselin ewe</string>
-	<string name="recipe_import_login_init_failed">Ese tongeni poputa ewe angangen tonong: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login fansoun a wes. Sotuni sefan</string>
-	<string name="recipe_import_login_title">Kopwe tolong lon ewe Nextcloud</string>
-	<string name="recipe_import_menu_title">Kopwe uweato ewe kokkot seni ewe URL</string>
-	<string name="recipe_import_service_url_hint">URL ren angangen uwei pisek</string>
 	<string name="recipe_list_image_desc">Ewe sasingin ewe recipe</string>
 	<string name="recipe_no_timer">Ei Resipe ese wor an fansoun!</string>
 	<string name="request_again">Kopwe tingor sefan</string>

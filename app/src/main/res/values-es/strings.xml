@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Seleccionar tema</string>
 	<string name="rationale_permissions">Justificación: %s</string>
 	<string name="recipe_details_tabs">La receta está organizada en pestañas</string>
-	<string name="recipe_import_dialog_hint">URL de la receta</string>
-	<string name="recipe_import_dialog_positive">Importar</string>
-	<string name="recipe_import_dialog_title">Importar receta desde URL</string>
-	<string name="recipe_import_failure">No se pudo importar la receta: %1$s</string>
-	<string name="recipe_import_in_progress">Importando receta</string>
-	<string name="recipe_import_login_close">Cancelar inicio de sesión</string>
-	<string name="recipe_import_login_init_failed">No se pudo iniciar el proceso de inicio de sesión: %1$s</string>
-	<string name="recipe_import_login_timed_out">Se agotó el tiempo de inicio de sesión. Intentar otra vez</string>
-	<string name="recipe_import_login_title">Inicia sesión en Nextcloud</string>
-	<string name="recipe_import_menu_title">Importar receta desde URL</string>
-	<string name="recipe_import_service_url_hint">URL del servicio de importación de recetas</string>
 	<string name="recipe_list_image_desc">Miniatura de imagen de la receta</string>
 	<string name="recipe_no_timer">¡Esta receta no tiene cronómetro!</string>
 	<string name="request_again">Solicitar nuevamente</string>

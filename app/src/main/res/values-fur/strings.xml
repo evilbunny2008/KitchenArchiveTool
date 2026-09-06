@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Seleziona Teme</string>
 	<string name="rationale_permissions">Motivazion: %s</string>
 	<string name="recipe_details_tabs">La ricete e je organizade in schedis</string>
-	<string name="recipe_import_dialog_hint">URL de ricete</string>
-	<string name="recipe_import_dialog_positive">Importazion</string>
-	<string name="recipe_import_dialog_title">Importâ la ricete dal URL</string>
-	<string name="recipe_import_failure">No si pues impuartâ la ricete: %1$s</string>
-	<string name="recipe_import_in_progress">Ricete di impuartazion</string>
-	<string name="recipe_import_login_close">Annulâ l’autenticazion</string>
-	<string name="recipe_import_login_init_failed">Nol è stât rivât a scomençâ il procès di accession: %1$s</string>
-	<string name="recipe_import_login_timed_out">Il timp di accession al è finît. Prove di gnûf</string>
-	<string name="recipe_import_login_title">Accedi a Nextcloud</string>
-	<string name="recipe_import_menu_title">Importâ la ricete dal URL</string>
-	<string name="recipe_import_service_url_hint">URL dal servizi di impuartazion des ricetis</string>
 	<string name="recipe_list_image_desc">Miniature de imagjin de ricete</string>
 	<string name="recipe_no_timer">Cheste Ricete no à un cronometri!</string>
 	<string name="request_again">Domande di gnûf</string>

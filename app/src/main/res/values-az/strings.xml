@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Mövzu seçin</string>
 	<string name="rationale_permissions">Səbəb: %s</string>
 	<string name="recipe_details_tabs">Resept tablarda təşkil edilir</string>
-	<string name="recipe_import_dialog_hint">Resept URL</string>
-	<string name="recipe_import_dialog_positive">İdxal</string>
-	<string name="recipe_import_dialog_title">URL-dən resepti idxal edin</string>
-	<string name="recipe_import_failure">Resepti idxal etmək mümkün olmadı: %1$s</string>
-	<string name="recipe_import_in_progress">Resept import edilir</string>
-	<string name="recipe_import_login_close">Girişi ləğv edin</string>
-	<string name="recipe_import_login_init_failed">Giriş prosesini başlamaq mümkün olmadı: %1$s</string>
-	<string name="recipe_import_login_timed_out">Giriş vaxtı bitdi. Yenidən cəhd edin</string>
-	<string name="recipe_import_login_title">Nextcloud-a daxil olun</string>
-	<string name="recipe_import_menu_title">URL-dən resepti idxal edin</string>
-	<string name="recipe_import_service_url_hint">Resept idxal xidmətinin URL-i</string>
 	<string name="recipe_list_image_desc">Reseptin kiçik şəkli</string>
 	<string name="recipe_no_timer">Bu Reseptdə taymer yoxdur!</string>
 	<string name="request_again">Yenidən tələb edin</string>

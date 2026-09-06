@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Zaɓi Jigo</string>
 	<string name="rationale_permissions">Dalilin: %s</string>
 	<string name="recipe_details_tabs">An shirya girke-girke a cikin shafuka</string>
-	<string name="recipe_import_dialog_hint">URL girke-girke</string>
-	<string name="recipe_import_dialog_positive">Shigo da</string>
-	<string name="recipe_import_dialog_title">Shigo da girke-girke daga URL</string>
-	<string name="recipe_import_failure">An kasa shigo da girke-girke: %1$s</string>
-	<string name="recipe_import_in_progress">Ana shigo da girke-girke</string>
-	<string name="recipe_import_login_close">Soke shiga</string>
-	<string name="recipe_import_login_init_failed">An kasa fara tsarin shiga: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login ya ƙare. Gwada kuma</string>
-	<string name="recipe_import_login_title">Shiga zuwa Nextcloud</string>
-	<string name="recipe_import_menu_title">Shigo da girke-girke daga URL</string>
-	<string name="recipe_import_service_url_hint">URL sabis na shigo da girke-girke</string>
 	<string name="recipe_list_image_desc">Hoton thumbnail na girke-girke</string>
 	<string name="recipe_no_timer">Wannan girke-girke ba shi da mai ƙidayar lokaci!</string>
 	<string name="request_again">nema sake</string>

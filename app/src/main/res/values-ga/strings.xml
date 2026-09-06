@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Roghnaigh Téama</string>
 	<string name="rationale_permissions">Réasúnaíocht: %s</string>
 	<string name="recipe_details_tabs">Tá an t-oideas eagraithe i gcluaisíní</string>
-	<string name="recipe_import_dialog_hint">URL oideas</string>
-	<string name="recipe_import_dialog_positive">Iompórtáil</string>
-	<string name="recipe_import_dialog_title">Iompórtáil oideas ó URL</string>
-	<string name="recipe_import_failure">Níorbh fhéidir an t-oideas a iompórtáil: %1$s</string>
-	<string name="recipe_import_in_progress">Oideas á iompórtáil</string>
-	<string name="recipe_import_login_close">Cealaigh logáil isteach</string>
-	<string name="recipe_import_login_init_failed">Níorbh fhéidir an próiseas logála isteach a thosú: %1$s</string>
-	<string name="recipe_import_login_timed_out">Logáil isteach thar am. Bain triail eile as</string>
-	<string name="recipe_import_login_title">Logáil isteach ar Nextcloud</string>
-	<string name="recipe_import_menu_title">Iompórtáil oideas ó URL</string>
-	<string name="recipe_import_service_url_hint">URL seirbhíse iompórtála oideas</string>
 	<string name="recipe_list_image_desc">Mionsamhail íomhá an t-oideas</string>
 	<string name="recipe_no_timer">Níl lasc ama ag an Oideas seo!</string>
 	<string name="request_again">Iarr arís</string>

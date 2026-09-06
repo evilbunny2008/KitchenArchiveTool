@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">E koho i ke kumuhana</string>
 	<string name="rationale_permissions">Kumu: %s</string>
 	<string name="recipe_details_tabs">Hoʻonohonoho ʻia ka meaʻai ma nā pā</string>
-	<string name="recipe_import_dialog_hint">URL meaʻai</string>
-	<string name="recipe_import_dialog_positive">Lawe mai</string>
-	<string name="recipe_import_dialog_title">E lawe mai i ka meaʻai mai URL</string>
-	<string name="recipe_import_failure">ʻAʻole hiki ke hoʻokomo i ka meaʻai: %1$s</string>
-	<string name="recipe_import_in_progress">Ke lawe mai nei i ka meaʻai</string>
-	<string name="recipe_import_login_close">Hoʻopau i ke komo ʻana</string>
-	<string name="recipe_import_login_init_failed">ʻAʻole hiki ke hoʻomaka i ke kaʻina komo: %1$s</string>
-	<string name="recipe_import_login_timed_out">Ua pau ka manawa komo. Hana hou</string>
-	<string name="recipe_import_login_title">E komo i Nextcloud</string>
-	<string name="recipe_import_menu_title">E lawe mai i ka meaʻai mai URL</string>
-	<string name="recipe_import_service_url_hint">URL lawelawe lawe ʻai meaʻai</string>
 	<string name="recipe_list_image_desc">Kiʻi liʻiliʻi o ka meaʻai</string>
 	<string name="recipe_no_timer">ʻAʻohe manawa o kēia ʻai!</string>
 	<string name="request_again">Noi hou</string>

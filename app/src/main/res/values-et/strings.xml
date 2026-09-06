@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Valige Teema</string>
 	<string name="rationale_permissions">Põhjendus: %s</string>
 	<string name="recipe_details_tabs">Retsept on korraldatud vahekaartidena</string>
-	<string name="recipe_import_dialog_hint">Retsepti URL</string>
-	<string name="recipe_import_dialog_positive">Import</string>
-	<string name="recipe_import_dialog_title">Importige retsept URL-ist</string>
-	<string name="recipe_import_failure">Retsepti ei saanud importida: %1$s</string>
-	<string name="recipe_import_in_progress">Retsepti importimine</string>
-	<string name="recipe_import_login_close">Tühista sisselogimine</string>
-	<string name="recipe_import_login_init_failed">Sisselogimisprotsessi ei saanud käivitada: %1$s</string>
-	<string name="recipe_import_login_timed_out">Sisselogimine aegus. Proovi uuesti</string>
-	<string name="recipe_import_login_title">Logige Nextcloudi sisse</string>
-	<string name="recipe_import_menu_title">Importige retsept URL-ist</string>
-	<string name="recipe_import_service_url_hint">Retsepti importimise teenuse URL</string>
 	<string name="recipe_list_image_desc">Retsepti pisipilt</string>
 	<string name="recipe_no_timer">Sellel retseptil pole taimerit!</string>
 	<string name="request_again">Taotlege uuesti</string>

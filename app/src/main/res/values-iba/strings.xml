@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Pilih Tema</string>
 	<string name="rationale_permissions">Rasional: %s</string>
 	<string name="recipe_details_tabs">Resipi diatur dalam tab</string>
-	<string name="recipe_import_dialog_hint">URL resipi</string>
-	<string name="recipe_import_dialog_positive">Mengimport</string>
-	<string name="recipe_import_dialog_title">Import resipi ari URL</string>
-	<string name="recipe_import_failure">Enda ulih ngimport resipi: %1$s</string>
-	<string name="recipe_import_in_progress">Resipi ngimport</string>
-	<string name="recipe_import_login_close">Kinsil login</string>
-	<string name="recipe_import_login_init_failed">Enda ulih ngepunka proses login: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login udah abis maya. Uji baru</string>
-	<string name="recipe_import_login_title">Log masuk ngagai Nextcloud</string>
-	<string name="recipe_import_menu_title">Import resipi ari URL</string>
-	<string name="recipe_import_service_url_hint">URL servis import resipi</string>
 	<string name="recipe_list_image_desc">Gambar mit resipi</string>
 	<string name="recipe_no_timer">Resipi tu nadai ngembuan timer!</string>
 	<string name="request_again">Pinta baru</string>

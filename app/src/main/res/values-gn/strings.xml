@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">Eiporavo Tema</string>
 	<string name="rationale_permissions">Motivo: %s</string>
 	<string name="recipe_details_tabs">Receta oñemohenda ficha-pe</string>
-	<string name="recipe_import_dialog_hint">Receta URL rehegua</string>
-	<string name="recipe_import_dialog_positive">Pytaguañemu</string>
-	<string name="recipe_import_dialog_title">Egueru receta URL-gui</string>
-	<string name="recipe_import_failure">Ndaikatúi ojegueru pe receta: %1$s</string>
-	<string name="recipe_import_in_progress">Importación receta rehegua</string>
-	<string name="recipe_import_login_close">Ombogue jeike</string>
-	<string name="recipe_import_login_init_failed">Ndaikatúi oñepyrũ jeike rembiapo: %1$s</string>
-	<string name="recipe_import_login_timed_out">Oike tiempo oñemohu’ã. Eñeha’ã jey</string>
-	<string name="recipe_import_login_title">Eike Nextcloud-pe</string>
-	<string name="recipe_import_menu_title">Egueru receta URL-gui</string>
-	<string name="recipe_import_service_url_hint">URL servicio importación receta rehegua</string>
 	<string name="recipe_list_image_desc">Ta’anga michĩmi receta rehegua</string>
 	<string name="recipe_no_timer">¡Ko Receta ndorekói peteĩ temporizador!</string>
 	<string name="request_again">Ejerure jey</string>

@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">تھیم ئا گچین کن</string>
 	<string name="rationale_permissions">عقلیت: %s</string>
 	<string name="recipe_details_tabs">نسخہ ٹیبانی تہا منظم کنگ بوتگ</string>
-	<string name="recipe_import_dialog_hint">نسخہ یو آر ایل</string>
-	<string name="recipe_import_dialog_positive">در</string>
-	<string name="recipe_import_dialog_title">یو آر ایل ئا شہ نسخہ درآمد کن</string>
-	<string name="recipe_import_failure">نسخہ درآمد نہ کت: %1$s</string>
-	<string name="recipe_import_in_progress">نسخہ درآمد کنگ</string>
-	<string name="recipe_import_login_close">لاگ ان منسوخ کن</string>
-	<string name="recipe_import_login_init_failed">لاگ ان ءِ عمل بندات نہ بوت: %1$s</string>
-	<string name="recipe_import_login_timed_out">لاگ ان ءِ وھد ھلاس بوتگ۔ پدا جہد کن۔</string>
-	<string name="recipe_import_login_title">نیکسٹ کلاؤڈ ءَ لاگ ان بہ کن اِت</string>
-	<string name="recipe_import_menu_title">یو آر ایل ئا شہ نسخہ درآمد کن</string>
-	<string name="recipe_import_service_url_hint">نسخہ درآمد سروس یو آر ایل</string>
 	<string name="recipe_list_image_desc">نسخہ ئے اکس ئے تھمب نیل</string>
 	<string name="recipe_no_timer">اے نسخہ ئے تہا ٹائمر نیستیں</string>
 	<string name="request_again">پدا لوٹ کن</string>

@@ -104,17 +104,6 @@
 	<string name="preftitle_theme">थीम के चयन करीं</string>
 	<string name="rationale_permissions">तर्क: %s के बा</string>
 	<string name="recipe_details_tabs">रेसिपी के टैब में व्यवस्थित कइल गइल बा</string>
-	<string name="recipe_import_dialog_hint">रेसिपी के यूआरएल बा</string>
-	<string name="recipe_import_dialog_positive">आयात</string>
-	<string name="recipe_import_dialog_title">यूआरएल से रेसिपी आयात करीं</string>
-	<string name="recipe_import_failure">रेसिपी आयात ना कर सकल: %1$s</string>
-	<string name="recipe_import_in_progress">आयात कइल जा रहल बा रेसिपी</string>
-	<string name="recipe_import_login_close">लॉगिन रद्द कर दीं</string>
-	<string name="recipe_import_login_init_failed">लॉगिन प्रक्रिया शुरू ना हो पावल: %1$s</string>
-	<string name="recipe_import_login_timed_out">लॉगिन के समय खतम हो गइल. एक बेर फेरु से कोशिश करीं।</string>
-	<string name="recipe_import_login_title">नेक्स्टक्लाउड में लॉग इन करीं</string>
-	<string name="recipe_import_menu_title">यूआरएल से रेसिपी आयात करीं</string>
-	<string name="recipe_import_service_url_hint">रेसिपी आयात सेवा के यूआरएल बा</string>
 	<string name="recipe_list_image_desc">नुस्खा के छवि थंबनेल बा</string>
 	<string name="recipe_no_timer">एह रेसिपी में टाइमर नइखे!</string>
 	<string name="request_again">फेर से निहोरा कइल जाव</string>
