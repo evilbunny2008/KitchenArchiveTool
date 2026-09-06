@@ -5,6 +5,7 @@
  */
 package com.odiousapps.kat.ui.recipeimport
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -24,6 +25,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import kotlin.time.Duration.Companion.milliseconds
 
 /**
  * Shows Nextcloud's own Login Flow v2 page in a WebView -- the same
@@ -79,7 +81,7 @@ class RecipeImportLoginActivity : AppCompatActivity() {
          return
       }
 
-      // Mini-browser back behavior, matching the official Nextcloud app:
+      // Mini-browser back behaviour, matching the official Nextcloud app:
       // step back through the login/2FA flow's own page history first,
       // only treat back-press as "cancel the whole thing" once there's
       // nowhere left in the WebView to go back to.
@@ -101,6 +103,7 @@ class RecipeImportLoginActivity : AppCompatActivity() {
       startLoginFlow(hostname, accountName)
    }
 
+   @SuppressLint("SetJavaScriptEnabled")
    private fun setupWebView() {
       // JavaScript/DOM storage are needed here because this WebView's one
       // and only job is rendering Nextcloud's own hosted login page,
@@ -178,7 +181,7 @@ class RecipeImportLoginActivity : AppCompatActivity() {
                return@launch
             }
 
-            delay(POLL_INTERVAL_MS)
+            delay(POLL_INTERVAL_MS.milliseconds)
          }
 
          Toast.makeText(this@RecipeImportLoginActivity, R.string.recipe_import_login_timed_out, Toast.LENGTH_LONG).show()
