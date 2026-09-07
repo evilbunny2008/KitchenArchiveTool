@@ -17,9 +17,9 @@
 	<string name="copy_ing_message">Malzemeler panoya kopyalandı</string>
 	<string name="copy_ingredients">Malzemeleri kopyala</string>
 	<string name="copy_to_account_failure">Tarif kopyalanamadı: %1$s</string>
-	<string name="copy_to_account_in_progress">’%1$s’ %2$s’e kopyalanıyor</string>
+	<string name="copy_to_account_in_progress">‘%1$s’ %2$s’e kopyalanıyor</string>
 	<string name="copy_to_account_none_available">Tarifleri aralarında kopyalamak için önce başka bir hesap ekleyin</string>
-	<string name="copy_to_account_success">’%1$s’ %2$s’e kopyalandı</string>
+	<string name="copy_to_account_success">‘%1$s’ %2$s’e kopyalandı</string>
 	<string name="copy_to_account_title">Bu tarifi kopyalayın</string>
 	<string name="delete_recipe">Tarifi sil</string>
 	<string name="delete_recipe_confirm_message">‘%1$s’ sunucudan kalıcı olarak silinecek. Bu geri alınamaz</string>
@@ -121,7 +121,7 @@
 	<string name="search_hint">Ada göre ara</string>
 	<string name="search_in_all">Aramak</string>
 	<string name="skip_for_local_storage">Yerel depolamayı atla</string>
-	<string name="sort_value_alpha_asc">A‘dan Z’ye İsim</string>
+	<string name="sort_value_alpha_asc">A’dan Z’ye İsim</string>
 	<string name="sort_value_alpha_desc">İsim Z-A</string>
 	<string name="sort_value_date_asc">Artan şekilde yayınlanma tarihi</string>
 	<string name="sort_value_date_desc">Yayınlanma tarihi azalan şekilde</string>

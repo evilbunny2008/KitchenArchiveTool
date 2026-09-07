@@ -40,7 +40,7 @@
 	<string name="form_search_hint">Abboya</string>
 	<string name="form_search_options">Pilihang pa’boya</string>
 	<string name="form_search_title">Pa’boyaang lanjutang</string>
-	<string name="form_type_ingredients">Pa‘boyai situru’ bahan</string>
+	<string name="form_type_ingredients">Pa’boyai situru‘ bahan</string>
 	<string name="form_type_keyword">Pa’boyai ri kata kunci</string>
 	<string name="form_type_yield">Pa’boyai ri hasil</string>
 	<string name="form_types">Ketik untuk amboyai</string>
@@ -88,7 +88,7 @@
 	<string name="permission_ok_message">Akses pammolikang lebba nisare untuk %1$s</string>
 	<string name="permission_please_grant">Kisare ijin pammolikang</string>
 	<string name="permission_select_root">Pilei %1$s</string>
-	<string name="permission_warning_nowrite">Ikatte tena akses tulisang mange ri anne pammolikang, jari ammile anne folder tena matu-matunna.\nEro’ tongko assarei akses mange ri anne folder?</string>
+	<string name="permission_warning_nowrite">Ikatte tena akses tulisang mange ri anne pammolikang, jari ammile anne folder tena matu-matunna.\nEro‘ tongko assarei akses mange ri anne folder?</string>
 	<string name="permissions_error_message">Akses ni tolak! App parallui akses pammolikang, akkullei aktifkan ri setting</string>
 	<string name="permissions_required">Izin parallui!</string>
 	<string name="play_btn">Appakkaramula/Jeda timer</string>
@@ -120,12 +120,12 @@
 	<string name="request_again">Appala poleang</string>
 	<string name="search_hint">Boyai siagang areng</string>
 	<string name="search_in_all">Abboya</string>
-	<string name="skip_for_local_storage">Lappassangi untu’ pammolikang lokal</string>
+	<string name="skip_for_local_storage">Lappassangi untu‘ pammolikang lokal</string>
 	<string name="sort_value_alpha_asc">Areng A-Z</string>
 	<string name="sort_value_alpha_desc">Areng Z-A</string>
-	<string name="sort_value_date_asc">Tanggal ni pa‘nassaya nai’</string>
+	<string name="sort_value_date_asc">Tanggal ni pa’nassaya nai‘</string>
 	<string name="sort_value_date_desc">Tanggal ni pa’nassaya naung</string>
-	<string name="sort_value_time_asc">Sikontu wattu nai’</string>
+	<string name="sort_value_time_asc">Sikontu wattu nai‘</string>
 	<string name="sort_value_time_desc">Sikontu wattu naung</string>
 	<string name="stop_btn">ammari wattu</string>
 	<string name="storage_permissions_not_granted">Tena akses pammolikang!</string>

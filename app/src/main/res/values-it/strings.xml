@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Kitchen Archive Tool (KAT) è un‘app Android che utilizza l’app Cookbook del server Nextcloud per gestire le ricette</string>
+	<string name="about_summary">Kitchen Archive Tool (KAT) è un’app Android che utilizza l’app Cookbook del server Nextcloud per gestire le ricette</string>
 	<string name="about_title">Di</string>
 	<string name="about_version">Versione dell’app: %1$s</string>
 	<string name="account_switcher_current_account_desc">Conto corrente</string>
@@ -89,7 +89,7 @@
 	<string name="permission_please_grant">Concedere le autorizzazioni di archiviazione</string>
 	<string name="permission_select_root">Seleziona %1$s</string>
 	<string name="permission_warning_nowrite">Non hai accesso in scrittura a questo archivio, quindi selezionare questa cartella è inutile.\nVuoi concedere l’accesso a questa cartella?</string>
-	<string name="permissions_error_message">Accesso negato! L‘app necessita dell’accesso allo spazio di archiviazione, attivalo nelle impostazioni</string>
+	<string name="permissions_error_message">Accesso negato! L’app necessita dell’accesso allo spazio di archiviazione, attivalo nelle impostazioni</string>
 	<string name="permissions_required">Sono necessarie le autorizzazioni!</string>
 	<string name="play_btn">Avvia/mette in pausa il timer</string>
 	<string name="pref_category_design">Progetto</string>

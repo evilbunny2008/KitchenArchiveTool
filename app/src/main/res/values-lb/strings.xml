@@ -84,7 +84,7 @@
 	<string name="nutrition_unsaturated_fat_content">Unsaturated Fett Inhalt: %1$s</string>
 	<string name="permanently_denied_permissions">Permanent verweigert: %s</string>
 	<string name="permission_canceled">Vum Benotzer annuléiert</string>
-	<string name="permission_notification_required">D‘Erlaabnes fir d’Notifikatioun ze weisen ass fir de Kachtimer erfuerderlech</string>
+	<string name="permission_notification_required">D’Erlaabnes fir d’Notifikatioun ze weisen ass fir de Kachtimer erfuerderlech</string>
 	<string name="permission_ok_message">Späicherzougang gouf fir %1$s accordéiert</string>
 	<string name="permission_please_grant">Gitt w.e.g. Späicherrechter</string>
 	<string name="permission_select_root">Wielt w.e.g. %1$s</string>

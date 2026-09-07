@@ -109,7 +109,7 @@
 	<string name="recipe_import_dialog_title">I ka furakɛcogo ladon ka bɔ URL la</string>
 	<string name="recipe_import_failure">A ma se ka furakɛcogo in ladon: %1$s</string>
 	<string name="recipe_import_in_progress">Importation recette</string>
-	<string name="recipe_import_login_close">A’ ye donnakow dabila</string>
+	<string name="recipe_import_login_close">A‘ ye donnakow dabila</string>
 	<string name="recipe_import_login_init_failed">A ma se ka doncogo daminɛ: %1$s</string>
 	<string name="recipe_import_login_timed_out">Donni waati tɛmɛna. Aw bɛ segin ka a lajɛ</string>
 	<string name="recipe_import_login_title">Aw bɛ don Nextcloud kɔnɔ</string>

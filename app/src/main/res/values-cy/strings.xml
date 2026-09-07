@@ -14,15 +14,15 @@
 	<string name="cooktime_start_btn">Yn dechrau’r amserydd</string>
 	<string name="cooktime_title">Amserydd coginio</string>
 	<string name="cooktime_tooltip">Dechreuwch amserydd coginio</string>
-	<string name="copy_ing_message">Cynhwysion wedi‘u copïo i’r clipfwrdd</string>
+	<string name="copy_ing_message">Cynhwysion wedi’u copïo i’r clipfwrdd</string>
 	<string name="copy_ingredients">Copïo cynhwysion</string>
 	<string name="copy_to_account_failure">Methu â chopïo’r rysáit: %1$s</string>
-	<string name="copy_to_account_in_progress">Wrthi’n copïo ’%1$s’ i %2$s</string>
+	<string name="copy_to_account_in_progress">Wrthi’n copïo ‘%1$s’ i %2$s</string>
 	<string name="copy_to_account_none_available">Ychwanegwch gyfrif arall yn gyntaf i gopïo ryseitiau rhyngddynt</string>
 	<string name="copy_to_account_success">Wedi copïo ‘%1$s’ i %2$s</string>
 	<string name="copy_to_account_title">Copïwch y rysáit hwn i</string>
 	<string name="delete_recipe">Dileu rysáit</string>
-	<string name="delete_recipe_confirm_message">Bydd ’%1$s’ yn cael ei ddileu yn barhaol o’r gweinydd. Ni ellir dadwneud hyn</string>
+	<string name="delete_recipe_confirm_message">Bydd ‘%1$s’ yn cael ei ddileu yn barhaol o’r gweinydd. Ni ellir dadwneud hyn</string>
 	<string name="delete_recipe_confirm_positive">Dileu</string>
 	<string name="delete_recipe_confirm_title">Dileu’r rysáit hwn?</string>
 	<string name="delete_recipe_failure">Methu dileu’r rysáit: %1$s</string>
@@ -88,7 +88,7 @@
 	<string name="permission_ok_message">Mae mynediad storio wedi’i ganiatáu ar gyfer %1$s</string>
 	<string name="permission_please_grant">Rhowch ganiatâd storio</string>
 	<string name="permission_select_root">Dewiswch %1$s</string>
-	<string name="permission_warning_nowrite">Nid oes gennych fynediad ysgrifenedig i‘r storfa hon, felly mae dewis y ffolder hon yn ddiwerth.\nA hoffech ganiatáu mynediad i’r ffolder hon?</string>
+	<string name="permission_warning_nowrite">Nid oes gennych fynediad ysgrifenedig i’r storfa hon, felly mae dewis y ffolder hon yn ddiwerth.\nA hoffech ganiatáu mynediad i’r ffolder hon?</string>
 	<string name="permissions_error_message">Mynediad wedi’i wrthod! Mae angen mynediad storio ar yr ap, gweithredwch yn y gosodiadau</string>
 	<string name="permissions_required">Mae angen caniatâd!</string>
 	<string name="play_btn">Amserydd Dechrau/Seibiant</string>
@@ -103,7 +103,7 @@
 	<string name="preftitle_recipeDir">Cyfeiriadur Ryseitiau</string>
 	<string name="preftitle_theme">Dewiswch Thema</string>
 	<string name="rationale_permissions">Rhesymeg: %s</string>
-	<string name="recipe_details_tabs">Mae‘r rysáit wedi’i drefnu mewn tabiau</string>
+	<string name="recipe_details_tabs">Mae’r rysáit wedi’i drefnu mewn tabiau</string>
 	<string name="recipe_import_dialog_hint">URL rysáit</string>
 	<string name="recipe_import_dialog_positive">Mewnforio</string>
 	<string name="recipe_import_dialog_title">Mewnforio rysáit o URL</string>

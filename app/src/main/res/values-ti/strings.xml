@@ -22,7 +22,7 @@
 	<string name="copy_to_account_success">‘%1$s’ ናብ %2$s ተቐዲሑ</string>
 	<string name="copy_to_account_title">ነዚ ኣሰራርሓ መግቢ ናብ</string>
 	<string name="delete_recipe">ኣሰራርሓ መግቢ ምድምሳስ</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ ካብቲ ኣገልጋሊ ንሓዋሩ ክስረዝ እዩ። እዚ ክምለስ ኣይክእልን’ዩ።</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ ካብቲ ኣገልጋሊ ንሓዋሩ ክስረዝ እዩ። እዚ ክምለስ ኣይክእልን’ዩ።</string>
 	<string name="delete_recipe_confirm_positive">ምድምሳስ</string>
 	<string name="delete_recipe_confirm_title">ነዚ ኣሰራርሓ መግቢ ደምስሶ?</string>
 	<string name="delete_recipe_failure">ነቲ ኣሰራርሓ መግቢ ክድምስሶ ኣይከኣለን: %1$s</string>

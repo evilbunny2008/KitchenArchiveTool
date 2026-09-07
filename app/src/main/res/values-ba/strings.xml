@@ -19,7 +19,7 @@
 	<string name="copy_to_account_failure">Рецептты күсереп булманы: %1$s</string>
 	<string name="copy_to_account_in_progress">‘%1$s’ күсермәһе %2$s</string>
 	<string name="copy_to_account_none_available">Улар араһында рецептарҙы күсерергә тәүҙә икенсе иҫәп яҙмаһын өҫтәгеҙ</string>
-	<string name="copy_to_account_success">’%1$s’ күсерелгән %2$s. Әгәр фотоһүрәт күрһәтмәй’ унда, был сервер ала алманы, уны бынан — өҫтәргә, уны тағы ла ҡул менән</string>
+	<string name="copy_to_account_success">‘%1$s’ күсерелгән %2$s. Әгәр фотоһүрәт күрһәтмәй‘ унда, был сервер ала алманы, уны бынан — өҫтәргә, уны тағы ла ҡул менән</string>
 	<string name="copy_to_account_title">Был рецепты күсерергә</string>
 	<string name="delete_recipe">Рецептты юйырға</string>
 	<string name="delete_recipe_confirm_message">‘%1$s’ серверҙан мәңгелеккә юйыласаҡ. Был&amp;#8217;т кире ҡайтарып булмай</string>

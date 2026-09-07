@@ -6,7 +6,7 @@
 	<string name="account_switcher_current_account_desc">Herrega ammaa</string>
 	<string name="add_account">Akkaawuntii itti dabali</string>
 	<string name="app_logo_desc">Mallattoo eebbaa appii KAT</string>
-	<string name="cancel_btn">Sa‘aatii haquu (hin mul’anne)</string>
+	<string name="cancel_btn">Sa’aatii haquu (hin mul’anne)</string>
 	<string name="channel_description">Chaanaalii beeksisa sa’aatii</string>
 	<string name="channel_name">Chaanaalii sa’aatii</string>
 	<string name="cooktime_pause_btn">Sa’aatii dhaabbata</string>
@@ -22,7 +22,7 @@
 	<string name="copy_to_account_success">‘%1$s’ gara %2$s tti waraabame</string>
 	<string name="copy_to_account_title">Recipe kana gara</string>
 	<string name="delete_recipe">Recipe haquu</string>
-	<string name="delete_recipe_confirm_message">‘%1$s’ dhaabbataadhaan sarvarii irraa ni haqama. Kun duubatti deebi‘uu hin danda’u</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ dhaabbataadhaan sarvarii irraa ni haqama. Kun duubatti deebi’uu hin danda’u</string>
 	<string name="delete_recipe_confirm_positive">Haquu</string>
 	<string name="delete_recipe_confirm_title">Recipe kana haquu?</string>
 	<string name="delete_recipe_failure">Recipe haquu hin dandeenye: %1$s</string>

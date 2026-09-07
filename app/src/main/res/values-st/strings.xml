@@ -18,7 +18,7 @@
 	<string name="copy_ingredients">Kopitsa metsoako</string>
 	<string name="copy_to_account_failure">E hlolehile ho kopitsa risepe: %1$s</string>
 	<string name="copy_to_account_in_progress">E kopitsa ‘%1$s’ ho %2$s</string>
-	<string name="copy_to_account_none_available">Kenya ak‘haonte e ’ngoe pele ho kopitsa litlolo lipakeng tsa tsona</string>
+	<string name="copy_to_account_none_available">Kenya ak’haonte e ‘ngoe pele ho kopitsa litlolo lipakeng tsa tsona</string>
 	<string name="copy_to_account_success">E kopitsitse ‘%1$s’ ho %2$s</string>
 	<string name="copy_to_account_title">Kopitsa risepe ena ho</string>
 	<string name="delete_recipe">Hlakola recipe</string>

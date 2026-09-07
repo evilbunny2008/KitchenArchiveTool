@@ -14,15 +14,15 @@
 	<string name="cooktime_start_btn">ਟਾਈਮਰ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ</string>
 	<string name="cooktime_title">ਖਾਣਾ ਬਣਾਉਣ ਦਾ ਟਾਈਮਰ</string>
 	<string name="cooktime_tooltip">ਖਾਣਾ ਪਕਾਉਣ ਦਾ ਟਾਈਮਰ ਸ਼ੁਰੂ ਕਰੋ</string>
-	<string name="copy_ing_message">ਸਮੱਗਰੀ ਕਲਿੱਪਬੋਰਡ ’ਤੇ ਕਾਪੀ ਕੀਤੀ ਗਈ</string>
+	<string name="copy_ing_message">ਸਮੱਗਰੀ ਕਲਿੱਪਬੋਰਡ ‘ਤੇ ਕਾਪੀ ਕੀਤੀ ਗਈ</string>
 	<string name="copy_ingredients">ਸਮੱਗਰੀ ਦੀ ਨਕਲ ਕਰੋ</string>
 	<string name="copy_to_account_failure">ਵਿਅੰਜਨ ਨੂੰ ਕਾਪੀ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: %1$s</string>
 	<string name="copy_to_account_in_progress">‘%1$s’ ਨੂੰ %2$s ਵਿੱਚ ਕਾਪੀ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
 	<string name="copy_to_account_none_available">ਉਹਨਾਂ ਵਿਚਕਾਰ ਪਕਵਾਨਾਂ ਦੀ ਨਕਲ ਕਰਨ ਲਈ ਪਹਿਲਾਂ ਕੋਈ ਹੋਰ ਖਾਤਾ ਜੋੜੋ</string>
-	<string name="copy_to_account_success">’%1$s’ ਨੂੰ %2$s ’ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ</string>
+	<string name="copy_to_account_success">‘%1$s’ ਨੂੰ %2$s ‘ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ</string>
 	<string name="copy_to_account_title">ਇਸ ਵਿਅੰਜਨ ਨੂੰ ਇੱਥੇ ਕਾਪੀ ਕਰੋ</string>
 	<string name="delete_recipe">ਵਿਅੰਜਨ ਮਿਟਾਓ</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ ਨੂੰ ਸਰਵਰ ਤੋਂ ਪੱਕੇ ਤੌਰ ’ਤੇ ਮਿਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ। ਇਸ ਨੂੰ ਅਣਕੀਤਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ ਨੂੰ ਸਰਵਰ ਤੋਂ ਪੱਕੇ ਤੌਰ ‘ਤੇ ਮਿਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ। ਇਸ ਨੂੰ ਅਣਕੀਤਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ</string>
 	<string name="delete_recipe_confirm_positive">ਮਿਟਾਓ</string>
 	<string name="delete_recipe_confirm_title">ਕੀ ਇਸ ਵਿਅੰਜਨ ਨੂੰ ਮਿਟਾਉਣਾ ਹੈ?</string>
 	<string name="delete_recipe_failure">ਵਿਅੰਜਨ ਨੂੰ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ: %1$s</string>
@@ -30,7 +30,7 @@
 	<string name="dir_chooser_error">ਗਲਤੀ: ਰੂਟ ਫੋਲਡਰ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ!</string>
 	<string name="empty_list">ਕੋਈ ਪਕਵਾਨ ਨਹੀਂ</string>
 	<string name="error_no_network">ਕੋਈ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਨਹੀਂ</string>
-	<string name="error_only_wifi">ਸਿਰਫ਼ Wifi ’ਤੇ ਸਮਕਾਲੀਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਹੈ</string>
+	<string name="error_only_wifi">ਸਿਰਫ਼ Wifi ‘ਤੇ ਸਮਕਾਲੀਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਹੈ</string>
 	<string name="error_sync">ਸਮਕਾਲੀਕਰਨ ਅਸਫਲ ਰਿਹਾ: %1$s</string>
 	<string name="folder_pick_cancel">ਫੋਲਡਰ ਚੋਣਕਾਰ ਉਪਭੋਗਤਾ ਦੁਆਰਾ ਰੱਦ ਕੀਤਾ ਗਿਆ</string>
 	<string name="folder_pick_success">ਫੋਲਡਰ %1$s ਚੁਣਿਆ ਗਿਆ</string>
@@ -82,7 +82,7 @@
 	<string name="nutrition_sugar_content">ਸ਼ੂਗਰ ਸਮੱਗਰੀ: %1$s</string>
 	<string name="nutrition_trans_fat_content">ਟ੍ਰਾਂਸ ਫੈਟ ਸਮੱਗਰੀ: %1$s</string>
 	<string name="nutrition_unsaturated_fat_content">ਅਸੰਤ੍ਰਿਪਤ ਚਰਬੀ ਸਮੱਗਰੀ: %1$s</string>
-	<string name="permanently_denied_permissions">ਪੱਕੇ ਤੌਰ ’ਤੇ ਅਸਵੀਕਾਰ ਕੀਤਾ ਗਿਆ: %s</string>
+	<string name="permanently_denied_permissions">ਪੱਕੇ ਤੌਰ ‘ਤੇ ਅਸਵੀਕਾਰ ਕੀਤਾ ਗਿਆ: %s</string>
 	<string name="permission_canceled">ਉਪਭੋਗਤਾ ਦੁਆਰਾ ਰੱਦ ਕੀਤਾ ਗਿਆ</string>
 	<string name="permission_notification_required">ਕੁਕਿੰਗ ਟਾਈਮਰ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਦਿਖਾਉਣ ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ</string>
 	<string name="permission_ok_message">%1$s ਲਈ ਸਟੋਰੇਜ ਪਹੁੰਚ ਦਿੱਤੀ ਗਈ ਹੈ</string>
@@ -99,7 +99,7 @@
 	<string name="pref_summary_sync_wifi_only">ਇਹ ਸਮਕਾਲੀਕਰਨ ਨੂੰ ਅਸਮਰੱਥ ਬਣਾਉਂਦਾ ਹੈ ਜਦੋਂ ਡੀਵਾਈਸ ਸਿਰਫ਼ ਮੋਬਾਈਲ ਡਾਟਾ ਰਾਹੀਂ ਕਨੈਕਟ ਹੁੰਦੀ ਹੈ</string>
 	<string name="pref_title_enableSyncService">ਬੈਕਗ੍ਰਾਊਂਡ ਸਿੰਕ੍ਰੋਨਾਈਜ਼ੇਸ਼ਨ</string>
 	<string name="pref_title_keep_screen_alive">ਸਕਰੀਨ ਨੂੰ ਜਿੰਦਾ ਰੱਖੋ</string>
-	<string name="pref_title_sync_wifi_only">ਸਿਰਫ਼ Wifi ’ਤੇ ਸਿੰਕ ਕਰੋ</string>
+	<string name="pref_title_sync_wifi_only">ਸਿਰਫ਼ Wifi ‘ਤੇ ਸਿੰਕ ਕਰੋ</string>
 	<string name="preftitle_recipeDir">ਵਿਅੰਜਨ ਡਾਇਰੈਕਟਰੀ</string>
 	<string name="preftitle_theme">ਥੀਮ ਚੁਣੋ</string>
 	<string name="rationale_permissions">ਤਰਕ: %s</string>

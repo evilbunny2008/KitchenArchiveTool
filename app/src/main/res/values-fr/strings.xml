@@ -84,7 +84,7 @@
 	<string name="nutrition_unsaturated_fat_content">Teneur en graisses insaturées : %1$s</string>
 	<string name="permanently_denied_permissions">Refusé définitivement : %s</string>
 	<string name="permission_canceled">Annulé par l’utilisateur</string>
-	<string name="permission_notification_required">L‘autorisation d’afficher la notification est requise pour la minuterie de cuisson</string>
+	<string name="permission_notification_required">L’autorisation d’afficher la notification est requise pour la minuterie de cuisson</string>
 	<string name="permission_ok_message">L’accès au stockage a été accordé pour %1$s</string>
 	<string name="permission_please_grant">Veuillez accorder les autorisations de stockage</string>
 	<string name="permission_select_root">Veuillez sélectionner %1$s</string>

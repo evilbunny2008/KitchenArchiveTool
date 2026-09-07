@@ -16,7 +16,7 @@
 	<string name="cooktime_tooltip">Tobili wagati daminɛ</string>
 	<string name="copy_ing_message">Fɛɛn minw be sɔrɔ a kɔnɔ, u kopi kɛra tablo kan</string>
 	<string name="copy_ingredients">Fɛɛn minw be sɔrɔ a kɔnɔ, u kopi kɛ</string>
-	<string name="copy_to_account_failure">N’ ma se ka furakisɛ nin kopi kɛ: %1$s</string>
+	<string name="copy_to_account_failure">N‘ ma se ka furakisɛ nin kopi kɛ: %1$s</string>
 	<string name="copy_to_account_in_progress">Ka ‘%1$s’ kopi kɛ ka taga %2$s la</string>
 	<string name="copy_to_account_none_available">Aw ye kɔnti wɛrɛ fara a kan fɔlɔ walisa ka dumuniko ɲɔgɔnw kopi kɛ u ni ɲɔgɔn cɛ</string>
 	<string name="copy_to_account_success">‘%1$s’ kopi kɛ ka taga %2$s la</string>
@@ -88,7 +88,7 @@
 	<string name="permission_ok_message">Marayɔrɔ sɔrɔli daganin lo %1$s</string>
 	<string name="permission_please_grant">Aw ka yamaruya di marali ma</string>
 	<string name="permission_select_root">Aw ye %1$s sugandi</string>
-	<string name="permission_warning_nowrite">I tɛ se ka sɛbɛri kɛ o marayɔrɔ la, o la, ka nin yɔrɔ sugandi, nafa t‘a la.\nYala i b’a fɛ ka sira di ka don yɔrɔ nin na wa?</string>
+	<string name="permission_warning_nowrite">I tɛ se ka sɛbɛri kɛ o marayɔrɔ la, o la, ka nin yɔrɔ sugandi, nafa t’a la.\nYala i b’a fɛ ka sira di ka don yɔrɔ nin na wa?</string>
 	<string name="permissions_error_message">A banna ka don! App mako be marayɔrɔ la, i b’a lawuli paramɛtiriw kɔnɔ</string>
 	<string name="permissions_required">Yamaruyaw ka ɲi ka kɛ!</string>
 	<string name="play_btn">Wagati daminɛ/lalɔ</string>

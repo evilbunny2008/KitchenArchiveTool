@@ -10,7 +10,7 @@
 	<string name="channel_description">Chanel mar lendo mag saa</string>
 	<string name="channel_name">Chanel mar seche</string>
 	<string name="cooktime_pause_btn">Oweyo timer</string>
-	<string name="cooktime_reset_btn">Ochung’ kendo oketo seche kendo</string>
+	<string name="cooktime_reset_btn">Ochung‘ kendo oketo seche kendo</string>
 	<string name="cooktime_start_btn">Ochako ng’ado seche</string>
 	<string name="cooktime_title">Saa mar tedo</string>
 	<string name="cooktime_tooltip">Chak seche mag tedo</string>
@@ -22,7 +22,7 @@
 	<string name="copy_to_account_success">Kopi ‘%1$s’ nyaka %2$s</string>
 	<string name="copy_to_account_title">Kopi yo mar loso chiemo ni mondo</string>
 	<string name="delete_recipe">Ruch yo mar loso chiemo</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ ibiro ruchi nyaka chieng’ kuom sava. Gini ok nyal loki chien</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ ibiro ruchi nyaka chieng‘ kuom sava. Gini ok nyal loki chien</string>
 	<string name="delete_recipe_confirm_positive">Rucho</string>
 	<string name="delete_recipe_confirm_title">Be ibiro rucho yo mar chiemo ni?</string>
 	<string name="delete_recipe_failure">Ok nyal rucho yo mar loso chiemo: %1$s</string>
@@ -41,7 +41,7 @@
 	<string name="form_search_options">Yore mag manyo</string>
 	<string name="form_search_title">Many Motegno</string>
 	<string name="form_type_ingredients">Many kaluwore gi gik ma itiyogo</string>
-	<string name="form_type_keyword">Many ka itiyo gi wach maduong’</string>
+	<string name="form_type_keyword">Many ka itiyo gi wach maduong‘</string>
 	<string name="form_type_yield">Many ka itiyo gi Oboke</string>
 	<string name="form_types">Ndik mondo imany</string>
 	<string name="granted_permissions">Oyie: %s</string>
@@ -68,7 +68,7 @@
 	<string name="no_information">Onge weche</string>
 	<string name="no_ingredients">Onge gik mitiyogo</string>
 	<string name="no_instructions">Onge Chike</string>
-	<string name="notification_text">Seche pod odong’: %1$s</string>
+	<string name="notification_text">Seche pod odong‘: %1$s</string>
 	<string name="notification_title">Timer mar Gige Keno mag Jokon</string>
 	<string name="nutrition_calories">Kalori: %1$s</string>
 	<string name="nutrition_carbohydrate_content">Gik ma nigi kabohaidret: %1$s</string>
@@ -76,13 +76,13 @@
 	<string name="nutrition_fat_content">Gik moting’o mo: %1$s</string>
 	<string name="nutrition_fiberContent">Gik mantie e fiber: %1$s</string>
 	<string name="nutrition_protein_content">Gigo mantie e protin: %1$s</string>
-	<string name="nutrition_saturated_fat_content">Gik ma nigi mo ma opong’: %1$s</string>
-	<string name="nutrition_serving_size">Duong’ mar chiemo: %1$s</string>
+	<string name="nutrition_saturated_fat_content">Gik ma nigi mo ma opong‘: %1$s</string>
+	<string name="nutrition_serving_size">Duong‘ mar chiemo: %1$s</string>
 	<string name="nutrition_sodium_content">Gigo mantie e sodium: %1$s</string>
 	<string name="nutrition_sugar_content">Sukari mantie: %1$s</string>
 	<string name="nutrition_trans_fat_content">Gik ma nigi mo: %1$s</string>
-	<string name="nutrition_unsaturated_fat_content">Gik ma nigi mo ma ok opong’: %1$s</string>
-	<string name="permanently_denied_permissions">Odagi nyaka chieng’: %s</string>
+	<string name="nutrition_unsaturated_fat_content">Gik ma nigi mo ma ok opong‘: %1$s</string>
+	<string name="permanently_denied_permissions">Odagi nyaka chieng‘: %s</string>
 	<string name="permission_canceled">Okanhi gi jatiyo</string>
 	<string name="permission_notification_required">Yie mar nyiso lendo dwarore ne seche mag tedo</string>
 	<string name="permission_ok_message">Ochiw thuolo mar kano mwandu kuom %1$s</string>
@@ -91,7 +91,7 @@
 	<string name="permission_warning_nowrite">Onge ratiro ma inyalo ndiko e kar keno, omiyo yiero folda ni onge tiende.\nBe idwaro ni imiye ratiro mar donjo e folda?</string>
 	<string name="permissions_error_message">Odagi donjo! Program dwaro donjo e kar keno, yie mondo oketgi e chenro</string>
 	<string name="permissions_required">Owinjore omiye ratiro!</string>
-	<string name="play_btn">Timer mar chako/ling’</string>
+	<string name="play_btn">Timer mar chako/ling‘</string>
 	<string name="pref_category_design">Loso</string>
 	<string name="pref_category_function">Tije</string>
 	<string name="pref_category_sync">Keto gik moko kanyakla</string>
@@ -127,10 +127,10 @@
 	<string name="sort_value_date_desc">Tarik ma ne ogoye piny</string>
 	<string name="sort_value_time_asc">Seche duto ma medore</string>
 	<string name="sort_value_time_desc">Seche duto ma dok piny</string>
-	<string name="stop_btn">Ochung’ gi tipo mar seche</string>
+	<string name="stop_btn">Ochung‘ gi tipo mar seche</string>
 	<string name="storage_permissions_not_granted">Onge yo mar kano mwandu!</string>
 	<string name="sync_interval_name_1">Sa ka Sa</string>
-	<string name="sync_interval_name_4">Bang’ Seche 4 ka Seche</string>
+	<string name="sync_interval_name_4">Bang‘ Seche 4 ka Seche</string>
 	<string name="sync_interval_name_6">Seche 6 ka Seche 6</string>
 	<string name="sync_interval_name_12">Seche 12 ka Seche 12</string>
 	<string name="sync_interval_name_24">Seche 24 ka Seche</string>
@@ -142,7 +142,7 @@
 	<string name="text_author">Jandiko:</string>
 	<string name="text_categories">Kidieny:</string>
 	<string name="text_date_published">Tarik ma ne ogoye: %1$s</string>
-	<string name="text_keywords">Wach maduong’:</string>
+	<string name="text_keywords">Wach maduong‘:</string>
 	<string name="text_no_keywords">Onge weche madongo</string>
 	<string name="text_tools">Gigo madwarore:</string>
 	<string name="text_uncategorized">Ok oketi e kidienje</string>

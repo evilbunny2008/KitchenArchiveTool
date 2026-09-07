@@ -68,7 +68,7 @@
 	<string name="no_information">Տեղեկություն չկա</string>
 	<string name="no_ingredients">Բաղադրիչներ չկան</string>
 	<string name="no_instructions">Ոչ մի հրահանգ</string>
-	<string name="notification_text">Մնացել է ժամանակը’ %1$s</string>
+	<string name="notification_text">Մնացել է ժամանակը‘ %1$s</string>
 	<string name="notification_title">Kitchen Archive Tool Timer</string>
 	<string name="nutrition_calories">Կալորիաներ՝ %1$s</string>
 	<string name="nutrition_carbohydrate_content">Ածխաջրերի պարունակությունը՝ %1$s</string>

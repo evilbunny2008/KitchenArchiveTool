@@ -88,7 +88,7 @@
 	<string name="permission_ok_message">Waqaychasqa yaykuyqa %1$s kaqpaq qusqa</string>
 	<string name="permission_please_grant">Ama hina kaspa, waqaychay atiykunata quy</string>
 	<string name="permission_select_root">Ama hina kaspa, %1$s nisqapi akllay</string>
-	<string name="permission_warning_nowrite">Kay waqaychasqaman manam qillqana yaykuyta atinkichu, chayrayku kay qillqana mayt‘uta akllayqa mana imapaqpas allinchu.\n¿Kay qillqana mayt’uman yaykuyta quyta munankichu?</string>
+	<string name="permission_warning_nowrite">Kay waqaychasqaman manam qillqana yaykuyta atinkichu, chayrayku kay qillqana mayt’uta akllayqa mana imapaqpas allinchu.\n¿Kay qillqana mayt’uman yaykuyta quyta munankichu?</string>
 	<string name="permissions_error_message">¡Acceso negasqa! App waqaychay yaykuyta necesitan, ama hina kaspa ruwanakunapi activay</string>
 	<string name="permissions_required">¡Permisokunatan necesitakun!</string>
 	<string name="play_btn">Qallariy/Pausa pacha yupay</string>
@@ -96,7 +96,7 @@
 	<string name="pref_category_function">Funcionalidad nisqa</string>
 	<string name="pref_category_sync">Sincronización nisqa</string>
 	<string name="pref_summary_keep_screen_alive">Ama pantallata wichqaychu huk recetata qhawaspa</string>
-	<string name="pref_summary_sync_wifi_only">Kayqa tinkiyta mana llamk‘achinchu mayk’aq dispositivo kuyuchina willaykunawanlla tinkisqa kachkan</string>
+	<string name="pref_summary_sync_wifi_only">Kayqa tinkiyta mana llamk’achinchu mayk’aq dispositivo kuyuchina willaykunawanlla tinkisqa kachkan</string>
 	<string name="pref_title_enableSyncService">Antecedentes nisqa sincronización</string>
 	<string name="pref_title_keep_screen_alive">Pantalla kawsachiy</string>
 	<string name="pref_title_sync_wifi_only">Wifillapi sincronización ruway</string>

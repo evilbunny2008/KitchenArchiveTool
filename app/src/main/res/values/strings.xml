@@ -27,7 +27,7 @@
 	<string name="current_account_not_found_exception_message" translatable="false">The requested account was not found in Nextcloud Files app</string>
 	<string name="current_account_not_found_exception_title" translatable="false">Account not found</string>
 	<string name="delete_recipe">Delete recipe</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ will be permanently deleted from the server. This can’t be undone</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ will be permanently deleted from the server. This can’t be undone</string>
 	<string name="delete_recipe_confirm_positive">Delete</string>
 	<string name="delete_recipe_confirm_title">Delete this recipe?</string>
 	<string name="delete_recipe_failure">Couldn’t delete the recipe: %1$s</string>

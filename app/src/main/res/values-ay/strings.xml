@@ -10,7 +10,7 @@
 	<string name="channel_description">Canal ukax pacha yatiyawinak uñt’ayañataki</string>
 	<string name="channel_name">Ukax mä canal ukhamawa</string>
 	<string name="cooktime_pause_btn">Ukax mä juk’a pachanakanwa</string>
-	<string name="cooktime_reset_btn">Ukax sayt‘ayatawa ukat pachar kutt’ayaraki</string>
+	<string name="cooktime_reset_btn">Ukax sayt’ayatawa ukat pachar kutt’ayaraki</string>
 	<string name="cooktime_start_btn">Ukax pacha uñt’ayañatakiw qalltawayi</string>
 	<string name="cooktime_title">Phayaña pacha</string>
 	<string name="cooktime_tooltip">Mä phayaña pacha qalltaña</string>
@@ -19,10 +19,10 @@
 	<string name="copy_to_account_failure">Janiw uka recetax copiañjamäkiti: %1$s</string>
 	<string name="copy_to_account_in_progress">‘%1$s’ ukat %2$s ukar copiaña</string>
 	<string name="copy_to_account_none_available">Nayraqatax yaqha cuenta yapxatañamawa jupanak taypin recetas copiañataki</string>
-	<string name="copy_to_account_success">’%1$s’ ukat %2$s ukar copiata. Uka jamuqx jan ukan uñacht’ayaskan ukhax uka servidor ukax janiw aka chiqat apsuñjamäkänti — amparamp wasitat yapxataña</string>
+	<string name="copy_to_account_success">‘%1$s’ ukat %2$s ukar copiata. Uka jamuqx jan ukan uñacht’ayaskan ukhax uka servidor ukax janiw aka chiqat apsuñjamäkänti — amparamp wasitat yapxataña</string>
 	<string name="copy_to_account_title">Aka receta ukax</string>
 	<string name="delete_recipe">Receta chhaqtayaña</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ ukax wiñayatakiw servidor ukan chhaqtayatäni. Ukax janiw kutt’ayatäkaspati</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ ukax wiñayatakiw servidor ukan chhaqtayatäni. Ukax janiw kutt’ayatäkaspati</string>
 	<string name="delete_recipe_confirm_positive">Phiskhsuña</string>
 	<string name="delete_recipe_confirm_title">¿Aka receta chhaqtayaña?</string>
 	<string name="delete_recipe_failure">Janiw uka receta chhaqtayañjamäkiti: %1$s</string>
@@ -45,7 +45,7 @@
 	<string name="form_type_yield">Rendimiento ukarjam thaqhaña</string>
 	<string name="form_types">Uka thaqhañataki qillqt’aña</string>
 	<string name="granted_permissions">Ukax akhamawa: %s</string>
-	<string name="header_image_desc">P‘iqinchawi uñacht’awi receta</string>
+	<string name="header_image_desc">P’iqinchawi uñacht’awi receta</string>
 	<string name="img_desc_logo">Logotipo ukax receta ukankiwa</string>
 	<string name="ingredients_yield">Uñt’ayaña</string>
 	<string name="label_source">Phunti:</string>
@@ -115,7 +115,7 @@
 	<string name="recipe_import_login_title">Nextcloud ukar mantañamawa</string>
 	<string name="recipe_import_menu_title">URL ukan receta apsuña</string>
 	<string name="recipe_import_service_url_hint">Receta importación servicio URL ukax mä juk’a pachanakanwa</string>
-	<string name="recipe_list_image_desc">Imajin jisk‘a uñacht’awi receta</string>
+	<string name="recipe_list_image_desc">Imajin jisk’a uñacht’awi receta</string>
 	<string name="recipe_no_timer">¡Aka Receta ukax janiw mä tiempor uñt’aykiti!</string>
 	<string name="request_again">Mayampi mayiñani</string>
 	<string name="search_hint">Sutiparjama thaqhaña</string>

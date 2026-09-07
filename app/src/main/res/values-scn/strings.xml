@@ -89,7 +89,7 @@
 	<string name="permission_please_grant">Si prega di cuncediri li pirmissi di archiviazzioni</string>
 	<string name="permission_select_root">Si prega di scègghiri %1$s</string>
 	<string name="permission_warning_nowrite">Nun hai accessu a scrittura a sta archiviazzioni, quinni scègghiri sta cartella è nnutili.\nVulìsti cuncediri l’accessu a sta cartella?</string>
-	<string name="permissions_error_message">L‘accessu nigatu! L’app havi bisognu di accessu â archiviazzioni, si prega di attivalla ntê paràmitri</string>
+	<string name="permissions_error_message">L’accessu nigatu! L’app havi bisognu di accessu â archiviazzioni, si prega di attivalla ntê paràmitri</string>
 	<string name="permissions_required">Sunnu nicissari li pirmissi!</string>
 	<string name="play_btn">Timer di avviamentu/pausa</string>
 	<string name="pref_category_design">Pruggettu</string>
@@ -111,7 +111,7 @@
 	<string name="recipe_import_in_progress">Ricetta di mpurtazzioni</string>
 	<string name="recipe_import_login_close">Annulla l’accessu</string>
 	<string name="recipe_import_login_init_failed">Nun fu pututu accuminciari lu prucessu di login: %1$s</string>
-	<string name="recipe_import_login_timed_out">Lu tempu di l‘accessu è scadutu. Pruva n’autra vota</string>
+	<string name="recipe_import_login_timed_out">Lu tempu di l’accessu è scadutu. Pruva n’autra vota</string>
 	<string name="recipe_import_login_title">Accedi a Nextcloud</string>
 	<string name="recipe_import_menu_title">Mpurtari la ricitta di l’URL</string>
 	<string name="recipe_import_service_url_hint">URL dû sirvizziu di mpurtazzioni di ricitti</string>
@@ -125,8 +125,8 @@
 	<string name="sort_value_alpha_desc">Nomu Z-A</string>
 	<string name="sort_value_date_asc">Data pubbricata acchianannu</string>
 	<string name="sort_value_date_desc">Data pubbricazzioni discinnenti</string>
-	<string name="sort_value_time_asc">Tempu tutali ’n acchianata</string>
-	<string name="sort_value_time_desc">Tempu tutali ’n discinnenza</string>
+	<string name="sort_value_time_asc">Tempu tutali ‘n acchianata</string>
+	<string name="sort_value_time_desc">Tempu tutali ‘n discinnenza</string>
 	<string name="stop_btn">Ferma lu timer</string>
 	<string name="storage_permissions_not_granted">Nuddu accessu â archiviazzioni!</string>
 	<string name="sync_interval_name_1">Ogni Ura</string>
@@ -152,7 +152,7 @@
 	<string name="theme_name_system">Sistema</string>
 	<string name="title">Tìtulu</string>
 	<string name="title_dir_chooser">Scegghi na cartella</string>
-	<string name="title_duration">Durati ’n HH:MM</string>
+	<string name="title_duration">Durati ‘n HH:MM</string>
 	<string name="tooltip_cook_time">Cucinari</string>
 	<string name="tooltip_prep_time">Priparazzioni</string>
 	<string name="tooltip_total_time">Tutali</string>

@@ -18,7 +18,7 @@
 	<string name="copy_ingredients">Ингредиенттæ рафыссын</string>
 	<string name="copy_to_account_failure">Рецепт рафыссын нæ бантыст: %1$s</string>
 	<string name="copy_to_account_in_progress">‘%1$s’-ы %2$s мæ рафыссын</string>
-	<string name="copy_to_account_none_available">Фыццаг бафтаут æндæр хыгъд, цæмæй се ’хсæн рецепттæ рафыссат</string>
+	<string name="copy_to_account_none_available">Фыццаг бафтаут æндæр хыгъд, цæмæй се ‘хсæн рецепттæ рафыссат</string>
 	<string name="copy_to_account_success">Рафыст ‘%1$s’ %2$s мæ</string>
 	<string name="copy_to_account_title">Ацы рецепт ныффыссут</string>
 	<string name="delete_recipe">Рецепт фесафын</string>

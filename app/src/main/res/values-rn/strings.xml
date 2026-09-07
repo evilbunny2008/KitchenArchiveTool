@@ -7,7 +7,7 @@
 	<string name="add_account">Kwongerako konti</string>
 	<string name="app_logo_desc">Igishushanyo co gutanguza porogaramu ya KAT</string>
 	<string name="cancel_btn">Gukuraho igihe (kitaboneka)</string>
-	<string name="channel_description">Umurongo w‘amatangazo y’igihe</string>
+	<string name="channel_description">Umurongo w’amatangazo y’igihe</string>
 	<string name="channel_name">Umurongo w’igihe</string>
 	<string name="cooktime_pause_btn">Guhagarika umwanya</string>
 	<string name="cooktime_reset_btn">Guhagarara no gusubiramwo igihe</string>
@@ -45,11 +45,11 @@
 	<string name="form_type_yield">Gushakisha ku Musaruro</string>
 	<string name="form_types">Ubwoko bwo kurondera</string>
 	<string name="granted_permissions">Vyemerewe: %s</string>
-	<string name="header_image_desc">Ishusho y‘umutwe w’uburyo bwo guteka</string>
+	<string name="header_image_desc">Ishusho y’umutwe w’uburyo bwo guteka</string>
 	<string name="img_desc_logo">Ikimenyetso c’uburyo bwo guteka</string>
 	<string name="ingredients_yield">Umwimbu</string>
 	<string name="label_source">Isoko:</string>
-	<string name="list_recipe_star_desc">Igishushanyo c‘inyenyeri kigaragaza ikibanza ukunda c’ivyo guteka</string>
+	<string name="list_recipe_star_desc">Igishushanyo c’inyenyeri kigaragaza ikibanza ukunda c’ivyo guteka</string>
 	<string name="login">Kwinjira</string>
 	<string name="manage_accounts">Ubuyobozi bwa konti</string>
 	<string name="menu_all_categories">Ivyicaro vyose</string>
@@ -69,7 +69,7 @@
 	<string name="no_ingredients">Nta birungo</string>
 	<string name="no_instructions">Nta mabwirizwa</string>
 	<string name="notification_text">Igihe gisigaye: %1$s</string>
-	<string name="notification_title">Ububiko bw‘igikoni igikoresho c’igihe</string>
+	<string name="notification_title">Ububiko bw’igikoni igikoresho c’igihe</string>
 	<string name="nutrition_calories">Amakalori: %1$s</string>
 	<string name="nutrition_carbohydrate_content">Ibirimwo ibinure: %1$s</string>
 	<string name="nutrition_cholesterol_content">Ibiri muri kolesterole: %1$s</string>

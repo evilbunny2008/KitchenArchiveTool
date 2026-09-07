@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Icibombelo ca kusungilamo ifya kulya (KAT) ni citabo ca Android icibomfya icitabo ca ku ng‘anda ica ku ng’anda pa kusunga ifya kulya</string>
+	<string name="about_summary">Icibombelo ca kusungilamo ifya kulya (KAT) ni citabo ca Android icibomfya icitabo ca ku ng’anda ica ku ng’anda pa kusunga ifya kulya</string>
 	<string name="about_title">Pali</string>
 	<string name="about_version">Umusango wa cibombelo: %1$s</string>
 	<string name="account_switcher_current_account_desc">Akaunti ya nomba</string>

@@ -22,7 +22,7 @@
 	<string name="copy_to_account_success">Geusalen ‘%1$s’ keu %2$s. Foto nyan hana ji salen — server Cookbook hana cara ji teurimong, jadi tamah lom ngon jaroe meunyo droeneuh galak disinan</string>
 	<string name="copy_to_account_title">Salin resep nyoe keu</string>
 	<string name="delete_recipe">Hapus resep</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ akan geusampôh keu siumu masa nibak server.’ Nyoe hanjeut ta balek</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ akan geusampôh keu siumu masa nibak server.‘ Nyoe hanjeut ta balek</string>
 	<string name="delete_recipe_confirm_positive">Peugadeuh</string>
 	<string name="delete_recipe_confirm_title">Hapus resep nyoe?</string>
 	<string name="delete_recipe_failure">Hana jeuet tapeusampôh resep: %1$s</string>

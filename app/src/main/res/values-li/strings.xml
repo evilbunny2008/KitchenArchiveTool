@@ -25,7 +25,7 @@
 	<string name="delete_recipe_confirm_message">‘%1$s’ zal permanent vaan de server weure verwijderd. Dit kin neet weure ongedaon</string>
 	<string name="delete_recipe_confirm_positive">Verwijdere</string>
 	<string name="delete_recipe_confirm_title">Wis dit recept?</string>
-	<string name="delete_recipe_failure">Kon ’t recept neet verwijdere: %1$s</string>
+	<string name="delete_recipe_failure">Kon ‘t recept neet verwijdere: %1$s</string>
 	<string name="delete_recipe_success">‘%1$s’ gewies</string>
 	<string name="dir_chooser_error">Fout: Rootmap is neet touwgestande!</string>
 	<string name="empty_list">Gein recepte</string>
@@ -34,7 +34,7 @@
 	<string name="error_sync">Synchronisatie mislök: %1$s</string>
 	<string name="folder_pick_cancel">Mapkiezer geannuleerd door gebroeker</string>
 	<string name="folder_pick_success">Map %1$s geselecteerd</string>
-	<string name="form_exact_search">Doe ’n exacte zeuktoch?</string>
+	<string name="form_exact_search">Doe ‘n exacte zeuktoch?</string>
 	<string name="form_ignore_case">Geval negere?</string>
 	<string name="form_search_commit">Zeuke</string>
 	<string name="form_search_hint">Zeuke</string>
@@ -45,11 +45,11 @@
 	<string name="form_type_yield">Zoeke op opbrings</string>
 	<string name="form_types">Typ um te zeuke</string>
 	<string name="granted_permissions">Toegestaon: %s</string>
-	<string name="header_image_desc">Kopbeeld vaan ’t recept</string>
-	<string name="img_desc_logo">Logo vaan ’t recept</string>
+	<string name="header_image_desc">Kopbeeld vaan ‘t recept</string>
+	<string name="img_desc_logo">Logo vaan ‘t recept</string>
 	<string name="ingredients_yield">Opbrings</string>
 	<string name="label_source">Bron:</string>
-	<string name="list_recipe_star_desc">Sterpictogram wat de favoriete status vaan ’t recept aonguuf</string>
+	<string name="list_recipe_star_desc">Sterpictogram wat de favoriete status vaan ‘t recept aonguuf</string>
 	<string name="login">Log in</string>
 	<string name="manage_accounts">Rekeningbeheer</string>
 	<string name="menu_all_categories">Alle categorieje</string>
@@ -88,7 +88,7 @@
 	<string name="permission_ok_message">Toegang tot opsjlaag is verliend veur %1$s</string>
 	<string name="permission_please_grant">Geef opsjlaagrechte</string>
 	<string name="permission_select_root">Selecteer %1$s</string>
-	<string name="permission_warning_nowrite">Geer heet gein sjrijftoegang tot deze opsjlaag, dus ’t selecteren vaan deze map is nutteloos.\nWilt geer toegang tot deze map verliene?</string>
+	<string name="permission_warning_nowrite">Geer heet gein sjrijftoegang tot deze opsjlaag, dus ‘t selecteren vaan deze map is nutteloos.\nWilt geer toegang tot deze map verliene?</string>
 	<string name="permissions_error_message">Toegang geweigerd! De app heet toegang tot opsjlaag nuudig, activeer deze in de insjtellinge</string>
 	<string name="permissions_required">Toestemminge zien vereis!</string>
 	<string name="play_btn">Starts/Pauze timer</string>
@@ -110,12 +110,12 @@
 	<string name="recipe_import_failure">Kon ut recept neet importere: %1$s</string>
 	<string name="recipe_import_in_progress">Recept importere</string>
 	<string name="recipe_import_login_close">Inloggen annulere</string>
-	<string name="recipe_import_login_init_failed">Kon ’t inlogproces neet starte: %1$s</string>
+	<string name="recipe_import_login_init_failed">Kon ‘t inlogproces neet starte: %1$s</string>
 	<string name="recipe_import_login_timed_out">Aonmelde is verlore. Probeer nog ummer</string>
 	<string name="recipe_import_login_title">Log in bij Nextcloud</string>
 	<string name="recipe_import_menu_title">Recept importere vaan URL</string>
 	<string name="recipe_import_service_url_hint">Recepte-importservice-URL</string>
-	<string name="recipe_list_image_desc">Miniatuur vaan ’t recept</string>
+	<string name="recipe_list_image_desc">Miniatuur vaan ‘t recept</string>
 	<string name="recipe_no_timer">Dit resep heet gein timer!</string>
 	<string name="request_again">Verzörg nog ummer</string>
 	<string name="search_hint">Zoek op naam</string>

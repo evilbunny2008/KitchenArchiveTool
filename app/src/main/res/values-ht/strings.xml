@@ -16,7 +16,7 @@
 	<string name="cooktime_tooltip">Kòmanse yon revèy pou kwit manje</string>
 	<string name="copy_ing_message">Engredyan yo kopye nan clipboard</string>
 	<string name="copy_ingredients">Kopi engredyan</string>
-	<string name="copy_to_account_failure">Pa t ’kapab kopye resèt la: %1$s</string>
+	<string name="copy_to_account_failure">Pa t ‘kapab kopye resèt la: %1$s</string>
 	<string name="copy_to_account_in_progress">Kopi ‘%1$s’ sou %2$s</string>
 	<string name="copy_to_account_none_available">Ajoute yon lòt kont anvan pou kopye resèt ant yo</string>
 	<string name="copy_to_account_success">Kopi ‘%1$s’ sou %2$s</string>
@@ -25,7 +25,7 @@
 	<string name="delete_recipe_confirm_message">‘%1$s’ pral efase nèt ale nan sèvè a. Sa a pa ka defèt</string>
 	<string name="delete_recipe_confirm_positive">Efase</string>
 	<string name="delete_recipe_confirm_title">Efase resèt sa a?</string>
-	<string name="delete_recipe_failure">Pa t ’kapab efase resèt la: %1$s</string>
+	<string name="delete_recipe_failure">Pa t ‘kapab efase resèt la: %1$s</string>
 	<string name="delete_recipe_success">Efase ‘%1$s’</string>
 	<string name="dir_chooser_error">Erè: Katab rasin pa pèmèt!</string>
 	<string name="empty_list">Pa gen resèt</string>
@@ -107,10 +107,10 @@
 	<string name="recipe_import_dialog_hint">URL resèt la</string>
 	<string name="recipe_import_dialog_positive">Enpòte</string>
 	<string name="recipe_import_dialog_title">Enpòte resèt soti nan URL</string>
-	<string name="recipe_import_failure">Pa t ’kapab enpòte resèt la: %1$s</string>
+	<string name="recipe_import_failure">Pa t ‘kapab enpòte resèt la: %1$s</string>
 	<string name="recipe_import_in_progress">Enpòte resèt</string>
 	<string name="recipe_import_login_close">Anile login</string>
-	<string name="recipe_import_login_init_failed">Pa t ’kapab kòmanse pwosesis koneksyon an: %1$s</string>
+	<string name="recipe_import_login_init_failed">Pa t ‘kapab kòmanse pwosesis koneksyon an: %1$s</string>
 	<string name="recipe_import_login_timed_out">Login delè. Eseye ankò</string>
 	<string name="recipe_import_login_title">Konekte nan Nextcloud</string>
 	<string name="recipe_import_menu_title">Enpòte resèt soti nan URL</string>

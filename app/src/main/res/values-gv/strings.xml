@@ -22,7 +22,7 @@
 	<string name="copy_to_account_success">Ta ‘%1$s’ er ny choipaghey gys %2$s</string>
 	<string name="copy_to_account_title">Copy yn recipe shoh gys</string>
 	<string name="delete_recipe">Smooinee er recipe</string>
-	<string name="delete_recipe_confirm_message">‘%1$s’ bee eh er ny scughey dy bragh veih‘n serveyr. N’oddagh shoh ve jeant</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ bee eh er ny scughey dy bragh veih’n serveyr. N’oddagh shoh ve jeant</string>
 	<string name="delete_recipe_confirm_positive">Dolley magh</string>
 	<string name="delete_recipe_confirm_title">Smooinee er y recipe shoh?</string>
 	<string name="delete_recipe_failure">Cha b’aashagh eh y recipe y scughey: %1$s</string>
@@ -49,7 +49,7 @@
 	<string name="img_desc_logo">Logo y rishid</string>
 	<string name="ingredients_yield">Lhiggey lesh</string>
 	<string name="label_source">Bun:</string>
-	<string name="list_recipe_star_desc">Icon stereo dy hoilshaghey yn stayd s‘faasagh jeh’n rishid</string>
+	<string name="list_recipe_star_desc">Icon stereo dy hoilshaghey yn stayd s’faasagh jeh’n rishid</string>
 	<string name="login">Luggey stiagh</string>
 	<string name="manage_accounts">Riaghlagh cuntait</string>
 	<string name="menu_all_categories">Gagh category</string>
@@ -96,7 +96,7 @@
 	<string name="pref_category_function">Obbraghyn</string>
 	<string name="pref_category_sync">Co-chronnaghey</string>
 	<string name="pref_summary_keep_screen_alive">Nagh lockey yn screen tra t’ou jeeaghyn er recipe</string>
-	<string name="pref_summary_sync_wifi_only">Ta‘n obbyr shoh cur y syncing er-chea tra ta’n innid ceaut rish data mobile</string>
+	<string name="pref_summary_sync_wifi_only">Ta’n obbyr shoh cur y syncing er-chea tra ta’n innid ceaut rish data mobile</string>
 	<string name="pref_title_enableSyncService">Synchronisaghey y ghraih</string>
 	<string name="pref_title_keep_screen_alive">Cum yn screen beo</string>
 	<string name="pref_title_sync_wifi_only">Sync er Wifi ny lomarcan</string>

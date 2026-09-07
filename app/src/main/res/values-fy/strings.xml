@@ -5,7 +5,7 @@
 	<string name="about_version">App ferzje: %1$s</string>
 	<string name="account_switcher_current_account_desc">Aktuele akkount</string>
 	<string name="add_account">Account tafoegje</string>
-	<string name="app_logo_desc">Launcher-ikoan fan ’e KAT-app</string>
+	<string name="app_logo_desc">Launcher-ikoan fan ‘e KAT-app</string>
 	<string name="cancel_btn">De timer annulearje (ûnsichtber)</string>
 	<string name="channel_description">Kanaal foar timernotifikaasjes</string>
 	<string name="channel_name">Timer kanaal</string>
@@ -89,7 +89,7 @@
 	<string name="permission_please_grant">Jou opslachmooglikheden asjebleaft</string>
 	<string name="permission_select_root">Selektearje asjebleaft %1$s</string>
 	<string name="permission_warning_nowrite">Jo hawwe gjin skriuwtagong ta dizze opslach, dus is it selektearjen fan dizze map nutteloos.\nWolle jo tagong ta dizze map jaan?</string>
-	<string name="permissions_error_message">Tagong wegere! App hat tagong ta opslach nedich, aktivearje asjebleaft yn ’e ynstellings</string>
+	<string name="permissions_error_message">Tagong wegere! App hat tagong ta opslach nedich, aktivearje asjebleaft yn ‘e ynstellings</string>
 	<string name="permissions_required">Tastimmingen binne fereaske!</string>
 	<string name="play_btn">Start / Pause timer</string>
 	<string name="pref_category_design">Ûntwerp</string>

@@ -129,11 +129,11 @@
 	<string name="sort_value_time_desc">Nkarhi hinkwawo wu rhelela</string>
 	<string name="stop_btn">Ku yima timer</string>
 	<string name="storage_permissions_not_granted">Ku hava mfikelelo wa vuhlayiselo!</string>
-	<string name="sync_interval_name_1">Awara yin‘wana na yin’wana</string>
-	<string name="sync_interval_name_4">Tiawara tin‘wana na tin’wana ta 4</string>
-	<string name="sync_interval_name_6">Tiawara tin‘wana na tin’wana ta 6</string>
-	<string name="sync_interval_name_12">Tiawara tin‘wana ni tin’wana ta 12</string>
-	<string name="sync_interval_name_24">Tiawara tin‘wana ni tin’wana ta 24</string>
+	<string name="sync_interval_name_1">Awara yin’wana na yin’wana</string>
+	<string name="sync_interval_name_4">Tiawara tin’wana na tin’wana ta 4</string>
+	<string name="sync_interval_name_6">Tiawara tin’wana na tin’wana ta 6</string>
+	<string name="sync_interval_name_12">Tiawara tin’wana ni tin’wana ta 12</string>
+	<string name="sync_interval_name_24">Tiawara tin’wana ni tin’wana ta 24</string>
 	<string name="sync_interval_name_off">Timile</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Swinyunyeteri</string>

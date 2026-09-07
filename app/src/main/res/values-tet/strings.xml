@@ -22,7 +22,7 @@
 	<string name="copy_to_account_success">Kopia ‘%1$s’ ba %2$s</string>
 	<string name="copy_to_account_title">Kopia reseita ida-ne’e ba</string>
 	<string name="delete_recipe">Apaga reseita</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ sei elimina permanentemente hosi servidór. Ida-ne’e labele halo fali</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ sei elimina permanentemente hosi servidór. Ida-ne’e labele halo fali</string>
 	<string name="delete_recipe_confirm_positive">Apaga</string>
 	<string name="delete_recipe_confirm_title">Apaga reseita ida-ne’e?</string>
 	<string name="delete_recipe_failure">Labele hamoos reseita: %1$s</string>
@@ -88,7 +88,7 @@
 	<string name="permission_ok_message">Asesu ba armazenamentu hetan ona ba %1$s</string>
 	<string name="permission_please_grant">Favor fó lisensa ba armazenamentu</string>
 	<string name="permission_select_root">Favor hili %1$s</string>
-	<string name="permission_warning_nowrite">Ita-boot laiha asesu hakerek ba armazenamentu ida-ne‘e, nune’e hili pasta ida-ne‘e laiha utilidade.\nIta-boot hakarak fó asesu ba pasta ida-ne’e?</string>
+	<string name="permission_warning_nowrite">Ita-boot laiha asesu hakerek ba armazenamentu ida-ne’e, nune’e hili pasta ida-ne’e laiha utilidade.\nIta-boot hakarak fó asesu ba pasta ida-ne’e?</string>
 	<string name="permissions_error_message">Asesu hetan rekuza! Aplikasaun presiza asesu ba armazenamentu, halo favór ativa iha konfigurasaun sira</string>
 	<string name="permissions_required">Presiza lisensa sira!</string>
 	<string name="play_btn">Hahú/Pauza tempu</string>
@@ -123,9 +123,9 @@
 	<string name="skip_for_local_storage">La’o ba armazenamentu lokál</string>
 	<string name="sort_value_alpha_asc">Naran A-Z</string>
 	<string name="sort_value_alpha_desc">Naran Z-A</string>
-	<string name="sort_value_date_asc">Data publikasaun ne‘ebé sa’e</string>
+	<string name="sort_value_date_asc">Data publikasaun ne’ebé sa’e</string>
 	<string name="sort_value_date_desc">Data publikasaun tun</string>
-	<string name="sort_value_time_asc">Tempu totál ne‘ebé sa’e</string>
+	<string name="sort_value_time_asc">Tempu totál ne’ebé sa’e</string>
 	<string name="sort_value_time_desc">Tempu totál ne’ebé tun</string>
 	<string name="stop_btn">Para tempu</string>
 	<string name="storage_permissions_not_granted">Laiha asesu ba armazenamentu!</string>
