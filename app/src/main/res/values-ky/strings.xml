@@ -106,7 +106,7 @@
 	<string name="recipe_details_tabs">Рецепт өтмөктөрдө уюштурулган</string>
 	<string name="recipe_import_dialog_hint">Рецепт URL</string>
 	<string name="recipe_import_dialog_positive">Импорттоо</string>
-	<string name="recipe_import_dialog_title">URL‘ден рецепт импорттоо</string>
+	<string name="recipe_import_dialog_title">URL’ден рецепт импорттоо</string>
 	<string name="recipe_import_failure">Рецепт импорттолбой койду: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт импорттолууда</string>
 	<string name="recipe_import_login_close">Кирүүнү жокко чыгаруу</string>

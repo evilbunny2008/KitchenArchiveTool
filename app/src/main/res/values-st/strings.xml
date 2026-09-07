@@ -3,7 +3,7 @@
 	<string name="about_summary">Kitchen Archive Tool (KAT) ke sesebelisoa sa Android se sebelisang sesebelisoa sa Nextcloud server Cookbook ho laola litlolo</string>
 	<string name="about_title">About</string>
 	<string name="about_version">Mofuta oa sesebelisoa: %1$s</string>
-	<string name="account_switcher_current_account_desc">Ak‘haonte ea hajoale</string>
+	<string name="account_switcher_current_account_desc">Ak’haonte ea hajoale</string>
 	<string name="add_account">Kenya akhaonto</string>
 	<string name="app_logo_desc">Letšoao la ho qala la app ea KAT</string>
 	<string name="cancel_btn">Hlakola sebali (se sa bonahaleng)</string>
@@ -17,8 +17,8 @@
 	<string name="copy_ing_message">Lisebelisoa li kopitsoe ho clipboard</string>
 	<string name="copy_ingredients">Kopitsa metsoako</string>
 	<string name="copy_to_account_failure">E hlolehile ho kopitsa risepe: %1$s</string>
-	<string name="copy_to_account_in_progress">E kopitsa ’%1$s‘ ho %2$s</string>
-	<string name="copy_to_account_none_available">Kenya ak’haonte e ’ngoe pele ho kopitsa litlolo lipakeng tsa tsona</string>
+	<string name="copy_to_account_in_progress">E kopitsa ‘%1$s’ ho %2$s</string>
+	<string name="copy_to_account_none_available">Kenya ak‘haonte e ’ngoe pele ho kopitsa litlolo lipakeng tsa tsona</string>
 	<string name="copy_to_account_success">E kopitsitse ‘%1$s’ ho %2$s</string>
 	<string name="copy_to_account_title">Kopitsa risepe ena ho</string>
 	<string name="delete_recipe">Hlakola recipe</string>
@@ -62,7 +62,7 @@
 	<string name="menu_settings">Litlhophiso</string>
 	<string name="menu_settings_title">Litlhophiso</string>
 	<string name="menu_sort_title">Hlopha</string>
-	<string name="menu_sso">Lets‘oao le le Mong</string>
+	<string name="menu_sso">Lets’oao le le Mong</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Uncategorized</string>
 	<string name="no_information">Ha ho Boitsebiso</string>
@@ -72,7 +72,7 @@
 	<string name="notification_title">Kitchen Archive Tool Timer</string>
 	<string name="nutrition_calories">Likhalori: %1$s</string>
 	<string name="nutrition_carbohydrate_content">Likahare tsa lik’habohaedreite: %1$s</string>
-	<string name="nutrition_cholesterol_content">Litaba tsa K‘holeseterole: %1$s</string>
+	<string name="nutrition_cholesterol_content">Litaba tsa K’holeseterole: %1$s</string>
 	<string name="nutrition_fat_content">Mafura a Mafura: %1$s</string>
 	<string name="nutrition_fiberContent">Litaba tsa Fiber: %1$s</string>
 	<string name="nutrition_protein_content">Liprotheine: %1$s</string>
@@ -129,7 +129,7 @@
 	<string name="sort_value_time_desc">Kakaretso ea nako e theohang</string>
 	<string name="stop_btn">E emisa sebali</string>
 	<string name="storage_permissions_not_granted">Ha ho sebaka sa polokelo!</string>
-	<string name="sync_interval_name_1">Hora e ’ngoe le e ’ngoe</string>
+	<string name="sync_interval_name_1">Hora e ‘ngoe le e ’ngoe</string>
 	<string name="sync_interval_name_4">Lihora tse ling le tse ling tse 4</string>
 	<string name="sync_interval_name_6">Lihora tse ling le tse ling tse 6</string>
 	<string name="sync_interval_name_12">Lihora tse ling le tse ling tse 12</string>

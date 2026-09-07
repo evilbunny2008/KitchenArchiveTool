@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Kitchen Archive Tool (KAT) is in Android-app dy‘t de Nextcloud-tsjinner Cookbook-app brûkt om resepten te behearjen</string>
+	<string name="about_summary">Kitchen Archive Tool (KAT) is in Android-app dy’t de Nextcloud-tsjinner Cookbook-app brûkt om resepten te behearjen</string>
 	<string name="about_title">Oer</string>
 	<string name="about_version">App ferzje: %1$s</string>
 	<string name="account_switcher_current_account_desc">Aktuele akkount</string>

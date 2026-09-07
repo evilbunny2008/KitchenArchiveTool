@@ -85,11 +85,11 @@
 	<string name="permanently_denied_permissions">Refudât in mût permanent: %s</string>
 	<string name="permission_canceled">Cancelât dal utent</string>
 	<string name="permission_notification_required">Il permès par mostrâ la notificazion al è necessari pal cronometri di cusine</string>
-	<string name="permission_ok_message">L‘acès al archiviazion al è stât dât par %1$s</string>
+	<string name="permission_ok_message">L’acès al archiviazion al è stât dât par %1$s</string>
 	<string name="permission_please_grant">Par plasê concedi i permès di archiviazion</string>
 	<string name="permission_select_root">Par plasê selezionâ %1$s</string>
 	<string name="permission_warning_nowrite">No tu âs acès di scriture a chest archiviazion, duncje selezionâ cheste cjarte al è inutil.\nVuei dâ l’acès a cheste cjarte?</string>
-	<string name="permissions_error_message">L‘acès refudât! La aplicazion e à bisugne di acès al archiviazion, par plasê ativâle intes impostazions</string>
+	<string name="permissions_error_message">L’acès refudât! La aplicazion e à bisugne di acès al archiviazion, par plasê ativâle intes impostazions</string>
 	<string name="permissions_required">A son necessaris i permès!</string>
 	<string name="play_btn">Timer di scomençâ/Pause</string>
 	<string name="pref_category_design">Progjetâ</string>

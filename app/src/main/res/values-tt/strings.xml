@@ -106,7 +106,7 @@
 	<string name="recipe_details_tabs">Рецепт таблицаларда урнаштырылган</string>
 	<string name="recipe_import_dialog_hint">Рецепт URL</string>
 	<string name="recipe_import_dialog_positive">Импорт</string>
-	<string name="recipe_import_dialog_title">URL‘дан рецепт кертү</string>
+	<string name="recipe_import_dialog_title">URL’дан рецепт кертү</string>
 	<string name="recipe_import_failure">Рецептны импортлый алмый:%1$s</string>
 	<string name="recipe_import_in_progress">Рецепт импортлау</string>
 	<string name="recipe_import_login_close">Керүне кире кагарга</string>

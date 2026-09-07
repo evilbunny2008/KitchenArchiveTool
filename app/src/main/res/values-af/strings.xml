@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Kitchen Archive Tool (KAT) is ‘n Android-toepassing wat die Nextcloud server Cookbook-toepassing gebruik om resepte te bestuur</string>
+	<string name="about_summary">Kitchen Archive Tool (KAT) is ’n Android-toepassing wat die Nextcloud server Cookbook-toepassing gebruik om resepte te bestuur</string>
 	<string name="about_title">Oor</string>
 	<string name="about_version">Programweergawe: %1$s</string>
 	<string name="account_switcher_current_account_desc">Lopende rekening</string>
@@ -34,7 +34,7 @@
 	<string name="error_sync">Sinchronisasie het misluk: %1$s</string>
 	<string name="folder_pick_cancel">Vouerkieser is deur gebruiker gekanselleer</string>
 	<string name="folder_pick_success">Vouer %1$s gekies</string>
-	<string name="form_exact_search">Doen ‘n presiese soektog?</string>
+	<string name="form_exact_search">Doen ’n presiese soektog?</string>
 	<string name="form_ignore_case">Ignoreer geval?</string>
 	<string name="form_search_commit">Soek</string>
 	<string name="form_search_hint">Soek</string>
@@ -116,7 +116,7 @@
 	<string name="recipe_import_menu_title">Voer resep vanaf URL in</string>
 	<string name="recipe_import_service_url_hint">Resep invoer diens URL</string>
 	<string name="recipe_list_image_desc">Prent-kleinkiekie van resep</string>
-	<string name="recipe_no_timer">Hierdie resep het nie ‘n timer nie!</string>
+	<string name="recipe_no_timer">Hierdie resep het nie ’n timer nie!</string>
 	<string name="request_again">Versoek weer</string>
 	<string name="search_hint">Soek op naam</string>
 	<string name="search_in_all">Soek</string>

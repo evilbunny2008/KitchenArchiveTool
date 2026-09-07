@@ -48,7 +48,7 @@
 	<string name="header_image_desc">Cal ma tye i wi karatac me yubu cam</string>
 	<string name="img_desc_logo">cal pa gin ma ki yubu me yubu cam ni</string>
 	<string name="ingredients_yield">Kelo</string>
-	<string name="label_source">Ka m‘oa iye:</string>
+	<string name="label_source">Ka m’oa iye:</string>
 	<string name="list_recipe_star_desc">Lakalatwe ma nyutu kit ma jami ma ki yubu ni tye kwede</string>
 	<string name="login">Dony</string>
 	<string name="manage_accounts">Gwoko akaunti</string>
@@ -105,7 +105,7 @@
 	<string name="rationale_permissions">Tyen lok: %s</string>
 	<string name="recipe_details_tabs">Kit me yubu cam ni ki yubu i dul ma pat pat</string>
 	<string name="recipe_import_dialog_hint">URL me kit me yubu cam</string>
-	<string name="recipe_import_dialog_positive">Gi m‘acata ma aa ki woko</string>
+	<string name="recipe_import_dialog_positive">Gi m’acata ma aa ki woko</string>
 	<string name="recipe_import_dialog_title">Kel gin ma ki yubu me yubu cam ki i URL</string>
 	<string name="recipe_import_failure">Pi twero kelo gin ma ki yubu ni: %1$s</string>
 	<string name="recipe_import_in_progress">Kelo kit me yubu cam</string>

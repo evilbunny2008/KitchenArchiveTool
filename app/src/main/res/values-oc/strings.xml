@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Kitchen Archive Tool (KAT) es una aplicacion Android qu’utiliza l’aplicacion Cookbook del servidor Nextcloud per gerir las recèptas</string>
+	<string name="about_summary">Kitchen Archive Tool (KAT) es una aplicacion Android qu‘utiliza l’aplicacion Cookbook del servidor Nextcloud per gerir las recèptas</string>
 	<string name="about_title">A prepaus</string>
-	<string name="about_version">Version de l‘aplicacion : %1$s</string>
+	<string name="about_version">Version de l’aplicacion : %1$s</string>
 	<string name="account_switcher_current_account_desc">Compte corrent</string>
 	<string name="add_account">Apondre un compte</string>
 	<string name="app_logo_desc">Icòna de lançaire de l’aplicacion KAT</string>
@@ -32,7 +32,7 @@
 	<string name="error_no_network">Pas de connexion ret</string>
 	<string name="error_only_wifi">La sincronizacion sonque autorizada sus Wifi</string>
 	<string name="error_sync">La sincronizacion a fracassat : %1$s</string>
-	<string name="folder_pick_cancel">Selector de dorsièrs anullat per l‘utilizaire</string>
+	<string name="folder_pick_cancel">Selector de dorsièrs anullat per l’utilizaire</string>
 	<string name="folder_pick_success">Dòrsièr %1$s seleccionat</string>
 	<string name="form_exact_search">Fasètz una recèrca exacta?</string>
 	<string name="form_ignore_case">Ignorar lo cas?</string>
@@ -49,7 +49,7 @@
 	<string name="img_desc_logo">Logotip de la recèpta</string>
 	<string name="ingredients_yield">Cedir</string>
 	<string name="label_source">Font:</string>
-	<string name="list_recipe_star_desc">Icòna d’estela indicant l’estat favorit de la recèpta</string>
+	<string name="list_recipe_star_desc">Icòna d‘estela indicant l’estat favorit de la recèpta</string>
 	<string name="login">Connexion</string>
 	<string name="manage_accounts">Gestion del compte</string>
 	<string name="menu_all_categories">Totas las categorias</string>
@@ -67,9 +67,9 @@
 	<string name="menu_uncategorized">Sens categoria</string>
 	<string name="no_information">Pas d’informacion</string>
 	<string name="no_ingredients">Pas d’ingredients</string>
-	<string name="no_instructions">Pas d‘instruccions</string>
+	<string name="no_instructions">Pas d’instruccions</string>
 	<string name="notification_text">Lo temps demòra : %1$s</string>
-	<string name="notification_title">Temporizator d’aisinas d‘archiu de cosina</string>
+	<string name="notification_title">Temporizator d‘aisinas d’archiu de cosina</string>
 	<string name="nutrition_calories">Calorías: %1$s</string>
 	<string name="nutrition_carbohydrate_content">Contengut de glucids : %1$s</string>
 	<string name="nutrition_cholesterol_content">Contengut de colesteròl : %1$s</string>
@@ -85,20 +85,20 @@
 	<string name="permanently_denied_permissions">Refusat definitivament : %s</string>
 	<string name="permission_canceled">Anullat per l’utilizaire</string>
 	<string name="permission_notification_required">L’autorizacion per afichar la notificacion es requerida pel temporizator de coccion</string>
-	<string name="permission_ok_message">L’accès a l‘emmagazinatge es estat concedit per %1$s</string>
+	<string name="permission_ok_message">L‘accès a l’emmagazinatge es estat concedit per %1$s</string>
 	<string name="permission_please_grant">Donatz las autorizacions d’emmagazinatge</string>
 	<string name="permission_select_root">Seleccionatz %1$s</string>
 	<string name="permission_warning_nowrite">Avètz pas cap d’accès per escritura a aqueste emmagazinatge, doncas la seleccion d’aqueste dorsièr es inutil.\nVolètz donar l’accès a aqueste dorsièr ?</string>
-	<string name="permissions_error_message">L’accès refusat! L’aplicacion a besonh d’accès a l’emmagazinatge, activatz-lo dins los paramètres</string>
+	<string name="permissions_error_message">L‘accès refusat! L’aplicacion a besonh d‘accès a l’emmagazinatge, activatz-lo dins los paramètres</string>
 	<string name="permissions_required">Las permissions son requeridas!</string>
 	<string name="play_btn">Temporizador de començaments/pausa</string>
 	<string name="pref_category_design">Concepcion</string>
 	<string name="pref_category_function">Foncionalitat</string>
 	<string name="pref_category_sync">Sincronizacion</string>
-	<string name="pref_summary_keep_screen_alive">Verrolhatz pas l’ecran al moment de la visualizacion d’una recèpta</string>
+	<string name="pref_summary_keep_screen_alive">Verrolhatz pas l‘ecran al moment de la visualizacion d’una recèpta</string>
 	<string name="pref_summary_sync_wifi_only">Aquò desactiva la sincronizacion quand lo periferic es pas que connectat via de donadas mobilas</string>
 	<string name="pref_title_enableSyncService">Sincronizacion de fons</string>
-	<string name="pref_title_keep_screen_alive">Mantenètz l‘ecran viu</string>
+	<string name="pref_title_keep_screen_alive">Mantenètz l’ecran viu</string>
 	<string name="pref_title_sync_wifi_only">Sincronizacion sus Wifi solament</string>
 	<string name="preftitle_recipeDir">Repertòri de recèptas</string>
 	<string name="preftitle_theme">Seleccionar lo tèma</string>
@@ -107,7 +107,7 @@
 	<string name="recipe_import_dialog_hint">URL de la recèpta</string>
 	<string name="recipe_import_dialog_positive">Importar</string>
 	<string name="recipe_import_dialog_title">Importar la recèpta dempuèi l’URL</string>
-	<string name="recipe_import_failure">Impossible d‘importar la recèpta : %1$s</string>
+	<string name="recipe_import_failure">Impossible d’importar la recèpta : %1$s</string>
 	<string name="recipe_import_in_progress">Important la recèpta</string>
 	<string name="recipe_import_login_close">Anullar la connexion</string>
 	<string name="recipe_import_login_init_failed">Impossible de començar lo processus de connexion : %1$s</string>
@@ -128,7 +128,7 @@
 	<string name="sort_value_time_asc">Temps total en pujada</string>
 	<string name="sort_value_time_desc">Temps total en davalant</string>
 	<string name="stop_btn">Arrèsta lo temporizator</string>
-	<string name="storage_permissions_not_granted">Pas d’accès a l’emmagazinatge!</string>
+	<string name="storage_permissions_not_granted">Pas d‘accès a l’emmagazinatge!</string>
 	<string name="sync_interval_name_1">Cada ora</string>
 	<string name="sync_interval_name_4">Cada 4 oras</string>
 	<string name="sync_interval_name_6">Cada 6 oras</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">’Kitchen Archive Tool’ (KAT) yra ’Android’ programa, kuri receptams tvarkyti naudoja ’Nextcloud’ serverio ’Cookbook‘ programą</string>
+	<string name="about_summary">‘Kitchen Archive Tool’ (KAT) yra ‘Android’ programa, kuri receptams tvarkyti naudoja ‘Nextcloud’ serverio ‘Cookbook’ programą</string>
 	<string name="about_title">Apie</string>
 	<string name="about_version">Programos versija: %1$s</string>
 	<string name="account_switcher_current_account_desc">Einamoji sąskaita</string>
@@ -17,7 +17,7 @@
 	<string name="copy_ing_message">Ingredientai nukopijuoti į mainų sritį</string>
 	<string name="copy_ingredients">Nukopijuokite ingredientus</string>
 	<string name="copy_to_account_failure">Nepavyko nukopijuoti recepto: %1$s</string>
-	<string name="copy_to_account_in_progress">Kopijuojamas ’%1$s’ į ‘%2$s’</string>
+	<string name="copy_to_account_in_progress">Kopijuojamas ‘%1$s’ į ‘%2$s’</string>
 	<string name="copy_to_account_none_available">Pirmiausia pridėkite kitą paskyrą, kad galėtumėte kopijuoti receptus tarp jų</string>
 	<string name="copy_to_account_success">‘%1$s’ nukopijuotas į ‘%2$s’</string>
 	<string name="copy_to_account_title">Nukopijuokite šį receptą į</string>
@@ -30,7 +30,7 @@
 	<string name="dir_chooser_error">Klaida: šakninis aplankas neleidžiamas!</string>
 	<string name="empty_list">Jokių receptų</string>
 	<string name="error_no_network">Nėra tinklo ryšio</string>
-	<string name="error_only_wifi">Sinchronizuoti leidžiama tik ’Wi-Fi‘</string>
+	<string name="error_only_wifi">Sinchronizuoti leidžiama tik ‘Wi-Fi’</string>
 	<string name="error_sync">Sinchronizuoti nepavyko: %1$s</string>
 	<string name="folder_pick_cancel">Naudotojas atšaukė aplanko rinkiklį</string>
 	<string name="folder_pick_success">Pasirinktas aplankas %1$s</string>
@@ -99,7 +99,7 @@
 	<string name="pref_summary_sync_wifi_only">Tai išjungia sinchronizavimą, kai įrenginys prijungtas tik mobiliaisiais duomenimis</string>
 	<string name="pref_title_enableSyncService">Fono sinchronizavimas</string>
 	<string name="pref_title_keep_screen_alive">Laikykite ekraną gyvą</string>
-	<string name="pref_title_sync_wifi_only">Sinchronizuoti tik per ’Wi-Fi’</string>
+	<string name="pref_title_sync_wifi_only">Sinchronizuoti tik per ‘Wi-Fi’</string>
 	<string name="preftitle_recipeDir">Receptų katalogas</string>
 	<string name="preftitle_theme">Pasirinkite temą</string>
 	<string name="rationale_permissions">Priežastis: %s</string>

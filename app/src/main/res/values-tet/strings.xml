@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Kitchen Archive Tool (KAT) maka aplikasaun Android ida ne‘ebé uza aplikasaun Cookbook servidór Nextcloud nian hodi jere reseita sira</string>
+	<string name="about_summary">Kitchen Archive Tool (KAT) maka aplikasaun Android ida ne’ebé uza aplikasaun Cookbook servidór Nextcloud nian hodi jere reseita sira</string>
 	<string name="about_title">Kona-ba</string>
 	<string name="about_version">Versaun aplikasaun: %1$s</string>
 	<string name="account_switcher_current_account_desc">Konta atuál</string>
@@ -22,15 +22,15 @@
 	<string name="copy_to_account_success">Kopia ‘%1$s’ ba %2$s</string>
 	<string name="copy_to_account_title">Kopia reseita ida-ne’e ba</string>
 	<string name="delete_recipe">Apaga reseita</string>
-	<string name="delete_recipe_confirm_message">‘%1$s’ sei elimina permanentemente hosi servidór. Ida-ne’e labele halo fali</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ sei elimina permanentemente hosi servidór. Ida-ne’e labele halo fali</string>
 	<string name="delete_recipe_confirm_positive">Apaga</string>
-	<string name="delete_recipe_confirm_title">Apaga reseita ida-ne‘e?</string>
+	<string name="delete_recipe_confirm_title">Apaga reseita ida-ne’e?</string>
 	<string name="delete_recipe_failure">Labele hamoos reseita: %1$s</string>
-	<string name="delete_recipe_success">Hamoos ona ’%1$s’</string>
+	<string name="delete_recipe_success">Hamoos ona ‘%1$s’</string>
 	<string name="dir_chooser_error">Erru: Pasta abut la permite!</string>
 	<string name="empty_list">Laiha reseita sira</string>
 	<string name="error_no_network">Laiha ligasaun ba rede</string>
-	<string name="error_only_wifi">Sinkronizasaun permite de‘it iha Wifi</string>
+	<string name="error_only_wifi">Sinkronizasaun permite de’it iha Wifi</string>
 	<string name="error_sync">Sinkronizasaun la konsege: %1$s</string>
 	<string name="folder_pick_cancel">Hilidór pasta nian kanseladu hosi utilizadór</string>
 	<string name="folder_pick_success">Pasta %1$s hili ona</string>
@@ -49,7 +49,7 @@
 	<string name="img_desc_logo">Logo husi reseita</string>
 	<string name="ingredients_yield">Produsaun</string>
 	<string name="label_source">Rekursu:</string>
-	<string name="list_recipe_star_desc">Íkonu fitun nian ne‘ebé indika estatutu favoritu hosi reseita</string>
+	<string name="list_recipe_star_desc">Íkonu fitun nian ne’ebé indika estatutu favoritu hosi reseita</string>
 	<string name="login">Login</string>
 	<string name="manage_accounts">Jestaun konta nian</string>
 	<string name="menu_all_categories">Kategoria hotu-hotu</string>
@@ -88,7 +88,7 @@
 	<string name="permission_ok_message">Asesu ba armazenamentu hetan ona ba %1$s</string>
 	<string name="permission_please_grant">Favor fó lisensa ba armazenamentu</string>
 	<string name="permission_select_root">Favor hili %1$s</string>
-	<string name="permission_warning_nowrite">Ita-boot laiha asesu hakerek ba armazenamentu ida-ne’e, nune’e hili pasta ida-ne’e laiha utilidade.\nIta-boot hakarak fó asesu ba pasta ida-ne’e?</string>
+	<string name="permission_warning_nowrite">Ita-boot laiha asesu hakerek ba armazenamentu ida-ne‘e, nune’e hili pasta ida-ne‘e laiha utilidade.\nIta-boot hakarak fó asesu ba pasta ida-ne’e?</string>
 	<string name="permissions_error_message">Asesu hetan rekuza! Aplikasaun presiza asesu ba armazenamentu, halo favór ativa iha konfigurasaun sira</string>
 	<string name="permissions_required">Presiza lisensa sira!</string>
 	<string name="play_btn">Hahú/Pauza tempu</string>
@@ -99,7 +99,7 @@
 	<string name="pref_summary_sync_wifi_only">Ida-ne’e dezativa sinkronizasaun bainhira dispozitivu ne’e liga de’it liuhosi dadus móvel</string>
 	<string name="pref_title_enableSyncService">Sinkronizasaun ba Fundu</string>
 	<string name="pref_title_keep_screen_alive">Mantein ekran moris</string>
-	<string name="pref_title_sync_wifi_only">Sinkroniza iha Wifi de‘it</string>
+	<string name="pref_title_sync_wifi_only">Sinkroniza iha Wifi de’it</string>
 	<string name="preftitle_recipeDir">Diretóriu Reseita sira</string>
 	<string name="preftitle_theme">Hili Tema</string>
 	<string name="rationale_permissions">Razaun: %s</string>
@@ -123,9 +123,9 @@
 	<string name="skip_for_local_storage">La’o ba armazenamentu lokál</string>
 	<string name="sort_value_alpha_asc">Naran A-Z</string>
 	<string name="sort_value_alpha_desc">Naran Z-A</string>
-	<string name="sort_value_date_asc">Data publikasaun ne’ebé sa’e</string>
+	<string name="sort_value_date_asc">Data publikasaun ne‘ebé sa’e</string>
 	<string name="sort_value_date_desc">Data publikasaun tun</string>
-	<string name="sort_value_time_asc">Tempu totál ne’ebé sa’e</string>
+	<string name="sort_value_time_asc">Tempu totál ne‘ebé sa’e</string>
 	<string name="sort_value_time_desc">Tempu totál ne’ebé tun</string>
 	<string name="stop_btn">Para tempu</string>
 	<string name="storage_permissions_not_granted">Laiha asesu ba armazenamentu!</string>
@@ -139,7 +139,7 @@
 	<string name="tab_ingredients_title">Ingridientes</string>
 	<string name="tab_instructions_title">Instrusaun</string>
 	<string name="tab_nutritions_title">Nutrisaun sira</string>
-	<string name="text_author">Na‘in:</string>
+	<string name="text_author">Na’in:</string>
 	<string name="text_categories">Kategoria:</string>
 	<string name="text_date_published">Data publikasaun: %1$s</string>
 	<string name="text_keywords">Liafuan xave sira:</string>

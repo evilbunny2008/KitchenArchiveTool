@@ -96,7 +96,7 @@
 	<string name="pref_category_function">Wok bilong en</string>
 	<string name="pref_category_sync">Sinkronisesen</string>
 	<string name="pref_summary_keep_screen_alive">Noken lokim skrin taim yu lukim wanpela resipi</string>
-	<string name="pref_summary_sync_wifi_only">Dispela i pasim wok bilong ’syncing’ taim divais i konekt tasol long mobail data</string>
+	<string name="pref_summary_sync_wifi_only">Dispela i pasim wok bilong ‘syncing’ taim divais i konekt tasol long mobail data</string>
 	<string name="pref_title_enableSyncService">Bekgraun Sinkronisasen</string>
 	<string name="pref_title_keep_screen_alive">Kipim skrin i stap laip</string>
 	<string name="pref_title_sync_wifi_only">Sync long Wifi tasol</string>
