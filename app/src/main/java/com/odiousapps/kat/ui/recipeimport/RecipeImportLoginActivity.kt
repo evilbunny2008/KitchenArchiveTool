@@ -99,6 +99,14 @@ class RecipeImportLoginActivity : AppCompatActivity() {
          finish()
       }
 
+      // android:clipToOutline as an XML attribute needs API 31+; the
+      // property setter has worked since API 21, so it's set here
+      // instead -- same fix already applied to activity_login.xml's own
+      // close button for the same reason. Removing the XML attribute
+      // without this covers the minSdk 29+ compile/lint concern but
+      // silently drops the round-outline clipping this button relies on.
+      binding.closeButton.clipToOutline = true
+
       setupWebView()
       startLoginFlow(hostname, accountName)
    }

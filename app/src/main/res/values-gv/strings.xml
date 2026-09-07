@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Ta’n Innid Archive Cooishyn (KAT) ny app Android ta usaghey app Cookbook y serveyr Nextcloud dy reayll recipes</string>
+	<string name="about_summary">Ta‘n Innid Archive Cooishyn (KAT) ny app Android ta usaghey app Cookbook y serveyr Nextcloud dy reayll recipes</string>
 	<string name="about_title">Mygeayrt</string>
 	<string name="about_version">Version app: %1$s</string>
 	<string name="account_switcher_current_account_desc">Cuntagh ry-hoi</string>
@@ -16,21 +16,21 @@
 	<string name="cooktime_tooltip">Toshiaght traa cochiangley</string>
 	<string name="copy_ing_message">Ta ny h-ingredients er nyn goyrt gys clipboard</string>
 	<string name="copy_ingredients">Copy ny h-ingredients</string>
-	<string name="copy_to_account_failure">Cha b’aashagh copy y yannoo: %1$s</string>
-	<string name="copy_to_account_in_progress">Copy ’%1$s’ gys %2$s</string>
+	<string name="copy_to_account_failure">Cha b‘aashagh copy y yannoo: %1$s</string>
+	<string name="copy_to_account_in_progress">Copy ’%1$s‘ gys %2$s</string>
 	<string name="copy_to_account_none_available">Cur rish cuntait elley arragh dy chopyraghey recipes eddyr ad</string>
-	<string name="copy_to_account_success">Ta ’%1$s’ er ny choipaghey gys %2$s</string>
+	<string name="copy_to_account_success">Ta ’%1$s‘ er ny choipaghey gys %2$s</string>
 	<string name="copy_to_account_title">Copy yn recipe shoh gys</string>
 	<string name="delete_recipe">Smooinee er recipe</string>
 	<string name="delete_recipe_confirm_message">’%1$s’ bee eh er ny scughey dy bragh veih’n serveyr. N’oddagh shoh ve jeant</string>
 	<string name="delete_recipe_confirm_positive">Dolley magh</string>
 	<string name="delete_recipe_confirm_title">Smooinee er y recipe shoh?</string>
-	<string name="delete_recipe_failure">Cha b’aashagh eh y recipe y scughey: %1$s</string>
+	<string name="delete_recipe_failure">Cha b‘aashagh eh y recipe y scughey: %1$s</string>
 	<string name="delete_recipe_success">’%1$s’ er ny scughey</string>
 	<string name="dir_chooser_error">Fault: Cha nel y folder root ceaut!</string>
 	<string name="empty_list">Gyn red erbee</string>
 	<string name="error_no_network">Cha nel ceaghley reddys</string>
-	<string name="error_only_wifi">Ta’n synchronisation ceaut agh er Wifi</string>
+	<string name="error_only_wifi">Ta‘n synchronisation ceaut agh er Wifi</string>
 	<string name="error_sync">Cha dod y co-chroshaghey: %1$s</string>
 	<string name="folder_pick_cancel">Picker folder er ny scughey liorish y cleaysh</string>
 	<string name="folder_pick_success">Ta’n coadan %1$s er ny reih</string>
@@ -68,7 +68,7 @@
 	<string name="no_information">Cha nel fys erbee</string>
 	<string name="no_ingredients">Gyn ingredients</string>
 	<string name="no_instructions">Gyn stiurey</string>
-	<string name="notification_text">Ta’n traa er-mayrn: %1$s</string>
+	<string name="notification_text">Ta‘n traa er-mayrn: %1$s</string>
 	<string name="notification_title">Ammee Archive y Chidney</string>
 	<string name="nutrition_calories">Calorieyn: %1$s</string>
 	<string name="nutrition_carbohydrate_content">Cur-my-ner: %1$s</string>
@@ -85,7 +85,7 @@
 	<string name="permanently_denied_permissions">Dy bragh: %s</string>
 	<string name="permission_canceled">Currit magh liorish ymmydeyr</string>
 	<string name="permission_notification_required">Ta’n cowraghey son soilshaghey fys ry-hoi ry-hoi son traa cooishyn</string>
-	<string name="permission_ok_message">Ta’n cochiangle stoo er ny choyrt son %1$s</string>
+	<string name="permission_ok_message">Ta‘n cochiangle stoo er ny choyrt son %1$s</string>
 	<string name="permission_please_grant">Cur cowraghyn stoo</string>
 	<string name="permission_select_root">Reih %1$s myr sampleyr</string>
 	<string name="permission_warning_nowrite">Cha nel cowraghyn scriptagh ayd er y staghyn shoh, as shen-y-fa cha nel ymmyd erbee jeh’n chowraghey shoh.\nVel oo goaill stiagh y chowraghey shoh?</string>
@@ -96,7 +96,7 @@
 	<string name="pref_category_function">Obbraghyn</string>
 	<string name="pref_category_sync">Co-chronnaghey</string>
 	<string name="pref_summary_keep_screen_alive">Nagh lockey yn screen tra t’ou jeeaghyn er recipe</string>
-	<string name="pref_summary_sync_wifi_only">Ta’n obbyr shoh cur y syncing er-chea tra ta’n innid ceaut rish data mobile</string>
+	<string name="pref_summary_sync_wifi_only">Ta’n obbyr shoh cur y syncing er-chea tra ta‘n innid ceaut rish data mobile</string>
 	<string name="pref_title_enableSyncService">Synchronisaghey y ghraih</string>
 	<string name="pref_title_keep_screen_alive">Cum yn screen beo</string>
 	<string name="pref_title_sync_wifi_only">Sync er Wifi ny lomarcan</string>
@@ -107,7 +107,7 @@
 	<string name="recipe_import_dialog_hint">URL y rheynn</string>
 	<string name="recipe_import_dialog_positive">Madyr</string>
 	<string name="recipe_import_dialog_title">Import y redid veih URL</string>
-	<string name="recipe_import_failure">Cha b’aashagh y red y chur magh: %1$s</string>
+	<string name="recipe_import_failure">Cha b‘aashagh y red y chur magh: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe y chur stiagh</string>
 	<string name="recipe_import_login_close">Cur lhiggey stiagh</string>
 	<string name="recipe_import_login_init_failed">Cha b’aashagh y phroseas login toshiaght: %1$s</string>

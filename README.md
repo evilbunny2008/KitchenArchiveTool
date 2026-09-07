@@ -16,7 +16,7 @@ sync directly with the nextcloud server.
 If you want to use the local storage you choose "Skip for local storage" and go into settings to choose
 the recipe directory for syncing.  
 (E.g. the folder for the nextcloud client is _Android/media/com.nextcloud.client/nextcloud/&lt;your account&gt;/&lt;
-folder&gt;).
+folder&gt;_).
 
 You also can choose the theme in the settings.
 

@@ -17,12 +17,12 @@
 	<string name="copy_ing_message">Mga sangkap na kinopya sa clipboard</string>
 	<string name="copy_ingredients">Kopyahon an mga sangkap</string>
 	<string name="copy_to_account_failure">Dai nakopya an resipe: %1$s</string>
-	<string name="copy_to_account_in_progress">Pagkopya kan ’%1$s’ pasiring sa %2$s</string>
+	<string name="copy_to_account_in_progress">Pagkopya kan ‘%1$s’ pasiring sa %2$s</string>
 	<string name="copy_to_account_none_available">Magdagdag nin saro pang account nguna tanganing makakopya nin mga resipe sa pag-ultanan ninda</string>
-	<string name="copy_to_account_success">Kinopya an ’%1$s’ pasiring sa %2$s</string>
+	<string name="copy_to_account_success">Kinopya an ‘%1$s’ pasiring sa %2$s</string>
 	<string name="copy_to_account_title">Kopyahon an resipe na ini sa</string>
 	<string name="delete_recipe">Buraon an resipe</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ permanenteng hahaleon gikan sa serbidor.’ Dai na ini pwedeng ibalik</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ permanenteng hahaleon gikan sa serbidor.‘ Dai na ini pwedeng ibalik</string>
 	<string name="delete_recipe_confirm_positive">Haleon</string>
 	<string name="delete_recipe_confirm_title">Buraon an resipe na ini?</string>
 	<string name="delete_recipe_failure">Dai napara an resipe: %1$s</string>

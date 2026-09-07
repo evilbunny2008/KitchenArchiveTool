@@ -17,16 +17,16 @@
 	<string name="copy_ing_message">Bahan-bahan ni salin mange ri papan klip</string>
 	<string name="copy_ingredients">Salin bahan-bahan</string>
 	<string name="copy_to_account_failure">Tena nakkulle ni salin resepna: %1$s</string>
-	<string name="copy_to_account_in_progress">Ansalin ’%1$s’ mange ri %2$s</string>
+	<string name="copy_to_account_in_progress">Ansalin ‘%1$s’ mange ri %2$s</string>
 	<string name="copy_to_account_none_available">tambai akun maraeng riolo untu ansalidiki resep ri allakna ke’nanga</string>
-	<string name="copy_to_account_success">Ni salin ’%1$s’ mange ri %2$s</string>
+	<string name="copy_to_account_success">Ni salin ‘%1$s’ mange ri %2$s</string>
 	<string name="copy_to_account_title">Salin anne resep mange ri</string>
 	<string name="delete_recipe">Hapus resep</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ lani hapus satunggu-tungguna battu ri server. anne takkulleai niurangi</string>
+	<string name="delete_recipe_confirm_message">‘%1$s’ lani hapus satunggu-tungguna battu ri server. anne takkulleai niurangi</string>
 	<string name="delete_recipe_confirm_positive">Angngapusu</string>
 	<string name="delete_recipe_confirm_title">Hapus anne resep?</string>
 	<string name="delete_recipe_failure">Tena nakkulle ni hapus resepna: %1$s</string>
-	<string name="delete_recipe_success">Ni hapus ’%1$s’</string>
+	<string name="delete_recipe_success">Ni hapus ‘%1$s’</string>
 	<string name="dir_chooser_error">Sala: Folder root tena nakkulle!</string>
 	<string name="empty_list">Tena resep</string>
 	<string name="error_no_network">Tena koneksi jaringan</string>
@@ -42,7 +42,7 @@
 	<string name="form_search_title">Pa’boyaang lanjutang</string>
 	<string name="form_type_ingredients">Pa’boyai situru’ bahan</string>
 	<string name="form_type_keyword">Pa’boyai ri kata kunci</string>
-	<string name="form_type_yield">Pa’boyai ri hasil</string>
+	<string name="form_type_yield">Pa‘boyai ri hasil</string>
 	<string name="form_types">Ketik untuk amboyai</string>
 	<string name="granted_permissions">Nisare: %s</string>
 	<string name="header_image_desc">gambara ulu resep</string>
@@ -61,7 +61,7 @@
 	<string name="menu_search_tooltip">A’boya resep</string>
 	<string name="menu_settings">Pangngatoro</string>
 	<string name="menu_settings_title">Pangngatoro</string>
-	<string name="menu_sort_title">Appasisa’la</string>
+	<string name="menu_sort_title">Appasisa‘la</string>
 	<string name="menu_sso">Masuk Tunggal</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Tena ni kategorikan</string>
@@ -96,7 +96,7 @@
 	<string name="pref_category_function">Fungsionalitas</string>
 	<string name="pref_category_sync">Sinkronisasi</string>
 	<string name="pref_summary_keep_screen_alive">Teako kunci layar punna anciniki resep</string>
-	<string name="pref_summary_sync_wifi_only">anne anre’ na’kulle sinkronisasi punna perangkata bawang ni sambungi lalang data seluler</string>
+	<string name="pref_summary_sync_wifi_only">anne anre’ na‘kulle sinkronisasi punna perangkata bawang ni sambungi lalang data seluler</string>
 	<string name="pref_title_enableSyncService">Sinkronisasi latar belakang</string>
 	<string name="pref_title_keep_screen_alive">Paentengi layara attallasaka</string>
 	<string name="pref_title_sync_wifi_only">Sinkronisasi ri Wifi bawang</string>
@@ -125,7 +125,7 @@
 	<string name="sort_value_alpha_desc">Areng Z-A</string>
 	<string name="sort_value_date_asc">Tanggal ni pa’nassaya nai’</string>
 	<string name="sort_value_date_desc">Tanggal ni pa’nassaya naung</string>
-	<string name="sort_value_time_asc">Sikontu wattu nai’</string>
+	<string name="sort_value_time_asc">Sikontu wattu nai‘</string>
 	<string name="sort_value_time_desc">Sikontu wattu naung</string>
 	<string name="stop_btn">ammari wattu</string>
 	<string name="storage_permissions_not_granted">Tena akses pammolikang!</string>
