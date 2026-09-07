@@ -14,7 +14,6 @@
         android:adjustViewBounds="true"
         android:background="@drawable/round_outline"
         android:backgroundTint="@color/colorPrimary"
-        android:clipToOutline="true"
         android:scaleType="center"
         android:src="@drawable/ic_back_arrow"
         android:contentDescription="@string/recipe_import_login_close"

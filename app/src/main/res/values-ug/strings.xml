@@ -44,7 +44,7 @@
 	<string name="form_type_keyword">ھالقىلىق سۆز ئارقىلىق ئىزدەڭ</string>
 	<string name="form_type_yield">Yield ئارقىلىق ئىزدەش</string>
 	<string name="form_types">ئىزدەڭ</string>
-	<string name="granted_permissions">بېرىلگەن:% s</string>
+	<string name="granted_permissions">بېرىلگەن: %1$s</string>
 	<string name="header_image_desc">رېتسېپنىڭ باش سۈرىتى</string>
 	<string name="img_desc_logo">رېتسېپنىڭ بەلگىسى</string>
 	<string name="ingredients_yield">Yield</string>
@@ -82,7 +82,7 @@
 	<string name="nutrition_sugar_content">شېكەر مەزمۇنى:%1$s</string>
 	<string name="nutrition_trans_fat_content">ماينىڭ مەزمۇنى:%1$s</string>
 	<string name="nutrition_unsaturated_fat_content">تويۇنمىغان ياغ مەزمۇنى:%1$s</string>
-	<string name="permanently_denied_permissions">مەڭگۈلۈك رەت قىلىندى:% s</string>
+	<string name="permanently_denied_permissions">مەڭگۈلۈك رەت قىلىندى: %1$s</string>
 	<string name="permission_canceled">ئىشلەتكۈچى تەرىپىدىن ئەمەلدىن قالدۇرۇلدى</string>
 	<string name="permission_notification_required">تاماق ئېتىش ۋاقتى ئۈچۈن ئۇقتۇرۇشنى كۆرسىتىش ئىجازىتى تەلەپ قىلىنىدۇ</string>
 	<string name="permission_ok_message">%1$s ئۈچۈن ساقلاش ھوقۇقى بېرىلگەن</string>
@@ -102,7 +102,7 @@
 	<string name="pref_title_sync_wifi_only">پەقەت Wifi دا ماسقەدەملەڭ</string>
 	<string name="preftitle_recipeDir">رېتسېپ مۇندەرىجىسى</string>
 	<string name="preftitle_theme">باشتېمىنى تاللاڭ</string>
-	<string name="rationale_permissions">سەۋەبى:% s</string>
+	<string name="rationale_permissions">سەۋەبى: %1$s</string>
 	<string name="recipe_details_tabs">رېتسېپ بەتكۈچتە ئورۇنلاشتۇرۇلغان</string>
 	<string name="recipe_import_dialog_hint">URL نى قوبۇل قىلىش</string>
 	<string name="recipe_import_dialog_positive">ئەكىرىش</string>

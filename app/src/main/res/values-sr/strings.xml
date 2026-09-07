@@ -44,7 +44,7 @@
 	<string name="form_type_keyword">Претрага по кључној речи</string>
 	<string name="form_type_yield">Претрага по приносу</string>
 	<string name="form_types">Унесите за претрагу</string>
-	<string name="granted_permissions">Одобрено: %с</string>
+	<string name="granted_permissions">Одобрено: %1$s</string>
 	<string name="header_image_desc">Слика у заглављу рецепта</string>
 	<string name="img_desc_logo">Лого рецепта</string>
 	<string name="ingredients_yield">Принос</string>
@@ -82,7 +82,7 @@
 	<string name="nutrition_sugar_content">Садржај шећера: %1$s</string>
 	<string name="nutrition_trans_fat_content">Садржај транс масти: %1$s</string>
 	<string name="nutrition_unsaturated_fat_content">Садржај незасићених масти: %1$s</string>
-	<string name="permanently_denied_permissions">Трајно одбијено: %с</string>
+	<string name="permanently_denied_permissions">Трајно одбијено: %1$s</string>
 	<string name="permission_canceled">Корисник је отказао</string>
 	<string name="permission_notification_required">Дозвола за приказивање обавештења је потребна за тајмер за кување</string>
 	<string name="permission_ok_message">Приступ складишту је одобрен за %1$s</string>
@@ -102,7 +102,7 @@
 	<string name="pref_title_sync_wifi_only">Синхронизација само на Ви-Фи</string>
 	<string name="preftitle_recipeDir">Именик рецепата</string>
 	<string name="preftitle_theme">Изаберите Тема</string>
-	<string name="rationale_permissions">Образложење: %с</string>
+	<string name="rationale_permissions">Образложење: %1$s</string>
 	<string name="recipe_details_tabs">Рецепт је организован у табове</string>
 	<string name="recipe_import_dialog_hint">УРЛ рецепта</string>
 	<string name="recipe_import_dialog_positive">Увоз</string>

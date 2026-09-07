@@ -44,7 +44,7 @@
 	<string name="form_type_keyword">Açar söz bilen gözläň</string>
 	<string name="form_type_yield">Yield tarapyndan gözläň</string>
 	<string name="form_types">Gözlemek üçin ýazyň</string>
-	<string name="granted_permissions">Berlen:% s</string>
+	<string name="granted_permissions">Berlen: %1$s</string>
 	<string name="header_image_desc">Reseptiň sözbaşy</string>
 	<string name="img_desc_logo">Reseptiň nyşany</string>
 	<string name="ingredients_yield">Hasyl beriň</string>
@@ -82,7 +82,7 @@
 	<string name="nutrition_sugar_content">Şekeriň düzümi:%1$s</string>
 	<string name="nutrition_trans_fat_content">Trans ýagyň mazmuny:%1$s</string>
 	<string name="nutrition_unsaturated_fat_content">Doldurylmadyk ýag mazmuny:%1$s</string>
-	<string name="permanently_denied_permissions">Hemişelik inkär edildi:% s</string>
+	<string name="permanently_denied_permissions">Hemişelik inkär edildi: %1$s</string>
 	<string name="permission_canceled">Ulanyjy tarapyndan ýatyryldy</string>
 	<string name="permission_notification_required">Taýýarlaýjy taýmer üçin habarnamany görkezmek üçin rugsat gerek</string>
 	<string name="permission_ok_message">Saklamak üçin%1$s berildi</string>
@@ -102,7 +102,7 @@
 	<string name="pref_title_sync_wifi_only">Diňe Wifi-de sinhronlaň</string>
 	<string name="preftitle_recipeDir">Resept katalogy</string>
 	<string name="preftitle_theme">Tema saýlaň</string>
-	<string name="rationale_permissions">Sebäp:% s</string>
+	<string name="rationale_permissions">Sebäp: %1$s</string>
 	<string name="recipe_details_tabs">Resept belliklerde ýerleşdirilen</string>
 	<string name="recipe_import_dialog_hint">Resept URL</string>
 	<string name="recipe_import_dialog_positive">Import</string>

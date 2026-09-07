@@ -44,7 +44,7 @@
 	<string name="form_type_keyword">Shakisha ijambo ryibanze</string>
 	<string name="form_type_yield">Shakisha by Umusaruro</string>
 	<string name="form_types">Andika gushakisha</string>
-	<string name="granted_permissions">Yahawe:% s</string>
+	<string name="granted_permissions">Yahawe: %1$s</string>
 	<string name="header_image_desc">Ishusho yumutwe wa resept</string>
 	<string name="img_desc_logo">Ikirangantego</string>
 	<string name="ingredients_yield">Tanga umusaruro</string>
@@ -82,7 +82,7 @@
 	<string name="nutrition_sugar_content">Ibirimo Isukari:%1$s</string>
 	<string name="nutrition_trans_fat_content">Ibinure bya Transit:%1$s</string>
 	<string name="nutrition_unsaturated_fat_content">Ibinure bidahagije:%1$s</string>
-	<string name="permanently_denied_permissions">Guhakana burundu:% s</string>
+	<string name="permanently_denied_permissions">Guhakana burundu: %1$s</string>
 	<string name="permission_canceled">Yahagaritswe n’umukoresha</string>
 	<string name="permission_notification_required">Uruhushya rwo kwerekana imenyesha rurakenewe mugihe cyo guteka</string>
 	<string name="permission_ok_message">Kubika ububiko byatanzwe kuri%1$s</string>
@@ -102,7 +102,7 @@
 	<string name="pref_title_sync_wifi_only">Gereranya na Wifi gusa</string>
 	<string name="preftitle_recipeDir">Ububiko</string>
 	<string name="preftitle_theme">Hitamo Insanganyamatsiko</string>
-	<string name="rationale_permissions">Impamvu:% s</string>
+	<string name="rationale_permissions">Impamvu: %1$s</string>
 	<string name="recipe_details_tabs">Ibisubizo byateguwe muri tabs</string>
 	<string name="recipe_import_dialog_hint">Kwakira URL</string>
 	<string name="recipe_import_dialog_positive">Kuzana ibicuruzwa</string>

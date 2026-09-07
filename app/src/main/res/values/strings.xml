@@ -50,7 +50,7 @@
 	<string name="form_type_keyword">Search by keyword</string>
 	<string name="form_type_yield">Search by Yield</string>
 	<string name="form_types">Type to search</string>
-	<string name="granted_permissions">Granted: %s</string>
+	<string name="granted_permissions">Granted: %1$s</string>
 	<string name="header_image_desc">Header image of recipe</string>
 	<string name="img_desc_logo">Logo of the recipe</string>
 	<string name="ingredients_yield">Yield</string>
@@ -90,7 +90,7 @@
 	<string name="nutrition_sugar_content">Sugar Content: %1$s</string>
 	<string name="nutrition_trans_fat_content">Trans Fat Content: %1$s</string>
 	<string name="nutrition_unsaturated_fat_content">Unsaturated Fat Content: %1$s</string>
-	<string name="permanently_denied_permissions">Permanently denied: %s</string>
+	<string name="permanently_denied_permissions">Permanently denied: %1$s</string>
 	<string name="permission_canceled">Cancelled by user</string>
 	<string name="permission_denied" translatable="false">denied</string>
 	<string name="permission_granted" translatable="false">granted</string>
@@ -118,8 +118,8 @@
 	<string name="prefkey_theme" translatable="false">theme_setting</string>
 	<string name="preftitle_recipeDir">Recipe Directory</string>
 	<string name="preftitle_theme">Select Theme</string>
-	<string name="rationale_permissions">Rationale: %s</string>
-	<string name="recipe_details_tabs">Recipe is organized in tabs</string>
+	<string name="rationale_permissions">Rationale: %1$s</string>
+	<string name="recipe_details_tabs">Recipe is organised in tabs</string>
 	<string name="recipe_import_dialog_hint">Recipe URL</string>
 	<string name="recipe_import_dialog_positive">Import</string>
 	<string name="recipe_import_dialog_title">Import recipe from URL</string>

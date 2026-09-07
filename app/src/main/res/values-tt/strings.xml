@@ -44,7 +44,7 @@
 	<string name="form_type_keyword">Ачкыч сүз белән эзләү</string>
 	<string name="form_type_yield">Ieldитештерү буенча эзләү</string>
 	<string name="form_types">Эзләү өчен языгыз</string>
-	<string name="granted_permissions">Рөхсәт:% s</string>
+	<string name="granted_permissions">Рөхсәт: %1$s</string>
 	<string name="header_image_desc">Рецептның баш образы</string>
 	<string name="img_desc_logo">Рецепт логотибы</string>
 	<string name="ingredients_yield">Ieldитештерү</string>
@@ -82,7 +82,7 @@
 	<string name="nutrition_sugar_content">Шикәр эчтәлеге:%1$s</string>
 	<string name="nutrition_trans_fat_content">Майның эчтәлеге:%1$s</string>
 	<string name="nutrition_unsaturated_fat_content">Тозламаган май эчтәлеге:%1$s</string>
-	<string name="permanently_denied_permissions">Даими рәвештә кире кагылды:% s</string>
+	<string name="permanently_denied_permissions">Даими рәвештә кире кагылды: %1$s</string>
 	<string name="permission_canceled">Кулланучы тарафыннан кире кагылды</string>
 	<string name="permission_notification_required">Пешерү таймеры өчен хәбәр итү өчен рөхсәт кирәк</string>
 	<string name="permission_ok_message">Саклау мөмкинлеге%1$s өчен бирелгән</string>
@@ -102,7 +102,7 @@
 	<string name="pref_title_sync_wifi_only">Wifi белән синхронизацияләү</string>
 	<string name="preftitle_recipeDir">Рецепт белешмәсе</string>
 	<string name="preftitle_theme">Теманы сайлагыз</string>
-	<string name="rationale_permissions">Сәбәп:% s</string>
+	<string name="rationale_permissions">Сәбәп: %1$s</string>
 	<string name="recipe_details_tabs">Рецепт таблицаларда урнаштырылган</string>
 	<string name="recipe_import_dialog_hint">Рецепт URL</string>
 	<string name="recipe_import_dialog_positive">Импорт</string>

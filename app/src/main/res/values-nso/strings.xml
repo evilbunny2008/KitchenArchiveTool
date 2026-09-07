@@ -33,7 +33,7 @@
 	<string name="error_only_wifi">Synchronization feela lumelloa ka Wifi</string>
 	<string name="error_sync">Go nyalantšha go paletšwe: %1$s</string>
 	<string name="folder_pick_cancel">Folder picker hlakola ke mosebedisi</string>
-	<string name="folder_pick_success">Foltara %1$d e kgethilwe</string>
+	<string name="folder_pick_success">Foltara %1$s e kgethilwe</string>
 	<string name="form_exact_search">Dira nyakišišo e nepagetšego?</string>
 	<string name="form_ignore_case">Hlokomologa molato?</string>
 	<string name="form_search_commit">Nyaka</string>

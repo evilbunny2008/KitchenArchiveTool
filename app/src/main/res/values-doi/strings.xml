@@ -102,7 +102,7 @@
 	<string name="pref_title_sync_wifi_only">सिर्फ वाईफाई पर सिंक करो</string>
 	<string name="preftitle_recipeDir">नुस्खा निर्देशिका</string>
 	<string name="preftitle_theme">थीम चुनें</string>
-	<string name="rationale_permissions">तर्क: % s</string>
+	<string name="rationale_permissions">तर्क: %1$s</string>
 	<string name="recipe_details_tabs">नुस्खा टैब च व्यवस्थित कीता गेदा ऐ</string>
 	<string name="recipe_import_dialog_hint">नुस्खा यूआरएल</string>
 	<string name="recipe_import_dialog_positive">दरामद</string>

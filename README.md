@@ -16,7 +16,7 @@ sync directly with the nextcloud server.
 If you want to use the local storage you choose "Skip for local storage" and go into settings to choose
 the recipe directory for syncing.  
 (E.g. the folder for the nextcloud client is _Android/media/com.nextcloud.client/nextcloud/&lt;your account&gt;/&lt;
-folder&gt;_).
+folder&gt;).
 
 You also can choose the theme in the settings.
 
@@ -25,7 +25,7 @@ You also can choose the theme in the settings.
 ### New features
 
 - **Copy a recipe to another account.** Long-press a recipe on the list to copy it — including its photo — to
-  any other account signed into the app. The photo is carried over by staging it in the destination account's
+  any other account signed in to the app. The photo is carried over by staging it in the destination account's
   own Nextcloud storage first, since the Cookbook server has no way to accept an uploaded image directly.
 - **Delete a recipe.** Also from the long-press menu, with a confirmation step first. Deletes from the server,
   then removes the local copy — never the other way around, so a failed server-side delete can't leave the
@@ -63,7 +63,7 @@ This app needs Android 10+ (minSdk is 29) and uses the libraries (see also app/b
 
 - androidx dependencies (including WorkManager for background sync)
 - kotlinx coroutines
-- kotlinx-serialization-json (json parser)
+- kotlinx-serialization-json (JSON parser)
 - [kpermissions by fondesa](https://github.com/fondesa/kpermissions) (permission handling)
 - [SimpleStorage by anggrayudi](https://github.com/anggrayudi/SimpleStorage) (storage handling and choosing a directory)
 - [Android-SingleSignOn by Nextcloud](https://github.com/nextcloud/Android-SingleSignOn) (single sign on with

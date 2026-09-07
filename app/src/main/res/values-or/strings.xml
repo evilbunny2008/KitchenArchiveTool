@@ -44,7 +44,7 @@
 	<string name="form_type_keyword">କୀୱାର୍ଡ ଦ୍ୱାରା ସନ୍ଧାନ କରନ୍ତୁ |</string>
 	<string name="form_type_yield">ଅମଳ ଦ୍ୱାରା ସନ୍ଧାନ କରନ୍ତୁ |</string>
 	<string name="form_types">ଖୋଜିବାକୁ ଟାଇପ୍ କରନ୍ତୁ |</string>
-	<string name="granted_permissions">ଅନୁମୋଦିତ:% s</string>
+	<string name="granted_permissions">ଅନୁମୋଦିତ: %1$s</string>
 	<string name="header_image_desc">ରେସିପିର ହେଡର୍ ଇମେଜ୍ |</string>
 	<string name="img_desc_logo">ରେସିପିର ଲୋଗୋ |</string>
 	<string name="ingredients_yield">ଅମଳ କରନ୍ତୁ |</string>
@@ -77,12 +77,12 @@
 	<string name="nutrition_fiberContent">ଫାଇବର ବିଷୟବସ୍ତୁ:%1$s |</string>
 	<string name="nutrition_protein_content">ପ୍ରୋଟିନ୍ ବିଷୟବସ୍ତୁ:%1$s |</string>
 	<string name="nutrition_saturated_fat_content">ସନ୍ତୁଳିତ ଚର୍ବି ବିଷୟବସ୍ତୁ:%1$s |</string>
-	<string name="nutrition_serving_size">ପରିବେଷଣ ଆକାର:%1$s |</string>
+	<string name="nutrition_serving_size">ପରିବେଷଣ ଆକାର: %1$s |</string>
 	<string name="nutrition_sodium_content">ସୋଡିୟମ୍ ବିଷୟବସ୍ତୁ:%1$s |</string>
-	<string name="nutrition_sugar_content">ଚିନି ବିଷୟବସ୍ତୁ:%1$s |</string>
+	<string name="nutrition_sugar_content">ଚିନି ବିଷୟବସ୍ତୁ: %1$s |</string>
 	<string name="nutrition_trans_fat_content">ଟ୍ରାନ୍ସ ଫ୍ୟାଟ୍ ବିଷୟବସ୍ତୁ:%1$s |</string>
-	<string name="nutrition_unsaturated_fat_content">ଅସନ୍ତୁଷ୍ଟ ଫ୍ୟାଟ୍ ବିଷୟବସ୍ତୁ:%1$s |</string>
-	<string name="permanently_denied_permissions">ସ୍ଥାୟୀ ଭାବରେ ପ୍ରତ୍ୟାଖ୍ୟାନ:% s</string>
+	<string name="nutrition_unsaturated_fat_content">ଅସନ୍ତୁଷ୍ଟ ଫ୍ୟାଟ୍ ବିଷୟବସ୍ତୁ: %1$s |</string>
+	<string name="permanently_denied_permissions">ସ୍ଥାୟୀ ଭାବରେ ପ୍ରତ୍ୟାଖ୍ୟାନ: %1$s</string>
 	<string name="permission_canceled">ଉପଭୋକ୍ତା ଦ୍ୱାରା ବାତିଲ୍ |</string>
 	<string name="permission_notification_required">ରନ୍ଧନ ସମୟ ପାଇଁ ବିଜ୍ଞପ୍ତି ଦେଖାଇବା ପାଇଁ ଅନୁମତି ଆବଶ୍ୟକ |</string>
 	<string name="permission_ok_message">%1$s ପାଇଁ ଷ୍ଟୋରେଜ୍ ପ୍ରବେଶ ଅନୁମତି ଦିଆଯାଇଛି |</string>
@@ -102,7 +102,7 @@
 	<string name="pref_title_sync_wifi_only">କେବଳ ୱାଇଫାଇରେ ସିଙ୍କ୍ କରନ୍ତୁ |</string>
 	<string name="preftitle_recipeDir">ରେସିପି ଡିରେକ୍ଟୋରୀ |</string>
 	<string name="preftitle_theme">ଥିମ୍ ଚୟନ କରନ୍ତୁ |</string>
-	<string name="rationale_permissions">କାରଣ:% s</string>
+	<string name="rationale_permissions">କାରଣ: %1$s</string>
 	<string name="recipe_details_tabs">ରେସିପି ଟ୍ୟାବଗୁଡ଼ିକରେ ସଂଗଠିତ ହୋଇଛି |</string>
 	<string name="recipe_import_dialog_hint">ରେସିପି URL</string>
 	<string name="recipe_import_dialog_positive">ଆମଦାନି କରନ୍ତୁ |</string>
