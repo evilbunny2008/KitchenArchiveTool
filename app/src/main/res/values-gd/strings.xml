@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Is e aplacaid Android a th’ ann an Inneal Tasglann Cidsin (KAT) a bhios a’ cleachdadh an app Cookbook frithealaiche Nextcloud gus reasabaidhean a riaghladh</string>
+	<string name="about_summary">Is e aplacaid Android a th’ ann an Inneal Tasglann Cidsin (KAT) a bhios a‘ cleachdadh an app Cookbook frithealaiche Nextcloud gus reasabaidhean a riaghladh</string>
 	<string name="about_title">Mu dheidhinn</string>
 	<string name="about_version">Tionndadh aplacaid: %1$s</string>
 	<string name="account_switcher_current_account_desc">Cunntas làithreach</string>
@@ -16,22 +16,22 @@
 	<string name="cooktime_tooltip">Tòisich timer còcaireachd</string>
 	<string name="copy_ing_message">Tàthchuid air a chopaigeadh gu clipboard</string>
 	<string name="copy_ingredients">Dèan lethbhreac de na stuthan</string>
-	<string name="copy_to_account_failure">Cha b’ urrainn dhuinn lethbhreac a dhèanamh den reasabaidh: %1$s</string>
-	<string name="copy_to_account_in_progress">A’ dèanamh lethbhreac de ’%1$s’ gu %2$s…</string>
+	<string name="copy_to_account_failure">Cha b‘ urrainn dhuinn lethbhreac a dhèanamh den reasabaidh: %1$s</string>
+	<string name="copy_to_account_in_progress">A’ dèanamh lethbhreac de ‘%1$s’ gu %2$s…</string>
 	<string name="copy_to_account_none_available">Cuir cunntas eile an toiseach gus lethbhreac a dhèanamh de reasabaidhean eatorra</string>
-	<string name="copy_to_account_success">Rinn sinn lethbhreac de ’%1$s’ gu %2$s</string>
+	<string name="copy_to_account_success">Rinn sinn lethbhreac de ‘%1$s’ gu %2$s</string>
 	<string name="copy_to_account_title">Dèan lethbhreac dhen reasabaidh seo gu</string>
 	<string name="delete_recipe">Sguab às an t-oideas</string>
-	<string name="delete_recipe_confirm_message">Thèid ’%1$s’ a sguabadh às gu buan on fhrithealaiche. Chan urrainnear seo a chuir dheth</string>
+	<string name="delete_recipe_confirm_message">Thèid ‘%1$s’ a sguabadh às gu buan on fhrithealaiche. Chan urrainnear seo a chuir dheth</string>
 	<string name="delete_recipe_confirm_positive">Sguab às</string>
 	<string name="delete_recipe_confirm_title">Sguab às an reasabaidh seo?</string>
-	<string name="delete_recipe_failure">Cha b’ urrainn dhuinn an reasabaidh a sguabadh às: %1$s</string>
+	<string name="delete_recipe_failure">Cha b‘ urrainn dhuinn an reasabaidh a sguabadh às: %1$s</string>
 	<string name="delete_recipe_success">Chaidh ’%1$s’ a sguabadh às</string>
 	<string name="dir_chooser_error">Mearachd: Chan eil am pasgan root ceadaichte!</string>
 	<string name="empty_list">Gun reasabaidhean</string>
 	<string name="error_no_network">Chan eil ceangal lìonra ann</string>
 	<string name="error_only_wifi">Chan eil sioncronadh ceadaichte ach air Wifi</string>
-	<string name="error_sync">Dh’fhàillig an t-sioncronachadh: %1$s</string>
+	<string name="error_sync">Dh‘fhàillig an t-sioncronachadh: %1$s</string>
 	<string name="folder_pick_cancel">Neach-togail pasgan air a chuir dheth leis an neach-cleachdaidh</string>
 	<string name="folder_pick_success">Thagh am pasgan %1$s</string>
 	<string name="form_exact_search">Dèan sgrùdadh mionaideach?</string>
@@ -88,7 +88,7 @@
 	<string name="permission_ok_message">Chaidh inntrigeadh stòraidh a thoirt seachad airson %1$s</string>
 	<string name="permission_please_grant">Feuch an toir thu cead stòraidh</string>
 	<string name="permission_select_root">Feuch an tagh thu %1$s</string>
-	<string name="permission_warning_nowrite">Chan eil inntrigeadh sgrìobhaidh agad dhan stòr-stòr seo, mar sin chan eil feum air taghadh a’ phasgain seo.\nA bheil thu airson cothrom fhaighinn air a’ phasgan seo?</string>
+	<string name="permission_warning_nowrite">Chan eil inntrigeadh sgrìobhaidh agad dhan stòr-stòr seo, mar sin chan eil feum air taghadh a’ phasgain seo.\nA bheil thu airson cothrom fhaighinn air a‘ phasgan seo?</string>
 	<string name="permissions_error_message">Cothrom air a dhiùltadh! Feumaidh an aplacaid ruigsinneachd stòraidh, feuch an cuir thu an gnìomh anns na roghainnean</string>
 	<string name="permissions_required">Feumar ceadan!</string>
 	<string name="play_btn">Tòisich / stad an timer</string>
@@ -110,7 +110,7 @@
 	<string name="recipe_import_failure">Cha b’ urrainn dhuinn an reasabaidh ion-phortadh: %1$s</string>
 	<string name="recipe_import_in_progress">A’ toirt a-steach reasabaidh</string>
 	<string name="recipe_import_login_close">Sguir an logadh a-steach</string>
-	<string name="recipe_import_login_init_failed">Cha b’ urrainn dhuinn am pròiseas logaidh a-steach a thòiseachadh: %1$s</string>
+	<string name="recipe_import_login_init_failed">Cha b‘ urrainn dhuinn am pròiseas logaidh a-steach a thòiseachadh: %1$s</string>
 	<string name="recipe_import_login_timed_out">Thàinig an ùine a-mach airson logadh a-steach. Feuch ris a-rithist</string>
 	<string name="recipe_import_login_title">Log a-steach gu Nextcloud</string>
 	<string name="recipe_import_menu_title">Cuir a-steach reasabaidh bho URL</string>

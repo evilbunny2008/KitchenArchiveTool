@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="about_summary">Kitchen Archive Tool (KAT) appii Andirooyidii yoo ta’u, appii Nextcloud server Cookbook fayyadamuun qophii nyaataa bulchuuf gargaara</string>
-	<string name="about_title">Waa’ee</string>
+	<string name="about_title">Waa‘ee</string>
 	<string name="about_version">Vershinii appii: %1$s</string>
 	<string name="account_switcher_current_account_desc">Herrega ammaa</string>
 	<string name="add_account">Akkaawuntii itti dabali</string>
@@ -13,20 +13,20 @@
 	<string name="cooktime_reset_btn">Sa’aatii dhaabbataa fi deebisee saaga</string>
 	<string name="cooktime_start_btn">Sa’aatii jalqaba</string>
 	<string name="cooktime_title">Sa’aatii nyaata bilcheessu</string>
-	<string name="cooktime_tooltip">Sa’aatii nyaata bilcheessu jalqabi</string>
+	<string name="cooktime_tooltip">Sa‘aatii nyaata bilcheessu jalqabi</string>
 	<string name="copy_ing_message">Wantoota barbaachisan gara kiliipboordii waraabaman</string>
 	<string name="copy_ingredients">Wantoota barbaachisan waraabuu</string>
 	<string name="copy_to_account_failure">Recipe waraabuu hin dandeenye: %1$s</string>
-	<string name="copy_to_account_in_progress">’%1$s’ gara %2$s tti waraabuun</string>
+	<string name="copy_to_account_in_progress">’%1$s‘ gara %2$s tti waraabuun</string>
 	<string name="copy_to_account_none_available">Dursa akkaawuntii biraa itti dabaluudhaan qophii nyaataa isaan gidduutti waraabuu dandeessu</string>
-	<string name="copy_to_account_success">’%1$s’ gara %2$s tti waraabame</string>
+	<string name="copy_to_account_success">’%1$s‘ gara %2$s tti waraabame</string>
 	<string name="copy_to_account_title">Recipe kana gara</string>
 	<string name="delete_recipe">Recipe haquu</string>
-	<string name="delete_recipe_confirm_message">’%1$s’ dhaabbataadhaan sarvarii irraa ni haqama. Kun duubatti deebi’uu hin danda’u</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ dhaabbataadhaan sarvarii irraa ni haqama. Kun duubatti deebi’uu hin danda‘u</string>
 	<string name="delete_recipe_confirm_positive">Haquu</string>
 	<string name="delete_recipe_confirm_title">Recipe kana haquu?</string>
 	<string name="delete_recipe_failure">Recipe haquu hin dandeenye: %1$s</string>
-	<string name="delete_recipe_success">’%1$s’ haqame</string>
+	<string name="delete_recipe_success">’%1$s‘ haqame</string>
 	<string name="dir_chooser_error">Dogoggora: Galfata hundee hin hayyamamu!</string>
 	<string name="empty_list">Recipes hin qabu</string>
 	<string name="error_no_network">Walitti hidhamiinsi networkii hin jiru</string>
@@ -61,7 +61,7 @@
 	<string name="menu_search_tooltip">Recipe barbaadi</string>
 	<string name="menu_settings">Sajoo</string>
 	<string name="menu_settings_title">Sajoo</string>
-	<string name="menu_sort_title">Secca’uu</string>
+	<string name="menu_sort_title">Secca‘uu</string>
 	<string name="menu_sso">Mallattoo Tokko Irratti</string>
 	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Hin ramadamne</string>
@@ -84,14 +84,14 @@
 	<string name="nutrition_unsaturated_fat_content">Qabiyyee Cooma Hin Guutamne: %1$s</string>
 	<string name="permanently_denied_permissions">Dhaabbataan dhorkame: %s</string>
 	<string name="permission_canceled">Fayyadamaan haqame</string>
-	<string name="permission_notification_required">Hayyamni beeksisa agarsiisuu sa’aatii nyaata bilcheessuuf barbaachisaadha</string>
+	<string name="permission_notification_required">Hayyamni beeksisa agarsiisuu sa‘aatii nyaata bilcheessuuf barbaachisaadha</string>
 	<string name="permission_ok_message">%1$s’f qaqqabummaan kuusaa kennameera</string>
 	<string name="permission_please_grant">Mee hayyama kuusaa kenni</string>
 	<string name="permission_select_root">Mee %1$s filadhu</string>
 	<string name="permission_warning_nowrite">Kuusaa kanaaf qaqqabummaa barreessuu hin qabdu, kanaaf galmee kana filachuun faayidaa hin qabu.\nGalmee kanaaf qaqqabummaa hayyamuu barbaaddaa?</string>
 	<string name="permissions_error_message">Dhaqqabummaan dhorkame! App storage access barbaachisa, mee settings keessatti activate godhaa</string>
 	<string name="permissions_required">Hayyama barbaachisa!</string>
-	<string name="play_btn">Sa’aatii Jalqaba/Dhaabbii</string>
+	<string name="play_btn">Sa‘aatii Jalqaba/Dhaabbii</string>
 	<string name="pref_category_design">Tolfama</string>
 	<string name="pref_category_function">Hojii (Functionality) kan jedhu</string>
 	<string name="pref_category_sync">Walsimsiisuun</string>
@@ -136,7 +136,7 @@
 	<string name="sync_interval_name_24">Sa’aatii 24 hunda</string>
 	<string name="sync_interval_name_off">Dhaamsuu</string>
 	<string name="tab_info_title">Info</string>
-	<string name="tab_ingredients_title">Mi’a dheedhii</string>
+	<string name="tab_ingredients_title">Mi‘a dheedhii</string>
 	<string name="tab_instructions_title">Qajeelfamoota</string>
 	<string name="tab_nutritions_title">Nyaata</string>
 	<string name="text_author">Barreessaa:</string>
