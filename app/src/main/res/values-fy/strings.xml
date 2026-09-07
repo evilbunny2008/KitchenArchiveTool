@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Kitchen Archive Tool (KAT) is in Android-app dy‘t de Nextcloud-tsjinner Cookbook-app brûkt om resepten te behearjen</string>
+	<string name="about_summary">Kitchen Archive Tool (KAT) is in Android-app dy’t de Nextcloud-tsjinner Cookbook-app brûkt om resepten te behearjen</string>
 	<string name="about_title">Oer</string>
 	<string name="about_version">App ferzje: %1$s</string>
 	<string name="account_switcher_current_account_desc">Aktuele akkount</string>
@@ -17,16 +17,16 @@
 	<string name="copy_ing_message">Yngrediïnten kopiearre nei klamboerd</string>
 	<string name="copy_ingredients">Kopiearje yngrediïnten</string>
 	<string name="copy_to_account_failure">Koe it resept net kopiearje: %1$s</string>
-	<string name="copy_to_account_in_progress">‘%1$s’ kopiearje nei %2$s</string>
+	<string name="copy_to_account_in_progress">’%1$s’ kopiearje nei %2$s</string>
 	<string name="copy_to_account_none_available">Foegje earst in oar akkount ta om resepten tusken har te kopiearjen</string>
-	<string name="copy_to_account_success">‘%1$s’ kopiearre nei %2$s</string>
+	<string name="copy_to_account_success">’%1$s’ kopiearre nei %2$s</string>
 	<string name="copy_to_account_title">Kopiearje dit resept nei</string>
 	<string name="delete_recipe">Resept wiskje</string>
-	<string name="delete_recipe_confirm_message">‘%1$s’ sil permanint wiske wurde fan de tsjinner. Dit kin net ûngedien makke wurde</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ sil permanint wiske wurde fan de tsjinner. Dit kin net ûngedien makke wurde</string>
 	<string name="delete_recipe_confirm_positive">Wiskje</string>
 	<string name="delete_recipe_confirm_title">Dit resept wiskje?</string>
 	<string name="delete_recipe_failure">Koe it resept net wiskje: %1$s</string>
-	<string name="delete_recipe_success">‘%1$s’ wiske</string>
+	<string name="delete_recipe_success">’%1$s’ wiske</string>
 	<string name="dir_chooser_error">Flater: Root map is net tastien!</string>
 	<string name="empty_list">Gjin resepten</string>
 	<string name="error_no_network">Gjin netwurkferbining</string>

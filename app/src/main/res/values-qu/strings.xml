@@ -2,7 +2,7 @@
 <resources>
 	<string name="about_summary">Kitchen Archive Tool (KAT) huk Android ruwana kan chaymanta Nextcloud servidor Cookbook ruwanata llamk’achin recetakuna kamachinapaq</string>
 	<string name="about_title">Sobre</string>
-	<string name="about_version">App nisqap rikch‘aynin: %1$s</string>
+	<string name="about_version">App nisqap rikch’aynin: %1$s</string>
 	<string name="account_switcher_current_account_desc">Kunan pacha yupay</string>
 	<string name="add_account">Cuenta yapay</string>
 	<string name="app_logo_desc">KAT app nisqamanta lanzador icono</string>
@@ -13,21 +13,21 @@
 	<string name="cooktime_reset_btn">Sayan hinaspa pacha yupayta kutichin</string>
 	<string name="cooktime_start_btn">Tiempo yupayta qallarichin</string>
 	<string name="cooktime_title">Wayk’una pacha yupay</string>
-	<string name="cooktime_tooltip">Wayk‘una pacha yupayta qallariy</string>
+	<string name="cooktime_tooltip">Wayk’una pacha yupayta qallariy</string>
 	<string name="copy_ing_message">Ingredientekuna portapapeles nisqaman copiasqa</string>
 	<string name="copy_ingredients">Ingredientekunata copiay</string>
 	<string name="copy_to_account_failure">Manam atirqanichu chay recetata copiayta: %1$s</string>
-	<string name="copy_to_account_in_progress">’%1$s‘ nisqamanta %2$s nisqaman copiaspa</string>
+	<string name="copy_to_account_in_progress">’%1$s’ nisqamanta %2$s nisqaman copiaspa</string>
 	<string name="copy_to_account_none_available">Ñawpaqta huk yupayta yapay paykunapura recetakunata copianaykipaq</string>
-	<string name="copy_to_account_success">’%1$s‘ nisqamanta %2$s nisqaman copiasqa</string>
+	<string name="copy_to_account_success">’%1$s’ nisqamanta %2$s nisqaman copiasqa</string>
 	<string name="copy_to_account_title">Kay recetataqa kayman copiay</string>
 	<string name="delete_recipe">Receta chinkachiy</string>
-	<string name="delete_recipe_confirm_message">’%1$s‘ wiñaypaq qullusqa kanqa sirwiqmanta. Kaytaqa manan kutichiyta atikunmanchu</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ wiñaypaq qullusqa kanqa sirwiqmanta. Kaytaqa manan kutichiyta atikunmanchu</string>
 	<string name="delete_recipe_confirm_positive">Chinkachiy</string>
 	<string name="delete_recipe_confirm_title">¿Kay recetata chinkachiy?</string>
 	<string name="delete_recipe_failure">Manam atirqanichu chay receta qulluyta: %1$s</string>
 	<string name="delete_recipe_success">Qullusqa ’%1$s’</string>
-	<string name="dir_chooser_error">Pantasqa: Saphi qillqana mayt‘uqa manam saqisqachu!</string>
+	<string name="dir_chooser_error">Pantasqa: Saphi qillqana mayt’uqa manam saqisqachu!</string>
 	<string name="empty_list">Mana recetakunayuq</string>
 	<string name="error_no_network">Mana llika tinkiyta</string>
 	<string name="error_only_wifi">Sincronización Wifi kaqllapi saqisqa</string>
@@ -45,7 +45,7 @@
 	<string name="form_type_yield">Rendimiento nisqawan maskay</string>
 	<string name="form_types">Maskhanaykipaq qillqay</string>
 	<string name="granted_permissions">Qusqa: %s</string>
-	<string name="header_image_desc">Recetamanta umalliq siq‘i</string>
+	<string name="header_image_desc">Recetamanta umalliq siq’i</string>
 	<string name="img_desc_logo">Logotipo de la receta</string>
 	<string name="ingredients_yield">Panpa</string>
 	<string name="label_source">Qallariy:</string>
@@ -96,7 +96,7 @@
 	<string name="pref_category_function">Funcionalidad nisqa</string>
 	<string name="pref_category_sync">Sincronización nisqa</string>
 	<string name="pref_summary_keep_screen_alive">Ama pantallata wichqaychu huk recetata qhawaspa</string>
-	<string name="pref_summary_sync_wifi_only">Kayqa tinkiyta mana llamk’achinchu mayk‘aq dispositivo kuyuchina willaykunawanlla tinkisqa kachkan</string>
+	<string name="pref_summary_sync_wifi_only">Kayqa tinkiyta mana llamk’achinchu mayk’aq dispositivo kuyuchina willaykunawanlla tinkisqa kachkan</string>
 	<string name="pref_title_enableSyncService">Antecedentes nisqa sincronización</string>
 	<string name="pref_title_keep_screen_alive">Pantalla kawsachiy</string>
 	<string name="pref_title_sync_wifi_only">Wifillapi sincronización ruway</string>

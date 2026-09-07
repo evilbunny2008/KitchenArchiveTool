@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Mae Kitchen Archive Tool (KAT) yn gymhwysiad Android sy‘n defnyddio ap Cookbook gweinydd Nextcloud i reoli ryseitiau</string>
+	<string name="about_summary">Mae Kitchen Archive Tool (KAT) yn gymhwysiad Android sy’n defnyddio ap Cookbook gweinydd Nextcloud i reoli ryseitiau</string>
 	<string name="about_title">Ynghylch</string>
 	<string name="about_version">Fersiwn ap: %1$s</string>
 	<string name="account_switcher_current_account_desc">Cyfrif cyfredol</string>
@@ -16,24 +16,24 @@
 	<string name="cooktime_tooltip">Dechreuwch amserydd coginio</string>
 	<string name="copy_ing_message">Cynhwysion wedi’u copïo i’r clipfwrdd</string>
 	<string name="copy_ingredients">Copïo cynhwysion</string>
-	<string name="copy_to_account_failure">Methu â chopïo‘r rysáit: %1$s</string>
-	<string name="copy_to_account_in_progress">Wrthi’n copïo ‘%1$s’ i %2$s</string>
+	<string name="copy_to_account_failure">Methu â chopïo’r rysáit: %1$s</string>
+	<string name="copy_to_account_in_progress">Wrthi’n copïo ’%1$s’ i %2$s</string>
 	<string name="copy_to_account_none_available">Ychwanegwch gyfrif arall yn gyntaf i gopïo ryseitiau rhyngddynt</string>
-	<string name="copy_to_account_success">Wedi copïo ‘%1$s’ i %2$s</string>
+	<string name="copy_to_account_success">Wedi copïo ’%1$s’ i %2$s</string>
 	<string name="copy_to_account_title">Copïwch y rysáit hwn i</string>
 	<string name="delete_recipe">Dileu rysáit</string>
-	<string name="delete_recipe_confirm_message">Bydd ‘%1$s’ yn cael ei ddileu yn barhaol o’r gweinydd. Ni ellir dadwneud hyn</string>
+	<string name="delete_recipe_confirm_message">Bydd ’%1$s’ yn cael ei ddileu yn barhaol o’r gweinydd. Ni ellir dadwneud hyn</string>
 	<string name="delete_recipe_confirm_positive">Dileu</string>
 	<string name="delete_recipe_confirm_title">Dileu’r rysáit hwn?</string>
-	<string name="delete_recipe_failure">Methu dileu‘r rysáit: %1$s</string>
-	<string name="delete_recipe_success">Wedi dileu ’%1$s‘</string>
+	<string name="delete_recipe_failure">Methu dileu’r rysáit: %1$s</string>
+	<string name="delete_recipe_success">Wedi dileu ’%1$s’</string>
 	<string name="dir_chooser_error">Gwall: Ni chaniateir ffolder gwraidd!</string>
 	<string name="empty_list">Dim ryseitiau</string>
 	<string name="error_no_network">Dim cysylltiad rhwydwaith</string>
 	<string name="error_only_wifi">Dim ond ar Wifi y caniateir cydamseru</string>
 	<string name="error_sync">Methodd y cysoni: %1$s</string>
 	<string name="folder_pick_cancel">Dewisydd ffolder wedi’i ganslo gan ddefnyddiwr</string>
-	<string name="folder_pick_success">Plygell %1$s wedi‘i dewis</string>
+	<string name="folder_pick_success">Plygell %1$s wedi’i dewis</string>
 	<string name="form_exact_search">Gwneud chwiliad manwl gywir?</string>
 	<string name="form_ignore_case">Anwybyddu achos?</string>
 	<string name="form_search_commit">Chwiliwch</string>
@@ -46,7 +46,7 @@
 	<string name="form_types">Teipiwch i chwilio</string>
 	<string name="granted_permissions">Caniatawyd: %s</string>
 	<string name="header_image_desc">Delwedd pennawd o’r rysáit</string>
-	<string name="img_desc_logo">Logo‘r rysáit</string>
+	<string name="img_desc_logo">Logo’r rysáit</string>
 	<string name="ingredients_yield">Cnwd</string>
 	<string name="label_source">Ffynhonnell:</string>
 	<string name="list_recipe_star_desc">Eicon seren yn nodi hoff statws y rysáit</string>
@@ -85,7 +85,7 @@
 	<string name="permanently_denied_permissions">Wedi’i wrthod yn barhaol: %s</string>
 	<string name="permission_canceled">Wedi’i ganslo gan y defnyddiwr</string>
 	<string name="permission_notification_required">Mae angen caniatâd ar gyfer dangos hysbysiad ar gyfer amserydd coginio</string>
-	<string name="permission_ok_message">Mae mynediad storio wedi‘i ganiatáu ar gyfer %1$s</string>
+	<string name="permission_ok_message">Mae mynediad storio wedi’i ganiatáu ar gyfer %1$s</string>
 	<string name="permission_please_grant">Rhowch ganiatâd storio</string>
 	<string name="permission_select_root">Dewiswch %1$s</string>
 	<string name="permission_warning_nowrite">Nid oes gennych fynediad ysgrifenedig i’r storfa hon, felly mae dewis y ffolder hon yn ddiwerth.\nA hoffech ganiatáu mynediad i’r ffolder hon?</string>
@@ -96,7 +96,7 @@
 	<string name="pref_category_function">Ymarferoldeb</string>
 	<string name="pref_category_sync">Cydamseru</string>
 	<string name="pref_summary_keep_screen_alive">Peidiwch â chloi’r sgrin wrth edrych ar rysáit</string>
-	<string name="pref_summary_sync_wifi_only">Mae hyn yn analluogi cysoni pan fydd y ddyfais wedi‘i chysylltu trwy ddata symudol yn unig</string>
+	<string name="pref_summary_sync_wifi_only">Mae hyn yn analluogi cysoni pan fydd y ddyfais wedi’i chysylltu trwy ddata symudol yn unig</string>
 	<string name="pref_title_enableSyncService">Cydamseru Cefndir</string>
 	<string name="pref_title_keep_screen_alive">Cadwch y sgrin yn fyw</string>
 	<string name="pref_title_sync_wifi_only">Cysoni ar Wifi yn unig</string>
@@ -107,7 +107,7 @@
 	<string name="recipe_import_dialog_hint">URL rysáit</string>
 	<string name="recipe_import_dialog_positive">Mewnforio</string>
 	<string name="recipe_import_dialog_title">Mewnforio rysáit o URL</string>
-	<string name="recipe_import_failure">Methu mewnforio‘r rysáit: %1$s</string>
+	<string name="recipe_import_failure">Methu mewnforio’r rysáit: %1$s</string>
 	<string name="recipe_import_in_progress">Wrthi’n mewnforio rysáit</string>
 	<string name="recipe_import_login_close">Canslo mewngofnodi</string>
 	<string name="recipe_import_login_init_failed">Methu cychwyn y broses mewngofnodi: %1$s</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Qalabka Kaydka Jikada (KAT) waa abka Android ka faa‘iidaysta abka Nextcloud server Cookbook si loo maareeyo cuntooyinka</string>
+	<string name="about_summary">Qalabka Kaydka Jikada (KAT) waa abka Android ka faa’iidaysta abka Nextcloud server Cookbook si loo maareeyo cuntooyinka</string>
 	<string name="about_title">Ku saabsan</string>
 	<string name="about_version">Nooca App: %1$s</string>
 	<string name="account_switcher_current_account_desc">Koontada hadda</string>
@@ -17,16 +17,16 @@
 	<string name="copy_ing_message">Waxyaabaha ay ka kooban yihiin waxaa lagu koobiyeeyay sabuuradda</string>
 	<string name="copy_ingredients">Koobi maaddooyinka</string>
 	<string name="copy_to_account_failure">Waa la koobi kari waayay habka loo kariyo: %1$s</string>
-	<string name="copy_to_account_in_progress">Koobiyaynaya ’%1$s‘ ilaa %2$s</string>
+	<string name="copy_to_account_in_progress">Koobiyaynaya ’%1$s’ ilaa %2$s</string>
 	<string name="copy_to_account_none_available">Ku dar akoon kale marka hore si aad nuqul uga sameyso cuntooyinka dhexdooda</string>
-	<string name="copy_to_account_success">Naqliyey ’%1$s‘ ilaa %2$s</string>
+	<string name="copy_to_account_success">Naqliyey ’%1$s’ ilaa %2$s</string>
 	<string name="copy_to_account_title">Ku koobbi cuntadan si aad u</string>
 	<string name="delete_recipe">Tirtir cuntada</string>
-	<string name="delete_recipe_confirm_message">’%1$s‘ ayaa si joogto ah looga tirtiri doonaa serfarka Tan lama celin karo</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ ayaa si joogto ah looga tirtiri doonaa serfarka Tan lama celin karo</string>
 	<string name="delete_recipe_confirm_positive">Tirtir</string>
 	<string name="delete_recipe_confirm_title">Ma tirtirtaa cuntadan?</string>
 	<string name="delete_recipe_failure">Waa la tirtiri kari waayay cuntada: %1$s</string>
-	<string name="delete_recipe_success">La tirtiray ’%1$s‘</string>
+	<string name="delete_recipe_success">La tirtiray ’%1$s’</string>
 	<string name="dir_chooser_error">Khalad: Galka xididka lama ogola!</string>
 	<string name="empty_list">Ma jiraan cuntooyin</string>
 	<string name="error_no_network">Ma jiro xiriir shabakad</string>

@@ -2,7 +2,7 @@
 <resources>
 	<string name="about_summary">Kitchen Archive Tool (KAT) est une application Android qui utilise l’application Cookbook du serveur Nextcloud pour gérer les recettes</string>
 	<string name="about_title">À propos</string>
-	<string name="about_version">Version de l‘application : %1$s</string>
+	<string name="about_version">Version de l’application : %1$s</string>
 	<string name="account_switcher_current_account_desc">Compte courant</string>
 	<string name="add_account">Ajouter un compte</string>
 	<string name="app_logo_desc">Icône du lanceur de l’application KAT</string>
@@ -17,17 +17,17 @@
 	<string name="copy_ing_message">Ingrédients copiés dans le presse-papiers</string>
 	<string name="copy_ingredients">Copier les ingrédients</string>
 	<string name="copy_to_account_failure">Impossible de copier la recette : %1$s</string>
-	<string name="copy_to_account_in_progress">Copie de ‘%1$s’ dans %2$s</string>
+	<string name="copy_to_account_in_progress">Copie de ’%1$s’ dans %2$s</string>
 	<string name="copy_to_account_none_available">Ajoutez d’abord un autre compte pour copier des recettes entre eux</string>
-	<string name="copy_to_account_success">Copié ‘ %1$s ’ dans %2$s</string>
+	<string name="copy_to_account_success">Copié ’ %1$s ’ dans %2$s</string>
 	<string name="copy_to_account_title">Copiez cette recette sur</string>
 	<string name="delete_recipe">Supprimer la recette</string>
-	<string name="delete_recipe_confirm_message">‘%1$s’ sera définitivement supprimé du serveur. Cela ne peut pas être annulé</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ sera définitivement supprimé du serveur. Cela ne peut pas être annulé</string>
 	<string name="delete_recipe_confirm_positive">Supprimer</string>
 	<string name="delete_recipe_confirm_title">Supprimer cette recette ?</string>
 	<string name="delete_recipe_failure">Impossible de supprimer la recette : %1$s</string>
-	<string name="delete_recipe_success">‘%1$s’ supprimé</string>
-	<string name="dir_chooser_error">Erreur : le dossier racine n‘est pas autorisé !</string>
+	<string name="delete_recipe_success">’%1$s’ supprimé</string>
+	<string name="dir_chooser_error">Erreur : le dossier racine n’est pas autorisé !</string>
 	<string name="empty_list">Aucune recette</string>
 	<string name="error_no_network">Aucune connexion réseau</string>
 	<string name="error_only_wifi">Synchronisation uniquement autorisée sur Wifi</string>
@@ -45,7 +45,7 @@
 	<string name="form_type_yield">Recherche par rendement</string>
 	<string name="form_types">Tapez pour rechercher</string>
 	<string name="granted_permissions">Accordé : %s</string>
-	<string name="header_image_desc">Image d‘en-tête de la recette</string>
+	<string name="header_image_desc">Image d’en-tête de la recette</string>
 	<string name="img_desc_logo">Logo de la recette</string>
 	<string name="ingredients_yield">Rendement</string>
 	<string name="label_source">Source:</string>
@@ -85,7 +85,7 @@
 	<string name="permanently_denied_permissions">Refusé définitivement : %s</string>
 	<string name="permission_canceled">Annulé par l’utilisateur</string>
 	<string name="permission_notification_required">L’autorisation d’afficher la notification est requise pour la minuterie de cuisson</string>
-	<string name="permission_ok_message">L‘accès au stockage a été accordé pour %1$s</string>
+	<string name="permission_ok_message">L’accès au stockage a été accordé pour %1$s</string>
 	<string name="permission_please_grant">Veuillez accorder les autorisations de stockage</string>
 	<string name="permission_select_root">Veuillez sélectionner %1$s</string>
 	<string name="permission_warning_nowrite">Vous n’avez pas d’accès en écriture à ce stockage, donc sélectionner ce dossier est inutile.\nVoulez-vous accorder l’accès à ce dossier ?</string>
@@ -98,7 +98,7 @@
 	<string name="pref_summary_keep_screen_alive">Ne verrouillez pas l’écran lorsque vous consultez une recette</string>
 	<string name="pref_summary_sync_wifi_only">Cela désactive la synchronisation lorsque l’appareil est uniquement connecté via les données mobiles</string>
 	<string name="pref_title_enableSyncService">Synchronisation en arrière-plan</string>
-	<string name="pref_title_keep_screen_alive">Gardez l‘écran vivant</string>
+	<string name="pref_title_keep_screen_alive">Gardez l’écran vivant</string>
 	<string name="pref_title_sync_wifi_only">Synchronisation sur Wifi uniquement</string>
 	<string name="preftitle_recipeDir">Répertoire de recettes</string>
 	<string name="preftitle_theme">Sélectionnez un thème</string>
@@ -107,7 +107,7 @@
 	<string name="recipe_import_dialog_hint">URL de la recette</string>
 	<string name="recipe_import_dialog_positive">Importer</string>
 	<string name="recipe_import_dialog_title">Importer la recette depuis l’URL</string>
-	<string name="recipe_import_failure">Impossible d‘importer la recette : %1$s</string>
+	<string name="recipe_import_failure">Impossible d’importer la recette : %1$s</string>
 	<string name="recipe_import_in_progress">Importer une recette</string>
 	<string name="recipe_import_login_close">Annuler la connexion</string>
 	<string name="recipe_import_login_init_failed">Impossible de démarrer le processus de connexion : %1$s</string>

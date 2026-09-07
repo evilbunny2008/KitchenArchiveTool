@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">I Kitchen Archive Tool (KAT) un app Android ni’ u‘usa i Nextcloud server Cookbook app para u maneha i resåta siha</string>
+	<string name="about_summary">I Kitchen Archive Tool (KAT) un app Android ni’ u’usa i Nextcloud server Cookbook app para u maneha i resåta siha</string>
 	<string name="about_title">Pot</string>
 	<string name="about_version">App version: %1$s</string>
 	<string name="account_switcher_current_account_desc">Kuenta på’go</string>
@@ -10,27 +10,27 @@
 	<string name="channel_description">Kanal para i notisian tiempo</string>
 	<string name="channel_name">Kanålon tiempo</string>
 	<string name="cooktime_pause_btn">Ha na’para i tiempo</string>
-	<string name="cooktime_reset_btn">Ha na’para yan ha na’lå’la’ ta‘lo i tiempo</string>
+	<string name="cooktime_reset_btn">Ha na’para yan ha na’lå’la’ ta’lo i tiempo</string>
 	<string name="cooktime_start_btn">Ha tutuhon i tiempo</string>
 	<string name="cooktime_title">Timer para i kuentos</string>
 	<string name="cooktime_tooltip">tutuhon un tiempon kuentos</string>
 	<string name="copy_ing_message">I kosas siha ma kopia gi i clipboard</string>
 	<string name="copy_ingredients">Kopia i ingredients</string>
 	<string name="copy_to_account_failure">Ti siña hu kopia i riseta: %1$s</string>
-	<string name="copy_to_account_in_progress">Hu kopia i ’%1$s‘ para %2$s</string>
+	<string name="copy_to_account_in_progress">Hu kopia i ’%1$s’ para %2$s</string>
 	<string name="copy_to_account_none_available">Na’i otro na kuenta fine’nina para un kopia i resåta siha gi entre siha</string>
-	<string name="copy_to_account_success">Ma kopia ‘%1$s’ para %2$s</string>
+	<string name="copy_to_account_success">Ma kopia ’%1$s’ para %2$s</string>
 	<string name="copy_to_account_title">Kopia este na riseta para</string>
 	<string name="delete_recipe">Na’suha i riseta</string>
-	<string name="delete_recipe_confirm_message">‘%1$s’ para u ma na’suha gi i setbiente. Ti siña ma na’suha este</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ para u ma na’suha gi i setbiente. Ti siña ma na’suha este</string>
 	<string name="delete_recipe_confirm_positive">Funas</string>
 	<string name="delete_recipe_confirm_title">Na’suha este na riseta?</string>
-	<string name="delete_recipe_failure">Ti siña ma na‘suha i riseta: %1$s</string>
-	<string name="delete_recipe_success">Ma na’suha ‘%1$s’</string>
+	<string name="delete_recipe_failure">Ti siña ma na’suha i riseta: %1$s</string>
+	<string name="delete_recipe_success">Ma na’suha ’%1$s’</string>
 	<string name="dir_chooser_error">Ti ma’aprueba i root folder!</string>
 	<string name="empty_list">taya’ riseta siha</string>
 	<string name="error_no_network">Taya’ koneksion gi i rediu</string>
-	<string name="error_only_wifi">I sinkronisasion siña ha’ gi Wifi ha‘</string>
+	<string name="error_only_wifi">I sinkronisasion siña ha’ gi Wifi ha’</string>
 	<string name="error_sync">Ti siña i sinkronisasion: %1$s</string>
 	<string name="folder_pick_cancel">I picker folder ma kansela ni’ i taotao</string>
 	<string name="folder_pick_success">Ma selekta i %1$s na karpeta</string>
@@ -43,7 +43,7 @@
 	<string name="form_type_ingredients">Fana’li’e’ gi i ingrediente</string>
 	<string name="form_type_keyword">Fana’li’e’ gi palabras klaru</string>
 	<string name="form_type_yield">Inaligao gi i Yield</string>
-	<string name="form_types">Tipåyi para un sodda‘</string>
+	<string name="form_types">Tipåyi para un sodda’</string>
 	<string name="granted_permissions">Ma ayek: %s</string>
 	<string name="header_image_desc">I litråtu gi i sanhilo’ i riseta</string>
 	<string name="img_desc_logo">Logo gi i riseta</string>
@@ -67,7 +67,7 @@
 	<string name="menu_uncategorized">Ti ma’kategoriha</string>
 	<string name="no_information">Taya’ Infotmasion</string>
 	<string name="no_ingredients">Taya’ Ingrediente siha</string>
-	<string name="no_instructions">taya‘ instruksion siha</string>
+	<string name="no_instructions">taya’ instruksion siha</string>
 	<string name="notification_text">Guaha tiempo: %1$s</string>
 	<string name="notification_title">Timer i Archive gi Kusina</string>
 	<string name="nutrition_calories">Kaloria: %1$s</string>
@@ -85,9 +85,9 @@
 	<string name="permanently_denied_permissions">Ma na’suha para todu i tiempo: %s</string>
 	<string name="permission_canceled">Ma kansela ni’ i taotao</string>
 	<string name="permission_notification_required">I permiso para u ma fa’nu’i i notisia nisisåriu para i tiempon kuentos</string>
-	<string name="permission_ok_message">Ma nå‘i i siñat para i %1$s</string>
+	<string name="permission_ok_message">Ma nå’i i siñat para i %1$s</string>
 	<string name="permission_please_grant">På’go na tiempo, na’i yu’ permisu para i ma’a’atan</string>
-	<string name="permission_select_root">På’go, cho‘gue %1$s</string>
+	<string name="permission_select_root">På’go, cho’gue %1$s</string>
 	<string name="permission_warning_nowrite">Ti siña un tuge’ gi este na lugåt, pues ti siña un ayek este na folder.\nMalago’ hao na un na’i akseso para este na folder?</string>
 	<string name="permissions_error_message">Ma na’suha i akseso! I app nisisåriu na u guaha akseso para i siña ma na’setbe, fa’tinas gi i setbisio siha</string>
 	<string name="permissions_required">Manma nisisita i permiso!</string>
@@ -99,7 +99,7 @@
 	<string name="pref_summary_sync_wifi_only">Este ha na’suha i sinkronisasion yanggen i dipattamenton-måmi ha konnekta ha’ gi i dañuyan na infotmasion</string>
 	<string name="pref_title_enableSyncService">Sinkronisasion gi i sanlagu</string>
 	<string name="pref_title_keep_screen_alive">Na’lå’la’ i pantalan</string>
-	<string name="pref_title_sync_wifi_only">Sinkronisa gi Wifi ha‘</string>
+	<string name="pref_title_sync_wifi_only">Sinkronisa gi Wifi ha’</string>
 	<string name="preftitle_recipeDir">Direktorian Reseta siha</string>
 	<string name="preftitle_theme">Pili i Tema</string>
 	<string name="rationale_permissions">Rason: %s</string>
@@ -107,7 +107,7 @@
 	<string name="recipe_import_dialog_hint">URL i resåta</string>
 	<string name="recipe_import_dialog_positive">Ti manaelaye</string>
 	<string name="recipe_import_dialog_title">Na’halom i resåta ginen URL</string>
-	<string name="recipe_import_failure">Ti siña ma na‘halom i riseta: %1$s</string>
+	<string name="recipe_import_failure">Ti siña ma na’halom i riseta: %1$s</string>
 	<string name="recipe_import_in_progress">Manma’importa i riseta</string>
 	<string name="recipe_import_login_close">Kansela i login</string>
 	<string name="recipe_import_login_init_failed">Ti siña ha tutuhon i prugråman login: %1$s</string>
@@ -141,7 +141,7 @@
 	<string name="tab_nutritions_title">Nutrision siha</string>
 	<string name="text_author">Manåmko:</string>
 	<string name="text_categories">Kategoria:</string>
-	<string name="text_date_published">Fechan ma na‘huyong: %1$s</string>
+	<string name="text_date_published">Fechan ma na’huyong: %1$s</string>
 	<string name="text_keywords">Palabra siha:</string>
 	<string name="text_no_keywords">taya’ palabras klaru</string>
 	<string name="text_tools">I nisisidåt na åmot siha:</string>

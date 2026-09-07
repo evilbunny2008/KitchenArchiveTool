@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">ᱫᱟᱠᱟ ᱚᱲᱟᱜ ᱟᱨᱠᱟᱭᱤᱵᱷ ᱴᱩᱞ (ᱠᱮ ᱴᱤ) ᱫᱚ ᱮᱱᱰᱨᱳᱭᱮᱰ ᱮᱯ ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱫᱚ ᱡᱚᱢᱟᱜ ᱪᱟᱞᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱱᱮᱠᱥᱠᱞᱟᱣᱰ ᱥᱮᱨᱵᱷᱟᱨ ᱠᱩᱠᱵᱩᱠ ᱮᱯ ᱨᱮᱭᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟᱭ</string>
+	<string name="about_summary">ᱫᱟᱠᱟ ᱚᱲᱟᱜ ᱟᱨᱠᱟᱭᱤᱵᱷ ᱴᱩᱞ (ᱠᱮ ᱴᱤ) ᱫᱚ ᱮᱱᱰᱨᱳᱭᱮᱰ ᱮᱯ ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱫᱚ ᱡᱚᱢᱟᱜ ᱪᱟᱞᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱱᱮᱠsᱠᱞᱟᱣᱰ sᱮᱨᱵᱷᱟᱨ ᱠᱩᱠᱵᱩᱠ ᱮᱯ ᱨᱮᱭᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱮᱫᱟᱭ</string>
 	<string name="about_title">ᱵᱟᱵᱚᱛ</string>
 	<string name="about_version">ᱮᱯ ᱵᱷᱟᱨsᱚᱱ: %1$s</string>
 	<string name="account_switcher_current_account_desc">ᱱᱤᱛᱚᱜ ᱮᱠᱟᱣᱩᱱᱴ</string>
@@ -17,16 +17,16 @@
 	<string name="copy_ing_message">ᱡᱤᱱᱤs ᱠᱚ ᱠᱞᱤᱯᱵᱚᱨᱰ ᱨᱮ ᱱᱚᱠᱚᱞ ᱦᱩᱭᱮᱱᱟ</string>
 	<string name="copy_ingredients">ᱡᱤᱱᱤs ᱠᱚ ᱱᱚᱠᱚᱞ ᱢᱮ</string>
 	<string name="copy_to_account_failure">ᱨᱮsᱤᱯᱤ ᱵᱟᱝ ᱱᱚᱠᱚᱞ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ: %1$s</string>
-	<string name="copy_to_account_in_progress">‘%1$s’ ᱠᱷᱚᱱ %2$s ᱨᱮ ᱱᱚᱠᱚᱞ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ</string>
+	<string name="copy_to_account_in_progress">’%1$s’ ᱠᱷᱚᱱ %2$s ᱨᱮ ᱱᱚᱠᱚᱞ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ</string>
 	<string name="copy_to_account_none_available">ᱩᱱᱠᱩ ᱛᱟᱞᱟ ᱨᱮ ᱡᱚᱢᱟᱜ ᱠᱚᱯᱤ ᱞᱟᱹᱜᱤᱫ ᱞᱟᱦᱟᱨᱮ ᱮᱴᱟᱜ ᱮᱠᱟᱣᱩᱱᱴ sᱮᱞᱮᱫ ᱢᱮ</string>
-	<string name="copy_to_account_success">‘%1$s’ ᱠᱷᱚᱱ %2$s ᱨᱮ ᱱᱚᱠᱚᱞ ᱦᱩᱭᱮᱱᱟ</string>
+	<string name="copy_to_account_success">’%1$s’ ᱠᱷᱚᱱ %2$s ᱨᱮ ᱱᱚᱠᱚᱞ ᱦᱩᱭᱮᱱᱟ</string>
 	<string name="copy_to_account_title">ᱱᱚᱣᱟ ᱡᱚᱢᱟᱜ ᱱᱚᱠᱚᱞ ᱢᱮ</string>
 	<string name="delete_recipe">ᱨᱮsᱤᱯᱤ ᱰᱤᱞᱤᱴ ᱢᱮ</string>
-	<string name="delete_recipe_confirm_message">‘%1$s’ sᱮᱨᱵᱷᱟᱨ ᱠᱷᱚᱱ sᱟᱹᱢᱩᱫᱽ ᱞᱟᱹᱜᱤᱫ ᱢᱮᱴᱟᱣ ᱪᱟᱵᱟᱜᱼᱟ ᱾ ᱱᱚᱣᱟ ᱫᱚ ᱵᱟᱝ ᱦᱩᱭ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ sᱮᱨᱵᱷᱟᱨ ᱠᱷᱚᱱ sᱟᱹᱢᱩᱫᱽ ᱞᱟᱹᱜᱤᱫ ᱢᱮᱴᱟᱣ ᱪᱟᱵᱟᱜᱼᱟ ᱾ ᱱᱚᱣᱟ ᱫᱚ ᱵᱟᱝ ᱦᱩᱭ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ</string>
 	<string name="delete_recipe_confirm_positive">ᱢᱩᱪᱟᱣ</string>
 	<string name="delete_recipe_confirm_title">ᱱᱚᱣᱟ ᱡᱚᱢᱟᱜ ᱢᱮᱴᱟᱣ ᱢᱮ?</string>
 	<string name="delete_recipe_failure">ᱡᱚᱢᱟᱜ ᱵᱟᱝ ᱢᱮᱴᱟᱣ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ: %1$s</string>
-	<string name="delete_recipe_success">ᱢᱮᱴᱟᱣ ᱟᱠᱟᱱ ‘%1$s’</string>
+	<string name="delete_recipe_success">ᱢᱮᱴᱟᱣ ᱟᱠᱟᱱ ’%1$s’</string>
 	<string name="dir_chooser_error">ᱦᱩᱰᱟᱹᱜ: ​​ᱨᱩᱴ ᱯᱷᱚᱞᱰᱟᱨ ᱫᱚ ᱵᱟᱝ ᱟᱲᱟᱜ ᱟᱠᱟᱱᱟ!</string>
 	<string name="empty_list">ᱪᱮᱫ ᱨᱮsᱤᱯᱤ ᱵᱟᱹᱱᱩᱜᱼᱟ</string>
 	<string name="error_no_network">ᱱᱮᱴᱣᱟᱨᱠ ᱡᱚᱯᱲᱟᱣ ᱵᱟᱹᱱᱩᱜᱼᱟ</string>

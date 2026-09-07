@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_summary">Igikoresho co mu bubiko bw‘ibikoni (KAT) ni porogaramu ya Android ikoresha porogaramu ya Nextcloud kugira ngo icunge amaresipe</string>
+	<string name="about_summary">Igikoresho co mu bubiko bw’ibikoni (KAT) ni porogaramu ya Android ikoresha porogaramu ya Nextcloud kugira ngo icunge amaresipe</string>
 	<string name="about_title">Hafi</string>
 	<string name="about_version">Verisiyo ya porogaramu: %1$s</string>
 	<string name="account_switcher_current_account_desc">Konti y’ubu</string>
@@ -8,7 +8,7 @@
 	<string name="app_logo_desc">Igishushanyo co gutanguza porogaramu ya KAT</string>
 	<string name="cancel_btn">Gukuraho igihe (kitaboneka)</string>
 	<string name="channel_description">Umurongo w’amatangazo y’igihe</string>
-	<string name="channel_name">Umurongo w‘igihe</string>
+	<string name="channel_name">Umurongo w’igihe</string>
 	<string name="cooktime_pause_btn">Guhagarika umwanya</string>
 	<string name="cooktime_reset_btn">Guhagarara no gusubiramwo igihe</string>
 	<string name="cooktime_start_btn">Gutangura igihe</string>
@@ -17,17 +17,17 @@
 	<string name="copy_ing_message">Ibirungo vyakopewe ku rubaho</string>
 	<string name="copy_ingredients">Kopa ibirungo</string>
 	<string name="copy_to_account_failure">Ntishobora gukopa ingene bitegurwa: %1$s</string>
-	<string name="copy_to_account_in_progress">Gukopa ’%1$s‘ kuri %2$s</string>
+	<string name="copy_to_account_in_progress">Gukopa ’%1$s’ kuri %2$s</string>
 	<string name="copy_to_account_none_available">Wongereko iyindi konti mbere kugira ngo ukope amaresipe hagati yabo</string>
-	<string name="copy_to_account_success">Yakopiye ’%1$s‘ kuri %2$s</string>
+	<string name="copy_to_account_success">Yakopiye ’%1$s’ kuri %2$s</string>
 	<string name="copy_to_account_title">Kopa iyi nzira kuri</string>
 	<string name="delete_recipe">Gukuraho uburyo bwo guteka</string>
-	<string name="delete_recipe_confirm_message">’%1$s‘ izokurwaho ubuziraherezo kuri server. Ibi ntibishobora gusubirwamwo</string>
+	<string name="delete_recipe_confirm_message">’%1$s’ izokurwaho ubuziraherezo kuri server. Ibi ntibishobora gusubirwamwo</string>
 	<string name="delete_recipe_confirm_positive">Gusiba</string>
 	<string name="delete_recipe_confirm_title">Gukuraho iyi nzira?</string>
 	<string name="delete_recipe_failure">Ntibishobora gukuraho ingene biteguwe: %1$s</string>
 	<string name="delete_recipe_success">Yasimbuwe ’%1$s’</string>
-	<string name="dir_chooser_error">Ikosa: Dosiye y‘umuzi ntiyemerewe!</string>
+	<string name="dir_chooser_error">Ikosa: Dosiye y’umuzi ntiyemerewe!</string>
 	<string name="empty_list">Nta maresipe</string>
 	<string name="error_no_network">Nta guhuza urubuga</string>
 	<string name="error_only_wifi">Guhuza vyemewe gusa kuri Wifi</string>
@@ -41,7 +41,7 @@
 	<string name="form_search_options">Amahitamwo yo gushakisha</string>
 	<string name="form_search_title">Ubushakashatsi buhanitse</string>
 	<string name="form_type_ingredients">Gushakisha hakurikijwe ibirungo</string>
-	<string name="form_type_keyword">Gushakisha ukoresheje ijambo ry‘ingenzi</string>
+	<string name="form_type_keyword">Gushakisha ukoresheje ijambo ry’ingenzi</string>
 	<string name="form_type_yield">Gushakisha ku Musaruro</string>
 	<string name="form_types">Ubwoko bwo kurondera</string>
 	<string name="granted_permissions">Vyemerewe: %s</string>
@@ -49,7 +49,7 @@
 	<string name="img_desc_logo">Ikimenyetso c’uburyo bwo guteka</string>
 	<string name="ingredients_yield">Umwimbu</string>
 	<string name="label_source">Isoko:</string>
-	<string name="list_recipe_star_desc">Igishushanyo c’inyenyeri kigaragaza ikibanza ukunda c‘ivyo guteka</string>
+	<string name="list_recipe_star_desc">Igishushanyo c’inyenyeri kigaragaza ikibanza ukunda c’ivyo guteka</string>
 	<string name="login">Kwinjira</string>
 	<string name="manage_accounts">Ubuyobozi bwa konti</string>
 	<string name="menu_all_categories">Ivyicaro vyose</string>
@@ -69,7 +69,7 @@
 	<string name="no_ingredients">Nta birungo</string>
 	<string name="no_instructions">Nta mabwirizwa</string>
 	<string name="notification_text">Igihe gisigaye: %1$s</string>
-	<string name="notification_title">Ububiko bw’igikoni igikoresho c‘igihe</string>
+	<string name="notification_title">Ububiko bw’igikoni igikoresho c’igihe</string>
 	<string name="nutrition_calories">Amakalori: %1$s</string>
 	<string name="nutrition_carbohydrate_content">Ibirimwo ibinure: %1$s</string>
 	<string name="nutrition_cholesterol_content">Ibiri muri kolesterole: %1$s</string>
@@ -83,7 +83,7 @@
 	<string name="nutrition_trans_fat_content">Ibirimwo ibinure: %1$s</string>
 	<string name="nutrition_unsaturated_fat_content">Ibirimwo ibinure bitahaze: %1$s</string>
 	<string name="permanently_denied_permissions">Yaranse ubudasiba: %s</string>
-	<string name="permission_canceled">Yasubiwemwo n‘ukoresha</string>
+	<string name="permission_canceled">Yasubiwemwo n’ukoresha</string>
 	<string name="permission_notification_required">Uruhusha rwo kwerekana itangazo rurakenewe ku gihe co guteka</string>
 	<string name="permission_ok_message">Ukwinjira mu bubiko bwaremewe kuri %1$s</string>
 	<string name="permission_please_grant">Urasabwe gutanga uruhusha rwo kubika</string>
@@ -104,7 +104,7 @@
 	<string name="preftitle_theme">Hitamwo Insiguro</string>
 	<string name="rationale_permissions">Impamvu: %s</string>
 	<string name="recipe_details_tabs">Ivyokurya vyatunganijwe mu bice</string>
-	<string name="recipe_import_dialog_hint">URL y‘uburyo bwo guteka</string>
+	<string name="recipe_import_dialog_hint">URL y’uburyo bwo guteka</string>
 	<string name="recipe_import_dialog_positive">Kwinjiza</string>
 	<string name="recipe_import_dialog_title">Kwinjiza ibifungurwa bivuye kuri URL</string>
 	<string name="recipe_import_failure">Ntishobora kwinjiza ingene bitegurwa: %1$s</string>
@@ -115,7 +115,7 @@
 	<string name="recipe_import_login_title">Injira muri Nextcloud</string>
 	<string name="recipe_import_menu_title">Kwinjiza ibifungurwa bivuye kuri URL</string>
 	<string name="recipe_import_service_url_hint">URL y’ububiko bwo kwinjiza</string>
-	<string name="recipe_list_image_desc">Ishusho y‘uburyo bwo guteka</string>
+	<string name="recipe_list_image_desc">Ishusho y’uburyo bwo guteka</string>
 	<string name="recipe_no_timer">Iyi Recipe nta gihe igira!</string>
 	<string name="request_again">Gusaba kandi</string>
 	<string name="search_hint">Rondera ukoresheje izina</string>
