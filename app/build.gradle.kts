@@ -44,8 +44,8 @@ android {
         applicationId = "com.odiousapps.kat"
         minSdk = 29
         targetSdk = 37
-        versionCode = 2
-        versionName = "0.0.2"
+        versionCode = 3
+        versionName = "0.0.3"
         // Only relevant for API < 21 (vector drawables aren't natively
         // supported by the platform before Lollipop) -- moot with minSdk 29.
         // vectorDrawables.useSupportLibrary = true
