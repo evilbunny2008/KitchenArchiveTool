@@ -49,7 +49,7 @@ import sys
 # imported yet if this script is running under the system Python and those
 # packages are missing or too old there.
 
-VENV_DIR = ("/var/www", ".cache", "recipe_to_jsonld", "venv")
+VENV_DIR = "/var/www/.cache/recipe_to_jsonld/venv"
 VENV_ACTIVE_ENV_VAR = "RECIPE_TO_JSONLD_VENV_ACTIVE"
 REQUIRED_PACKAGES = ["recipe-scrapers", "beautifulsoup4", "nextcloud-cookbook-api", "requests"]
 
