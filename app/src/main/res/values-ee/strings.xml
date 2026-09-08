@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Mete ŋu tsɔ nuɖaɖaa vɛ o: %1$s</string>
 	<string name="recipe_import_in_progress">Nuɖaɖa ƒe mɔnu si wotsɔ tso duta vɛ</string>
 	<string name="recipe_import_menu_title">Tsɔ nuɖaɖa tso URL dzi</string>
-	<string name="recipe_import_upload_failure">Mete ŋu tsɔ ‘%1$s’ kpe ɖe Cookbook ŋu o</string>
-	<string name="recipe_import_upload_success">Wotsɔ ‘%1$s’ kpe ɖe Nuɖagbalẽ ŋu</string>
 	<string name="recipe_list_image_desc">Nɔnɔmetata ƒe nɔnɔmetata sue aɖe si ku ɖe nuɖaɖa ŋu</string>
 	<string name="recipe_no_timer">Ɣeyiɣidzidzenu mele Nuɖaɖa sia si o!</string>
 	<string name="request_again">Gabia ake</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Gaƒoƒo 12 ɖesiaɖe</string>
 	<string name="sync_interval_name_24">Gaƒoƒo 24 ɖesiaɖe</string>
 	<string name="sync_interval_name_off">Tsi</string>
-	<string name="syncing_recipes">Syncing wò nuɖaɖawo</string>
 	<string name="tab_info_title">Nyatakakawo</string>
 	<string name="tab_ingredients_title">Nuɖanuwo</string>
 	<string name="tab_instructions_title">Sedede</string>

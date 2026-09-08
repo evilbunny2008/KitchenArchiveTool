@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Acï lëu bï thëm de thëm bɛ̈i bei: %1$s</string>
 	<string name="recipe_import_in_progress">Luɔɔi de kë ye cam bɛ̈i bei</string>
 	<string name="recipe_import_menu_title">Luɔɔi de kë bï cam tënë URL</string>
-	<string name="recipe_import_upload_failure">Acïï lëu bï ‘%1$s’ mat thïn në Buŋ de thät yic</string>
-	<string name="recipe_import_upload_success">Acï ‘%1$s’ mat thïn tënë athör ë thät</string>
 	<string name="recipe_list_image_desc">Thura thiin de kë ye looi</string>
 	<string name="recipe_no_timer">Recipe kënë acïn thää ë thää!</string>
 	<string name="request_again">Thiëc ëyadɛ̈</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Në Thɛɛr kaa 12 yiic</string>
 	<string name="sync_interval_name_24">Thɛɛr kaa 24 ëbɛ̈n</string>
 	<string name="sync_interval_name_off">Cuëc</string>
-	<string name="syncing_recipes">Cök käkuun ye cam</string>
 	<string name="tab_info_title">Wël</string>
 	<string name="tab_ingredients_title">Kä tɔ̈ thïn</string>
 	<string name="tab_instructions_title">Lööŋ</string>

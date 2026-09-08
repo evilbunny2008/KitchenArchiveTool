@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Pi twero kelo gin ma ki yubu ni: %1$s</string>
 	<string name="recipe_import_in_progress">Kelo kit me yubu cam</string>
 	<string name="recipe_import_menu_title">Kel gin ma ki yubu me yubu cam ki i URL</string>
-	<string name="recipe_import_upload_failure">Pi twero medo ‘%1$s’ i buk me tedo</string>
-	<string name="recipe_import_upload_success">ki medo ‘%1$s’ i buk me tedo</string>
 	<string name="recipe_list_image_desc">Cal matidi pa gin ma ki yubu me yubu cam</string>
 	<string name="recipe_no_timer">Kit me yubu cam ni pe ki cawa!</string>
 	<string name="request_again">Peny doki</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">I cawa 12 weng</string>
 	<string name="sync_interval_name_24">I cawa 24 weng</string>
 	<string name="sync_interval_name_off">Pe tye</string>
-	<string name="syncing_recipes">Keto jami me tedo ni kacel</string>
 	<string name="tab_info_title">Ngec</string>
 	<string name="tab_ingredients_title">Jemi ma ki yubu kwede</string>
 	<string name="tab_instructions_title">Ngo ma omyera ilub</string>

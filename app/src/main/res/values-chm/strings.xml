@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Рецептым пурташ ок лий: %1$s</string>
 	<string name="recipe_import_in_progress">Рецептым пуртымо</string>
 	<string name="recipe_import_menu_title">URL гыч рецептым пурто</string>
-	<string name="recipe_import_upload_failure">Cookbook-ыш ‘%1$s’-ым ешарен кертме огыл</string>
-	<string name="recipe_import_upload_success">Cookbook-ыш ‘%1$s’ ешарен</string>
 	<string name="recipe_list_image_desc">Рецептын сӱретше</string>
 	<string name="recipe_no_timer">Тиде Рецептыште таймер уке!</string>
 	<string name="request_again">Уэш йодмаш</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Кажне 12 шагатлан</string>
 	<string name="sync_interval_name_24">Кажне 24 шагат</string>
 	<string name="sync_interval_name_off">ВЫКЛА</string>
-	<string name="syncing_recipes">Рецепт-влакым синхронизироватлымаш</string>
 	<string name="tab_info_title">Инфо</string>
 	<string name="tab_ingredients_title">Лаштык</string>
 	<string name="tab_instructions_title">Инструкций</string>

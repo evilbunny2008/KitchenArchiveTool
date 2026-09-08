@@ -132,7 +132,12 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
       // so every screen in the nav graph gets this fix in one place.
       ViewCompat.setOnApplyWindowInsetsListener(binding.navHostFragment) { view, windowInsets ->
          val navigationBarInsets = windowInsets.getInsets(WindowInsetsCompat.Type.navigationBars())
-         view.updatePadding(bottom = navigationBarInsets.bottom)
+         // Not just bottom: in landscape (common with 3-button
+         // navigation), the nav bar moves to a side edge instead of
+         // staying at the bottom -- the same insets object then reports
+         // a non-zero left or right instead, with bottom at 0. Handling
+         // only bottom leaves that side's content rendering underneath it.
+         view.updatePadding(left = navigationBarInsets.left, right = navigationBarInsets.right, bottom = navigationBarInsets.bottom)
          windowInsets
       }
 

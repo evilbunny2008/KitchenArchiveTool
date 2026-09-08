@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Рецепта импортлаймарӑмӑр: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт импортлани</string>
 	<string name="recipe_import_menu_title">URL-ран рецепт илсе килӗр</string>
-	<string name="recipe_import_upload_failure">Cookbook ҫумне ‘%1$s’ хушма май килмерӗ</string>
-	<string name="recipe_import_upload_success">Cookbook ҫумне ‘%1$s’ хушнӑ</string>
 	<string name="recipe_list_image_desc">Рецептӑн ӳкерчӗкӗн пӗчӗк ӳкерчӗкӗ</string>
 	<string name="recipe_no_timer">Ку рецептӑн таймерӗ ҫук!</string>
 	<string name="request_again">Тепӗр хут ыйтӑр</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Кашни 12 сехет</string>
 	<string name="sync_interval_name_24">Кашни 24 сехет</string>
 	<string name="sync_interval_name_off">Чарӑннӑ</string>
-	<string name="syncing_recipes">Сирӗн рецептсене синхронизацилесси</string>
 	<string name="tab_info_title">Информаци</string>
 	<string name="tab_ingredients_title">Ингредиентсем</string>
 	<string name="tab_instructions_title">Инструкци</string>

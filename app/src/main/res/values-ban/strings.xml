@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Nénten prasida ngimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Ngimpor resep</string>
 	<string name="recipe_import_menu_title">Impor resep saking URL</string>
-	<string name="recipe_import_upload_failure">Nénten prasida ngawewehin ‘%1$s’ ring Buku Masak</string>
-	<string name="recipe_import_upload_success">Kawewehin ‘%1$s’ ring Buku Masak</string>
 	<string name="recipe_list_image_desc">Gambar mini resep</string>
 	<string name="recipe_no_timer">Resep puniki nenten madue timer!</string>
 	<string name="request_again">Pinunas malih</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Sabilang 12 Jam</string>
 	<string name="sync_interval_name_24">Sabilang 24 Jam</string>
 	<string name="sync_interval_name_off">Mati</string>
-	<string name="syncing_recipes">Sinkronisasi resep Sametoné</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Bahan</string>
 	<string name="tab_instructions_title">Patunjuk</string>

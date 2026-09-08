@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Ti siña ma na’halom i riseta: %1$s</string>
 	<string name="recipe_import_in_progress">Manma’importa i riseta</string>
 	<string name="recipe_import_menu_title">Na’halom i resåta ginen URL</string>
-	<string name="recipe_import_upload_failure">Ti siña hu addåpta ‘%1$s’ gi i Cookbook</string>
-	<string name="recipe_import_upload_success">Ma addåpta i ‘%1$s’ gi i Cookbook</string>
 	<string name="recipe_list_image_desc">I litråtu ni‘ dikike’ gi i riseta</string>
 	<string name="recipe_no_timer">Ti guaha tiempo-ña este na riseta!</string>
 	<string name="request_again">Manmafa’na’an ta’lo</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Kada 12 Oras</string>
 	<string name="sync_interval_name_24">Kada 24 Oras</string>
 	<string name="sync_interval_name_off">Puno</string>
-	<string name="syncing_recipes">Manma’ayuda i riseta-mu siha</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Templan nengkano</string>
 	<string name="tab_instructions_title">Instruksiones</string>

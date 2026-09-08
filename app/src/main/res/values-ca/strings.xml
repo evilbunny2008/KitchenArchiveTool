@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">No s’ha pogut importar la recepta: %1$s</string>
 	<string name="recipe_import_in_progress">S’està important la recepta</string>
 	<string name="recipe_import_menu_title">Importa la recepta des de l’URL</string>
-	<string name="recipe_import_upload_failure">No s’ha pogut afegir ‘%1$s’ al llibre de cuina</string>
-	<string name="recipe_import_upload_success">S’ha afegit ‘%1$s’ al llibre de cuina</string>
 	<string name="recipe_list_image_desc">Imatge en miniatura de la recepta</string>
 	<string name="recipe_no_timer">Aquesta recepta no té temporitzador!</string>
 	<string name="request_again">Sol·licitar de nou</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Cada 12 hores</string>
 	<string name="sync_interval_name_24">Cada 24 hores</string>
 	<string name="sync_interval_name_off">Apagat</string>
-	<string name="syncing_recipes">Sincronitzant les teves receptes</string>
 	<string name="tab_info_title">Informació</string>
 	<string name="tab_ingredients_title">Ingredients</string>
 	<string name="tab_instructions_title">Instruccions</string>

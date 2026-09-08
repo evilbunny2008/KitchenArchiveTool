@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Ne eblis importi la recepton: %1$s</string>
 	<string name="recipe_import_in_progress">Importante recepton</string>
 	<string name="recipe_import_menu_title">Importi recepton de URL</string>
-	<string name="recipe_import_upload_failure">Ne eblis aldoni ‘%1$s’ al Kuirlibro</string>
-	<string name="recipe_import_upload_success">Aldonita ‘%1$s’ al Kuirlibro</string>
 	<string name="recipe_list_image_desc">Bildeto de la recepto</string>
 	<string name="recipe_no_timer">Ĉi tiu Recepto ne havas tempigilon!</string>
 	<string name="request_again">Petu denove</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Ĉiujn 12 Horojn</string>
 	<string name="sync_interval_name_24">Ĉiuj 24 Horoj</string>
 	<string name="sync_interval_name_off">Malŝaltita</string>
-	<string name="syncing_recipes">Sinkronigante viajn receptojn</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingrediencoj</string>
 	<string name="tab_instructions_title">Instrukcioj</string>

@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Ndang boi diimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Resep impor</string>
 	<string name="recipe_import_menu_title">Impor resep sian URL</string>
-	<string name="recipe_import_upload_failure">Ndang boi manambai ‘%1$s’ tu Buku Masakan</string>
-	<string name="recipe_import_upload_success">Ditambai ‘%1$s’ tu Buku Masakan</string>
 	<string name="recipe_list_image_desc">Gambar kecil resep</string>
 	<string name="recipe_no_timer">Resep on ndang adong tingkina!</string>
 	<string name="request_again">Pangidoan muse</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Setiap 12 Jam</string>
 	<string name="sync_interval_name_24">Setiap 24 Jam</string>
 	<string name="sync_interval_name_off">Maradian</string>
-	<string name="syncing_recipes">Sinkronhon resep muna</string>
 	<string name="tab_info_title">Hatorangan</string>
 	<string name="tab_ingredients_title">Bahanbahan</string>
 	<string name="tab_instructions_title">Panuturion</string>

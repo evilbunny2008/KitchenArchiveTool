@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Рецептата не можа да се импортира: %1$s</string>
 	<string name="recipe_import_in_progress">Рецептата се импортира</string>
 	<string name="recipe_import_menu_title">Импортиране на рецепта от URL</string>
-	<string name="recipe_import_upload_failure">Не можах да добавя ‘%1$s’ към Готварска книга</string>
-	<string name="recipe_import_upload_success">Добавен ‘%1$s’ към Готварска книга</string>
 	<string name="recipe_list_image_desc">Миниизображение на рецепта</string>
 	<string name="recipe_no_timer">Тази рецепта няма таймер!</string>
 	<string name="request_again">Заявка отново</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">На всеки 12 часа</string>
 	<string name="sync_interval_name_24">На всеки 24 часа</string>
 	<string name="sync_interval_name_off">Изкл</string>
-	<string name="syncing_recipes">Вашите рецепти се синхронизират</string>
 	<string name="tab_info_title">Информация</string>
 	<string name="tab_ingredients_title">съставки</string>
 	<string name="tab_instructions_title">Инструкции</string>

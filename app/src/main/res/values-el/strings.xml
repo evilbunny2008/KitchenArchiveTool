@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Δεν ήταν δυνατή η εισαγωγή της συνταγής: %1$s</string>
 	<string name="recipe_import_in_progress">Εισαγωγή συνταγής</string>
 	<string name="recipe_import_menu_title">Εισαγωγή συνταγής από τη διεύθυνση URL</string>
-	<string name="recipe_import_upload_failure">Δεν ήταν δυνατή η προσθήκη του ‘%1$s’ στο Βιβλίο μαγειρικής</string>
-	<string name="recipe_import_upload_success">Προστέθηκε το ‘%1$s’ στο Βιβλίο μαγειρικής</string>
 	<string name="recipe_list_image_desc">Μικρογραφία εικόνας συνταγής</string>
 	<string name="recipe_no_timer">Αυτή η συνταγή δεν έχει χρονόμετρο!</string>
 	<string name="request_again">Ζητήστε ξανά</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Κάθε 12 ώρες</string>
 	<string name="sync_interval_name_24">Κάθε 24 ώρες</string>
 	<string name="sync_interval_name_off">Μακριά από</string>
-	<string name="syncing_recipes">Συγχρονισμός των συνταγών σας</string>
 	<string name="tab_info_title">Πληροφορίες</string>
 	<string name="tab_ingredients_title">Συστατικά</string>
 	<string name="tab_instructions_title">Οδηγίες</string>

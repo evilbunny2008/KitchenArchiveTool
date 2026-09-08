@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">བཟོ་ཐབས་ནང་འདྲེན་འབད་མ་ཚུགས།: %1$s</string>
 	<string name="recipe_import_in_progress">བཟོ་ཐངས་ནང་འདྲེན་འབད་དོ་</string>
 	<string name="recipe_import_menu_title">ཡུ་ཨར་ཨེལ་ལས་བཟོ་ཐངས་ནང་འདྲེན་འབད།</string>
-	<string name="recipe_import_upload_failure">བཞེས་སྒོའི་ཀི་དེབ་ལུ་ ‘%1$s’ ཁ་སྐོང་བརྐྱབ་མ་ཚུགས།</string>
-	<string name="recipe_import_upload_success">བཞེས་སྒོའི་ཀི་དེབ་ལུ་ ‘%1$s’ ཁ་སྐོང་བརྐྱབ།</string>
 	<string name="recipe_list_image_desc">བཟོ་ཐངས་ཀྱི་པར་རིས་མཐེབ་གཞོང་།</string>
 	<string name="recipe_no_timer">འདི་ལུ་དུས་ཚོད་བཀོད་མི་མེདཔ་ཨིན།</string>
 	<string name="request_again">སླར་ཡང་ཞུ་བ།</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">ཆུ་ཚོད་ ༡༢ རེ་རེ།</string>
 	<string name="sync_interval_name_24">ཆུ་ཚོད་ ༢༤ རེ་རེ།</string>
 	<string name="sync_interval_name_off">ཡལ་བ</string>
-	<string name="syncing_recipes">ཁྱོད་ཀྱི་བཟོ་ཐངས་ཚུ་མཉམ་འབྱུང་འབད་དོ་</string>
 	<string name="tab_info_title">བརྡ་དོན།</string>
 	<string name="tab_ingredients_title">རྫས༌སྦྱོར</string>
 	<string name="tab_instructions_title">བཀོད༌རྒྱ</string>

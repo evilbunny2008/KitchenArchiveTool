@@ -109,8 +109,6 @@
 	<string name="recipe_import_failure">Немагчыма імпартаваць рэцэпт: %1$s</string>
 	<string name="recipe_import_in_progress">Імпарт рэцэпта</string>
 	<string name="recipe_import_menu_title">Імпартаваць рэцэпт з URL</string>
-	<string name="recipe_import_upload_failure">Немагчыма дадаць ‘%1$s’ у кулінарную кнігу</string>
-	<string name="recipe_import_upload_success">‘%1$s’ дададзены ў кулінарную кнігу</string>
 	<string name="recipe_list_image_desc">Мініяцюра рэцэпту</string>
 	<string name="recipe_no_timer">Гэты рэцэпт не мае таймера!</string>
 	<string name="request_again">Зноў запытаць</string>
@@ -130,7 +128,6 @@
 	<string name="sync_interval_name_12">Кожныя 12 гадзін</string>
 	<string name="sync_interval_name_24">Кожныя 24 гадзіны</string>
 	<string name="sync_interval_name_off">Выкл</string>
-	<string name="syncing_recipes">Сінхранізацыя вашых рэцэптаў</string>
 	<string name="tab_info_title">Інфармацыя</string>
 	<string name="tab_ingredients_title">Інгрэдыенты</string>
 	<string name="tab_instructions_title">Інструкцыя</string>
