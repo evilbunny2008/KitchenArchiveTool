@@ -114,7 +114,6 @@
 	<string name="request_again">nema sake</string>
 	<string name="search_hint">Bincika da suna</string>
 	<string name="search_in_all">Bincika</string>
-	<string name="skip_for_local_storage">Tsallake don ajiya na gida</string>
 	<string name="sort_value_alpha_asc">Suna A-Z</string>
 	<string name="sort_value_alpha_desc">Sunan Z-A</string>
 	<string name="sort_value_date_asc">Kwanan watan da aka buga yana hawa</string>

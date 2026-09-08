@@ -114,7 +114,6 @@
 	<string name="request_again">Hunda encore</string>
 	<string name="search_hint">Gi na iri ti lo</string>
 	<string name="search_in_all">Gingo ti ba</string>
-	<string name="skip_for_local_storage">Saut ti wara ndo ti batango ye</string>
 	<string name="sort_value_alpha_asc">Iri A-Z</string>
 	<string name="sort_value_alpha_desc">Iri ti lo Z-A</string>
 	<string name="sort_value_date_asc">Date ti sigingo na ni ayeke gue na li ni</string>

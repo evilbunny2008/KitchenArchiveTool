@@ -114,7 +114,6 @@
 	<string name="request_again">Запросить еще раз</string>
 	<string name="search_hint">Поиск по имени</string>
 	<string name="search_in_all">Поиск</string>
-	<string name="skip_for_local_storage">Пропустить для локального хранилища</string>
 	<string name="sort_value_alpha_asc">Имя от А до Я</string>
 	<string name="sort_value_alpha_desc">Имя Z-A</string>
 	<string name="sort_value_date_asc">Дата публикации по возрастанию</string>

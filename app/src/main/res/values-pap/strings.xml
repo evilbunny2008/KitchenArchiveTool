@@ -114,7 +114,6 @@
 	<string name="request_again">Pidi un biaha mas</string>
 	<string name="search_hint">Buska pa nòmber</string>
 	<string name="search_in_all">Buska</string>
-	<string name="skip_for_local_storage">Salta pa almasenamentu lokal</string>
 	<string name="sort_value_alpha_asc">Nomber A-Z</string>
 	<string name="sort_value_alpha_desc">Nomber Z-A</string>
 	<string name="sort_value_date_asc">Fecha publiká subiendo</string>

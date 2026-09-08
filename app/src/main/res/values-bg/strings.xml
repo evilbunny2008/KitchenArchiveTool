@@ -114,7 +114,6 @@
 	<string name="request_again">Заявка отново</string>
 	<string name="search_hint">Търсене по име</string>
 	<string name="search_in_all">Търсене</string>
-	<string name="skip_for_local_storage">Пропуснете за локално съхранение</string>
 	<string name="sort_value_alpha_asc">Име A-Z</string>
 	<string name="sort_value_alpha_desc">Име Z-A</string>
 	<string name="sort_value_date_asc">Дата на публикуване във възходящ ред</string>

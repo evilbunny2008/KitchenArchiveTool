@@ -114,7 +114,6 @@
 	<string name="request_again">دوبارہ درخواست کریں۔</string>
 	<string name="search_hint">نام سے تلاش کریں۔</string>
 	<string name="search_in_all">تلاش کریں</string>
-	<string name="skip_for_local_storage">مقامی اسٹوریج کے لیے چھوڑیں۔</string>
 	<string name="sort_value_alpha_asc">نام A-Z</string>
 	<string name="sort_value_alpha_desc">نام Z-A</string>
 	<string name="sort_value_date_asc">صعودی شائع ہونے کی تاریخ</string>

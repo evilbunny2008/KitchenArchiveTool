@@ -114,7 +114,6 @@
 	<string name="request_again">Paghangyo utro</string>
 	<string name="search_hint">Pagbiling pinaagi han ngaran</string>
 	<string name="search_in_all">Pamiling</string>
-	<string name="skip_for_local_storage">Laktaw para han lokal nga pagtipig</string>
 	<string name="sort_value_alpha_asc">Ngaran A-Z</string>
 	<string name="sort_value_alpha_desc">Ngaran Z-A</string>
 	<string name="sort_value_date_asc">Petsa nga iginpublikar nga nasaka</string>

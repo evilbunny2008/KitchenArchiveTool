@@ -114,7 +114,6 @@
 	<string name="request_again">Mangataka indray</string>
 	<string name="search_hint">Karoka amin’ny anarana</string>
 	<string name="search_in_all">Karoka</string>
-	<string name="skip_for_local_storage">Alefaso ny fitahirizana eo an-toerana</string>
 	<string name="sort_value_alpha_asc">Anarana A-Z</string>
 	<string name="sort_value_alpha_desc">Anarana Z-A</string>
 	<string name="sort_value_date_asc">Daty namoahana miakatra</string>

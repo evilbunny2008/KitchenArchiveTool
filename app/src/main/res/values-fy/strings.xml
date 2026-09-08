@@ -114,7 +114,6 @@
 	<string name="request_again">Nochris oanfreegje</string>
 	<string name="search_hint">Sykje op namme</string>
 	<string name="search_in_all">Sykje</string>
-	<string name="skip_for_local_storage">Oerslaan foar lokale opslach</string>
 	<string name="sort_value_alpha_asc">Namme A-Z</string>
 	<string name="sort_value_alpha_desc">Namme Z-A</string>
 	<string name="sort_value_date_asc">Datum publisearre oprinnend</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">Iarr arís</string>
 	<string name="search_hint">Cuardaigh de réir ainm</string>
 	<string name="search_in_all">Cuardach</string>
-	<string name="skip_for_local_storage">Scipeáil le haghaidh stórála áitiúil</string>
 	<string name="sort_value_alpha_asc">Ainmnigh A-Z</string>
 	<string name="sort_value_alpha_desc">Ainm Z-A</string>
 	<string name="sort_value_date_asc">Dáta foilsithe ag dul suas</string>

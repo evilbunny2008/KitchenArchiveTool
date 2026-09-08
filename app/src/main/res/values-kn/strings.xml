@@ -114,7 +114,6 @@
 	<string name="request_again">ಮತ್ತೊಮ್ಮೆ ವಿನಂತಿಸಿ</string>
 	<string name="search_hint">ಹೆಸರಿನಿಂದ ಹುಡುಕಿ</string>
 	<string name="search_in_all">ಹುಡುಕು</string>
-	<string name="skip_for_local_storage">ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆಗಾಗಿ ಸ್ಕಿಪ್ ಮಾಡಿ</string>
 	<string name="sort_value_alpha_asc">ಹೆಸರು A-Z</string>
 	<string name="sort_value_alpha_desc">ಹೆಸರು Z-A</string>
 	<string name="sort_value_date_asc">ಆರೋಹಣವನ್ನು ಪ್ರಕಟಿಸಿದ ದಿನಾಂಕ</string>

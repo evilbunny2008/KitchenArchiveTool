@@ -132,7 +132,6 @@
 	<string name="request_again">Request again</string>
 	<string name="search_hint">Search by name</string>
 	<string name="search_in_all">Search…</string>
-	<string name="skip_for_local_storage">Skip for local storage</string>
 	<string name="sort_value_alpha_asc">Name A-Z</string>
 	<string name="sort_value_alpha_desc">Name Z-A</string>
 	<string name="sort_value_date_asc">Date published ascending</string>
@@ -155,7 +154,6 @@
 	<string name="sync_interval_name_12">Every 12 Hours</string>
 	<string name="sync_interval_name_24">Every 24 Hours</string>
 	<string name="sync_interval_name_off">Off</string>
-	<string name="syncing_recipes">Syncing your recipes…</string>
 	<string-array name="sync_interval_values" translatable="false">
 		<item>0</item>
 		<item>1</item>
@@ -164,6 +162,7 @@
 		<item>12</item>
 		<item>24</item>
 	</string-array>
+	<string name="syncing_recipes">Syncing your recipes…</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredients</string>
 	<string name="tab_instructions_title">Instructions</string>

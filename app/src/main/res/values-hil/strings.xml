@@ -114,7 +114,6 @@
 	<string name="request_again">Magpangabay liwat</string>
 	<string name="search_hint">Pangitaa paagi sa ngalan</string>
 	<string name="search_in_all">Magpangita</string>
-	<string name="skip_for_local_storage">Laktaw para sa lokal nga pagtipig</string>
 	<string name="sort_value_alpha_asc">Ngalan A-Z</string>
 	<string name="sort_value_alpha_desc">Ngalan Z-A</string>
 	<string name="sort_value_date_asc">Petsa nga ginbalhag nga nagasaka</string>

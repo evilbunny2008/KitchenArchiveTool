@@ -41,6 +41,21 @@ import java.io.File
 /**
  * Login/first-run screen.
  *
+ * Nextcloud login is the only path in -- there's no local-storage-only
+ * option to skip it, since this app's whole reason for existing is
+ * syncing with a Nextcloud Cookbook instance, and recipes kept purely on
+ * local storage with no account attached would simply be gone if the app
+ * were ever uninstalled, with nothing to recover them from.
+ *
+ * [LOGIN_COMPLETE_PREFERENCE] still exists and is still named around
+ * "skip" internally (see its string value below) purely for backward
+ * compatibility: it's already persisted on real devices under that exact
+ * key, from back when it also covered the now-removed local-storage
+ * path. Renaming the underlying SharedPreferences key/file strings would
+ * make every already-logged-in install suddenly see this screen again
+ * after updating, since the app would be looking for a key that was
+ * never written under the new name.
+ *
  * The post-login initial sync goes through [SyncScheduler] (WorkManager),
  * the same mechanism used everywhere else in the app -- not a raw
  * background thread owned directly by this Activity. That distinction
@@ -53,13 +68,9 @@ import java.io.File
  * keeps writing to local storage in the background regardless, with no
  * visible progress and no correctly-delivered completion callback. Worse,
  * if the person then proceeds through the freshly-recreated screen too
- * (since it just shows the login/skip buttons again, as if nothing had
+ * (since it just shows the login button again, as if nothing had
  * happened), a second sync can end up running concurrently with the
- * first, both writing to the same local recipe files at once -- which is
- * consistent with reports of an incomplete import that a later
- * pull-to-refresh didn't fix either (a subsequent sync's "already
- * up to date" check can be fooled by state left half-written by the
- * race).
+ * first, both writing to the same local recipe files at once.
  *
  * WorkManager avoids this on both fronts: the work itself isn't tied to
  * this Activity's lifetime at all, and SyncScheduler.syncNow()'s
@@ -77,9 +88,11 @@ import java.io.File
 class LoginActivity : AppCompatActivity() {
 
    companion object {
-      private const val SKIP_PREFERENCE = "cookbook_skip_login_preference_key"
-      private const val SKIP_PREFERENCE_FILE = "cookbook_login_preference"
-      private const val SKIP_PREFERENCE_DEFAULT = false
+      // Underlying string values deliberately unchanged -- see this
+      // class's doc comment.
+      private const val LOGIN_COMPLETE_PREFERENCE = "cookbook_skip_login_preference_key"
+      private const val LOGIN_COMPLETE_PREFERENCE_FILE = "cookbook_login_preference"
+      private const val LOGIN_COMPLETE_DEFAULT = false
       private const val STATE_IS_SYNCING = "is_syncing"
    }
 
@@ -93,9 +106,9 @@ class LoginActivity : AppCompatActivity() {
       setContentView(R.layout.activity_login)
       isSyncing = savedInstanceState?.getBoolean(STATE_IS_SYNCING) ?: false
 
-      val settings = getSharedPreferences(SKIP_PREFERENCE_FILE, MODE_PRIVATE)
-      val skipLogin = settings.getBoolean(SKIP_PREFERENCE, SKIP_PREFERENCE_DEFAULT)
-      if (skipLogin) {
+      val settings = getSharedPreferences(LOGIN_COMPLETE_PREFERENCE_FILE, MODE_PRIVATE)
+      val loginAlreadyComplete = settings.getBoolean(LOGIN_COMPLETE_PREFERENCE, LOGIN_COMPLETE_DEFAULT)
+      if (loginAlreadyComplete) {
          if (!PreferenceData.getInstance().isSyncServiceEnabled()) {
             val allowStorageAccess: Int = checkCallingOrSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
             if (allowStorageAccess == PackageManager.PERMISSION_GRANTED) {
@@ -117,7 +130,6 @@ class LoginActivity : AppCompatActivity() {
       }
 
       val login: Button = findViewById(R.id.buttonLogin)
-      val skip: Button = findViewById(R.id.buttonSkip)
 
       // View.clipToOutline (the XML attribute, API 31+) vs
       // View.setClipToOutline() (the method, API 21+): the same
@@ -136,10 +148,6 @@ class LoginActivity : AppCompatActivity() {
          Manifest.permission.READ_EXTERNAL_STORAGE,
          Manifest.permission.WRITE_EXTERNAL_STORAGE
       ).build()
-
-      skip.setOnClickListener {
-         skipAndOpenApp()
-      }
 
       if (isSyncing) {
          showSyncingUi()
@@ -160,7 +168,7 @@ class LoginActivity : AppCompatActivity() {
             // Finished, success or failure either way -- don't trap the
             // person on this screen forever over a failed initial sync;
             // they can always pull-to-refresh once inside the app.
-            skipAndOpenApp()
+            completeLoginAndOpenApp()
          }
       }
    }
@@ -226,13 +234,12 @@ class LoginActivity : AppCompatActivity() {
       }
       findViewById<TextView>(R.id.progress_text).text = getString(R.string.syncing_recipes)
       findViewById<Button>(R.id.buttonLogin).visibility = View.GONE
-      findViewById<Button>(R.id.buttonSkip).visibility = View.GONE
    }
 
-   private fun skipAndOpenApp() {
-      val settings = getSharedPreferences(SKIP_PREFERENCE_FILE, MODE_PRIVATE)
+   private fun completeLoginAndOpenApp() {
+      val settings = getSharedPreferences(LOGIN_COMPLETE_PREFERENCE_FILE, MODE_PRIVATE)
        settings.edit {
-           putBoolean(SKIP_PREFERENCE, true)
+           putBoolean(LOGIN_COMPLETE_PREFERENCE, true)
        }
 
       // permission for storage

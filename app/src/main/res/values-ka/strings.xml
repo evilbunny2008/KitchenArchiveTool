@@ -114,7 +114,6 @@
 	<string name="request_again">კვლავ მოითხოვეთ</string>
 	<string name="search_hint">მოძებნეთ სახელით</string>
 	<string name="search_in_all">ძიება</string>
-	<string name="skip_for_local_storage">ლოკალური შენახვისთვის გამოტოვება</string>
 	<string name="sort_value_alpha_asc">სახელი A-Z</string>
 	<string name="sort_value_alpha_desc">სახელი ზ-ა</string>
 	<string name="sort_value_date_asc">გამოქვეყნების თარიღი ზრდადი</string>

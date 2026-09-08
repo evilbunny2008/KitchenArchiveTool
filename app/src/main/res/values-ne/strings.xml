@@ -114,7 +114,6 @@
 	<string name="request_again">पुन: अनुरोध गर्नुहोस्</string>
 	<string name="search_hint">नाम द्वारा खोज्नुहोस्</string>
 	<string name="search_in_all">खोज</string>
-	<string name="skip_for_local_storage">स्थानीय भण्डारणको लागि छोड्नुहोस्</string>
 	<string name="sort_value_alpha_asc">नाम A-Z</string>
 	<string name="sort_value_alpha_desc">नाम Z-A</string>
 	<string name="sort_value_date_asc">मिति बढ्दै गयो</string>

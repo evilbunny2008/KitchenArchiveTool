@@ -114,7 +114,6 @@
 	<string name="request_again">Yana so’rang</string>
 	<string name="search_hint">Ism bo’yicha qidirish</string>
 	<string name="search_in_all">Qidiruv</string>
-	<string name="skip_for_local_storage">Mahalliy saqlash uchun oʻtkazib yuboring</string>
 	<string name="sort_value_alpha_asc">Ismi A-Z</string>
 	<string name="sort_value_alpha_desc">Ismi Z-A</string>
 	<string name="sort_value_date_asc">Nashr qilingan sana ortib bormoqda</string>

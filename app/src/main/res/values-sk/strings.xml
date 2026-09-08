@@ -114,7 +114,6 @@
 	<string name="request_again">Požiadajte znova</string>
 	<string name="search_hint">Hľadaj podľa mena</string>
 	<string name="search_in_all">Hľadať</string>
-	<string name="skip_for_local_storage">Preskočiť na miestne úložisko</string>
 	<string name="sort_value_alpha_asc">Meno A-Z</string>
 	<string name="sort_value_alpha_desc">Meno Z-A</string>
 	<string name="sort_value_date_asc">Dátum zverejnenia vzostupne</string>

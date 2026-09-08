@@ -114,7 +114,6 @@
 	<string name="request_again">फेरूं अरज करो</string>
 	<string name="search_hint">नाम सूं ढूंढो</string>
 	<string name="search_in_all">खोज़णो</string>
-	<string name="skip_for_local_storage">स्थानीय भंडारण रै वास्तै छोड़ो</string>
 	<string name="sort_value_alpha_asc">नाम ए-जेड</string>
 	<string name="sort_value_alpha_desc">नाम जेड-ए</string>
 	<string name="sort_value_date_asc">प्रकाशित तारीख आरोही</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">Omba tena</string>
 	<string name="search_hint">Tafuta kwa jina</string>
 	<string name="search_in_all">Tafuta</string>
-	<string name="skip_for_local_storage">Ruka kwa hifadhi ya ndani</string>
 	<string name="sort_value_alpha_asc">Jina A-Z</string>
 	<string name="sort_value_alpha_desc">Jina la Z-A</string>
 	<string name="sort_value_date_asc">Tarehe iliyochapishwa ikipanda</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">Тагын сорау</string>
 	<string name="search_hint">Исем буенча эзләү</string>
 	<string name="search_in_all">Эзләү</string>
-	<string name="skip_for_local_storage">Localирле саклауга күчү</string>
 	<string name="sort_value_alpha_asc">А-З исеме</string>
 	<string name="sort_value_alpha_desc">З-А исеме</string>
 	<string name="sort_value_date_asc">Күтәрелгән дата</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">Дахин хүсэлт гаргах</string>
 	<string name="search_hint">Нэрээр нь хайх</string>
 	<string name="search_in_all">Хайх</string>
-	<string name="skip_for_local_storage">Орон нутгийн хадгалах санг алгасах</string>
 	<string name="sort_value_alpha_asc">Нэр A-Z</string>
 	<string name="sort_value_alpha_desc">Нэр Z-A</string>
 	<string name="sort_value_date_asc">Нийтэлсэн огноо өсөх</string>

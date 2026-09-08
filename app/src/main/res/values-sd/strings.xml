@@ -114,7 +114,6 @@
 	<string name="request_again">ٻيهر درخواست ڪريو</string>
 	<string name="search_hint">نالي سان ڳولھيو</string>
 	<string name="search_in_all">ڳولهي</string>
-	<string name="skip_for_local_storage">مقامي اسٽوريج لاءِ ڇڏي ڏيو</string>
 	<string name="sort_value_alpha_asc">نالو A-Z</string>
 	<string name="sort_value_alpha_desc">نالو Z-A</string>
 	<string name="sort_value_date_asc">شايع ٿيڻ جي تاريخ</string>

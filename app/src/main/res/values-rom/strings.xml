@@ -114,7 +114,6 @@
 	<string name="request_again">Mangen pale</string>
 	<string name="search_hint">Roden palal o anav</string>
 	<string name="search_in_all">Rodel</string>
-	<string name="skip_for_local_storage">Nakhav palal o lokalo garavipen</string>
 	<string name="sort_value_alpha_asc">Anav A-Z</string>
 	<string name="sort_value_alpha_desc">Anav Z-A</string>
 	<string name="sort_value_date_asc">Data publicirime vazdel pes</string>

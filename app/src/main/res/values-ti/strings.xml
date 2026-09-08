@@ -114,7 +114,6 @@
 	<string name="request_again">ደጊምካ ሕተት።</string>
 	<string name="search_hint">ብስም ድለዩ።</string>
 	<string name="search_in_all">ምድላይ</string>
-	<string name="skip_for_local_storage">ንናይ ከባቢ መኽዘን ዘልል</string>
 	<string name="sort_value_alpha_asc">ስም A-Z</string>
 	<string name="sort_value_alpha_desc">ስም Z-A</string>
 	<string name="sort_value_date_asc">ዕለት ዝተሓትመሉ እናዓረገ</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">Kerea tale</string>
 	<string name="search_hint">Vakasaqara na yaca</string>
 	<string name="search_in_all">Vakasaqaqara</string>
-	<string name="skip_for_local_storage">Lako tani me baleta na maroroi ni vanua</string>
 	<string name="sort_value_alpha_asc">Yaca A-Z</string>
 	<string name="sort_value_alpha_desc">Yaca Z-A</string>
 	<string name="sort_value_date_asc">Siga ni tabaki cake</string>

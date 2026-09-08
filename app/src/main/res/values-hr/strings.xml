@@ -114,7 +114,6 @@
 	<string name="request_again">Ponovi zahtjev</string>
 	<string name="search_hint">Traži po imenu</string>
 	<string name="search_in_all">Pretraživanje</string>
-	<string name="skip_for_local_storage">Preskoči za lokalnu pohranu</string>
 	<string name="sort_value_alpha_asc">Ime A-Z</string>
 	<string name="sort_value_alpha_desc">Ime Z-A</string>
 	<string name="sort_value_date_asc">Datum objave uzlazno</string>

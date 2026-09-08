@@ -114,7 +114,6 @@
 	<string name="request_again">Beiðni aftur</string>
 	<string name="search_hint">Leitaðu eftir nafni</string>
 	<string name="search_in_all">Leita</string>
-	<string name="skip_for_local_storage">Slepptu fyrir staðbundna geymslu</string>
 	<string name="sort_value_alpha_asc">Nafnið A-Z</string>
 	<string name="sort_value_alpha_desc">Nafn Z-A</string>
 	<string name="sort_value_date_asc">Dagsetning birt hækkandi</string>

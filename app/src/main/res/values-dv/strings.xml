@@ -114,7 +114,6 @@
 	<string name="request_again">އަނެއްކާވެސް ރިކުއެސްޓް ކުރާށެވެ</string>
 	<string name="search_hint">ނަމުން ހޯދާށެވެ</string>
 	<string name="search_in_all">ހޯދުން</string>
-	<string name="skip_for_local_storage">ލޯކަލް ސްޓޯރޭޖަށް ދޫކޮށްލާށެވެ</string>
 	<string name="sort_value_alpha_asc">ނަން އޭ-ޒެޑް އެވެ</string>
 	<string name="sort_value_alpha_desc">ނަން ޒެޑް-އޭ</string>
 	<string name="sort_value_date_asc">ޝާއިޢުކުރި ތާރީޚު މައްޗަށް އަރައެވެ</string>

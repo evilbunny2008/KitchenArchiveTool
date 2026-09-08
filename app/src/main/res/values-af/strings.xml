@@ -109,12 +109,12 @@
 	<string name="recipe_import_failure">Kon nie die resep invoer nie: %1$s</string>
 	<string name="recipe_import_in_progress">Voer tans resep in …</string>
 	<string name="recipe_import_menu_title">Voer resep vanaf URL in</string>
+	<string name="recipe_import_upload_failure">Kon nie ‘%1$s’ by kookboek voeg nie</string>
 	<string name="recipe_list_image_desc">Prent-kleinkiekie van resep</string>
 	<string name="recipe_no_timer">Hierdie resep het nie ‘n timer nie!</string>
 	<string name="request_again">Versoek weer</string>
 	<string name="search_hint">Soek op naam</string>
 	<string name="search_in_all">Soek</string>
-	<string name="skip_for_local_storage">Slaan oor vir plaaslike berging</string>
 	<string name="sort_value_alpha_asc">Noem A-Z</string>
 	<string name="sort_value_alpha_desc">Noem Z-A</string>
 	<string name="sort_value_date_asc">Datum gepubliseer stygend</string>

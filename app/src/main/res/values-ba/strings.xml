@@ -114,7 +114,6 @@
 	<string name="request_again">Яңынан һорау</string>
 	<string name="search_hint">Исем буйынса эҙләү</string>
 	<string name="search_in_all">Эҙләргә</string>
-	<string name="skip_for_local_storage">Урындағы һаҡлау өсөн үткәреү</string>
 	<string name="sort_value_alpha_asc">Исем А-Я</string>
 	<string name="sort_value_alpha_desc">Исем З-А</string>
 	<string name="sort_value_date_asc">Дата публикации восходящего</string>

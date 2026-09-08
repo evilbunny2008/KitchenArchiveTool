@@ -114,7 +114,6 @@
 	<string name="request_again">पुनः आग्रह करू</string>
 	<string name="search_hint">नाम से खोजें</string>
 	<string name="search_in_all">खोजनाइ</string>
-	<string name="skip_for_local_storage">स्थानीय भंडारण के लेल छोड़ू</string>
 	<string name="sort_value_alpha_asc">नाम ए-जेड</string>
 	<string name="sort_value_alpha_desc">नाम जेड-ए</string>
 	<string name="sort_value_date_asc">आरोही प्रकाशित तिथि</string>

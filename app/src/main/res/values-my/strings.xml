@@ -114,7 +114,6 @@
 	<string name="request_again">ထပ်မံတောင်းဆိုပါ။</string>
 	<string name="search_hint">အမည်ဖြင့်ရှာဖွေပါ။</string>
 	<string name="search_in_all">ရှာဖွေပါ</string>
-	<string name="skip_for_local_storage">စက်တွင်းသိုလှောင်မှုအတွက် ကျော်သွားပါ။</string>
 	<string name="sort_value_alpha_asc">နာမည် A-Z</string>
 	<string name="sort_value_alpha_desc">နာမည် Z-A</string>
 	<string name="sort_value_date_asc">ထုတ်ဝေသည့်ရက်စွဲ ကြီးနေပါသည်။</string>

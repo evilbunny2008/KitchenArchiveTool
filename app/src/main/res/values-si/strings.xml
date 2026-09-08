@@ -114,7 +114,6 @@
 	<string name="request_again">නැවත ඉල්ලන්න</string>
 	<string name="search_hint">නම අනුව සොයන්න</string>
 	<string name="search_in_all">සොයන්න</string>
-	<string name="skip_for_local_storage">දේශීය ගබඩා කිරීම සඳහා මඟ හරින්න</string>
 	<string name="sort_value_alpha_asc">නම A-Z</string>
 	<string name="sort_value_alpha_desc">නම Z-A</string>
 	<string name="sort_value_date_asc">ආරෝහණ ප්‍රකාශනය කළ දිනය</string>

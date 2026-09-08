@@ -114,7 +114,6 @@
 	<string name="request_again">फिर रिक्वेस्ट करो</string>
 	<string name="search_hint">नाम दे द्वारा खोजें</string>
 	<string name="search_in_all">तपाश</string>
-	<string name="skip_for_local_storage">लोकल स्टोरेज लेई छोड़ो</string>
 	<string name="sort_value_alpha_asc">नाम ए-जेड</string>
 	<string name="sort_value_alpha_desc">नाम जेड-ए</string>
 	<string name="sort_value_date_asc">आरोही प्रकाशित की तारीख</string>

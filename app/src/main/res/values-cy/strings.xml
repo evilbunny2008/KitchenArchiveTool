@@ -114,7 +114,6 @@
 	<string name="request_again">Cais eto</string>
 	<string name="search_hint">Chwilio yn ôl enw</string>
 	<string name="search_in_all">Chwilio</string>
-	<string name="skip_for_local_storage">Sgip ar gyfer storfa leol</string>
 	<string name="sort_value_alpha_asc">Enw A-Z</string>
 	<string name="sort_value_alpha_desc">Enw Z-A</string>
 	<string name="sort_value_date_asc">Dyddiad cyhoeddi esgynnol</string>

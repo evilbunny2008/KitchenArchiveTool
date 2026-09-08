@@ -114,7 +114,6 @@
 	<string name="request_again">Agkiddaw manen</string>
 	<string name="search_hint">Agbirok babaen ti nagan</string>
 	<string name="search_in_all">Agbirok</string>
-	<string name="skip_for_local_storage">Laktawan para iti lokal a pagipempenan</string>
 	<string name="sort_value_alpha_asc">Nagan nga A-Z</string>
 	<string name="sort_value_alpha_desc">Nagan nga Z-A</string>
 	<string name="sort_value_date_asc">Petsa a naipablaak nga agpangato</string>

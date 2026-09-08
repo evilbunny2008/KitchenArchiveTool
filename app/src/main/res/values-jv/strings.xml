@@ -114,7 +114,6 @@
 	<string name="request_again">Njaluk maneh</string>
 	<string name="search_hint">Telusuri miturut jeneng</string>
 	<string name="search_in_all">Nggoleki</string>
-	<string name="skip_for_local_storage">Skip kanggo panyimpenan lokal</string>
 	<string name="sort_value_alpha_asc">jenenge A-Z</string>
 	<string name="sort_value_alpha_desc">Jeneng Z-A</string>
 	<string name="sort_value_date_asc">Tanggal diterbitake munggah</string>

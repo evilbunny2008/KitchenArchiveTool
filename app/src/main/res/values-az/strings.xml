@@ -114,7 +114,6 @@
 	<string name="request_again">Yenidən tələb edin</string>
 	<string name="search_hint">Ada görə axtarın</string>
 	<string name="search_in_all">Axtar</string>
-	<string name="skip_for_local_storage">Yerli yaddaş üçün keçin</string>
 	<string name="sort_value_alpha_asc">Adı A-Z</string>
 	<string name="sort_value_alpha_desc">Adı Z-A</string>
 	<string name="sort_value_date_asc">Yayımlanma tarixi artan</string>

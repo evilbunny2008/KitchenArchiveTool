@@ -114,7 +114,6 @@
 	<string name="request_again">Senga lisusu</string>
 	<string name="search_hint">Luká na nkombo</string>
 	<string name="search_in_all">Koluka</string>
-	<string name="skip_for_local_storage">Salá koleka mpo na kobomba biloko na esika ofandi</string>
 	<string name="sort_value_alpha_asc">Kombo A-Z</string>
 	<string name="sort_value_alpha_desc">Kombo Z-A</string>
 	<string name="sort_value_date_asc">Date oyo ebimisamaki ezali komata</string>

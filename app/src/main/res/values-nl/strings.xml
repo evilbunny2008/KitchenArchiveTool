@@ -114,7 +114,6 @@
 	<string name="request_again">Opnieuw aanvragen</string>
 	<string name="search_hint">Zoek op naam</string>
 	<string name="search_in_all">Zoekopdracht</string>
-	<string name="skip_for_local_storage">Overslaan voor lokale opslag</string>
 	<string name="sort_value_alpha_asc">Naam A-Z</string>
 	<string name="sort_value_alpha_desc">Naam Z-A</string>
 	<string name="sort_value_date_asc">Datum gepubliceerd oplopend</string>

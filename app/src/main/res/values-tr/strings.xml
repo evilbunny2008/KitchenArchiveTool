@@ -114,7 +114,6 @@
 	<string name="request_again">Tekrar iste</string>
 	<string name="search_hint">Ada göre ara</string>
 	<string name="search_in_all">Aramak</string>
-	<string name="skip_for_local_storage">Yerel depolamayı atla</string>
 	<string name="sort_value_alpha_asc">A’dan Z’ye İsim</string>
 	<string name="sort_value_alpha_desc">İsim Z-A</string>
 	<string name="sort_value_date_asc">Artan şekilde yayınlanma tarihi</string>

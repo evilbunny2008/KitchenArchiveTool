@@ -109,12 +109,13 @@
 	<string name="recipe_import_failure">maaqo bicsiyyi miracsenta culsam maduuda: %1$s</string>
 	<string name="recipe_import_in_progress">maaqo bicsiyyi miracsenta culsaanam</string>
 	<string name="recipe_import_menu_title">maaqo bicsiyyi miracsenta URL ik culus</string>
+	<string name="recipe_import_upload_failure">Alaysoh kitaabat ‘%1$s’ ossam maduuda</string>
+	<string name="recipe_import_upload_success">Alaysiyyi kitaabat ‘%1$s’ ossimeh</string>
 	<string name="recipe_list_image_desc">maaqo bicsih miracsenta muuci qunxa muuci</string>
 	<string name="recipe_no_timer">Ta maaqo bicsih cugda wakti lowsiise mali!</string>
 	<string name="request_again">Qagitaak essera</string>
 	<string name="search_hint">Migaaqal gorrisa</string>
 	<string name="search_in_all">Gorana</string>
-	<string name="skip_for_local_storage">baaxoh addah kobxiseenah kaqit</string>
 	<string name="sort_value_alpha_asc">Migaq A-Z</string>
 	<string name="sort_value_alpha_desc">Migaq Z-A</string>
 	<string name="sort_value_date_asc">ayro yitbiqimem fayya iyya</string>
@@ -129,6 +130,7 @@
 	<string name="sync_interval_name_12">Kulli 12 Saaqata</string>
 	<string name="sync_interval_name_24">Kulli 24 Saaqata</string>
 	<string name="sync_interval_name_off">Baysu</string>
+	<string name="syncing_recipes">ku maaqo bicsiyyih cogdaadi celsis</string>
 	<string name="tab_info_title">Oyti</string>
 	<string name="tab_ingredients_title">Caxa‘ sifa</string>
 	<string name="tab_instructions_title">Amri</string>

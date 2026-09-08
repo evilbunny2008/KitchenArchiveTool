@@ -114,7 +114,6 @@
 	<string name="request_again">Дахин гуйха</string>
 	<string name="search_hint">Нэрээрээ бэдэрхэ</string>
 	<string name="search_in_all">Бэдэрэлгэ</string>
-	<string name="skip_for_local_storage">Нютагай хадагалха руу алгасаха</string>
 	<string name="sort_value_alpha_asc">А-Я нэрэ</string>
 	<string name="sort_value_alpha_desc">Z-A гэжэ нэрэ</string>
 	<string name="sort_value_date_asc">Хэблэгдэһэн үдэр нэмэгдэжэ байна</string>

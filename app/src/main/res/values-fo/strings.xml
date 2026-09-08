@@ -114,7 +114,6 @@
 	<string name="request_again">Bið um aftur</string>
 	<string name="search_hint">Leita eftir navni</string>
 	<string name="search_in_all">Leita</string>
-	<string name="skip_for_local_storage">Hoppa fyri lokalari goymslu</string>
 	<string name="sort_value_alpha_asc">Navn A-Z</string>
 	<string name="sort_value_alpha_desc">Navn Z-A</string>
 	<string name="sort_value_date_asc">Dagfesting útgivin stigandi</string>

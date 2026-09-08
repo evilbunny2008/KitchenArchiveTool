@@ -114,7 +114,6 @@
 	<string name="request_again">ਦੁਬਾਰਾ ਬੇਨਤੀ ਕਰੋ</string>
 	<string name="search_hint">ਨਾਮ ਦੁਆਰਾ ਖੋਜ ਕਰੋ</string>
 	<string name="search_in_all">ਖੋਜ</string>
-	<string name="skip_for_local_storage">ਸਥਾਨਕ ਸਟੋਰੇਜ ਲਈ ਛੱਡੋ</string>
 	<string name="sort_value_alpha_asc">ਨਾਮ A-Z</string>
 	<string name="sort_value_alpha_desc">ਨਾਮ Z-A</string>
 	<string name="sort_value_date_asc">ਵੱਧਦੇ ਹੋਏ ਪ੍ਰਕਾਸ਼ਿਤ ਹੋਣ ਦੀ ਤਾਰੀਖ</string>

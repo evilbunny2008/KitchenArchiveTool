@@ -114,7 +114,6 @@
 	<string name="request_again">Эмиэ көрдөһүү</string>
 	<string name="search_hint">Аатынан көрдөө</string>
 	<string name="search_in_all">Көрдөө</string>
-	<string name="skip_for_local_storage">Олохтоох хранилищеҕа көтүт</string>
 	<string name="sort_value_alpha_asc">Аат А-Я</string>
 	<string name="sort_value_alpha_desc">Аата Z-A</string>
 	<string name="sort_value_date_asc">Бэчээттэммит күнэ үрдээн иһэр</string>

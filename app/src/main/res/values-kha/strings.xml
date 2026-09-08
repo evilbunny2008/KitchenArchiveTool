@@ -114,7 +114,6 @@
 	<string name="request_again">Kyrpad biang</string>
 	<string name="search_hint">Ka jingwad da ka kyrteng</string>
 	<string name="search_in_all">Wad</string>
-	<string name="skip_for_local_storage">Skip na ka bynta ka jingbuh jingkynmaw</string>
 	<string name="sort_value_alpha_asc">Kyrteng A-Z</string>
 	<string name="sort_value_alpha_desc">Kyrteng Z-A</string>
 	<string name="sort_value_date_asc">Ka tarik ba la pynmih</string>

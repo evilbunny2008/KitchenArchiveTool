@@ -114,7 +114,6 @@
 	<string name="request_again">Захтевајте поново</string>
 	<string name="search_hint">Тражи по имену</string>
 	<string name="search_in_all">Тражи</string>
-	<string name="skip_for_local_storage">Прескочите за локално складиште</string>
 	<string name="sort_value_alpha_asc">Име А-З</string>
 	<string name="sort_value_alpha_desc">Име З-А</string>
 	<string name="sort_value_date_asc">Датум објављивања расте</string>

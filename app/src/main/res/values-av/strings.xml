@@ -114,7 +114,6 @@
 	<string name="request_again">ЦӀидасан гьаре</string>
 	<string name="search_hint">ЦӀаралдалъун балагье</string>
 	<string name="search_in_all">Ралагьизе</string>
-	<string name="skip_for_local_storage">Пропустить для местного хранилища</string>
 	<string name="sort_value_alpha_asc">ЦӀар А-Я</string>
 	<string name="sort_value_alpha_desc">ЦӀар З-А</string>
 	<string name="sort_value_date_asc">Дата публикации восходящая</string>

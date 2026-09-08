@@ -114,7 +114,6 @@
 	<string name="request_again">Funsaninso</string>
 	<string name="search_hint">Sakani ndi dzina</string>
 	<string name="search_in_all">Sakani</string>
-	<string name="skip_for_local_storage">Dumphani kuti mukasungire kwanuko</string>
 	<string name="sort_value_alpha_asc">Dzina A-Z</string>
 	<string name="sort_value_alpha_desc">Dzina Z-A</string>
 	<string name="sort_value_date_asc">Tsiku lofalitsidwa likukwera</string>

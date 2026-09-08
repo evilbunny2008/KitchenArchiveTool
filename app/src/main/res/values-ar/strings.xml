@@ -114,7 +114,6 @@
 	<string name="request_again">اطلب مرة أخرى</string>
 	<string name="search_hint">البحث بالاسم</string>
 	<string name="search_in_all">يبحث</string>
-	<string name="skip_for_local_storage">تخطي للتخزين المحلي</string>
 	<string name="sort_value_alpha_asc">الاسم من الألف إلى الياء</string>
 	<string name="sort_value_alpha_desc">الاسم Z-A</string>
 	<string name="sort_value_date_asc">تاريخ النشر تصاعدي</string>

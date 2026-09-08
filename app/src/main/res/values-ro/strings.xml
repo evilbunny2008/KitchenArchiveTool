@@ -114,7 +114,6 @@
 	<string name="request_again">Solicitați din nou</string>
 	<string name="search_hint">Căutați după nume</string>
 	<string name="search_in_all">Căutare</string>
-	<string name="skip_for_local_storage">Omiteți pentru stocarea locală</string>
 	<string name="sort_value_alpha_asc">Numele A-Z</string>
 	<string name="sort_value_alpha_desc">Numele Z-A</string>
 	<string name="sort_value_date_asc">Data publicării crescător</string>

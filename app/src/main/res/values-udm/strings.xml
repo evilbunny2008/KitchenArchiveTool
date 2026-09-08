@@ -114,7 +114,6 @@
 	<string name="request_again">Нош ик куре</string>
 	<string name="search_hint">Нимъя утчано</string>
 	<string name="search_in_all">Утчан</string>
-	<string name="skip_for_local_storage">Интыысь хранилище понна лэзьыны</string>
 	<string name="sort_value_alpha_asc">Ним А-Я</string>
 	<string name="sort_value_alpha_desc">Ним Z-A</string>
 	<string name="sort_value_date_asc">Дата публикации восходящий</string>

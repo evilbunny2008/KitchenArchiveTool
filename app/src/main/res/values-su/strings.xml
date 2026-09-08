@@ -114,7 +114,6 @@
 	<string name="request_again">Menta deui</string>
 	<string name="search_hint">Pilarian ku ngaran</string>
 	<string name="search_in_all">Pilarian</string>
-	<string name="skip_for_local_storage">Skip pikeun neundeun lokal</string>
 	<string name="sort_value_alpha_asc">Ngaran A-Z</string>
 	<string name="sort_value_alpha_desc">Ngaran Z-A</string>
 	<string name="sort_value_date_asc">Tanggal diterbitkeun naek</string>

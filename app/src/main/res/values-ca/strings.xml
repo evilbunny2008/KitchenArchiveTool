@@ -114,7 +114,6 @@
 	<string name="request_again">Sol·licitar de nou</string>
 	<string name="search_hint">Cerca per nom</string>
 	<string name="search_in_all">Cerca</string>
-	<string name="skip_for_local_storage">Omet l’emmagatzematge local</string>
 	<string name="sort_value_alpha_asc">Nom A-Z</string>
 	<string name="sort_value_alpha_desc">Nom Z-A</string>
 	<string name="sort_value_date_asc">Data de publicació ascendent</string>

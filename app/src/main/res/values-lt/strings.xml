@@ -114,7 +114,6 @@
 	<string name="request_again">Prašyti dar kartą</string>
 	<string name="search_hint">Ieškoti pagal pavadinimą</string>
 	<string name="search_in_all">Ieškoti</string>
-	<string name="skip_for_local_storage">Praleisti vietinę saugyklą</string>
 	<string name="sort_value_alpha_asc">Vardas A-Z</string>
 	<string name="sort_value_alpha_desc">Vardas Z-A</string>
 	<string name="sort_value_date_asc">Paskelbimo data didėjančia tvarka</string>

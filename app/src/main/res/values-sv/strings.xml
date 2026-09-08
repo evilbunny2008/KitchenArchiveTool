@@ -114,7 +114,6 @@
 	<string name="request_again">Begär igen</string>
 	<string name="search_hint">Sök på namn</string>
 	<string name="search_in_all">Söka</string>
-	<string name="skip_for_local_storage">Hoppa över för lokal lagring</string>
 	<string name="sort_value_alpha_asc">Namn A-Z</string>
 	<string name="sort_value_alpha_desc">Namn Z-A</string>
 	<string name="sort_value_date_asc">Publiceringsdatum stigande</string>

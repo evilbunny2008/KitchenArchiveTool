@@ -114,7 +114,6 @@
 	<string name="request_again">Humiling muli</string>
 	<string name="search_hint">Maghanap ayon sa pangalan</string>
 	<string name="search_in_all">Hanapin</string>
-	<string name="skip_for_local_storage">Laktawan para sa lokal na imbakan</string>
 	<string name="sort_value_alpha_asc">Pangalan A-Z</string>
 	<string name="sort_value_alpha_desc">Pangalan Z-A</string>
 	<string name="sort_value_date_asc">Pataas ang petsang nai-publish</string>

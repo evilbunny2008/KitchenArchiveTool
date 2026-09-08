@@ -114,7 +114,6 @@
 	<string name="request_again">እንደገና ይጠይቁ</string>
 	<string name="search_hint">በስም ፈልግ</string>
 	<string name="search_in_all">ፈልግ</string>
-	<string name="skip_for_local_storage">ለአካባቢያዊ ማከማቻ ዝለል</string>
 	<string name="sort_value_alpha_asc">ስም A-Z</string>
 	<string name="sort_value_alpha_desc">ስም Z-A</string>
 	<string name="sort_value_date_asc">ወደ ላይ የሚወጣበት ቀን</string>

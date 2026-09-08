@@ -114,7 +114,6 @@
 	<string name="request_again">Зноў запытаць</string>
 	<string name="search_hint">Пошук па імені</string>
 	<string name="search_in_all">Пошук</string>
-	<string name="skip_for_local_storage">Перайсці да лакальнага сховішча</string>
 	<string name="sort_value_alpha_asc">Імя ад А да Я</string>
 	<string name="sort_value_alpha_desc">Імя Z-A</string>
 	<string name="sort_value_date_asc">Дата публікацыі па ўзрастанні</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">Ammas gaafadhu</string>
 	<string name="search_hint">Maqaadhaan barbaadi</string>
 	<string name="search_in_all">Barbaaduu</string>
-	<string name="skip_for_local_storage">Kuusaa naannoo sanaaf darbi</string>
 	<string name="sort_value_alpha_asc">Maqaa A-Z</string>
 	<string name="sort_value_alpha_desc">Maqaa Z-A</string>
 	<string name="sort_value_date_asc">Guyyaan maxxanfame olka’aa</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">Paghangyo pag-usab</string>
 	<string name="search_hint">Pangitaa pinaagi sa ngalan</string>
 	<string name="search_in_all">Pangita</string>
-	<string name="skip_for_local_storage">Laktawan alang sa lokal nga pagtipig</string>
 	<string name="sort_value_alpha_asc">Ngalan A-Z</string>
 	<string name="sort_value_alpha_desc">Ngalan Z-A</string>
 	<string name="sort_value_date_asc">Ang petsa nga gimantala misaka</string>

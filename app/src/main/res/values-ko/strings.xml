@@ -114,7 +114,6 @@
 	<string name="request_again">다시 요청</string>
 	<string name="search_hint">이름으로 검색</string>
 	<string name="search_in_all">찾다</string>
-	<string name="skip_for_local_storage">로컬 저장소로 건너뛰기</string>
 	<string name="sort_value_alpha_asc">이름 A~Z</string>
 	<string name="sort_value_alpha_desc">이름 Z-A</string>
 	<string name="sort_value_date_asc">게시된 날짜 오름차순</string>

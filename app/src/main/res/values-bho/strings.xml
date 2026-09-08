@@ -114,7 +114,6 @@
 	<string name="request_again">फेर से निहोरा कइल जाव</string>
 	<string name="search_hint">नाम से खोजल जाव</string>
 	<string name="search_in_all">तलाशी</string>
-	<string name="skip_for_local_storage">स्थानीय भंडारण खातिर छोड़ दीं</string>
 	<string name="sort_value_alpha_asc">नाम ए-जेड के बा</string>
 	<string name="sort_value_alpha_desc">नाम जेड-ए के बा</string>
 	<string name="sort_value_date_asc">आरोही होत प्रकाशित भइल तारीख</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">വീണ്ടും അഭ്യർത്ഥിക്കുക</string>
 	<string name="search_hint">പേര് ഉപയോഗിച്ച് തിരയുക</string>
 	<string name="search_in_all">തിരയുക</string>
-	<string name="skip_for_local_storage">പ്രാദേശിക സംഭരണത്തിനായി ഒഴിവാക്കുക</string>
 	<string name="sort_value_alpha_asc">പേര് A-Z</string>
 	<string name="sort_value_alpha_desc">പേര് Z-A</string>
 	<string name="sort_value_date_asc">ആരോഹണത്തിൽ പ്രസിദ്ധീകരിച്ച തീയതി</string>

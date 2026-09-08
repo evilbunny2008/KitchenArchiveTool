@@ -114,7 +114,6 @@
 	<string name="request_again">Talba mill-ġdid</string>
 	<string name="search_hint">Fittex bl-isem</string>
 	<string name="search_in_all">Fittex</string>
-	<string name="skip_for_local_storage">Aqbeż għall-ħażna lokali</string>
 	<string name="sort_value_alpha_asc">Isem A-Z</string>
 	<string name="sort_value_alpha_desc">Isem Z-A</string>
 	<string name="sort_value_date_asc">Data ppubblikata axxendenti</string>

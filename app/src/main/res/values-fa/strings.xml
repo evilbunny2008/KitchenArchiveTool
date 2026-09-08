@@ -114,7 +114,6 @@
 	<string name="request_again">دوباره درخواست کن</string>
 	<string name="search_hint">جستجو بر اساس نام</string>
 	<string name="search_in_all">جستجو</string>
-	<string name="skip_for_local_storage">برای ذخیره سازی محلی رد شوید</string>
 	<string name="sort_value_alpha_asc">نام A-Z</string>
 	<string name="sort_value_alpha_desc">نام Z-A</string>
 	<string name="sort_value_date_asc">تاریخ انتشار صعودی</string>

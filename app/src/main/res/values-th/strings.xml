@@ -114,7 +114,6 @@
 	<string name="request_again">ขออีกครั้ง</string>
 	<string name="search_hint">ค้นหาตามชื่อ</string>
 	<string name="search_in_all">ค้นหา</string>
-	<string name="skip_for_local_storage">ข้ามไปที่การจัดเก็บในเครื่อง</string>
 	<string name="sort_value_alpha_asc">ชื่อ ก-ฮ</string>
 	<string name="sort_value_alpha_desc">ชื่อ Z-A</string>
 	<string name="sort_value_date_asc">วันที่เผยแพร่จากน้อยไปหามาก</string>

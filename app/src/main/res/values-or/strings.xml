@@ -114,7 +114,6 @@
 	<string name="request_again">ପୁନର୍ବାର ଅନୁରୋଧ |</string>
 	<string name="search_hint">ନାମ ଅନୁଯାୟୀ ସନ୍ଧାନ କରନ୍ତୁ |</string>
 	<string name="search_in_all">ସନ୍ଧାନ</string>
-	<string name="skip_for_local_storage">ସ୍ଥାନୀୟ ସଂରକ୍ଷଣ ପାଇଁ ଛାଡିଦିଅ |</string>
 	<string name="sort_value_alpha_asc">ନାମ A-Z</string>
 	<string name="sort_value_alpha_desc">Z-A ନାମ ଦିଅ |</string>
 	<string name="sort_value_date_asc">ଆରୋହଣ ତାରିଖ ପ୍ରକାଶିତ |</string>

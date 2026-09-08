@@ -114,7 +114,6 @@
 	<string name="request_again">Požádejte znovu</string>
 	<string name="search_hint">Hledejte podle jména</string>
 	<string name="search_in_all">Vyhledávání</string>
-	<string name="skip_for_local_storage">Přeskočit na místní úložiště</string>
 	<string name="sort_value_alpha_asc">Jméno A-Z</string>
 	<string name="sort_value_alpha_desc">Jméno Z-A</string>
 	<string name="sort_value_date_asc">Datum zveřejnění vzestupně</string>

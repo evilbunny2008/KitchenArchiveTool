@@ -114,7 +114,6 @@
 	<string name="request_again">Noi hou</string>
 	<string name="search_hint">Huli ma ka inoa</string>
 	<string name="search_in_all">Huli</string>
-	<string name="skip_for_local_storage">Holo no kahi mālama kūloko</string>
 	<string name="sort_value_alpha_asc">Inoa A-Z</string>
 	<string name="sort_value_alpha_desc">Inoa Z-A</string>
 	<string name="sort_value_date_asc">Ka lā i paʻi ʻia e piʻi ana</string>

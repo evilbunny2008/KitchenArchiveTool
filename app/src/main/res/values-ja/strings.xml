@@ -114,7 +114,6 @@
 	<string name="request_again">再度リクエストしてください</string>
 	<string name="search_hint">名前で検索</string>
 	<string name="search_in_all">検索</string>
-	<string name="skip_for_local_storage">ローカル ストレージの場合はスキップします</string>
 	<string name="sort_value_alpha_asc">名前 A ～ Z</string>
 	<string name="sort_value_alpha_desc">名前 Z-A</string>
 	<string name="sort_value_date_asc">発行日の昇順</string>

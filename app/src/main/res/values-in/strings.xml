@@ -114,7 +114,6 @@
 	<string name="request_again">Minta lagi</string>
 	<string name="search_hint">Cari berdasarkan nama</string>
 	<string name="search_in_all">Mencari</string>
-	<string name="skip_for_local_storage">Lewati untuk penyimpanan lokal</string>
 	<string name="sort_value_alpha_asc">Nama A-Z</string>
 	<string name="sort_value_alpha_desc">Nama Z-A</string>
 	<string name="sort_value_date_asc">Tanggal diterbitkan dalam urutan menaik</string>

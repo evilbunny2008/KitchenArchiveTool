@@ -114,7 +114,6 @@
 	<string name="request_again">ស្នើសុំម្តងទៀត</string>
 	<string name="search_hint">ស្វែងរកតាមឈ្មោះ</string>
 	<string name="search_in_all">ស្វែងរក</string>
-	<string name="skip_for_local_storage">រំលងសម្រាប់ការផ្ទុកក្នុងតំបន់</string>
 	<string name="sort_value_alpha_asc">ឈ្មោះ A-Z</string>
 	<string name="sort_value_alpha_desc">ឈ្មោះ Z-A</string>
 	<string name="sort_value_date_asc">កាលបរិច្ឆេទ​បោះពុម្ព​ឡើង</string>

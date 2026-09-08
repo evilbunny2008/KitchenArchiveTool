@@ -114,7 +114,6 @@
 	<string name="request_again">Ζητήστε ξανά</string>
 	<string name="search_hint">Αναζήτηση με όνομα</string>
 	<string name="search_in_all">Ερευνα</string>
-	<string name="skip_for_local_storage">Παράλειψη για τοπική αποθήκευση</string>
 	<string name="sort_value_alpha_asc">Όνομα Α-Ζ</string>
 	<string name="sort_value_alpha_desc">Όνομα Ζ-Α</string>
 	<string name="sort_value_date_asc">Ημερομηνία δημοσίευσης αύξουσα</string>

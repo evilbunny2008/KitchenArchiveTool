@@ -114,7 +114,6 @@
 	<string name="request_again">আকৌ অনুৰোধ কৰক</string>
 	<string name="search_hint">নামেৰে সন্ধান কৰক</string>
 	<string name="search_in_all">সন্ধান</string>
-	<string name="skip_for_local_storage">স্থানীয় সংৰক্ষণৰ বাবে এৰি দিয়ক</string>
 	<string name="sort_value_alpha_asc">নাম এ-জেড</string>
 	<string name="sort_value_alpha_desc">নাম Z-A</string>
 	<string name="sort_value_date_asc">প্ৰকাশৰ তাৰিখ আৰোহী</string>

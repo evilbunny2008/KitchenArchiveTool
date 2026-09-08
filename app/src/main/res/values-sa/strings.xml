@@ -114,7 +114,6 @@
 	<string name="request_again">पुनः अनुरोधं कुरुत</string>
 	<string name="search_hint">नाम्ना अन्वेषणं कुर्वन्तु</string>
 	<string name="search_in_all">अन्वेषण</string>
-	<string name="skip_for_local_storage">स्थानीयभण्डारणार्थं त्यजन्तु</string>
 	<string name="sort_value_alpha_asc">नाम अ-झ</string>
 	<string name="sort_value_alpha_desc">नाम Z-A</string>
 	<string name="sort_value_date_asc">आरोही प्रकाशित तिथि</string>

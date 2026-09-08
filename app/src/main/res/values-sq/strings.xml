@@ -114,7 +114,6 @@
 	<string name="request_again">Kërkoni përsëri</string>
 	<string name="search_hint">Kërkoni sipas emrit</string>
 	<string name="search_in_all">Kërko</string>
-	<string name="skip_for_local_storage">Kalo për ruajtjen lokale</string>
 	<string name="sort_value_alpha_asc">Emri A-Z</string>
 	<string name="sort_value_alpha_desc">Emri Z-A</string>
 	<string name="sort_value_date_asc">Data e publikuar në rritje</string>

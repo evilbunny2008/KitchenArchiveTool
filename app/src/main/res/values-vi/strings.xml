@@ -114,7 +114,6 @@
 	<string name="request_again">Yêu cầu lại</string>
 	<string name="search_hint">Tìm kiếm theo tên</string>
 	<string name="search_in_all">Tìm kiếm</string>
-	<string name="skip_for_local_storage">Bỏ qua để lưu trữ cục bộ</string>
 	<string name="sort_value_alpha_asc">Tên A-Z</string>
 	<string name="sort_value_alpha_desc">Tên Z-A</string>
 	<string name="sort_value_date_asc">Ngày xuất bản tăng dần</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">Pyydä uudelleen</string>
 	<string name="search_hint">Hae nimellä</string>
 	<string name="search_in_all">Haku</string>
-	<string name="skip_for_local_storage">Ohita paikallista tallennustilaa</string>
 	<string name="sort_value_alpha_asc">Nimi A-Z</string>
 	<string name="sort_value_alpha_desc">Nimi Z-A</string>
 	<string name="sort_value_date_asc">Julkaisupäivämäärä nousevassa järjestyksessä</string>

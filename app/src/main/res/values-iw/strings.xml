@@ -114,7 +114,6 @@
 	<string name="request_again">תבקש שוב</string>
 	<string name="search_hint">חפש לפי שם</string>
 	<string name="search_in_all">לְחַפֵּשׂ</string>
-	<string name="skip_for_local_storage">דלג לאחסון מקומי</string>
 	<string name="sort_value_alpha_asc">שם א-ז</string>
 	<string name="sort_value_alpha_desc">שם Z-A</string>
 	<string name="sort_value_date_asc">תאריך פרסום עולה</string>

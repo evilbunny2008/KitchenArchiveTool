@@ -114,7 +114,6 @@
 	<string name="request_again">Askim gen</string>
 	<string name="search_hint">Painim long nem</string>
 	<string name="search_in_all">Painim</string>
-	<string name="skip_for_local_storage">Skip long go long lokol stoa</string>
 	<string name="sort_value_alpha_asc">Nem A-Z</string>
 	<string name="sort_value_alpha_desc">Nem Z-A</string>
 	<string name="sort_value_date_asc">Deit bilong pablisim i go antap</string>

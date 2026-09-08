@@ -114,7 +114,6 @@
 	<string name="request_again">మళ్లీ అభ్యర్థించండి</string>
 	<string name="search_hint">పేరు ద్వారా శోధించండి</string>
 	<string name="search_in_all">శోధన</string>
-	<string name="skip_for_local_storage">స్థానిక నిల్వ కోసం దాటవేయి</string>
 	<string name="sort_value_alpha_asc">పేరు A-Z</string>
 	<string name="sort_value_alpha_desc">పేరు Z-A</string>
 	<string name="sort_value_date_asc">ఆరోహణలో ప్రచురించబడిన తేదీ</string>

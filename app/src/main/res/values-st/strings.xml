@@ -114,7 +114,6 @@
 	<string name="request_again">Kopa hape</string>
 	<string name="search_hint">Batla ka mabitso</string>
 	<string name="search_in_all">Batla</string>
-	<string name="skip_for_local_storage">Tlola bakeng sa polokelo ea lehae</string>
 	<string name="sort_value_alpha_asc">Lebitso A-Z</string>
 	<string name="sort_value_alpha_desc">Lebitso Z-A</string>
 	<string name="sort_value_date_asc">Letsatsi la phatlalatso le nyoloha</string>

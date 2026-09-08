@@ -114,7 +114,6 @@
 	<string name="request_again">पुन्हा विनंती</string>
 	<string name="search_hint">नावाने शोधा</string>
 	<string name="search_in_all">शोधा</string>
-	<string name="skip_for_local_storage">स्थानिक स्टोरेजसाठी वगळा</string>
 	<string name="sort_value_alpha_asc">नाव A-Z</string>
 	<string name="sort_value_alpha_desc">नाव Z-A</string>
 	<string name="sort_value_date_asc">चढत्या क्रमाने प्रकाशित तारीख</string>

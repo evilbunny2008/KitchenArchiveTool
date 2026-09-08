@@ -114,7 +114,6 @@
 	<string name="request_again">Ddamu osabe</string>
 	<string name="search_hint">Noonya ng’okozesa amannya</string>
 	<string name="search_in_all">Okunoonya</string>
-	<string name="skip_for_local_storage">Skip for okutereka ebintu mu kitundu</string>
 	<string name="sort_value_alpha_asc">Erinnya A-Z</string>
 	<string name="sort_value_alpha_desc">Erinnya Z-A</string>
 	<string name="sort_value_date_asc">Olunaku lwe lwafulumizibwa nga lulinnya</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">Боз дархост кунед</string>
 	<string name="search_hint">Ҷустуҷӯ аз рӯи ном</string>
 	<string name="search_in_all">Ҷустуҷӯ</string>
-	<string name="skip_for_local_storage">Барои нигаҳдории маҳаллӣ гузаред</string>
 	<string name="sort_value_alpha_asc">Номи A-Z</string>
 	<string name="sort_value_alpha_desc">Номи З-А</string>
 	<string name="sort_value_date_asc">Санаи нашри боло</string>

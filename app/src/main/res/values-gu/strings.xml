@@ -114,7 +114,6 @@
 	<string name="request_again">ફરી વિનંતી</string>
 	<string name="search_hint">નામ દ્વારા શોધો</string>
 	<string name="search_in_all">શોધો</string>
-	<string name="skip_for_local_storage">સ્થાનિક સ્ટોરેજ માટે અવગણો</string>
 	<string name="sort_value_alpha_asc">નામ A-Z</string>
 	<string name="sort_value_alpha_desc">નામ Z-A</string>
 	<string name="sort_value_date_asc">તારીખ ચડતા પ્રકાશિત</string>

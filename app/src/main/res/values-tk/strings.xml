@@ -114,7 +114,6 @@
 	<string name="request_again">Againene haýyş</string>
 	<string name="search_hint">Ady boýunça gözläň</string>
 	<string name="search_in_all">Gözleg</string>
-	<string name="skip_for_local_storage">Localerli ammar üçin geçiň</string>
 	<string name="sort_value_alpha_asc">A-Z ady</string>
 	<string name="sort_value_alpha_desc">Z-A adyny görkeziň</string>
 	<string name="sort_value_date_asc">Çap edilen senesi</string>

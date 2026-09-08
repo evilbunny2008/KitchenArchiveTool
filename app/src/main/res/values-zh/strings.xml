@@ -114,7 +114,6 @@
 	<string name="request_again">再次請求</string>
 	<string name="search_hint">按名稱搜尋</string>
 	<string name="search_in_all">搜尋</string>
-	<string name="skip_for_local_storage">跳過本地存儲</string>
 	<string name="sort_value_alpha_asc">名稱 A-Z</string>
 	<string name="sort_value_alpha_desc">名稱 Z-A</string>
 	<string name="sort_value_date_asc">發布日期升序</string>

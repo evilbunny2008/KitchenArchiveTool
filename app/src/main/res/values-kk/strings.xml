@@ -114,7 +114,6 @@
 	<string name="request_again">Қайтадан сұрау</string>
 	<string name="search_hint">Аты бойынша іздеу</string>
 	<string name="search_in_all">Іздеу</string>
-	<string name="skip_for_local_storage">Жергілікті жадты өткізіп жіберіңіз</string>
 	<string name="sort_value_alpha_asc">Аты-жөні A-Z</string>
 	<string name="sort_value_alpha_desc">Аты З-А</string>
 	<string name="sort_value_date_asc">Өсу бойынша жарияланған күні</string>

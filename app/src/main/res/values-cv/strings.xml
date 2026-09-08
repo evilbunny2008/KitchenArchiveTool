@@ -114,7 +114,6 @@
 	<string name="request_again">Тепӗр хут ыйтӑр</string>
 	<string name="search_hint">Ятпа шырӑр</string>
 	<string name="search_in_all">Шырав</string>
-	<string name="skip_for_local_storage">Вырӑнти упрамалли вырӑна сиктерсе хӑварӑр</string>
 	<string name="sort_value_alpha_asc">Ят А-Я</string>
 	<string name="sort_value_alpha_desc">Ят Z-A</string>
 	<string name="sort_value_date_asc">Пичетленнӗ кун ҫӳлелле хӑпарать</string>

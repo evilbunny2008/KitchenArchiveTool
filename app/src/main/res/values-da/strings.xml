@@ -114,7 +114,6 @@
 	<string name="request_again">Anmod igen</string>
 	<string name="search_hint">Søg efter navn</string>
 	<string name="search_in_all">Søge</string>
-	<string name="skip_for_local_storage">Spring over til lokal opbevaring</string>
 	<string name="sort_value_alpha_asc">Navn A-Z</string>
 	<string name="sort_value_alpha_desc">Navn Z-A</string>
 	<string name="sort_value_date_asc">Udgivelsesdato stigende</string>

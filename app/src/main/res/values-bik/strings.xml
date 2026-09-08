@@ -114,7 +114,6 @@
 	<string name="request_again">Maghagad giraray</string>
 	<string name="search_hint">Hanapon sa pangaran</string>
 	<string name="search_in_all">Maghanap</string>
-	<string name="skip_for_local_storage">Laktawan para sa lokal na pagtipig</string>
 	<string name="sort_value_alpha_asc">Pangaran A-Z</string>
 	<string name="sort_value_alpha_desc">Pangaran Z-A</string>
 	<string name="sort_value_date_asc">Petsa na ipinublikar na nag-aakyat</string>

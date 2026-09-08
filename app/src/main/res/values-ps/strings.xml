@@ -114,7 +114,6 @@
 	<string name="request_again">بیا غوښتنه وکړئ</string>
 	<string name="search_hint">د نوم په واسطه لټون وکړئ</string>
 	<string name="search_in_all">لټون</string>
-	<string name="skip_for_local_storage">د محلي ذخیره کولو لپاره پریږدئ</string>
 	<string name="sort_value_alpha_asc">نوم A-Z</string>
 	<string name="sort_value_alpha_desc">نوم Z-A</string>
 	<string name="sort_value_date_asc">د خپریدو نیټه په پورته کیدو سره</string>

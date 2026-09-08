@@ -114,7 +114,6 @@
 	<string name="request_again">ཡང་བསྐྱར་རེ་འདུན་ཞུས།</string>
 	<string name="search_hint">མིང་ཐོག་ནས་འཚོལ་ཞིབ།</string>
 	<string name="search_in_all">བཤེར་འཚོལ</string>
-	<string name="skip_for_local_storage">ས་གནས་ཀྱི་གསོག་འཇོག་ལ་མཆོང་།</string>
 	<string name="sort_value_alpha_asc">མིང་A-Z།</string>
 	<string name="sort_value_alpha_desc">མིང་Z-A།</string>
 	<string name="sort_value_date_asc">པར་སྐྲུན་ཚེས་གྲངས་ཡར་འཕར་བ།</string>

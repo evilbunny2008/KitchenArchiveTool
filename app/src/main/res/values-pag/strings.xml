@@ -114,7 +114,6 @@
 	<string name="request_again">Mankerew lamet</string>
 	<string name="search_hint">Anapen ed ngaran</string>
 	<string name="search_in_all">Anapen</string>
-	<string name="skip_for_local_storage">Laktawan parad lokal ya panagsimpenan</string>
 	<string name="sort_value_alpha_asc">Ngaran A-Z</string>
 	<string name="sort_value_alpha_desc">Ngaran Z-A</string>
 	<string name="sort_value_date_asc">Petsa na impaway ya ontatagey</string>

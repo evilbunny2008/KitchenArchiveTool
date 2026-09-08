@@ -114,7 +114,6 @@
 	<string name="request_again">Kwayo kendo</string>
 	<string name="search_hint">Many ka itiyo gi nying</string>
 	<string name="search_in_all">Manyo</string>
-	<string name="skip_for_local_storage">Wek mondo iyud kar kano mwandu</string>
 	<string name="sort_value_alpha_asc">Nying A-Z</string>
 	<string name="sort_value_alpha_desc">Nying Z-A</string>
 	<string name="sort_value_date_asc">Tarik ma ne ogoye ka omedore</string>

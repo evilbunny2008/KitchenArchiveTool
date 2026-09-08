@@ -114,7 +114,6 @@
 	<string name="request_again">Кайра сураныңыз</string>
 	<string name="search_hint">Аты боюнча издөө</string>
 	<string name="search_in_all">Издөө</string>
-	<string name="skip_for_local_storage">Жергиликтүү сактагычты өткөрүп жибериңиз</string>
 	<string name="sort_value_alpha_asc">Аты-жөнү A-Z</string>
 	<string name="sort_value_alpha_desc">Аты-жөнү З-А</string>
 	<string name="sort_value_date_asc">Жарыяланган күн өсүү жолу менен</string>

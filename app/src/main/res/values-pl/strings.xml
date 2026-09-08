@@ -114,7 +114,6 @@
 	<string name="request_again">Poproś ponownie</string>
 	<string name="search_hint">Szukaj według nazwy</string>
 	<string name="search_in_all">Szukaj</string>
-	<string name="skip_for_local_storage">Przejdź do magazynu lokalnego</string>
 	<string name="sort_value_alpha_asc">Imię A-Z</string>
 	<string name="sort_value_alpha_desc">Imię Z-A</string>
 	<string name="sort_value_date_asc">Data publikacji rosnąco</string>

@@ -114,7 +114,6 @@
 	<string name="request_again">Նորից խնդրեք</string>
 	<string name="search_hint">Որոնել ըստ անունով</string>
 	<string name="search_in_all">Որոնել</string>
-	<string name="skip_for_local_storage">Բաց թողնել տեղական պահեստավորման համար</string>
 	<string name="sort_value_alpha_asc">Անունը Ա-Զ</string>
 	<string name="sort_value_alpha_desc">Անունը Զ-Ա</string>
 	<string name="sort_value_date_asc">Հրապարակման ամսաթիվը՝ աճող</string>

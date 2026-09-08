@@ -114,7 +114,6 @@
 	<string name="request_again">Husu fali</string>
 	<string name="search_hint">Buka tuir naran</string>
 	<string name="search_in_all">Ba buka</string>
-	<string name="skip_for_local_storage">La’o ba armazenamentu lokál</string>
 	<string name="sort_value_alpha_asc">Naran A-Z</string>
 	<string name="sort_value_alpha_desc">Naran Z-A</string>
 	<string name="sort_value_date_asc">Data publikasaun ne’ebé sa’e</string>
