@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Рецепт импорт гьабизе кӀвечӀо: %1$s</string>
 	<string name="recipe_import_in_progress">Импорт гьабулеб рецепт</string>
 	<string name="recipe_import_menu_title">Рецепт импорт гьабе URL-алдаса</string>
+	<string name="recipe_import_upload_failure">Не удалось добавить ‘%1$s’ в Кулинарную книгу</string>
+	<string name="recipe_import_upload_success">Добавлено ‘%1$s’ в Кулинарную книгу</string>
 	<string name="recipe_list_image_desc">Рецепталъул сураталъул гьитӀинаб сурат</string>
 	<string name="recipe_no_timer">Этот Рецепт не имеет таймера!</string>
 	<string name="request_again">ЦӀидасан гьаре</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Щибаб 12 сагӀаталдасан</string>
 	<string name="sync_interval_name_24">Щибаб 24 сагӀаталдасан</string>
 	<string name="sync_interval_name_off">ЧӀезабизе</string>
+	<string name="syncing_recipes">Дур рецептал синхронизация гьаби</string>
 	<string name="tab_info_title">Инфо</string>
 	<string name="tab_ingredients_title">Ингредиенты</string>
 	<string name="tab_instructions_title">Инструкции</string>

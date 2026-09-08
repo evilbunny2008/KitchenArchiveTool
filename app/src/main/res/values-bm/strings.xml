@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">A ma se ka furakɛcogo in ladon: %1$s</string>
 	<string name="recipe_import_in_progress">Importation recette</string>
 	<string name="recipe_import_menu_title">I ka furakɛcogo ladon ka bɔ URL la</string>
+	<string name="recipe_import_upload_failure">A ma se ka ‘%1$s’ fara Cookbook kan</string>
+	<string name="recipe_import_upload_success">‘%1$s’ farala Tobilikɛ gafe kan</string>
 	<string name="recipe_list_image_desc">Jaa fitinin min bɛ furakɛcogo jira</string>
 	<string name="recipe_no_timer">Nin Recipe in tɛ ni waati jatebɔlan ye!</string>
 	<string name="request_again">Aw ye ɲinini kɛ tuguni</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Lɛrɛ 12 o Lɛrɛ 12</string>
 	<string name="sync_interval_name_24">Lɛrɛ 24 o Lɛrɛ 24</string>
 	<string name="sync_interval_name_off">K’a bɔ a la</string>
+	<string name="syncing_recipes">Syncing aw ka recettes</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Nafɛnw</string>
 	<string name="tab_instructions_title">Cikanw</string>

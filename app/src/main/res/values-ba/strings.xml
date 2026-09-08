@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Рецепт импортлай алманы: %1$s</string>
 	<string name="recipe_import_in_progress">Импортлау рецепты</string>
 	<string name="recipe_import_menu_title">Рецептты URL-адрестан импортлау</string>
+	<string name="recipe_import_upload_failure">Өҫтәй алманым ‘%1$s’ аш-һыу китабы</string>
+	<string name="recipe_import_upload_success">Өҫтәлгән ‘%1$s’ аш-һыу китабы</string>
 	<string name="recipe_list_image_desc">Рецепттың һүрәте эскизы</string>
 	<string name="recipe_no_timer">Был Рецепттың таймеры юҡ!</string>
 	<string name="request_again">Яңынан һорау</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Һәр 12 сәғәт һайын</string>
 	<string name="sync_interval_name_24">Һәр 24 сәғәт һайын</string>
 	<string name="sync_interval_name_off">Һүндерелгән</string>
+	<string name="syncing_recipes">Һеҙҙең рецептарҙы синхронлаштырыу</string>
 	<string name="tab_info_title">Мәғлүмәт</string>
 	<string name="tab_ingredients_title">Ингредиенттар</string>
 	<string name="tab_instructions_title">Инструкциялар</string>

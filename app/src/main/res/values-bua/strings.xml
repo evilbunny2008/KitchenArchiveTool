@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Жор оруулха аргагүй: %1$s</string>
 	<string name="recipe_import_in_progress">Жор оруулна</string>
 	<string name="recipe_import_menu_title">URL-һээ жороо оруулха</string>
+	<string name="recipe_import_upload_failure">Cookbook-да ‘%1$s’ нэмэжэ шадаагүй</string>
+	<string name="recipe_import_upload_success">Тогооной номдо ‘%1$s’ нэмэгдэбэ</string>
 	<string name="recipe_list_image_desc">Жорын зураг</string>
 	<string name="recipe_no_timer">Энэ жороо саг хэмжүүргүй!</string>
 	<string name="request_again">Дахин гуйха</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">час бүхэндэ</string>
 	<string name="sync_interval_name_24">саг бүхэндэ</string>
 	<string name="sync_interval_name_off">Унтарһан</string>
+	<string name="syncing_recipes">Жорнуудаа синхронизацилна</string>
 	<string name="tab_info_title">Мэдээсэл</string>
 	<string name="tab_ingredients_title">Оросо</string>
 	<string name="tab_instructions_title">Заабари</string>

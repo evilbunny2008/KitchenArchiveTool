@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Methu mewnforio’r rysáit: %1$s</string>
 	<string name="recipe_import_in_progress">Wrthi’n mewnforio rysáit</string>
 	<string name="recipe_import_menu_title">Mewnforio rysáit o URL</string>
+	<string name="recipe_import_upload_failure">Methu ychwanegu ‘%1$s’ i’r Llyfr Coginio</string>
+	<string name="recipe_import_upload_success">Wedi ychwanegu ‘%1$s’ i’r Llyfr Coginio</string>
 	<string name="recipe_list_image_desc">Delwedd bawd o rysáit</string>
 	<string name="recipe_no_timer">Nid oes gan y Rysáit hwn amserydd!</string>
 	<string name="request_again">Cais eto</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Bob 12 Awr</string>
 	<string name="sync_interval_name_24">Bob 24 Awr</string>
 	<string name="sync_interval_name_off">I ffwrdd</string>
+	<string name="syncing_recipes">Wrthi’n cysoni eich ryseitiau</string>
 	<string name="tab_info_title">Gwybodaeth</string>
 	<string name="tab_ingredients_title">Cynhwysion</string>
 	<string name="tab_instructions_title">Cyfarwyddiadau</string>

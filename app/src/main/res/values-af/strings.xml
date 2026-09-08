@@ -110,6 +110,7 @@
 	<string name="recipe_import_in_progress">Voer tans resep in …</string>
 	<string name="recipe_import_menu_title">Voer resep vanaf URL in</string>
 	<string name="recipe_import_upload_failure">Kon nie ‘%1$s’ by kookboek voeg nie</string>
+	<string name="recipe_import_upload_success">Het ‘%1$s’ by kookboek gevoeg</string>
 	<string name="recipe_list_image_desc">Prent-kleinkiekie van resep</string>
 	<string name="recipe_no_timer">Hierdie resep het nie ‘n timer nie!</string>
 	<string name="request_again">Versoek weer</string>
@@ -129,6 +130,7 @@
 	<string name="sync_interval_name_12">Elke 12 uur</string>
 	<string name="sync_interval_name_24">Elke 24 uur</string>
 	<string name="sync_interval_name_off">Af</string>
+	<string name="syncing_recipes">Sinkroniseer tans jou resepte</string>
 	<string name="tab_info_title">Inligting</string>
 	<string name="tab_ingredients_title">Bestanddele</string>
 	<string name="tab_instructions_title">Instruksies</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">تعذر استيراد الوصفة: %1$s</string>
 	<string name="recipe_import_in_progress">جارٍ استيراد الوصفة</string>
 	<string name="recipe_import_menu_title">استيراد وصفة من URL</string>
+	<string name="recipe_import_upload_failure">تعذرت إضافة ‘%1$s’ إلى كتاب الطبخ</string>
+	<string name="recipe_import_upload_success">تمت إضافة ‘%1$s’ إلى كتاب الطبخ</string>
 	<string name="recipe_list_image_desc">صورة مصغرة للوصفة</string>
 	<string name="recipe_no_timer">هذه الوصفة لا تحتوي على مؤقت!</string>
 	<string name="request_again">اطلب مرة أخرى</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">كل 12 ساعة</string>
 	<string name="sync_interval_name_24">كل 24 ساعة</string>
 	<string name="sync_interval_name_off">عن</string>
+	<string name="syncing_recipes">جارٍ مزامنة وصفاتك</string>
 	<string name="tab_info_title">معلومات</string>
 	<string name="tab_ingredients_title">مكونات</string>
 	<string name="tab_instructions_title">تعليمات</string>
