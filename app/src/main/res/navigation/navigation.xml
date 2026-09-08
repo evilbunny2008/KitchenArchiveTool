@@ -33,6 +33,8 @@
       android:label="SearchFormFragment">
       <action
          android:id="@+id/action_searchFormFragment_to_recipeListFragment"
-         app:destination="@id/recipeListFragment" />
+         app:destination="@id/recipeListFragment"
+         app:popUpTo="@id/recipeListFragment"
+         app:popUpToInclusive="true" />
    </fragment>
 </navigation>
