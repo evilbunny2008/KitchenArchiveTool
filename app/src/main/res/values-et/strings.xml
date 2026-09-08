@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Retsepti ei saanud importida: %1$s</string>
 	<string name="recipe_import_in_progress">Retsepti importimine</string>
 	<string name="recipe_import_menu_title">Importige retsept URL-ist</string>
+	<string name="recipe_import_upload_failure">‘%1$s’ ei saanud kokaraamatusse lisada</string>
+	<string name="recipe_import_upload_success">‘%1$s’ lisati kokaraamatusse</string>
 	<string name="recipe_list_image_desc">Retsepti pisipilt</string>
 	<string name="recipe_no_timer">Sellel retseptil pole taimerit!</string>
 	<string name="request_again">Taotlege uuesti</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Iga 12 tunni järel</string>
 	<string name="sync_interval_name_24">Iga 24 tunni järel</string>
 	<string name="sync_interval_name_off">Väljas</string>
+	<string name="syncing_recipes">Teie retseptide sünkroonimine</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Koostisained</string>
 	<string name="tab_instructions_title">Juhised</string>

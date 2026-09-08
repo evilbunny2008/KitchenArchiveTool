@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Indi ma-import ang resipe: %1$s</string>
 	<string name="recipe_import_in_progress">Naga-import sang resipe</string>
 	<string name="recipe_import_menu_title">I-import ang resipe gikan sa URL</string>
+	<string name="recipe_import_upload_failure">Indi makadugang sang ‘%1$s’ sa Cookbook</string>
+	<string name="recipe_import_upload_success">Gindugang ang ‘%1$s’ sa Cookbook</string>
 	<string name="recipe_list_image_desc">Thumbnail sang laragway sang resipe</string>
 	<string name="recipe_no_timer">Ini nga Resipe wala sing timer!</string>
 	<string name="request_again">Magpangabay liwat</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Kada 12 ka oras</string>
 	<string name="sync_interval_name_24">Kada 24 ka oras</string>
 	<string name="sync_interval_name_off">Patya</string>
+	<string name="syncing_recipes">Pag-sync sang imo mga resipe</string>
 	<string name="tab_info_title">Impormasyon</string>
 	<string name="tab_ingredients_title">Mga sangkap</string>
 	<string name="tab_instructions_title">Mga instruksyon</string>

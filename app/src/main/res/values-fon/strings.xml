@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Mi sixú hɛn nuɖuɖu ɔ wa a: %1$s</string>
 	<string name="recipe_import_in_progress">Nuɖuɖu sin nuɖiɖa hɛn wa to mɛ</string>
 	<string name="recipe_import_menu_title">Sɔ́ nǔɖúɖu sín URL jí</string>
+	<string name="recipe_import_upload_failure">È sixu sɔ́ ‘%1$s’ dó Wema Nuɖa tɔn mɛ ǎ</string>
+	<string name="recipe_import_upload_success">È sɔ́ ‘%1$s’ dó Nuɖawema mɛ</string>
 	<string name="recipe_list_image_desc">Nuɖuɖu ɔ sín ɖiɖe kpɛví</string>
 	<string name="recipe_no_timer">Recipe elɔ ɖó hwenu ɖé ǎ!</string>
 	<string name="request_again">Mi lɛvɔ byɔ</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Ganxixo 12 ɖokpo ɖokpo mɛ</string>
 	<string name="sync_interval_name_24">Ganxixo 24 ɖokpo ɖokpo mɛ</string>
 	<string name="sync_interval_name_off">E ɖo azɔ́</string>
+	<string name="syncing_recipes">Nuɖuɖu mitɔn lɛ ɖo kpɔ</string>
 	<string name="tab_info_title">Xó</string>
 	<string name="tab_ingredients_title">Bógbé</string>
 	<string name="tab_instructions_title">Nùkplɔnmɛ</string>

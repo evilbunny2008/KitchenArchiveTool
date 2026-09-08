@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Kundi ikki innflyta uppskriftina: %1$s</string>
 	<string name="recipe_import_in_progress">Innflyta uppskrift</string>
 	<string name="recipe_import_menu_title">Innflyt uppskrift frá URL</string>
+	<string name="recipe_import_upload_failure">Kundi ikki leggja ‘%1$s’ til Køkubók</string>
+	<string name="recipe_import_upload_success">Lagt ‘%1$s’ til Køkubók</string>
 	<string name="recipe_list_image_desc">Myndasmámynd av uppskrift</string>
 	<string name="recipe_no_timer">Hendan uppskriftin hevur ikki tíðarætlan!</string>
 	<string name="request_again">Bið um aftur</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">hvønn tíma</string>
 	<string name="sync_interval_name_24">hvønn 24. tíma</string>
 	<string name="sync_interval_name_off">Fara</string>
+	<string name="syncing_recipes">Samskipa tínar uppskriftir</string>
 	<string name="tab_info_title">Kunning</string>
 	<string name="tab_ingredients_title">Partar</string>
 	<string name="tab_instructions_title">Vegleiðingar</string>

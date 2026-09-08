@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ezin izan da errezeta inportatu: %1$s</string>
 	<string name="recipe_import_in_progress">Errezeta inportatzen</string>
 	<string name="recipe_import_menu_title">Inportatu errezeta URLtik</string>
+	<string name="recipe_import_upload_failure">Ezin izan da ‘%1$s’ sukaldaritza liburuan gehitu</string>
+	<string name="recipe_import_upload_success">‘%1$s’ gehitu da Sukaldaritza liburuan</string>
 	<string name="recipe_list_image_desc">Errezetaren irudiaren miniatura</string>
 	<string name="recipe_no_timer">Errezeta honek ez du tenporizadorerik!</string>
 	<string name="request_again">Eskatu berriro</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">12 orduz behin</string>
 	<string name="sync_interval_name_24">24 orduz behin</string>
 	<string name="sync_interval_name_off">Desaktibatuta</string>
+	<string name="syncing_recipes">Zure errezetak sinkronizatzen</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Osagaiak</string>
 	<string name="tab_instructions_title">Argibideak</string>

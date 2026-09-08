@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Hindi ma-import ang recipe: %1$s</string>
 	<string name="recipe_import_in_progress">Ini-import ang recipe</string>
 	<string name="recipe_import_menu_title">Mag-import ng recipe mula sa URL</string>
+	<string name="recipe_import_upload_failure">Hindi maidagdag ang ‘%1$s’ sa Cookbook</string>
+	<string name="recipe_import_upload_success">Idinagdag ang ‘%1$s’ sa Cookbook</string>
 	<string name="recipe_list_image_desc">Thumbnail ng larawan ng recipe</string>
 	<string name="recipe_no_timer">Ang Recipe na ito ay walang timer!</string>
 	<string name="request_again">Humiling muli</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Tuwing 12 Oras</string>
 	<string name="sync_interval_name_24">Tuwing 24 Oras</string>
 	<string name="sync_interval_name_off">Naka-off</string>
+	<string name="syncing_recipes">Sini-sync ang iyong mga recipe</string>
 	<string name="tab_info_title">Impormasyon</string>
 	<string name="tab_ingredients_title">Mga sangkap</string>
 	<string name="tab_instructions_title">Mga tagubilin</string>

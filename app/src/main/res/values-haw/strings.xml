@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ʻAʻole hiki ke hoʻokomo i ka meaʻai: %1$s</string>
 	<string name="recipe_import_in_progress">Ke lawe mai nei i ka meaʻai</string>
 	<string name="recipe_import_menu_title">E lawe mai i ka meaʻai mai URL</string>
+	<string name="recipe_import_upload_failure">ʻAʻole hiki ke hoʻohui i ka ‘%1$s’ i ka puke Kuke</string>
+	<string name="recipe_import_upload_success">Hoʻohui ʻia ka ‘%1$s’ i ka puke Kuke</string>
 	<string name="recipe_list_image_desc">Kiʻi liʻiliʻi o ka meaʻai</string>
 	<string name="recipe_no_timer">ʻAʻohe manawa o kēia ʻai!</string>
 	<string name="request_again">Noi hou</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ʻO kēlā me kēia 12 hola</string>
 	<string name="sync_interval_name_24">ʻO kēlā me kēia 24 hola</string>
 	<string name="sync_interval_name_off">Paʻa</string>
+	<string name="syncing_recipes">Ke hoʻokaʻawale nei i kāu mau ʻōlelo ʻai</string>
 	<string name="tab_info_title">ʻIke</string>
 	<string name="tab_ingredients_title">Nā mea hoʻohui</string>
 	<string name="tab_instructions_title">Nā kuhikuhi</string>

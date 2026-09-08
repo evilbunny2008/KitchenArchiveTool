@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">دستور غذا وارد نشد: %1$s</string>
 	<string name="recipe_import_in_progress">واردات دستور پخت</string>
 	<string name="recipe_import_menu_title">دستور غذا را از URL وارد کنید</string>
+	<string name="recipe_import_upload_failure">‘%1$s’ به کتاب آشپزی اضافه نشد</string>
+	<string name="recipe_import_upload_success">‘%1$s’ به کتاب آشپزی اضافه شد</string>
 	<string name="recipe_list_image_desc">تصویر کوچک دستور غذا</string>
 	<string name="recipe_no_timer">این دستور پخت تایمر ندارد!</string>
 	<string name="request_again">دوباره درخواست کن</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">هر 12 ساعت</string>
 	<string name="sync_interval_name_24">هر 24 ساعت</string>
 	<string name="sync_interval_name_off">خاموش</string>
+	<string name="syncing_recipes">در حال همگام سازی دستور العمل های شما</string>
 	<string name="tab_info_title">اطلاعات</string>
 	<string name="tab_ingredients_title">مواد تشکیل دهنده</string>
 	<string name="tab_instructions_title">دستورالعمل ها</string>

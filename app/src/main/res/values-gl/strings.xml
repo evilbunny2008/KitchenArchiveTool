@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Non se puido importar a receita: %1$s</string>
 	<string name="recipe_import_in_progress">Importando receita</string>
 	<string name="recipe_import_menu_title">Importar receita desde o URL</string>
+	<string name="recipe_import_upload_failure">Non se puido engadir ‘%1$s’ ao libro de receitas</string>
+	<string name="recipe_import_upload_success">Engadiuse ‘%1$s’ ao libro de receitas</string>
 	<string name="recipe_list_image_desc">Imaxe en miniatura da receita</string>
 	<string name="recipe_no_timer">Esta receita non ten temporizador!</string>
 	<string name="request_again">Solicita de novo</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Cada 12 horas</string>
 	<string name="sync_interval_name_24">Cada 24 horas</string>
 	<string name="sync_interval_name_off">Desactivado</string>
+	<string name="syncing_recipes">Sincronizando as túas receitas</string>
 	<string name="tab_info_title">Información</string>
 	<string name="tab_ingredients_title">Ingredientes</string>
 	<string name="tab_instructions_title">Instrucións</string>

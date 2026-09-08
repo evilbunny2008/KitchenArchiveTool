@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Teti tulete ifyakupanga: %1$s</string>
 	<string name="recipe_import_in_progress">Ukuleta ifyakulya</string>
 	<string name="recipe_import_menu_title">Leteni ifyakulya ukufuma ku URL</string>
+	<string name="recipe_import_upload_failure">Teti cilundeko ‘%1$s’ ku Citabo ca Kupika</string>
+	<string name="recipe_import_upload_success">Ukulundapo ‘%1$s’ kwibuuku lyakupika</string>
 	<string name="recipe_list_image_desc">Icikope icinono ica mipangilwe ya fyakulya</string>
 	<string name="recipe_no_timer">Iyi Recipe tayakwata inshita!</string>
 	<string name="request_again">Ipushe nakabili</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Cila maawala 12</string>
 	<string name="sync_interval_name_24">Cila maawala 24</string>
 	<string name="sync_interval_name_off">Ukuleka</string>
+	<string name="syncing_recipes">Ukulinganisha ifyakulya fyenu</string>
 	<string name="tab_info_title">Amashiwi</string>
 	<string name="tab_ingredients_title">Ifikabilwa</string>
 	<string name="tab_instructions_title">Ifilangililo</string>

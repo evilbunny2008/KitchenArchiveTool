@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Nije moguće uvesti recept: %1$s</string>
 	<string name="recipe_import_in_progress">Uvoz recepta</string>
 	<string name="recipe_import_menu_title">Uvezite recept sa URL-a</string>
+	<string name="recipe_import_upload_failure">Nije moguće dodati ‘%1$s’ u Kuvar</string>
+	<string name="recipe_import_upload_success">Dodano ‘%1$s’ u Kuharsku knjigu</string>
 	<string name="recipe_list_image_desc">Slika minijature recepta</string>
 	<string name="recipe_no_timer">Ovaj recept nema tajmer!</string>
 	<string name="request_again">Zahtjev ponovo</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Svakih 12 sati</string>
 	<string name="sync_interval_name_24">Svaka 24 sata</string>
 	<string name="sync_interval_name_off">Isključeno</string>
+	<string name="syncing_recipes">Sinhronizacija vaših recepata</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Sastojci</string>
 	<string name="tab_instructions_title">Uputstva</string>

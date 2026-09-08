@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">नुस्खा आयात नहीं किया जा सका: %1$s</string>
 	<string name="recipe_import_in_progress">नुस्खा आयात किया जा रहा है</string>
 	<string name="recipe_import_menu_title">URL से नुस्खा आयात करें</string>
+	<string name="recipe_import_upload_failure">कुकबुक में ‘%1$s’ नहीं जोड़ा जा सका</string>
+	<string name="recipe_import_upload_success">कुकबुक में ‘%1$s’ जोड़ा गया</string>
 	<string name="recipe_list_image_desc">रेसिपी की छवि थंबनेल</string>
 	<string name="recipe_no_timer">इस रेसिपी में टाइमर नहीं है!</string>
 	<string name="request_again">पुनः अनुरोध करें</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">हर 12 घंटे</string>
 	<string name="sync_interval_name_24">हर 24 घंटे</string>
 	<string name="sync_interval_name_off">बंद</string>
+	<string name="syncing_recipes">आपकी रेसिपी सिंक हो रही हैं</string>
 	<string name="tab_info_title">जानकारी</string>
 	<string name="tab_ingredients_title">सामग्री</string>
 	<string name="tab_instructions_title">निर्देश</string>

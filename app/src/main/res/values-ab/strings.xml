@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Арецепт аимпорт ауам: %1$s</string>
 	<string name="recipe_import_in_progress">Арецепт аимпорт</string>
 	<string name="recipe_import_menu_title">Арецепт аимпорт URL аҟынтәи</string>
+	<string name="recipe_import_upload_failure">Ачысҟаҵаратә шәҟәы ‘%1$s’ ацҵара ауам</string>
+	<string name="recipe_import_upload_success">Иацҵоуп ‘%1$s’ Ачысҟаҵаратә шәҟәы</string>
 	<string name="recipe_list_image_desc">Арецепт асахьа хәыҷ</string>
 	<string name="recipe_no_timer">Ари Арецепт атаимер амаӡам!</string>
 	<string name="request_again">Даҽазнык аҳәара</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Сааҭ 12 рышьҭахь</string>
 	<string name="sync_interval_name_24">Сааҭ 24 рышьҭахь</string>
 	<string name="sync_interval_name_off">Ирцәоу</string>
+	<string name="syncing_recipes">Шәрецептқәа реиқәыршәара</string>
 	<string name="tab_info_title">Аинформациа</string>
 	<string name="tab_ingredients_title">Аингредиентқәа</string>
 	<string name="tab_instructions_title">Аинструкциақәа</string>

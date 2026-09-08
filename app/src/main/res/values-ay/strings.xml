@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Janiw uka receta ukar apkatañjamäkiti: %1$s</string>
 	<string name="recipe_import_in_progress">Importación ukax receta</string>
 	<string name="recipe_import_menu_title">URL ukan receta apsuña</string>
+	<string name="recipe_import_upload_failure">Janiw ‘%1$s’ ukax Cookbook ukar yapxatañjamäkiti</string>
+	<string name="recipe_import_upload_success">‘%1$s’ ukax Cookbook ukar yapxatatawa</string>
 	<string name="recipe_list_image_desc">Imajin jisk’a uñacht’awi receta</string>
 	<string name="recipe_no_timer">¡Aka Receta ukax janiw mä tiempor uñt’aykiti!</string>
 	<string name="request_again">Mayampi mayiñani</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Sapa 12 Uraqinaka</string>
 	<string name="sync_interval_name_24">Sapa 24 Uraqinaka</string>
 	<string name="sync_interval_name_off">Jiwata</string>
+	<string name="syncing_recipes">Recetas ukanakax sincronizatawa</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Wakiskirinaka</string>
 	<string name="tab_instructions_title">Amuyt’ayawinaka</string>

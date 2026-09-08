@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Cha b’aashagh y red y chur magh: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe y chur stiagh</string>
 	<string name="recipe_import_menu_title">Import y redid veih URL</string>
+	<string name="recipe_import_upload_failure">Cha b’aashagh ‘%1$s’ y chur rish Leih-cooish</string>
+	<string name="recipe_import_upload_success">Cur ‘%1$s’ rish Leih-cooish</string>
 	<string name="recipe_list_image_desc">Deiney beg jeh’n recipe</string>
 	<string name="recipe_no_timer">Ta’n Recipe shoh gyn timer!</string>
 	<string name="request_again">Irree magh reesht</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Gagh 12 Oor</string>
 	<string name="sync_interval_name_24">Gagh 24 Oor</string>
 	<string name="sync_interval_name_off">Jeh</string>
+	<string name="syncing_recipes">Syncaghey dty recipeyn</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Inneenyn</string>
 	<string name="tab_instructions_title">Saraghyn</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Рецептни импорт этип оламады: %1$s</string>
 	<string name="recipe_import_in_progress">Импорт этмек ичюн рецепт</string>
 	<string name="recipe_import_menu_title">Рецептни URL-ден импорт этинъиз</string>
+	<string name="recipe_import_upload_failure">Ашхане китабына ‘%1$s’ къошып оламады</string>
+	<string name="recipe_import_upload_success">Ашхане китабына ‘%1$s’ къошулды</string>
 	<string name="recipe_list_image_desc">Рецептнинъ ресимининъ кичик ресими</string>
 	<string name="recipe_no_timer">Бу Рецептнинъ таймери ёкъ!</string>
 	<string name="request_again">Кене де риджа этинъиз</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Эр 12 Саат</string>
 	<string name="sync_interval_name_24">Эр 24 саатте</string>
 	<string name="sync_interval_name_off">Къапалы</string>
+	<string name="syncing_recipes">Рецептлеринъизни синхронизация этмек</string>
 	<string name="tab_info_title">Инфо</string>
 	<string name="tab_ingredients_title">Ичиндекилер</string>
 	<string name="tab_instructions_title">Талиматлар</string>

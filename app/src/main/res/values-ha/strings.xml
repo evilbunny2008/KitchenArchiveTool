@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">An kasa shigo da girke-girke: %1$s</string>
 	<string name="recipe_import_in_progress">Ana shigo da girke-girke</string>
 	<string name="recipe_import_menu_title">Shigo da girke-girke daga URL</string>
+	<string name="recipe_import_upload_failure">Ba za a iya ƙara ‘%1$s’ zuwa littafin dafa abinci ba</string>
+	<string name="recipe_import_upload_success">An ƙara ‘%1$s’ zuwa littafin dafa abinci</string>
 	<string name="recipe_list_image_desc">Hoton thumbnail na girke-girke</string>
 	<string name="recipe_no_timer">Wannan girke-girke ba shi da mai ƙidayar lokaci!</string>
 	<string name="request_again">nema sake</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Kowane awa 12</string>
 	<string name="sync_interval_name_24">Kowane awa 24</string>
 	<string name="sync_interval_name_off">Kashe</string>
+	<string name="syncing_recipes">Ana daidaita girkin ku</string>
 	<string name="tab_info_title">Bayani</string>
 	<string name="tab_ingredients_title">Sinadaran</string>
 	<string name="tab_instructions_title">Umarni</string>

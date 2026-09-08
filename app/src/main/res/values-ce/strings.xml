@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Рецепт импорт ян аьтто ца баьлла: %1$s</string>
 	<string name="recipe_import_in_progress">Импорт еш йолу рецепт</string>
 	<string name="recipe_import_menu_title">Рецепт импорт е URL чуьра</string>
+	<string name="recipe_import_upload_failure">‘%1$s’ кхачанан тептар тӀетоха аьтто ца баьлла</string>
+	<string name="recipe_import_upload_success">ТӀетоьхна ‘%1$s’ кхачанан тептаре</string>
 	<string name="recipe_list_image_desc">Суьртан жима сурт рецептан</string>
 	<string name="recipe_no_timer">ХӀокху Рецептехь таймер яц!</string>
 	<string name="request_again">Юха а дехар де</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ХӀора 12 сахьт даьлча</string>
 	<string name="sync_interval_name_24">ХӀора 24 сахьтехь</string>
 	<string name="sync_interval_name_off">Юьстах</string>
+	<string name="syncing_recipes">Синхронизаци еш хьан рецепташ</string>
 	<string name="tab_info_title">Инфо</string>
 	<string name="tab_ingredients_title">Ингридиенташ</string>
 	<string name="tab_instructions_title">Хьехамаш</string>

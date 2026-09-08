@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ùn si pudia impurtà a ricetta: %1$s</string>
 	<string name="recipe_import_in_progress">Importazione di ricetta</string>
 	<string name="recipe_import_menu_title">Importa a ricetta da l’URL</string>
+	<string name="recipe_import_upload_failure">Ùn si pudia aghjunghje ‘%1$s’ à u Cookbook</string>
+	<string name="recipe_import_upload_success">Aggiuntu ‘%1$s’ à Cookbook</string>
 	<string name="recipe_list_image_desc">Immagine in miniatura di a ricetta</string>
 	<string name="recipe_no_timer">Questa ricetta ùn hà micca un timer!</string>
 	<string name="request_again">Richiesta di novu</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Ogni 12 Hours</string>
 	<string name="sync_interval_name_24">Ogni 24 ore</string>
 	<string name="sync_interval_name_off">Off</string>
+	<string name="syncing_recipes">Sincronizza e vostre ricette</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredienti</string>
 	<string name="tab_instructions_title">Istruzzioni</string>

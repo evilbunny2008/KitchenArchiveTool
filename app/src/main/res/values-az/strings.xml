@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Resepti idxal etmək mümkün olmadı: %1$s</string>
 	<string name="recipe_import_in_progress">Resept import edilir</string>
 	<string name="recipe_import_menu_title">URL-dən resepti idxal edin</string>
+	<string name="recipe_import_upload_failure">‘%1$s’ yeməklər kitabına əlavə etmək mümkün olmadı</string>
+	<string name="recipe_import_upload_success">‘%1$s’ yeməklər kitabına əlavə edildi</string>
 	<string name="recipe_list_image_desc">Reseptin kiçik şəkli</string>
 	<string name="recipe_no_timer">Bu Reseptdə taymer yoxdur!</string>
 	<string name="request_again">Yenidən tələb edin</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Hər 12 saatdan bir</string>
 	<string name="sync_interval_name_24">Hər 24 saatdan bir</string>
 	<string name="sync_interval_name_off">Söndür</string>
+	<string name="syncing_recipes">Reseptləriniz sinxronlaşdırılır</string>
 	<string name="tab_info_title">Məlumat</string>
 	<string name="tab_ingredients_title">Tərkibi</string>
 	<string name="tab_instructions_title">Təlimatlar</string>

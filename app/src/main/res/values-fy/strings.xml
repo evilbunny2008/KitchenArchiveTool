@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Koe it resept net ymportearje: %1$s</string>
 	<string name="recipe_import_in_progress">Resept ymportearje</string>
 	<string name="recipe_import_menu_title">Ymportearje resept fan URL</string>
+	<string name="recipe_import_upload_failure">Koe ‘%1$s’ net tafoegje oan Kookboek</string>
+	<string name="recipe_import_upload_success">‘%1$s’ tafoege oan Kookboek</string>
 	<string name="recipe_list_image_desc">Ofbyldings thumbnail fan resept</string>
 	<string name="recipe_no_timer">Dit resept hat gjin timer!</string>
 	<string name="request_again">Nochris oanfreegje</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Elke 12 oeren</string>
 	<string name="sync_interval_name_24">Elke 24 oeren</string>
 	<string name="sync_interval_name_off">Út</string>
+	<string name="syncing_recipes">Jo resepten syngronisearje</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Yngrediïnten</string>
 	<string name="tab_instructions_title">Ynstruksjes</string>

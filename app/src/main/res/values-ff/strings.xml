@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Waawaa naatde e restoraaji ɗii: %1$s</string>
 	<string name="recipe_import_in_progress">Naatgol restora</string>
 	<string name="recipe_import_menu_title">Naatnude restoraaji ummoraade e URL</string>
+	<string name="recipe_import_upload_failure">Waawaa ɓeydude ‘%1$s’ e Deftere Deftere</string>
+	<string name="recipe_import_upload_success">Ɓeydi ‘%1$s’ e Deftere Deftere</string>
 	<string name="recipe_list_image_desc">Natal ɓuuɓngal e restora</string>
 	<string name="recipe_no_timer">Oo Recipe alaa waktu!</string>
 	<string name="request_again">Ɗaɓɓu kadi</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Kala Waktuuji 12</string>
 	<string name="sync_interval_name_24">Kala Waktuuji 24</string>
 	<string name="sync_interval_name_off">Wala</string>
+	<string name="syncing_recipes">Sinkronisaade peeje maa</string>
 	<string name="tab_info_title">Kabaaru</string>
 	<string name="tab_ingredients_title">Kujeji</string>
 	<string name="tab_instructions_title">Matinolji</string>

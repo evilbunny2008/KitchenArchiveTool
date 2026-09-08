@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">No si pues impuartâ la ricete: %1$s</string>
 	<string name="recipe_import_in_progress">Ricete di impuartazion</string>
 	<string name="recipe_import_menu_title">Importâ la ricete dal URL</string>
+	<string name="recipe_import_upload_failure">Nol è stât rivât a zontâ ‘%1$s’ al Libri di cusine</string>
+	<string name="recipe_import_upload_success">A son stâts zontâts ‘%1$s’ al Libri di cusine</string>
 	<string name="recipe_list_image_desc">Miniature de imagjin de ricete</string>
 	<string name="recipe_no_timer">Cheste Ricete no à un cronometri!</string>
 	<string name="request_again">Domande di gnûf</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Ogni 12 oris</string>
 	<string name="sync_interval_name_24">Ogni 24 oris</string>
 	<string name="sync_interval_name_off">Studât</string>
+	<string name="syncing_recipes">Sincronizâ lis vôs recetis</string>
 	<string name="tab_info_title">Informazions</string>
 	<string name="tab_ingredients_title">Ingredients</string>
 	<string name="tab_instructions_title">Istruzions</string>

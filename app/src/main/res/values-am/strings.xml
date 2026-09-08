@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">የምግብ አዘገጃጀቱን ማስመጣት አልተቻለም፡ %1$s</string>
 	<string name="recipe_import_in_progress">የምግብ አሰራርን በማስመጣት ላይ</string>
 	<string name="recipe_import_menu_title">የምግብ አሰራርን ከዩአርኤል አስመጣ</string>
+	<string name="recipe_import_upload_failure">ወደ Cookbook ‘%1$s’ ማከል አልተቻለም</string>
+	<string name="recipe_import_upload_success">ወደ Cookbook ‘%1$s’ ታክሏል።</string>
 	<string name="recipe_list_image_desc">የምግብ አሰራር ምስል ድንክዬ</string>
 	<string name="recipe_no_timer">ይህ የምግብ አሰራር ሰዓት ቆጣሪ የለውም!</string>
 	<string name="request_again">እንደገና ይጠይቁ</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">በየ 12 ሰዓቱ</string>
 	<string name="sync_interval_name_24">በየ 24 ሰዓቱ</string>
 	<string name="sync_interval_name_off">ጠፍቷል</string>
+	<string name="syncing_recipes">የምግብ አሰራሮችዎን በማመሳሰል ላይ</string>
 	<string name="tab_info_title">መረጃ</string>
 	<string name="tab_ingredients_title">ንጥረ ነገሮች</string>
 	<string name="tab_instructions_title">መመሪያዎች</string>

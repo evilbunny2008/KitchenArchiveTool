@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">રેસીપી આયાત કરી શકાઈ નથી: %1$s</string>
 	<string name="recipe_import_in_progress">રેસીપી આયાત કરી રહ્યું છે</string>
 	<string name="recipe_import_menu_title">URL થી રેસીપી આયાત કરો</string>
+	<string name="recipe_import_upload_failure">કુકબુકમાં ‘%1$s’ ઉમેરી શકાયું નથી</string>
+	<string name="recipe_import_upload_success">કુકબુકમાં ‘%1$s’ ઉમેર્યું</string>
 	<string name="recipe_list_image_desc">રેસીપીની છબી થંબનેલ</string>
 	<string name="recipe_no_timer">આ રેસીપીમાં ટાઈમર નથી!</string>
 	<string name="request_again">ફરી વિનંતી</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">દર 12 કલાકે</string>
 	<string name="sync_interval_name_24">દર 24 કલાકે</string>
 	<string name="sync_interval_name_off">બંધ</string>
+	<string name="syncing_recipes">તમારી રેસિપી સમન્વયિત કરી રહ્યું છે</string>
 	<string name="tab_info_title">માહિતી</string>
 	<string name="tab_ingredients_title">ઘટકો</string>
 	<string name="tab_instructions_title">સૂચનાઓ</string>

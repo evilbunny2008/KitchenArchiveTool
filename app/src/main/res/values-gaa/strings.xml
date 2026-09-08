@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Enyɛɛɛ ekɛ niyenii he gbɛjianɔtoo lɛ aba: %1$s</string>
 	<string name="recipe_import_in_progress">Resipi ni akɛbaa</string>
 	<string name="recipe_import_menu_title">Resipi kɛjɛ URL</string>
+	<string name="recipe_import_upload_failure">Anyɛɛɛ akɛ ‘%1$s’ afata Nihoomɔ Wolo lɛ he</string>
+	<string name="recipe_import_upload_success">Akɛ ‘%1$s’ fata Nihoomɔ Wolo lɛ he</string>
 	<string name="recipe_list_image_desc">Mfoniri bibioo ni kɔɔ niyenii he gbɛjianɔtoo he</string>
 	<string name="recipe_no_timer">Nɛkɛ Recipe nɛɛ bɛ be he gbɛjianɔtoo!</string>
 	<string name="request_again">Bi ekoŋŋ</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Daa ŋmɛlɛtswai 12</string>
 	<string name="sync_interval_name_24">Daa ŋmɛlɛtswai 24</string>
 	<string name="sync_interval_name_off">Gbeenaa</string>
+	<string name="syncing_recipes">O niyenii he gbɛjianɔtoo lɛ miifee ekome</string>
 	<string name="tab_info_title">Adafitswaa</string>
 	<string name="tab_ingredients_title">Nihoomɔ he nibii</string>
 	<string name="tab_instructions_title">Gbɛtsɔɔmɔi</string>
