@@ -6,12 +6,14 @@
 package com.odiousapps.kat.services.sync
 
 import android.content.Context
+import androidx.lifecycle.LiveData
 import androidx.work.Constraints
 import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.ExistingWorkPolicy
 import androidx.work.NetworkType
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.PeriodicWorkRequestBuilder
+import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import com.odiousapps.kat.nextcloudapi.Accounts
 import com.odiousapps.kat.settings.PreferenceData
@@ -103,5 +105,23 @@ object SyncScheduler {
       val request = OneTimeWorkRequestBuilder<SyncWorker>().build()
       WorkManager.getInstance(context.applicationContext)
          .enqueueUniqueWork(MANUAL_WORK_NAME, ExistingWorkPolicy.KEEP, request)
+   }
+
+   /**
+    * Observes the state of syncNow()'s work, keyed by the same unique
+    * work name. Unlike a one-shot broadcast (see SyncWorker's own
+    * SYNC_UPDATE_BROADCAST, used elsewhere for the pull-to-refresh
+    * spinner), a fresh observer here immediately sees whatever the
+    * CURRENT state actually is -- including "already finished" --
+    * rather than only future transitions. That matters for a caller
+    * that might start (or restart) observing partway through, e.g.
+    * LoginActivity re-observing after a configuration change recreates
+    * it while the initial post-login sync is still running: a plain
+    * broadcast fired once, earlier, by the previous Activity instance
+    * would simply be missed.
+    */
+   fun observeManualSyncState(context: Context): LiveData<List<WorkInfo>> {
+      return WorkManager.getInstance(context.applicationContext)
+         .getWorkInfosForUniqueWorkLiveData(MANUAL_WORK_NAME)
    }
 }
