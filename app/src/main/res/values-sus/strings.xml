@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">A mu nOma na donse raso de: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe rasofe</string>
 	<string name="recipe_import_menu_title">Recipe rasofe kelife URL ma</string>
+	<string name="recipe_import_upload_failure">Wo mu nOma ‘%1$s’ sade buki kui</string>
+	<string name="recipe_import_upload_success">A bara ‘%1$s’ sa buki kui</string>
 	<string name="recipe_list_image_desc">Recipe xa foto lanma</string>
 	<string name="recipe_no_timer">Gi Recipe waxati mu a ra</string>
 	<string name="request_again">Wo man xa maxOrin</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">waxati 12 birin</string>
 	<string name="sync_interval_name_24">waxati 24 birin</string>
 	<string name="sync_interval_name_off">Dounougna</string>
+	<string name="syncing_recipes">Wo xa resEtEe ra sEmbE sofe</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Cénakhé sougandima céyalanféma</string>
 	<string name="tab_instructions_title">Masén’gni</string>

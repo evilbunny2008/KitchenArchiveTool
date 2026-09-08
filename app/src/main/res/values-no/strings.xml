@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Kunne ikke importere oppskriften: %1$s</string>
 	<string name="recipe_import_in_progress">Importerer oppskrift</string>
 	<string name="recipe_import_menu_title">Importer oppskrift fra URL</string>
+	<string name="recipe_import_upload_failure">Kunne ikke legge til ‘%1$s’ i kokeboken</string>
+	<string name="recipe_import_upload_success">La til ‘%1$s’ i kokeboken</string>
 	<string name="recipe_list_image_desc">Miniatyrbilde av oppskriften</string>
 	<string name="recipe_no_timer">Denne oppskriften har ikke en timer!</string>
 	<string name="request_again">Be om igjen</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Hver 12. time</string>
 	<string name="sync_interval_name_24">Hver 24. time</string>
 	<string name="sync_interval_name_off">Av</string>
+	<string name="syncing_recipes">Synkroniserer oppskriftene dine</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredienser</string>
 	<string name="tab_instructions_title">Instruksjoner</string>

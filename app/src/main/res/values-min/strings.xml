@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Indak dapek maimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Resep maimpor</string>
 	<string name="recipe_import_menu_title">Impor resep dari URL</string>
+	<string name="recipe_import_upload_failure">Indak dapek manambahkan ‘%1$s’ ka Buku Masak</string>
+	<string name="recipe_import_upload_success">Ditambahkan ‘%1$s’ ka Buku Masak</string>
 	<string name="recipe_list_image_desc">Gambar ketek resep</string>
 	<string name="recipe_no_timer">Resep ko indak ado timer!</string>
 	<string name="request_again">Pintak baliak</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Satiok 12 Jam</string>
 	<string name="sync_interval_name_24">Satiok 24 Jam</string>
 	<string name="sync_interval_name_off">Pudua</string>
+	<string name="syncing_recipes">Masinkronkan resep sanak</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Bahan-bahan</string>
 	<string name="tab_instructions_title">Instruksi</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Không thể nhập công thức: %1$s</string>
 	<string name="recipe_import_in_progress">Đang nhập công thức</string>
 	<string name="recipe_import_menu_title">Nhập công thức từ URL</string>
+	<string name="recipe_import_upload_failure">Không thể thêm ‘%1$s’ vào Sách dạy nấu ăn</string>
+	<string name="recipe_import_upload_success">Đã thêm ‘%1$s’ vào Sách dạy nấu ăn</string>
 	<string name="recipe_list_image_desc">Hình ảnh thu nhỏ của công thức</string>
 	<string name="recipe_no_timer">Công thức này không có đồng hồ tính giờ!</string>
 	<string name="request_again">Yêu cầu lại</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Cứ sau 12 giờ</string>
 	<string name="sync_interval_name_24">Mỗi 24 giờ</string>
 	<string name="sync_interval_name_off">Tắt</string>
+	<string name="syncing_recipes">Đang đồng bộ hóa công thức nấu ăn của bạn</string>
 	<string name="tab_info_title">Thông tin</string>
 	<string name="tab_ingredients_title">Thành phần</string>
 	<string name="tab_instructions_title">Hướng dẫn</string>

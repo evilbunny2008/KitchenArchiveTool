@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">無法匯入食譜：%1$s</string>
 	<string name="recipe_import_in_progress">正在導入配方</string>
 	<string name="recipe_import_menu_title">從 URL 導入食譜</string>
+	<string name="recipe_import_upload_failure">無法將‘%1$s’添加到食譜</string>
+	<string name="recipe_import_upload_success">將‘%1$s’加入食譜</string>
 	<string name="recipe_list_image_desc">食譜的圖像縮圖</string>
 	<string name="recipe_no_timer">這個食譜沒有計時器！</string>
 	<string name="request_again">再次請求</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">每 12 小時一次</string>
 	<string name="sync_interval_name_24">每 24 小時一次</string>
 	<string name="sync_interval_name_off">離開</string>
+	<string name="syncing_recipes">正在同步您的食譜</string>
 	<string name="tab_info_title">資訊</string>
 	<string name="tab_ingredients_title">原料</string>
 	<string name="tab_instructions_title">指示</string>

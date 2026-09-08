@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Nepodarilo sa importovať recept: %1$s</string>
 	<string name="recipe_import_in_progress">Importuje sa recept</string>
 	<string name="recipe_import_menu_title">Importujte recept z adresy URL</string>
+	<string name="recipe_import_upload_failure">Do kuchárskej knihy sa nepodarilo pridať ‘%1$s’</string>
+	<string name="recipe_import_upload_success">Do kuchárskej knihy bolo pridané ‘%1$s’</string>
 	<string name="recipe_list_image_desc">Miniatúra obrázka receptu</string>
 	<string name="recipe_no_timer">Tento recept nemá časovač!</string>
 	<string name="request_again">Požiadajte znova</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Každých 12 hodín</string>
 	<string name="sync_interval_name_24">Každých 24 hodín</string>
 	<string name="sync_interval_name_off">Vypnuté</string>
+	<string name="syncing_recipes">Synchronizujú sa vaše recepty</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingrediencie</string>
 	<string name="tab_instructions_title">Pokyny</string>

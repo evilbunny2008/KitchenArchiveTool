@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ma setgħetx timporta r-riċetta: %1$s</string>
 	<string name="recipe_import_in_progress">Importazzjoni tar-riċetta</string>
 	<string name="recipe_import_menu_title">Importa riċetta mill-URL</string>
+	<string name="recipe_import_upload_failure">Ma setgħetx iżżid ‘%1$s’ ma‘ Cookbook</string>
+	<string name="recipe_import_upload_success">Miżjud ‘%1$s’ ma‘ Cookbook</string>
 	<string name="recipe_list_image_desc">Miniatura tal-immaġni tar-riċetta</string>
 	<string name="recipe_no_timer">Din ir-Riċetta m’għandhiex tajmer!</string>
 	<string name="request_again">Talba mill-ġdid</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Kull 12-il Siegħa</string>
 	<string name="sync_interval_name_24">Kull 24 Siegħa</string>
 	<string name="sync_interval_name_off">Mitfi</string>
+	<string name="syncing_recipes">Tissinkronizza r-riċetti tiegħek</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredjenti</string>
 	<string name="tab_instructions_title">Istruzzjonijiet</string>

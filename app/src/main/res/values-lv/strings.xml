@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Nevarēja importēt recepti: %1$s</string>
 	<string name="recipe_import_in_progress">Notiek receptes importēšana</string>
 	<string name="recipe_import_menu_title">Importēt recepti no URL</string>
+	<string name="recipe_import_upload_failure">Nevarēja pievienot ‘%1$s’ pavārgrāmatai</string>
+	<string name="recipe_import_upload_success">Pavārgrāmatai pievienots ‘%1$s’</string>
 	<string name="recipe_list_image_desc">Receptes attēla sīktēls</string>
 	<string name="recipe_no_timer">Šai receptei nav taimera!</string>
 	<string name="request_again">Pieprasīt vēlreiz</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Ik pēc 12 stundām</string>
 	<string name="sync_interval_name_24">Ik pēc 24 stundām</string>
 	<string name="sync_interval_name_off">Izslēgts</string>
+	<string name="syncing_recipes">Notiek jūsu recepšu sinhronizēšana</string>
 	<string name="tab_info_title">Informācija</string>
 	<string name="tab_ingredients_title">Sastāvdaļas</string>
 	<string name="tab_instructions_title">Norādījumi</string>

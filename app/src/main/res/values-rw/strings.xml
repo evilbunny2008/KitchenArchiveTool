@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ntushobora gutumiza resept:%1$s</string>
 	<string name="recipe_import_in_progress">Kuzana ibicuruzwa</string>
 	<string name="recipe_import_menu_title">Kuzana resept muri URL</string>
+	<string name="recipe_import_upload_failure">Ntushobora kongeramo ‘%1$s’ mugitabo</string>
+	<string name="recipe_import_upload_success">Wongeyeho ‘%1$s’ mugitabo</string>
 	<string name="recipe_list_image_desc">Ishusho thumbnail ya resept</string>
 	<string name="recipe_no_timer">Iyi resept ntabwo ifite ingengabihe!</string>
 	<string name="request_again">Ongera usabe</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Buri Masaha 12</string>
 	<string name="sync_interval_name_24">Buri Masaha 24</string>
 	<string name="sync_interval_name_off">Hanze</string>
+	<string name="syncing_recipes">Guhuza ibisubizo byawe</string>
 	<string name="tab_info_title">Amakuru</string>
 	<string name="tab_ingredients_title">Ibikoresho</string>
 	<string name="tab_instructions_title">Amabwiriza</string>

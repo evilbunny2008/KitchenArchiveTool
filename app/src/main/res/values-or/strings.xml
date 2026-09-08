@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ରେସିପି ଆମଦାନୀ କରିପାରିବ ନାହିଁ:%1$s |</string>
 	<string name="recipe_import_in_progress">ରେସିପି ଆମଦାନୀ</string>
 	<string name="recipe_import_menu_title">URL ରୁ ରେସିପି ଆମଦାନୀ କରନ୍ତୁ |</string>
+	<string name="recipe_import_upload_failure">କୁକ୍ବୁକ୍ ରେ ‘%1$s’ ଯୋଗ କରିପାରିବ ନାହିଁ |</string>
+	<string name="recipe_import_upload_success">କୁକ୍ବୁକ୍ ରେ ‘%1$s’ ଯୋଡା ଯାଇଛି |</string>
 	<string name="recipe_list_image_desc">ରେସିପିର ପ୍ରତିଛବି ଥମ୍ na ନେଲ୍ |</string>
 	<string name="recipe_no_timer">ଏହି ରେସିପିର ଏକ ଟାଇମର୍ ନାହିଁ!</string>
 	<string name="request_again">ପୁନର୍ବାର ଅନୁରୋଧ |</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ପ୍ରତି 12 ଘଣ୍ଟାରେ |</string>
 	<string name="sync_interval_name_24">ପ୍ରତି 24 ଘଣ୍ଟାରେ |</string>
 	<string name="sync_interval_name_off">ବନ୍ଦ</string>
+	<string name="syncing_recipes">ତୁମର ରେସିପି ସିଙ୍କ୍</string>
 	<string name="tab_info_title">ସୂଚନା</string>
 	<string name="tab_ingredients_title">ଉପାଦାନଗୁଡ଼ିକ</string>
 	<string name="tab_instructions_title">ନିର୍ଦ୍ଦେଶାବଳୀ</string>

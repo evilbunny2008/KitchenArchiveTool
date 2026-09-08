@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ko le gbe ohunelo naa wọle: %1$s</string>
 	<string name="recipe_import_in_progress">N ṣe agbewọle ilana</string>
 	<string name="recipe_import_menu_title">Ṣe agbewọle ilana lati URL</string>
+	<string name="recipe_import_upload_failure">Ko le ṣafikun ‘%1$s’ si Iwe Onjewiwa</string>
+	<string name="recipe_import_upload_success">Ṣafikun ‘%1$s’ si Iwe Onjewiwa</string>
 	<string name="recipe_list_image_desc">Aworan eekanna atanpako ti ohunelo</string>
 	<string name="recipe_no_timer">Ohunelo yii ko ni aago kan!</string>
 	<string name="request_again">Beere lẹẹkansi</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Ni gbogbo wakati 12</string>
 	<string name="sync_interval_name_24">Ni gbogbo wakati 24</string>
 	<string name="sync_interval_name_off">Paa</string>
+	<string name="syncing_recipes">Ṣiṣẹpọ awọn ilana rẹ</string>
 	<string name="tab_info_title">Alaye</string>
 	<string name="tab_ingredients_title">Awọn eroja</string>
 	<string name="tab_instructions_title">Awọn ilana</string>

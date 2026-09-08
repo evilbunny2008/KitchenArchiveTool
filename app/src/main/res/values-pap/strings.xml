@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">No por a importá e reseta: %1$s</string>
 	<string name="recipe_import_in_progress">Importando reseta</string>
 	<string name="recipe_import_menu_title">Importá reseta for di URL</string>
+	<string name="recipe_import_upload_failure">No por a agregá ‘%1$s’ na Cookbook</string>
+	<string name="recipe_import_upload_success">A agregá ‘%1$s’ na Cookbook</string>
 	<string name="recipe_list_image_desc">Imágen di miniatura di reseta</string>
 	<string name="recipe_no_timer">E Reseta aki no tin un timer!</string>
 	<string name="request_again">Pidi un biaha mas</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Kada 12 Ora</string>
 	<string name="sync_interval_name_24">Kada 24 Ora</string>
 	<string name="sync_interval_name_off">Pagá</string>
+	<string name="syncing_recipes">Sinkronisá bo resetanan</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredientenan</string>
 	<string name="tab_instructions_title">Instrukshonnan</string>

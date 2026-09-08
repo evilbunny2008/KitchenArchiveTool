@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Kon ut recept neet importere: %1$s</string>
 	<string name="recipe_import_in_progress">Recept importere</string>
 	<string name="recipe_import_menu_title">Recept importere vaan URL</string>
+	<string name="recipe_import_upload_failure">Kon ‘%1$s’ neet toevoege aon ‘t kookbook</string>
+	<string name="recipe_import_upload_success">‘%1$s’ toegeveug aon ‘t kookbook</string>
 	<string name="recipe_list_image_desc">Miniatuur vaan ‘t recept</string>
 	<string name="recipe_no_timer">Dit resep heet gein timer!</string>
 	<string name="request_again">Verzörg nog ummer</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Elke 12 oor</string>
 	<string name="sync_interval_name_24">Elke 24 oor</string>
 	<string name="sync_interval_name_off">Oet</string>
+	<string name="syncing_recipes">Synchronisere vaan eur recepte</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingrediejente</string>
 	<string name="tab_instructions_title">Insjtruksies</string>

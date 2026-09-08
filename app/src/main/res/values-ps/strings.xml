@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ترکیب وارد نشو کولی: %1$s</string>
 	<string name="recipe_import_in_progress">د ترکیب واردول</string>
 	<string name="recipe_import_menu_title">له URL څخه ترکیب وارد کړئ</string>
+	<string name="recipe_import_upload_failure">په کوک بک کې ‘%1$s’ نشي اضافه کولی</string>
+	<string name="recipe_import_upload_success">په کوک بک کې ‘%1$s’ اضافه شوی</string>
 	<string name="recipe_list_image_desc">د ترکیب انځوریز تمبیل</string>
 	<string name="recipe_no_timer">دا ترکیب ټایمر نلري!</string>
 	<string name="request_again">بیا غوښتنه وکړئ</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">هر 12 ساعته</string>
 	<string name="sync_interval_name_24">هر 24 ساعته</string>
 	<string name="sync_interval_name_off">بند</string>
+	<string name="syncing_recipes">ستاسو ترکیبونه همغږي کول</string>
 	<string name="tab_info_title">معلومات</string>
 	<string name="tab_ingredients_title">اجزا</string>
 	<string name="tab_instructions_title">لارښوونې</string>

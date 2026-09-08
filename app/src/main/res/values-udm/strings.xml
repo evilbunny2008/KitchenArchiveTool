@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Рецептэз импортировать карыны ӧз луы: %1$s</string>
 	<string name="recipe_import_in_progress">Рецептэз импортировать карон</string>
 	<string name="recipe_import_menu_title">Рецептэз URL-ысь импортировать карыны</string>
+	<string name="recipe_import_upload_failure">Ӧз быгаты ватсаны ‘%1$s’ Cookbook-э</string>
+	<string name="recipe_import_upload_success">Пӧраськон книгае ‘%1$s’ ватсамын</string>
 	<string name="recipe_list_image_desc">Рецептлэн суредэз</string>
 	<string name="recipe_no_timer">Та рецептлэн таймерез ӧвӧл!</string>
 	<string name="request_again">Нош ик куре</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Котькуд 12 час</string>
 	<string name="sync_interval_name_24">Котькуд 24 час</string>
 	<string name="sync_interval_name_off">Питыртӥз</string>
+	<string name="syncing_recipes">Рецептъёстэс синхронизировать карон</string>
 	<string name="tab_info_title">Ивортодэт</string>
 	<string name="tab_ingredients_title">Кылдытӥсь люкетъёс</string>
 	<string name="tab_instructions_title">Инструкциос</string>

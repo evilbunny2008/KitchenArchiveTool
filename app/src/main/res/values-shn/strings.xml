@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ဢမ်ႇၸၢင်ႈဢဝ်ၶဝ်ႈမႃးလႆႈ လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း: %1$s</string>
 	<string name="recipe_import_in_progress">ဢဝ်ၶဝ်ႈမႃး လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း</string>
 	<string name="recipe_import_menu_title">ဢဝ်ၶဝ်ႈမႃး လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း တီႈ URL</string>
+	<string name="recipe_import_upload_failure">ဢမ်ႇၸၢင်ႈသႂ်ႇ ‘%1$s’ တီႈၼႂ်းပပ်ႉႁုင်ၶဝ်ႈၽၵ်း</string>
+	<string name="recipe_import_upload_success">ထႅမ်သႂ်ႇ ‘%1$s’ တီႈၼႂ်းပပ်ႉႁုင်ၶဝ်ႈၽၵ်း</string>
 	<string name="recipe_list_image_desc">ၶႅပ်းႁၢင်ႈဢွၼ်ႇ လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း</string>
 	<string name="recipe_no_timer">Recipe ၼႆႉ ဢမ်ႇမီးၶၢဝ်းယၢမ်း!</string>
 	<string name="request_again">ယွၼ်းၶိုၼ်း</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ၵူႈ 12 ၸူဝ်ႈမူင်း</string>
 	<string name="sync_interval_name_24">ၵူႈ 24 ၸူဝ်ႈမူင်း</string>
 	<string name="sync_interval_name_off">ႁပ်း</string>
+	<string name="syncing_recipes">ႁဵတ်းႁႂ်ႈလၢႆးႁဵတ်းၶဝ်ႈၽၵ်း ၸဝ်ႈၵဝ်ႇမိူၼ်ၵၼ်</string>
 	<string name="tab_info_title">ၶေႃႈမုၼ်း</string>
 	<string name="tab_ingredients_title">ၶဝ်ႈၶိုင်</string>
 	<string name="tab_instructions_title">ၶေႃႈပၼ်ဝႆႉ</string>

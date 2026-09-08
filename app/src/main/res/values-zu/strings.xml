@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ayikwazanga ukungenisa iresiphi: %1$s</string>
 	<string name="recipe_import_in_progress">Ingenisa iresiphi</string>
 	<string name="recipe_import_menu_title">Ngenisa iresiphi kusuka ku-URL</string>
+	<string name="recipe_import_upload_failure">Ayikwazanga ukwengeza u-‘%1$s’ ku-Cookbook</string>
+	<string name="recipe_import_upload_success">Kwengezwe u-‘%1$s’ ku-Cookbook</string>
 	<string name="recipe_list_image_desc">Isithonjana sesithombe seresiphi</string>
 	<string name="recipe_no_timer">Le Recipe ayinaso isibali sikhathi!</string>
 	<string name="request_again">Cela futhi</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Njalo Amahora angu-12</string>
 	<string name="sync_interval_name_24">Njalo Amahora angu-24</string>
 	<string name="sync_interval_name_off">Valiwe</string>
+	<string name="syncing_recipes">Ivumelanisa amarisiphu akho</string>
 	<string name="tab_info_title">Ulwazi</string>
 	<string name="tab_ingredients_title">Izithako</string>
 	<string name="tab_instructions_title">Iziyalezo</string>

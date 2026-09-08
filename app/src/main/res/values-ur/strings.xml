@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">نسخہ درآمد نہیں کیا جا سکا: %1$s</string>
 	<string name="recipe_import_in_progress">ترکیب درآمد کی جا رہی ہے</string>
 	<string name="recipe_import_menu_title">URL سے نسخہ درآمد کریں۔</string>
+	<string name="recipe_import_upload_failure">Cookbook میں ‘%1$s’ کو شامل نہیں کیا جا سکا</string>
+	<string name="recipe_import_upload_success">Cookbook میں ‘%1$s’ کو شامل کیا گیا۔</string>
 	<string name="recipe_list_image_desc">ترکیب کا تصویری تھمب نیل</string>
 	<string name="recipe_no_timer">اس ترکیب میں ٹائمر نہیں ہے!</string>
 	<string name="request_again">دوبارہ درخواست کریں۔</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ہر 12 گھنٹے</string>
 	<string name="sync_interval_name_24">ہر 24 گھنٹے</string>
 	<string name="sync_interval_name_off">آف</string>
+	<string name="syncing_recipes">آپ کی ترکیبیں مطابقت پذیر ہو رہی ہیں</string>
 	<string name="tab_info_title">معلومات</string>
 	<string name="tab_ingredients_title">اجزاء</string>
 	<string name="tab_instructions_title">ہدایات</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Couldn’t import risepe: %1$s</string>
 	<string name="recipe_import_in_progress">Go reka ka ntle risepe</string>
 	<string name="recipe_import_menu_title">Tsenya risepe go tšwa go URL</string>
+	<string name="recipe_import_upload_failure">Ga se ya kgona go oketša ‘%1$s’ go Cookbook</string>
+	<string name="recipe_import_upload_success">E okeditše ‘%1$s’ go Puku ya go Apea</string>
 	<string name="recipe_list_image_desc">Seswantšho se senyenyane sa risepe</string>
 	<string name="recipe_no_timer">Risepe ye ga e na sešupanako!</string>
 	<string name="request_again">Kgopela gape</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Diiri tše dingwe le tše dingwe tše 12</string>
 	<string name="sync_interval_name_24">Diiri tše dingwe le tše dingwe tše 24</string>
 	<string name="sync_interval_name_off">Tima</string>
+	<string name="syncing_recipes">Go nyalantšha diresepe tša gago</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ditswaki</string>
 	<string name="tab_instructions_title">Ditaelo</string>

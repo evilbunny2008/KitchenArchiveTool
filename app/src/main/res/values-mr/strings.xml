@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">रेसिपी इंपोर्ट करू शकलो नाही: %1$s</string>
 	<string name="recipe_import_in_progress">रेसिपी इंपोर्ट करत आहे</string>
 	<string name="recipe_import_menu_title">URL वरून रेसिपी इंपोर्ट करा</string>
+	<string name="recipe_import_upload_failure">कुकबुकमध्ये ‘%1$s’ जोडू शकलो नाही</string>
+	<string name="recipe_import_upload_success">कुकबुकमध्ये ‘%1$s’ जोडले</string>
 	<string name="recipe_list_image_desc">रेसिपीची प्रतिमा लघुप्रतिमा</string>
 	<string name="recipe_no_timer">या रेसिपीमध्ये टायमर नाही!</string>
 	<string name="request_again">पुन्हा विनंती</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">दर 12 तासांनी</string>
 	<string name="sync_interval_name_24">दर 24 तासांनी</string>
 	<string name="sync_interval_name_off">बंद</string>
+	<string name="syncing_recipes">तुमच्या पाककृती सिंक करत आहे</string>
 	<string name="tab_info_title">माहिती</string>
 	<string name="tab_ingredients_title">साहित्य</string>
 	<string name="tab_instructions_title">सूचना</string>

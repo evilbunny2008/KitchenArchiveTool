@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Labele hatama reseita: %1$s</string>
 	<string name="recipe_import_in_progress">Importasaun reseita</string>
 	<string name="recipe_import_menu_title">Importa reseita husi URL</string>
+	<string name="recipe_import_upload_failure">Labele aumenta ‘%1$s’ ba Cookbook</string>
+	<string name="recipe_import_upload_success">Hatama ‘%1$s’ ba Cookbook</string>
 	<string name="recipe_list_image_desc">Imajen ki’ik hosi reseita</string>
 	<string name="recipe_no_timer">Reseita ida-ne’e laiha tempu!</string>
 	<string name="request_again">Husu fali</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Kada Oras 12</string>
 	<string name="sync_interval_name_24">Kada Oras 24</string>
 	<string name="sync_interval_name_off">Sai</string>
+	<string name="syncing_recipes">Sinkroniza Ita-boot nia reseita sira</string>
 	<string name="tab_info_title">Informasaun</string>
 	<string name="tab_ingredients_title">Ingridientes</string>
 	<string name="tab_instructions_title">Instrusaun</string>

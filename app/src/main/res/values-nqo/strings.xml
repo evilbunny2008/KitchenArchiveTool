@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ߊ ߕߋ߫ sߋ߫ ߞߊ߬ ߗߜ߭ߏߦߊ ߟߊߘߏ߲: %1$s</string>
 	<string name="recipe_import_in_progress">ߞߍsߋ߲ ߟߊsߣߍߟߌ</string>
 	<string name="recipe_import_menu_title">ߊߥߵ ߦߋ߫ ߗߜ߭ߏߦߊ ߟߊߘߏ߲ ߞߊ ߓߐ߫ URL ߟߊ߫</string>
+	<string name="recipe_import_upload_failure">ߊ ߕߋ߫ sߋ߫ ߞߊ߬ ‘%1$s’ ߝߙߊ߬ ߕߏߓߟߌ ߜ߭ߊߝߋ ߞߊ߲߬</string>
+	<string name="recipe_import_upload_success">‘%1$s’ ߝߙߊ߬ ߕߏߓߟߌ ߜ߭ߊߝߋ ߞߊ߲߬</string>
 	<string name="recipe_list_image_desc">sߎߡߊ߲ߠߌ߲ ߖߌ߬ߦߊ߬ߓߍ߬ ߞߏߘߋߞߏߘߋ</string>
 	<string name="recipe_no_timer">ߥߊ߯ߕߌ ߕߋ߫ ߣߌ߲ ߗߜ߭ߏߦߊ ߟߊ !</string>
 	<string name="request_again">ߢߌߣߌ߲ߠߌ߲ ߞߎߘߊߞߍ߫</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">sߊ߲ߜ߭ߊ 12 ߓߍ߯</string>
 	<string name="sync_interval_name_24">sߊ߲ߜ߭ߊ 24 ߓߍ</string>
 	<string name="sync_interval_name_off">ߞߊ߫</string>
+	<string name="syncing_recipes">ߌ ߟߊ߫ ߕߓߌߟߌ ߟߎ߬ ߕߎ߬ߡߊ߬ߢߐ߲߰ߦߊ</string>
 	<string name="tab_info_title">ߞߎߣߊߝߏߣߌߥߵ</string>
 	<string name="tab_ingredients_title">sߏ߯ߙߏߕߊ</string>
 	<string name="tab_instructions_title">ߢߊ߬ߦߌ߬ߙߞߊ߬ߟߌߥߵ</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ไม่สามารถนำเข้าสูตร: %1$s</string>
 	<string name="recipe_import_in_progress">กำลังนำเข้าสูตร</string>
 	<string name="recipe_import_menu_title">นำเข้าสูตรจาก URL</string>
+	<string name="recipe_import_upload_failure">ไม่สามารถเพิ่ม ‘%1$s’ ลงในตำราอาหารได้</string>
+	<string name="recipe_import_upload_success">เพิ่ม ‘%1$s’ ลงในตำราอาหารแล้ว</string>
 	<string name="recipe_list_image_desc">ภาพขนาดย่อของสูตร</string>
 	<string name="recipe_no_timer">สูตรนี้ไม่มีการจับเวลา!</string>
 	<string name="request_again">ขออีกครั้ง</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ทุก ๆ 12 ชั่วโมง</string>
 	<string name="sync_interval_name_24">ทุก ๆ 24 ชั่วโมง</string>
 	<string name="sync_interval_name_off">ปิด</string>
+	<string name="syncing_recipes">กำลังซิงค์สูตรอาหารของคุณ</string>
 	<string name="tab_info_title">ข้อมูล</string>
 	<string name="tab_ingredients_title">วัตถุดิบ</string>
 	<string name="tab_instructions_title">คำแนะนำ</string>

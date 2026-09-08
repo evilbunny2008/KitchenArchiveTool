@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Impossible d’importar la recèpta : %1$s</string>
 	<string name="recipe_import_in_progress">Important la recèpta</string>
 	<string name="recipe_import_menu_title">Importar la recèpta dempuèi l’URL</string>
+	<string name="recipe_import_upload_failure">Impossible d’apondre ‘ %1$s ’ al Cookbook</string>
+	<string name="recipe_import_upload_success">Ajustat ‘%1$s’ al Libre de cosina</string>
 	<string name="recipe_list_image_desc">Viniatura d’imatge de la recèpta</string>
 	<string name="recipe_no_timer">Aquesta Recèpta a pas de temporizator!</string>
 	<string name="request_again">Tornatz demandar</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Cada 12 oras</string>
 	<string name="sync_interval_name_24">Cada 24 oras</string>
 	<string name="sync_interval_name_off">Desactivat</string>
+	<string name="syncing_recipes">Sincronizant vòstras recèptas</string>
 	<string name="tab_info_title">Informacions</string>
 	<string name="tab_ingredients_title">Ingredients</string>
 	<string name="tab_instructions_title">Instruccions</string>

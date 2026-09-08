@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ntishobora kwinjiza ingene bitegurwa: %1$s</string>
 	<string name="recipe_import_in_progress">Kuzana ingene bitegurwa</string>
 	<string name="recipe_import_menu_title">Kwinjiza ibifungurwa bivuye kuri URL</string>
+	<string name="recipe_import_upload_failure">Ntishobora kwongerako ‘%1$s’ ku gitabo co guteka</string>
+	<string name="recipe_import_upload_success">Yongeyeko ‘%1$s’ ku gitabo co guteka</string>
 	<string name="recipe_list_image_desc">Ishusho y’uburyo bwo guteka</string>
 	<string name="recipe_no_timer">Iyi Recipe nta gihe igira!</string>
 	<string name="request_again">Gusaba kandi</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Buri masaha 12</string>
 	<string name="sync_interval_name_24">Buri masaha 24</string>
 	<string name="sync_interval_name_off">Bivuye</string>
+	<string name="syncing_recipes">Guhuza amaresipe yawe</string>
 	<string name="tab_info_title">Amakuru</string>
 	<string name="tab_ingredients_title">Ibirungo</string>
 	<string name="tab_instructions_title">Ubuyobozi</string>

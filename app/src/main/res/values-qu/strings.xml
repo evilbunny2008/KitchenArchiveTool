@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Manam atirqanchu chay recetata hawaman apamuyta: %1$s</string>
 	<string name="recipe_import_in_progress">Receta apamuy</string>
 	<string name="recipe_import_menu_title">URL nisqamanta recetata apamuy</string>
+	<string name="recipe_import_upload_failure">Mana ‘%1$s’ Cookbook nisqaman yapayta atirqanchu</string>
+	<string name="recipe_import_upload_success">Yanukuy qillqaman ‘%1$s’ yapasqa</string>
 	<string name="recipe_list_image_desc">Imahina uchuy rikchaynin recetamanta</string>
 	<string name="recipe_no_timer">¡Kay Recetaqa manam temporizadorniyuqchu!</string>
 	<string name="request_again">Hukmanta mañakuy</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Sapa 12 Horas</string>
 	<string name="sync_interval_name_24">Sapa 24 Horas</string>
 	<string name="sync_interval_name_off">Wañuchisqa</string>
+	<string name="syncing_recipes">Recetasniykikunata sincronizaspa</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Kaqninkuna</string>
 	<string name="tab_instructions_title">Kamachiykuna</string>

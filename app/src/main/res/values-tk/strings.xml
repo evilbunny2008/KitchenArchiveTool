@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Reseptini import edip bolmaýar:%1$s</string>
 	<string name="recipe_import_in_progress">Resept import etmek</string>
 	<string name="recipe_import_menu_title">Reseptini URL-den import ediň</string>
+	<string name="recipe_import_upload_failure">Cookbook-a ‘%1$s’ goşup bolmaýar</string>
+	<string name="recipe_import_upload_success">Cookbook-a ‘%1$s’ goşuldy</string>
 	<string name="recipe_list_image_desc">Reseptiň surat eseri</string>
 	<string name="recipe_no_timer">Bu reseptde taýmer ýok!</string>
 	<string name="request_again">Againene haýyş</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Her 12 sagatdan</string>
 	<string name="sync_interval_name_24">Her 24 sagatdan</string>
 	<string name="sync_interval_name_off">Öçürilen</string>
+	<string name="syncing_recipes">Reseptleriňizi sinhronlamak</string>
 	<string name="tab_info_title">Maglumat</string>
 	<string name="tab_ingredients_title">Goşundylar</string>
 	<string name="tab_instructions_title">Görkezmeler</string>

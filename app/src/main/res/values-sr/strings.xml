@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Није могуће увести рецепт: %1$s</string>
 	<string name="recipe_import_in_progress">Увоз рецепта</string>
 	<string name="recipe_import_menu_title">Увезите рецепт са УРЛ-а</string>
+	<string name="recipe_import_upload_failure">Није могуће додати ‘%1$s’ у Кувар</string>
+	<string name="recipe_import_upload_success">Додато ‘%1$s’ у Кувар</string>
 	<string name="recipe_list_image_desc">Сличица слике рецепта</string>
 	<string name="recipe_no_timer">Овај рецепт нема тајмер!</string>
 	<string name="request_again">Захтевајте поново</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Сваких 12 сати</string>
 	<string name="sync_interval_name_24">Свака 24 сата</string>
 	<string name="sync_interval_name_off">Офф</string>
+	<string name="syncing_recipes">Ваши рецепти се синхронизују</string>
 	<string name="tab_info_title">Инфо</string>
 	<string name="tab_ingredients_title">Састојци</string>
 	<string name="tab_instructions_title">Упутства</string>

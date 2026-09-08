@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ဟင်းချက်နည်းကို မတင်သွင်းနိုင်ခဲ့ပါ- %1$s</string>
 	<string name="recipe_import_in_progress">ဟင်းချက်နည်းတင်သွင်းနေသည်</string>
 	<string name="recipe_import_menu_title">စာရွက်ကို URL မှတင်သွင်းပါ။</string>
+	<string name="recipe_import_upload_failure">Cookbook သို့ ‘%1$s’ ကို ထည့်၍မရပါ။</string>
+	<string name="recipe_import_upload_success">Cookbook သို့ ‘%1$s’ ကို ထည့်ခဲ့သည်။</string>
 	<string name="recipe_list_image_desc">ဟင်းချက်နည်းပုံသေး</string>
 	<string name="recipe_no_timer">ဤချက်ပြုတ်နည်းတွင် အချိန်တိုင်းစက် မရှိပါ။</string>
 	<string name="request_again">ထပ်မံတောင်းဆိုပါ။</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">12 နာရီတိုင်း</string>
 	<string name="sync_interval_name_24">24 နာရီတိုင်း</string>
 	<string name="sync_interval_name_off">ပိတ်သည်။</string>
+	<string name="syncing_recipes">သင့်ချက်ပြုတ်နည်းများကို စင့်ခ်လုပ်နေသည်</string>
 	<string name="tab_info_title">အချက်အလက်</string>
 	<string name="tab_ingredients_title">ပါဝင်ပစ္စည်းများ</string>
 	<string name="tab_instructions_title">ညွှန်ကြားချက်များ</string>

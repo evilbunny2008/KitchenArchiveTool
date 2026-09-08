@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">رېتسېپنى ئىمپورتلىيالمىدى:%1$s</string>
 	<string name="recipe_import_in_progress">رېتسېپ ئەكىرىش</string>
 	<string name="recipe_import_menu_title">URL دىن رېتسېپ ئەكىرىڭ</string>
+	<string name="recipe_import_upload_failure">Cookbook غا ‘%1$s’ قوشالمىدى</string>
+	<string name="recipe_import_upload_success">Cookbook غا ‘%1$s’ قوشۇلدى</string>
 	<string name="recipe_list_image_desc">رېتسېپنىڭ رەسىم كىچىك كۆرۈنۈشى</string>
 	<string name="recipe_no_timer">بۇ رېتسېپنىڭ ۋاقتى يوق!</string>
 	<string name="request_again">قايتا تەلەپ قىلىڭ</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ھەر 12 سائەتتە</string>
 	<string name="sync_interval_name_24">ھەر 24 سائەتتە</string>
 	<string name="sync_interval_name_off">Off</string>
+	<string name="syncing_recipes">رېتسېپلىرىڭىزنى ماسقەدەملەش</string>
 	<string name="tab_info_title">ئۇچۇر</string>
 	<string name="tab_ingredients_title">تەركىبلەر</string>
 	<string name="tab_instructions_title">كۆرسەتمە</string>

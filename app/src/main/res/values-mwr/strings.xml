@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">नुस्खा आयात कोनी कर सक्या: %1$s</string>
 	<string name="recipe_import_in_progress">नुस्खा आयात कर रिया हां</string>
 	<string name="recipe_import_menu_title">यूआरएल सूं नुस्खा आयात करो</string>
+	<string name="recipe_import_upload_failure">रसोई री किताब मांय ‘%1$s’ नीं जोड़ सक्या</string>
+	<string name="recipe_import_upload_success">कुकबुक रै मांय ‘%1$s’ जोड़ दियो</string>
 	<string name="recipe_list_image_desc">नुस्खा री छवि थंबनेल</string>
 	<string name="recipe_no_timer">इण नुस्खा रै मांय कोई टाइमर कोनी है!</string>
 	<string name="request_again">फेरूं अरज करो</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">हर 12 घंटे</string>
 	<string name="sync_interval_name_24">हर 24 घंटे</string>
 	<string name="sync_interval_name_off">बंद करणा</string>
+	<string name="syncing_recipes">थारी विधियां नै सिंक कर रिया हां</string>
 	<string name="tab_info_title">जाणकारी</string>
 	<string name="tab_ingredients_title">सामग्री</string>
 	<string name="tab_instructions_title">निर्देश</string>

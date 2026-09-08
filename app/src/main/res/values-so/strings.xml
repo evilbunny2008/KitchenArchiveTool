@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Waa la soo dejin kari waayay cuntada: %1$s</string>
 	<string name="recipe_import_in_progress">Soo dejinta cuntada</string>
 	<string name="recipe_import_menu_title">Ka soo deji cunto karinta URL</string>
+	<string name="recipe_import_upload_failure">Laguma darin karo ‘%1$s’ Buuga karinta</string>
+	<string name="recipe_import_upload_success">Waxaa lagu daray ‘%1$s’ Buuga karinta</string>
 	<string name="recipe_list_image_desc">Sawirka thumbnail ee cunto karinta</string>
 	<string name="recipe_no_timer">Cunto-karintan ma laha saacad-tire!</string>
 	<string name="request_again">Codso mar kale</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">12 saacadood kasta</string>
 	<string name="sync_interval_name_24">24-kii saacba</string>
 	<string name="sync_interval_name_off">Demin</string>
+	<string name="syncing_recipes">Isku dhafka cuntooyinkaaga</string>
 	<string name="tab_info_title">Xog</string>
 	<string name="tab_ingredients_title">Maaddooyinka</string>
 	<string name="tab_instructions_title">Tilmaamaha</string>

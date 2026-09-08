@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Recipe a import thei lo: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe import a ni</string>
 	<string name="recipe_import_menu_title">URL atang hian recipe import rawh</string>
+	<string name="recipe_import_upload_failure">Cookbook-ah ‘%1$s’ a dah thei lo</string>
+	<string name="recipe_import_upload_success">Cookbook-ah ‘%1$s’ a dah belh bawk</string>
 	<string name="recipe_list_image_desc">Image thumbnail a ni a, a siam dan tur</string>
 	<string name="recipe_no_timer">He Recipe hian timer a nei lo!</string>
 	<string name="request_again">Dil leh rawh</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Darkar 12 danah</string>
 	<string name="sync_interval_name_24">Darkar 24 danah</string>
 	<string name="sync_interval_name_off">Titawp</string>
+	<string name="syncing_recipes">I recipe te chu sync in</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Thil telh</string>
 	<string name="tab_instructions_title">Inkaihhruaina</string>

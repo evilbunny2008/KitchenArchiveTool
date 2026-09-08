@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Kāore i taea te kawemai te tunu: %1$s</string>
 	<string name="recipe_import_in_progress">Kei te kawemai te tunu</string>
 	<string name="recipe_import_menu_title">Kawemai te tunu mai i te URL</string>
+	<string name="recipe_import_upload_failure">Kāore i taea te tāpiri i te ‘%1$s’ ki te pukapuka tunutunu</string>
+	<string name="recipe_import_upload_success">Kua taapirihia te ‘%1$s’ ki te pukapuka tunutunu</string>
 	<string name="recipe_list_image_desc">Atahanga karakōnui o te tunu</string>
 	<string name="recipe_no_timer">Ko tenei Recipe kaore he taima!</string>
 	<string name="request_again">Tonoa ano</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Ia 12 haora</string>
 	<string name="sync_interval_name_24">Ia 24 haora</string>
 	<string name="sync_interval_name_off">Wehe</string>
+	<string name="syncing_recipes">Te tukutahi i o tohutao</string>
 	<string name="tab_info_title">Nga korero</string>
 	<string name="tab_ingredients_title">Nga kai</string>
 	<string name="tab_instructions_title">Tohutohu</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Рецептро ворид кардан муяссар нашуд: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт ворид карда мешавад</string>
 	<string name="recipe_import_menu_title">Рецептро аз URL ворид кунед</string>
+	<string name="recipe_import_upload_failure">‘%1$s’ -ро ба китоби ошпаз илова кардан муяссар нашуд</string>
+	<string name="recipe_import_upload_success">‘%1$s’ ба китоби пухтупаз илова карда шуд</string>
 	<string name="recipe_list_image_desc">Намоиши тасвири рецепт</string>
 	<string name="recipe_no_timer">Ин рецепт таймер надорад!</string>
 	<string name="request_again">Боз дархост кунед</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Ҳар 12 соат</string>
 	<string name="sync_interval_name_24">Ҳар 24 соат</string>
 	<string name="sync_interval_name_off">Хомӯш</string>
+	<string name="syncing_recipes">Синхронизатсияи рецептҳои шумо</string>
 	<string name="tab_info_title">Маълумот</string>
 	<string name="tab_ingredients_title">Компонентхо</string>
 	<string name="tab_instructions_title">Дастурҳо</string>

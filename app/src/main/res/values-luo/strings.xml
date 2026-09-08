@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ok nyal kelo yo mar loso chiemo: %1$s</string>
 	<string name="recipe_import_in_progress">Kelo yore mag chiemo</string>
 	<string name="recipe_import_menu_title">Kelo yo mar loso chiemo kowuok e URL</string>
+	<string name="recipe_import_upload_failure">Ok nyal medo ‘%1$s’ e Buk mar Tedo</string>
+	<string name="recipe_import_upload_success">Ne omedo ‘%1$s’ e Buk mar Tedo</string>
 	<string name="recipe_list_image_desc">Picha matin mar yo mar tedo</string>
 	<string name="recipe_no_timer">Recipe ni onge gi timer!</string>
 	<string name="request_again">Kwayo kendo</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Seche 12 ka Seche 12</string>
 	<string name="sync_interval_name_24">Seche 24 ka Seche</string>
 	<string name="sync_interval_name_off">Not translatable on its own</string>
+	<string name="syncing_recipes">Sinkruok mar yore mag tedo mari</string>
 	<string name="tab_info_title">Weche</string>
 	<string name="tab_ingredients_title">Gige tedo</string>
 	<string name="tab_instructions_title">Chike</string>

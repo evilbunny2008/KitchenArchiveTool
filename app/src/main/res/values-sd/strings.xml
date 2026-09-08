@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ترڪيب درآمد نه ٿي سگھيو: %1$s</string>
 	<string name="recipe_import_in_progress">ترڪيب درآمد ڪري رهيو آهي</string>
 	<string name="recipe_import_menu_title">URL مان ترڪيب درآمد ڪريو</string>
+	<string name="recipe_import_upload_failure">Cookbook ۾ ‘%1$s’ شامل نه ٿي سگھيو</string>
+	<string name="recipe_import_upload_success">شامل ڪيو ويو ‘%1$s’ کي ڪڪ بڪ ۾</string>
 	<string name="recipe_list_image_desc">ترڪيب جي تصوير جو ٿمب نيل</string>
 	<string name="recipe_no_timer">هن ترڪيب ۾ ٽائمر نه آهي!</string>
 	<string name="request_again">ٻيهر درخواست ڪريو</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">هر 12 ڪلاڪ</string>
 	<string name="sync_interval_name_24">هر 24 ڪلاڪ</string>
 	<string name="sync_interval_name_off">بند</string>
+	<string name="syncing_recipes">توهان جي ترڪيب کي هم وقت سازي ڪري رهيو آهي</string>
 	<string name="tab_info_title">ڄاڻ</string>
 	<string name="tab_ingredients_title">اجزاء</string>
 	<string name="tab_instructions_title">هدايتون</string>

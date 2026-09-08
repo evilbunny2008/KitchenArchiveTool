@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Mënu ma indi rëset bi: %1$s</string>
 	<string name="recipe_import_in_progress">Reset buy indi</string>
 	<string name="recipe_import_menu_title">Yobbu rëset ci URL</string>
+	<string name="recipe_import_upload_failure">Mënu ma yokk ‘%1$s’ ci Cookbook</string>
+	<string name="recipe_import_upload_success">Yokk nañu ‘%1$s’ ci téere togg</string>
 	<string name="recipe_list_image_desc">Nataalu rëset bu ndaw</string>
 	<string name="recipe_no_timer">Reset bii amul reloj</string>
 	<string name="request_again">Laajaat</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">waxtu yu nekk</string>
 	<string name="sync_interval_name_24">waxtu yu nekk</string>
 	<string name="sync_interval_name_off">Dinaa</string>
+	<string name="syncing_recipes">Senkronise say rëset</string>
 	<string name="tab_info_title">Leeral</string>
 	<string name="tab_ingredients_title">Ay safsafal</string>
 	<string name="tab_instructions_title">Ay ndigal</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Le mafai ona faaulufale mai le fua: %1$s</string>
 	<string name="recipe_import_in_progress">O lo’o fa’aulufaleina mai le fua</string>
 	<string name="recipe_import_menu_title">Aumai fua mai le URL</string>
+	<string name="recipe_import_upload_failure">Le mafai ona fa’aopoopo le ‘%1$s’ i le Cookbook</string>
+	<string name="recipe_import_upload_success">Fa’aopoopo le ‘%1$s’ ile Tusi Kuka</string>
 	<string name="recipe_list_image_desc">Ata laititi o le fua</string>
 	<string name="recipe_no_timer">O lenei fua e leai se taimi!</string>
 	<string name="request_again">Toe talosaga</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Ta’i 12 Itula uma</string>
 	<string name="sync_interval_name_24">Ta’i 24 Itula uma</string>
 	<string name="sync_interval_name_off">Tape</string>
+	<string name="syncing_recipes">Fa’asa’o au fua</string>
 	<string name="tab_info_title">Fa’amatalaga</string>
 	<string name="tab_ingredients_title">Mea’ai</string>
 	<string name="tab_instructions_title">Faatonuga</string>

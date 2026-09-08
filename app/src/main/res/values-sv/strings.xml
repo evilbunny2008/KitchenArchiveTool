@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Det gick inte att importera receptet: %1$s</string>
 	<string name="recipe_import_in_progress">Importerar recept</string>
 	<string name="recipe_import_menu_title">Importera recept från URL</string>
+	<string name="recipe_import_upload_failure">Det gick inte att lägga till ‘%1$s’ i kokboken</string>
+	<string name="recipe_import_upload_success">Lade till ‘%1$s’ i kokboken</string>
 	<string name="recipe_list_image_desc">Miniatyrbild av receptet</string>
 	<string name="recipe_no_timer">Det här receptet har ingen timer!</string>
 	<string name="request_again">Begär igen</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Var 12:e timme</string>
 	<string name="sync_interval_name_24">Var 24:e timme</string>
 	<string name="sync_interval_name_off">Av</string>
+	<string name="syncing_recipes">Synkroniserar dina recept</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredienser</string>
 	<string name="tab_instructions_title">Instruktioner</string>

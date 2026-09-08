@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Рецептны импортлый алмый:%1$s</string>
 	<string name="recipe_import_in_progress">Рецепт импортлау</string>
 	<string name="recipe_import_menu_title">URL’дан рецепт кертү</string>
+	<string name="recipe_import_upload_failure">Cookbook’ка ‘%1$s’ кертә алмыйсыз</string>
+	<string name="recipe_import_upload_success">Cookbook’ка ‘%1$s’ өстәлде</string>
 	<string name="recipe_list_image_desc">Рецептның рәсем эскизы</string>
 	<string name="recipe_no_timer">Бу рецептның таймеры юк!</string>
 	<string name="request_again">Тагын сорау</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">12әр 12 сәгатьтә</string>
 	<string name="sync_interval_name_24">24әр 24 сәгатьтә</string>
 	<string name="sync_interval_name_off">Сүндерелгән</string>
+	<string name="syncing_recipes">Сезнең рецептларны синхронлаштыру</string>
 	<string name="tab_info_title">Мәгълүмат</string>
 	<string name="tab_ingredients_title">Ингредиентлар</string>
 	<string name="tab_instructions_title">Инструкция</string>

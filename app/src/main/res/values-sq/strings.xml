@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Receta nuk mund të importohej: %1$s</string>
 	<string name="recipe_import_in_progress">Receta importuese</string>
 	<string name="recipe_import_menu_title">Importoni recetë nga URL-ja</string>
+	<string name="recipe_import_upload_failure">Nuk mund të shtohej ‘%1$s’ te ‘Libri i gatimit’</string>
+	<string name="recipe_import_upload_success">U shtua ‘%1$s’ te ‘Libri i gatimit’</string>
 	<string name="recipe_list_image_desc">Miniatura e imazhit të recetës</string>
 	<string name="recipe_no_timer">Kjo recetë nuk ka kohëmatës!</string>
 	<string name="request_again">Kërkoni përsëri</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Çdo 12 orë</string>
 	<string name="sync_interval_name_24">Çdo 24 orë</string>
 	<string name="sync_interval_name_off">Joaktiv</string>
+	<string name="syncing_recipes">Po sinkronizohen recetat e tua</string>
 	<string name="tab_info_title">Informacion</string>
 	<string name="tab_ingredients_title">Përbërësit</string>
 	<string name="tab_instructions_title">Udhëzimet</string>

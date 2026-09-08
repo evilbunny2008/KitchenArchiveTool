@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">No inap long kisim resipi i kam insait: %1$s</string>
 	<string name="recipe_import_in_progress">Impotim resipi</string>
 	<string name="recipe_import_menu_title">Kisim resipi i kam long URL</string>
+	<string name="recipe_import_upload_failure">No inap putim ‘%1$s’ long Cookbook</string>
+	<string name="recipe_import_upload_success">Putim ‘%1$s’ long Cookbook</string>
 	<string name="recipe_list_image_desc">Piksa bilong resipi</string>
 	<string name="recipe_no_timer">Dispela Resipi i no gat taima!</string>
 	<string name="request_again">Askim gen</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Olgeta 12-pela aua</string>
 	<string name="sync_interval_name_24">Olgeta 24 aua</string>
 	<string name="sync_interval_name_off">I of</string>
+	<string name="syncing_recipes">Yu wok long bungim ol resipi bilong yu</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ol samting bilong yusim long kuk</string>
 	<string name="tab_instructions_title">Ol instraksen</string>

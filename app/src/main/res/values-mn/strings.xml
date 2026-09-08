@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Жорыг импорт хийж чадсангүй: %1$s</string>
 	<string name="recipe_import_in_progress">Жор импортлож байна</string>
 	<string name="recipe_import_menu_title">URL-аас жор импортлох</string>
+	<string name="recipe_import_upload_failure">‘%1$s’-г хоолны номонд нэмж чадсангүй</string>
+	<string name="recipe_import_upload_success">Хоолны номонд ‘%1$s’ нэмсэн</string>
 	<string name="recipe_list_image_desc">Жорны өнгөц зураг</string>
 	<string name="recipe_no_timer">Энэ жоронд таймер байхгүй!</string>
 	<string name="request_again">Дахин хүсэлт гаргах</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">12 цаг тутамд</string>
 	<string name="sync_interval_name_24">24 цаг тутамд</string>
 	<string name="sync_interval_name_off">Унтраах</string>
+	<string name="syncing_recipes">Таны жорыг синк хийж байна</string>
 	<string name="tab_info_title">Мэдээлэл</string>
 	<string name="tab_ingredients_title">Найрлага</string>
 	<string name="tab_instructions_title">Заавар</string>

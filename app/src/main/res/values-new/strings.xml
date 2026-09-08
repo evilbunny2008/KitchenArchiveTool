@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">रेसिपि आयात याये मफुत : %1$s</string>
 	<string name="recipe_import_in_progress">आयात यायेगु रेसिपि</string>
 	<string name="recipe_import_menu_title">यूआरएलं रेसिपि आयात या</string>
+	<string name="recipe_import_upload_failure">कुकबुकय् ‘%1$s’ तने मफुत</string>
+	<string name="recipe_import_upload_success">कुकबुकय् ‘%1$s’ तनाबिल</string>
 	<string name="recipe_list_image_desc">रेसिपिया किपाया थम्बनेल</string>
 	<string name="recipe_no_timer">थुगु रेसिपिइ टाइमर मदु !</string>
 	<string name="request_again">हाकनं इनाप या</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">12 घौपतिकं</string>
 	<string name="sync_interval_name_24">24 घौपतिकं</string>
 	<string name="sync_interval_name_off">तापा</string>
+	<string name="syncing_recipes">छिगु रेसिपि सिंक यानाच्वना</string>
 	<string name="tab_info_title">सुचं</string>
 	<string name="tab_ingredients_title">अवयव</string>
 	<string name="tab_instructions_title">निर्देशन</string>

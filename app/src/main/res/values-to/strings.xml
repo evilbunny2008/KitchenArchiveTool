@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">‘Oku ’ikai lava ke hū mai ‘a e founga ngaohí: %1$s</string>
 	<string name="recipe_import_in_progress">Ko hono hū mai ʻo e founga kai</string>
 	<string name="recipe_import_menu_title">Fakahū mai ʻa e founga kai mei he URL</string>
+	<string name="recipe_import_upload_failure">‘Ikai lava ke tānaki atu ’a e ‘%1$s’ ki he Tohi Kuki</string>
+	<string name="recipe_import_upload_success">Tānaki atu ‘a e ’%1$s‘ ki he Tohi Kuki</string>
 	<string name="recipe_list_image_desc">Ko e fakatātā siʻisiʻi ʻo e founga ngaohí</string>
 	<string name="recipe_no_timer">Ko e Recipe ko ‘eni ’oku ‘ikai ha taimi!</string>
 	<string name="request_again">Toe kole atu</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Houa ‘e 12 kotoa pe</string>
 	<string name="sync_interval_name_24">Houa ‘e 24 kotoa pe</string>
 	<string name="sync_interval_name_off">Oku mate</string>
+	<string name="syncing_recipes">Fakafe’unga’i ho’o ngaahi founga kai</string>
 	<string name="tab_info_title">Fakamatala</string>
 	<string name="tab_ingredients_title">Meʻa kehekehe ʻoku fefioʻaki ai</string>
 	<string name="tab_instructions_title">Fakahinohino</string>

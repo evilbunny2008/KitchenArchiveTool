@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ਵਿਅੰਜਨ ਨੂੰ ਆਯਾਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: %1$s</string>
 	<string name="recipe_import_in_progress">ਵਿਅੰਜਨ ਆਯਾਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
 	<string name="recipe_import_menu_title">URL ਤੋਂ ਵਿਅੰਜਨ ਆਯਾਤ ਕਰੋ</string>
+	<string name="recipe_import_upload_failure">ਕੁੱਕਬੁੱਕ ਵਿੱਚ ‘%1$s’ ਨੂੰ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ</string>
+	<string name="recipe_import_upload_success">ਕੁੱਕਬੁੱਕ ਵਿੱਚ ‘%1$s’ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ</string>
 	<string name="recipe_list_image_desc">ਵਿਅੰਜਨ ਦਾ ਚਿੱਤਰ ਥੰਬਨੇਲ</string>
 	<string name="recipe_no_timer">ਇਸ ਵਿਅੰਜਨ ਵਿੱਚ ਟਾਈਮਰ ਨਹੀਂ ਹੈ!</string>
 	<string name="request_again">ਦੁਬਾਰਾ ਬੇਨਤੀ ਕਰੋ</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ਹਰ 12 ਘੰਟੇ</string>
 	<string name="sync_interval_name_24">ਹਰ 24 ਘੰਟੇ</string>
 	<string name="sync_interval_name_off">ਬੰਦ</string>
+	<string name="syncing_recipes">ਤੁਹਾਡੀਆਂ ਪਕਵਾਨਾਂ ਦਾ ਸਮਕਾਲੀਕਰਨ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
 	<string name="tab_info_title">ਜਾਣਕਾਰੀ</string>
 	<string name="tab_ingredients_title">ਸਮੱਗਰੀ</string>
 	<string name="tab_instructions_title">ਹਦਾਇਤਾਂ</string>

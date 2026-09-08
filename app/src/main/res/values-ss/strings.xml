@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ayikhoni kungenisa iresiphi: %1$s</string>
 	<string name="recipe_import_in_progress">Kungenisa iresiphi</string>
 	<string name="recipe_import_menu_title">Ngenisa iresiphi kusuka ku-URL</string>
+	<string name="recipe_import_upload_failure">Ayikhoni kwengeta ‘%1$s’ ku-Cookbook</string>
+	<string name="recipe_import_upload_success">Kwengetwe ‘%1$s’ kuNcwadzi Yekupheka</string>
 	<string name="recipe_list_image_desc">Sitfombe lesincane seresiphi</string>
 	<string name="recipe_no_timer">Le Recipe ayinaso sikhatsi!</string>
 	<string name="request_again">Sicela futsi</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Njalo ngemuva kwema-awa langu-12</string>
 	<string name="sync_interval_name_24">Njalo ngemuva kwemahora langu-24</string>
 	<string name="sync_interval_name_off">Cimile</string>
+	<string name="syncing_recipes">Kuvumelanisa tindlela takho tekupheka</string>
 	<string name="tab_info_title">Lwati</string>
 	<string name="tab_ingredients_title">Tinongo</string>
 	<string name="tab_instructions_title">Miyalo</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Teu bisa ngimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Impor resep</string>
 	<string name="recipe_import_menu_title">Impor resep ti URL</string>
+	<string name="recipe_import_upload_failure">Teu tiasa nambihan ‘%1$s’ kana Buku Masak</string>
+	<string name="recipe_import_upload_success">Ditambahkeun ‘%1$s’ kana Buku Masak</string>
 	<string name="recipe_list_image_desc">Gambar leutik resep</string>
 	<string name="recipe_no_timer">Resep ieu teu gaduh timer!</string>
 	<string name="request_again">Menta deui</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Unggal 12 Jam</string>
 	<string name="sync_interval_name_24">Unggal 24 Jam</string>
 	<string name="sync_interval_name_off">Pareum</string>
+	<string name="syncing_recipes">Nyingkronkeun resep anjeun</string>
 	<string name="tab_info_title">Inpo</string>
 	<string name="tab_ingredients_title">bahan</string>
 	<string name="tab_instructions_title">parentah</string>

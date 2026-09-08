@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Kan het recept niet importeren: %1$s</string>
 	<string name="recipe_import_in_progress">Recept importeren</string>
 	<string name="recipe_import_menu_title">Recept importeren vanuit URL</string>
+	<string name="recipe_import_upload_failure">Kan ‘%1$s’ niet toevoegen aan Cookbook</string>
+	<string name="recipe_import_upload_success">‘%1$s’ toegevoegd aan Kookboek</string>
 	<string name="recipe_list_image_desc">Miniatuurafbeelding van recept</string>
 	<string name="recipe_no_timer">Dit recept heeft geen timer!</string>
 	<string name="request_again">Opnieuw aanvragen</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Elke 12 uur</string>
 	<string name="sync_interval_name_24">Elke 24 uur</string>
 	<string name="sync_interval_name_off">Uit</string>
+	<string name="syncing_recipes">Uw recepten synchroniseren</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingrediënten</string>
 	<string name="tab_instructions_title">Instructies</string>

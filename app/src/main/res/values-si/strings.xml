@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">වට්ටෝරුව ආයාත කිරීමට නොහැකි විය: %1$s</string>
 	<string name="recipe_import_in_progress">වට්ටෝරුව ආයාත කරමින්</string>
 	<string name="recipe_import_menu_title">URL වෙතින් වට්ටෝරුව ආයාත කරන්න</string>
+	<string name="recipe_import_upload_failure">කුක්බුක් වෙත ‘%1$s’ එක් කළ නොහැකි විය</string>
+	<string name="recipe_import_upload_success">ඉවුම් පිහුම් පොතට ‘%1$s’ එක් කරන ලදී</string>
 	<string name="recipe_list_image_desc">වට්ටෝරුවේ රූප සිඟිති රූපය</string>
 	<string name="recipe_no_timer">මෙම වට්ටෝරුවෙහි ටයිමරයක් නොමැත!</string>
 	<string name="request_again">නැවත ඉල්ලන්න</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">සෑම පැය 12 කට වරක්</string>
 	<string name="sync_interval_name_24">සෑම පැය 24 කට වරක්</string>
 	<string name="sync_interval_name_off">අක්රියයි</string>
+	<string name="syncing_recipes">ඔබේ වට්ටෝරු සමමුහුර්ත කරමින්</string>
 	<string name="tab_info_title">තොරතුරු</string>
 	<string name="tab_ingredients_title">අමුද්රව්ය</string>
 	<string name="tab_instructions_title">උපදෙස්</string>

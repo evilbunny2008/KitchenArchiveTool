@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ነቲ ኣሰራርሓ መግቢ ከእትዎ ኣይከኣለን: %1$s</string>
 	<string name="recipe_import_in_progress">ካብ ወጻኢ ዝኣቱ ኣሰራርሓ መግቢ</string>
 	<string name="recipe_import_menu_title">ኣሰራርሓ መግቢ ካብ URL ኣእቱ</string>
+	<string name="recipe_import_upload_failure">ኣብ መጽሓፍ ምግቢ ‘%1$s’ ክውስኽ ኣይከኣለን</string>
+	<string name="recipe_import_upload_success">ኣብ መጽሓፍ ምግቢ ‘%1$s’ ወሲኹ</string>
 	<string name="recipe_list_image_desc">ምስሊ ንእሽቶ ስእሊ ናይ ኣሰራርሓ መግቢ</string>
 	<string name="recipe_no_timer">እዚ Recipe ታይመር የብሉን!</string>
 	<string name="request_again">ደጊምካ ሕተት።</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ኣብ ነፍሲ ወከፍ 12 ሰዓታት</string>
 	<string name="sync_interval_name_24">ኣብ ነፍሲ ወከፍ 24 ሰዓታት</string>
 	<string name="sync_interval_name_off">ምጥፋእ</string>
+	<string name="syncing_recipes">ኣሰራርሓ መግቢኻ ምትእስሳር</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">ንጥረ ነገራት</string>
 	<string name="tab_instructions_title">መምርሕታት</string>

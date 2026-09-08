@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Hatina kukwanisa kutenga kunze resipi: %1$s</string>
 	<string name="recipe_import_in_progress">Kuunza resipi</string>
 	<string name="recipe_import_menu_title">Ngenisa resipi kubva kuURL</string>
+	<string name="recipe_import_upload_failure">Hatina kukwanisa kuwedzera ‘%1$s’ kuBookbook</string>
+	<string name="recipe_import_upload_success">Yakawedzerwa ‘%1$s’ kuCookbook</string>
 	<string name="recipe_list_image_desc">Mufananidzo thumbnail resipi</string>
 	<string name="recipe_no_timer">Iyi Recipe haina timer!</string>
 	<string name="request_again">Kumbira zvakare</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Ese maawa gumi nemaviri</string>
 	<string name="sync_interval_name_24">Ese maawa makumi maviri nemana</string>
 	<string name="sync_interval_name_off">Off</string>
+	<string name="syncing_recipes">Kubatanidza mabikirwo ako</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredients</string>
 	<string name="tab_instructions_title">Mirayiridzo</string>

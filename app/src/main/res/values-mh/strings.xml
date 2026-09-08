@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ejjab maroñ in bōktok recipe eo: %1$s</string>
 	<string name="recipe_import_in_progress">Import recipe</string>
 	<string name="recipe_import_menu_title">bōktok recipe jen URL</string>
+	<string name="recipe_import_upload_failure">Ejjab maroñ in kobaik ‘%1$s’ ñan Cookbook</string>
+	<string name="recipe_import_upload_success">Kar kobaiktok ‘%1$s’ ñan Cookbook</string>
 	<string name="recipe_list_image_desc">pija in recipe eo</string>
 	<string name="recipe_no_timer">Recipe in ejelok an timer!</string>
 	<string name="request_again">Bar kajjitōk</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Aolep 12 awa</string>
 	<string name="sync_interval_name_24">Aolep 24 awa</string>
 	<string name="sync_interval_name_off">Tumi</string>
+	<string name="syncing_recipes">Kōllaajrake recipe ko am</string>
 	<string name="tab_info_title">Melele</string>
 	<string name="tab_ingredients_title">Karre ko kobban</string>
 	<string name="tab_instructions_title">Kōmelele ko</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">செய்முறையை இறக்குமதி செய்ய முடியவில்லை: %1$s</string>
 	<string name="recipe_import_in_progress">செய்முறையை இறக்குமதி செய்கிறது</string>
 	<string name="recipe_import_menu_title">URL இலிருந்து செய்முறையை இறக்குமதி செய்யவும்</string>
+	<string name="recipe_import_upload_failure">சமையல் புத்தகத்தில் ‘%1$s’ஐச் சேர்க்க முடியவில்லை</string>
+	<string name="recipe_import_upload_success">சமையல் புத்தகத்தில் ‘%1$s’ சேர்க்கப்பட்டது</string>
 	<string name="recipe_list_image_desc">செய்முறையின் பட சிறுபடம்</string>
 	<string name="recipe_no_timer">இந்த ரெசிபியில் டைமர் இல்லை!</string>
 	<string name="request_again">மீண்டும் கோரிக்கை</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ஒவ்வொரு 12 மணிநேரமும்</string>
 	<string name="sync_interval_name_24">ஒவ்வொரு 24 மணிநேரமும்</string>
 	<string name="sync_interval_name_off">ஆஃப்</string>
+	<string name="syncing_recipes">உங்கள் சமையல் குறிப்புகளை ஒத்திசைக்கிறது</string>
 	<string name="tab_info_title">தகவல்</string>
 	<string name="tab_ingredients_title">தேவையான பொருட்கள்</string>
 	<string name="tab_instructions_title">வழிமுறைகள்</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Sizinathe kuitanitsa zophikira: %1$s</string>
 	<string name="recipe_import_in_progress">Kulowetsa Chinsinsi</string>
 	<string name="recipe_import_menu_title">Lowetsani Chinsinsi kuchokera ku URL</string>
+	<string name="recipe_import_upload_failure">Sitinathe kuwonjezera ‘%1$s’ ku Cookbook</string>
+	<string name="recipe_import_upload_success">Adawonjezedwa ‘%1$s’ ku Cookbook</string>
 	<string name="recipe_list_image_desc">Chithunzi chachithunzi cha Chinsinsi</string>
 	<string name="recipe_no_timer">Chinsinsichi chilibe chowerengera nthawi!</string>
 	<string name="request_again">Funsaninso</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Maola 12 aliwonse</string>
 	<string name="sync_interval_name_24">Maola 24 aliwonse</string>
 	<string name="sync_interval_name_off">Kuzimitsa</string>
+	<string name="syncing_recipes">Kuyanjanitsa maphikidwe anu</string>
 	<string name="tab_info_title">Zambiri</string>
 	<string name="tab_ingredients_title">Zosakaniza</string>
 	<string name="tab_instructions_title">Malangizo</string>

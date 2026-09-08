@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Teyasobodde kuyingiza nkola ya nkola: %1$s</string>
 	<string name="recipe_import_in_progress">Okuyingiza enkola y’emmere</string>
 	<string name="recipe_import_menu_title">Yingiza enkola y’emmere okuva ku URL</string>
+	<string name="recipe_import_upload_failure">Teyasobodde kwongerako ‘%1$s’ ku Cookbook</string>
+	<string name="recipe_import_upload_success">Yayongeddeko ‘%1$s’ mu Cookbook</string>
 	<string name="recipe_list_image_desc">Ekifaananyi ekitono eky’enkola y’emmere</string>
 	<string name="recipe_no_timer">Recipe eno terina timer!</string>
 	<string name="request_again">Ddamu osabe</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Buli Ssaawa 12</string>
 	<string name="sync_interval_name_24">Buli Ssaawa 24</string>
 	<string name="sync_interval_name_off">Tekuli</string>
+	<string name="syncing_recipes">Okukwataganya enkola zo</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ebirungo</string>
 	<string name="tab_instructions_title">Ebiragiro</string>

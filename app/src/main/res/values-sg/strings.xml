@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">A lingbi ti zia na yâ ti recette ni: %1$s</string>
 	<string name="recipe_import_in_progress">Recette ti importation</string>
 	<string name="recipe_import_menu_title">Zia recette ni na lege ti URL</string>
+	<string name="recipe_import_upload_failure">A lingbi ti zia ‘%1$s’ na yâ ti Buku ti tengo kobe pëpe</string>
+	<string name="recipe_import_upload_success">A zia ‘%1$s’ na yâ ti Buku ti tengo kobe</string>
 	<string name="recipe_list_image_desc">Image ti kete recette ni</string>
 	<string name="recipe_no_timer">Recette so ayeke na mbeni l’heure pëpe!</string>
 	<string name="request_again">Hunda encore</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Na yâ ti angbonga 12 oko oko</string>
 	<string name="sync_interval_name_24">Na yâ ti angbonga 24 oko oko</string>
 	<string name="sync_interval_name_off">Zia lege ni</string>
+	<string name="syncing_recipes">Synchronisation ti arecette ti mo</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Kobe</string>
 	<string name="tab_instructions_title">Awango</string>

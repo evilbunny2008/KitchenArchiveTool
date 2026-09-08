@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Konnt d’Rezept net importéieren: %1$s</string>
 	<string name="recipe_import_in_progress">Rezept importéieren</string>
 	<string name="recipe_import_menu_title">Import Rezept vun URL</string>
+	<string name="recipe_import_upload_failure">Konnt ‘%1$s’ net un d’Kachbuch addéieren</string>
+	<string name="recipe_import_upload_success">‘%1$s’ zu Kachbuch bäigefüügt</string>
 	<string name="recipe_list_image_desc">Miniaturbild vum Rezept</string>
 	<string name="recipe_no_timer">Dëst Rezept huet keen Timer!</string>
 	<string name="request_again">Demande erëm</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">All 12 Stonnen</string>
 	<string name="sync_interval_name_24">All 24 Stonnen</string>
 	<string name="sync_interval_name_off">Off</string>
+	<string name="syncing_recipes">Synchroniséiert Är Rezepter</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Zutaten</string>
 	<string name="tab_instructions_title">Uweisungen</string>

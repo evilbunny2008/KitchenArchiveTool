@@ -130,6 +130,7 @@
 	<string name="sync_interval_name_12">Her 12 Saetan</string>
 	<string name="sync_interval_name_24">Her 24 Saetan</string>
 	<string name="sync_interval_name_off">Ji</string>
+	<string name="syncing_recipes">Reçeteyên xwe hevdengkirin</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredients</string>
 	<string name="tab_instructions_title">Instructions</string>

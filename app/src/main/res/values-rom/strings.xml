@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Nashti te importirinel pes o recepto: %1$s</string>
 	<string name="recipe_import_in_progress">Importisarindoj e recepta</string>
 	<string name="recipe_import_menu_title">Importisaren o recepto katar o URL</string>
+	<string name="recipe_import_upload_failure">Nashti te thovav ‘%1$s’ ki Cookbook</string>
+	<string name="recipe_import_upload_success">Thovdo ‘%1$s’ ki Cookbook</string>
 	<string name="recipe_list_image_desc">Miniatura e receptosqi</string>
 	<string name="recipe_no_timer">Akava Recepto nane les vaxt!</string>
 	<string name="request_again">Mangen pale</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Sako 12 òre</string>
 	<string name="sync_interval_name_24">Sako 24 òre</string>
 	<string name="sync_interval_name_off">Mesto</string>
+	<string name="syncing_recipes">Sinkronizirime tumare receptura</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredièntură</string>
 	<string name="tab_instructions_title">Sikavimata</string>
