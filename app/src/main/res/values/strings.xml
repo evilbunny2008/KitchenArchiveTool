@@ -70,7 +70,6 @@
 	<string name="menu_settings_title">Settings</string>
 	<string name="menu_sort_title">Sort</string>
 	<string name="menu_sso">Single Sign On</string>
-	<string name="menu_title_app">App</string>
 	<string name="menu_uncategorized">Uncategorized</string>
 	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings" translatable="false">Settings</string>
 	<string name="no_information">No Information</string>

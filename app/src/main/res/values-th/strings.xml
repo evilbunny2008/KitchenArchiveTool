@@ -63,7 +63,6 @@
 	<string name="menu_settings_title">การตั้งค่า</string>
 	<string name="menu_sort_title">เรียงลำดับ</string>
 	<string name="menu_sso">เข้าสู่ระบบเพียงครั้งเดียว</string>
-	<string name="menu_title_app">แอป</string>
 	<string name="menu_uncategorized">ไม่มีหมวดหมู่</string>
 	<string name="no_information">ไม่มีข้อมูล</string>
 	<string name="no_ingredients">ไม่มีส่วนผสม</string>
