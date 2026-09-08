@@ -38,6 +38,14 @@ header('Content-Type: application/json');
 // already, so it can't be requested directly over HTTP.
 const SCRIPT_PATH = '/var/www/bin/recipe_to_jsonld.py';
 
+// Defines NOTIFY_EMAIL. Kept in its own file, outside version control (see
+// email_config.sample.php and .gitignore), so the notification address can
+// be set on this server without needing to modify anything checked into
+// GitHub. require (not include) is deliberate: this fails loudly if
+// email_config.php hasn't been created yet, rather than silently running
+// with no notifications configured.
+require __DIR__ . '/email_config.php';
+
 // If you've already run the script once with --use-venv, point this at
 // that venv's own interpreter instead of the system one -- avoids
 // depending on recipe-scrapers/bs4 being installed system-wide. Falls
@@ -51,6 +59,40 @@ $pythonBin = is_executable($venvPython) ? $venvPython : 'python3';
 // Scraping a live page can take a few seconds on a slow source site;
 // make sure PHP itself doesn't time this request out early.
 set_time_limit(60);
+
+/**
+ * Emails NOTIFY_EMAIL about a recipe that failed to convert cleanly.
+ * Uses PHP's built-in mail() -- the simplest option with no extra
+ * dependencies, but it only actually delivers anything if this server
+ * has a working MTA configured (sendmail/postfix/exim, or php.ini's
+ * sendmail_path pointed at one) -- common on a VPS/dedicated box you
+ * administer yourself, not guaranteed on shared hosting. If mail() turns
+ * out not to deliver reliably here, swap this for an authenticated SMTP
+ * library (e.g. PHPMailer) or a transactional email API instead; this
+ * function's signature wouldn't need to change either way.
+ *
+ * Deliberately no rate-limiting/deduplication -- every failure gets its
+ * own email. Worth revisiting if a broader outage (e.g. a source site
+ * blocking this server's requests) ever makes that noisy.
+ */
+function notify_conversion_failure(string $recipeUrl, string $reason, string $details): void {
+    if (NOTIFY_EMAIL === '') {
+        return;
+    }
+
+    $subject = 'get_jsonld.php: recipe conversion failed';
+    $body = "URL: $recipeUrl\n"
+        . "Reason: $reason\n"
+        . 'Time: ' . date('c') . "\n"
+        . 'User-Agent: ' . ($_SERVER['HTTP_USER_AGENT'] ?? '(none)') . "\n"
+        . "\nDetails:\n$details\n";
+
+    // Suppress mail()'s own warning on failure (e.g. no MTA configured)
+    // rather than letting it leak into the JSON response below -- a
+    // failed notification shouldn't turn into a second, unrelated error
+    // for the person who just wanted to import a recipe.
+    @mail(NOTIFY_EMAIL, $subject, $body);
+}
 
 // --- 1. Only accept POST -----------------------------------------------
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -108,16 +150,23 @@ $exitCode = proc_close($process);
 
 // --- 4. Respond ------------------------------------------------------------
 if ($exitCode !== 0) {
+    $details = $stderr !== '' ? trim($stderr) : 'Unknown error';
+    notify_conversion_failure($recipeUrl, "recipe_to_jsonld.py exited with status $exitCode", $details);
     http_response_code(502);
     echo json_encode([
         'error' => 'Could not extract a recipe from that URL',
-        'details' => $stderr !== '' ? trim($stderr) : 'Unknown error',
+        'details' => $details,
     ]);
     exit;
 }
 
 $recipeJson = json_decode($stdout, true);
 if ($recipeJson === null) {
+    notify_conversion_failure(
+        $recipeUrl,
+        'recipe_to_jsonld.py exited 0 but stdout was not valid JSON',
+        "stdout:\n$stdout\n\nstderr:\n$stderr"
+    );
     http_response_code(502);
     echo json_encode(['error' => 'Import script returned unparseable output']);
     exit;
