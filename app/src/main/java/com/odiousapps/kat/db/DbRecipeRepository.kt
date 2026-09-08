@@ -6,11 +6,13 @@
 package com.odiousapps.kat.db
 
 import android.app.Application
+import androidx.room.withTransaction
 import androidx.sqlite.db.SimpleSQLiteQuery
 import com.odiousapps.kat.data.RecipeFilter
 import com.odiousapps.kat.data.SortValue
 import com.odiousapps.kat.db.model.*
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.runBlocking
 
 /**
  * Repository for recipes.
@@ -19,7 +21,8 @@ import kotlinx.coroutines.flow.Flow
  * @version 1.5, 28.08.21
  */
 class DbRecipeRepository private constructor(application: Application) {
-   private var mRecipeDao: RecipeDataDao = RecipeDatabase.getDatabase(application).recipeDataDao()
+   private val mRecipeDatabase: RecipeDatabase = RecipeDatabase.getDatabase(application)
+   private var mRecipeDao: RecipeDataDao = mRecipeDatabase.recipeDataDao()
 
    // we prepend 'recipes.' to resolve name ambiguities (e.g. column 'id')
    private val dbPreviewFields = DbRecipePreview.DBFIELDS.split(", ").joinToString(", ") { "recipes.$it" }
@@ -149,46 +152,50 @@ class DbRecipeRepository private constructor(application: Application) {
    fun insertAll(recipes: List<DbRecipe>, recipeDir: String) {
       val dirPrefix = likePrefix(recipeDir)
       RecipeDatabase.databaseWriteExecutor.execute {
-         if (recipes.isNotEmpty()) {
-            mRecipeDao.deleteAllKeywordRelations()
-            mRecipeDao.deleteAllKeywords()
-         }
-         recipes.forEach { recipe ->
-            val r = mRecipeDao.findByNameInDir(recipe.recipeCore.name, dirPrefix)
+         runBlocking {
+            mRecipeDatabase.withTransaction {
+               if (recipes.isNotEmpty()) {
+                  mRecipeDao.deleteAllKeywordRelations()
+                  mRecipeDao.deleteAllKeywords()
+               }
+               recipes.forEach { recipe ->
+                  val r = mRecipeDao.findByNameInDir(recipe.recipeCore.name, dirPrefix)
 
-            if (r == null) {
-               val id = mRecipeDao.insert(recipe.recipeCore)
-               setIdInLists(recipe, id)
+                  if (r == null) {
+                     val id = mRecipeDao.insert(recipe.recipeCore)
+                     setIdInLists(recipe, id)
 
-               recipe.tool?.let { mRecipeDao.insertTools(it) }
-               recipe.review?.let { mRecipeDao.insertReviews(it) }
-               recipe.recipeInstructions?.let { mRecipeDao.insertInstructions(it) }
-               recipe.recipeIngredient?.let { mRecipeDao.insertIngredients(it) }
-               updateKeywords(recipe, id)
-            } else {
-               val id = r.recipeCore.id
-               recipe.recipeCore.id = id
-               setIdInLists(recipe, id)
+                     recipe.tool?.let { mRecipeDao.insertTools(it) }
+                     recipe.review?.let { mRecipeDao.insertReviews(it) }
+                     recipe.recipeInstructions?.let { mRecipeDao.insertInstructions(it) }
+                     recipe.recipeIngredient?.let { mRecipeDao.insertIngredients(it) }
+                     updateKeywords(recipe, id)
+                  } else {
+                     val id = r.recipeCore.id
+                     recipe.recipeCore.id = id
+                     setIdInLists(recipe, id)
 
-               mRecipeDao.update(recipe.recipeCore)
-               updateStar(recipe.recipeCore.id, r.recipeCore.starred)
-               recipe.tool?.let { tools ->
-                  r.tool?.let { mRecipeDao.deleteTools(it) }
-                  mRecipeDao.insertTools(tools)
+                     mRecipeDao.update(recipe.recipeCore)
+                     mRecipeDao.updateStar(DbRecipeStar(recipe.recipeCore.id, r.recipeCore.starred))
+                     recipe.tool?.let { tools ->
+                        r.tool?.let { mRecipeDao.deleteTools(it) }
+                        mRecipeDao.insertTools(tools)
+                     }
+                     recipe.review?.let { reviews ->
+                        r.review?.let { mRecipeDao.deleteReviews(it) }
+                        mRecipeDao.insertReviews(reviews)
+                     }
+                     recipe.recipeInstructions?.let { instructions ->
+                        r.recipeInstructions?.let { mRecipeDao.deleteInstructions(it) }
+                        mRecipeDao.insertInstructions(instructions)
+                     }
+                     recipe.recipeIngredient?.let { ingredients ->
+                        r.recipeIngredient?.let { mRecipeDao.deleteIngredients(it) }
+                        mRecipeDao.insertIngredients(ingredients)
+                     }
+                     updateKeywords(recipe, id)
+                  }
                }
-               recipe.review?.let { reviews ->
-                  r.review?.let { mRecipeDao.deleteReviews(it) }
-                  mRecipeDao.insertReviews(reviews)
-               }
-               recipe.recipeInstructions?.let { instructions ->
-                  r.recipeInstructions?.let { mRecipeDao.deleteInstructions(it) }
-                  mRecipeDao.insertInstructions(instructions)
-               }
-               recipe.recipeIngredient?.let { ingredients ->
-                  r.recipeIngredient?.let { mRecipeDao.deleteIngredients(it) }
-                  mRecipeDao.insertIngredients(ingredients)
-               }
-               updateKeywords(recipe, id)
             }
          }
       }
