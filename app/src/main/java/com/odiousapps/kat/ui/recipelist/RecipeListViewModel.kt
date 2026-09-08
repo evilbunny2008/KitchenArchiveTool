@@ -67,6 +67,10 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
    private var sort: SortValue = SortValue.NAME_A_Z
    private var filter: RecipeFilter? = null
    private var catFilter: CategoryFilter = CategoryFilter(CategoryFilter.CategoryFilterOption.ALL_CATEGORIES)
+   private val _isCategoryFilterActive = MutableLiveData(false)
+   /** True whenever catFilter isn't ALL_CATEGORIES -- lets the UI (e.g. back-press handling) react without duplicating the check at every call site that can change the filter. */
+   val isCategoryFilterActive
+      get() = _isCategoryFilterActive
 
    // navigate to recipe
    private val _navigateToRecipe = MutableLiveData<Long?>()
@@ -212,6 +216,7 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
       } else {
          this.catFilter = catFilter
       }
+      _isCategoryFilterActive.value = this.catFilter.type != CategoryFilter.CategoryFilterOption.ALL_CATEGORIES
    }
 
    fun sortList(sort: SortValue) {

@@ -1,6 +1,7 @@
 package com.odiousapps.kat.ui.recipelist
 
 import android.accounts.AccountManager
+import androidx.activity.addCallback
 import android.content.Context
 import android.content.DialogInterface
 import android.content.IntentFilter
@@ -87,6 +88,21 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
 
 
       (activity as MainActivity).setRecipeSearchCallback(this)
+
+      // Back should undo an active category filter before it does
+      // anything else (closing the fragment/exiting the app) -- this
+      // callback starts disabled and only takes over the back button
+      // while a specific category is selected; with ALL_CATEGORIES (the
+      // default), it stays disabled and back falls through to the
+      // normal behavior untouched.
+      val categoryBackPressedCallback = requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner, enabled = false) {
+         recipesViewModel.filterRecipesByCategory(null)
+         setCategoryTitle(CategoryFilter(CategoryFilter.CategoryFilterOption.ALL_CATEGORIES))
+         loadData()
+      }
+      recipesViewModel.isCategoryFilterActive.observe(viewLifecycleOwner) { isActive ->
+         categoryBackPressedCallback.isEnabled = isActive
+      }
 
       recipesViewModel.isUpdating.observe(viewLifecycleOwner) {
          it?.let { isUpdating ->
