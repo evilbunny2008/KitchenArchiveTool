@@ -9,6 +9,7 @@ import android.content.SharedPreferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import com.odiousapps.kat.MainApplication
 import com.odiousapps.kat.services.sync.SyncScheduler
@@ -33,6 +34,7 @@ class PreferenceData private constructor() {
    private val screenKeepalive = booleanPreferencesKey(Pref.SCREEN_KEEPALIVE)
    private val sortKey = intPreferencesKey(Pref.SORT)
    private val isStorageAccessedKey = booleanPreferencesKey(Pref.STORAGE_ACCESS)
+   private val lastSyncCompletedAtKey = longPreferencesKey(Pref.LAST_SYNC_COMPLETED_AT)
    private val isSyncServiceEnabled = intPreferencesKey(Pref.SYNC_SERVICE)
    private val isSyncWifiOnly = booleanPreferencesKey(Pref.SYNC_WIFI_ONLY)
 
@@ -170,6 +172,27 @@ class PreferenceData private constructor() {
    suspend fun setStorageAccessed(isStorageAccessed: Boolean) {
       MainApplication.AppContext.dataStore.edit { preferences ->
          preferences[isStorageAccessedKey] = isStorageAccessed
+      }
+   }
+
+   /** One-shot read for callers outside a Flow-collecting context (e.g. RecipeListFragment's resume check). */
+   fun getLastSyncCompletedAtSync(): Long {
+      var millis = 0L
+
+      runBlocking {
+         millis = MainApplication.AppContext.dataStore.data
+            .map { preferences ->
+               preferences[lastSyncCompletedAtKey] ?: 0L
+            }
+            .first()
+      }
+
+      return millis
+   }
+
+   suspend fun setLastSyncCompletedAt(millis: Long) {
+      MainApplication.AppContext.dataStore.edit { preferences ->
+         preferences[lastSyncCompletedAtKey] = millis
       }
    }
 

@@ -57,6 +57,7 @@ class SyncWorker(appContext: Context, params: WorkerParameters) : CoroutineWorke
             }
          }
          PreferenceData.getInstance().setStorageAccessed(true)
+         PreferenceData.getInstance().setLastSyncCompletedAt(System.currentTimeMillis())
          Result.success()
       } catch (e: Exception) {
          // Matches the previous SyncService's behaviour: log and stop,

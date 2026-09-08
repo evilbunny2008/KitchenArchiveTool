@@ -14,6 +14,7 @@ package com.odiousapps.kat.settings
 class Pref {
    companion object {
       const val IS_INIT = "is_initialized"
+      const val LAST_SYNC_COMPLETED_AT = "last_sync_completed_at"
       const val RECIPE_DIR = "recipe_directory"
       const val THEME = "theme_setting"
       const val SCREEN_KEEPALIVE = "keep_screen_alive"

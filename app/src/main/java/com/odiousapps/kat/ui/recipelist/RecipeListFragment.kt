@@ -55,6 +55,14 @@ import java.io.File
 private const val NEXTCLOUD_ACCOUNT_TYPE = "nextcloud"
 
 /**
+ * How recently a sync must have completed for syncIfPossible() to skip
+ * triggering another one on resume. Comfortably covers landing here
+ * straight from LoginActivity's own just-finished sync, without masking
+ * genuine staleness on a normal "away for a while, come back" resume.
+ */
+private const val RESUME_SYNC_THROTTLE_MS = 15_000L
+
+/**
  * Fragment for list of recipes.
  *
  * @author MicMun
@@ -391,8 +399,44 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
     * prevents this from piling up duplicate syncs if one's already in
     * flight (e.g. right after switching accounts, which also syncs).
     */
+   /**
+    * Kicks off a background sync whenever the recipe list becomes visible
+    * again -- returning from another screen, reopening the app, etc. --
+    * not just on an explicit pull-to-refresh or account switch. Without
+    * this, recently-changed server-side state (most notably: a recipe
+    * just copied in from another account) wouldn't show up until the
+    * person happened to trigger one of those two other paths, or the
+    * periodic background sync eventually got around to it.
+    *
+    * Silently skipped if there's no network or the wifi-only setting
+    * blocks it -- unlike onRefresh()'s explicit user action, which
+    * surfaces a toast for those same cases, a passive resume trigger
+    * shouldn't nag about connectivity the person didn't explicitly ask
+    * to check. SyncScheduler.syncNow()'s own KEEP work policy already
+    * prevents this from piling up duplicate syncs if one's already in
+    * flight (e.g. right after switching accounts, which also syncs).
+    *
+    * Also skipped if a sync completed very recently: most notably,
+    * landing here straight from LoginActivity, whose own sync (see that
+    * class's doc comment) can finish just before this fragment's
+    * onResume() fires. Without this check, that produces a confusing log
+    * sequence -- "Pulling Recipe: X" immediately followed by "X is
+    * unchanged, not syncing" for that same recipe a moment later, from
+    * this second, redundant pass re-checking something that was only
+    * just downloaded. Each line is individually accurate, but the
+    * juxtaposition reads as if something's wrong. KEEP's dedup doesn't
+    * help here specifically since it only blocks a new sync from
+    * starting while one is *already running* -- by the time onResume()
+    * fires, the first sync has typically already finished.
+    */
    private fun syncIfPossible() {
       val ctx = context ?: return
+
+      val millisSinceLastSync = System.currentTimeMillis() - PreferenceData.getInstance().getLastSyncCompletedAtSync()
+      if (millisSinceLastSync < RESUME_SYNC_THROTTLE_MS) {
+         return
+      }
+
       val hasNetwork = if (PreferenceData.getInstance().isWifiOnly()) {
          ConnectivityCheck.isConnectedToWifi(ctx)
       } else {
