@@ -160,7 +160,7 @@ class LoginActivity : AppCompatActivity() {
             // Finished, success or failure either way -- don't trap the
             // person on this screen forever over a failed initial sync;
             // they can always pull-to-refresh once inside the app.
-            startMainAndFinish()
+            skipAndOpenApp()
          }
       }
    }
@@ -227,11 +227,6 @@ class LoginActivity : AppCompatActivity() {
       findViewById<TextView>(R.id.progress_text).text = getString(R.string.syncing_recipes)
       findViewById<Button>(R.id.buttonLogin).visibility = View.GONE
       findViewById<Button>(R.id.buttonSkip).visibility = View.GONE
-   }
-
-   private fun startMainAndFinish() {
-      startActivity(Intent(this, MainActivity::class.java))
-      finish()
    }
 
    private fun skipAndOpenApp() {
