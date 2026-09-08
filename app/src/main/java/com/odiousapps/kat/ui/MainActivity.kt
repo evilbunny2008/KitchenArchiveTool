@@ -137,18 +137,23 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
       }
 
       // Same edge-to-edge issue as the app bar above, but for the nav
-      // drawer's header -- without this, the icon+"KAT" text renders
-      // underneath the system status bar when the drawer is open.
-      // fitsSystemWindows="true" on the NavigationView in XML alone
-      // isn't enough here: this app already explicitly consumes/handles
-      // insets itself (see appBar/navHostFragment just above), which
-      // takes precedence over NavigationView's own legacy
-      // fitsSystemWindows-based inset handling under enforced
-      // edge-to-edge (targetSdk 35+), so it needs the same explicit
-      // listener treatment as everything else.
+      // drawer -- without this, the header's icon+"KAT" text renders
+      // underneath the status bar, and the last menu item(s) render
+      // underneath the bottom navigation/gesture bar. fitsSystemWindows
+      // ="true" on the NavigationView in XML alone isn't enough here:
+      // this app already explicitly consumes/handles insets itself (see
+      // appBar/navHostFragment just above), which takes precedence over
+      // NavigationView's own legacy fitsSystemWindows-based inset
+      // handling under enforced edge-to-edge (targetSdk 35+), so it
+      // needs the same explicit listener treatment as everything else.
+      // Both top and bottom padding are set in this one listener call,
+      // not two separate ones -- only one OnApplyWindowInsetsListener can
+      // be attached per view, so a second call here would just replace
+      // this one rather than adding to it.
       ViewCompat.setOnApplyWindowInsetsListener(binding.navView) { view, windowInsets ->
          val statusBarInsets = windowInsets.getInsets(WindowInsetsCompat.Type.statusBars())
-         view.updatePadding(top = statusBarInsets.top)
+         val navigationBarInsets = windowInsets.getInsets(WindowInsetsCompat.Type.navigationBars())
+         view.updatePadding(top = statusBarInsets.top, bottom = navigationBarInsets.bottom)
          windowInsets
       }
 
