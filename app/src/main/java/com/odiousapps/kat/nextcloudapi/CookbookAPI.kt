@@ -20,6 +20,21 @@ class CookbookAPI(private val mApi: NextcloudAPI) {
       private val TAG = CookbookAPI::class.toString()
    }
 
+   /**
+    * @throws Exception if the fetch itself fails (network error, the
+    *    Nextcloud Files app's background API not responding, etc.) --
+    *    deliberately not caught and turned into an empty list here. An
+    *    empty list is indistinguishable from "the server genuinely has
+    *    zero recipes", and the caller (Sync.synchronizeRecipes())
+    *    ultimately uses this result to delete any local recipe not
+    *    present in it -- so silently returning empty on a *failed* fetch
+    *    would (and did) wipe out the entire local recipe collection over
+    *    what's often just a transient, retryable error. Letting this
+    *    throw means that never happens: the exception propagates up to
+    *    SyncWorker.doWork()'s existing catch block, which correctly
+    *    reports Result.failure() instead of Result.success(), and
+    *    cleanOldRecipes() never runs against a bogus empty result.
+    */
    fun getRecipes(): ArrayList<String> {
       val result = ArrayList<String>()
 
@@ -28,22 +43,18 @@ class CookbookAPI(private val mApi: NextcloudAPI) {
          .setUrl(Uri.encode(API_RECIPE_BASE, "/"))
          .build()
 
-      try {
-         mApi.performNetworkRequestV2(nextcloudRequest).body.bufferedReader().use { r ->
-            var json = ""
+      mApi.performNetworkRequestV2(nextcloudRequest).body.bufferedReader().use { r ->
+         var json = ""
 
-            var line: String?
-            while (r.readLine().also { line = it } != null) {
-               Logger.getLogger(this::class.java.name).warning(line)
-               json += line + '\n'
-            }
-            val root = JSONArray(json)
-            for (i in 0 until root.length()) {
-               result.add(root.getJSONObject(i).toString())
-            }
+         var line: String?
+         while (r.readLine().also { line = it } != null) {
+            Logger.getLogger(this::class.java.name).warning(line)
+            json += line + '\n'
          }
-      } catch (e: Exception) {
-         Logger.getLogger(this::class.java.name).severe("Unknown Exception in getRecipes: ${e.javaClass}: ${e.message}")
+         val root = JSONArray(json)
+         for (i in 0 until root.length()) {
+            result.add(root.getJSONObject(i).toString())
+         }
       }
       return result
    }
