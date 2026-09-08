@@ -154,6 +154,7 @@
 	<string name="sync_interval_name_12">Every 12 Hours</string>
 	<string name="sync_interval_name_24">Every 24 Hours</string>
 	<string name="sync_interval_name_off">Off</string>
+	<string name="syncing_recipes">Syncing your recipes…</string>
 	<string-array name="sync_interval_values" translatable="false">
 		<item>0</item>
 		<item>1</item>
@@ -162,7 +163,6 @@
 		<item>12</item>
 		<item>24</item>
 	</string-array>
-	<string name="syncing_recipes">Syncing your recipes…</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredients</string>
 	<string name="tab_instructions_title">Instructions</string>
