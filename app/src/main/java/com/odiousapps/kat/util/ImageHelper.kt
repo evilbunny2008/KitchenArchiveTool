@@ -62,6 +62,21 @@ object ImageHelper {
                     }
                 } catch (_: SecurityException) {
                     PreferenceData.getInstance().setStorageAccessed(false)
+                } catch (_: java.io.IOException) {
+                    // Most plausibly a recipe's image that hasn't finished
+                    // downloading yet -- FileNotFoundException (a subclass
+                    // of IOException) is exactly what
+                    // ContentResolver.openFileDescriptor() throws for a
+                    // path that doesn't exist. The recipe list re-renders
+                    // live via a reactive Room Flow as rows get inserted
+                    // during an in-progress sync, so this can legitimately
+                    // happen before that specific recipe's own image file
+                    // has been written to disk yet -- not a bug, same as
+                    // the "missing file" case already handled below for
+                    // getBitmapFromUri's null return. Falls back to no
+                    // image instead of crashing; once the sync finishes
+                    // writing that file, the next re-render picks it up.
+                    setImageDrawable(null)
                 }
             }
         }
