@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">რეცეპტის იმპორტი ვერ მოხერხდა: %1$s</string>
 	<string name="recipe_import_in_progress">რეცეპტის იმპორტი</string>
 	<string name="recipe_import_menu_title">რეცეპტის იმპორტი URL-დან</string>
+	<string name="recipe_import_upload_failure">‘%1$s’ კულინარიულ წიგნში ვერ დაემატა</string>
+	<string name="recipe_import_upload_success">‘%1$s’ დაემატა კულინარიულ წიგნს</string>
 	<string name="recipe_list_image_desc">რეცეპტის სურათის მინიატურა</string>
 	<string name="recipe_no_timer">ამ რეცეპტს არ აქვს ტაიმერი!</string>
 	<string name="request_again">კვლავ მოითხოვეთ</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ყოველ 12 საათში</string>
 	<string name="sync_interval_name_24">ყოველ 24 საათში</string>
 	<string name="sync_interval_name_off">გამორთულია</string>
+	<string name="syncing_recipes">მიმდინარეობს თქვენი რეცეპტების სინქრონიზაცია</string>
 	<string name="tab_info_title">ინფორმაცია</string>
 	<string name="tab_ingredients_title">ინგრედიენტები</string>
 	<string name="tab_instructions_title">ინსტრუქციები</string>

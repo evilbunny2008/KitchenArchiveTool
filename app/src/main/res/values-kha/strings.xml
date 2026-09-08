@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ym lah ban pynrung ia ka rukom shet: %1$s</string>
 	<string name="recipe_import_in_progress">Ka jingwanrah ia ka rukom shet</string>
 	<string name="recipe_import_menu_title">Pynrung ia ka rukom shet na ka URL</string>
+	<string name="recipe_import_upload_failure">Ym lah ban pynrung ‘%1$s’ ha ka Kot shet</string>
+	<string name="recipe_import_upload_success">La pynrung ‘%1$s’ ha ka Kot shet</string>
 	<string name="recipe_list_image_desc">Ka dur rit jong ka rukom shet</string>
 	<string name="recipe_no_timer">Kane ka Recipe kam don timer!</string>
 	<string name="request_again">Kyrpad biang</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Man la ka 12 kynta</string>
 	<string name="sync_interval_name_24">Man la ka 24 kynta</string>
 	<string name="sync_interval_name_off">Lip</string>
+	<string name="syncing_recipes">Ka jingpyniadei ia ki jingbam jong phi</string>
 	<string name="tab_info_title">Jingtip</string>
 	<string name="tab_ingredients_title">Ki jinber jingtah</string>
 	<string name="tab_instructions_title">Jingbthah</string>

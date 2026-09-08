@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ekki tókst að flytja inn uppskriftina: %1$s</string>
 	<string name="recipe_import_in_progress">Flytur inn uppskrift</string>
 	<string name="recipe_import_menu_title">Flytja inn uppskrift frá URL</string>
+	<string name="recipe_import_upload_failure">Gat ekki bætt ‘%1$s’ við matreiðslubók</string>
+	<string name="recipe_import_upload_success">Bætti ‘%1$s’ við matreiðslubók</string>
 	<string name="recipe_list_image_desc">Smámynd af uppskrift</string>
 	<string name="recipe_no_timer">Þessi uppskrift er ekki með tímamæli!</string>
 	<string name="request_again">Beiðni aftur</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Á 12 tíma fresti</string>
 	<string name="sync_interval_name_24">Á 24 tíma fresti</string>
 	<string name="sync_interval_name_off">Slökkt</string>
+	<string name="syncing_recipes">Samstillir uppskriftirnar þínar</string>
 	<string name="tab_info_title">Upplýsingar</string>
 	<string name="tab_ingredients_title">Hráefni</string>
 	<string name="tab_instructions_title">Leiðbeiningar</string>

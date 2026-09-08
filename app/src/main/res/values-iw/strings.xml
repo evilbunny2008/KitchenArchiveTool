@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">לא ניתן לייבא את המתכון: %1$s</string>
 	<string name="recipe_import_in_progress">מייבא מתכון</string>
 	<string name="recipe_import_menu_title">ייבא מתכון מ-URL</string>
+	<string name="recipe_import_upload_failure">לא ניתן להוסיף את ‘%1$s’ לספר הבישול</string>
+	<string name="recipe_import_upload_success">‘%1$s’ נוסף לספר הבישול</string>
 	<string name="recipe_list_image_desc">תמונה ממוזערת של המתכון</string>
 	<string name="recipe_no_timer">למתכון הזה אין טיימר!</string>
 	<string name="request_again">תבקש שוב</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">כל 12 שעות</string>
 	<string name="sync_interval_name_24">כל 24 שעות</string>
 	<string name="sync_interval_name_off">כבוי</string>
+	<string name="syncing_recipes">מסנכרן את המתכונים שלך</string>
 	<string name="tab_info_title">מידע</string>
 	<string name="tab_ingredients_title">מרכיבים</string>
 	<string name="tab_instructions_title">הוראות</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Enda ulih ngimport resipi: %1$s</string>
 	<string name="recipe_import_in_progress">Resipi ngimport</string>
 	<string name="recipe_import_menu_title">Import resipi ari URL</string>
+	<string name="recipe_import_upload_failure">Enda ulih nambahka ‘%1$s’ ngagai Bup Masak</string>
+	<string name="recipe_import_upload_success">Ditambahka ‘%1$s’ ngagai Bup Masak</string>
 	<string name="recipe_list_image_desc">Gambar mit resipi</string>
 	<string name="recipe_no_timer">Resipi tu nadai ngembuan timer!</string>
 	<string name="request_again">Pinta baru</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Tiap 12 Jam</string>
 	<string name="sync_interval_name_24">Tiap 24 Jam</string>
 	<string name="sync_interval_name_off">Madamka</string>
+	<string name="syncing_recipes">Nyegerakka resipi nuan</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Utai</string>
 	<string name="tab_instructions_title">Jaku padah</string>

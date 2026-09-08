@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Tidak dapat mengimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Impor resep</string>
 	<string name="recipe_import_menu_title">Impor resep dari URL</string>
+	<string name="recipe_import_upload_failure">Tidak dapat menambahkan ‘%1$s’ ke Buku Masak</string>
+	<string name="recipe_import_upload_success">Menambahkan ‘%1$s’ ke Buku Masak</string>
 	<string name="recipe_list_image_desc">Gambar thumbnail resep</string>
 	<string name="recipe_no_timer">Resep ini tidak memiliki pengatur waktu!</string>
 	<string name="request_again">Minta lagi</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Setiap 12 Jam</string>
 	<string name="sync_interval_name_24">Setiap 24 Jam</string>
 	<string name="sync_interval_name_off">Mati</string>
+	<string name="syncing_recipes">Menyinkronkan resep Anda</string>
 	<string name="tab_info_title">Informasi</string>
 	<string name="tab_ingredients_title">Bahan-bahan</string>
 	<string name="tab_instructions_title">instruksi</string>

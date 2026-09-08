@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Pa t ‘kapab enpòte resèt la: %1$s</string>
 	<string name="recipe_import_in_progress">Enpòte resèt</string>
 	<string name="recipe_import_menu_title">Enpòte resèt soti nan URL</string>
+	<string name="recipe_import_upload_failure">Pa t ‘kapab ajoute ’%1$s‘ nan Cookbook</string>
+	<string name="recipe_import_upload_success">Te ajoute ‘%1$s’ nan liv kwit manje</string>
 	<string name="recipe_list_image_desc">Miniature imaj resèt la</string>
 	<string name="recipe_no_timer">Resèt sa a pa gen yon revèy!</string>
 	<string name="request_again">Mande ankò</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Chak 12 èdtan</string>
 	<string name="sync_interval_name_24">Chak 24 èdtan</string>
 	<string name="sync_interval_name_off">Off</string>
+	<string name="syncing_recipes">Senkronize resèt ou yo</string>
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Engredyan</string>
 	<string name="tab_instructions_title">Enstriksyon yo</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">रेसिपी आयात करूंक शकली ना: %1$s</string>
 	<string name="recipe_import_in_progress">आयात करपाची रेसिपी</string>
 	<string name="recipe_import_menu_title">URL वयल्यान रेसिपी आयात करात</string>
+	<string name="recipe_import_upload_failure">Cookbook कडेन ‘%1$s’ जोडूंक शकलो ना</string>
+	<string name="recipe_import_upload_success">कुकबुकांत ‘%1$s’ जोडला</string>
 	<string name="recipe_list_image_desc">रेसिपीचें प्रतिमा लघुप्रतिमा</string>
 	<string name="recipe_no_timer">ह्या रेसिपींत टाइमर ना!</string>
 	<string name="request_again">परतून विनंती करात</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">दर 12 वरांनी</string>
 	<string name="sync_interval_name_24">दर 24 वरांनी</string>
 	<string name="sync_interval_name_off">बंद करचें</string>
+	<string name="syncing_recipes">तुमचीं रेसिपी समक्रमीत करप</string>
 	<string name="tab_info_title">माहिती</string>
 	<string name="tab_ingredients_title">व्यंजन</string>
 	<string name="tab_instructions_title">सुचोवण्यो</string>

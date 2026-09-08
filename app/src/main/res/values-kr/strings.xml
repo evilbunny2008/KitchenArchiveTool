@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Raksǝ awo kǝmbube dǝga suwudin ba: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe ikko</string>
 	<string name="recipe_import_menu_title">Recipe URL lan ikko</string>
+	<string name="recipe_import_upload_failure">Raksə ‘%1$s’ kitawu detəyero sərayin ba</string>
+	<string name="recipe_import_upload_success">‘%1$s’ kitawu detəyero kəllata</string>
 	<string name="recipe_list_image_desc">Foto gana kǝmbu detabe</string>
 	<string name="recipe_no_timer">Recipe adə timer bawo!</string>
 	<string name="request_again">Waltǝm mǝradǝne</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Awa 12 woson</string>
 	<string name="sync_interval_name_24">Awa 24 woson</string>
 	<string name="sync_interval_name_off">Ba</string>
+	<string name="syncing_recipes">Recipe-nəm kalkaltəgə</string>
 	<string name="tab_info_title">Bayan</string>
 	<string name="tab_ingredients_title">Karewa</string>
 	<string name="tab_instructions_title">Kashimowa</string>

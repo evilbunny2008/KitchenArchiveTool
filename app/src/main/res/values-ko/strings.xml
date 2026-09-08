@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">레시피를 가져올 수 없습니다: %1$s</string>
 	<string name="recipe_import_in_progress">레시피 가져오는 중</string>
 	<string name="recipe_import_menu_title">URL에서 레시피 가져오기</string>
+	<string name="recipe_import_upload_failure">요리책에 ‘%1$s’을(를) 추가할 수 없습니다</string>
+	<string name="recipe_import_upload_success">요리책에 ‘%1$s’을(를) 추가했습니다</string>
 	<string name="recipe_list_image_desc">레시피의 이미지 썸네일</string>
 	<string name="recipe_no_timer">이 레시피에는 타이머가 없습니다!</string>
 	<string name="request_again">다시 요청</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">12시간마다</string>
 	<string name="sync_interval_name_24">24시간마다</string>
 	<string name="sync_interval_name_off">끄다</string>
+	<string name="syncing_recipes">레시피 동기화 중</string>
 	<string name="tab_info_title">정보</string>
 	<string name="tab_ingredients_title">재료</string>
 	<string name="tab_instructions_title">지침</string>

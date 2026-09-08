@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ಪಾಕವಿಧಾನವನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %1$s</string>
 	<string name="recipe_import_in_progress">ಪಾಕವಿಧಾನವನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ</string>
 	<string name="recipe_import_menu_title">URL ನಿಂದ ಪಾಕವಿಧಾನವನ್ನು ಆಮದು ಮಾಡಿ</string>
+	<string name="recipe_import_upload_failure">ಕುಕ್‌ಬುಕ್‌ಗೆ ‘%1$s’ ಸೇರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+	<string name="recipe_import_upload_success">ಕುಕ್‌ಬುಕ್‌ಗೆ ‘%1$s’ ಸೇರಿಸಲಾಗಿದೆ</string>
 	<string name="recipe_list_image_desc">ಪಾಕವಿಧಾನದ ಚಿತ್ರ ಥಂಬ್‌ನೇಲ್</string>
 	<string name="recipe_no_timer">ಈ ಪಾಕವಿಧಾನವು ಟೈಮರ್ ಅನ್ನು ಹೊಂದಿಲ್ಲ!</string>
 	<string name="request_again">ಮತ್ತೊಮ್ಮೆ ವಿನಂತಿಸಿ</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">ಪ್ರತಿ 12 ಗಂಟೆಗಳ</string>
 	<string name="sync_interval_name_24">ಪ್ರತಿ 24 ಗಂಟೆಗಳ</string>
 	<string name="sync_interval_name_off">ಆಫ್</string>
+	<string name="syncing_recipes">ನಿಮ್ಮ ಪಾಕವಿಧಾನಗಳನ್ನು ಸಿಂಕ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
 	<string name="tab_info_title">ಮಾಹಿತಿ</string>
 	<string name="tab_ingredients_title">ಪದಾರ್ಥಗಳು</string>
 	<string name="tab_instructions_title">ಸೂಚನೆಗಳು</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">קען נישט אַרייַנפיר דעם רעצעפּט: %1$s</string>
 	<string name="recipe_import_in_progress">ימפּאָרטינג רעצעפּט</string>
 	<string name="recipe_import_menu_title">אַרייַנפיר רעצעפּט פֿון URL</string>
+	<string name="recipe_import_upload_failure">קען נישט לייגן ‘%1$s’ צו קוקבוק</string>
+	<string name="recipe_import_upload_success">צוגעגעבן ‘%1$s’ צו קוקבוק</string>
 	<string name="recipe_list_image_desc">בילד טאַמנייל פון רעצעפּט</string>
 	<string name="recipe_no_timer">דעם רעצעפּט טוט נישט האָבן אַ טייַמער!</string>
 	<string name="request_again">בעטן ווידער</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">יעדער 12 שעה</string>
 	<string name="sync_interval_name_24">יעדער 24 שעה</string>
 	<string name="sync_interval_name_off">אַוועק</string>
+	<string name="syncing_recipes">סינסינג דיין רעסאַפּיז</string>
 	<string name="tab_info_title">אינפֿאָרמאַציע</string>
 	<string name="tab_ingredients_title">ינגרידיאַנץ</string>
 	<string name="tab_instructions_title">אינסטרוקציעס</string>

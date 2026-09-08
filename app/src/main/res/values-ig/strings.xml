@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Enweghị ike ibubata uzommeputa: %1$s</string>
 	<string name="recipe_import_in_progress">Na-ebubata uzommeputa</string>
 	<string name="recipe_import_menu_title">Bubata uzommeputa site na URL</string>
+	<string name="recipe_import_upload_failure">Enweghị ike itinye ‘%1$s’ na akwụkwọ nri</string>
+	<string name="recipe_import_upload_success">Etinyere ‘%1$s’ na akwụkwọ nri</string>
 	<string name="recipe_list_image_desc">Foto thumbnail nke uzommeputa</string>
 	<string name="recipe_no_timer">Ntụziaka a enweghị ngụ oge!</string>
 	<string name="request_again">Rịọ ọzọ</string>
@@ -128,6 +130,7 @@
 	<string name="sync_interval_name_12">Oge elekere 12 ọ bụla</string>
 	<string name="sync_interval_name_24">Oge elekere 24 ọ bụla</string>
 	<string name="sync_interval_name_off">Gbanyụọ</string>
+	<string name="syncing_recipes">Na-emekọrịta ntụziaka gị</string>
 	<string name="tab_info_title">Ozi</string>
 	<string name="tab_ingredients_title">Efrata</string>
 	<string name="tab_instructions_title">Ntuziaka</string>
