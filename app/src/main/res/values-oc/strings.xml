@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importar la recèpta dempuèi l’URL</string>
 	<string name="recipe_import_failure">Impossible d’importar la recèpta : %1$s</string>
 	<string name="recipe_import_in_progress">Important la recèpta</string>
-	<string name="recipe_import_login_close">Anullar la connexion</string>
-	<string name="recipe_import_login_init_failed">Impossible de començar lo processus de connexion : %1$s</string>
-	<string name="recipe_import_login_timed_out">La connexion es passada. Ensajatz tornarmai</string>
-	<string name="recipe_import_login_title">Connectatz-vos a Nextcloud</string>
 	<string name="recipe_import_menu_title">Importar la recèpta dempuèi l’URL</string>
 	<string name="recipe_import_service_url_hint">URL del servici d’importacion de recèptas</string>
 	<string name="recipe_list_image_desc">Viniatura d’imatge de la recèpta</string>

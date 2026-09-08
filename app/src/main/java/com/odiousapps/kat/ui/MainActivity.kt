@@ -14,7 +14,6 @@ import android.view.View
 import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.Toast
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -37,8 +36,8 @@ import com.bumptech.glide.Glide
 import com.odiousapps.kat.nextcloudapi.Accounts
 import com.odiousapps.kat.nextcloudapi.AvatarCache
 import com.odiousapps.kat.nextcloudapi.AvatarFetcher
+import com.odiousapps.kat.nextcloudapi.CookbookAPI
 import com.odiousapps.kat.nextcloudapi.RecipeImportClient
-import com.odiousapps.kat.nextcloudapi.RecipeImportCredentialStore
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.nextcloud.android.sso.AccountImporter
@@ -57,13 +56,13 @@ import com.odiousapps.kat.databinding.ActivityMainBinding
 import com.odiousapps.kat.services.sync.SyncScheduler
 import com.odiousapps.kat.settings.PreferenceData
 import com.odiousapps.kat.ui.accountswitcher.AccountSwitcherBottomSheet
-import com.odiousapps.kat.ui.recipeimport.RecipeImportLoginActivity
 import com.odiousapps.kat.ui.recipelist.RecipeSearchCallback
 import com.odiousapps.kat.util.Filesystem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
+import org.json.JSONObject
 import java.io.File
 import java.util.logging.Logger
 
@@ -261,40 +260,20 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
 
    // --- Recipe import from URL ---------------------------------------------
    //
-   // Flow: ask for a URL -> if this account doesn't already have a stored
-   // app password for the import bridge, send the user through
-   // RecipeImportLoginActivity's WebView to get one (Nextcloud's own Login
-   // Flow v2, see that class and NextcloudLoginFlow) -> POST hostname
-   // /username/app-password/recipe URL to the configured bridge script
-   // (RecipeImportClient) -> show the result.
-
-   /** Holds the URL the user asked to import while RecipeImportLoginActivity is running. */
-   private var pendingRecipeImportUrl: String? = null
-   /** Holds the service (bridge script) URL for the same pending import. */
-   private var pendingRecipeImportServiceUrl: String? = null
-
-   private val recipeImportLoginLauncher = registerForActivityResult(
-      ActivityResultContracts.StartActivityForResult()
-   ) { result ->
-      val recipeUrl = pendingRecipeImportUrl
-      val serviceUrl = pendingRecipeImportServiceUrl
-      pendingRecipeImportUrl = null
-      pendingRecipeImportServiceUrl = null
-
-      if (result.resultCode == RESULT_OK && recipeUrl != null && serviceUrl != null) {
-         // RecipeImportLoginActivity only signals success/failure -- it
-         // deliberately doesn't hand the credential back via Intent
-         // extras (see its own doc comment), so it's read back from
-         // encrypted storage here instead.
-         val account = Accounts(this).getCurrentAccount()
-         val credentials = account?.let { RecipeImportCredentialStore.get(this, it.name) }
-         if (credentials != null) {
-            performRecipeImport(serviceUrl, credentials.server, credentials.loginName, credentials.appPassword, recipeUrl)
-         }
-      }
-      // Cancelled or failed: RecipeImportLoginActivity has already shown
-      // its own error/timeout message in that case, nothing more to do here.
-   }
+   // Flow: ask for a URL -> POST it to the configured bridge script
+   // (RecipeImportClient), which scrapes the page and returns recipe
+   // JSON-LD -> upload that JSON-LD into Cookbook ourselves, using the
+   // NextcloudAPI connection this app already has via SSO for the current
+   // account (CookbookAPI.createRecipe(), the same call the
+   // copy-recipe-between-accounts feature already uses).
+   //
+   // The bridge script never sees, stores, or needs any Nextcloud
+   // credential for any account -- its only job is "URL in, recipe JSON
+   // out". An earlier version of this feature had the bridge upload
+   // directly on the app's behalf, which meant getting it a dedicated app
+   // password via Nextcloud's own Login Flow v2 (WebView + polling) and
+   // storing that password encrypted on-device. None of that is needed
+   // anymore now that the upload happens here instead.
 
    private fun showImportRecipeDialog() {
       // Pre-filled from whatever was entered last time (see the positive
@@ -344,61 +323,60 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
                lifecycleScope.launch(Dispatchers.IO) {
                   PreferenceData.getInstance().setRecipeImportUrl(serviceUrl)
                }
-               startRecipeImport(serviceUrl, recipeUrl)
+               fetchAndUploadRecipe(serviceUrl, recipeUrl)
             }
          }
          .setNegativeButton(android.R.string.cancel, null)
          .show()
    }
 
-   private fun startRecipeImport(serviceUrl: String, recipeUrl: String) {
+   private fun fetchAndUploadRecipe(serviceUrl: String, recipeUrl: String) {
       val account = Accounts(this).getCurrentAccount()
       if (account == null) {
          Toast.makeText(this, R.string.current_account_not_found_exception_message, Toast.LENGTH_LONG).show()
          return
       }
 
-      val cached = RecipeImportCredentialStore.get(this, account.name)
-      if (cached != null) {
-         performRecipeImport(serviceUrl, cached.server, cached.loginName, cached.appPassword, recipeUrl)
-      } else {
-         pendingRecipeImportUrl = recipeUrl
-         pendingRecipeImportServiceUrl = serviceUrl
-         recipeImportLoginLauncher.launch(
-            RecipeImportLoginActivity.newIntent(this, account.url, account.name)
-         )
-      }
-   }
-
-   private fun performRecipeImport(serviceUrl: String, hostname: String, username: String, password: String, recipeUrl: String) {
       Toast.makeText(this, R.string.recipe_import_in_progress, Toast.LENGTH_SHORT).show()
 
       lifecycleScope.launch {
-         val result = withContext(Dispatchers.IO) {
-            RecipeImportClient.importRecipe(serviceUrl, hostname, username, password, recipeUrl)
+         val fetchResult = withContext(Dispatchers.IO) {
+            RecipeImportClient.importRecipe(serviceUrl, recipeUrl)
          }
-         when (result) {
-            is RecipeImportClient.Result.Success ->
-               Toast.makeText(this@MainActivity, result.message, Toast.LENGTH_LONG).show()
+         when (fetchResult) {
             is RecipeImportClient.Result.Failure -> {
-               // A 401/403 from the bridge script means the stored app
-               // password was revoked server-side (e.g. from Nextcloud's
-               // own Devices & sessions page) -- clear it so the next
-               // attempt goes through RecipeImportLoginActivity again for
-               // a fresh one, rather than repeating the same failure
-               // forever.
-               if (result.reason.contains("401") || result.reason.contains("403")) {
-                  Accounts(this@MainActivity).getCurrentAccount()?.let {
-                     RecipeImportCredentialStore.clear(this@MainActivity, it.name)
-                  }
-               }
                Toast.makeText(
                   this@MainActivity,
-                  getString(R.string.recipe_import_failure, result.reason),
+                  getString(R.string.recipe_import_failure, fetchResult.reason),
                   Toast.LENGTH_LONG
                ).show()
+               return@launch
             }
+            is RecipeImportClient.Result.Success -> uploadImportedRecipe(fetchResult.recipe)
          }
+      }
+   }
+
+   private suspend fun uploadImportedRecipe(recipe: JSONObject) {
+      val name = recipe.optString("name").ifEmpty { recipe.optString("url") }
+
+      val newId = withContext(Dispatchers.IO) {
+         val api = Accounts(this@MainActivity).getApiToAccount() ?: return@withContext null
+         try {
+            CookbookAPI(api).createRecipe(recipe)
+         } finally {
+            api.close()
+         }
+      }
+
+      if (newId != null) {
+         Toast.makeText(this@MainActivity, getString(R.string.recipe_import_upload_success, name), Toast.LENGTH_LONG).show()
+         // So the new recipe shows up without needing a manual
+         // pull-to-refresh -- same reasoning as RecipeListFragment's own
+         // sync-on-resume fix.
+         SyncScheduler.syncNow(applicationContext)
+      } else {
+         Toast.makeText(this@MainActivity, getString(R.string.recipe_import_upload_failure, name), Toast.LENGTH_LONG).show()
       }
    }
 

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">U dzhia risipi u bva kha URL</string>
 	<string name="recipe_import_failure">A thi koni u ḓisa risipi: %1$s</string>
 	<string name="recipe_import_in_progress">Risipi ya u renga nnḓa</string>
-	<string name="recipe_import_login_close">Khansela u dzhena</string>
-	<string name="recipe_import_login_init_failed">A thi koni u thoma maitele a u dzhena: %1$s</string>
-	<string name="recipe_import_login_timed_out">Tshifhinga tsha u dzhena tsho fhela. Lingedzani hafhu</string>
-	<string name="recipe_import_login_title">Kha vha dzhene kha Nextcloud</string>
 	<string name="recipe_import_menu_title">U dzhia risipi u bva kha URL</string>
 	<string name="recipe_import_service_url_hint">URL ya tshumelo ya u ḓisa risipi</string>
 	<string name="recipe_list_image_desc">Tshifanyiso tshiṱuku tsha risipi</string>

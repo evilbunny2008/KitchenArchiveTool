@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Æрбалас рецепт URL-æй</string>
 	<string name="recipe_import_failure">Рецепт импорт кæнын нæ бантыст: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт æрбаласын</string>
-	<string name="recipe_import_login_close">Бацæуын ныууадзын</string>
-	<string name="recipe_import_login_init_failed">Нæ бантыст бацæуæн процесс райдайын: %1$s</string>
-	<string name="recipe_import_login_timed_out">Бацæуыны рæстæг ахицæн. Ногæй бафæлвар</string>
-	<string name="recipe_import_login_title">Бацæут Nextcloud-мæ</string>
 	<string name="recipe_import_menu_title">Æрбалас рецепт URL-æй</string>
 	<string name="recipe_import_service_url_hint">Рецепты импорты лæггады URL</string>
 	<string name="recipe_list_image_desc">Рецепты ныв</string>

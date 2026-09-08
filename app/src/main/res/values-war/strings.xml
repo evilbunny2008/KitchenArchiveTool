@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importa an resipe tikang ha URL</string>
 	<string name="recipe_import_failure">Waray makag-import han resipe: %1$s</string>
 	<string name="recipe_import_in_progress">Pag-import hin resipe</string>
-	<string name="recipe_import_login_close">Kanselahon an pagsulod</string>
-	<string name="recipe_import_login_init_failed">Waray makagtikang han proseso han pagsulod: %1$s</string>
-	<string name="recipe_import_login_timed_out">Natapos an oras han pagsulod. Sarihi utro</string>
-	<string name="recipe_import_login_title">Pag-log in ha Sunod nga dampog</string>
 	<string name="recipe_import_menu_title">Importa an resipe tikang ha URL</string>
 	<string name="recipe_import_service_url_hint">URL han serbisyo han pag-import han resipe</string>
 	<string name="recipe_list_image_desc">Gutiay nga ladawan han resipe</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importisaren o recepto katar o URL</string>
 	<string name="recipe_import_failure">Nashti te importirinel pes o recepto: %1$s</string>
 	<string name="recipe_import_in_progress">Importisarindoj e recepta</string>
-	<string name="recipe_import_login_close">Te nakhaves o login</string>
-	<string name="recipe_import_login_init_failed">Nashti te kezdisarel pes o proceso vash o login: %1$s</string>
-	<string name="recipe_import_login_timed_out">O vaxt e login-esqo nakhlas. Zumav pale</string>
-	<string name="recipe_import_login_title">Keren login ko Nextcloud</string>
 	<string name="recipe_import_menu_title">Importisaren o recepto katar o URL</string>
 	<string name="recipe_import_service_url_hint">URL e servisesqo importàciaqo e receptenqo</string>
 	<string name="recipe_list_image_desc">Miniatura e receptosqi</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importige retsept URL-ist</string>
 	<string name="recipe_import_failure">Retsepti ei saanud importida: %1$s</string>
 	<string name="recipe_import_in_progress">Retsepti importimine</string>
-	<string name="recipe_import_login_close">Tühista sisselogimine</string>
-	<string name="recipe_import_login_init_failed">Sisselogimisprotsessi ei saanud käivitada: %1$s</string>
-	<string name="recipe_import_login_timed_out">Sisselogimine aegus. Proovi uuesti</string>
-	<string name="recipe_import_login_title">Logige Nextcloudi sisse</string>
 	<string name="recipe_import_menu_title">Importige retsept URL-ist</string>
 	<string name="recipe_import_service_url_hint">Retsepti importimise teenuse URL</string>
 	<string name="recipe_list_image_desc">Retsepti pisipilt</string>

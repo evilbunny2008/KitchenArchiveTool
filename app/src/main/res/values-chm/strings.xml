@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL гыч рецептым пурто</string>
 	<string name="recipe_import_failure">Рецептым пурташ ок лий: %1$s</string>
 	<string name="recipe_import_in_progress">Рецептым пуртымо</string>
-	<string name="recipe_import_login_close">Логиным кораҥдаш</string>
-	<string name="recipe_import_login_init_failed">Логин процессым тӱҥалын кертын огыл: %1$s</string>
-	<string name="recipe_import_login_timed_out">Логин жап эртен. Эше ик гана тӧчен ончо</string>
-	<string name="recipe_import_login_title">Nextcloud-ыш пураш</string>
 	<string name="recipe_import_menu_title">URL гыч рецептым пурто</string>
 	<string name="recipe_import_service_url_hint">Рецепт импорт сервис URL</string>
 	<string name="recipe_list_image_desc">Рецептын сӱретше</string>

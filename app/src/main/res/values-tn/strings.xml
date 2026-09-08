@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Thomeloteng diresipi go tswa go URL</string>
 	<string name="recipe_import_failure">Ga e kgone go reka risepe go tswa kwa ntle: %1$s</string>
 	<string name="recipe_import_in_progress">Go reka diresipi</string>
-	<string name="recipe_import_login_close">Khansela go tsena</string>
-	<string name="recipe_import_login_init_failed">Ga e kgone go simolola thulaganyo ya go tsena: %1$s</string>
-	<string name="recipe_import_login_timed_out">Nako ya go tsena e fedile. Leka gape</string>
-	<string name="recipe_import_login_title">Tsena mo Nextcloud</string>
 	<string name="recipe_import_menu_title">Thomeloteng diresipi go tswa go URL</string>
 	<string name="recipe_import_service_url_hint">URL ya tirelo ya thomeloteng ya diresipi</string>
 	<string name="recipe_list_image_desc">Setshwantsho se sennye sa risepe</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Recept importere vaan URL</string>
 	<string name="recipe_import_failure">Kon ut recept neet importere: %1$s</string>
 	<string name="recipe_import_in_progress">Recept importere</string>
-	<string name="recipe_import_login_close">Inloggen annulere</string>
-	<string name="recipe_import_login_init_failed">Kon ‘t inlogproces neet starte: %1$s</string>
-	<string name="recipe_import_login_timed_out">Aonmelde is verlore. Probeer nog ummer</string>
-	<string name="recipe_import_login_title">Log in bij Nextcloud</string>
 	<string name="recipe_import_menu_title">Recept importere vaan URL</string>
 	<string name="recipe_import_service_url_hint">Recepte-importservice-URL</string>
 	<string name="recipe_list_image_desc">Miniatuur vaan ‘t recept</string>

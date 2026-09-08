@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Ngenisa iresiphi kusuka ku-URL</string>
 	<string name="recipe_import_failure">Ayikwazanga ukungenisa iresiphi: %1$s</string>
 	<string name="recipe_import_in_progress">Ingenisa iresiphi</string>
-	<string name="recipe_import_login_close">Khansela ukungena ngemvume</string>
-	<string name="recipe_import_login_init_failed">Ayikwazanga ukuqalisa inqubo yokungena: %1$s</string>
-	<string name="recipe_import_login_timed_out">Ukungena kuphelelwe yisikhathi. Zama futhi</string>
-	<string name="recipe_import_login_title">Ngena ngemvume ku-Nextcloud</string>
 	<string name="recipe_import_menu_title">Ngenisa iresiphi kusuka ku-URL</string>
 	<string name="recipe_import_service_url_hint">I-URL yesevisi yokungenisa amaresiphi</string>
 	<string name="recipe_list_image_desc">Isithonjana sesithombe seresiphi</string>

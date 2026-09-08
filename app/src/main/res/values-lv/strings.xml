@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importēt recepti no URL</string>
 	<string name="recipe_import_failure">Nevarēja importēt recepti: %1$s</string>
 	<string name="recipe_import_in_progress">Notiek receptes importēšana</string>
-	<string name="recipe_import_login_close">Atcelt pieteikšanos</string>
-	<string name="recipe_import_login_init_failed">Nevarēja sākt pieteikšanās procesu: %1$s</string>
-	<string name="recipe_import_login_timed_out">Pieteikšanās noildze. Mēģiniet vēlreiz</string>
-	<string name="recipe_import_login_title">Piesakieties Nextcloud</string>
 	<string name="recipe_import_menu_title">Importēt recepti no URL</string>
 	<string name="recipe_import_service_url_hint">Recepšu importēšanas pakalpojuma URL</string>
 	<string name="recipe_list_image_desc">Receptes attēla sīktēls</string>

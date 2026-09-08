@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">यूआरएलं रेसिपि आयात या</string>
 	<string name="recipe_import_failure">रेसिपि आयात याये मफुत : %1$s</string>
 	<string name="recipe_import_in_progress">आयात यायेगु रेसिपि</string>
-	<string name="recipe_import_login_close">लगइन रद्द या</string>
-	<string name="recipe_import_login_init_failed">लगइन प्रक्रिया न्ह्याके मफुत : %1$s</string>
-	<string name="recipe_import_login_timed_out">लगइन यायेगु ई फुत । हाकनं कुतः या</string>
-	<string name="recipe_import_login_title">नेक्स्टक्लाउडय् लग इन यानादिसँ ।</string>
 	<string name="recipe_import_menu_title">यूआरएलं रेसिपि आयात या</string>
 	<string name="recipe_import_service_url_hint">रेसिपि आयात सेवा यूआरएल</string>
 	<string name="recipe_list_image_desc">रेसिपिया किपाया थम्बनेल</string>

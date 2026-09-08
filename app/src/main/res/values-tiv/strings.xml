@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Nyôr a kwaghyan hen URL</string>
 	<string name="recipe_import_failure">Ka i lu u a nyôr a kwaghyan u i nger la ga: %1$s</string>
 	<string name="recipe_import_in_progress">U van a kwaghyan ken won</string>
-	<string name="recipe_import_login_close">De u nyôron ker</string>
-	<string name="recipe_import_login_init_failed">Ka i hii u eren tom u nyôron ker ga: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login shighe bee. Hide nôngo</string>
-	<string name="recipe_import_login_title">Nyôr ken Nextcloud</string>
 	<string name="recipe_import_menu_title">Nyôr a kwaghyan hen URL</string>
 	<string name="recipe_import_service_url_hint">URL u eren tom u van a kwaghyan</string>
 	<string name="recipe_list_image_desc">Foto u kiriki u kwaghyan</string>

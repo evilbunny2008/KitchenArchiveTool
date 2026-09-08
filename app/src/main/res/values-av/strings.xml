@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Рецепт импорт гьабе URL-алдаса</string>
 	<string name="recipe_import_failure">Рецепт импорт гьабизе кӀвечӀо: %1$s</string>
 	<string name="recipe_import_in_progress">Импорт гьабулеб рецепт</string>
-	<string name="recipe_import_login_close">Отменить логин</string>
-	<string name="recipe_import_login_init_failed">КӀвечӀо лъугьине процесс байбихьизе: %1$s</string>
-	<string name="recipe_import_login_timed_out">Логиналъул заман лъугӀана. Цоги нухалъ хӀалбихье</string>
-	<string name="recipe_import_login_title">Вход в Некстклауд</string>
 	<string name="recipe_import_menu_title">Рецепт импорт гьабе URL-алдаса</string>
 	<string name="recipe_import_service_url_hint">Рецепт импорталъул хъулухъалъул URL</string>
 	<string name="recipe_list_image_desc">Рецепталъул сураталъул гьитӀинаб сурат</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Ka soo deji cunto karinta URL</string>
 	<string name="recipe_import_failure">Waa la soo dejin kari waayay cuntada: %1$s</string>
 	<string name="recipe_import_in_progress">Soo dejinta cuntada</string>
-	<string name="recipe_import_login_close">Jooji gelida</string>
-	<string name="recipe_import_login_init_failed">Ma bilaabi karo habka soo gelida: %1$s</string>
-	<string name="recipe_import_login_timed_out">Soo galitaanku wuu dhamaaday Isku day mar kale</string>
-	<string name="recipe_import_login_title">Gal Nextcloud</string>
 	<string name="recipe_import_menu_title">Ka soo deji cunto karinta URL</string>
 	<string name="recipe_import_service_url_hint">Recipe soo dejinta URL adeegga</string>
 	<string name="recipe_list_image_desc">Sawirka thumbnail ee cunto karinta</string>

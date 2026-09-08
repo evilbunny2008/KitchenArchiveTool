@@ -125,12 +125,10 @@
 	<string name="recipe_import_dialog_title">Import recipe from URL</string>
 	<string name="recipe_import_failure">Couldn’t import the recipe: %1$s</string>
 	<string name="recipe_import_in_progress">Importing recipe…</string>
-	<string name="recipe_import_login_close">Cancel login</string>
-	<string name="recipe_import_login_init_failed">Couldn’t start the login process: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login timed out. Try again</string>
-	<string name="recipe_import_login_title">Log in to Nextcloud</string>
 	<string name="recipe_import_menu_title">Import recipe from URL</string>
 	<string name="recipe_import_service_url_hint">Recipe import service URL</string>
+	<string name="recipe_import_upload_failure">Couldn’t add ‘%1$s’ to Cookbook</string>
+	<string name="recipe_import_upload_success">Added ‘%1$s’ to Cookbook</string>
 	<string name="recipe_list_image_desc">Image thumbnail of recipe</string>
 	<string name="recipe_no_timer">This Recipe does not have a timer!</string>
 	<string name="request_again">Request again</string>

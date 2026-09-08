@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">ນໍາເຂົ້າສູດຈາກ URL</string>
 	<string name="recipe_import_failure">ບໍ່ສາມາດນຳເຂົ້າສູດໄດ້: %1$s</string>
 	<string name="recipe_import_in_progress">ກຳລັງນຳເຂົ້າສູດ</string>
-	<string name="recipe_import_login_close">ຍົກເລີກການເຂົ້າສູ່ລະບົບ</string>
-	<string name="recipe_import_login_init_failed">ບໍ່ສາມາດເລີ່ມຂະບວນການເຂົ້າສູ່ລະບົບໄດ້: %1$s</string>
-	<string name="recipe_import_login_timed_out">ການເຂົ້າສູ່ລະບົບໝົດເວລາ. ລອງອີກຄັ້ງ</string>
-	<string name="recipe_import_login_title">ເຂົ້າສູ່ລະບົບ Nextcloud</string>
 	<string name="recipe_import_menu_title">ນໍາເຂົ້າສູດຈາກ URL</string>
 	<string name="recipe_import_service_url_hint">URL ການບໍລິການນໍາເຂົ້າສູດ</string>
 	<string name="recipe_list_image_desc">ຮູບຫຍໍ້ຂອງສູດ</string>

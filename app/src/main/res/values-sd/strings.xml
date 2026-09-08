@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL مان ترڪيب درآمد ڪريو</string>
 	<string name="recipe_import_failure">ترڪيب درآمد نه ٿي سگھيو: %1$s</string>
 	<string name="recipe_import_in_progress">ترڪيب درآمد ڪري رهيو آهي</string>
-	<string name="recipe_import_login_close">لاگ ان منسوخ ڪريو</string>
-	<string name="recipe_import_login_init_failed">لاگ ان عمل شروع نه ٿي سگهيو: %1$s</string>
-	<string name="recipe_import_login_timed_out">لاگ ان وقت ختم. ٻيهر ڪوشش ڪريو</string>
-	<string name="recipe_import_login_title">Nextcloud ۾ لاگ ان ڪريو</string>
 	<string name="recipe_import_menu_title">URL مان ترڪيب درآمد ڪريو</string>
 	<string name="recipe_import_service_url_hint">ترڪيب درآمد سروس URL</string>
 	<string name="recipe_list_image_desc">ترڪيب جي تصوير جو ٿمب نيل</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Mpurtari la ricitta di l’URL</string>
 	<string name="recipe_import_failure">Nun putìa mpurtari la ricitta: %1$s</string>
 	<string name="recipe_import_in_progress">Ricetta di mpurtazzioni</string>
-	<string name="recipe_import_login_close">Annulla l’accessu</string>
-	<string name="recipe_import_login_init_failed">Nun fu pututu accuminciari lu prucessu di login: %1$s</string>
-	<string name="recipe_import_login_timed_out">Lu tempu di l’accessu è scadutu. Pruva n’autra vota</string>
-	<string name="recipe_import_login_title">Accedi a Nextcloud</string>
 	<string name="recipe_import_menu_title">Mpurtari la ricitta di l’URL</string>
 	<string name="recipe_import_service_url_hint">URL dû sirvizziu di mpurtazzioni di ricitti</string>
 	<string name="recipe_list_image_desc">Miniatura di l’immaggini dâ ricitta</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Manafatra recette avy amin’ny URL</string>
 	<string name="recipe_import_failure">Tsy afaka nanafatra ny recette: %1$s</string>
 	<string name="recipe_import_in_progress">Manafatra fomba fanamboarana</string>
-	<string name="recipe_import_login_close">Foana ny fidirana</string>
-	<string name="recipe_import_login_init_failed">Tsy afaka nanomboka ny fizotry ny fidirana: %1$s</string>
-	<string name="recipe_import_login_timed_out">Tapitra ny fotoana fidirana. Andramo indray mandeha</string>
-	<string name="recipe_import_login_title">Midira ao amin’ny Nextcloud</string>
 	<string name="recipe_import_menu_title">Manafatra recette avy amin’ny URL</string>
 	<string name="recipe_import_service_url_hint">URL serivisy fanafarana recipe</string>
 	<string name="recipe_list_image_desc">Sarin’ny thumbnail an’ny recipe</string>

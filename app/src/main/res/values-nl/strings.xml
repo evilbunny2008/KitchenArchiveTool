@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Recept importeren vanuit URL</string>
 	<string name="recipe_import_failure">Kan het recept niet importeren: %1$s</string>
 	<string name="recipe_import_in_progress">Recept importeren</string>
-	<string name="recipe_import_login_close">Annuleer inloggen</string>
-	<string name="recipe_import_login_init_failed">Kan het aanmeldingsproces niet starten: %1$s</string>
-	<string name="recipe_import_login_timed_out">Er is een time-out opgetreden bij het inloggen. Probeer het opnieuw</string>
-	<string name="recipe_import_login_title">Log in op Nextcloud</string>
 	<string name="recipe_import_menu_title">Recept importeren vanuit URL</string>
 	<string name="recipe_import_service_url_hint">URL van de importservice voor recepten</string>
 	<string name="recipe_list_image_desc">Miniatuurafbeelding van recept</string>

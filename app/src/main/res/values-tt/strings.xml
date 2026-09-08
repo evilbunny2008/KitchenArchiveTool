@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL’дан рецепт кертү</string>
 	<string name="recipe_import_failure">Рецептны импортлый алмый:%1$s</string>
 	<string name="recipe_import_in_progress">Рецепт импортлау</string>
-	<string name="recipe_import_login_close">Керүне кире кагарга</string>
-	<string name="recipe_import_login_init_failed">Керү процессын башлап булмый:%1$s</string>
-	<string name="recipe_import_login_timed_out">Керү вакыты бетте. Кабатлап карагыз</string>
-	<string name="recipe_import_login_title">Nextcloud’ка керегез</string>
 	<string name="recipe_import_menu_title">URL’дан рецепт кертү</string>
 	<string name="recipe_import_service_url_hint">Импорт хезмәтенең URL рецепты</string>
 	<string name="recipe_list_image_desc">Рецептның рәсем эскизы</string>

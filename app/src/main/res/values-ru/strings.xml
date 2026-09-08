@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Импортировать рецепт из URL</string>
 	<string name="recipe_import_failure">Не удалось импортировать рецепт: %1$s</string>
 	<string name="recipe_import_in_progress">Импорт рецепта</string>
-	<string name="recipe_import_login_close">Отменить вход</string>
-	<string name="recipe_import_login_init_failed">Не удалось начать процесс входа в систему: %1$s</string>
-	<string name="recipe_import_login_timed_out">Время входа в систему истекло. Попробуйте еще раз</string>
-	<string name="recipe_import_login_title">Войдите в Nextcloud</string>
 	<string name="recipe_import_menu_title">Импортировать рецепт из URL</string>
 	<string name="recipe_import_service_url_hint">URL-адрес службы импорта рецептов</string>
 	<string name="recipe_list_image_desc">Миниатюрное изображение рецепта</string>

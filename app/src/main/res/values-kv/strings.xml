@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Импортируйтны рецепт URL-адрес серти</string>
 	<string name="recipe_import_failure">Рецептсӧ импортируйтны эз вермы: %1$s</string>
 	<string name="recipe_import_in_progress">Импортируйтӧм рецепт</string>
-	<string name="recipe_import_login_close">Отмена логин</string>
-	<string name="recipe_import_login_init_failed">Эз вермы заводитны пыран процесс: %1$s</string>
-	<string name="recipe_import_login_timed_out">Логин тайм-аут. Зільӧй нӧшта</string>
-	<string name="recipe_import_login_title">Локтӧй Nextcloud</string>
 	<string name="recipe_import_menu_title">Импортируйтны рецепт URL-адрес серти</string>
 	<string name="recipe_import_service_url_hint">Рецепт импортируйтан сервислӧн URL-адрес</string>
 	<string name="recipe_list_image_desc">Рецепт серти ичӧт серпас</string>

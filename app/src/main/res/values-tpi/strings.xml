@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Kisim resipi i kam long URL</string>
 	<string name="recipe_import_failure">No inap long kisim resipi i kam insait: %1$s</string>
 	<string name="recipe_import_in_progress">Impotim resipi</string>
-	<string name="recipe_import_login_close">Kenselim login</string>
-	<string name="recipe_import_login_init_failed">I no inap long kirapim wok bilong login: %1$s</string>
-	<string name="recipe_import_login_timed_out">Taim bilong login i pinis. Traim gen</string>
-	<string name="recipe_import_login_title">Log in long Nextcloud</string>
 	<string name="recipe_import_menu_title">Kisim resipi i kam long URL</string>
 	<string name="recipe_import_service_url_hint">Recipe impot sevis URL</string>
 	<string name="recipe_list_image_desc">Piksa bilong resipi</string>

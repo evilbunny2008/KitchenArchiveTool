@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">له URL څخه ترکیب وارد کړئ</string>
 	<string name="recipe_import_failure">ترکیب وارد نشو کولی: %1$s</string>
 	<string name="recipe_import_in_progress">د ترکیب واردول</string>
-	<string name="recipe_import_login_close">ننوتل لغوه کړئ</string>
-	<string name="recipe_import_login_init_failed">د ننوتلو پروسه پیل نشوه: %1$s</string>
-	<string name="recipe_import_login_timed_out">د ننوتلو وخت پای ته ورسید. بیا هڅه وکړئ</string>
-	<string name="recipe_import_login_title">Nextcloud ته ننوتل</string>
 	<string name="recipe_import_menu_title">له URL څخه ترکیب وارد کړئ</string>
 	<string name="recipe_import_service_url_hint">د ترکیب واردولو خدمت URL</string>
 	<string name="recipe_list_image_desc">د ترکیب انځوریز تمبیل</string>

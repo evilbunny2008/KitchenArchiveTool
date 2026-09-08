@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Ṣe agbewọle ilana lati URL</string>
 	<string name="recipe_import_failure">Ko le gbe ohunelo naa wọle: %1$s</string>
 	<string name="recipe_import_in_progress">N ṣe agbewọle ilana</string>
-	<string name="recipe_import_login_close">Fagilee wiwọle</string>
-	<string name="recipe_import_login_init_failed">Ko le bẹrẹ ilana iwọle: %1$s</string>
-	<string name="recipe_import_login_timed_out">Wọle akoko jade. Gbiyanju lẹẹkansi</string>
-	<string name="recipe_import_login_title">Wọle si Nextcloud</string>
 	<string name="recipe_import_menu_title">Ṣe agbewọle ilana lati URL</string>
 	<string name="recipe_import_service_url_hint">URL iṣẹ agbewọle ohunelo</string>
 	<string name="recipe_list_image_desc">Aworan eekanna atanpako ti ohunelo</string>

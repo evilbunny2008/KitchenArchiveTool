@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">ဢဝ်ၶဝ်ႈမႃး လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း တီႈ URL</string>
 	<string name="recipe_import_failure">ဢမ်ႇၸၢင်ႈဢဝ်ၶဝ်ႈမႃးလႆႈ လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း: %1$s</string>
 	<string name="recipe_import_in_progress">ဢဝ်ၶဝ်ႈမႃး လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း</string>
-	<string name="recipe_import_login_close">ယႃႉပႅတ်ႈ လွင်ႈၶဝ်ႈ</string>
-	<string name="recipe_import_login_init_failed">ဢမ်ႇၸၢင်ႈတႄႇႁဵတ်းၵၢၼ် တႃႇၶဝ်ႈတူၺ်း: %1$s</string>
-	<string name="recipe_import_login_timed_out">ၶၢဝ်းယၢမ်းၶဝ်ႈတူၺ်း ႁၢႆၵႂႃႇ။ ၶိုၼ်းၶတ်းၸႂ်တူၺ်း</string>
-	<string name="recipe_import_login_title">ၶဝ်ႈၵႂႃႇတီႈ Nextcloud</string>
 	<string name="recipe_import_menu_title">ဢဝ်ၶဝ်ႈမႃး လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း တီႈ URL</string>
 	<string name="recipe_import_service_url_hint">URL ၵၢၼ်သူင်ႇၶဝ်ႈၽၵ်း</string>
 	<string name="recipe_list_image_desc">ၶႅပ်းႁၢင်ႈဢွၼ်ႇ လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း</string>

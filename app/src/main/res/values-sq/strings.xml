@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importoni recetë nga URL-ja</string>
 	<string name="recipe_import_failure">Receta nuk mund të importohej: %1$s</string>
 	<string name="recipe_import_in_progress">Receta importuese</string>
-	<string name="recipe_import_login_close">Anulo identifikimin</string>
-	<string name="recipe_import_login_init_failed">Procesi i identifikimit nuk mund të fillonte: %1$s</string>
-	<string name="recipe_import_login_timed_out">Koha e hyrjes përfundoi. Provo sërish</string>
-	<string name="recipe_import_login_title">Hyni në Nextcloud</string>
 	<string name="recipe_import_menu_title">Importoni recetë nga URL-ja</string>
 	<string name="recipe_import_service_url_hint">URL-ja e shërbimit të importimit të recetës</string>
 	<string name="recipe_list_image_desc">Miniatura e imazhit të recetës</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Nhập công thức từ URL</string>
 	<string name="recipe_import_failure">Không thể nhập công thức: %1$s</string>
 	<string name="recipe_import_in_progress">Đang nhập công thức</string>
-	<string name="recipe_import_login_close">Hủy đăng nhập</string>
-	<string name="recipe_import_login_init_failed">Không thể bắt đầu quá trình đăng nhập: %1$s</string>
-	<string name="recipe_import_login_timed_out">Đăng nhập đã hết thời gian chờ. Thử lại</string>
-	<string name="recipe_import_login_title">Đăng nhập vào Nextcloud</string>
 	<string name="recipe_import_menu_title">Nhập công thức từ URL</string>
 	<string name="recipe_import_service_url_hint">URL dịch vụ nhập công thức</string>
 	<string name="recipe_list_image_desc">Hình ảnh thu nhỏ của công thức</string>

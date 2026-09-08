@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Fakahū mai ʻa e founga kai mei he URL</string>
 	<string name="recipe_import_failure">‘Oku ’ikai lava ke hū mai ‘a e founga ngaohí: %1$s</string>
 	<string name="recipe_import_in_progress">Ko hono hū mai ʻo e founga kai</string>
-	<string name="recipe_import_login_close">Kaniseli ‘a e login</string>
-	<string name="recipe_import_login_init_failed">‘Ikai lava ke kamata ’a e founga hū: %1$s</string>
-	<string name="recipe_import_login_timed_out">Kuo ‘osi e taimi ’o e login. Toe feinga</string>
-	<string name="recipe_import_login_title">Fakahu ki he Nextcloud</string>
 	<string name="recipe_import_menu_title">Fakahū mai ʻa e founga kai mei he URL</string>
 	<string name="recipe_import_service_url_hint">URL ‘o e sevesi hū mai ’o e founga ngaohi me’akai</string>
 	<string name="recipe_list_image_desc">Ko e fakatātā siʻisiʻi ʻo e founga ngaohí</string>

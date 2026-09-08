@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importa riċetta mill-URL</string>
 	<string name="recipe_import_failure">Ma setgħetx timporta r-riċetta: %1$s</string>
 	<string name="recipe_import_in_progress">Importazzjoni tar-riċetta</string>
-	<string name="recipe_import_login_close">Ikkanċella l-login</string>
-	<string name="recipe_import_login_init_failed">Ma setgħetx tibda l-proċess tal-login: %1$s</string>
-	<string name="recipe_import_login_timed_out">Il-login skada. Erġa‘ pprova</string>
-	<string name="recipe_import_login_title">Idħol f’Nextcloud</string>
 	<string name="recipe_import_menu_title">Importa riċetta mill-URL</string>
 	<string name="recipe_import_service_url_hint">URL tas-servizz tal-importazzjoni tar-riċetta</string>
 	<string name="recipe_list_image_desc">Miniatura tal-immaġni tar-riċetta</string>

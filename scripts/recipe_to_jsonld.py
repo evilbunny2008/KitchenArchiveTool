@@ -21,6 +21,11 @@ Usage:
         even without 2FA enabled, so it's the safer default either way --
         it can be revoked independently of the account's real password.
     python recipe_to_jsonld.py --file saved_page.html --url "https://example.com/some-recipe" --out output.html
+    python recipe_to_jsonld.py --url "https://example.com/some-recipe" --json-only
+        Prints just the recipe JSON to stdout, no HTML wrapper, no upload
+        -- for a caller (e.g. a server-side bridge script) that wants to
+        hand the JSON-LD itself off elsewhere rather than write a debug
+        HTML fragment or upload directly.
     python recipe_to_jsonld.py --use-venv --file saved_page.html
         Creates (or reuses) a dedicated virtual environment for this
         script's own dependencies and upgrades them there, then re-runs
@@ -2709,6 +2714,14 @@ def main():
     parser.add_argument("--url", help="Recipe URL (fetched live, or used as canonical URL with --file)")
     parser.add_argument("--file", help="Path to a locally saved HTML file (avoids live fetching)")
     parser.add_argument("--out", help="Output file path (defaults to stdout). Skips Nextcloud upload if provided.")
+    parser.add_argument(
+        "--json-only", action="store_true",
+        help="Print just the recipe JSON to stdout -- no HTML comment/<script> wrapper, no other "
+             "stdout output, and no upload even if --nextcloud-url is also given. Diagnostic "
+             "messages still go to stderr as usual. For callers (e.g. a server-side bridge script) "
+             "that just want the JSON-LD itself to hand off elsewhere, rather than a debug HTML "
+             "fragment or a direct Nextcloud upload.",
+    )
     parser.add_argument("--nextcloud-url", help="Nextcloud instance URL (e.g., https://nextcloud.example.com)")
     parser.add_argument("--nextcloud-user", help="Nextcloud username")
     parser.add_argument(
@@ -2994,7 +3007,9 @@ def main():
         recipe_json["recipeIngredient"] = normalize_ingredient_phrasing(recipe_json["recipeIngredient"])
         recipe_json["recipeIngredient"] = ensure_leading_quantity(recipe_json["recipeIngredient"])
 
-    if args.nextcloud_url:
+    if args.json_only:
+        print(json.dumps(recipe_json, ensure_ascii=False))
+    elif args.nextcloud_url:
         upload_to_nextcloud(recipe_json, args.nextcloud_url, args.nextcloud_user, args.nextcloud_pass)
     else:
 

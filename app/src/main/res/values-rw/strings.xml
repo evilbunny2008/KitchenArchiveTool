@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Kuzana resept muri URL</string>
 	<string name="recipe_import_failure">Ntushobora gutumiza resept:%1$s</string>
 	<string name="recipe_import_in_progress">Kuzana ibicuruzwa</string>
-	<string name="recipe_import_login_close">Hagarika kwinjira</string>
-	<string name="recipe_import_login_init_failed">Ntushobora gutangira inzira yo kwinjira:%1$s</string>
-	<string name="recipe_import_login_timed_out">Kwinjira byateganijwe. Ongera ugerageze</string>
-	<string name="recipe_import_login_title">Injira muri Nextcloud</string>
 	<string name="recipe_import_menu_title">Kuzana resept muri URL</string>
 	<string name="recipe_import_service_url_hint">Koresha resept ya serivise yo gutumiza URL</string>
 	<string name="recipe_list_image_desc">Ishusho thumbnail ya resept</string>

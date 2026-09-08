@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL ରୁ ରେସିପି ଆମଦାନୀ କରନ୍ତୁ |</string>
 	<string name="recipe_import_failure">ରେସିପି ଆମଦାନୀ କରିପାରିବ ନାହିଁ:%1$s |</string>
 	<string name="recipe_import_in_progress">ରେସିପି ଆମଦାନୀ</string>
-	<string name="recipe_import_login_close">ଲଗଇନ୍ ବାତିଲ୍ କରନ୍ତୁ |</string>
-	<string name="recipe_import_login_init_failed">ଲଗଇନ୍ ପ୍ରକ୍ରିୟା ଆରମ୍ଭ କରିପାରିବ ନାହିଁ:%1$s |</string>
-	<string name="recipe_import_login_timed_out">ଲଗଇନ୍ ସମୟ ସମାପ୍ତ ହୋଇଛି | ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ |</string>
-	<string name="recipe_import_login_title">Nextcloud କୁ ଲଗ୍ ଇନ୍ କରନ୍ତୁ |</string>
 	<string name="recipe_import_menu_title">URL ରୁ ରେସିପି ଆମଦାନୀ କରନ୍ତୁ |</string>
 	<string name="recipe_import_service_url_hint">ଆମଦାନି ସେବା URL ରସିପି |</string>
 	<string name="recipe_list_image_desc">ରେସିପିର ପ୍ରତିଛବି ଥମ୍ na ନେଲ୍ |</string>

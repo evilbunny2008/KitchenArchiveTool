@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Ngenisa resipi kubva kuURL</string>
 	<string name="recipe_import_failure">Hatina kukwanisa kutenga kunze resipi: %1$s</string>
 	<string name="recipe_import_in_progress">Kuunza resipi</string>
-	<string name="recipe_import_login_close">Kanzura kupinda</string>
-	<string name="recipe_import_login_init_failed">Hatina kukwanisa kutanga basa rekupinda: %1$s</string>
-	<string name="recipe_import_login_timed_out">Kupinda nguva kwapera. Edza zvakare</string>
-	<string name="recipe_import_login_title">Pinda kuNextcloud</string>
 	<string name="recipe_import_menu_title">Ngenisa resipi kubva kuURL</string>
 	<string name="recipe_import_service_url_hint">URL yebasa rekubika kunze kwenyika</string>
 	<string name="recipe_list_image_desc">Mufananidzo thumbnail resipi</string>

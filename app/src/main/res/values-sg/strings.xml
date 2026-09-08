@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Zia recette ni na lege ti URL</string>
 	<string name="recipe_import_failure">A lingbi ti zia na yâ ti recette ni: %1$s</string>
 	<string name="recipe_import_in_progress">Recette ti importation</string>
-	<string name="recipe_import_login_close">Annulé l’entrée</string>
-	<string name="recipe_import_login_init_failed">A lingbi ti komanse ti sara kua na ni: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login ni ayeke na ngoi pëpe. Tara encore</string>
-	<string name="recipe_import_login_title">Zia iri ti mo na yâ ti Nextcloud</string>
 	<string name="recipe_import_menu_title">Zia recette ni na lege ti URL</string>
 	<string name="recipe_import_service_url_hint">URL ti kusala ti importation ti recette</string>
 	<string name="recipe_list_image_desc">Image ti kete recette ni</string>

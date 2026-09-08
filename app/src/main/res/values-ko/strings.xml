@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL에서 레시피 가져오기</string>
 	<string name="recipe_import_failure">레시피를 가져올 수 없습니다: %1$s</string>
 	<string name="recipe_import_in_progress">레시피 가져오는 중</string>
-	<string name="recipe_import_login_close">로그인 취소</string>
-	<string name="recipe_import_login_init_failed">로그인 프로세스를 시작할 수 없습니다: %1$s</string>
-	<string name="recipe_import_login_timed_out">로그인 시간이 초과되었습니다. 다시 시도해 보세요</string>
-	<string name="recipe_import_login_title">Nextcloud에 로그인</string>
 	<string name="recipe_import_menu_title">URL에서 레시피 가져오기</string>
 	<string name="recipe_import_service_url_hint">레시피 가져오기 서비스 URL</string>
 	<string name="recipe_list_image_desc">레시피의 이미지 썸네일</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importá reseta for di URL</string>
 	<string name="recipe_import_failure">No por a importá e reseta: %1$s</string>
 	<string name="recipe_import_in_progress">Importando reseta</string>
-	<string name="recipe_import_login_close">Kanselá login</string>
-	<string name="recipe_import_login_init_failed">No por a kuminsá e proseso di login: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login a kaba. Purba atrobe</string>
-	<string name="recipe_import_login_title">Log in na Nextcloud</string>
 	<string name="recipe_import_menu_title">Importá reseta for di URL</string>
 	<string name="recipe_import_service_url_hint">URL di servisio di importashon di reseta</string>
 	<string name="recipe_list_image_desc">Imágen di miniatura di reseta</string>

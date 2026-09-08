@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Nghenisa risipi ku suka eka URL</string>
 	<string name="recipe_import_failure">A swi koteki ku nghenisa risipi: %1$s</string>
 	<string name="recipe_import_in_progress">Ku nghenisa recipe</string>
-	<string name="recipe_import_login_close">Khansela ku nghena</string>
-	<string name="recipe_import_login_init_failed">A swi koteki ku sungula endlelo ro nghena: %1$s</string>
-	<string name="recipe_import_login_timed_out">Ku nghena nkarhi wu herile. Ringeta nakambe</string>
-	<string name="recipe_import_login_title">Nghena eka Nextcloud</string>
 	<string name="recipe_import_menu_title">Nghenisa risipi ku suka eka URL</string>
 	<string name="recipe_import_service_url_hint">URL ya vukorhokeri bya ku nghenisa risipi</string>
 	<string name="recipe_list_image_desc">Xifaniso lexitsongo xa recipe</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importuj przepis z adresu URL</string>
 	<string name="recipe_import_failure">Nie można zaimportować przepisu: %1$s</string>
 	<string name="recipe_import_in_progress">Importowanie przepisu</string>
-	<string name="recipe_import_login_close">Anuluj logowanie</string>
-	<string name="recipe_import_login_init_failed">Nie można rozpocząć procesu logowania: %1$s</string>
-	<string name="recipe_import_login_timed_out">Upłynął limit czasu logowania. Spróbuj ponownie</string>
-	<string name="recipe_import_login_title">Zaloguj się do Nextcloud</string>
 	<string name="recipe_import_menu_title">Importuj przepis z adresu URL</string>
 	<string name="recipe_import_service_url_hint">Adres URL usługi importowania przepisów</string>
 	<string name="recipe_list_image_desc">Miniatura obrazu przepisu</string>

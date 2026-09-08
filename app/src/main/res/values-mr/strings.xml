@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL वरून रेसिपी इंपोर्ट करा</string>
 	<string name="recipe_import_failure">रेसिपी इंपोर्ट करू शकलो नाही: %1$s</string>
 	<string name="recipe_import_in_progress">रेसिपी इंपोर्ट करत आहे</string>
-	<string name="recipe_import_login_close">लॉगिन रद्द करा</string>
-	<string name="recipe_import_login_init_failed">लॉगिन प्रक्रिया सुरू करू शकलो नाही: %1$s</string>
-	<string name="recipe_import_login_timed_out">लॉगिन कालबाह्य झाले. पुन्हा प्रयत्न करा</string>
-	<string name="recipe_import_login_title">Nextcloud मध्ये लॉग इन करा</string>
 	<string name="recipe_import_menu_title">URL वरून रेसिपी इंपोर्ट करा</string>
 	<string name="recipe_import_service_url_hint">कृती आयात सेवा URL</string>
 	<string name="recipe_list_image_desc">रेसिपीची प्रतिमा लघुप्रतिमा</string>

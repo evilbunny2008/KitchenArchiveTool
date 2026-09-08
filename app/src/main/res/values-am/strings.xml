@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">የምግብ አሰራርን ከዩአርኤል አስመጣ</string>
 	<string name="recipe_import_failure">የምግብ አዘገጃጀቱን ማስመጣት አልተቻለም፡ %1$s</string>
 	<string name="recipe_import_in_progress">የምግብ አሰራርን በማስመጣት ላይ</string>
-	<string name="recipe_import_login_close">መግባት ሰርዝ</string>
-	<string name="recipe_import_login_init_failed">የመግባት ሂደቱን መጀመር አልተቻለም፡ %1$s</string>
-	<string name="recipe_import_login_timed_out">የመግባት ጊዜ አልቋል። እንደገና ይሞክሩ።</string>
-	<string name="recipe_import_login_title">ወደ Nextcloud ይግቡ</string>
 	<string name="recipe_import_menu_title">የምግብ አሰራርን ከዩአርኤል አስመጣ</string>
 	<string name="recipe_import_service_url_hint">የምግብ አዘገጃጀት የማስመጣት አገልግሎት URL</string>
 	<string name="recipe_list_image_desc">የምግብ አሰራር ምስል ድንክዬ</string>

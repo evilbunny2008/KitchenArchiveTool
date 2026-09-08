@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Yobbu rëset ci URL</string>
 	<string name="recipe_import_failure">Mënu ma indi rëset bi: %1$s</string>
 	<string name="recipe_import_in_progress">Reset buy indi</string>
-	<string name="recipe_import_login_close">Fomm dugg</string>
-	<string name="recipe_import_login_init_failed">Mënu ma tàmbali dugg bi: %1$s</string>
-	<string name="recipe_import_login_timed_out">Waxtu dugg bi jeexna. Jéemaat</string>
-	<string name="recipe_import_login_title">Duggal ci Nextcloud</string>
 	<string name="recipe_import_menu_title">Yobbu rëset ci URL</string>
 	<string name="recipe_import_service_url_hint">URL sarwiisu indi rëset</string>
 	<string name="recipe_list_image_desc">Nataalu rëset bu ndaw</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL ਤੋਂ ਵਿਅੰਜਨ ਆਯਾਤ ਕਰੋ</string>
 	<string name="recipe_import_failure">ਵਿਅੰਜਨ ਨੂੰ ਆਯਾਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: %1$s</string>
 	<string name="recipe_import_in_progress">ਵਿਅੰਜਨ ਆਯਾਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
-	<string name="recipe_import_login_close">ਲੌਗਇਨ ਰੱਦ ਕਰੋ</string>
-	<string name="recipe_import_login_init_failed">ਲੌਗਇਨ ਪ੍ਰਕਿਰਿਆ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ: %1$s</string>
-	<string name="recipe_import_login_timed_out">ਲੌਗਇਨ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋਇਆ। ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
-	<string name="recipe_import_login_title">Nextcloud ਵਿੱਚ ਲੌਗ ਇਨ ਕਰੋ</string>
 	<string name="recipe_import_menu_title">URL ਤੋਂ ਵਿਅੰਜਨ ਆਯਾਤ ਕਰੋ</string>
 	<string name="recipe_import_service_url_hint">ਵਿਅੰਜਨ ਆਯਾਤ ਸੇਵਾ URL</string>
 	<string name="recipe_list_image_desc">ਵਿਅੰਜਨ ਦਾ ਚਿੱਤਰ ਥੰਬਨੇਲ</string>

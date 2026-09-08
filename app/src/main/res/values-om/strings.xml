@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Recipe URL irraa galchi</string>
 	<string name="recipe_import_failure">Recipe galchuu hin dandeenye: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe galchuu</string>
-	<string name="recipe_import_login_close">Seensa haquu</string>
-	<string name="recipe_import_login_init_failed">Adeemsa seensaa jalqabuu hin dandeenye: %1$s</string>
-	<string name="recipe_import_login_timed_out">Yeroon seensaa dhumeera. Ammas yaalaa</string>
-	<string name="recipe_import_login_title">Gara Nextcloud seena</string>
 	<string name="recipe_import_menu_title">Recipe URL irraa galchi</string>
 	<string name="recipe_import_service_url_hint">URL tajaajila galchuu qophii nyaataa</string>
 	<string name="recipe_list_image_desc">Fakkii xiqqaa qophii nyaataa</string>

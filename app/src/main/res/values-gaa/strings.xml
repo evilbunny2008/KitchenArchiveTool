@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Resipi kɛjɛ URL</string>
 	<string name="recipe_import_failure">Enyɛɛɛ ekɛ niyenii he gbɛjianɔtoo lɛ aba: %1$s</string>
 	<string name="recipe_import_in_progress">Resipi ni akɛbaa</string>
-	<string name="recipe_import_login_close">Fo mlibotemɔ</string>
-	<string name="recipe_import_login_init_failed">Enyɛɛɛ eje gbɛjianɔtoo ni akɛboteɔ mli lɛ shishi: %1$s</string>
-	<string name="recipe_import_login_timed_out">Be ni akɛboteɔ mli lɛ eho. Kaa ekoŋŋ</string>
-	<string name="recipe_import_login_title">Botemɔ Nextcloud lɛ mli</string>
 	<string name="recipe_import_menu_title">Resipi kɛjɛ URL</string>
 	<string name="recipe_import_service_url_hint">Resipi sɛɛvis sɛɛvis URL</string>
 	<string name="recipe_list_image_desc">Mfoniri bibioo ni kɔɔ niyenii he gbɛjianɔtoo he</string>

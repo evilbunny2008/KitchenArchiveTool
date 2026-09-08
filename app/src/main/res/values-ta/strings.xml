@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL இலிருந்து செய்முறையை இறக்குமதி செய்யவும்</string>
 	<string name="recipe_import_failure">செய்முறையை இறக்குமதி செய்ய முடியவில்லை: %1$s</string>
 	<string name="recipe_import_in_progress">செய்முறையை இறக்குமதி செய்கிறது</string>
-	<string name="recipe_import_login_close">உள்நுழைவை ரத்துசெய்</string>
-	<string name="recipe_import_login_init_failed">உள்நுழைவு செயல்முறையைத் தொடங்க முடியவில்லை: %1$s</string>
-	<string name="recipe_import_login_timed_out">உள்நுழைவு நேரம் முடிந்தது. மீண்டும் முயற்சிக்கவும்</string>
-	<string name="recipe_import_login_title">NextCloud இல் உள்நுழைக</string>
 	<string name="recipe_import_menu_title">URL இலிருந்து செய்முறையை இறக்குமதி செய்யவும்</string>
 	<string name="recipe_import_service_url_hint">செய்முறை இறக்குமதி சேவை URL</string>
 	<string name="recipe_list_image_desc">செய்முறையின் பட சிறுபடம்</string>

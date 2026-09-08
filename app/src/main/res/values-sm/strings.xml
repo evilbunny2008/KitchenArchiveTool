@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Aumai fua mai le URL</string>
 	<string name="recipe_import_failure">Le mafai ona faaulufale mai le fua: %1$s</string>
 	<string name="recipe_import_in_progress">O lo’o fa’aulufaleina mai le fua</string>
-	<string name="recipe_import_login_close">Fa’aleaogaina le saini</string>
-	<string name="recipe_import_login_init_failed">Le mafai ona amata le faiga o saini: %1$s</string>
-	<string name="recipe_import_login_timed_out">Ua uma le taimi e ulufale ai. Toe taumafai</string>
-	<string name="recipe_import_login_title">Ulufale i le Nextcloud</string>
 	<string name="recipe_import_menu_title">Aumai fua mai le URL</string>
 	<string name="recipe_import_service_url_hint">URL auaunaga fa’aulufale mai fua</string>
 	<string name="recipe_list_image_desc">Ata laititi o le fua</string>

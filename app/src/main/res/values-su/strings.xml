@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Impor resep ti URL</string>
 	<string name="recipe_import_failure">Teu bisa ngimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Impor resep</string>
-	<string name="recipe_import_login_close">Ngabolaykeun login</string>
-	<string name="recipe_import_login_init_failed">Teu bisa ngamimitian prosés asup: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login timed kaluar. Cobian deui</string>
-	<string name="recipe_import_login_title">Asup ka Nextcloud</string>
 	<string name="recipe_import_menu_title">Impor resep ti URL</string>
 	<string name="recipe_import_service_url_hint">URL jasa impor resep</string>
 	<string name="recipe_list_image_desc">Gambar leutik resep</string>

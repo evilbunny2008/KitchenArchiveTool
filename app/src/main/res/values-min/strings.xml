@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Impor resep dari URL</string>
 	<string name="recipe_import_failure">Indak dapek maimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Resep maimpor</string>
-	<string name="recipe_import_login_close">Batal masuak</string>
-	<string name="recipe_import_login_init_failed">Indak dapek mamulai proses masuak: %1$s</string>
-	<string name="recipe_import_login_timed_out">Wakatu masuak lah habih. Cubo baliak</string>
-	<string name="recipe_import_login_title">Masuak ka Awan Salanjuiknyo</string>
 	<string name="recipe_import_menu_title">Impor resep dari URL</string>
 	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar ketek resep</string>

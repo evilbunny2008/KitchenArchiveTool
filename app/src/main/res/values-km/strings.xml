@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">នាំចូលរូបមន្តពី URL</string>
 	<string name="recipe_import_failure">មិន​អាច​នាំចូល​រូបមន្ត៖ %1$s</string>
 	<string name="recipe_import_in_progress">រូបមន្តនាំចូល</string>
-	<string name="recipe_import_login_close">បោះបង់ការចូល</string>
-	<string name="recipe_import_login_init_failed">មិនអាចចាប់ផ្តើមដំណើរការចូលបានទេ៖ %1$s</string>
-	<string name="recipe_import_login_timed_out">ការចូលបានអស់ពេលហើយ។ ព្យាយាមម្តងទៀត។</string>
-	<string name="recipe_import_login_title">ចូលទៅ Nextcloud</string>
 	<string name="recipe_import_menu_title">នាំចូលរូបមន្តពី URL</string>
 	<string name="recipe_import_service_url_hint">URL សេវាកម្មនាំចូលរូបមន្ត</string>
 	<string name="recipe_list_image_desc">រូបភាពតូចនៃរូបមន្ត</string>

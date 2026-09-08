@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Uvozi recept iz URL-ja</string>
 	<string name="recipe_import_failure">Ni bilo mogoče uvoziti recepta: %1$s</string>
 	<string name="recipe_import_in_progress">Uvoz recepta</string>
-	<string name="recipe_import_login_close">Prekliči prijavo</string>
-	<string name="recipe_import_login_init_failed">Ni bilo mogoče začeti postopka prijave: %1$s</string>
-	<string name="recipe_import_login_timed_out">Čas za prijavo je potekel. poskusi ponovno</string>
-	<string name="recipe_import_login_title">Prijavite se v Nextcloud</string>
 	<string name="recipe_import_menu_title">Uvozi recept iz URL-ja</string>
 	<string name="recipe_import_service_url_hint">URL storitve uvoza receptov</string>
 	<string name="recipe_list_image_desc">Sličica recepta</string>

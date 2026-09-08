@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Xikixti receta tlen URL</string>
 	<string name="recipe_import_failure">Ax uelki tij uikak nopa tlakualistli: %1$s</string>
 	<string name="recipe_import_in_progress">Ki uikaya se tlakualistli</string>
-	<string name="recipe_import_login_close">Xijketsa nopa tlajtoli</string>
-	<string name="recipe_import_login_init_failed">Axuelki pejki nopa tekitl tlen ika tikalakis: %1$s</string>
-	<string name="recipe_import_login_timed_out">Ya tlanki tonali para tikalakis. Xijyejyeko sempa</string>
-	<string name="recipe_import_login_title">Xikalaki ipan Nextcloud</string>
 	<string name="recipe_import_menu_title">Xikixti receta tlen URL</string>
 	<string name="recipe_import_service_url_hint">URL tlen tekitl tlen kiuika receta</string>
 	<string name="recipe_list_image_desc">Iixkopinkayo ​​tlen nopa tlakualistli</string>

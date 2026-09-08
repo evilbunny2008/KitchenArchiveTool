@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Імпортувати рецепт із URL</string>
 	<string name="recipe_import_failure">Не вдалося імпортувати рецепт: %1$s</string>
 	<string name="recipe_import_in_progress">Імпорт рецепта</string>
-	<string name="recipe_import_login_close">Скасувати вхід</string>
-	<string name="recipe_import_login_init_failed">Не вдалося розпочати процес входу: %1$s</string>
-	<string name="recipe_import_login_timed_out">Час входу минув. Спробуйте знову</string>
-	<string name="recipe_import_login_title">Увійдіть у Nextcloud</string>
 	<string name="recipe_import_menu_title">Імпортувати рецепт із URL</string>
 	<string name="recipe_import_service_url_hint">URL-адреса служби імпорту рецептів</string>
 	<string name="recipe_list_image_desc">Ескіз зображення рецепта</string>

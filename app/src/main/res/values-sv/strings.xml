@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importera recept från URL</string>
 	<string name="recipe_import_failure">Det gick inte att importera receptet: %1$s</string>
 	<string name="recipe_import_in_progress">Importerar recept</string>
-	<string name="recipe_import_login_close">Avbryt inloggning</string>
-	<string name="recipe_import_login_init_failed">Det gick inte att starta inloggningsprocessen: %1$s</string>
-	<string name="recipe_import_login_timed_out">Inloggningen tog timeout. Försök igen</string>
-	<string name="recipe_import_login_title">Logga in på Nextcloud</string>
 	<string name="recipe_import_menu_title">Importera recept från URL</string>
 	<string name="recipe_import_service_url_hint">Receptimporttjänstens URL</string>
 	<string name="recipe_list_image_desc">Miniatyrbild av receptet</string>

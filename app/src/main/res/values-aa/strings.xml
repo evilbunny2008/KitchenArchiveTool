@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">maaqo bicsiyyi miracsenta URL ik culus</string>
 	<string name="recipe_import_failure">maaqo bicsiyyi miracsenta culsam maduuda: %1$s</string>
 	<string name="recipe_import_in_progress">maaqo bicsiyyi miracsenta culsaanam</string>
-	<string name="recipe_import_login_close">culma duug</string>
-	<string name="recipe_import_login_init_failed">culmah gexsit qimbisam maduuda: %1$s</string>
-	<string name="recipe_import_login_timed_out">Culmah uddur gaba kaleh. Qagitaak gibbata</string>
-	<string name="recipe_import_login_title">Ciggiila qammurre fan cul</string>
 	<string name="recipe_import_menu_title">maaqo bicsiyyi miracsenta URL ik culus</string>
 	<string name="recipe_import_service_url_hint">maaqo bicsiyyih culmah ayfaafayih URL</string>
 	<string name="recipe_list_image_desc">maaqo bicsih miracsenta muuci qunxa muuci</string>

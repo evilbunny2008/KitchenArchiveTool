@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Ngenisa iresiphi kusuka ku-URL</string>
 	<string name="recipe_import_failure">Ayikhoni kungenisa iresiphi: %1$s</string>
 	<string name="recipe_import_in_progress">Kungenisa iresiphi</string>
-	<string name="recipe_import_login_close">Khansela kungena ngemvume</string>
-	<string name="recipe_import_login_init_failed">Ayikhoni kucala inchubo yekungena ngemvume: %1$s</string>
-	<string name="recipe_import_login_timed_out">Sikhatsi sekungena sesiphelile. Zama futsi</string>
-	<string name="recipe_import_login_title">Ngena ngemvume ku Nextcloud</string>
 	<string name="recipe_import_menu_title">Ngenisa iresiphi kusuka ku-URL</string>
 	<string name="recipe_import_service_url_hint">I-URL yesevisi yekungenisa iresiphi</string>
 	<string name="recipe_list_image_desc">Sitfombe lesincane seresiphi</string>

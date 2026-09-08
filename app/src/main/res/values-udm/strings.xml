@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Рецептэз URL-ысь импортировать карыны</string>
 	<string name="recipe_import_failure">Рецептэз импортировать карыны ӧз луы: %1$s</string>
 	<string name="recipe_import_in_progress">Рецептэз импортировать карон</string>
-	<string name="recipe_import_login_close">Отмена логин</string>
-	<string name="recipe_import_login_init_failed">Ӧз быгаты пырон процессэз кутскыны: %1$s</string>
-	<string name="recipe_import_login_timed_out">Пырон дырыз ортчиз. Эшшо одӥг пол тырше</string>
-	<string name="recipe_import_login_title">Nextcloud-э пыре</string>
 	<string name="recipe_import_menu_title">Рецептэз URL-ысь импортировать карыны</string>
 	<string name="recipe_import_service_url_hint">Рецепт импортировать каронъя службалэн URL-адресэз</string>
 	<string name="recipe_list_image_desc">Рецептлэн суредэз</string>

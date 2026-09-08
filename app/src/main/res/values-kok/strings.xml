@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL वयल्यान रेसिपी आयात करात</string>
 	<string name="recipe_import_failure">रेसिपी आयात करूंक शकली ना: %1$s</string>
 	<string name="recipe_import_in_progress">आयात करपाची रेसिपी</string>
-	<string name="recipe_import_login_close">लॉगीन रद्द करचें</string>
-	<string name="recipe_import_login_init_failed">लॉगीन प्रक्रिया सुरू करूंक शकली ना: %1$s</string>
-	<string name="recipe_import_login_timed_out">लॉगिन वेळ सोंपलो. परतून यत्न करात</string>
-	<string name="recipe_import_login_title">नेक्स्टक्लाउडांत लॉग इन करात</string>
 	<string name="recipe_import_menu_title">URL वयल्यान रेसिपी आयात करात</string>
 	<string name="recipe_import_service_url_hint">रेसिपी आयात सेवा URL</string>
 	<string name="recipe_list_image_desc">रेसिपीचें प्रतिमा लघुप्रतिमा</string>

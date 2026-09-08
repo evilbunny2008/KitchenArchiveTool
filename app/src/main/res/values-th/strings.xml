@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">นำเข้าสูตรจาก URL</string>
 	<string name="recipe_import_failure">ไม่สามารถนำเข้าสูตร: %1$s</string>
 	<string name="recipe_import_in_progress">กำลังนำเข้าสูตร</string>
-	<string name="recipe_import_login_close">ยกเลิกการเข้าสู่ระบบ</string>
-	<string name="recipe_import_login_init_failed">ไม่สามารถเริ่มกระบวนการเข้าสู่ระบบได้: %1$s</string>
-	<string name="recipe_import_login_timed_out">การเข้าสู่ระบบหมดเวลา ลองอีกครั้ง</string>
-	<string name="recipe_import_login_title">เข้าสู่ระบบเน็กซ์คลาวด์</string>
 	<string name="recipe_import_menu_title">นำเข้าสูตรจาก URL</string>
 	<string name="recipe_import_service_url_hint">URL บริการนำเข้าสูตร</string>
 	<string name="recipe_list_image_desc">ภาพขนาดย่อของสูตร</string>

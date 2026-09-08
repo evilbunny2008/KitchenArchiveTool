@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Cuir a-steach reasabaidh bho URL</string>
 	<string name="recipe_import_failure">Cha b‘ urrainn dhuinn an reasabaidh ion-phortadh: %1$s</string>
 	<string name="recipe_import_in_progress">A‘ toirt a-steach reasabaidh</string>
-	<string name="recipe_import_login_close">Sguir an logadh a-steach</string>
-	<string name="recipe_import_login_init_failed">Cha b‘ urrainn dhuinn am pròiseas logaidh a-steach a thòiseachadh: %1$s</string>
-	<string name="recipe_import_login_timed_out">Thàinig an ùine a-mach airson logadh a-steach. Feuch ris a-rithist</string>
-	<string name="recipe_import_login_title">Log a-steach gu Nextcloud</string>
 	<string name="recipe_import_menu_title">Cuir a-steach reasabaidh bho URL</string>
 	<string name="recipe_import_service_url_hint">URL seirbheis in-mhalairt reasabaidh</string>
 	<string name="recipe_list_image_desc">Mion-dhealbh ìomhaigh reasabaidh</string>

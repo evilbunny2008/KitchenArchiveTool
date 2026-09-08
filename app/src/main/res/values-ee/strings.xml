@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Tsɔ nuɖaɖa tso URL dzi</string>
 	<string name="recipe_import_failure">Mete ŋu tsɔ nuɖaɖaa vɛ o: %1$s</string>
 	<string name="recipe_import_in_progress">Nuɖaɖa ƒe mɔnu si wotsɔ tso duta vɛ</string>
-	<string name="recipe_import_login_close">Te fli ɖe gege ɖe eme me</string>
-	<string name="recipe_import_login_init_failed">Meteŋu dze gege ɖe eme ƒe ɖoɖoa gɔme o: %1$s</string>
-	<string name="recipe_import_login_timed_out">Ɣeyiɣi si woatsɔ age ɖe eme la wu enu. Gadze agbagba ake</string>
-	<string name="recipe_import_login_title">Ge ɖe Nextcloud me</string>
 	<string name="recipe_import_menu_title">Tsɔ nuɖaɖa tso URL dzi</string>
 	<string name="recipe_import_service_url_hint">Nuɖaɖa ƒe import subɔsubɔ URL</string>
 	<string name="recipe_list_image_desc">Nɔnɔmetata ƒe nɔnɔmetata sue aɖe si ku ɖe nuɖaɖa ŋu</string>

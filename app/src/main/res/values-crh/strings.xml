@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Рецептни URL-ден импорт этинъиз</string>
 	<string name="recipe_import_failure">Рецептни импорт этип оламады: %1$s</string>
 	<string name="recipe_import_in_progress">Импорт этмек ичюн рецепт</string>
-	<string name="recipe_import_login_close">Киришни лягъу этинъиз</string>
-	<string name="recipe_import_login_init_failed">Кириш джерьяныны башламакъ мумкюн олмады: %1$s</string>
-	<string name="recipe_import_login_timed_out">Кириш вакъты битти. Кене тырышынъыз</string>
-	<string name="recipe_import_login_title">Невбеттеки булуткъа киринъиз</string>
 	<string name="recipe_import_menu_title">Рецептни URL-ден импорт этинъиз</string>
 	<string name="recipe_import_service_url_hint">Рецепт импорт хызметининъ URL адреси</string>
 	<string name="recipe_list_image_desc">Рецептнинъ ресимининъ кичик ресими</string>

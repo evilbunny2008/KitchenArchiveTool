@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">دستور غذا را از URL وارد کنید</string>
 	<string name="recipe_import_failure">دستور غذا وارد نشد: %1$s</string>
 	<string name="recipe_import_in_progress">واردات دستور پخت</string>
-	<string name="recipe_import_login_close">لغو ورود</string>
-	<string name="recipe_import_login_init_failed">فرآیند ورود به سیستم شروع نشد: %1$s</string>
-	<string name="recipe_import_login_timed_out">زمان ورود به سیستم تمام شد. دوباره امتحان کنید</string>
-	<string name="recipe_import_login_title">وارد Nextcloud شوید</string>
 	<string name="recipe_import_menu_title">دستور غذا را از URL وارد کنید</string>
 	<string name="recipe_import_service_url_hint">URL سرویس واردات دستور غذا</string>
 	<string name="recipe_list_image_desc">تصویر کوچک دستور غذا</string>

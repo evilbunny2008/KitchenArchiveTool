@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL වෙතින් වට්ටෝරුව ආයාත කරන්න</string>
 	<string name="recipe_import_failure">වට්ටෝරුව ආයාත කිරීමට නොහැකි විය: %1$s</string>
 	<string name="recipe_import_in_progress">වට්ටෝරුව ආයාත කරමින්</string>
-	<string name="recipe_import_login_close">ඇතුල්වීම අවලංගු කරන්න</string>
-	<string name="recipe_import_login_init_failed">පුරනය වීමේ ක්‍රියාවලිය ආරම්භ කිරීමට නොහැකි විය: %1$s</string>
-	<string name="recipe_import_login_timed_out">පුරනය වීමේ කාලය අවසන් විය. නැවත උත්සාහ කරන්න</string>
-	<string name="recipe_import_login_title">Nextcloud වෙත ලොග් වන්න</string>
 	<string name="recipe_import_menu_title">URL වෙතින් වට්ටෝරුව ආයාත කරන්න</string>
 	<string name="recipe_import_service_url_hint">වට්ටෝරු ආනයන සේවා URL</string>
 	<string name="recipe_list_image_desc">වට්ටෝරුවේ රූප සිඟිති රූපය</string>

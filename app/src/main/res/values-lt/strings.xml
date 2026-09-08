@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importuoti receptą iš URL</string>
 	<string name="recipe_import_failure">Nepavyko importuoti recepto: %1$s</string>
 	<string name="recipe_import_in_progress">Importuojamas receptas</string>
-	<string name="recipe_import_login_close">Atšaukti prisijungimą</string>
-	<string name="recipe_import_login_init_failed">Nepavyko pradėti prisijungimo proceso: %1$s</string>
-	<string name="recipe_import_login_timed_out">Baigėsi prisijungimo laikas. Bandykite dar kartą</string>
-	<string name="recipe_import_login_title">Prisijunkite prie Nextcloud</string>
 	<string name="recipe_import_menu_title">Importuoti receptą iš URL</string>
 	<string name="recipe_import_service_url_hint">Recepto importavimo paslaugos URL</string>
 	<string name="recipe_list_image_desc">Recepto miniatiūra</string>

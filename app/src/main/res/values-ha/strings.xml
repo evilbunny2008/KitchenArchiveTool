@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Shigo da girke-girke daga URL</string>
 	<string name="recipe_import_failure">An kasa shigo da girke-girke: %1$s</string>
 	<string name="recipe_import_in_progress">Ana shigo da girke-girke</string>
-	<string name="recipe_import_login_close">Soke shiga</string>
-	<string name="recipe_import_login_init_failed">An kasa fara tsarin shiga: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login ya ƙare. Gwada kuma</string>
-	<string name="recipe_import_login_title">Shiga zuwa Nextcloud</string>
 	<string name="recipe_import_menu_title">Shigo da girke-girke daga URL</string>
 	<string name="recipe_import_service_url_hint">URL sabis na shigo da girke-girke</string>
 	<string name="recipe_list_image_desc">Hoton thumbnail na girke-girke</string>

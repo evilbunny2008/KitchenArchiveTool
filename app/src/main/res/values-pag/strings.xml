@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">I-import so resipe manlapud URL</string>
 	<string name="recipe_import_failure">Agnayarin i-import so resipe: %1$s</string>
 	<string name="recipe_import_in_progress">Man-import na resipe</string>
-	<string name="recipe_import_login_close">Kanselaen so panloob</string>
-	<string name="recipe_import_login_init_failed">Agnayarin igapo so proseso na panag-login: %1$s</string>
-	<string name="recipe_import_login_timed_out">Nasumpal lay panaon na panloob. Salien lamet</string>
-	<string name="recipe_import_login_title">Man-log in ed Nextcloud</string>
 	<string name="recipe_import_menu_title">I-import so resipe manlapud URL</string>
 	<string name="recipe_import_service_url_hint">URL na serbisyo na panag-import na resipe</string>
 	<string name="recipe_list_image_desc">Litrato na resipe</string>

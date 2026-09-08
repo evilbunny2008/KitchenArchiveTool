@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL నుండి రెసిపీని దిగుమతి చేయండి</string>
 	<string name="recipe_import_failure">రెసిపీని దిగుమతి చేయడం సాధ్యపడలేదు: %1$s</string>
 	<string name="recipe_import_in_progress">రెసిపీని దిగుమతి చేస్తోంది</string>
-	<string name="recipe_import_login_close">లాగిన్ రద్దు చేయండి</string>
-	<string name="recipe_import_login_init_failed">లాగిన్ ప్రాసెస్‌ను ప్రారంభించడం సాధ్యపడలేదు: %1$s</string>
-	<string name="recipe_import_login_timed_out">లాగిన్ సమయం ముగిసింది. మళ్లీ ప్రయత్నించండి</string>
-	<string name="recipe_import_login_title">Nextcloudకి లాగిన్ చేయండి</string>
 	<string name="recipe_import_menu_title">URL నుండి రెసిపీని దిగుమతి చేయండి</string>
 	<string name="recipe_import_service_url_hint">రెసిపీ దిగుమతి సేవ URL</string>
 	<string name="recipe_list_image_desc">రెసిపీ యొక్క చిత్ర సూక్ష్మచిత్రం</string>

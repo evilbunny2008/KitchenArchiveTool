@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL atang hian recipe import rawh</string>
 	<string name="recipe_import_failure">Recipe a import thei lo: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe import a ni</string>
-	<string name="recipe_import_login_close">Login chu cancel rawh</string>
-	<string name="recipe_import_login_init_failed">Login process a tan thei lo: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login hun a tawp tawh. Ti leh teh</string>
-	<string name="recipe_import_login_title">Nextcloud ah hian lut rawh</string>
 	<string name="recipe_import_menu_title">URL atang hian recipe import rawh</string>
 	<string name="recipe_import_service_url_hint">Recipe import service URL a ni</string>
 	<string name="recipe_list_image_desc">Image thumbnail a ni a, a siam dan tur</string>

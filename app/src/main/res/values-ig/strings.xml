@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Bubata uzommeputa site na URL</string>
 	<string name="recipe_import_failure">Enweghị ike ibubata uzommeputa: %1$s</string>
 	<string name="recipe_import_in_progress">Na-ebubata uzommeputa</string>
-	<string name="recipe_import_login_close">Kagbuo nbanye</string>
-	<string name="recipe_import_login_init_failed">Enweghị ike ịmalite usoro nbanye: %1$s</string>
-	<string name="recipe_import_login_timed_out">Oge nbanye agwụla. Nwaa ọzọ</string>
-	<string name="recipe_import_login_title">Banye na Nextcloud</string>
 	<string name="recipe_import_menu_title">Bubata uzommeputa site na URL</string>
 	<string name="recipe_import_service_url_hint">URL ọrụ mbubata nri nri</string>
 	<string name="recipe_list_image_desc">Foto thumbnail nke uzommeputa</string>

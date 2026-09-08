@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Kelo yo mar loso chiemo kowuok e URL</string>
 	<string name="recipe_import_failure">Ok nyal kelo yo mar loso chiemo: %1$s</string>
 	<string name="recipe_import_in_progress">Kelo yore mag chiemo</string>
-	<string name="recipe_import_login_close">Gonyo donjo</string>
-	<string name="recipe_import_login_init_failed">Ok nyal chako chenro mar donjo: %1$s</string>
-	<string name="recipe_import_login_timed_out">Seche mag donjo oserumo. Tem kendo</string>
-	<string name="recipe_import_login_title">Donjo e klaud maluwo</string>
 	<string name="recipe_import_menu_title">Kelo yo mar loso chiemo kowuok e URL</string>
 	<string name="recipe_import_service_url_hint">URL mar oro yore mag chiemo</string>
 	<string name="recipe_list_image_desc">Picha matin mar yo mar tedo</string>

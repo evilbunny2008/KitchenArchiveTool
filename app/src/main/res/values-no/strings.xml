@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importer oppskrift fra URL</string>
 	<string name="recipe_import_failure">Kunne ikke importere oppskriften: %1$s</string>
 	<string name="recipe_import_in_progress">Importerer oppskrift</string>
-	<string name="recipe_import_login_close">Avbryt pålogging</string>
-	<string name="recipe_import_login_init_failed">Kunne ikke starte påloggingsprosessen: %1$s</string>
-	<string name="recipe_import_login_timed_out">Påloggingen ble tidsavbrutt. Prøv igjen</string>
-	<string name="recipe_import_login_title">Logg på Nextcloud</string>
 	<string name="recipe_import_menu_title">Importer oppskrift fra URL</string>
 	<string name="recipe_import_service_url_hint">URL for tjenesteimport av oppskrift</string>
 	<string name="recipe_list_image_desc">Miniatyrbilde av oppskriften</string>

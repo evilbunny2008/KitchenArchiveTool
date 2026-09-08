@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Рецептро аз URL ворид кунед</string>
 	<string name="recipe_import_failure">Рецептро ворид кардан муяссар нашуд: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт ворид карда мешавад</string>
-	<string name="recipe_import_login_close">Воридшавӣ бекор</string>
-	<string name="recipe_import_login_init_failed">Раванди воридшавӣ оғоз карда нашуд: %1$s</string>
-	<string name="recipe_import_login_timed_out">Вақти вуруд ба охир расид. Як бори дигар санҷед</string>
-	<string name="recipe_import_login_title">Ба NextCloud ворид шавед</string>
 	<string name="recipe_import_menu_title">Рецептро аз URL ворид кунед</string>
 	<string name="recipe_import_service_url_hint">URL-и хидмати воридоти дорухат</string>
 	<string name="recipe_list_image_desc">Намоиши тасвири рецепт</string>

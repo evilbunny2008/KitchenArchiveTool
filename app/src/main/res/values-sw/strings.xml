@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Leta kichocheo kutoka kwa URL</string>
 	<string name="recipe_import_failure">Haikuweza kuleta mapishi: %1$s</string>
 	<string name="recipe_import_in_progress">Inaleta mapishi</string>
-	<string name="recipe_import_login_close">Ghairi kuingia</string>
-	<string name="recipe_import_login_init_failed">Haikuweza kuanzisha mchakato wa kuingia: %1$s</string>
-	<string name="recipe_import_login_timed_out">Muda wa kuingia umekwisha. Jaribu tena</string>
-	<string name="recipe_import_login_title">Ingia kwenye Nextcloud</string>
 	<string name="recipe_import_menu_title">Leta kichocheo kutoka kwa URL</string>
 	<string name="recipe_import_service_url_hint">URL ya huduma ya uingizaji wa mapishi</string>
 	<string name="recipe_list_image_desc">Kijipicha cha picha ya mapishi</string>

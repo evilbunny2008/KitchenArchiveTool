@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Pynrung ia ka rukom shet na ka URL</string>
 	<string name="recipe_import_failure">Ym lah ban pynrung ia ka rukom shet: %1$s</string>
 	<string name="recipe_import_in_progress">Ka jingwanrah ia ka rukom shet</string>
-	<string name="recipe_import_login_close">Pyndam noh ia ka jingrung</string>
-	<string name="recipe_import_login_init_failed">Kam lah ban sdang ia ka rukom rung: %1$s</string>
-	<string name="recipe_import_login_timed_out">Ka por login ka la kut. Pyrshang biang</string>
-	<string name="recipe_import_login_title">Log in sha ka Nextcloud</string>
 	<string name="recipe_import_menu_title">Pynrung ia ka rukom shet na ka URL</string>
 	<string name="recipe_import_service_url_hint">URL jong ka jingshakri ban wanrah jingbam</string>
 	<string name="recipe_list_image_desc">Ka dur rit jong ka rukom shet</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL तः नुस्खा आयातयन्तु</string>
 	<string name="recipe_import_failure">नुस्खं आयातयितुं न शक्तवान्: %1$s</string>
 	<string name="recipe_import_in_progress">आयात नुस्खा</string>
-	<string name="recipe_import_login_close">प्रवेशं रद्दं कुर्वन्तु</string>
-	<string name="recipe_import_login_init_failed">प्रवेशप्रक्रियाम् आरभुं न शक्तवान्: %1$s</string>
-	<string name="recipe_import_login_timed_out">प्रवेशस्य समयः समाप्तः। पुनः प्रयासं कुरुत</string>
-	<string name="recipe_import_login_title">Nextcloud इत्यत्र प्रवेशं कुर्वन्तु</string>
 	<string name="recipe_import_menu_title">URL तः नुस्खा आयातयन्तु</string>
 	<string name="recipe_import_service_url_hint">नुस्खा आयातसेवा URL</string>
 	<string name="recipe_list_image_desc">नुस्खायाः चित्रं लघुचित्रम्</string>

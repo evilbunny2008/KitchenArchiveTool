@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL-һээ жороо оруулха</string>
 	<string name="recipe_import_failure">Жор оруулха аргагүй: %1$s</string>
 	<string name="recipe_import_in_progress">Жор оруулна</string>
-	<string name="recipe_import_login_close">Нэгэ нэбтэрэлгэ болюулха</string>
-	<string name="recipe_import_login_init_failed">Нэгэ нэбтэрэлгын үйлэ ябасые эхилүүлжэ шадаагүй: %1$s</string>
-	<string name="recipe_import_login_timed_out">Нэгэ нэбтэрхэ саг үнгэрөө. Дахин туршагты</string>
-	<string name="recipe_import_login_title">Nextcloud руу орохо</string>
 	<string name="recipe_import_menu_title">URL-һээ жороо оруулха</string>
 	<string name="recipe_import_service_url_hint">Жор импортын албанай URL</string>
 	<string name="recipe_list_image_desc">Жорын зураг</string>

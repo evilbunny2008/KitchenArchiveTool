@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Nerisassiorneq URL-imiit tuniuk</string>
 	<string name="recipe_import_failure">Nerisassiorneq importersinnaanngilaq: %1$s</string>
 	<string name="recipe_import_in_progress">Nerisassiornermut najoqqutassiaq tunisassiarineqartoq</string>
-	<string name="recipe_import_login_close">Iserneq unitsiguk</string>
-	<string name="recipe_import_login_init_failed">Isernissamut suliaq aallartisinnaanngilaq: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login piffissaq qaangiuppoq. Misilittariaqarpat</string>
-	<string name="recipe_import_login_title">Nextcloudimut iserit</string>
 	<string name="recipe_import_menu_title">Nerisassiorneq URL-imiit tuniuk</string>
 	<string name="recipe_import_service_url_hint">Nerisassiornermik tunisassiornermut sullissivik URL</string>
 	<string name="recipe_list_image_desc">Nerisassiornermut assilisassiaq</string>

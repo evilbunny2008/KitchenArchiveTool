@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL دىن رېتسېپ ئەكىرىڭ</string>
 	<string name="recipe_import_failure">رېتسېپنى ئىمپورتلىيالمىدى:%1$s</string>
 	<string name="recipe_import_in_progress">رېتسېپ ئەكىرىش</string>
-	<string name="recipe_import_login_close">كىرىشنى ئەمەلدىن قالدۇرۇڭ</string>
-	<string name="recipe_import_login_init_failed">كىرىش جەريانىنى قوزغىتالمىدى:%1$s</string>
-	<string name="recipe_import_login_timed_out">كىرىش ۋاقتى توشتى. قايتا سىناڭ</string>
-	<string name="recipe_import_login_title">Nextcloud غا كىرىڭ</string>
 	<string name="recipe_import_menu_title">URL دىن رېتسېپ ئەكىرىڭ</string>
 	<string name="recipe_import_service_url_hint">ئىمپورت مۇلازىمەت URL نى قوبۇل قىلىڭ</string>
 	<string name="recipe_list_image_desc">رېتسېپنىڭ رەسىم كىچىك كۆرۈنۈشى</string>

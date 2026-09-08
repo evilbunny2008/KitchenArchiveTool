@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">ייבא מתכון מ-URL</string>
 	<string name="recipe_import_failure">לא ניתן לייבא את המתכון: %1$s</string>
 	<string name="recipe_import_in_progress">מייבא מתכון</string>
-	<string name="recipe_import_login_close">בטל את הכניסה</string>
-	<string name="recipe_import_login_init_failed">לא ניתן היה להתחיל את תהליך הכניסה: %1$s</string>
-	<string name="recipe_import_login_timed_out">תם הזמן הקצוב לכניסה. נסה שוב</string>
-	<string name="recipe_import_login_title">היכנס ל-Nextcloud</string>
 	<string name="recipe_import_menu_title">ייבא מתכון מ-URL</string>
 	<string name="recipe_import_service_url_hint">כתובת אתר של שירות ייבוא ​​מתכון</string>
 	<string name="recipe_list_image_desc">תמונה ממוזערת של המתכון</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL’ден рецепт импорттоо</string>
 	<string name="recipe_import_failure">Рецепт импорттолбой койду: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт импорттолууда</string>
-	<string name="recipe_import_login_close">Кирүүнү жокко чыгаруу</string>
-	<string name="recipe_import_login_init_failed">Кирүү процесси башталбай койду: %1$s</string>
-	<string name="recipe_import_login_timed_out">Кирүү убактысы бүттү. Кайра аракет кыл</string>
-	<string name="recipe_import_login_title">NextCloud’ка кириңиз</string>
 	<string name="recipe_import_menu_title">URL’ден рецепт импорттоо</string>
 	<string name="recipe_import_service_url_hint">Рецепт импорттоо кызматынын URL’и</string>
 	<string name="recipe_list_image_desc">Рецепттин эскизи</string>

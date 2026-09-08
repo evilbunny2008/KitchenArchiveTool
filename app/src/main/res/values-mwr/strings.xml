@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">यूआरएल सूं नुस्खा आयात करो</string>
 	<string name="recipe_import_failure">नुस्खा आयात कोनी कर सक्या: %1$s</string>
 	<string name="recipe_import_in_progress">नुस्खा आयात कर रिया हां</string>
-	<string name="recipe_import_login_close">लॉगिन रद्द करो</string>
-	<string name="recipe_import_login_init_failed">लॉगिन प्रक्रिया शुरू कोनी कर सकी: %1$s</string>
-	<string name="recipe_import_login_timed_out">लॉगिन रो बगत खत्म होग्यो। फेरूं कोशिश करो</string>
-	<string name="recipe_import_login_title">नेक्स्टक्लाउड मांय लॉग इन करो</string>
 	<string name="recipe_import_menu_title">यूआरएल सूं नुस्खा आयात करो</string>
 	<string name="recipe_import_service_url_hint">नुस्खा आयात सेवा यूआरएल</string>
 	<string name="recipe_list_image_desc">नुस्खा री छवि थंबनेल</string>

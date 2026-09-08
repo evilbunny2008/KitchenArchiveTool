@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">I-import ing recipe ibat keng URL</string>
 	<string name="recipe_import_failure">E malyaring i-import ing recipe: %1$s</string>
 	<string name="recipe_import_in_progress">Mag import recipe</string>
-	<string name="recipe_import_login_close">kansela ing pamaglub</string>
-	<string name="recipe_import_login_init_failed">E malyaring magumpisa ing prosesu ning pamaglub: %1$s</string>
-	<string name="recipe_import_login_timed_out">Meyari na ing pamaglub. Subukan mu naman</string>
-	<string name="recipe_import_login_title">Mag log in ka keng Nextcloud</string>
 	<string name="recipe_import_menu_title">I-import ing recipe ibat keng URL</string>
 	<string name="recipe_import_service_url_hint">URL ning serbisyung pamag-import ning recipe</string>
 	<string name="recipe_list_image_desc">Thumbnail ning larawan ning recipe</string>

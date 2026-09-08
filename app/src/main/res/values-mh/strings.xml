@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">bōktok recipe jen URL</string>
 	<string name="recipe_import_failure">Ejjab maroñ in bōktok recipe eo: %1$s</string>
 	<string name="recipe_import_in_progress">Import recipe</string>
-	<string name="recipe_import_login_close">Kanne deloñ</string>
-	<string name="recipe_import_login_init_failed">Ejjab maroñ in jinoe jerbal in deloñ eo: %1$s</string>
-	<string name="recipe_import_login_timed_out">Emoj an jemlok ien deloñ. Bar kajjioñ</string>
-	<string name="recipe_import_login_title">Deloñ ilo Nextcloud</string>
 	<string name="recipe_import_menu_title">bōktok recipe jen URL</string>
 	<string name="recipe_import_service_url_hint">URL in jerbal in bōktok recipe</string>
 	<string name="recipe_list_image_desc">pija in recipe eo</string>

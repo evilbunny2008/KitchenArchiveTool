@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Kawemai te tunu mai i te URL</string>
 	<string name="recipe_import_failure">Kāore i taea te kawemai te tunu: %1$s</string>
 	<string name="recipe_import_in_progress">Kei te kawemai te tunu</string>
-	<string name="recipe_import_login_close">Whakakore takiuru</string>
-	<string name="recipe_import_login_init_failed">Kāore i taea te mahi takiuru: %1$s</string>
-	<string name="recipe_import_login_timed_out">Kua pau te wa takiuru. Ngana ano</string>
-	<string name="recipe_import_login_title">Takiuru ki Nextcloud</string>
 	<string name="recipe_import_menu_title">Kawemai te tunu mai i te URL</string>
 	<string name="recipe_import_service_url_hint">URL ratonga kawemai Recipe</string>
 	<string name="recipe_list_image_desc">Atahanga karakōnui o te tunu</string>

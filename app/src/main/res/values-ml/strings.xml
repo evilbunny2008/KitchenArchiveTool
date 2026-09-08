@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL-ൽ നിന്ന് പാചകക്കുറിപ്പ് ഇറക്കുമതി ചെയ്യുക</string>
 	<string name="recipe_import_failure">പാചകക്കുറിപ്പ് ഇറക്കുമതി ചെയ്യാനായില്ല: %1$s</string>
 	<string name="recipe_import_in_progress">പാചകക്കുറിപ്പ് ഇറക്കുമതി ചെയ്യുന്നു</string>
-	<string name="recipe_import_login_close">ലോഗിൻ റദ്ദാക്കുക</string>
-	<string name="recipe_import_login_init_failed">ലോഗിൻ പ്രക്രിയ ആരംഭിക്കാൻ കഴിഞ്ഞില്ല: %1$s</string>
-	<string name="recipe_import_login_timed_out">ലോഗിൻ സമയം കഴിഞ്ഞു. വീണ്ടും ശ്രമിക്കുക</string>
-	<string name="recipe_import_login_title">Nextcloud-ലേക്ക് ലോഗിൻ ചെയ്യുക</string>
 	<string name="recipe_import_menu_title">URL-ൽ നിന്ന് പാചകക്കുറിപ്പ് ഇറക്കുമതി ചെയ്യുക</string>
 	<string name="recipe_import_service_url_hint">പാചകക്കുറിപ്പ് ഇറക്കുമതി സേവന URL</string>
 	<string name="recipe_list_image_desc">പാചകക്കുറിപ്പിൻ്റെ ചിത്ര ലഘുചിത്രം</string>

@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Recipe rasofe kelife URL ma</string>
 	<string name="recipe_import_failure">A mu nOma na donse raso de: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe rasofe</string>
-	<string name="recipe_import_login_close">Wo xa login kana</string>
-	<string name="recipe_import_login_init_failed">A mu nOma login wali fOlOde: %1$s</string>
-	<string name="recipe_import_login_timed_out">Login waxati bara dangi. Wo man xa kata</string>
-	<string name="recipe_import_login_title">Wo so Nextcloud kui</string>
 	<string name="recipe_import_menu_title">Recipe rasofe kelife URL ma</string>
 	<string name="recipe_import_service_url_hint">Recipe importation service URL</string>
 	<string name="recipe_list_image_desc">Recipe xa foto lanma</string>

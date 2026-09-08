@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL ৰ পৰা ৰেচিপি আমদানি কৰক</string>
 	<string name="recipe_import_failure">ৰেচিপি আমদানি কৰিব পৰা নগ’ল: %1$s</string>
 	<string name="recipe_import_in_progress">ৰেচিপি আমদানি</string>
-	<string name="recipe_import_login_close">লগইন বাতিল কৰক</string>
-	<string name="recipe_import_login_init_failed">প্ৰৱেশ প্ৰক্ৰিয়া আৰম্ভ কৰিব পৰা নগ’ল: %1$s</string>
-	<string name="recipe_import_login_timed_out">লগইনৰ সময় শেষ হৈ গ’ল। আকৌ এবাৰ চেষ্টা কৰক।</string>
-	<string name="recipe_import_login_title">Nextcloud ত লগ ইন কৰক</string>
 	<string name="recipe_import_menu_title">URL ৰ পৰা ৰেচিপি আমদানি কৰক</string>
 	<string name="recipe_import_service_url_hint">ৰেচিপি আমদানি সেৱা URL</string>
 	<string name="recipe_list_image_desc">ৰেচিপিৰ ছবিৰ থাম্বনেইল</string>

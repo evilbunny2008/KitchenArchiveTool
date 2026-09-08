@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">אַרייַנפיר רעצעפּט פֿון URL</string>
 	<string name="recipe_import_failure">קען נישט אַרייַנפיר דעם רעצעפּט: %1$s</string>
 	<string name="recipe_import_in_progress">ימפּאָרטינג רעצעפּט</string>
-	<string name="recipe_import_login_close">באָטל מאַכן לאָגין</string>
-	<string name="recipe_import_login_init_failed">קען נישט אָנהייבן דעם לאָגין פּראָצעס: %1$s</string>
-	<string name="recipe_import_login_timed_out">לאָגין טיימד אויס. פּרוּווט ווידער</string>
-	<string name="recipe_import_login_title">קלאָץ אין צו Nextcloud</string>
 	<string name="recipe_import_menu_title">אַרייַנפיר רעצעפּט פֿון URL</string>
 	<string name="recipe_import_service_url_hint">רעצעפּט אַרייַנפיר דינסט URL</string>
 	<string name="recipe_list_image_desc">בילד טאַמנייל פון רעצעפּט</string>

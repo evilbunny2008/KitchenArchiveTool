@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL nisqamanta recetata apamuy</string>
 	<string name="recipe_import_failure">Manam atirqanchu chay recetata hawaman apamuyta: %1$s</string>
 	<string name="recipe_import_in_progress">Receta apamuy</string>
-	<string name="recipe_import_login_close">Yaykuna yaykuyta chinkachiy</string>
-	<string name="recipe_import_login_init_failed">Mana yaykuy ruwayta qallariyta atirqanchu: %1$s</string>
-	<string name="recipe_import_login_timed_out">Yaykuna pacha tukusqa. Hukmanta kallpachakuy</string>
-	<string name="recipe_import_login_title">Nextcloud nisqaman yaykuy</string>
 	<string name="recipe_import_menu_title">URL nisqamanta recetata apamuy</string>
 	<string name="recipe_import_service_url_hint">Receta apamuy yanapakuy URL</string>
 	<string name="recipe_list_image_desc">Imahina uchuy rikchaynin recetamanta</string>

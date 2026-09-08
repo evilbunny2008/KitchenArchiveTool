@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Rezept von URL importieren</string>
 	<string name="recipe_import_failure">Das Rezept konnte nicht importiert werden: %1$s</string>
 	<string name="recipe_import_in_progress">Rezept wird importiert</string>
-	<string name="recipe_import_login_close">Anmeldung abbrechen</string>
-	<string name="recipe_import_login_init_failed">Der Anmeldevorgang konnte nicht gestartet werden: %1$s</string>
-	<string name="recipe_import_login_timed_out">Zeitüberschreitung bei der Anmeldung. Versuchen Sie es erneut</string>
-	<string name="recipe_import_login_title">Melden Sie sich bei Nextcloud an</string>
 	<string name="recipe_import_menu_title">Rezept von URL importieren</string>
 	<string name="recipe_import_service_url_hint">URL des Rezeptimportdienstes</string>
 	<string name="recipe_list_image_desc">Miniaturansicht des Rezepts</string>

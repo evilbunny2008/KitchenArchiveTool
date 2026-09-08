@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Tarifi URL’den içe aktar</string>
 	<string name="recipe_import_failure">Tarif içe aktarılamadı: %1$s</string>
 	<string name="recipe_import_in_progress">Tarif içe aktarılıyor</string>
-	<string name="recipe_import_login_close">Girişi iptal et</string>
-	<string name="recipe_import_login_init_failed">Oturum açma işlemi başlatılamadı: %1$s</string>
-	<string name="recipe_import_login_timed_out">Oturum açma zaman aşımına uğradı. Tekrar deneyin</string>
-	<string name="recipe_import_login_title">Nextcloud’da oturum açın</string>
 	<string name="recipe_import_menu_title">Tarifi URL’den içe aktar</string>
 	<string name="recipe_import_service_url_hint">Tarif içe aktarma hizmeti URL’si</string>
 	<string name="recipe_list_image_desc">Tarifin küçük resmi</string>

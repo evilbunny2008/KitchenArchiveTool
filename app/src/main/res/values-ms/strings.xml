@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Import resipi dari URL</string>
 	<string name="recipe_import_failure">Tidak dapat mengimport resipi: %1$s</string>
 	<string name="recipe_import_in_progress">Mengimport resipi</string>
-	<string name="recipe_import_login_close">Batalkan log masuk</string>
-	<string name="recipe_import_login_init_failed">Tidak dapat memulakan proses log masuk: %1$s</string>
-	<string name="recipe_import_login_timed_out">Log masuk tamat masa. Cuba lagi</string>
-	<string name="recipe_import_login_title">Log masuk ke Nextcloud</string>
 	<string name="recipe_import_menu_title">Import resipi dari URL</string>
 	<string name="recipe_import_service_url_hint">URL perkhidmatan import resipi</string>
 	<string name="recipe_list_image_desc">Imej kecil resipi</string>

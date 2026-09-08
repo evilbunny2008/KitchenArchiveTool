@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Thatha ngaphandle iresiphi esuka kwi-URL</string>
 	<string name="recipe_import_failure">Ayikwazanga kuthathwa ngaphandle iresiphi: %1$s</string>
 	<string name="recipe_import_in_progress">Ithatha ngaphandle iresiphi</string>
-	<string name="recipe_import_login_close">Rhoxisa ukungena</string>
-	<string name="recipe_import_login_init_failed">Ayikwazanga ukuqalisa inkqubo yokungena: %1$s</string>
-	<string name="recipe_import_login_timed_out">Ukungena kuphelelwe lixesha. Zama kwakhona</string>
-	<string name="recipe_import_login_title">Ngena kwi-Nextcloud</string>
 	<string name="recipe_import_menu_title">Thatha ngaphandle iresiphi esuka kwi-URL</string>
 	<string name="recipe_import_service_url_hint">Inkonzo yokungenisa iresiphi ye-URL</string>
 	<string name="recipe_list_image_desc">I-thumbnail yomfanekiso weresiphi</string>

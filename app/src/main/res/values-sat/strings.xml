@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">URL ᱠᱷᱚᱱ ᱨᱮsᱤᱯᱤ ᱟᱹᱜᱩᱭ ᱢᱮ</string>
 	<string name="recipe_import_failure">ᱨᱮsᱤᱯᱤ ᱵᱟᱝ ᱤᱢᱯᱚᱨᱴ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ: %1$s</string>
 	<string name="recipe_import_in_progress">ᱨᱮsᱤᱯᱤ ᱤᱢᱯᱚᱨᱴᱤᱝ</string>
-	<string name="recipe_import_login_close">ᱞᱚᱜᱤᱱ ᱵᱟᱹᱛᱤᱞ ᱢᱮ</string>
-	<string name="recipe_import_login_init_failed">ᱞᱚᱜᱤᱱ ᱯᱨᱚsᱮs ᱵᱟᱝ ᱮᱦᱚᱵ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱟᱱᱟ: %1$s</string>
-	<string name="recipe_import_login_timed_out">ᱞᱚᱜᱤᱱ ᱚᱠᱛᱚ ᱪᱟᱵᱟ ᱮᱱᱟ ᱾ ᱫᱚᱦᱲᱟ ᱪᱮsᱴᱟᱭ ᱢᱮ</string>
-	<string name="recipe_import_login_title">ᱱᱮᱠsᱴ ᱠᱞᱟᱣᱰ ᱨᱮ ᱞᱚᱜᱽ ᱤᱱ ᱢᱮ</string>
 	<string name="recipe_import_menu_title">URL ᱠᱷᱚᱱ ᱨᱮsᱤᱯᱤ ᱟᱹᱜᱩᱭ ᱢᱮ</string>
 	<string name="recipe_import_service_url_hint">ᱨᱮsᱤᱯᱤ ᱤᱢᱯᱚᱨᱴ sᱮᱵᱟ ᱭᱩᱟᱨᱮᱞ</string>
 	<string name="recipe_list_image_desc">ᱡᱚᱢᱟᱜ ᱨᱮᱭᱟᱜ ᱪᱤᱛᱟᱹᱨ ᱛᱷᱟᱢᱵᱱᱮᱞ</string>

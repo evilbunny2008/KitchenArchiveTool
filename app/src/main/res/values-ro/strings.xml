@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Importați rețeta de la URL</string>
 	<string name="recipe_import_failure">Nu s-a putut importa rețeta: %1$s</string>
 	<string name="recipe_import_in_progress">Se importă rețeta</string>
-	<string name="recipe_import_login_close">Anulați autentificarea</string>
-	<string name="recipe_import_login_init_failed">Nu s-a putut porni procesul de conectare: %1$s</string>
-	<string name="recipe_import_login_timed_out">Timpul de conectare a expirat. Încearcă din nou</string>
-	<string name="recipe_import_login_title">Conectați-vă la Nextcloud</string>
 	<string name="recipe_import_menu_title">Importați rețeta de la URL</string>
 	<string name="recipe_import_service_url_hint">Adresa URL a serviciului de import de rețete</string>
 	<string name="recipe_list_image_desc">Miniatura imaginii rețetei</string>

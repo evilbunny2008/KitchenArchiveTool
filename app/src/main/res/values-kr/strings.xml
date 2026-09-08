@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Recipe URL lan ikko</string>
 	<string name="recipe_import_failure">Raksǝ awo kǝmbube dǝga suwudin ba: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe ikko</string>
-	<string name="recipe_import_login_close">Login dəga dabne</string>
-	<string name="recipe_import_login_init_failed">Raksǝ futu loginbe baditinba: %1$s</string>
-	<string name="recipe_import_login_timed_out">Loktu loginbe dawono. Waltǝ jarabne</string>
-	<string name="recipe_import_login_title">Nextcloud ro gayin</string>
 	<string name="recipe_import_menu_title">Recipe URL lan ikko</string>
 	<string name="recipe_import_service_url_hint">URL sabis awo kǝmbube ikkobe</string>
 	<string name="recipe_list_image_desc">Foto gana kǝmbu detabe</string>

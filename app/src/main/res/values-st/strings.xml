@@ -109,10 +109,6 @@
 	<string name="recipe_import_dialog_title">Fumana risepe ho tsoa ho URL</string>
 	<string name="recipe_import_failure">Ha e khone ho reka resepe: %1$s</string>
 	<string name="recipe_import_in_progress">E tlisa risepe</string>
-	<string name="recipe_import_login_close">Hlakola ho kena</string>
-	<string name="recipe_import_login_init_failed">E hlolehile ho qala tšebetso ea ho kena: %1$s</string>
-	<string name="recipe_import_login_timed_out">Nako ea ho kena e felile. Leka hape</string>
-	<string name="recipe_import_login_title">Kena ho Nextcloud</string>
 	<string name="recipe_import_menu_title">Fumana risepe ho tsoa ho URL</string>
 	<string name="recipe_import_service_url_hint">URL ea tšebeletso ea ho kenya lipeipi</string>
 	<string name="recipe_list_image_desc">Letšoao la setšoantšo sa risepe</string>
