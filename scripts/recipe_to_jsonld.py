@@ -40,6 +40,7 @@ Usage:
 import os
 import subprocess
 import sys
+import urllib.request
 
 # --- Optional self-managed virtual environment bootstrap -------------------
 #
@@ -52,6 +53,38 @@ import sys
 VENV_DIR = "/var/www/.cache/recipe_to_jsonld/venv"
 VENV_ACTIVE_ENV_VAR = "RECIPE_TO_JSONLD_VENV_ACTIVE"
 REQUIRED_PACKAGES = ["recipe-scrapers", "beautifulsoup4", "nextcloud-cookbook-api", "requests"]
+
+
+def _ensure_pip(venv_python):
+    """
+    `python -m venv` is supposed to bootstrap pip into the new
+    environment automatically, but on Debian/Ubuntu this often silently
+    doesn't happen: Debian deliberately strips the bundled pip wheel
+    files out of their python3 package (a packaging policy decision, not
+    a bug), so venv creation succeeds but the venv ends up with no pip at
+    all unless the separate python3-pip OS package is also installed --
+    which isn't something this script can install itself, and isn't
+    guaranteed to be within reach on every server this runs on anyway.
+
+    Rather than depend on that, bootstrap pip directly into the venv from
+    PyPA's own official installer script (the standard, widely-used
+    workaround for exactly this situation) whenever it's actually
+    missing, so --use-venv works the same regardless of what the host
+    system's own Python packaging looks like.
+    """
+    check = subprocess.run([venv_python, "-m", "pip", "--version"], capture_output=True)
+    if check.returncode == 0:
+        return
+
+    print("Virtual environment has no pip (common on Debian/Ubuntu without the "
+          "python3-pip OS package installed) -- bootstrapping it directly...", file=sys.stderr)
+
+    get_pip_path = os.path.join(VENV_DIR, "get-pip.py")
+    urllib.request.urlretrieve("https://bootstrap.pypa.io/get-pip.py", get_pip_path)
+    try:
+        subprocess.run([venv_python, get_pip_path, "--quiet"], check=True)
+    finally:
+        os.remove(get_pip_path)
 
 
 def _bootstrap_venv_and_reexec():
@@ -69,6 +102,8 @@ def _bootstrap_venv_and_reexec():
     if not os.path.exists(venv_python):
         print(f"Creating a dedicated virtual environment at {VENV_DIR} ...", file=sys.stderr)
         subprocess.run([sys.executable, "-m", "venv", VENV_DIR], check=True)
+
+    _ensure_pip(venv_python)
 
     print(f"Installing/upgrading dependencies in the virtual environment "
           f"({', '.join(REQUIRED_PACKAGES)}) ...", file=sys.stderr)
