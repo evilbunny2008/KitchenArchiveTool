@@ -30,6 +30,12 @@ You also can choose the theme in the settings.
 - **Delete a recipe.** Also from the long-press menu, with a confirmation step first. Deletes from the server,
   then removes the local copy — never the other way around, so a failed server-side delete can't leave the
   local copy gone while the server still has it.
+- **Import a recipe from a URL.** Paste in a link from (almost) any recipe site and it's added straight to
+  Cookbook — most sites don't embed the structured data Cookbook itself can read directly, so this sends the
+  URL to a small companion service that scrapes the page and returns it in the right format, then the app
+  uploads it using the account you're already signed in with. That service never sees, stores, or needs any
+  Nextcloud credential — its only job is turning a URL into recipe data; uploading it is entirely the app's
+  own doing.
 - **New app icon and branding**, including a themed/monochrome adaptive icon variant.
 
 ### Fixes
@@ -46,6 +52,8 @@ You also can choose the theme in the settings.
 - **Recipes from a previously-active account could silently reappear** after switching to a different account
   with no recipes of its own, caused by old, never-cancelled background queries continuing to overwrite the
   list in place.
+- **The category filter menu was showing categories from every signed-in account**, not just the current one,
+  for the same reason as above.
 - **The account switcher's avatar/name could get stuck** showing the previous account after switching, because
   the switch's own background work was being cancelled partway through.
 - **The copied-in recipe from another account wouldn't show up** until a manual pull-to-refresh; the recipe
@@ -56,6 +64,12 @@ You also can choose the theme in the settings.
   avatars directly instead).
 - Account switching and the copy-to-account picker now show the account list **immediately** instead of
   waiting on a network request per account, and cache avatars locally so they load instantly on repeat visits.
+- **Icons and list content no longer render underneath the status bar or the gesture/navigation bar** on
+  newer Android versions, including in the account/settings drawer.
+- **Pressing back while filtering by a category now clears the filter first**, showing all recipes again,
+  instead of exiting (or, briefly, behaving inconsistently depending on how you'd navigated there).
+- The "Import recipe"/"Settings" entries in the account drawer were moved to the top and no longer sit under
+  an unnecessary "App" heading.
 
 ## Dependencies
 
