@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Tsis tuaj yeem import daim ntawv qhia: %1$s</string>
 	<string name="recipe_import_in_progress">Importing daim ntawv qhia</string>
 	<string name="recipe_import_menu_title">Ntshuam daim ntawv qhia los ntawm URL</string>
-	<string name="recipe_import_service_url_hint">Daim ntawv qhia import URL</string>
 	<string name="recipe_list_image_desc">Duab thumbnail ntawm daim ntawv qhia</string>
 	<string name="recipe_no_timer">Daim ntawv qhia no tsis muaj timer!</string>
 	<string name="request_again">Thov dua</string>

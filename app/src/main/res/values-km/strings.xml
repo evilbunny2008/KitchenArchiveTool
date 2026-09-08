@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">មិន​អាច​នាំចូល​រូបមន្ត៖ %1$s</string>
 	<string name="recipe_import_in_progress">រូបមន្តនាំចូល</string>
 	<string name="recipe_import_menu_title">នាំចូលរូបមន្តពី URL</string>
-	<string name="recipe_import_service_url_hint">URL សេវាកម្មនាំចូលរូបមន្ត</string>
 	<string name="recipe_list_image_desc">រូបភាពតូចនៃរូបមន្ត</string>
 	<string name="recipe_no_timer">រូបមន្តនេះមិនមានកម្មវិធីកំណត់ម៉ោងទេ!</string>
 	<string name="request_again">ស្នើសុំម្តងទៀត</string>

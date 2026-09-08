@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">A mu nOma na donse raso de: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe rasofe</string>
 	<string name="recipe_import_menu_title">Recipe rasofe kelife URL ma</string>
-	<string name="recipe_import_service_url_hint">Recipe importation service URL</string>
 	<string name="recipe_list_image_desc">Recipe xa foto lanma</string>
 	<string name="recipe_no_timer">Gi Recipe waxati mu a ra</string>
 	<string name="request_again">Wo man xa maxOrin</string>

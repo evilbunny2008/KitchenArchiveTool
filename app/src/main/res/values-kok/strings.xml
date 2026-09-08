@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">रेसिपी आयात करूंक शकली ना: %1$s</string>
 	<string name="recipe_import_in_progress">आयात करपाची रेसिपी</string>
 	<string name="recipe_import_menu_title">URL वयल्यान रेसिपी आयात करात</string>
-	<string name="recipe_import_service_url_hint">रेसिपी आयात सेवा URL</string>
 	<string name="recipe_list_image_desc">रेसिपीचें प्रतिमा लघुप्रतिमा</string>
 	<string name="recipe_no_timer">ह्या रेसिपींत टाइमर ना!</string>
 	<string name="request_again">परतून विनंती करात</string>

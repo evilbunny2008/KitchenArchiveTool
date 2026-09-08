@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Није могуће увести рецепт: %1$s</string>
 	<string name="recipe_import_in_progress">Увоз рецепта</string>
 	<string name="recipe_import_menu_title">Увезите рецепт са УРЛ-а</string>
-	<string name="recipe_import_service_url_hint">УРЛ услуге увоза рецепта</string>
 	<string name="recipe_list_image_desc">Сличица слике рецепта</string>
 	<string name="recipe_no_timer">Овај рецепт нема тајмер!</string>
 	<string name="request_again">Захтевајте поново</string>

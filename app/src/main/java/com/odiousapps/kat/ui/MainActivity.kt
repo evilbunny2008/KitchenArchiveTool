@@ -12,7 +12,7 @@ import android.text.InputType
 import android.view.Menu
 import android.view.View
 import android.widget.EditText
-import android.widget.LinearLayout
+import android.widget.FrameLayout
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -276,61 +276,34 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
    // anymore now that the upload happens here instead.
 
    private fun showImportRecipeDialog() {
-      // Pre-filled from whatever was entered last time (see the positive
-      // button below, which saves it back for next time) -- the bridge
-      // script's own URL doesn't need to be hosted anywhere near
-      // Nextcloud itself (in fact, it's better if it isn't -- Nextcloud's
-      // own file-integrity checker flags unexpected files in its
-      // directory tree during upgrades), so this is just remembered here
-      // rather than requiring a trip to Settings first.
-      val serviceUrlEditText = EditText(this).apply {
-         hint = getString(R.string.recipe_import_service_url_hint)
-         inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_URI
-         setText(PreferenceData.getInstance().getRecipeImportUrlSync())
-      }
       val recipeUrlEditText = EditText(this).apply {
          hint = getString(R.string.recipe_import_dialog_hint)
          inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_URI
       }
 
-      // Plain EditTexts have no built-in margin from a dialog's edges or
-      // spacing from each other; a padded vertical LinearLayout handles both.
+      // Plain EditText has no built-in margin from a dialog's edges;
+      // wrapping it in a padded container avoids the text field running
+      // flush against the dialog's own frame.
       val margin = (24 * resources.displayMetrics.density).toInt()
-      val spacing = (12 * resources.displayMetrics.density).toInt()
-      val container = LinearLayout(this).apply {
-         orientation = LinearLayout.VERTICAL
+      val container = FrameLayout(this).apply {
          setPadding(margin, margin / 2, margin, 0)
-         addView(serviceUrlEditText)
-         addView(
-            recipeUrlEditText,
-            LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT).apply {
-               topMargin = spacing
-            }
-         )
+         addView(recipeUrlEditText)
       }
 
       AlertDialog.Builder(this)
          .setTitle(R.string.recipe_import_dialog_title)
          .setView(container)
          .setPositiveButton(R.string.recipe_import_dialog_positive) { _, _ ->
-            val serviceUrl = serviceUrlEditText.text.toString().trim()
             val recipeUrl = recipeUrlEditText.text.toString().trim()
-            if (serviceUrl.isNotEmpty() && recipeUrl.isNotEmpty()) {
-               // Persisted for next time's pre-fill -- fire-and-forget,
-               // doesn't block the actual import below, which uses the
-               // value entered just now directly rather than reading it
-               // back from storage.
-               lifecycleScope.launch(Dispatchers.IO) {
-                  PreferenceData.getInstance().setRecipeImportUrl(serviceUrl)
-               }
-               fetchAndUploadRecipe(serviceUrl, recipeUrl)
+            if (recipeUrl.isNotEmpty()) {
+               fetchAndUploadRecipe(recipeUrl)
             }
          }
          .setNegativeButton(android.R.string.cancel, null)
          .show()
    }
 
-   private fun fetchAndUploadRecipe(serviceUrl: String, recipeUrl: String) {
+   private fun fetchAndUploadRecipe(recipeUrl: String) {
       val account = Accounts(this).getCurrentAccount()
       if (account == null) {
          Toast.makeText(this, R.string.current_account_not_found_exception_message, Toast.LENGTH_LONG).show()
@@ -341,7 +314,7 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
 
       lifecycleScope.launch {
          val fetchResult = withContext(Dispatchers.IO) {
-            RecipeImportClient.importRecipe(serviceUrl, recipeUrl)
+            RecipeImportClient.importRecipe(recipeUrl)
          }
          when (fetchResult) {
             is RecipeImportClient.Result.Failure -> {

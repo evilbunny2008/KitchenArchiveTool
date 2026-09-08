@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">रेसिपी आयात गर्न सकिएन: %1$s</string>
 	<string name="recipe_import_in_progress">नुस्खा आयात गर्दै</string>
 	<string name="recipe_import_menu_title">URL बाट नुस्खा आयात गर्नुहोस्</string>
-	<string name="recipe_import_service_url_hint">रेसिपी आयात सेवा URL</string>
 	<string name="recipe_list_image_desc">नुस्खाको छवि थम्बनेल</string>
 	<string name="recipe_no_timer">यो रेसिपीमा टाइमर छैन!</string>
 	<string name="request_again">पुन: अनुरोध गर्नुहोस्</string>

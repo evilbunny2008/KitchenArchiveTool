@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Рецептата не можа да се импортира: %1$s</string>
 	<string name="recipe_import_in_progress">Рецептата се импортира</string>
 	<string name="recipe_import_menu_title">Импортиране на рецепта от URL</string>
-	<string name="recipe_import_service_url_hint">URL адрес на услугата за импортиране на рецепта</string>
 	<string name="recipe_list_image_desc">Миниизображение на рецепта</string>
 	<string name="recipe_no_timer">Тази рецепта няма таймер!</string>
 	<string name="request_again">Заявка отново</string>

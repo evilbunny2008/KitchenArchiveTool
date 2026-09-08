@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">რეცეპტის იმპორტი ვერ მოხერხდა: %1$s</string>
 	<string name="recipe_import_in_progress">რეცეპტის იმპორტი</string>
 	<string name="recipe_import_menu_title">რეცეპტის იმპორტი URL-დან</string>
-	<string name="recipe_import_service_url_hint">რეცეპტის იმპორტის სერვისის URL</string>
 	<string name="recipe_list_image_desc">რეცეპტის სურათის მინიატურა</string>
 	<string name="recipe_no_timer">ამ რეცეპტს არ აქვს ტაიმერი!</string>
 	<string name="request_again">კვლავ მოითხოვეთ</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Enda ulih ngimport resipi: %1$s</string>
 	<string name="recipe_import_in_progress">Resipi ngimport</string>
 	<string name="recipe_import_menu_title">Import resipi ari URL</string>
-	<string name="recipe_import_service_url_hint">URL servis import resipi</string>
 	<string name="recipe_list_image_desc">Gambar mit resipi</string>
 	<string name="recipe_no_timer">Resipi tu nadai ngembuan timer!</string>
 	<string name="request_again">Pinta baru</string>

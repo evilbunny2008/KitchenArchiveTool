@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ga e kgone go reka risepe go tswa kwa ntle: %1$s</string>
 	<string name="recipe_import_in_progress">Go reka diresipi</string>
 	<string name="recipe_import_menu_title">Thomeloteng diresipi go tswa go URL</string>
-	<string name="recipe_import_service_url_hint">URL ya tirelo ya thomeloteng ya diresipi</string>
 	<string name="recipe_list_image_desc">Setshwantsho se sennye sa risepe</string>
 	<string name="recipe_no_timer">Resipi eno ga e na sebalanako!</string>
 	<string name="request_again">Kopa gape</string>

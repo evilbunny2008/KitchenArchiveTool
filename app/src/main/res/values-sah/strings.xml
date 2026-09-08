@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Рецепты киллэрэр кыах суох: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт киллэрии</string>
 	<string name="recipe_import_menu_title">Рецепты URL-тан киллэриҥ</string>
-	<string name="recipe_import_service_url_hint">Рецепт импортын сулууспа URL-а</string>
 	<string name="recipe_list_image_desc">Рецепт кыра уруһуйа</string>
 	<string name="recipe_no_timer">Бу Рецепкэ таймер суох!</string>
 	<string name="request_again">Эмиэ көрдөһүү</string>

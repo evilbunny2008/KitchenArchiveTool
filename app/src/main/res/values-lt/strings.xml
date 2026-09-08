@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Nepavyko importuoti recepto: %1$s</string>
 	<string name="recipe_import_in_progress">Importuojamas receptas</string>
 	<string name="recipe_import_menu_title">Importuoti receptą iš URL</string>
-	<string name="recipe_import_service_url_hint">Recepto importavimo paslaugos URL</string>
 	<string name="recipe_list_image_desc">Recepto miniatiūra</string>
 	<string name="recipe_no_timer">Šis receptas neturi laikmačio!</string>
 	<string name="request_again">Prašyti dar kartą</string>

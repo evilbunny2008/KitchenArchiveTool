@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">రెసిపీని దిగుమతి చేయడం సాధ్యపడలేదు: %1$s</string>
 	<string name="recipe_import_in_progress">రెసిపీని దిగుమతి చేస్తోంది</string>
 	<string name="recipe_import_menu_title">URL నుండి రెసిపీని దిగుమతి చేయండి</string>
-	<string name="recipe_import_service_url_hint">రెసిపీ దిగుమతి సేవ URL</string>
 	<string name="recipe_list_image_desc">రెసిపీ యొక్క చిత్ర సూక్ష్మచిత్రం</string>
 	<string name="recipe_no_timer">ఈ రెసిపీకి టైమర్ లేదు!</string>
 	<string name="request_again">మళ్లీ అభ్యర్థించండి</string>

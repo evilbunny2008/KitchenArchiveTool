@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Reçete nehat importkirin: %1$s</string>
 	<string name="recipe_import_in_progress">Reçeteya hinartina</string>
 	<string name="recipe_import_menu_title">Reçeteya ji URL-ê derxînin</string>
-	<string name="recipe_import_service_url_hint">Reçeteya karûbarê importê URL</string>
 	<string name="recipe_list_image_desc">Nîgara wêneyê ya reçeteyê</string>
 	<string name="recipe_no_timer">Vê Reçeteyê demjimêrek tune!</string>
 	<string name="request_again">Dîsa daxwaz bikin</string>

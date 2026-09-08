@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ma setgħetx timporta r-riċetta: %1$s</string>
 	<string name="recipe_import_in_progress">Importazzjoni tar-riċetta</string>
 	<string name="recipe_import_menu_title">Importa riċetta mill-URL</string>
-	<string name="recipe_import_service_url_hint">URL tas-servizz tal-importazzjoni tar-riċetta</string>
 	<string name="recipe_list_image_desc">Miniatura tal-immaġni tar-riċetta</string>
 	<string name="recipe_no_timer">Din ir-Riċetta m’għandhiex tajmer!</string>
 	<string name="request_again">Talba mill-ġdid</string>

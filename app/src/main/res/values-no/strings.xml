@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Kunne ikke importere oppskriften: %1$s</string>
 	<string name="recipe_import_in_progress">Importerer oppskrift</string>
 	<string name="recipe_import_menu_title">Importer oppskrift fra URL</string>
-	<string name="recipe_import_service_url_hint">URL for tjenesteimport av oppskrift</string>
 	<string name="recipe_list_image_desc">Miniatyrbilde av oppskriften</string>
 	<string name="recipe_no_timer">Denne oppskriften har ikke en timer!</string>
 	<string name="request_again">Be om igjen</string>

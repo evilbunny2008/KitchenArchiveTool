@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Konnt d’Rezept net importéieren: %1$s</string>
 	<string name="recipe_import_in_progress">Rezept importéieren</string>
 	<string name="recipe_import_menu_title">Import Rezept vun URL</string>
-	<string name="recipe_import_service_url_hint">Rezept Import Service URL</string>
 	<string name="recipe_list_image_desc">Miniaturbild vum Rezept</string>
 	<string name="recipe_no_timer">Dëst Rezept huet keen Timer!</string>
 	<string name="request_again">Demande erëm</string>

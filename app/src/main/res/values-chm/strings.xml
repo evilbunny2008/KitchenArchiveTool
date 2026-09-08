@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Рецептым пурташ ок лий: %1$s</string>
 	<string name="recipe_import_in_progress">Рецептым пуртымо</string>
 	<string name="recipe_import_menu_title">URL гыч рецептым пурто</string>
-	<string name="recipe_import_service_url_hint">Рецепт импорт сервис URL</string>
 	<string name="recipe_list_image_desc">Рецептын сӱретше</string>
 	<string name="recipe_no_timer">Тиде Рецептыште таймер уке!</string>
 	<string name="request_again">Уэш йодмаш</string>

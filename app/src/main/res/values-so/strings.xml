@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Waa la soo dejin kari waayay cuntada: %1$s</string>
 	<string name="recipe_import_in_progress">Soo dejinta cuntada</string>
 	<string name="recipe_import_menu_title">Ka soo deji cunto karinta URL</string>
-	<string name="recipe_import_service_url_hint">Recipe soo dejinta URL adeegga</string>
 	<string name="recipe_list_image_desc">Sawirka thumbnail ee cunto karinta</string>
 	<string name="recipe_no_timer">Cunto-karintan ma laha saacad-tire!</string>
 	<string name="request_again">Codso mar kale</string>

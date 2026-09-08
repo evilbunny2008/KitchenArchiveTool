@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ntishobora kwinjiza ingene bitegurwa: %1$s</string>
 	<string name="recipe_import_in_progress">Kuzana ingene bitegurwa</string>
 	<string name="recipe_import_menu_title">Kwinjiza ibifungurwa bivuye kuri URL</string>
-	<string name="recipe_import_service_url_hint">URL y’ububiko bwo kwinjiza</string>
 	<string name="recipe_list_image_desc">Ishusho y’uburyo bwo guteka</string>
 	<string name="recipe_no_timer">Iyi Recipe nta gihe igira!</string>
 	<string name="request_again">Gusaba kandi</string>

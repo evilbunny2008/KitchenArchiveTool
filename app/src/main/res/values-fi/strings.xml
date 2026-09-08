@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Reseptiä ei voitu tuoda: %1$s</string>
 	<string name="recipe_import_in_progress">Tuodaan reseptiä</string>
 	<string name="recipe_import_menu_title">Tuo resepti URL-osoitteesta</string>
-	<string name="recipe_import_service_url_hint">Reseptin tuontipalvelun URL-osoite</string>
 	<string name="recipe_list_image_desc">Reseptin pikkukuva</string>
 	<string name="recipe_no_timer">Tässä reseptissä ei ole ajastinta!</string>
 	<string name="request_again">Pyydä uudelleen</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">වට්ටෝරුව ආයාත කිරීමට නොහැකි විය: %1$s</string>
 	<string name="recipe_import_in_progress">වට්ටෝරුව ආයාත කරමින්</string>
 	<string name="recipe_import_menu_title">URL වෙතින් වට්ටෝරුව ආයාත කරන්න</string>
-	<string name="recipe_import_service_url_hint">වට්ටෝරු ආනයන සේවා URL</string>
 	<string name="recipe_list_image_desc">වට්ටෝරුවේ රූප සිඟිති රූපය</string>
 	<string name="recipe_no_timer">මෙම වට්ටෝරුවෙහි ටයිමරයක් නොමැත!</string>
 	<string name="request_again">නැවත ඉල්ලන්න</string>

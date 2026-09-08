@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">E sega ni rawa ni vakacurumi na ivakarau ni kana: %1$s</string>
 	<string name="recipe_import_in_progress">Vakacuruma na ivakarau ni kana</string>
 	<string name="recipe_import_menu_title">Kauta mai na ivakarau ni kana mai na URL</string>
-	<string name="recipe_import_service_url_hint">URL ni veiqaravi ni vakacuru ilavo ni recipe</string>
 	<string name="recipe_list_image_desc">Na iyaloyalo lailai ni recipe</string>
 	<string name="recipe_no_timer">Na Recipe oqo e sega ni dua na kena gauna!</string>
 	<string name="request_again">Kerea tale</string>

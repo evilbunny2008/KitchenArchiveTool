@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Non se puido importar a receita: %1$s</string>
 	<string name="recipe_import_in_progress">Importando receita</string>
 	<string name="recipe_import_menu_title">Importar receita desde o URL</string>
-	<string name="recipe_import_service_url_hint">URL do servizo de importación de receitas</string>
 	<string name="recipe_list_image_desc">Imaxe en miniatura da receita</string>
 	<string name="recipe_no_timer">Esta receita non ten temporizador!</string>
 	<string name="request_again">Solicita de novo</string>

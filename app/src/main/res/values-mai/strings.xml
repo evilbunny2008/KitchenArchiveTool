@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">रेसिपी आयात नहि क‘ सकल: %1$s</string>
 	<string name="recipe_import_in_progress">आयात नुस्खा</string>
 	<string name="recipe_import_menu_title">यूआरएल सँ नुस्खा आयात करू</string>
-	<string name="recipe_import_service_url_hint">नुस्खा आयात सेवा यूआरएल</string>
 	<string name="recipe_list_image_desc">नुस्खा के छवि थंबनेल</string>
 	<string name="recipe_no_timer">एहि रेसिपी में टाइमर नै अछि !</string>
 	<string name="request_again">पुनः आग्रह करू</string>

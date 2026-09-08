@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">പാചകക്കുറിപ്പ് ഇറക്കുമതി ചെയ്യാനായില്ല: %1$s</string>
 	<string name="recipe_import_in_progress">പാചകക്കുറിപ്പ് ഇറക്കുമതി ചെയ്യുന്നു</string>
 	<string name="recipe_import_menu_title">URL-ൽ നിന്ന് പാചകക്കുറിപ്പ് ഇറക്കുമതി ചെയ്യുക</string>
-	<string name="recipe_import_service_url_hint">പാചകക്കുറിപ്പ് ഇറക്കുമതി സേവന URL</string>
 	<string name="recipe_list_image_desc">പാചകക്കുറിപ്പിൻ്റെ ചിത്ര ലഘുചിത്രം</string>
 	<string name="recipe_no_timer">ഈ പാചകക്കുറിപ്പിന് ടൈമർ ഇല്ല!</string>
 	<string name="request_again">വീണ്ടും അഭ്യർത്ഥിക്കുക</string>

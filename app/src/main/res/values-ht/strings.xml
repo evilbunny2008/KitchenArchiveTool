@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Pa t ‘kapab enpòte resèt la: %1$s</string>
 	<string name="recipe_import_in_progress">Enpòte resèt</string>
 	<string name="recipe_import_menu_title">Enpòte resèt soti nan URL</string>
-	<string name="recipe_import_service_url_hint">URL sèvis enpòte resèt</string>
 	<string name="recipe_list_image_desc">Miniature imaj resèt la</string>
 	<string name="recipe_no_timer">Resèt sa a pa gen yon revèy!</string>
 	<string name="request_again">Mande ankò</string>

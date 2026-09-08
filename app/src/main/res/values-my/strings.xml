@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ဟင်းချက်နည်းကို မတင်သွင်းနိုင်ခဲ့ပါ- %1$s</string>
 	<string name="recipe_import_in_progress">ဟင်းချက်နည်းတင်သွင်းနေသည်</string>
 	<string name="recipe_import_menu_title">စာရွက်ကို URL မှတင်သွင်းပါ။</string>
-	<string name="recipe_import_service_url_hint">စာရွက်တင်သွင်းခြင်းဝန်ဆောင်မှု URL</string>
 	<string name="recipe_list_image_desc">ဟင်းချက်နည်းပုံသေး</string>
 	<string name="recipe_no_timer">ဤချက်ပြုတ်နည်းတွင် အချိန်တိုင်းစက် မရှိပါ။</string>
 	<string name="request_again">ထပ်မံတောင်းဆိုပါ။</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Рецептэз импортировать карыны ӧз луы: %1$s</string>
 	<string name="recipe_import_in_progress">Рецептэз импортировать карон</string>
 	<string name="recipe_import_menu_title">Рецептэз URL-ысь импортировать карыны</string>
-	<string name="recipe_import_service_url_hint">Рецепт импортировать каронъя службалэн URL-адресэз</string>
 	<string name="recipe_list_image_desc">Рецептлэн суредэз</string>
 	<string name="recipe_no_timer">Та рецептлэн таймерез ӧвӧл!</string>
 	<string name="request_again">Нош ик куре</string>

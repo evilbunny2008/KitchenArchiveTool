@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Entumi mfa aduannoa ho nyansahyɛ no mmra: %1$s</string>
 	<string name="recipe_import_in_progress">Importing aduannoa ho nyansahyɛ</string>
 	<string name="recipe_import_menu_title">Fa aduannoa ho nyansahyɛ fi URL mu ba</string>
-	<string name="recipe_import_service_url_hint">Recipe import ɔsom URL</string>
 	<string name="recipe_list_image_desc">Mfonini ketewaa bi a ɛfa aduannoa ho</string>
 	<string name="recipe_no_timer">Saa Recipe yi nni timer!</string>
 	<string name="request_again">Bisa bio</string>

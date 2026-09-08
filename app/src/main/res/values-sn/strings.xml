@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Hatina kukwanisa kutenga kunze resipi: %1$s</string>
 	<string name="recipe_import_in_progress">Kuunza resipi</string>
 	<string name="recipe_import_menu_title">Ngenisa resipi kubva kuURL</string>
-	<string name="recipe_import_service_url_hint">URL yebasa rekubika kunze kwenyika</string>
 	<string name="recipe_list_image_desc">Mufananidzo thumbnail resipi</string>
 	<string name="recipe_no_timer">Iyi Recipe haina timer!</string>
 	<string name="request_again">Kumbira zvakare</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ترکیب وارد نشو کولی: %1$s</string>
 	<string name="recipe_import_in_progress">د ترکیب واردول</string>
 	<string name="recipe_import_menu_title">له URL څخه ترکیب وارد کړئ</string>
-	<string name="recipe_import_service_url_hint">د ترکیب واردولو خدمت URL</string>
 	<string name="recipe_list_image_desc">د ترکیب انځوریز تمبیل</string>
 	<string name="recipe_no_timer">دا ترکیب ټایمر نلري!</string>
 	<string name="request_again">بیا غوښتنه وکړئ</string>

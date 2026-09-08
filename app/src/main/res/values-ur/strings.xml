@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">نسخہ درآمد نہیں کیا جا سکا: %1$s</string>
 	<string name="recipe_import_in_progress">ترکیب درآمد کی جا رہی ہے</string>
 	<string name="recipe_import_menu_title">URL سے نسخہ درآمد کریں۔</string>
-	<string name="recipe_import_service_url_hint">ریسیپی امپورٹ سروس یو آر ایل</string>
 	<string name="recipe_list_image_desc">ترکیب کا تصویری تھمب نیل</string>
 	<string name="recipe_no_timer">اس ترکیب میں ٹائمر نہیں ہے!</string>
 	<string name="request_again">دوبارہ درخواست کریں۔</string>

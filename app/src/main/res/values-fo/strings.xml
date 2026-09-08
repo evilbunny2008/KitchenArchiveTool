@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Kundi ikki innflyta uppskriftina: %1$s</string>
 	<string name="recipe_import_in_progress">Innflyta uppskrift</string>
 	<string name="recipe_import_menu_title">Innflyt uppskrift frá URL</string>
-	<string name="recipe_import_service_url_hint">URL til innflutningstænastu til uppskriftir</string>
 	<string name="recipe_list_image_desc">Myndasmámynd av uppskrift</string>
 	<string name="recipe_no_timer">Hendan uppskriftin hevur ikki tíðarætlan!</string>
 	<string name="request_again">Bið um aftur</string>

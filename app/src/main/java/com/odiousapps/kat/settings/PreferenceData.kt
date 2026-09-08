@@ -35,7 +35,6 @@ class PreferenceData private constructor() {
    private val isStorageAccessedKey = booleanPreferencesKey(Pref.STORAGE_ACCESS)
    private val isSyncServiceEnabled = intPreferencesKey(Pref.SYNC_SERVICE)
    private val isSyncWifiOnly = booleanPreferencesKey(Pref.SYNC_WIFI_ONLY)
-   private val recipeImportUrlKey = stringPreferencesKey(Pref.RECIPE_IMPORT_URL)
 
    companion object {
       @Volatile
@@ -77,20 +76,6 @@ class PreferenceData private constructor() {
    }
 
    /** One-shot read for callers outside a Flow-collecting context (e.g. right before launching the login flow). */
-   fun getRecipeImportUrlSync(): String {
-      var url = ""
-
-      runBlocking {
-         url = MainApplication.AppContext.dataStore.data
-            .map { preferences ->
-               preferences[recipeImportUrlKey] ?: ""
-            }
-            .first()
-      }
-
-      return url
-   }
-
    fun getTheme(): Flow<Int> {
       return MainApplication.AppContext.dataStore.data
          .map { preferences ->
@@ -203,12 +188,6 @@ class PreferenceData private constructor() {
    suspend fun setRecipeDir(recipeDir: String) {
       MainApplication.AppContext.dataStore.edit { preferences ->
          preferences[recipeDirKey] = recipeDir
-      }
-   }
-
-   suspend fun setRecipeImportUrl(url: String) {
-      MainApplication.AppContext.dataStore.edit { preferences ->
-         preferences[recipeImportUrlKey] = url
       }
    }
 

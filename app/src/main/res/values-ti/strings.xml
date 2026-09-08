@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ነቲ ኣሰራርሓ መግቢ ከእትዎ ኣይከኣለን: %1$s</string>
 	<string name="recipe_import_in_progress">ካብ ወጻኢ ዝኣቱ ኣሰራርሓ መግቢ</string>
 	<string name="recipe_import_menu_title">ኣሰራርሓ መግቢ ካብ URL ኣእቱ</string>
-	<string name="recipe_import_service_url_hint">ኣሰራርሓ መግቢ ምእታው ኣገልግሎት URL</string>
 	<string name="recipe_list_image_desc">ምስሊ ንእሽቶ ስእሊ ናይ ኣሰራርሓ መግቢ</string>
 	<string name="recipe_no_timer">እዚ Recipe ታይመር የብሉን!</string>
 	<string name="request_again">ደጊምካ ሕተት።</string>

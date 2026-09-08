@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ဢမ်ႇၸၢင်ႈဢဝ်ၶဝ်ႈမႃးလႆႈ လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း: %1$s</string>
 	<string name="recipe_import_in_progress">ဢဝ်ၶဝ်ႈမႃး လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း</string>
 	<string name="recipe_import_menu_title">ဢဝ်ၶဝ်ႈမႃး လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း တီႈ URL</string>
-	<string name="recipe_import_service_url_hint">URL ၵၢၼ်သူင်ႇၶဝ်ႈၽၵ်း</string>
 	<string name="recipe_list_image_desc">ၶႅပ်းႁၢင်ႈဢွၼ်ႇ လၢႆးႁဵတ်းၶဝ်ႈၽၵ်း</string>
 	<string name="recipe_no_timer">Recipe ၼႆႉ ဢမ်ႇမီးၶၢဝ်းယၢမ်း!</string>
 	<string name="request_again">ယွၼ်းၶိုၼ်း</string>

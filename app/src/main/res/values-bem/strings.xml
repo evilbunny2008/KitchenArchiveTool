@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Teti tulete ifyakupanga: %1$s</string>
 	<string name="recipe_import_in_progress">Ukuleta ifyakulya</string>
 	<string name="recipe_import_menu_title">Leteni ifyakulya ukufuma ku URL</string>
-	<string name="recipe_import_service_url_hint">URL iyakutwala ifyakulya</string>
 	<string name="recipe_list_image_desc">Icikope icinono ica mipangilwe ya fyakulya</string>
 	<string name="recipe_no_timer">Iyi Recipe tayakwata inshita!</string>
 	<string name="request_again">Ipushe nakabili</string>

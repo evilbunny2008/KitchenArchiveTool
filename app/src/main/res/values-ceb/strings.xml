@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Dili ma-import ang resipe: %1$s</string>
 	<string name="recipe_import_in_progress">Gi-import nga resipe</string>
 	<string name="recipe_import_menu_title">Import resipe gikan sa URL</string>
-	<string name="recipe_import_service_url_hint">URL sa serbisyo sa pag-import sa resipe</string>
 	<string name="recipe_list_image_desc">Image thumbnail sa resipe</string>
 	<string name="recipe_no_timer">Kini nga Recipe walay timer!</string>
 	<string name="request_again">Paghangyo pag-usab</string>

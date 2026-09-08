@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ùn si pudia impurtà a ricetta: %1$s</string>
 	<string name="recipe_import_in_progress">Importazione di ricetta</string>
 	<string name="recipe_import_menu_title">Importa a ricetta da l’URL</string>
-	<string name="recipe_import_service_url_hint">URL di serviziu d’importazione di ricetta</string>
 	<string name="recipe_list_image_desc">Immagine in miniatura di a ricetta</string>
 	<string name="recipe_no_timer">Questa ricetta ùn hà micca un timer!</string>
 	<string name="request_again">Richiesta di novu</string>

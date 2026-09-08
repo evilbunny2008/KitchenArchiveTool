@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ii sáhttán importeret rávvagiid: %1$s</string>
 	<string name="recipe_import_in_progress">Buvttadan resepta</string>
 	<string name="recipe_import_menu_title">Buvttat restiivva URL:s</string>
-	<string name="recipe_import_service_url_hint">Resephtaid importerenbálvalusa URL</string>
 	<string name="recipe_list_image_desc">Govva smávvagovva reseptas</string>
 	<string name="recipe_no_timer">Dán rávvagiin ii leat áigemearri!</string>
 	<string name="request_again">Bivdde fas</string>

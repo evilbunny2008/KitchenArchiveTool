@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Angeze kwakghona ukungenisa iresiphi: %1$s</string>
 	<string name="recipe_import_in_progress">Ukungenisa iresiphi</string>
 	<string name="recipe_import_menu_title">Ngenisa iresiphi ukusuka ku-URL</string>
-	<string name="recipe_import_service_url_hint">I-URL yesevisi yokungenisa iresiphi</string>
 	<string name="recipe_list_image_desc">Isithombe esincani seresiphi</string>
 	<string name="recipe_no_timer">Iresiphi le ayinaso isikhathi!</string>
 	<string name="request_again">Faka isibawo godu</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Agnayarin i-import so resipe: %1$s</string>
 	<string name="recipe_import_in_progress">Man-import na resipe</string>
 	<string name="recipe_import_menu_title">I-import so resipe manlapud URL</string>
-	<string name="recipe_import_service_url_hint">URL na serbisyo na panag-import na resipe</string>
 	<string name="recipe_list_image_desc">Litrato na resipe</string>
 	<string name="recipe_no_timer">Sayan Resipe et anggapoy timer to!</string>
 	<string name="request_again">Mankerew lamet</string>

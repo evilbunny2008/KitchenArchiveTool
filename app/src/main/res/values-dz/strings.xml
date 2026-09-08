@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">བཟོ་ཐབས་ནང་འདྲེན་འབད་མ་ཚུགས།: %1$s</string>
 	<string name="recipe_import_in_progress">བཟོ་ཐངས་ནང་འདྲེན་འབད་དོ་</string>
 	<string name="recipe_import_menu_title">ཡུ་ཨར་ཨེལ་ལས་བཟོ་ཐངས་ནང་འདྲེན་འབད།</string>
-	<string name="recipe_import_service_url_hint">བཟོ་ཐངས་ནང་འདྲེན་ཞབས་ཏོག་ཡུ་ཨར་ཨེལ།</string>
 	<string name="recipe_list_image_desc">བཟོ་ཐངས་ཀྱི་པར་རིས་མཐེབ་གཞོང་།</string>
 	<string name="recipe_no_timer">འདི་ལུ་དུས་ཚོད་བཀོད་མི་མེདཔ་ཨིན།</string>
 	<string name="request_again">སླར་ཡང་ཞུ་བ།</string>

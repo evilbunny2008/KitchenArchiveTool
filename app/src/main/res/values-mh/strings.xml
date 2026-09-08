@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ejjab maroñ in bōktok recipe eo: %1$s</string>
 	<string name="recipe_import_in_progress">Import recipe</string>
 	<string name="recipe_import_menu_title">bōktok recipe jen URL</string>
-	<string name="recipe_import_service_url_hint">URL in jerbal in bōktok recipe</string>
 	<string name="recipe_list_image_desc">pija in recipe eo</string>
 	<string name="recipe_no_timer">Recipe in ejelok an timer!</string>
 	<string name="request_again">Bar kajjitōk</string>

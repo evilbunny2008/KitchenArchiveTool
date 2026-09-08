@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Рецепт импортталмады: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт импортталуда</string>
 	<string name="recipe_import_menu_title">URL мекенжайынан рецепт импорттау</string>
-	<string name="recipe_import_service_url_hint">Рецепт импорттау қызметінің URL мекенжайы</string>
 	<string name="recipe_list_image_desc">Рецепттің нобайы</string>
 	<string name="recipe_no_timer">Бұл рецептте таймер жоқ!</string>
 	<string name="request_again">Қайтадан сұрау</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Рецептро ворид кардан муяссар нашуд: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт ворид карда мешавад</string>
 	<string name="recipe_import_menu_title">Рецептро аз URL ворид кунед</string>
-	<string name="recipe_import_service_url_hint">URL-и хидмати воридоти дорухат</string>
 	<string name="recipe_list_image_desc">Намоиши тасвири рецепт</string>
 	<string name="recipe_no_timer">Ин рецепт таймер надорад!</string>
 	<string name="request_again">Боз дархост кунед</string>

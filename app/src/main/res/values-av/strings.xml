@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Рецепт импорт гьабизе кӀвечӀо: %1$s</string>
 	<string name="recipe_import_in_progress">Импорт гьабулеб рецепт</string>
 	<string name="recipe_import_menu_title">Рецепт импорт гьабе URL-алдаса</string>
-	<string name="recipe_import_service_url_hint">Рецепт импорталъул хъулухъалъул URL</string>
 	<string name="recipe_list_image_desc">Рецепталъул сураталъул гьитӀинаб сурат</string>
 	<string name="recipe_no_timer">Этот Рецепт не имеет таймера!</string>
 	<string name="request_again">ЦӀидасан гьаре</string>

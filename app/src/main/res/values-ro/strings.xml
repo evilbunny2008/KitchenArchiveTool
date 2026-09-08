@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Nu s-a putut importa rețeta: %1$s</string>
 	<string name="recipe_import_in_progress">Se importă rețeta</string>
 	<string name="recipe_import_menu_title">Importați rețeta de la URL</string>
-	<string name="recipe_import_service_url_hint">Adresa URL a serviciului de import de rețete</string>
 	<string name="recipe_list_image_desc">Miniatura imaginii rețetei</string>
 	<string name="recipe_no_timer">Această rețetă nu are cronometru!</string>
 	<string name="request_again">Solicitați din nou</string>

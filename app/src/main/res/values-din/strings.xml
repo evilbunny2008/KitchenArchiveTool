@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Acï lëu bï thëm de thëm bɛ̈i bei: %1$s</string>
 	<string name="recipe_import_in_progress">Luɔɔi de kë ye cam bɛ̈i bei</string>
 	<string name="recipe_import_menu_title">Luɔɔi de kë bï cam tënë URL</string>
-	<string name="recipe_import_service_url_hint">URL de luɔɔi de ɣɔɔc de käŋ</string>
 	<string name="recipe_list_image_desc">Thura thiin de kë ye looi</string>
 	<string name="recipe_no_timer">Recipe kënë acïn thää ë thää!</string>
 	<string name="request_again">Thiëc ëyadɛ̈</string>

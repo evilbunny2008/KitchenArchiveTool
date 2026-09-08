@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">የምግብ አዘገጃጀቱን ማስመጣት አልተቻለም፡ %1$s</string>
 	<string name="recipe_import_in_progress">የምግብ አሰራርን በማስመጣት ላይ</string>
 	<string name="recipe_import_menu_title">የምግብ አሰራርን ከዩአርኤል አስመጣ</string>
-	<string name="recipe_import_service_url_hint">የምግብ አዘገጃጀት የማስመጣት አገልግሎት URL</string>
 	<string name="recipe_list_image_desc">የምግብ አሰራር ምስል ድንክዬ</string>
 	<string name="recipe_no_timer">ይህ የምግብ አሰራር ሰዓት ቆጣሪ የለውም!</string>
 	<string name="request_again">እንደገና ይጠይቁ</string>

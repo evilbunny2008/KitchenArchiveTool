@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Não foi possível importar a receita: %1$s</string>
 	<string name="recipe_import_in_progress">Importando receita</string>
 	<string name="recipe_import_menu_title">Importar receita do URL</string>
-	<string name="recipe_import_service_url_hint">URL do serviço de importação de receitas</string>
 	<string name="recipe_list_image_desc">Miniatura da imagem da receita</string>
 	<string name="recipe_no_timer">Esta receita não tem cronômetro!</string>
 	<string name="request_again">Solicite novamente</string>

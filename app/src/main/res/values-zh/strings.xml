@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">無法匯入食譜：%1$s</string>
 	<string name="recipe_import_in_progress">正在導入配方</string>
 	<string name="recipe_import_menu_title">從 URL 導入食譜</string>
-	<string name="recipe_import_service_url_hint">配方導入服務 URL</string>
 	<string name="recipe_list_image_desc">食譜的圖像縮圖</string>
 	<string name="recipe_no_timer">這個食譜沒有計時器！</string>
 	<string name="request_again">再次請求</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ni bilo mogoče uvoziti recepta: %1$s</string>
 	<string name="recipe_import_in_progress">Uvoz recepta</string>
 	<string name="recipe_import_menu_title">Uvozi recept iz URL-ja</string>
-	<string name="recipe_import_service_url_hint">URL storitve uvoza receptov</string>
 	<string name="recipe_list_image_desc">Sličica recepta</string>
 	<string name="recipe_no_timer">Ta recept nima časovnika!</string>
 	<string name="request_again">Ponovno zahtevajte</string>

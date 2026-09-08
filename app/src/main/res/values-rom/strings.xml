@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Nashti te importirinel pes o recepto: %1$s</string>
 	<string name="recipe_import_in_progress">Importisarindoj e recepta</string>
 	<string name="recipe_import_menu_title">Importisaren o recepto katar o URL</string>
-	<string name="recipe_import_service_url_hint">URL e servisesqo importàciaqo e receptenqo</string>
 	<string name="recipe_list_image_desc">Miniatura e receptosqi</string>
 	<string name="recipe_no_timer">Akava Recepto nane les vaxt!</string>
 	<string name="request_again">Mangen pale</string>

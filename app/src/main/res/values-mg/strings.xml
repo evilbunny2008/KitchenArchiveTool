@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Tsy afaka nanafatra ny recette: %1$s</string>
 	<string name="recipe_import_in_progress">Manafatra fomba fanamboarana</string>
 	<string name="recipe_import_menu_title">Manafatra recette avy amin’ny URL</string>
-	<string name="recipe_import_service_url_hint">URL serivisy fanafarana recipe</string>
 	<string name="recipe_list_image_desc">Sarin’ny thumbnail an’ny recipe</string>
 	<string name="recipe_no_timer">Ity Recipe ity dia tsy misy fameram-potoana!</string>
 	<string name="request_again">Mangataka indray</string>

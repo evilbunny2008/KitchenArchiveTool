@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">No si pues impuartâ la ricete: %1$s</string>
 	<string name="recipe_import_in_progress">Ricete di impuartazion</string>
 	<string name="recipe_import_menu_title">Importâ la ricete dal URL</string>
-	<string name="recipe_import_service_url_hint">URL dal servizi di impuartazion des ricetis</string>
 	<string name="recipe_list_image_desc">Miniature de imagjin de ricete</string>
 	<string name="recipe_no_timer">Cheste Ricete no à un cronometri!</string>
 	<string name="request_again">Domande di gnûf</string>

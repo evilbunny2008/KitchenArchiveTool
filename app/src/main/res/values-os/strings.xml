@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Рецепт импорт кæнын нæ бантыст: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт æрбаласын</string>
 	<string name="recipe_import_menu_title">Æрбалас рецепт URL-æй</string>
-	<string name="recipe_import_service_url_hint">Рецепты импорты лæггады URL</string>
 	<string name="recipe_list_image_desc">Рецепты ныв</string>
 	<string name="recipe_no_timer">Ацы рецептæн нæй таймер!</string>
 	<string name="request_again">Ногæй æркуырд</string>

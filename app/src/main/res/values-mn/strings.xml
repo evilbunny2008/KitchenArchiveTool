@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Жорыг импорт хийж чадсангүй: %1$s</string>
 	<string name="recipe_import_in_progress">Жор импортлож байна</string>
 	<string name="recipe_import_menu_title">URL-аас жор импортлох</string>
-	<string name="recipe_import_service_url_hint">Жор импортлох үйлчилгээний URL</string>
 	<string name="recipe_list_image_desc">Жорны өнгөц зураг</string>
 	<string name="recipe_no_timer">Энэ жоронд таймер байхгүй!</string>
 	<string name="request_again">Дахин хүсэлт гаргах</string>

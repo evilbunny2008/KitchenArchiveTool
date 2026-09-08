@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">E malyaring i-import ing recipe: %1$s</string>
 	<string name="recipe_import_in_progress">Mag import recipe</string>
 	<string name="recipe_import_menu_title">I-import ing recipe ibat keng URL</string>
-	<string name="recipe_import_service_url_hint">URL ning serbisyung pamag-import ning recipe</string>
 	<string name="recipe_list_image_desc">Thumbnail ning larawan ning recipe</string>
 	<string name="recipe_no_timer">Ing recipe ayni ala yang timer!</string>
 	<string name="request_again">Manyawad kang pasibayu</string>

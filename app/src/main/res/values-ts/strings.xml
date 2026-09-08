@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">A swi koteki ku nghenisa risipi: %1$s</string>
 	<string name="recipe_import_in_progress">Ku nghenisa recipe</string>
 	<string name="recipe_import_menu_title">Nghenisa risipi ku suka eka URL</string>
-	<string name="recipe_import_service_url_hint">URL ya vukorhokeri bya ku nghenisa risipi</string>
 	<string name="recipe_list_image_desc">Xifaniso lexitsongo xa recipe</string>
 	<string name="recipe_no_timer">Recipe leyi a yi na timer!</string>
 	<string name="request_again">Kombela nakambe</string>

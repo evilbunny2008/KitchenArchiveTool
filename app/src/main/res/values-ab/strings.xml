@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Арецепт аимпорт ауам: %1$s</string>
 	<string name="recipe_import_in_progress">Арецепт аимпорт</string>
 	<string name="recipe_import_menu_title">Арецепт аимпорт URL аҟынтәи</string>
-	<string name="recipe_import_service_url_hint">Арецепт аимпорт амаҵзура URL</string>
 	<string name="recipe_list_image_desc">Арецепт асахьа хәыҷ</string>
 	<string name="recipe_no_timer">Ари Арецепт атаимер амаӡам!</string>
 	<string name="request_again">Даҽазнык аҳәара</string>

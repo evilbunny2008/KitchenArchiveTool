@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">A thi koni u ḓisa risipi: %1$s</string>
 	<string name="recipe_import_in_progress">Risipi ya u renga nnḓa</string>
 	<string name="recipe_import_menu_title">U dzhia risipi u bva kha URL</string>
-	<string name="recipe_import_service_url_hint">URL ya tshumelo ya u ḓisa risipi</string>
 	<string name="recipe_list_image_desc">Tshifanyiso tshiṱuku tsha risipi</string>
 	<string name="recipe_no_timer">Recipe iyi a ina tshifhinga!</string>
 	<string name="request_again">Humbela hafhu</string>

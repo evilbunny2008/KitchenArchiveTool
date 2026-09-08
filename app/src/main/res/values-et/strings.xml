@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Retsepti ei saanud importida: %1$s</string>
 	<string name="recipe_import_in_progress">Retsepti importimine</string>
 	<string name="recipe_import_menu_title">Importige retsept URL-ist</string>
-	<string name="recipe_import_service_url_hint">Retsepti importimise teenuse URL</string>
 	<string name="recipe_list_image_desc">Retsepti pisipilt</string>
 	<string name="recipe_no_timer">Sellel retseptil pole taimerit!</string>
 	<string name="request_again">Taotlege uuesti</string>

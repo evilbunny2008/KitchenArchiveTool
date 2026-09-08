@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">A lingbi ti zia na yâ ti recette ni: %1$s</string>
 	<string name="recipe_import_in_progress">Recette ti importation</string>
 	<string name="recipe_import_menu_title">Zia recette ni na lege ti URL</string>
-	<string name="recipe_import_service_url_hint">URL ti kusala ti importation ti recette</string>
 	<string name="recipe_list_image_desc">Image ti kete recette ni</string>
 	<string name="recipe_no_timer">Recette so ayeke na mbeni l’heure pëpe!</string>
 	<string name="request_again">Hunda encore</string>

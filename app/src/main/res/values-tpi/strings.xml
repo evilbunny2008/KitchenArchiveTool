@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">No inap long kisim resipi i kam insait: %1$s</string>
 	<string name="recipe_import_in_progress">Impotim resipi</string>
 	<string name="recipe_import_menu_title">Kisim resipi i kam long URL</string>
-	<string name="recipe_import_service_url_hint">Recipe impot sevis URL</string>
 	<string name="recipe_list_image_desc">Piksa bilong resipi</string>
 	<string name="recipe_no_timer">Dispela Resipi i no gat taima!</string>
 	<string name="request_again">Askim gen</string>

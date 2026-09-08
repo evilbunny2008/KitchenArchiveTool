@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Không thể nhập công thức: %1$s</string>
 	<string name="recipe_import_in_progress">Đang nhập công thức</string>
 	<string name="recipe_import_menu_title">Nhập công thức từ URL</string>
-	<string name="recipe_import_service_url_hint">URL dịch vụ nhập công thức</string>
 	<string name="recipe_list_image_desc">Hình ảnh thu nhỏ của công thức</string>
 	<string name="recipe_no_timer">Công thức này không có đồng hồ tính giờ!</string>
 	<string name="request_again">Yêu cầu lại</string>

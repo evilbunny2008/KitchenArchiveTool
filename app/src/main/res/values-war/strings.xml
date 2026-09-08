@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Waray makag-import han resipe: %1$s</string>
 	<string name="recipe_import_in_progress">Pag-import hin resipe</string>
 	<string name="recipe_import_menu_title">Importa an resipe tikang ha URL</string>
-	<string name="recipe_import_service_url_hint">URL han serbisyo han pag-import han resipe</string>
 	<string name="recipe_list_image_desc">Gutiay nga ladawan han resipe</string>
 	<string name="recipe_no_timer">Waray timer ini nga Resipe!</string>
 	<string name="request_again">Paghangyo utro</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Kan het recept niet importeren: %1$s</string>
 	<string name="recipe_import_in_progress">Recept importeren</string>
 	<string name="recipe_import_menu_title">Recept importeren vanuit URL</string>
-	<string name="recipe_import_service_url_hint">URL van de importservice voor recepten</string>
 	<string name="recipe_list_image_desc">Miniatuurafbeelding van recept</string>
 	<string name="recipe_no_timer">Dit recept heeft geen timer!</string>
 	<string name="request_again">Opnieuw aanvragen</string>

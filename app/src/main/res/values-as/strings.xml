@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ৰেচিপি আমদানি কৰিব পৰা নগ’ল: %1$s</string>
 	<string name="recipe_import_in_progress">ৰেচিপি আমদানি</string>
 	<string name="recipe_import_menu_title">URL ৰ পৰা ৰেচিপি আমদানি কৰক</string>
-	<string name="recipe_import_service_url_hint">ৰেচিপি আমদানি সেৱা URL</string>
 	<string name="recipe_list_image_desc">ৰেচিপিৰ ছবিৰ থাম্বনেইল</string>
 	<string name="recipe_no_timer">এই Recipe ত টাইমাৰ নাই!</string>
 	<string name="request_again">আকৌ অনুৰোধ কৰক</string>

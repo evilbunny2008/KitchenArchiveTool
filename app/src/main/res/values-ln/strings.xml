@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ekoki ko kotisa recette te: %1$s</string>
 	<string name="recipe_import_in_progress">Importation ya recette</string>
 	<string name="recipe_import_menu_title">Kokɔtisa recette na URL</string>
-	<string name="recipe_import_service_url_hint">URL ya service ya importation ya recette</string>
 	<string name="recipe_list_image_desc">Image miniature ya recette</string>
 	<string name="recipe_no_timer">Recette oyo eza na timer te!</string>
 	<string name="request_again">Senga lisusu</string>

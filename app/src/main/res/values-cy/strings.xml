@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Methu mewnforio’r rysáit: %1$s</string>
 	<string name="recipe_import_in_progress">Wrthi’n mewnforio rysáit</string>
 	<string name="recipe_import_menu_title">Mewnforio rysáit o URL</string>
-	<string name="recipe_import_service_url_hint">URL gwasanaeth mewnforio rysáit</string>
 	<string name="recipe_list_image_desc">Delwedd bawd o rysáit</string>
 	<string name="recipe_no_timer">Nid oes gan y Rysáit hwn amserydd!</string>
 	<string name="request_again">Cais eto</string>

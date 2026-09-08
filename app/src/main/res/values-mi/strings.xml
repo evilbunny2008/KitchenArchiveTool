@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Kāore i taea te kawemai te tunu: %1$s</string>
 	<string name="recipe_import_in_progress">Kei te kawemai te tunu</string>
 	<string name="recipe_import_menu_title">Kawemai te tunu mai i te URL</string>
-	<string name="recipe_import_service_url_hint">URL ratonga kawemai Recipe</string>
 	<string name="recipe_list_image_desc">Atahanga karakōnui o te tunu</string>
 	<string name="recipe_no_timer">Ko tenei Recipe kaore he taima!</string>
 	<string name="request_again">Tonoa ano</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ʻAʻole hiki ke hoʻokomo i ka meaʻai: %1$s</string>
 	<string name="recipe_import_in_progress">Ke lawe mai nei i ka meaʻai</string>
 	<string name="recipe_import_menu_title">E lawe mai i ka meaʻai mai URL</string>
-	<string name="recipe_import_service_url_hint">URL lawelawe lawe ʻai meaʻai</string>
 	<string name="recipe_list_image_desc">Kiʻi liʻiliʻi o ka meaʻai</string>
 	<string name="recipe_no_timer">ʻAʻohe manawa o kēia ʻai!</string>
 	<string name="request_again">Noi hou</string>

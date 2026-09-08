@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Manam atirqanchu chay recetata hawaman apamuyta: %1$s</string>
 	<string name="recipe_import_in_progress">Receta apamuy</string>
 	<string name="recipe_import_menu_title">URL nisqamanta recetata apamuy</string>
-	<string name="recipe_import_service_url_hint">Receta apamuy yanapakuy URL</string>
 	<string name="recipe_list_image_desc">Imahina uchuy rikchaynin recetamanta</string>
 	<string name="recipe_no_timer">¡Kay Recetaqa manam temporizadorniyuqchu!</string>
 	<string name="request_again">Hukmanta mañakuy</string>

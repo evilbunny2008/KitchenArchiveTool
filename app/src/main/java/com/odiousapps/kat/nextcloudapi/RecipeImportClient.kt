@@ -5,6 +5,7 @@
  */
 package com.odiousapps.kat.nextcloudapi
 
+import com.odiousapps.kat.BuildConfig
 import org.json.JSONObject
 import java.io.IOException
 import java.net.HttpURLConnection
@@ -14,20 +15,23 @@ import java.nio.charset.StandardCharsets
 
 /**
  * Talks to the server-side recipe-import bridge script (see
- * import_recipe.php in this project's companion server-side tooling) --
- * posts the recipe URL to scrape+convert, and returns the resulting
- * recipe JSON-LD. Uploading it into Nextcloud Cookbook is this app's own
- * job (see CookbookAPI.createRecipe(), called with whichever account this
- * app is already authenticated as) -- the bridge only ever sees a URL,
- * never any Nextcloud credentials for any account.
+ * get_jsonld.php in this project's companion server-side tooling,
+ * deployed at [SERVICE_URL]) -- posts the recipe URL to scrape+convert,
+ * and returns the resulting recipe JSON-LD. Uploading it into Nextcloud
+ * Cookbook is this app's own job (see CookbookAPI.createRecipe(), called
+ * with whichever account this app is already authenticated as) -- the
+ * bridge only ever sees a URL, never any Nextcloud credentials for any
+ * account.
  *
  * Plain HTTP, not the Nextcloud SSO library: this talks to a *different*
- * server entirely (wherever the bridge script is deployed), not to any
- * Nextcloud instance directly.
+ * server entirely (odiousapps.com, not wherever the user's own Nextcloud
+ * instance is).
  *
  * Must be called from a background thread.
  */
 object RecipeImportClient {
+
+   private const val SERVICE_URL = "https://recipes.odiousapps.com/get_jsonld.php"
 
    sealed class Result {
       data class Success(val recipe: JSONObject) : Result()
@@ -41,9 +45,9 @@ object RecipeImportClient {
    // than the rest of the nextcloudapi package's requests.
    private const val READ_TIMEOUT_MS = 60000
 
-   fun importRecipe(serviceUrl: String, recipeUrl: String): Result {
+   fun importRecipe(recipeUrl: String): Result {
       val url = try {
-         URL(serviceUrl)
+         URL(SERVICE_URL)
       } catch (e: Exception) {
          return Result.Failure("Invalid recipe import service URL: ${e.message}")
       }
@@ -54,6 +58,7 @@ object RecipeImportClient {
          connectTimeout = CONNECT_TIMEOUT_MS
          readTimeout = READ_TIMEOUT_MS
          setRequestProperty("Content-Type", "application/x-www-form-urlencoded")
+         setRequestProperty("User-Agent", "KitchenArchiveTool/${BuildConfig.VERSION_NAME}")
       }
 
       return try {
@@ -73,10 +78,10 @@ object RecipeImportClient {
          if (responseCode in 200..299 && json?.has("recipe") == true) {
             Result.Success(json.getJSONObject("recipe"))
          } else {
-            // import_recipe.php's own error responses put the useful
-            // detail under "details" (relayed from the Python script's
-            // own stderr) or "error" (its own validation failures) --
-            // prefer whichever is actually present rather than assuming.
+            // get_jsonld.php's own error responses put the useful detail
+            // under "details" (relayed from the Python script's own
+            // stderr) or "error" (its own validation failures) -- prefer
+            // whichever is actually present rather than assuming.
             val reason = json?.optString("details")?.takeIf { it.isNotBlank() }
                ?: json?.optString("error")?.takeIf { it.isNotBlank() }
                ?: "HTTP $responseCode"

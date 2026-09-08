@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ไม่สามารถนำเข้าสูตร: %1$s</string>
 	<string name="recipe_import_in_progress">กำลังนำเข้าสูตร</string>
 	<string name="recipe_import_menu_title">นำเข้าสูตรจาก URL</string>
-	<string name="recipe_import_service_url_hint">URL บริการนำเข้าสูตร</string>
 	<string name="recipe_list_image_desc">ภาพขนาดย่อของสูตร</string>
 	<string name="recipe_no_timer">สูตรนี้ไม่มีการจับเวลา!</string>
 	<string name="request_again">ขออีกครั้ง</string>

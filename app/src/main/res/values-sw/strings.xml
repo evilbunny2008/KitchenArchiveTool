@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Haikuweza kuleta mapishi: %1$s</string>
 	<string name="recipe_import_in_progress">Inaleta mapishi</string>
 	<string name="recipe_import_menu_title">Leta kichocheo kutoka kwa URL</string>
-	<string name="recipe_import_service_url_hint">URL ya huduma ya uingizaji wa mapishi</string>
 	<string name="recipe_list_image_desc">Kijipicha cha picha ya mapishi</string>
 	<string name="recipe_no_timer">Kichocheo hiki hakina kipima muda!</string>
 	<string name="request_again">Omba tena</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ora bisa ngimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Impor resep</string>
 	<string name="recipe_import_menu_title">Impor resep saka URL</string>
-	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar thumbnail resep</string>
 	<string name="recipe_no_timer">Resep iki ora duwe timer!</string>
 	<string name="request_again">Njaluk maneh</string>

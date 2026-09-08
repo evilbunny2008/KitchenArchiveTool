@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ރެސިޕީ އިމްޕޯޓް ނުކުރެވުނު: %1$s</string>
 	<string name="recipe_import_in_progress">އިމްޕޯޓް ކުރުމުގެ ރެސިޕީ</string>
 	<string name="recipe_import_menu_title">ޔޫއާރްއެލް އިން ރެސިޕީ އިމްޕޯޓްކުރުން</string>
-	<string name="recipe_import_service_url_hint">ރެސިޕީ އިމްޕޯޓް ސާވިސް ޔޫއާރްއެލް</string>
 	<string name="recipe_list_image_desc">ރެސިޕީގެ އިމޭޖް ތަމްބްނެއިލް</string>
 	<string name="recipe_no_timer">މި ރެސިޕީގައި ޓައިމަރެއް ނެތް!</string>
 	<string name="request_again">އަނެއްކާވެސް ރިކުއެސްޓް ކުރާށެވެ</string>

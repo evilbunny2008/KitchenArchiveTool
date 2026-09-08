@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Det gick inte att importera receptet: %1$s</string>
 	<string name="recipe_import_in_progress">Importerar recept</string>
 	<string name="recipe_import_menu_title">Importera recept från URL</string>
-	<string name="recipe_import_service_url_hint">Receptimporttjänstens URL</string>
 	<string name="recipe_list_image_desc">Miniatyrbild av receptet</string>
 	<string name="recipe_no_timer">Det här receptet har ingen timer!</string>
 	<string name="request_again">Begär igen</string>

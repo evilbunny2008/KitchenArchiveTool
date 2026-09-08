@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">تعذر استيراد الوصفة: %1$s</string>
 	<string name="recipe_import_in_progress">جارٍ استيراد الوصفة</string>
 	<string name="recipe_import_menu_title">استيراد وصفة من URL</string>
-	<string name="recipe_import_service_url_hint">وصفة URL لخدمة الاستيراد</string>
 	<string name="recipe_list_image_desc">صورة مصغرة للوصفة</string>
 	<string name="recipe_no_timer">هذه الوصفة لا تحتوي على مؤقت!</string>
 	<string name="request_again">اطلب مرة أخرى</string>

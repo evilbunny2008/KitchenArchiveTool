@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ka i lu u a nyôr a kwaghyan u i nger la ga: %1$s</string>
 	<string name="recipe_import_in_progress">U van a kwaghyan ken won</string>
 	<string name="recipe_import_menu_title">Nyôr a kwaghyan hen URL</string>
-	<string name="recipe_import_service_url_hint">URL u eren tom u van a kwaghyan</string>
 	<string name="recipe_list_image_desc">Foto u kiriki u kwaghyan</string>
 	<string name="recipe_no_timer">Recipe ne ngu a shighe ga!</string>
 	<string name="request_again">Hide sôn</string>

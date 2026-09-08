@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ayikhoni kungenisa iresiphi: %1$s</string>
 	<string name="recipe_import_in_progress">Kungenisa iresiphi</string>
 	<string name="recipe_import_menu_title">Ngenisa iresiphi kusuka ku-URL</string>
-	<string name="recipe_import_service_url_hint">I-URL yesevisi yekungenisa iresiphi</string>
 	<string name="recipe_list_image_desc">Sitfombe lesincane seresiphi</string>
 	<string name="recipe_no_timer">Le Recipe ayinaso sikhatsi!</string>
 	<string name="request_again">Sicela futsi</string>

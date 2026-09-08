@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Hindi ma-import ang recipe: %1$s</string>
 	<string name="recipe_import_in_progress">Ini-import ang recipe</string>
 	<string name="recipe_import_menu_title">Mag-import ng recipe mula sa URL</string>
-	<string name="recipe_import_service_url_hint">URL ng serbisyo sa pag-import ng recipe</string>
 	<string name="recipe_list_image_desc">Thumbnail ng larawan ng recipe</string>
 	<string name="recipe_no_timer">Ang Recipe na ito ay walang timer!</string>
 	<string name="request_again">Humiling muli</string>

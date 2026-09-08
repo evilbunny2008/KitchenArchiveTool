@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Le mafai ona faaulufale mai le fua: %1$s</string>
 	<string name="recipe_import_in_progress">O lo’o fa’aulufaleina mai le fua</string>
 	<string name="recipe_import_menu_title">Aumai fua mai le URL</string>
-	<string name="recipe_import_service_url_hint">URL auaunaga fa’aulufale mai fua</string>
 	<string name="recipe_list_image_desc">Ata laititi o le fua</string>
 	<string name="recipe_no_timer">O lenei fua e leai se taimi!</string>
 	<string name="request_again">Toe talosaga</string>

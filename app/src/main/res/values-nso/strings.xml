@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Couldn’t import risepe: %1$s</string>
 	<string name="recipe_import_in_progress">Go reka ka ntle risepe</string>
 	<string name="recipe_import_menu_title">Tsenya risepe go tšwa go URL</string>
-	<string name="recipe_import_service_url_hint">URL ya tirelo ya go tsenya ka ntle ya risepe</string>
 	<string name="recipe_list_image_desc">Seswantšho se senyenyane sa risepe</string>
 	<string name="recipe_no_timer">Risepe ye ga e na sešupanako!</string>
 	<string name="request_again">Kgopela gape</string>

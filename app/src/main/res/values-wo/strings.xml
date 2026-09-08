@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Mënu ma indi rëset bi: %1$s</string>
 	<string name="recipe_import_in_progress">Reset buy indi</string>
 	<string name="recipe_import_menu_title">Yobbu rëset ci URL</string>
-	<string name="recipe_import_service_url_hint">URL sarwiisu indi rëset</string>
 	<string name="recipe_list_image_desc">Nataalu rëset bu ndaw</string>
 	<string name="recipe_no_timer">Reset bii amul reloj</string>
 	<string name="request_again">Laajaat</string>

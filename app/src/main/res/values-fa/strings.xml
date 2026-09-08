@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">دستور غذا وارد نشد: %1$s</string>
 	<string name="recipe_import_in_progress">واردات دستور پخت</string>
 	<string name="recipe_import_menu_title">دستور غذا را از URL وارد کنید</string>
-	<string name="recipe_import_service_url_hint">URL سرویس واردات دستور غذا</string>
 	<string name="recipe_list_image_desc">تصویر کوچک دستور غذا</string>
 	<string name="recipe_no_timer">این دستور پخت تایمر ندارد!</string>
 	<string name="request_again">دوباره درخواست کن</string>

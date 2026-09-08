@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Retseptni import qilib bo’lmadi: %1$s</string>
 	<string name="recipe_import_in_progress">Retsept import qilinmoqda</string>
 	<string name="recipe_import_menu_title">URL dan retseptni import qiling</string>
-	<string name="recipe_import_service_url_hint">Retsept import xizmati URL manzili</string>
 	<string name="recipe_list_image_desc">Retseptning kichik rasmi</string>
 	<string name="recipe_no_timer">Ushbu retseptda taymer yo’q!</string>
 	<string name="request_again">Yana so’rang</string>

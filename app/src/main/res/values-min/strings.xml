@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Indak dapek maimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Resep maimpor</string>
 	<string name="recipe_import_menu_title">Impor resep dari URL</string>
-	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">Gambar ketek resep</string>
 	<string name="recipe_no_timer">Resep ko indak ado timer!</string>
 	<string name="request_again">Pintak baliak</string>

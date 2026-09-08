@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Nie można zaimportować przepisu: %1$s</string>
 	<string name="recipe_import_in_progress">Importowanie przepisu</string>
 	<string name="recipe_import_menu_title">Importuj przepis z adresu URL</string>
-	<string name="recipe_import_service_url_hint">Adres URL usługi importowania przepisów</string>
 	<string name="recipe_list_image_desc">Miniatura obrazu przepisu</string>
 	<string name="recipe_no_timer">Ten przepis nie ma timera!</string>
 	<string name="request_again">Poproś ponownie</string>

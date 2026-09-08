@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Recipe a import thei lo: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe import a ni</string>
 	<string name="recipe_import_menu_title">URL atang hian recipe import rawh</string>
-	<string name="recipe_import_service_url_hint">Recipe import service URL a ni</string>
 	<string name="recipe_list_image_desc">Image thumbnail a ni a, a siam dan tur</string>
 	<string name="recipe_no_timer">He Recipe hian timer a nei lo!</string>
 	<string name="request_again">Dil leh rawh</string>

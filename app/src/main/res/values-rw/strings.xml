@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ntushobora gutumiza resept:%1$s</string>
 	<string name="recipe_import_in_progress">Kuzana ibicuruzwa</string>
 	<string name="recipe_import_menu_title">Kuzana resept muri URL</string>
-	<string name="recipe_import_service_url_hint">Koresha resept ya serivise yo gutumiza URL</string>
 	<string name="recipe_list_image_desc">Ishusho thumbnail ya resept</string>
 	<string name="recipe_no_timer">Iyi resept ntabwo ifite ingengabihe!</string>
 	<string name="request_again">Ongera usabe</string>

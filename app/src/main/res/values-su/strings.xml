@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Teu bisa ngimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Impor resep</string>
 	<string name="recipe_import_menu_title">Impor resep ti URL</string>
-	<string name="recipe_import_service_url_hint">URL jasa impor resep</string>
 	<string name="recipe_list_image_desc">Gambar leutik resep</string>
 	<string name="recipe_no_timer">Resep ieu teu gaduh timer!</string>
 	<string name="request_again">Menta deui</string>

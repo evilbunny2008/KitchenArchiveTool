@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Tena nakkulle ni impor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Impor resep</string>
 	<string name="recipe_import_menu_title">Impor resep battu ri URL</string>
-	<string name="recipe_import_service_url_hint">URL layanan impor resep</string>
 	<string name="recipe_list_image_desc">gambara ca’di resep</string>
 	<string name="recipe_no_timer">anne resep tena timerna!</string>
 	<string name="request_again">Appala poleang</string>

@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ରେସିପି ଆମଦାନୀ କରିପାରିବ ନାହିଁ:%1$s |</string>
 	<string name="recipe_import_in_progress">ରେସିପି ଆମଦାନୀ</string>
 	<string name="recipe_import_menu_title">URL ରୁ ରେସିପି ଆମଦାନୀ କରନ୍ତୁ |</string>
-	<string name="recipe_import_service_url_hint">ଆମଦାନି ସେବା URL ରସିପି |</string>
 	<string name="recipe_list_image_desc">ରେସିପିର ପ୍ରତିଛବି ଥମ୍ na ନେଲ୍ |</string>
 	<string name="recipe_no_timer">ଏହି ରେସିପିର ଏକ ଟାଇମର୍ ନାହିଁ!</string>
 	<string name="request_again">ପୁନର୍ବାର ଅନୁରୋଧ |</string>

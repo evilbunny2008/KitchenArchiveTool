@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Sizinathe kuitanitsa zophikira: %1$s</string>
 	<string name="recipe_import_in_progress">Kulowetsa Chinsinsi</string>
 	<string name="recipe_import_menu_title">Lowetsani Chinsinsi kuchokera ku URL</string>
-	<string name="recipe_import_service_url_hint">Ulalo wa ntchito yolowetsa maphikidwe</string>
 	<string name="recipe_list_image_desc">Chithunzi chachithunzi cha Chinsinsi</string>
 	<string name="recipe_no_timer">Chinsinsichi chilibe chowerengera nthawi!</string>
 	<string name="request_again">Funsaninso</string>

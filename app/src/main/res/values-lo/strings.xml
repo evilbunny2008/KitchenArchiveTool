@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ບໍ່ສາມາດນຳເຂົ້າສູດໄດ້: %1$s</string>
 	<string name="recipe_import_in_progress">ກຳລັງນຳເຂົ້າສູດ</string>
 	<string name="recipe_import_menu_title">ນໍາເຂົ້າສູດຈາກ URL</string>
-	<string name="recipe_import_service_url_hint">URL ການບໍລິການນໍາເຂົ້າສູດ</string>
 	<string name="recipe_list_image_desc">ຮູບຫຍໍ້ຂອງສູດ</string>
 	<string name="recipe_no_timer">ສູດນີ້ບໍ່ມີເຄື່ອງຈັບເວລາ!</string>
 	<string name="request_again">ຮ້ອງຂໍອີກເທື່ອຫນຶ່ງ</string>

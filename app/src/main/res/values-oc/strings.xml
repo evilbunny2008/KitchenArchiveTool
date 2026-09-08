@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Impossible d’importar la recèpta : %1$s</string>
 	<string name="recipe_import_in_progress">Important la recèpta</string>
 	<string name="recipe_import_menu_title">Importar la recèpta dempuèi l’URL</string>
-	<string name="recipe_import_service_url_hint">URL del servici d’importacion de recèptas</string>
 	<string name="recipe_list_image_desc">Viniatura d’imatge de la recèpta</string>
 	<string name="recipe_no_timer">Aquesta Recèpta a pas de temporizator!</string>
 	<string name="request_again">Tornatz demandar</string>

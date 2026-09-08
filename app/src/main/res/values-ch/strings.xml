@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ti siña ma na’halom i riseta: %1$s</string>
 	<string name="recipe_import_in_progress">Manma’importa i riseta</string>
 	<string name="recipe_import_menu_title">Na’halom i resåta ginen URL</string>
-	<string name="recipe_import_service_url_hint">URL i setbisio ni‘ para u ma’importa i resåta</string>
 	<string name="recipe_list_image_desc">I litråtu ni‘ dikike’ gi i riseta</string>
 	<string name="recipe_no_timer">Ti guaha tiempo-ña este na riseta!</string>
 	<string name="request_again">Manmafa’na’an ta’lo</string>

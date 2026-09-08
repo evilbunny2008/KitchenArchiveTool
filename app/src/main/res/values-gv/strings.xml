@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Cha b’aashagh y red y chur magh: %1$s</string>
 	<string name="recipe_import_in_progress">Recipe y chur stiagh</string>
 	<string name="recipe_import_menu_title">Import y redid veih URL</string>
-	<string name="recipe_import_service_url_hint">URL seirveish import y red</string>
 	<string name="recipe_list_image_desc">Deiney beg jeh’n recipe</string>
 	<string name="recipe_no_timer">Ta’n Recipe shoh gyn timer!</string>
 	<string name="request_again">Irree magh reesht</string>

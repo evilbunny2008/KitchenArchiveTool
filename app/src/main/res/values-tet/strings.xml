@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Labele hatama reseita: %1$s</string>
 	<string name="recipe_import_in_progress">Importasaun reseita</string>
 	<string name="recipe_import_menu_title">Importa reseita husi URL</string>
-	<string name="recipe_import_service_url_hint">URL servisu importasaun reseita nian</string>
 	<string name="recipe_list_image_desc">Imajen ki’ik hosi reseita</string>
 	<string name="recipe_no_timer">Reseita ida-ne’e laiha tempu!</string>
 	<string name="request_again">Husu fali</string>

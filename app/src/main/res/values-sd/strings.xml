@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">ترڪيب درآمد نه ٿي سگھيو: %1$s</string>
 	<string name="recipe_import_in_progress">ترڪيب درآمد ڪري رهيو آهي</string>
 	<string name="recipe_import_menu_title">URL مان ترڪيب درآمد ڪريو</string>
-	<string name="recipe_import_service_url_hint">ترڪيب درآمد سروس URL</string>
 	<string name="recipe_list_image_desc">ترڪيب جي تصوير جو ٿمب نيل</string>
 	<string name="recipe_no_timer">هن ترڪيب ۾ ٽائمر نه آهي!</string>
 	<string name="request_again">ٻيهر درخواست ڪريو</string>

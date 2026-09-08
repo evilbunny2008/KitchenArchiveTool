@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">نسخہ درآمد نہ کت: %1$s</string>
 	<string name="recipe_import_in_progress">نسخہ درآمد کنگ</string>
 	<string name="recipe_import_menu_title">یو آر ایل ئا شہ نسخہ درآمد کن</string>
-	<string name="recipe_import_service_url_hint">نسخہ درآمد سروس یو آر ایل</string>
 	<string name="recipe_list_image_desc">نسخہ ئے اکس ئے تھمب نیل</string>
 	<string name="recipe_no_timer">اے نسخہ ئے تہا ٹائمر نیستیں</string>
 	<string name="request_again">پدا لوٹ کن</string>

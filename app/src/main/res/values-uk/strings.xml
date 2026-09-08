@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Не вдалося імпортувати рецепт: %1$s</string>
 	<string name="recipe_import_in_progress">Імпорт рецепта</string>
 	<string name="recipe_import_menu_title">Імпортувати рецепт із URL</string>
-	<string name="recipe_import_service_url_hint">URL-адреса служби імпорту рецептів</string>
 	<string name="recipe_list_image_desc">Ескіз зображення рецепта</string>
 	<string name="recipe_no_timer">Цей рецепт не має таймера!</string>
 	<string name="request_again">Повторний запит</string>

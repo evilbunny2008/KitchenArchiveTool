@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">रेसिपि आयात याये मफुत : %1$s</string>
 	<string name="recipe_import_in_progress">आयात यायेगु रेसिपि</string>
 	<string name="recipe_import_menu_title">यूआरएलं रेसिपि आयात या</string>
-	<string name="recipe_import_service_url_hint">रेसिपि आयात सेवा यूआरएल</string>
 	<string name="recipe_list_image_desc">रेसिपिया किपाया थम्बनेल</string>
 	<string name="recipe_no_timer">थुगु रेसिपिइ टाइमर मदु !</string>
 	<string name="request_again">हाकनं इनाप या</string>

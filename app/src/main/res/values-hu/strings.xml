@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Nem sikerült importálni a receptet: %1$s</string>
 	<string name="recipe_import_in_progress">Recept importálása</string>
 	<string name="recipe_import_menu_title">Recept importálása az URL-ről</string>
-	<string name="recipe_import_service_url_hint">Receptimportálási szolgáltatás URL-je</string>
 	<string name="recipe_list_image_desc">A recept miniatűrje</string>
 	<string name="recipe_no_timer">Ez a recept nem tartalmaz időzítőt!</string>
 	<string name="request_again">Kérjen újra</string>

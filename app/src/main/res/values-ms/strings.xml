@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Tidak dapat mengimport resipi: %1$s</string>
 	<string name="recipe_import_in_progress">Mengimport resipi</string>
 	<string name="recipe_import_menu_title">Import resipi dari URL</string>
-	<string name="recipe_import_service_url_hint">URL perkhidmatan import resipi</string>
 	<string name="recipe_list_image_desc">Imej kecil resipi</string>
 	<string name="recipe_no_timer">Resipi ini tidak mempunyai pemasa!</string>
 	<string name="request_again">Minta lagi</string>

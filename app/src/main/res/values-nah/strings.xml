@@ -110,7 +110,6 @@
 	<string name="recipe_import_failure">Ax uelki tij uikak nopa tlakualistli: %1$s</string>
 	<string name="recipe_import_in_progress">Ki uikaya se tlakualistli</string>
 	<string name="recipe_import_menu_title">Xikixti receta tlen URL</string>
-	<string name="recipe_import_service_url_hint">URL tlen tekitl tlen kiuika receta</string>
 	<string name="recipe_list_image_desc">Iixkopinkayo ​​tlen nopa tlakualistli</string>
 	<string name="recipe_no_timer">Ni tlakualistli ax kipia se tlajko tonali!</string>
 	<string name="request_again">Xijtlajtlani sempa</string>
