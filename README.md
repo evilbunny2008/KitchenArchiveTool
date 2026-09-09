@@ -9,14 +9,9 @@ You need the Nextcloud Android client app to sync the recipes.
 
 **First steps**
 
-First view after installation is a login screen with two ways to use the app.  
-With the login button you can choose a nextcloud account from nextcloud client and 
-sync directly with the nextcloud server.
-
-If you want to use the local storage you choose "Skip for local storage" and go into settings to choose
-the recipe directory for syncing.  
-(E.g. the folder for the nextcloud client is _Android/media/com.nextcloud.client/nextcloud/&lt;your account&gt;/&lt;
-folder&gt;_).
+First view after installation is a login screen. Tap the login button to choose a Nextcloud account from the
+Nextcloud client app and sync directly with your Nextcloud server — this is the only way into the app, since
+its whole purpose is working against a Nextcloud Cookbook instance.
 
 You also can choose the theme in the settings.
 
@@ -70,6 +65,30 @@ You also can choose the theme in the settings.
   instead of exiting (or, briefly, behaving inconsistently depending on how you'd navigated there).
 - The "Import recipe"/"Settings" entries in the account drawer were moved to the top and no longer sit under
   an unnecessary "App" heading.
+- **A transient, recoverable server error could wipe out every locally-stored recipe.** If fetching the
+  recipe list from the server failed (e.g. a temporary network hiccup, or the Nextcloud Files app's
+  background connection not responding), that failure was being silently treated as "the server now has zero
+  recipes" — and cleanup, which deletes any local recipe no longer present on the server, would then delete
+  everything. A failed fetch now correctly reports the sync as failed instead, and local recipes are left
+  completely untouched; the next scheduled sync or pull-to-refresh simply tries again.
+- **The initial sync right after logging in didn't survive the screen being rotated.** It ran on a background
+  thread tied directly to that one screen, so rotating recreated the screen from scratch (showing the login
+  button again, as if nothing had happened) while the old sync kept running independently and invisibly. If
+  you then went through the freshly-shown login screen again too, two syncs could end up writing to the same
+  local files at once, which could leave the import incomplete in a way a later pull-to-refresh wouldn't fix.
+  The initial sync is now handled the same durable way as every other sync in the app, survives the screen
+  being recreated, and can't run twice at once.
+- **The login screen could reappear on a later app launch even after already signing in successfully once**,
+  caused by a related issue in the same area above.
+- **The app could crash while a sync was still in progress.** Recipe thumbnails appear live as recipes are
+  downloaded, so it was possible to try showing one before its image had actually finished downloading; that
+  now falls back to no image temporarily instead of crashing, and picks up the real image next time the list
+  refreshes.
+- **A rare crash could happen when the recipe list refreshed from more than one place at the same time**
+  (e.g. right after signing in), caused by two of those refreshes both trying to rebuild the same
+  keyword/category data at once. Fixed by making that update atomic.
+- **Content could render underneath the navigation bar in landscape**, where it commonly sits at a side edge
+  rather than the bottom.
 
 ## Dependencies
 
