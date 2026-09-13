@@ -15,6 +15,7 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
+import androidx.work.workDataOf
 import com.odiousapps.kat.nextcloudapi.Accounts
 import com.odiousapps.kat.settings.PreferenceData
 import java.util.concurrent.TimeUnit
@@ -49,6 +50,20 @@ import java.util.concurrent.TimeUnit
  * `mRecipeFragment?.onRefresh()` on a value that was always null. Background
  * sync was silently a no-op before this migration, regardless of today's
  * permission crash.
+ *
+ * SyncWorker does show a progress notification for periodic (background)
+ * syncs -- see SyncWorker/SyncNotificationHelper -- but that's a plain,
+ * dismissible notification posted directly via NotificationManagerCompat,
+ * not a call to setForeground()/startForeground(). The two look similar
+ * but aren't: setForeground() is what actually requires the
+ * FOREGROUND_SERVICE permission this class deliberately avoids, since it
+ * promotes the whole Worker to a foreground-service-backed task (with an
+ * un-dismissable notification) specifically to protect it from being
+ * killed under Doze/background limits -- protection a quick
+ * check-and-download doesn't need. A plain notification just displays
+ * progress; it doesn't change how the work itself is scheduled or
+ * protected, and only needs the already-declared POST_NOTIFICATIONS
+ * permission.
  *
  * @author MicMun
  * @version 1.0, 04.09.26
@@ -90,19 +105,22 @@ object SyncScheduler {
       // actually offers (hours), so no clamping needed here.
       val request = PeriodicWorkRequestBuilder<SyncWorker>(intervalHours, TimeUnit.HOURS)
          .setConstraints(constraints)
+         .setInputData(workDataOf(SyncWorker.KEY_IS_MANUAL_SYNC to false))
          .build()
 
       workManager.enqueueUniquePeriodicWork(PERIODIC_WORK_NAME, ExistingPeriodicWorkPolicy.UPDATE, request)
    }
 
    /**
-    * Triggers an immediate one-off sync (pull-to-refresh). Deduplicated
-    * by unique work name with the KEEP policy, so a rapid double
-    * pull-to-refresh doesn't queue a second sync on top of one already
-    * running.
+    * Triggers an immediate one-off sync (pull-to-refresh, or the initial
+    * sync right after logging in). Deduplicated by unique work name with
+    * the KEEP policy, so a rapid double pull-to-refresh doesn't queue a
+    * second sync on top of one already running.
     */
    fun syncNow(context: Context) {
-      val request = OneTimeWorkRequestBuilder<SyncWorker>().build()
+      val request = OneTimeWorkRequestBuilder<SyncWorker>()
+         .setInputData(workDataOf(SyncWorker.KEY_IS_MANUAL_SYNC to true))
+         .build()
       WorkManager.getInstance(context.applicationContext)
          .enqueueUniqueWork(MANUAL_WORK_NAME, ExistingWorkPolicy.KEEP, request)
    }

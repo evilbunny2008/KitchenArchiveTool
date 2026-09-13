@@ -13,6 +13,7 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelStore
 import androidx.lifecycle.ViewModelStoreOwner
+import com.odiousapps.kat.notifications.SyncNotificationHelper
 import com.odiousapps.kat.services.RemainReceiver
 
 /**
@@ -52,6 +53,14 @@ class MainApplication : Application(), ViewModelStoreOwner {
                .build()
          )
       }
+
+      // Safe to call unconditionally on every app start -- idempotent if
+      // the channel already exists with the same settings. The cook
+      // timer's own channel is instead created lazily inside
+      // CooktimerService, since that's specific to starting a timer;
+      // this one is created here since sync can happen in the background
+      // without any particular screen or service having been opened first.
+      SyncNotificationHelper.createSyncNotificationChannel(this)
    }
 
    companion object {

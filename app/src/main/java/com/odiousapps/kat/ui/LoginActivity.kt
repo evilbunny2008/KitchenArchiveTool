@@ -31,6 +31,7 @@ import com.odiousapps.kat.R
 import com.odiousapps.kat.nextcloudapi.Accounts
 import com.odiousapps.kat.services.sync.SyncScheduler
 import com.odiousapps.kat.settings.PreferenceData
+import com.odiousapps.kat.ui.sync.SyncProgressDialog
 import com.odiousapps.kat.util.Filesystem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -234,6 +235,7 @@ class LoginActivity : AppCompatActivity() {
       }
       findViewById<TextView>(R.id.progress_text).text = getString(R.string.syncing_recipes)
       findViewById<Button>(R.id.buttonLogin).visibility = View.GONE
+      SyncProgressDialog.showIfNotShown(supportFragmentManager)
    }
 
    private fun completeLoginAndOpenApp() {

@@ -148,12 +148,16 @@
 	</string-array>
 	<string name="stop_btn">Stops timer</string>
 	<string name="storage_permissions_not_granted">No storage access!</string>
+	<string name="sync_channel_description">Channel for recipe sync progress notifications</string>
+	<string name="sync_channel_name">Recipe sync channel</string>
 	<string name="sync_interval_name_1">Every Hour</string>
 	<string name="sync_interval_name_4">Every 4 Hours</string>
 	<string name="sync_interval_name_6">Every 6 Hours</string>
 	<string name="sync_interval_name_12">Every 12 Hours</string>
 	<string name="sync_interval_name_24">Every 24 Hours</string>
 	<string name="sync_interval_name_off">Off</string>
+	<string name="sync_notification_progress">%1$d/%2$d – %3$s</string>
+	<string name="sync_notification_title">Syncing recipes</string>
 	<string name="syncing_recipes">Syncing your recipes…</string>
 	<string-array name="sync_interval_values" translatable="false">
 		<item>0</item>

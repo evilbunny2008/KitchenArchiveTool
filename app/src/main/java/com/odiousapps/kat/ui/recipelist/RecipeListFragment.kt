@@ -45,6 +45,7 @@ import com.odiousapps.kat.ui.CurrentSettingViewModel
 import com.odiousapps.kat.ui.CurrentSettingViewModelFactory
 import com.odiousapps.kat.ui.MainActivity
 import com.odiousapps.kat.ui.copytoaccount.CopyToAccountBottomSheet
+import com.odiousapps.kat.ui.sync.SyncProgressDialog
 import com.odiousapps.kat.util.ConnectivityCheck
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -358,11 +359,13 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
       recipesViewModel.removeDuplicateRecipes()
       if (PreferenceData.getInstance().isWifiOnly()) {
          if (ConnectivityCheck.isConnectedToWifi(context)) {
+            SyncProgressDialog.showIfNotShown(childFragmentManager)
             doSync(context)
          } else {
             onSyncFailure(R.string.error_only_wifi)
          }
       } else if (ConnectivityCheck.isConnected(context)) {
+         SyncProgressDialog.showIfNotShown(childFragmentManager)
          doSync(context)
       } else {
          onSyncFailure(R.string.error_no_network)
