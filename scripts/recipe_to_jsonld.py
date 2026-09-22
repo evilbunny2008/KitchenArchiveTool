@@ -762,6 +762,43 @@ NO_QUANTITY_MARKERS = (
 # quantity than a bare "1" when no amount is stated at all.
 SALT_OR_PEPPER_RE = re.compile(r"\b(?:salt|pepper)\b", re.IGNORECASE)
 
+# Matches "<name> - <amount>[ <unit words>]" with nothing else trailing --
+# some hand-coded sites (no real schema.org markup) write an ingredient's
+# amount *after* its name rather than before it, e.g. "Large Eggs - 2" or
+# "Hot Water - 6 tablespoons". Deliberately requires the whole rest of the
+# line, after the dash, to be just a number and (optionally) one or two
+# unit words: a dash followed by non-numeric text (e.g. "Olive Oil - for
+# greasing ramekins") or by a number with extra trailing prose (e.g. "...-
+# 1 tsp, to taste") won't match at all, so those fall through to
+# ensure_leading_quantity's existing pinch/generic-"1"-prefix handling
+# instead of risking a genuine descriptive note being misread as a
+# quantity.
+TRAILING_QUANTITY_RE = re.compile(
+    rf"^(.+?)\s+-\s+({QTY_TOKEN})\s?([A-Za-z]+(?:\s[A-Za-z]+)?)?\s*$"
+)
+
+
+def promote_trailing_quantity(text):
+    """
+    Moves a trailing '<name> - <amount>[ <unit>]' amount to the front of
+    the line, e.g. 'Large Eggs - 2' -> '2 Large Eggs', 'Hot Water - 6
+    tablespoons' -> '6 tablespoons Hot Water'. Downstream tools (e.g.
+    Nextcloud Cookbook's serving-size recalculation) need the amount to
+    lead the line the same as it would for any ordinary 'amount
+    ingredient' phrasing.
+
+    Returns None (leaving the caller to fall back to its own handling) if
+    the line doesn't match the narrow "name - number[ unit]" shape at all
+    -- see TRAILING_QUANTITY_RE for exactly what that excludes.
+    """
+    m = TRAILING_QUANTITY_RE.match(text.strip())
+    if not m:
+        return None
+    name, qty, unit = m.group(1).strip(), m.group(2), m.group(3)
+    if not name:
+        return None
+    return f"{qty} {unit} {name}" if unit else f"{qty} {name}"
+
 
 def ensure_leading_quantity(ingredients):
     """
@@ -798,7 +835,14 @@ def ensure_leading_quantity(ingredients):
             stripped = item.strip()
             already_open_ended = any(marker in stripped.lower() for marker in NO_QUANTITY_MARKERS)
             if stripped and not NUMBER_START_RE.match(stripped) and not stripped.endswith(":"):
-                if SALT_OR_PEPPER_RE.search(stripped):
+                promoted = promote_trailing_quantity(stripped)
+                if promoted is not None:
+                    # A real amount was found at the end of the line --
+                    # takes priority over the salt/pepper pinch guess and
+                    # the generic "1" prefix below, both of which are only
+                    # meant for lines with no stated amount at all.
+                    item = promoted
+                elif SALT_OR_PEPPER_RE.search(stripped):
                     # A pinch is already an informal, approximate measure,
                     # so "1 pinch of salt, to taste" or "..., for
                     # seasoning" isn't self-contradictory the way "1
