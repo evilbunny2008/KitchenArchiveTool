@@ -275,10 +275,22 @@ IMPERIAL_UNITS_STANDALONE = rf"(?:pounds?|lbs?|{FLOZ_UNITS}|ounces?|oz|cups?|inc
 _CHAIN_TOKEN = rf"(?:{QTY_TOKEN})\s?(?:(?:{METRIC_UNITS}|{IMPERIAL_UNITS_CHAIN})(?![A-Za-z])|{INCH_SYMBOL})"
 _CHAIN_TOKEN_RE = re.compile(_CHAIN_TOKEN, re.IGNORECASE)
 CHAIN_RE = re.compile(rf"{_CHAIN_TOKEN}(?:\s*/\s*{_CHAIN_TOKEN})+", re.IGNORECASE)
-STANDALONE_RE = re.compile(rf"(?:{QTY_TOKEN})\s?(?:{IMPERIAL_UNITS_STANDALONE}(?![A-Za-z])|{INCH_SYMBOL})", re.IGNORECASE)
+
+# A quantity range (e.g. "3-4", "6 - 8") sharing a single trailing unit (e.g.
+# "3-4 tablespoons", "6-8 oz"). Tried before the plain QTY_TOKEN alternative
+# below so the whole range is captured as one token instead of matching only
+# the second number -- without this, "3-4 tablespoons" left "3-" dangling in
+# front of just the converted "4 tablespoons" (e.g. producing the nonsensical
+# "3-59ml" instead of "44-59ml").
+QTY_RANGE_TOKEN = rf"(?:{QTY_TOKEN})\s*-\s*(?:{QTY_TOKEN})"
+_QTY_OR_RANGE = rf"(?:{QTY_RANGE_TOKEN}|{QTY_TOKEN})"
+
+STANDALONE_RE = re.compile(rf"{_QTY_OR_RANGE}\s?(?:{IMPERIAL_UNITS_STANDALONE}(?![A-Za-z])|{INCH_SYMBOL})", re.IGNORECASE)
 
 _TOKEN_SPLIT_RE = re.compile(rf"^({QTY_TOKEN})\s?({METRIC_UNITS}|{IMPERIAL_UNITS_CHAIN}|{INCH_SYMBOL})$", re.IGNORECASE)
-_STANDALONE_SPLIT_RE = re.compile(rf"^({QTY_TOKEN})\s?({IMPERIAL_UNITS_STANDALONE}|{INCH_SYMBOL})$", re.IGNORECASE)
+_STANDALONE_SPLIT_RE = re.compile(rf"^({_QTY_OR_RANGE})\s?({IMPERIAL_UNITS_STANDALONE}|{INCH_SYMBOL})$", re.IGNORECASE)
+_RANGE_SPLIT_RE = re.compile(rf"^({QTY_TOKEN})\s*-\s*({QTY_TOKEN})$")
+_CONVERTED_VALUE_UNIT_RE = re.compile(r"^(-?[\d.]+)([A-Za-z]+)$")
 
 TEMP_C = r"(\d+)\s*(?:\u00b0|degrees?)?\s*C\b"
 TEMP_F = r"(\d+)\s*(?:\u00b0|degrees?)?\s*F\b"
@@ -394,6 +406,22 @@ def convert_imperial_token(qty_str, unit, context=""):
     parsed (e.g. a range like '6-8 oz'). `context` is the surrounding
     ingredient text, used only to decide ml-vs-g for tsp/tbsp/cup."""
     original = f"{qty_str} {unit}".strip()
+
+    range_match = _RANGE_SPLIT_RE.match(qty_str.strip())
+    if range_match:
+        # Convert each end of the range independently, then recombine --
+        # rather than converting the whole "qty_str" as one number (which
+        # parse_quantity can't do for a range anyway) or leaving the first
+        # number unconverted (see QTY_RANGE_TOKEN above for why that used to
+        # happen).
+        low = convert_imperial_token(range_match.group(1), unit, context)
+        high = convert_imperial_token(range_match.group(2), unit, context)
+        low_m = _CONVERTED_VALUE_UNIT_RE.match(low)
+        high_m = _CONVERTED_VALUE_UNIT_RE.match(high)
+        if low_m and high_m and low_m.group(2) == high_m.group(2):
+            return f"{low_m.group(1)}-{high_m.group(1)}{low_m.group(2)}"
+        return f"{low}-{high}"
+
     qty = parse_quantity(qty_str)
     if qty is None:
         return original
@@ -1974,13 +2002,21 @@ def extract_title(soup):
 
     h1_texts = [h.get_text(strip=True) for h in soup.find_all("h1") if h.get_text(strip=True)]
 
-    if len(h1_texts) == 1:
+    # A single h1 is trusted directly -- unless it's identical to the
+    # <title> tag's own text. Some templates (e.g. older Blogger themes)
+    # render the raw SEO <title> straight into the h1, site-name suffix and
+    # all (e.g. "Air Fryer Poached Eggs - T4tasty"), rather than a genuinely
+    # separate, hand-written heading -- so that case needs the same
+    # site-name-stripping treatment below instead of being trusted as-is.
+    if len(h1_texts) == 1 and h1_texts[0] != title_text:
         return h1_texts[0]
 
     if title_text:
         # Prefer the longest matching h1 (most specific) that's actually
-        # contained in the <title> text.
-        matches = [h for h in h1_texts if h in title_text]
+        # contained in the <title> text -- but not one that's simply
+        # identical to the whole <title>, which wouldn't narrow anything
+        # down (see above).
+        matches = [h for h in h1_texts if h in title_text and h != title_text]
         if matches:
             return max(matches, key=len)
         # No h1 matched the <title> at all (e.g. the only h1 is an
@@ -2031,7 +2067,7 @@ def find_time_fields(soup):
     by pattern rather than any specific tag/class.
     """
     result = {}
-    for tag in soup.find_all(["h1", "h2", "h3", "h4", "b", "strong", "p", "td"]):
+    for tag in soup.find_all(["h1", "h2", "h3", "h4", "b", "strong", "p", "td", "li"]):
         text = tag.get_text(" ", strip=True)
         if not text or len(text) > 60:
             continue
@@ -2058,7 +2094,7 @@ DIFFICULTY_LABEL_RE = re.compile(r"difficulty\s*:?\s*([A-Za-z][A-Za-z\s\-]{0,20}
 def find_difficulty_tag(soup):
     """Look for a short 'Difficulty: <level>' label and return just the
     level (e.g. 'Easy'), or None if no such label is found."""
-    for tag in soup.find_all(["h1", "h2", "h3", "h4", "b", "strong", "p", "td"]):
+    for tag in soup.find_all(["h1", "h2", "h3", "h4", "b", "strong", "p", "td", "li"]):
         text = tag.get_text(" ", strip=True)
         if not text or len(text) > 60:
             continue
@@ -2234,17 +2270,33 @@ def heuristic_scrape(html, url=None):
             if not list_tag:
                 continue
 
-            items = []
-            for li in list_tag.find_all("li", recursive=False):
-                text = li.get_text(" ", strip=True)
+            def add_item(text):
                 if strip_step_label:
                     text = STEP_LABEL_RE.sub("", text)
                 if not text:
-                    continue
+                    return
                 if split_sentences:
                     items.extend(s.strip() for s in SENTENCE_SPLIT_RE.split(text) if s.strip())
                 else:
                     items.append(text)
+
+            items = []
+            for child in list_tag.find_all(["li", "ul", "ol"], recursive=False):
+                if child.name == "li":
+                    add_item(child.get_text(" ", strip=True))
+                    continue
+                # Malformed markup: a sub-list sitting as a *direct* child of
+                # the main list rather than properly nested inside one of its
+                # own <li> items (browsers/BeautifulSoup still parse it as
+                # written). Its <li> items aren't direct children of
+                # list_tag, so recursive=False above would otherwise drop
+                # them entirely -- flatten them in as ordinary items instead
+                # of silently losing that content. A sub-list genuinely
+                # nested inside a step's own <li> is unaffected, since it's
+                # never reached by this direct-children scan in the first
+                # place.
+                for li in child.find_all("li", recursive=False):
+                    add_item(li.get_text(" ", strip=True))
             if items:
                 return items
         return None
@@ -2420,10 +2472,26 @@ def heuristic_scrape(html, url=None):
                 if list_or_table.name == "table":
                     return extract_table_step_items(list_or_table)
                 found = []
-                for li in list_or_table.find_all("li", recursive=False):
+
+                def add(li):
                     text = STEP_LABEL_RE.sub("", li.get_text(" ", strip=True))
                     if text:
                         found.extend(s.strip() for s in SENTENCE_SPLIT_RE.split(text) if s.strip())
+
+                for child in list_or_table.find_all(["li", "ul", "ol"], recursive=False):
+                    if child.name == "li":
+                        add(child)
+                        continue
+                    # Malformed markup: a sub-list (e.g. "doneness levels"
+                    # under a step) sitting as a *direct* child of the main
+                    # list rather than nested inside one of its own <li>
+                    # items. recursive=False above would otherwise silently
+                    # drop its <li> items entirely -- flatten them in as
+                    # ordinary steps instead. A sub-list genuinely nested
+                    # inside a step's own <li> is unaffected, since it's
+                    # never reached by this direct-children scan.
+                    for li in child.find_all("li", recursive=False):
+                        add(li)
                 return found
 
             items = extract(list_tag)
