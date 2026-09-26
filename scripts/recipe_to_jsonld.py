@@ -751,11 +751,6 @@ def normalize_ingredient_phrasing(ingredients):
 NUMBER_START_RE = re.compile(r"^\s*\d")
 
 
-NO_QUANTITY_MARKERS = (
-    "to taste", "as needed", "for frying", "for serving", "optional",
-    "to season", "for seasoning",
-)
-
 # Matches "salt" or "pepper" as whole words (so "peppermint"/"saltine"
 # aren't caught, but "sea salt", "black pepper", "salt and pepper" are).
 # Used by ensure_leading_quantity to give these a more sensible default
@@ -804,28 +799,28 @@ def ensure_leading_quantity(ingredients):
     """
     Tools that recalculate ingredient amounts by serving size (e.g.
     Nextcloud Cookbook) require every ingredient line to start with a
-    parseable amount. Lines with no quantity at all -- e.g. 'Fresh
-    parsley, chopped' or 'Lemon juice' -- get a nominal '1 ' prefix so
-    they parse as 'amount ingredient', even though '1' isn't a precise
-    measurement for something like a garnish. Group-heading lines (e.g.
-    'To serve:', marked with a trailing colon) are left alone since
-    they aren't ingredients at all.
-
-    Lines that already say the quantity is intentionally open-ended (e.g.
-    'canola oil, as needed') are also left alone: unlike a garnish, where
-    '1' is at least a plausible whole-item guess, prefixing '1' onto '...,
-    as needed' is self-contradictory rather than merely imprecise.
+    parseable amount -- its own ingredient parser otherwise treats the
+    line as having "no value detected" and warns about it. So even a line
+    with no real quantity at all -- e.g. 'Fresh parsley, chopped', 'Lemon
+    juice', or an open-ended usage note like 'canola oil, as needed' or
+    'Olive oil, for greasing ramekins' -- gets a nominal leading amount so
+    it parses as 'amount ingredient'. That amount isn't a precise
+    measurement for a garnish or a "some, as needed" note, but it's the
+    same trade-off Nextcloud Cookbook's own recipe import makes, and it's
+    less broken than a line with no parseable amount at all. Group-heading
+    lines (e.g. 'To serve:', marked with a trailing colon) are left alone
+    since they aren't ingredients at all.
 
     An unquantified salt/pepper line (e.g. 'Salt and pepper' with no
     amount given at all) gets '1 pinch of' instead of the generic '1' --
     a bare '1' reads as one whole unit of salt, which is a much odder
     default guess than a pinch is for a seasoning that's rarely measured
-    as a discrete count in the first place. Unlike the generic '1'
-    prefix, this applies even to lines that also carry an open-ended
-    marker (e.g. 'Salt and pepper, to taste' -> '1 pinch of Salt and
-    pepper, to taste'): a pinch is already an informal, approximate
-    measure, so pairing it with "to taste" isn't self-contradictory the
-    way "1 canola oil, as needed" would be.
+    as a discrete count in the first place. Similarly, an unquantified
+    liquid ingredient (oil, milk, water, stock, ... -- see
+    is_liquid_ingredient) gets a nominal '10ml' instead of the generic
+    '1': "1 Olive Oil" isn't a unit of anything, whereas "10ml Olive Oil"
+    at least reads as a plausible small amount for a "for greasing"/"for
+    frying" style note.
     """
     if not isinstance(ingredients, list):
         return ingredients
@@ -833,7 +828,6 @@ def ensure_leading_quantity(ingredients):
     for item in ingredients:
         if isinstance(item, str):
             stripped = item.strip()
-            already_open_ended = any(marker in stripped.lower() for marker in NO_QUANTITY_MARKERS)
             if stripped and not NUMBER_START_RE.match(stripped) and not stripped.endswith(":"):
                 promoted = promote_trailing_quantity(stripped)
                 if promoted is not None:
@@ -843,12 +837,6 @@ def ensure_leading_quantity(ingredients):
                     # meant for lines with no stated amount at all.
                     item = promoted
                 elif SALT_OR_PEPPER_RE.search(stripped):
-                    # A pinch is already an informal, approximate measure,
-                    # so "1 pinch of salt, to taste" or "..., for
-                    # seasoning" isn't self-contradictory the way "1
-                    # canola oil, as needed" would be -- so this applies
-                    # even when an open-ended marker is also present,
-                    # unlike the generic '1' prefix below.
                     if "pinch" in stripped.lower():
                         # Already says "pinch" itself (e.g. "pinch of
                         # salt") -- just needs the leading number, not a
@@ -856,7 +844,17 @@ def ensure_leading_quantity(ingredients):
                         item = f"1 {stripped}"
                     else:
                         item = f"1 pinch of {stripped}"
-                elif not already_open_ended:
+                elif is_liquid_ingredient(stripped):
+                    # A bare "1" is even less meaningful for a liquid than
+                    # it is for a countable item (a "1 Olive Oil" isn't a
+                    # unit of anything) -- a small nominal volume like "a
+                    # splash for greasing/frying" reads far more sensibly,
+                    # and is still just as much of a rough guess as "1" is
+                    # for a garnish. Reuses the same oil/milk/water/stock/...
+                    # keyword check the unit-conversion logic above already
+                    # relies on for the same tsp/tbsp/cup ml-vs-g decision.
+                    item = f"10ml {stripped}"
+                else:
                     item = f"1 {stripped}"
         result.append(item)
     return result

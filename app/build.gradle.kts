@@ -30,7 +30,7 @@ android {
         dataBinding = true
     }
 
-    // Required for F-Droid's reproducible-build verification -- without
+    // Required for F-Droid's reproducible-build verification -- withoutth
     // this, Android's dependency-metadata block gets embedded slightly
     // differently depending on the exact build environment, which makes
     // F-Droid's independently-rebuilt APK fail to match byte-for-byte
