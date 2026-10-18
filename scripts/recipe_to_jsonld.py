@@ -1537,6 +1537,15 @@ INGREDIENT_LINE_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Matches a leading bullet marker (hyphen, en/em dash, or bullet character)
+# on an otherwise bare <br>-separated line -- e.g. "&#8211; 1 cup quinoa"
+# -- used by br_line_scrape() to strip it before matching against
+# INGREDIENT_LINE_RE, which otherwise never matches because the line
+# doesn't start with the quantity itself. Requires trailing whitespace
+# after the marker so it doesn't eat a genuine leading minus sign or
+# hyphenated word.
+LEADING_BULLET_RE = re.compile(r"^\s*[-‐-―•·*]\s+")
+
 # Matches a leading "Step N:"/"Step N -"/"Step N." label on a heading or
 # list item, so it can be stripped once the step's position is already
 # conveyed structurally (as a HowToStep in a list/sequence) and doesn't
@@ -1821,6 +1830,7 @@ def br_line_scrape(html, url=None):
 
         if len(lines) < 3:
             continue
+        lines = [LEADING_BULLET_RE.sub("", l) for l in lines]
         matching = [l for l in lines if INGREDIENT_LINE_RE.match(l)]
         if len(matching) < 3 or len(matching) / len(lines) < 0.5:
             continue
@@ -1841,6 +1851,112 @@ def br_line_scrape(html, url=None):
         return {k: v for k, v in recipe.items() if v not in (None, "", [], {})}
 
     return None
+
+
+# Matches a leading "1." / "1)" step number on an otherwise bare
+# <br>-separated instruction line, so it can be stripped once the step's
+# position is already conveyed structurally as a HowToStep in a sequence.
+# Deliberately narrower than STEP_LABEL_RE (which matches "Step 1: ..."
+# headings, not "1. ..." line prefixes).
+STEP_NUMBER_RE = re.compile(r"^\s*\d+[.)]\s*")
+
+
+def heading_br_block_scrape(html, url=None):
+    """
+    Handles pages that lay out each section as a single <p> per heading,
+    with every individual line inside that one <p> separated only by
+    <br> tags -- not one <p> per item (find_paragraph_section's pattern
+    in heuristic_scrape), not a real <ul>/<ol> list (find_list_section's),
+    and not bare lines scattered with no heading at all (br_line_scrape's
+    pattern, which scans every <p> on the page rather than trusting an
+    explicit heading). Seen on WordPress "recipe preview / save as
+    picture" widgets and similar AI-summarised recipe blurbs, where the
+    whole ingredients list is one bullet-per-line blob under a single
+    "Ingredients" heading and the whole method is one number-per-line
+    blob under a single "Instructions" heading.
+
+    Trusting the heading text to demarcate the section means every line
+    inside it is kept as an ingredient/step regardless of whether it
+    happens to contain a recognizable quantity/unit -- unlike
+    br_line_scrape, which has to guess a section's boundaries from line
+    shape alone and so drops any line that doesn't look quantity-shaped
+    (dropping genuine count-only ingredients like "1 English cucumber"
+    in the process). A leading bullet marker is stripped from each
+    ingredient line, and a leading "N." step number from each instruction
+    line, since both are already conveyed structurally.
+
+    Returns None if no "ingredients"-labelled heading is found immediately
+    before such a single <p> block, so callers fall through to the next
+    strategy.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+
+    def lines_after_heading(keywords, other_keywords):
+        for tag in soup.find_all(["h1", "h2", "h3", "h4", "strong", "b"]):
+            label = tag.get_text(strip=True).lower()
+            if not (any(kw in label for kw in keywords) and len(label) < 40):
+                continue
+
+            container = tag if tag.name in ("h1", "h2", "h3", "h4") else tag.find_parent("p") or tag
+            p = None
+            for sib in container.find_next_siblings():
+                if sib.name is None:
+                    continue
+                if sib.name != "p":
+                    break
+                p = sib
+                break
+            if p is None:
+                continue
+
+            lines, current = [], []
+            for ev in _walk_line_stream(p):
+                if ev[0] == "text":
+                    current.append(ev[1])
+                elif ev[0] == "br":
+                    text = "".join(current).strip()
+                    if text:
+                        lines.append(text)
+                    current = []
+                elif ev[0] == "stop":
+                    break
+            tail = "".join(current).strip()
+            if tail:
+                lines.append(tail)
+
+            if len(lines) < 2:
+                continue
+            return lines
+        return None
+
+    ingredient_lines = lines_after_heading(["ingredient"], ["method", "instructions", "directions", "steps"])
+    if not ingredient_lines:
+        return None
+    ingredient_lines = [LEADING_BULLET_RE.sub("", l) for l in ingredient_lines]
+
+    instruction_lines = lines_after_heading(
+        ["method", "instructions", "directions", "steps"], ["ingredient"]
+    )
+    instructions = None
+    if instruction_lines:
+        instructions = [
+            {"@type": "HowToStep", "text": clean_step_text(STEP_NUMBER_RE.sub("", l))}
+            for l in instruction_lines
+        ]
+
+    title = extract_title(soup)
+    image_url = find_best_image(soup, url=url)
+
+    recipe = {
+        "@context": "https://schema.org",
+        "@type": "Recipe",
+        "name": title,
+        "image": [image_url] if image_url else None,
+        "recipeIngredient": ingredient_lines,
+        "recipeInstructions": instructions,
+        "url": url,
+    }
+    return {k: v for k, v in recipe.items() if v not in (None, "", [], {})}
 
 
 def mntl_structured_content_scrape(html, url=None):
@@ -2987,6 +3103,15 @@ def main():
         result = jsonld_description_scrape(html, url=args.url)
         if result:
             best = merge_in(best, result, "Found recipe data embedded in a WebPage/Article JSON-LD description.")
+            if is_complete(best):
+                return best
+
+        result = heading_br_block_scrape(html, url=args.url)
+        if result:
+            best = merge_in(best, result,
+                             "Found an Ingredients/Instructions heading each followed by a single "
+                             "<p> block with lines separated only by <br> tags (no real list markup). "
+                             "Please double-check the result before using it.")
             if is_complete(best):
                 return best
 

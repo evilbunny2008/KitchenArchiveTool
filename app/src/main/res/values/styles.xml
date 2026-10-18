@@ -26,6 +26,12 @@
       <item name="android:windowLightStatusBar">@bool/statusbarLight</item>
    </style>
 
+   <!-- Full-screen dialog (e.g. the recipe editor) that keeps the app's own colours. -->
+   <style name="AppTheme.FullScreenDialog" parent="AppTheme">
+      <item name="android:windowIsFloating">false</item>
+      <item name="android:windowSoftInputMode">adjustResize</item>
+   </style>
+
    <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
       <item name="itemIconTint">@color/icon_color</item>
       <item name="itemTextColor">@color/subtextColor</item>

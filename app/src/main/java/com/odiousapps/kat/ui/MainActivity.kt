@@ -9,6 +9,7 @@ import android.app.SearchManager
 import android.content.Intent
 import android.os.Bundle
 import android.text.InputType
+import android.util.Patterns
 import android.view.Menu
 import android.view.View
 import android.widget.EditText
@@ -316,23 +317,32 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
          addView(recipeUrlEditText)
       }
 
-      AlertDialog.Builder(this)
+      val dialog = AlertDialog.Builder(this)
          .setTitle(R.string.recipe_import_dialog_title)
          .setView(container)
-         .setPositiveButton(R.string.recipe_import_dialog_positive) { _, _ ->
-            val recipeUrl = recipeUrlEditText.text.toString().trim()
-            if (recipeUrl.isNotEmpty()) {
-               fetchAndUploadRecipe(recipeUrl)
-            }
-         }
+         .setPositiveButton(R.string.recipe_import_dialog_positive, null)
          .setNegativeButton(android.R.string.cancel, null)
          .show()
+
+      // Replace the positive button's listener after show(): the one set
+      // via the builder always dismisses the dialog, which would throw
+      // away the input instead of letting the user fix an empty/bad URL.
+      dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener {
+         val recipeUrl = recipeUrlEditText.text.toString().trim()
+         if (recipeUrl.isEmpty() || !Patterns.WEB_URL.matcher(recipeUrl).matches()) {
+            recipeUrlEditText.error = getString(R.string.recipe_import_dialog_invalid_url)
+            recipeUrlEditText.requestFocus()
+            return@setOnClickListener
+         }
+         dialog.dismiss()
+         fetchAndUploadRecipe(recipeUrl)
+      }
    }
 
    private fun fetchAndUploadRecipe(recipeUrl: String) {
       val account = Accounts(this).getCurrentAccount()
       if (account == null) {
-         Toast.makeText(this, R.string.current_account_not_found_exception_message, Toast.LENGTH_LONG).show()
+         showImportResultDialog(false, getString(R.string.current_account_not_found_exception_message))
          return
       }
 
@@ -344,11 +354,7 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
          }
          when (fetchResult) {
             is RecipeImportClient.Result.Failure -> {
-               Toast.makeText(
-                  this@MainActivity,
-                  getString(R.string.recipe_import_failure, fetchResult.reason),
-                  Toast.LENGTH_LONG
-               ).show()
+               showImportResultDialog(false, getString(R.string.recipe_import_failure, fetchResult.reason))
                return@launch
             }
             is RecipeImportClient.Result.Success -> uploadImportedRecipe(fetchResult.recipe)
@@ -369,14 +375,28 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
       }
 
       if (newId != null) {
-         Toast.makeText(this@MainActivity, getString(R.string.recipe_import_upload_success, name), Toast.LENGTH_LONG).show()
+         showImportResultDialog(true, getString(R.string.recipe_import_upload_success, name))
          // So the new recipe shows up without needing a manual
          // pull-to-refresh -- same reasoning as RecipeListFragment's own
          // sync-on-resume fix.
          SyncScheduler.syncNow(applicationContext)
       } else {
-         Toast.makeText(this@MainActivity, getString(R.string.recipe_import_upload_failure, name), Toast.LENGTH_LONG).show()
+         showImportResultDialog(false, getString(R.string.recipe_import_upload_failure, name))
       }
+   }
+
+   /**
+    * A dialog rather than a toast: the import can take a while, and a
+    * toast that fires while the person has looked away (or a long
+    * failure reason that gets cut off) is easy to miss entirely.
+    */
+   private fun showImportResultDialog(success: Boolean, message: String) {
+      if (isFinishing || isDestroyed) return
+      AlertDialog.Builder(this)
+         .setTitle(if (success) R.string.recipe_import_success_title else R.string.recipe_import_failure_title)
+         .setMessage(message)
+         .setPositiveButton(android.R.string.ok, null)
+         .show()
    }
 
    fun getMenu(): Menu {

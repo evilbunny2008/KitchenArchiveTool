@@ -45,6 +45,7 @@ import com.odiousapps.kat.ui.CurrentSettingViewModel
 import com.odiousapps.kat.ui.CurrentSettingViewModelFactory
 import com.odiousapps.kat.ui.MainActivity
 import com.odiousapps.kat.ui.copytoaccount.CopyToAccountBottomSheet
+import com.odiousapps.kat.ui.editrecipe.EditRecipeDialogFragment
 import com.odiousapps.kat.ui.sync.SyncProgressDialog
 import com.odiousapps.kat.util.ConnectivityCheck
 import kotlinx.coroutines.CoroutineScope
@@ -88,6 +89,13 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
       binding = DataBindingUtil.inflate(inflater, R.layout.fragment_recipelist, container, false)
 
       binding.swipeContainer.setOnRefreshListener(this)
+
+      childFragmentManager.setFragmentResultListener(EditRecipeDialogFragment.REQUEST_KEY, viewLifecycleOwner) { _, result ->
+         onRecipeEdited(
+            result.getString(EditRecipeDialogFragment.RESULT_OLD_NAME).orEmpty(),
+            result.getString(EditRecipeDialogFragment.RESULT_NEW_NAME).orEmpty()
+         )
+      }
       val recipeListViewModelFactory = RecipeListViewModelFactory(requireActivity().application)
       recipesViewModel = ViewModelProvider(this, recipeListViewModelFactory)[RecipeListViewModel::class.java]
       val factory = CurrentSettingViewModelFactory(MainApplication.AppContext)
@@ -525,6 +533,9 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
          .getAccountsByType(NEXTCLOUD_ACCOUNT_TYPE).size > 1
 
       val actions = listOf(
+         RecipeContextAction(getString(R.string.edit_recipe), true) {
+            openEditRecipe(recipe)
+         },
          RecipeContextAction(getString(R.string.copy_to_account_title), hasOtherAccount) {
             openCopyToAccountSheet(recipe)
          },
@@ -538,6 +549,33 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
          .setTitle(recipe.name)
          .setAdapter(adapter) { _, which -> actions[which].onSelected() }
          .show()
+   }
+
+   /** Same DbRecipePreview -> full DbRecipe lookup as openCopyToAccountSheet, for the recipe.json path. */
+   private fun openEditRecipe(recipe: DbRecipePreview) {
+      val repository = DbRecipeRepository.getInstance(requireActivity().application)
+      viewLifecycleOwner.lifecycleScope.launch {
+         val fullRecipe = withContext(Dispatchers.IO) { repository.getRecipeSync(recipe.id) }
+         fullRecipe?.let {
+            EditRecipeDialogFragment.newInstance(it.recipeCore.fileSystem.filePath)
+               .show(childFragmentManager, "editRecipe")
+         }
+      }
+   }
+
+   /**
+    * RecipeEditor has already saved the edit to the server and updated
+    * (or, for a rename, moved) the local files -- reload the list from
+    * them, and drop the old DB row on a rename since rows are keyed by
+    * name. The sync afterwards just picks up the server's new
+    * dateModified/METADATA.
+    */
+   private fun onRecipeEdited(oldName: String, newName: String) {
+      if (oldName != newName) {
+         DbRecipeRepository.getInstance(requireActivity().application).deleteRecipe(oldName)
+      }
+      recipesViewModel.initRecipes(hidden = true)
+      context?.let { SyncScheduler.syncNow(it) }
    }
 
    /**

@@ -140,6 +140,29 @@ class CookbookAPI(private val mApi: NextcloudAPI) {
    }
 
    /**
+    * Replaces an existing recipe on the server with [recipe]. Returns true
+    * only if the request actually succeeded -- same reasoning as
+    * deleteRecipe(): callers must not touch the local copy otherwise.
+    * Cookbook rejects the update (409) if the new name clashes with a
+    * different existing recipe, which also lands here as false.
+    */
+   fun updateRecipe(id: String, recipe: JSONObject): Boolean {
+      val nextcloudRequest: NextcloudRequest = NextcloudRequest.Builder()
+         .setMethod("PUT")
+         .setRequestBody(recipe.toString())
+         .setUrl(Uri.encode("$API_RECIPE_BASE/$id", "/"))
+         .build()
+
+      return try {
+         mApi.performNetworkRequestV2(nextcloudRequest).body.use { }
+         true
+      } catch (e: Exception) {
+         Logger.getLogger(this::class.java.name).severe("Unknown Exception in updateRecipe: ${e.javaClass}: ${e.message}")
+         false
+      }
+   }
+
+   /**
     * Deletes a recipe from the server. Returns true only if the request
     * actually succeeded -- callers should not remove anything locally
     * (DB row, files) unless this returns true, or a deletion that only
