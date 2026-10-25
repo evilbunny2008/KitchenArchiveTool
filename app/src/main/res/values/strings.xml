@@ -56,8 +56,8 @@
 	<string name="edit_recipe_yield">Servings</string>
 	<string name="empty_list">No recipes</string>
 	<string name="error_no_network">No network connection</string>
-	<string name="error_only_wifi">Synchronization only allowed on Wifi</string>
-	<string name="error_sync">Synchronization failed: %1$s</string>
+	<string name="error_only_wifi">Synchronisation only allowed on Wi-Fi</string>
+	<string name="error_sync">Synchronisation failed: %1$s</string>
 	<string name="folder_pick_cancel">Folder picker cancelled by user</string>
 	<string name="folder_pick_success">Folder %1$s selected</string>
 	<string name="form_exact_search">Do an exact search?</string>
@@ -68,8 +68,8 @@
 	<string name="form_search_title">Advanced Search</string>
 	<string name="form_type_ingredients">Search by ingredient</string>
 	<string name="form_type_keyword">Search by keyword</string>
-	<string name="form_type_yield">Search by Yield</string>
-	<string name="form_types">Type to search</string>
+	<string name="form_type_yield">Search by yield</string>
+	<string name="form_types">Search type</string>
 	<string name="granted_permissions">Granted: %1$s</string>
 	<string name="header_image_desc">Header image of recipe</string>
 	<string name="img_desc_logo">Logo of the recipe</string>
@@ -82,7 +82,7 @@
 	<string name="menu_all_categories">All categories</string>
 	<string name="menu_categories">Categories</string>
 	<string name="menu_download_title">Download</string>
-	<string name="menu_download_tooltip">download recipe</string>
+	<string name="menu_download_tooltip">Download recipe</string>
 	<string name="menu_refresh_tooltip">Refresh recipes</string>
 	<string name="menu_search_title">Advanced Search</string>
 	<string name="menu_search_tooltip">Search recipe</string>
@@ -90,18 +90,18 @@
 	<string name="menu_settings_title">Settings</string>
 	<string name="menu_sort_title">Sort</string>
 	<string name="menu_sso">Single Sign On</string>
-	<string name="menu_uncategorized">Uncategorized</string>
+	<string name="menu_uncategorized">Uncategorised</string>
 	<string name="nextcloud_files_api_not_responding_open_battery_optimization_settings" translatable="false">Settings</string>
 	<string name="no_information">No Information</string>
 	<string name="no_ingredients">No Ingredients</string>
 	<string name="no_instructions">No Instructions</string>
-	<string name="notification_text">Time remains: %1$s</string>
+	<string name="notification_text">Time remaining: %1$s</string>
 	<string name="notification_title">Kitchen Archive Tool Timer</string>
 	<string name="nutrition_calories">Calories: %1$s</string>
 	<string name="nutrition_carbohydrate_content">Carbohydrate Content: %1$s</string>
 	<string name="nutrition_cholesterol_content">Cholesterol Content: %1$s</string>
 	<string name="nutrition_fat_content">Fat Content: %1$s</string>
-	<string name="nutrition_fiberContent">Fiber Content: %1$s</string>
+	<string name="nutrition_fiberContent">Fibre Content: %1$s</string>
 	<string name="nutrition_protein_content">Protein Content: %1$s</string>
 	<string name="nutrition_saturated_fat_content">Saturated Fat Content: %1$s</string>
 	<string name="nutrition_serving_size">Serving Size: %1$s</string>
@@ -113,22 +113,22 @@
 	<string name="permission_canceled">Cancelled by user</string>
 	<string name="permission_denied" translatable="false">denied</string>
 	<string name="permission_granted" translatable="false">granted</string>
-	<string name="permission_notification_required">The permission for showing notification is required for cooking timer</string>
+	<string name="permission_notification_required">Permission to show notifications is required for the cooking timer</string>
 	<string name="permission_ok_message">Storage access has been granted for %1$s</string>
 	<string name="permission_please_grant">Please grant storage permissions</string>
 	<string name="permission_select_root">Please select %1$s</string>
 	<string name="permission_warning_nowrite">You have no write access to this storage, thus selecting this folder is useless.\nWould you like to grant access to this folder?</string>
-	<string name="permissions_error_message">Access denied! App need storage access, please activate in the settings</string>
+	<string name="permissions_error_message">Access denied! The app needs storage access, please enable it in the settings</string>
 	<string name="permissions_required">Permissions are required!</string>
-	<string name="play_btn">Starts/Pause timer</string>
+	<string name="play_btn">Starts/pauses the timer</string>
 	<string name="pref_category_design">Design</string>
 	<string name="pref_category_function">Functionality</string>
 	<string name="pref_category_sync">Synchronisation</string>
-	<string name="pref_summary_keep_screen_alive">Dont lock the screen when viewing a recipe</string>
+	<string name="pref_summary_keep_screen_alive">Don’t lock the screen when viewing a recipe</string>
 	<string name="pref_summary_sync_wifi_only">This disables syncing when the device is only connected via mobile data</string>
 	<string name="pref_title_enableSyncService">Background Synchronisation</string>
 	<string name="pref_title_keep_screen_alive">Keep the screen alive</string>
-	<string name="pref_title_sync_wifi_only">Sync on Wifi only</string>
+	<string name="pref_title_sync_wifi_only">Sync on Wi-Fi only</string>
 	<string name="prefkey_about" translatable="false">app_about</string>
 	<string name="prefkey_enableSyncService" translatable="false">enableSyncService</string>
 	<string name="prefkey_keep_screen_alive" translatable="false">keep_screen_alive</string>
@@ -153,7 +153,7 @@
 	<string name="recipe_import_upload_failure">Couldn’t add ‘%1$s’ to Cookbook</string>
 	<string name="recipe_import_upload_success">Added ‘%1$s’ to Cookbook</string>
 	<string name="recipe_list_image_desc">Image thumbnail of recipe</string>
-	<string name="recipe_no_timer">This Recipe does not have a timer!</string>
+	<string name="recipe_no_timer">This recipe does not have a timer!</string>
 	<string name="request_again">Request again</string>
 	<string name="search_hint">Search by name</string>
 	<string name="search_in_all">Search…</string>
@@ -171,7 +171,7 @@
 		<item>4</item>
 		<item>5</item>
 	</string-array>
-	<string name="stop_btn">Stops timer</string>
+	<string name="stop_btn">Stops the timer</string>
 	<string name="storage_permissions_not_granted">No storage access!</string>
 	<string name="sync_channel_description">Channel for recipe sync progress notifications</string>
 	<string name="sync_channel_name">Recipe sync channel</string>
@@ -181,7 +181,7 @@
 	<string name="sync_interval_name_12">Every 12 Hours</string>
 	<string name="sync_interval_name_24">Every 24 Hours</string>
 	<string name="sync_interval_name_off">Off</string>
-	<string name="sync_notification_progress">%1$d/%2$d – %3$s</string>
+	<string name="sync_notification_progress" translatable="false">%1$d/%2$d – %3$s</string>
 	<string name="sync_notification_title">Syncing recipes</string>
 	<string name="syncing_recipes">Syncing your recipes…</string>
 	<string-array name="sync_interval_values" translatable="false">
@@ -195,14 +195,14 @@
 	<string name="tab_info_title">Info</string>
 	<string name="tab_ingredients_title">Ingredients</string>
 	<string name="tab_instructions_title">Instructions</string>
-	<string name="tab_nutritions_title">Nutritions</string>
+	<string name="tab_nutritions_title">Nutrition</string>
 	<string name="text_author">Author:</string>
 	<string name="text_categories">Category:</string>
 	<string name="text_date_published">Date published: %1$s</string>
 	<string name="text_keywords">Keywords:</string>
 	<string name="text_no_keywords">No keywords</string>
 	<string name="text_tools">Needed tools:</string>
-	<string name="text_uncategorized">Uncategorized</string>
+	<string name="text_uncategorized">Uncategorised</string>
 	<string name="text_yield">Yield:</string>
 	<string name="theme_name_dark">Dark</string>
 	<string name="theme_name_light">Light</string>
