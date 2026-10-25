@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Receta nuk mund të importohej: %1$s</string>
 	<string name="recipe_import_in_progress">Receta importuese</string>
 	<string name="recipe_import_menu_title">Importoni recetë nga URL-ja</string>
+	<string name="recipe_import_search_prompt">Ende nuk ka asnjë recetë nga ky URL në arkivin tuaj. Të provohet importimi i saj?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Të importohet receta?</string>
 	<string name="recipe_import_upload_failure">Nuk mund të shtohej ‘%1$s’ te ‘Libri i gatimit’</string>
 	<string name="recipe_import_upload_success">U shtua ‘%1$s’ te ‘Libri i gatimit’</string>
 	<string name="recipe_list_image_desc">Miniatura e imazhit të recetës</string>

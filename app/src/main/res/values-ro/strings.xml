@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Nu s-a putut importa rețeta: %1$s</string>
 	<string name="recipe_import_in_progress">Se importă rețeta</string>
 	<string name="recipe_import_menu_title">Importați rețeta de la URL</string>
+	<string name="recipe_import_search_prompt">Nu există încă nicio rețetă de la acest URL în arhiva dvs. Încercați să o importați?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Importați rețeta?</string>
 	<string name="recipe_import_upload_failure">Nu s-a putut adăuga ‘%1$s’ la Cartea de bucate</string>
 	<string name="recipe_import_upload_success">S-a adăugat ‘%1$s’ la Cartea de bucate</string>
 	<string name="recipe_list_image_desc">Miniatura imaginii rețetei</string>

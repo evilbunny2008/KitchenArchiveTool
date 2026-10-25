@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">रेसिपी इंपोर्ट करू शकलो नाही: %1$s</string>
 	<string name="recipe_import_in_progress">रेसिपी इंपोर्ट करत आहे</string>
 	<string name="recipe_import_menu_title">URL वरून रेसिपी इंपोर्ट करा</string>
+	<string name="recipe_import_search_prompt">या URL वरील कोणतीही पाककृती अद्याप तुमच्या संग्रहात नाही. ती आयात करण्याचा प्रयत्न करायचा?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">पाककृती आयात करायची?</string>
 	<string name="recipe_import_upload_failure">कुकबुकमध्ये ‘%1$s’ जोडू शकलो नाही</string>
 	<string name="recipe_import_upload_success">कुकबुकमध्ये ‘%1$s’ जोडले</string>
 	<string name="recipe_list_image_desc">रेसिपीची प्रतिमा लघुप्रतिमा</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ni bilo mogoče uvoziti recepta: %1$s</string>
 	<string name="recipe_import_in_progress">Uvoz recepta</string>
 	<string name="recipe_import_menu_title">Uvozi recept iz URL-ja</string>
+	<string name="recipe_import_search_prompt">V vašem arhivu še ni recepta s tega URL-ja. Ga poskusim uvoziti?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Uvozim recept?</string>
 	<string name="recipe_import_upload_failure">‘%1$s’ ni bilo mogoče dodati v kuharsko knjigo</string>
 	<string name="recipe_import_upload_success">Dodan ‘%1$s’ v kuharsko knjigo</string>
 	<string name="recipe_list_image_desc">Sličica recepta</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ບໍ່ສາມາດນຳເຂົ້າສູດໄດ້: %1$s</string>
 	<string name="recipe_import_in_progress">ກຳລັງນຳເຂົ້າສູດ</string>
 	<string name="recipe_import_menu_title">ນໍາເຂົ້າສູດຈາກ URL</string>
+	<string name="recipe_import_search_prompt">ຍັງບໍ່ມີສູດອາຫານຈາກ URL ນີ້ໃນບ່ອນເກັບຂອງທ່ານເທື່ອ. ລອງນຳເຂົ້າບໍ?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">ນຳເຂົ້າສູດອາຫານບໍ?</string>
 	<string name="recipe_import_upload_failure">ບໍ່ສາມາດເພີ່ມ ‘%1$s’ ໃສ່ Cookbook ໄດ້</string>
 	<string name="recipe_import_upload_success">ເພີ່ມ ‘%1$s’ ໃສ່ Cookbook ແລ້ວ</string>
 	<string name="recipe_list_image_desc">ຮູບຫຍໍ້ຂອງສູດ</string>

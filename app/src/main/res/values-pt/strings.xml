@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Não foi possível importar a receita: %1$s</string>
 	<string name="recipe_import_in_progress">Importando receita</string>
 	<string name="recipe_import_menu_title">Importar receita do URL</string>
+	<string name="recipe_import_search_prompt">Ainda não existe nenhuma receita deste URL no seu arquivo. Tentar importá-la?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Importar receita?</string>
 	<string name="recipe_import_upload_failure">Não foi possível adicionar ‘%1$s’ ao livro de receitas</string>
 	<string name="recipe_import_upload_success">Adicionado ‘%1$s’ ao Livro de Receitas</string>
 	<string name="recipe_list_image_desc">Miniatura da imagem da receita</string>

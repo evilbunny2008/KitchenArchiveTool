@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ayikwazanga ukungenisa iresiphi: %1$s</string>
 	<string name="recipe_import_in_progress">Ingenisa iresiphi</string>
 	<string name="recipe_import_menu_title">Ngenisa iresiphi kusuka ku-URL</string>
+	<string name="recipe_import_search_prompt">Ayikho iresiphi evela kule URL kunqolobane yakho okwamanje. Zama ukuyingenisa?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Ngenisa iresiphi?</string>
 	<string name="recipe_import_upload_failure">Ayikwazanga ukwengeza u-‘%1$s’ ku-Cookbook</string>
 	<string name="recipe_import_upload_success">Kwengezwe u-‘%1$s’ ku-Cookbook</string>
 	<string name="recipe_list_image_desc">Isithonjana sesithombe seresiphi</string>

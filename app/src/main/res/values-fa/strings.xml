@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">دستور غذا وارد نشد: %1$s</string>
 	<string name="recipe_import_in_progress">واردات دستور پخت</string>
 	<string name="recipe_import_menu_title">دستور غذا را از URL وارد کنید</string>
+	<string name="recipe_import_search_prompt">هنوز هیچ دستور پختی از این URL در بایگانی شما نیست. برای وارد کردن آن تلاش شود؟\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">دستور پخت وارد شود؟</string>
 	<string name="recipe_import_upload_failure">‘%1$s’ به کتاب آشپزی اضافه نشد</string>
 	<string name="recipe_import_upload_success">‘%1$s’ به کتاب آشپزی اضافه شد</string>
 	<string name="recipe_list_image_desc">تصویر کوچک دستور غذا</string>

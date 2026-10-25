@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Non se puido importar a receita: %1$s</string>
 	<string name="recipe_import_in_progress">Importando receita</string>
 	<string name="recipe_import_menu_title">Importar receita desde o URL</string>
+	<string name="recipe_import_search_prompt">Aínda non hai ningunha receita deste URL no teu arquivo. Tentar importala?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Importar a receita?</string>
 	<string name="recipe_import_upload_failure">Non se puido engadir ‘%1$s’ ao libro de receitas</string>
 	<string name="recipe_import_upload_success">Engadiuse ‘%1$s’ ao libro de receitas</string>
 	<string name="recipe_list_image_desc">Imaxe en miniatura da receita</string>

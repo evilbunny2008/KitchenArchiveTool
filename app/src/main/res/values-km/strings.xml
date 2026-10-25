@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">មិន​អាច​នាំចូល​រូបមន្ត៖ %1$s</string>
 	<string name="recipe_import_in_progress">រូបមន្តនាំចូល</string>
 	<string name="recipe_import_menu_title">នាំចូលរូបមន្តពី URL</string>
+	<string name="recipe_import_search_prompt">មិនទាន់មានរូបមន្តពី URL នេះនៅក្នុងបណ្ណសាររបស់អ្នកនៅឡើយទេ។ សាកល្បងនាំចូលវាឬ?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">នាំចូលរូបមន្តឬ?</string>
 	<string name="recipe_import_upload_failure">មិនអាចបន្ថែម ‘%1$s’ ទៅ Cookbook បានទេ។</string>
 	<string name="recipe_import_upload_success">បានបន្ថែម ‘%1$s’ ទៅសៀវភៅធ្វើម្ហូប</string>
 	<string name="recipe_list_image_desc">រូបភាពតូចនៃរូបមន្ត</string>

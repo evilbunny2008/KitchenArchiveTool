@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Tidak dapat mengimpor resep: %1$s</string>
 	<string name="recipe_import_in_progress">Impor resep</string>
 	<string name="recipe_import_menu_title">Impor resep dari URL</string>
+	<string name="recipe_import_search_prompt">Belum ada resep dari URL ini di arsip Anda. Coba impor?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Impor resep?</string>
 	<string name="recipe_import_upload_failure">Tidak dapat menambahkan ‘%1$s’ ke Buku Masak</string>
 	<string name="recipe_import_upload_success">Menambahkan ‘%1$s’ ke Buku Masak</string>
 	<string name="recipe_list_image_desc">Gambar thumbnail resep</string>

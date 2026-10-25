@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Retsepti ei saanud importida: %1$s</string>
 	<string name="recipe_import_in_progress">Retsepti importimine</string>
 	<string name="recipe_import_menu_title">Importige retsept URL-ist</string>
+	<string name="recipe_import_search_prompt">Teie arhiivis pole veel ühtegi retsepti sellelt URL-ilt. Kas proovida see importida?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Kas importida retsept?</string>
 	<string name="recipe_import_upload_failure">‘%1$s’ ei saanud kokaraamatusse lisada</string>
 	<string name="recipe_import_upload_success">‘%1$s’ lisati kokaraamatusse</string>
 	<string name="recipe_list_image_desc">Retsepti pisipilt</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Չհաջողվեց ներմուծել բաղադրատոմսը՝ %1$s</string>
 	<string name="recipe_import_in_progress">Բաղադրատոմսի ներմուծում</string>
 	<string name="recipe_import_menu_title">Ներմուծեք բաղադրատոմսը URL-ից</string>
+	<string name="recipe_import_search_prompt">Այս URL-ից բաղադրատոմս դեռ չկա ձեր արխիվում։ Փորձե՞լ ներմուծել այն\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Ներմուծե՞լ բաղադրատոմսը</string>
 	<string name="recipe_import_upload_failure">Չհաջողվեց ավելացնել ‘%1$s’-ը Խոհարարական գրքում</string>
 	<string name="recipe_import_upload_success">‘%1$s’-ն ավելացվել է Խոհարարական գրքում</string>
 	<string name="recipe_list_image_desc">Բաղադրատոմսի պատկերի մանրապատկեր</string>

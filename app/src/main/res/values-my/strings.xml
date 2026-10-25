@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ဟင်းချက်နည်းကို မတင်သွင်းနိုင်ခဲ့ပါ- %1$s</string>
 	<string name="recipe_import_in_progress">ဟင်းချက်နည်းတင်သွင်းနေသည်</string>
 	<string name="recipe_import_menu_title">စာရွက်ကို URL မှတင်သွင်းပါ။</string>
+	<string name="recipe_import_search_prompt">ဤ URL မှ ချက်နည်း သင့်မှတ်တမ်းတွင် မရှိသေးပါ။ တင်သွင်းရန် ကြိုးစားမလား။\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">ချက်နည်းကို တင်သွင်းမလား။</string>
 	<string name="recipe_import_upload_failure">Cookbook သို့ ‘%1$s’ ကို ထည့်၍မရပါ။</string>
 	<string name="recipe_import_upload_success">Cookbook သို့ ‘%1$s’ ကို ထည့်ခဲ့သည်။</string>
 	<string name="recipe_list_image_desc">ဟင်းချက်နည်းပုံသေး</string>

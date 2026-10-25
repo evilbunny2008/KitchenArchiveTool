@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">වට්ටෝරුව ආයාත කිරීමට නොහැකි විය: %1$s</string>
 	<string name="recipe_import_in_progress">වට්ටෝරුව ආයාත කරමින්</string>
 	<string name="recipe_import_menu_title">URL වෙතින් වට්ටෝරුව ආයාත කරන්න</string>
+	<string name="recipe_import_search_prompt">මෙම URL එකෙන් වට්ටෝරුවක් තවමත් ඔබේ සංරක්ෂණයේ නැත. එය ආයාත කිරීමට උත්සාහ කරන්නද?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">වට්ටෝරුව ආයාත කරන්නද?</string>
 	<string name="recipe_import_upload_failure">කුක්බුක් වෙත ‘%1$s’ එක් කළ නොහැකි විය</string>
 	<string name="recipe_import_upload_success">ඉවුම් පිහුම් පොතට ‘%1$s’ එක් කරන ලදී</string>
 	<string name="recipe_list_image_desc">වට්ටෝරුවේ රූප සිඟිති රූපය</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">የምግብ አዘገጃጀቱን ማስመጣት አልተቻለም፡ %1$s</string>
 	<string name="recipe_import_in_progress">የምግብ አሰራርን በማስመጣት ላይ</string>
 	<string name="recipe_import_menu_title">የምግብ አሰራርን ከዩአርኤል አስመጣ</string>
+	<string name="recipe_import_search_prompt">ከዚህ URL የተገኘ የምግብ አሰራር እስካሁን በማህደርዎ ውስጥ የለም። ለማስመጣት ይሞክሩ?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">የምግብ አሰራር ይመጣ?</string>
 	<string name="recipe_import_upload_failure">ወደ Cookbook ‘%1$s’ ማከል አልተቻለም</string>
 	<string name="recipe_import_upload_success">ወደ Cookbook ‘%1$s’ ታክሏል።</string>
 	<string name="recipe_list_image_desc">የምግብ አሰራር ምስል ድንክዬ</string>

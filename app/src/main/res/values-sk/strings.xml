@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Nepodarilo sa importovať recept: %1$s</string>
 	<string name="recipe_import_in_progress">Importuje sa recept</string>
 	<string name="recipe_import_menu_title">Importujte recept z adresy URL</string>
+	<string name="recipe_import_search_prompt">Vo vašom archíve zatiaľ nie je žiadny recept z tejto adresy URL. Skúsiť ho importovať?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Importovať recept?</string>
 	<string name="recipe_import_upload_failure">Do kuchárskej knihy sa nepodarilo pridať ‘%1$s’</string>
 	<string name="recipe_import_upload_success">Do kuchárskej knihy bolo pridané ‘%1$s’</string>
 	<string name="recipe_list_image_desc">Miniatúra obrázka receptu</string>

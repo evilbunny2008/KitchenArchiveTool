@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ezin izan da errezeta inportatu: %1$s</string>
 	<string name="recipe_import_in_progress">Errezeta inportatzen</string>
 	<string name="recipe_import_menu_title">Inportatu errezeta URLtik</string>
+	<string name="recipe_import_search_prompt">Zure artxiboan ez dago oraindik URL honetako errezetarik. Inportatzen saiatu?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Errezeta inportatu?</string>
 	<string name="recipe_import_upload_failure">Ezin izan da ‘%1$s’ sukaldaritza liburuan gehitu</string>
 	<string name="recipe_import_upload_success">‘%1$s’ gehitu da Sukaldaritza liburuan</string>
 	<string name="recipe_list_image_desc">Errezetaren irudiaren miniatura</string>

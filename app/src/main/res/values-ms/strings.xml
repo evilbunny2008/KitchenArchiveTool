@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Tidak dapat mengimport resipi: %1$s</string>
 	<string name="recipe_import_in_progress">Mengimport resipi</string>
 	<string name="recipe_import_menu_title">Import resipi dari URL</string>
+	<string name="recipe_import_search_prompt">Belum ada resipi daripada URL ini dalam arkib anda. Cuba importnya?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Import resipi?</string>
 	<string name="recipe_import_upload_failure">Tidak dapat menambahkan ‘%1$s’ pada Buku Masakan</string>
 	<string name="recipe_import_upload_success">Menambahkan ‘%1$s’ pada Buku Masakan</string>
 	<string name="recipe_list_image_desc">Imej kecil resipi</string>

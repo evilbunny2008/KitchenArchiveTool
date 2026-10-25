@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Ekki tókst að flytja inn uppskriftina: %1$s</string>
 	<string name="recipe_import_in_progress">Flytur inn uppskrift</string>
 	<string name="recipe_import_menu_title">Flytja inn uppskrift frá URL</string>
+	<string name="recipe_import_search_prompt">Engin uppskrift frá þessari vefslóð er enn í safninu þínu. Reyna að flytja hana inn?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Flytja inn uppskrift?</string>
 	<string name="recipe_import_upload_failure">Gat ekki bætt ‘%1$s’ við matreiðslubók</string>
 	<string name="recipe_import_upload_success">Bætti ‘%1$s’ við matreiðslubók</string>
 	<string name="recipe_list_image_desc">Smámynd af uppskrift</string>

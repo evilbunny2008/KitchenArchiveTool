@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">לא ניתן לייבא את המתכון: %1$s</string>
 	<string name="recipe_import_in_progress">מייבא מתכון</string>
 	<string name="recipe_import_menu_title">ייבא מתכון מ-URL</string>
+	<string name="recipe_import_search_prompt">עדיין אין בארכיון שלך מתכון מכתובת URL זו. לנסות לייבא אותו?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">לייבא את המתכון?</string>
 	<string name="recipe_import_upload_failure">לא ניתן להוסיף את ‘%1$s’ לספר הבישול</string>
 	<string name="recipe_import_upload_success">‘%1$s’ נוסף לספר הבישול</string>
 	<string name="recipe_list_image_desc">תמונה ממוזערת של המתכון</string>

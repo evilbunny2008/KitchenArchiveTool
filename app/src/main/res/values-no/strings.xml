@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Kunne ikke importere oppskriften: %1$s</string>
 	<string name="recipe_import_in_progress">Importerer oppskrift</string>
 	<string name="recipe_import_menu_title">Importer oppskrift fra URL</string>
+	<string name="recipe_import_search_prompt">Det finnes ingen oppskrift fra denne URL-en i arkivet ditt ennå. Prøve å importere den?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Importere oppskrift?</string>
 	<string name="recipe_import_upload_failure">Kunne ikke legge til ‘%1$s’ i kokeboken</string>
 	<string name="recipe_import_upload_success">La til ‘%1$s’ i kokeboken</string>
 	<string name="recipe_list_image_desc">Miniatyrbilde av oppskriften</string>

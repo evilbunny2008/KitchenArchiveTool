@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Рецепт импорттолбой койду: %1$s</string>
 	<string name="recipe_import_in_progress">Рецепт импорттолууда</string>
 	<string name="recipe_import_menu_title">URL’ден рецепт импорттоо</string>
+	<string name="recipe_import_search_prompt">Архивиңизде бул URL дарегинен рецепт азырынча жок. Аны импорттоп көрүү керекпи?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Рецептти импорттоо керекпи?</string>
 	<string name="recipe_import_upload_failure">‘%1$s’ тамак китебине кошулган жок</string>
 	<string name="recipe_import_upload_success">‘%1$s’ тамак китебине кошулду</string>
 	<string name="recipe_list_image_desc">Рецепттин эскизи</string>

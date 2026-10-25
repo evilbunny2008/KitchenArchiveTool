@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">செய்முறையை இறக்குமதி செய்ய முடியவில்லை: %1$s</string>
 	<string name="recipe_import_in_progress">செய்முறையை இறக்குமதி செய்கிறது</string>
 	<string name="recipe_import_menu_title">URL இலிருந்து செய்முறையை இறக்குமதி செய்யவும்</string>
+	<string name="recipe_import_search_prompt">இந்த URL இலிருந்து எந்தச் செய்முறையும் இன்னும் உங்கள் காப்பகத்தில் இல்லை. அதை இறக்குமதி செய்ய முயற்சிக்கவா?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">செய்முறையை இறக்குமதி செய்யவா?</string>
 	<string name="recipe_import_upload_failure">சமையல் புத்தகத்தில் ‘%1$s’ஐச் சேர்க்க முடியவில்லை</string>
 	<string name="recipe_import_upload_success">சமையல் புத்தகத்தில் ‘%1$s’ சேர்க்கப்பட்டது</string>
 	<string name="recipe_list_image_desc">செய்முறையின் பட சிறுபடம்</string>

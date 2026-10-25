@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">రెసిపీని దిగుమతి చేయడం సాధ్యపడలేదు: %1$s</string>
 	<string name="recipe_import_in_progress">రెసిపీని దిగుమతి చేస్తోంది</string>
 	<string name="recipe_import_menu_title">URL నుండి రెసిపీని దిగుమతి చేయండి</string>
+	<string name="recipe_import_search_prompt">ఈ URL నుండి ఏ రెసిపీ ఇంకా మీ ఆర్కైవ్‌లో లేదు. దాన్ని దిగుమతి చేయడానికి ప్రయత్నించాలా?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">రెసిపీని దిగుమతి చేయాలా?</string>
 	<string name="recipe_import_upload_failure">కుక్‌బుక్‌కి ‘%1$s’ని జోడించడం సాధ్యపడలేదు</string>
 	<string name="recipe_import_upload_success">కుక్‌బుక్‌కి ‘%1$s’ జోడించబడింది</string>
 	<string name="recipe_list_image_desc">రెసిపీ యొక్క చిత్ర సూక్ష్మచిత్రం</string>

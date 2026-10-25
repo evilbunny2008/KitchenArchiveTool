@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Nevarēja importēt recepti: %1$s</string>
 	<string name="recipe_import_in_progress">Notiek receptes importēšana</string>
 	<string name="recipe_import_menu_title">Importēt recepti no URL</string>
+	<string name="recipe_import_search_prompt">Jūsu arhīvā vēl nav receptes no šī URL. Mēģināt to importēt?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Importēt recepti?</string>
 	<string name="recipe_import_upload_failure">Nevarēja pievienot ‘%1$s’ pavārgrāmatai</string>
 	<string name="recipe_import_upload_success">Pavārgrāmatai pievienots ‘%1$s’</string>
 	<string name="recipe_list_image_desc">Receptes attēla sīktēls</string>

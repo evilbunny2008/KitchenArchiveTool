@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">રેસીપી આયાત કરી શકાઈ નથી: %1$s</string>
 	<string name="recipe_import_in_progress">રેસીપી આયાત કરી રહ્યું છે</string>
 	<string name="recipe_import_menu_title">URL થી રેસીપી આયાત કરો</string>
+	<string name="recipe_import_search_prompt">આ URL પરથી કોઈ રેસીપી હજી તમારા આર્કાઇવમાં નથી. તેને આયાત કરવાનો પ્રયાસ કરીએ?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">રેસીપી આયાત કરીએ?</string>
 	<string name="recipe_import_upload_failure">કુકબુકમાં ‘%1$s’ ઉમેરી શકાયું નથી</string>
 	<string name="recipe_import_upload_success">કુકબુકમાં ‘%1$s’ ઉમેર્યું</string>
 	<string name="recipe_list_image_desc">રેસીપીની છબી થંબનેલ</string>

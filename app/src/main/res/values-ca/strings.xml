@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">No s’ha pogut importar la recepta: %1$s</string>
 	<string name="recipe_import_in_progress">S’està important la recepta</string>
 	<string name="recipe_import_menu_title">Importa la recepta des de l’URL</string>
+	<string name="recipe_import_search_prompt">Encara no hi ha cap recepta d’aquest URL al vostre arxiu. Voleu provar d’importar-la?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Voleu importar la recepta?</string>
 	<string name="recipe_import_upload_failure">No s’ha pogut afegir ‘%1$s’ al llibre de cuina</string>
 	<string name="recipe_import_upload_success">S’ha afegit ‘%1$s’ al llibre de cuina</string>
 	<string name="recipe_list_image_desc">Imatge en miniatura de la recepta</string>

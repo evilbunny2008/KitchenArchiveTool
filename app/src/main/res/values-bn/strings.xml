@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">রেসিপি আমদানি করা যায়নি: %1$s</string>
 	<string name="recipe_import_in_progress">রেসিপি আমদানি করা হচ্ছে</string>
 	<string name="recipe_import_menu_title">URL থেকে রেসিপি আমদানি করুন</string>
+	<string name="recipe_import_search_prompt">এই URL থেকে কোনো রেসিপি এখনও আপনার আর্কাইভে নেই। এটি ইমপোর্ট করার চেষ্টা করবেন?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">রেসিপি ইমপোর্ট করবেন?</string>
 	<string name="recipe_import_upload_failure">কুকবুকে ‘%1$s’ যোগ করা যায়নি</string>
 	<string name="recipe_import_upload_success">কুকবুকে ‘%1$s’ যোগ করা হয়েছে</string>
 	<string name="recipe_list_image_desc">রেসিপি ছবির থাম্বনেল</string>

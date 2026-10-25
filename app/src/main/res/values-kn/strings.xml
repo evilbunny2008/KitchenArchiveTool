@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ಪಾಕವಿಧಾನವನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %1$s</string>
 	<string name="recipe_import_in_progress">ಪಾಕವಿಧಾನವನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ</string>
 	<string name="recipe_import_menu_title">URL ನಿಂದ ಪಾಕವಿಧಾನವನ್ನು ಆಮದು ಮಾಡಿ</string>
+	<string name="recipe_import_search_prompt">ಈ URL ನಿಂದ ಯಾವುದೇ ಪಾಕವಿಧಾನ ಇನ್ನೂ ನಿಮ್ಮ ಆರ್ಕೈವ್‌ನಲ್ಲಿ ಇಲ್ಲ. ಅದನ್ನು ಆಮದು ಮಾಡಲು ಪ್ರಯತ್ನಿಸುವುದೇ?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">ಪಾಕವಿಧಾನವನ್ನು ಆಮದು ಮಾಡುವುದೇ?</string>
 	<string name="recipe_import_upload_failure">ಕುಕ್‌ಬುಕ್‌ಗೆ ‘%1$s’ ಸೇರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
 	<string name="recipe_import_upload_success">ಕುಕ್‌ಬುಕ್‌ಗೆ ‘%1$s’ ಸೇರಿಸಲಾಗಿದೆ</string>
 	<string name="recipe_list_image_desc">ಪಾಕವಿಧಾನದ ಚಿತ್ರ ಥಂಬ್‌ನೇಲ್</string>

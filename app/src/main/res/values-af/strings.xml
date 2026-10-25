@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Kon nie die resep invoer nie: %1$s</string>
 	<string name="recipe_import_in_progress">Voer tans resep in …</string>
 	<string name="recipe_import_menu_title">Voer resep vanaf URL in</string>
+	<string name="recipe_import_search_prompt">Daar is nog geen resep van hierdie URL in jou argief nie. Probeer om dit in te voer?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Resep invoer?</string>
 	<string name="recipe_import_upload_failure">Kon nie ‘%1$s’ by kookboek voeg nie</string>
 	<string name="recipe_import_upload_success">Het ‘%1$s’ by kookboek gevoeg</string>
 	<string name="recipe_list_image_desc">Prent-kleinkiekie van resep</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Das Rezept konnte nicht importiert werden: %1$s</string>
 	<string name="recipe_import_in_progress">Rezept wird importiert</string>
 	<string name="recipe_import_menu_title">Rezept von URL importieren</string>
+	<string name="recipe_import_search_prompt">Es ist noch kein Rezept von dieser URL in deinem Archiv. Soll versucht werden, es zu importieren?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Rezept importieren?</string>
 	<string name="recipe_import_upload_failure">‘%1$s’ konnte nicht zum Kochbuch hinzugefügt werden</string>
 	<string name="recipe_import_upload_success">‘%1$s’ zum Kochbuch hinzugefügt</string>
 	<string name="recipe_list_image_desc">Miniaturansicht des Rezepts</string>

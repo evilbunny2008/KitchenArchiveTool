@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Det gick inte att importera receptet: %1$s</string>
 	<string name="recipe_import_in_progress">Importerar recept</string>
 	<string name="recipe_import_menu_title">Importera recept från URL</string>
+	<string name="recipe_import_search_prompt">Det finns inget recept från den här URL:en i ditt arkiv ännu. Försöka importera det?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Importera recept?</string>
 	<string name="recipe_import_upload_failure">Det gick inte att lägga till ‘%1$s’ i kokboken</string>
 	<string name="recipe_import_upload_success">Lade till ‘%1$s’ i kokboken</string>
 	<string name="recipe_list_image_desc">Miniatyrbild av receptet</string>

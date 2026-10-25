@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Hindi ma-import ang recipe: %1$s</string>
 	<string name="recipe_import_in_progress">Ini-import ang recipe</string>
 	<string name="recipe_import_menu_title">Mag-import ng recipe mula sa URL</string>
+	<string name="recipe_import_search_prompt">Wala pang recipe mula sa URL na ito sa iyong archive. Subukang i-import ito?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">I-import ang recipe?</string>
 	<string name="recipe_import_upload_failure">Hindi maidagdag ang ‘%1$s’ sa Cookbook</string>
 	<string name="recipe_import_upload_success">Idinagdag ang ‘%1$s’ sa Cookbook</string>
 	<string name="recipe_list_image_desc">Thumbnail ng larawan ng recipe</string>

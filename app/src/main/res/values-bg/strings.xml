@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Рецептата не можа да се импортира: %1$s</string>
 	<string name="recipe_import_in_progress">Рецептата се импортира</string>
 	<string name="recipe_import_menu_title">Импортиране на рецепта от URL</string>
+	<string name="recipe_import_search_prompt">В архива ви все още няма рецепта от този URL адрес. Да се опита ли импортиране?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Импортиране на рецепта?</string>
 	<string name="recipe_import_upload_failure">Не можах да добавя ‘%1$s’ към Готварска книга</string>
 	<string name="recipe_import_upload_success">Добавен ‘%1$s’ към Готварска книга</string>
 	<string name="recipe_list_image_desc">Миниизображение на рецепта</string>

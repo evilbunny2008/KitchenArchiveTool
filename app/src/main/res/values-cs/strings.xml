@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Nelze importovat recept: %1$s</string>
 	<string name="recipe_import_in_progress">Import receptu</string>
 	<string name="recipe_import_menu_title">Importujte recept z adresy URL</string>
+	<string name="recipe_import_search_prompt">Ve vašem archivu zatím není žádný recept z této adresy URL. Zkusit jej importovat?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Importovat recept?</string>
 	<string name="recipe_import_upload_failure">Do kuchařky se nepodařilo přidat ‘%1$s’</string>
 	<string name="recipe_import_upload_success">Přidáno ‘%1$s’ do kuchařky</string>
 	<string name="recipe_list_image_desc">Miniatura obrázku receptu</string>

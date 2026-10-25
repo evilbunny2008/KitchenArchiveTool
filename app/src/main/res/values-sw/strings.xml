@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Haikuweza kuleta mapishi: %1$s</string>
 	<string name="recipe_import_in_progress">Inaleta mapishi</string>
 	<string name="recipe_import_menu_title">Leta kichocheo kutoka kwa URL</string>
+	<string name="recipe_import_search_prompt">Bado hakuna mapishi kutoka URL hii kwenye kumbukumbu yako. Jaribu kuyaingiza?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Ingiza mapishi?</string>
 	<string name="recipe_import_upload_failure">Haikuweza kuongeza ‘%1$s’ kwenye Cookbook</string>
 	<string name="recipe_import_upload_success">Imeongeza ‘%1$s’ kwenye Cookbook</string>
 	<string name="recipe_list_image_desc">Kijipicha cha picha ya mapishi</string>

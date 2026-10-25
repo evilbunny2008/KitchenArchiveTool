@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Không thể nhập công thức: %1$s</string>
 	<string name="recipe_import_in_progress">Đang nhập công thức</string>
 	<string name="recipe_import_menu_title">Nhập công thức từ URL</string>
+	<string name="recipe_import_search_prompt">Chưa có công thức nào từ URL này trong kho lưu trữ của bạn. Thử nhập công thức này?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Nhập công thức?</string>
 	<string name="recipe_import_upload_failure">Không thể thêm ‘%1$s’ vào Sách dạy nấu ăn</string>
 	<string name="recipe_import_upload_success">Đã thêm ‘%1$s’ vào Sách dạy nấu ăn</string>
 	<string name="recipe_list_image_desc">Hình ảnh thu nhỏ của công thức</string>

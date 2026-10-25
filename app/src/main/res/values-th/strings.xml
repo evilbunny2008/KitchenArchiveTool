@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">ไม่สามารถนำเข้าสูตร: %1$s</string>
 	<string name="recipe_import_in_progress">กำลังนำเข้าสูตร</string>
 	<string name="recipe_import_menu_title">นำเข้าสูตรจาก URL</string>
+	<string name="recipe_import_search_prompt">ยังไม่มีสูตรอาหารจาก URL นี้ในคลังของคุณ ลองนำเข้าหรือไม่\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">นำเข้าสูตรอาหารหรือไม่</string>
 	<string name="recipe_import_upload_failure">ไม่สามารถเพิ่ม ‘%1$s’ ลงในตำราอาหารได้</string>
 	<string name="recipe_import_upload_success">เพิ่ม ‘%1$s’ ลงในตำราอาหารแล้ว</string>
 	<string name="recipe_list_image_desc">ภาพขนาดย่อของสูตร</string>

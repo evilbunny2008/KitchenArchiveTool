@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">പാചകക്കുറിപ്പ് ഇറക്കുമതി ചെയ്യാനായില്ല: %1$s</string>
 	<string name="recipe_import_in_progress">പാചകക്കുറിപ്പ് ഇറക്കുമതി ചെയ്യുന്നു</string>
 	<string name="recipe_import_menu_title">URL-ൽ നിന്ന് പാചകക്കുറിപ്പ് ഇറക്കുമതി ചെയ്യുക</string>
+	<string name="recipe_import_search_prompt">ഈ URL-ൽ നിന്നുള്ള പാചകക്കുറിപ്പ് ഇതുവരെ നിങ്ങളുടെ ആർക്കൈവിൽ ഇല്ല. ഇത് ഇമ്പോർട്ട് ചെയ്യാൻ ശ്രമിക്കണോ?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">പാചകക്കുറിപ്പ് ഇമ്പോർട്ട് ചെയ്യണോ?</string>
 	<string name="recipe_import_upload_failure">കുക്ക്ബുക്കിലേക്ക് ‘%1$s’ ചേർക്കാനായില്ല</string>
 	<string name="recipe_import_upload_success">കുക്ക്ബുക്കിൽ ‘%1$s’ ചേർത്തു</string>
 	<string name="recipe_list_image_desc">പാചകക്കുറിപ്പിൻ്റെ ചിത്ര ലഘുചിത്രം</string>

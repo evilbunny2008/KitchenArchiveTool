@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">რეცეპტის იმპორტი ვერ მოხერხდა: %1$s</string>
 	<string name="recipe_import_in_progress">რეცეპტის იმპორტი</string>
 	<string name="recipe_import_menu_title">რეცეპტის იმპორტი URL-დან</string>
+	<string name="recipe_import_search_prompt">ამ URL-დან რეცეპტი ჯერ არ არის თქვენს არქივში. ვცადოთ მისი შემოტანა?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">შემოვიტანოთ რეცეპტი?</string>
 	<string name="recipe_import_upload_failure">‘%1$s’ კულინარიულ წიგნში ვერ დაემატა</string>
 	<string name="recipe_import_upload_success">‘%1$s’ დაემატა კულინარიულ წიგნს</string>
 	<string name="recipe_list_image_desc">რეცეპტის სურათის მინიატურა</string>

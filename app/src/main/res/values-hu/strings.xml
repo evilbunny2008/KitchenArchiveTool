@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Nem sikerült importálni a receptet: %1$s</string>
 	<string name="recipe_import_in_progress">Recept importálása</string>
 	<string name="recipe_import_menu_title">Recept importálása az URL-ről</string>
+	<string name="recipe_import_search_prompt">Az archívumában még nincs recept erről az URL-ről. Megpróbálja importálni?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Importálja a receptet?</string>
 	<string name="recipe_import_upload_failure">‘%1$s’ nem adható hozzá a szakácskönyvhöz</string>
 	<string name="recipe_import_upload_success">‘%1$s’ hozzáadva a szakácskönyvhöz</string>
 	<string name="recipe_list_image_desc">A recept miniatűrje</string>

@@ -109,6 +109,8 @@
 	<string name="recipe_import_failure">Tarif içe aktarılamadı: %1$s</string>
 	<string name="recipe_import_in_progress">Tarif içe aktarılıyor</string>
 	<string name="recipe_import_menu_title">Tarifi URL’den içe aktar</string>
+	<string name="recipe_import_search_prompt">Arşivinizde henüz bu URL’den bir tarif yok. İçe aktarmayı denemek ister misiniz?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Tarif içe aktarılsın mı?</string>
 	<string name="recipe_import_upload_failure">‘%1$s’ Yemek Kitabı’na eklenemedi</string>
 	<string name="recipe_import_upload_success">‘%1$s’ Yemek Kitabı’na eklendi</string>
 	<string name="recipe_list_image_desc">Tarifin küçük resmi</string>
