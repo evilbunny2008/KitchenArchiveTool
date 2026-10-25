@@ -69,6 +69,10 @@ interface RecipeDataDao {
    @Query("SELECT * FROM recipes WHERE name = :n AND fs_filePath LIKE :dirPrefix ESCAPE '\\'")
    fun findByNameInDir(n: String, dirPrefix: String): DbRecipe?
 
+   @Transaction
+   @Query("SELECT * FROM recipes WHERE url IN (:urls) AND fs_filePath LIKE :dirPrefix ESCAPE '\\' LIMIT 1")
+   fun findByUrlInDir(urls: List<String>, dirPrefix: String): DbRecipe?
+
    /**
     * Finds duplicate recipe rows within the given account's directory --
     * every row sharing a name with another, except the most recently

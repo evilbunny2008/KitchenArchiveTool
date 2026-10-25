@@ -69,6 +69,20 @@ class DbRecipeRepository private constructor(application: Application) {
 
    fun getRecipeSync(id: Long): DbRecipe? = mRecipeDao.getByIdSync(id)
 
+   /**
+    * Finds a recipe in the given account's directory whose source url
+    * matches [url]. Lenient about http vs https and a trailing slash,
+    * since the url stored by Cookbook on import doesn't always match the
+    * exact form someone pastes back in later.
+    */
+   fun findRecipeByUrl(url: String, recipeDir: String): DbRecipe? {
+      val bare = url.trim().removeSuffix("/").replaceFirst(Regex("^https?://", RegexOption.IGNORE_CASE), "")
+      val variants = listOf("https://", "http://").flatMap { scheme ->
+         listOf("$scheme$bare", "$scheme$bare/")
+      }
+      return mRecipeDao.findByUrlInDir(variants, likePrefix(recipeDir))
+   }
+
    fun filterCategory(
       sort: SortValue, category: String, recipeDir: String,
       recipeFilter: RecipeFilter? = null

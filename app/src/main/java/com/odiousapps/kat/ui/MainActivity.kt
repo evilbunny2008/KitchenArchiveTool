@@ -54,12 +54,14 @@ import com.odiousapps.kat.data.CategoryFilter
 import com.odiousapps.kat.data.RecipeFilter
 import com.odiousapps.kat.data.SortValue
 import com.odiousapps.kat.databinding.ActivityMainBinding
+import com.odiousapps.kat.db.DbRecipeRepository
 import com.odiousapps.kat.services.sync.SyncScheduler
 import com.odiousapps.kat.settings.PreferenceData
 import com.odiousapps.kat.ui.accountswitcher.AccountSwitcherBottomSheet
 import com.odiousapps.kat.ui.recipelist.RecipeSearchCallback
 import com.odiousapps.kat.util.Filesystem
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
@@ -88,6 +90,12 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
    private var mRecipeSearchCallback: RecipeSearchCallback? = null
 
    private var mAllowSearchToTrigger = true
+
+   // Used to tell a paste (many characters arriving at once) apart from a
+   // URL being typed character by character, and to avoid asking twice
+   // about the same pasted URL (a paste followed by submit fires both).
+   private var mLastSearchQueryLength = 0
+   private var mLastOfferedImportUrl: String? = null
 
    override fun onCreate(savedInstanceState: Bundle?) {
       preferenceData = PreferenceData.getInstance()
@@ -229,8 +237,16 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
             android.widget.SearchView.OnQueryTextListener {
 
             override fun onQueryTextChange(qString: String): Boolean {
+               val isPaste = qString.length - mLastSearchQueryLength > 1
+               mLastSearchQueryLength = qString.length
+               if (qString.trim() != mLastOfferedImportUrl) {
+                  mLastOfferedImportUrl = null
+               }
                if (mAllowSearchToTrigger) {
                   search(qString)
+                  if (isPaste) {
+                     offerImportIfUnknownUrl(qString)
+                  }
                }
                return true
             }
@@ -238,6 +254,7 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
             override fun onQueryTextSubmit(qString: String): Boolean {
                if (mAllowSearchToTrigger) {
                   search(qString)
+                  offerImportIfUnknownUrl(qString)
                }
                return true
             }
@@ -336,6 +353,48 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
          }
          dialog.dismiss()
          fetchAndUploadRecipe(recipeUrl)
+      }
+   }
+
+   /**
+    * Called when a URL is pasted (or submitted) into the search bar. If no
+    * recipe in the current account came from that URL, offers to import
+    * it; if one did, swaps the search term for that recipe's name so it
+    * shows up in the list (a name search on the URL itself never would).
+    */
+   private fun offerImportIfUnknownUrl(query: String) {
+      val recipeUrl = query.trim()
+      if (!recipeUrl.startsWith("http://", ignoreCase = true) &&
+         !recipeUrl.startsWith("https://", ignoreCase = true)
+      ) return
+      if (!Patterns.WEB_URL.matcher(recipeUrl).matches()) return
+      if (recipeUrl == mLastOfferedImportUrl) return
+      mLastOfferedImportUrl = recipeUrl
+
+      lifecycleScope.launch {
+         val existing = withContext(Dispatchers.IO) {
+            val recipeDir = preferenceData.getRecipeDir().first()
+            DbRecipeRepository.getInstance(application).findRecipeByUrl(recipeUrl, recipeDir)
+         }
+         if (isFinishing || isDestroyed) return@launch
+         // The search bar may have moved on while the lookup ran.
+         if (binding.searchbar.query.toString().trim() != recipeUrl) return@launch
+
+         if (existing != null) {
+            val name = existing.recipeCore.name
+            setVisualSearchTerm(name, false)
+            search(name)
+            return@launch
+         }
+
+         AlertDialog.Builder(this@MainActivity)
+            .setTitle(R.string.recipe_import_search_prompt_title)
+            .setMessage(getString(R.string.recipe_import_search_prompt, recipeUrl))
+            .setPositiveButton(R.string.recipe_import_dialog_positive) { _, _ ->
+               fetchAndUploadRecipe(recipeUrl)
+            }
+            .setNegativeButton(android.R.string.cancel, null)
+            .show()
       }
    }
 

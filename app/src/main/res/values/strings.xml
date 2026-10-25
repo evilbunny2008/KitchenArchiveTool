@@ -147,6 +147,8 @@
 	<string name="recipe_import_failure_title">Import failed</string>
 	<string name="recipe_import_in_progress">Importing recipe…</string>
 	<string name="recipe_import_menu_title">Import recipe from URL</string>
+	<string name="recipe_import_search_prompt">No recipe from this URL is in your archive yet. Try to import it?\n\n%1$s</string>
+	<string name="recipe_import_search_prompt_title">Import recipe?</string>
 	<string name="recipe_import_success_title">Recipe imported</string>
 	<string name="recipe_import_upload_failure">Couldn’t add ‘%1$s’ to Cookbook</string>
 	<string name="recipe_import_upload_success">Added ‘%1$s’ to Cookbook</string>
