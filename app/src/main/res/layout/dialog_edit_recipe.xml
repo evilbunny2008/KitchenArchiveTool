@@ -4,8 +4,8 @@
    android:id="@+id/editRecipeRoot"
    android:layout_width="match_parent"
    android:layout_height="match_parent"
-   android:background="@color/colorBackground"
    android:orientation="vertical">
+   <!-- android:background="@color/colorBackground" -->
 
    <com.google.android.material.appbar.MaterialToolbar
       android:id="@+id/editRecipeToolbar"

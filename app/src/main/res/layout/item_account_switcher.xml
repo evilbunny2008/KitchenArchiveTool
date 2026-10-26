@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?attr/selectableItemBackground"
     android:gravity="center_vertical"
     android:orientation="horizontal"
     android:paddingStart="@dimen/spacer_2x"
     android:paddingTop="@dimen/spacer_1hx"
     android:paddingEnd="@dimen/spacer_2x"
     android:paddingBottom="@dimen/spacer_1hx">
+    <!-- android:background="?attr/selectableItemBackground" -->
 
     <ImageView
         android:id="@+id/accountAvatar"
