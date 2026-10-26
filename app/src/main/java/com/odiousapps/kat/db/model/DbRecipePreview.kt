@@ -12,7 +12,7 @@ data class DbRecipePreview (
     }
 
     override fun equals(other: Any?): Boolean {
-        return if (other == null || other !is DbRecipePreview) false else id == other.id
+        return !(other == null || other !is DbRecipePreview) && id == other.id
     }
 
     override fun hashCode(): Int {

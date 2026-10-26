@@ -45,7 +45,7 @@ class Filesystem(var mContext: Context) {
       var file = File(externalDir.absolutePath)
       val folderlist = path.split('/')
       for(elem in folderlist){
-         var tmpfile = File(file, elem)
+         val tmpfile = File(file, elem)
          if(!file.exists()){
             file.mkdir()
          }

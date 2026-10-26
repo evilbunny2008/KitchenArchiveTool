@@ -198,9 +198,9 @@ class RecipeListViewModel(private val app: Application) : AndroidViewModel(app) 
          val repositoryRecipes = JsonRecipeRepository.getInstance()
             .getAllRecipes(app, path, recipeRepository.getAllFileInfos())
 
-         for (recipeInfo in recipeRepository.getAllFileInfos()) {
-            if (!File(recipeInfo.filePath).exists()) {
-               var filename = recipeInfo.filePath.substring(0, recipeInfo.filePath.lastIndexOf("/"))
+         for ((filePath) in recipeRepository.getAllFileInfos()) {
+            if (!File(filePath).exists()) {
+               var filename = filePath.substring(0, filePath.lastIndexOf("/"))
                filename = filename.substring(filename.lastIndexOf("/") + 1, filename.length)
                recipeRepository.deleteRecipe(filename)
             }

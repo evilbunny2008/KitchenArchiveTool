@@ -25,7 +25,7 @@ You also can choose the theme in the settings.
 - **Delete a recipe.** Also from the long-press menu, with a confirmation step first. Deletes from the server,
   then removes the local copy — never the other way around, so a failed server-side delete can't leave the
   local copy gone while the server still has it.
-- **Import a recipe from a URL.** Paste in a link from (almost) any recipe site and it's added straight to
+- **Import a recipe from a URL.** Paste in a link from (almost) any recipe site, and it's added straight to
   Cookbook — most sites don't embed the structured data Cookbook itself can read directly, so this sends the
   URL to a small companion service that scrapes the page and returns it in the right format, then the app
   uploads it using the account you're already signed in with. That service never sees, stores, or needs any

@@ -38,7 +38,7 @@ data class DbRecipe(
    val keywords: List<DbKeyword>? = null,
 ) {
    override fun equals(other: Any?): Boolean {
-      return if (other == null || other !is DbRecipe) false else recipeCore.name == other.recipeCore.name
+      return !(other == null || other !is DbRecipe) && recipeCore.name == other.recipeCore.name
    }
 
    override fun hashCode(): Int {

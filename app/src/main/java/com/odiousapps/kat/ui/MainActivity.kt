@@ -426,11 +426,9 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
 
       val newId = withContext(Dispatchers.IO) {
          val api = Accounts(this@MainActivity).getApiToAccount() ?: return@withContext null
-         try {
-            CookbookAPI(api).createRecipe(recipe)
-         } finally {
-            api.close()
-         }
+          api.use { api ->
+              CookbookAPI(api).createRecipe(recipe)
+          }
       }
 
       if (newId != null) {

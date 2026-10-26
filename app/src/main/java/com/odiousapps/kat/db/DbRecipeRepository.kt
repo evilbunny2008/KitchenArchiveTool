@@ -241,8 +241,8 @@ class DbRecipeRepository private constructor(application: Application) {
    fun deleteDuplicates(recipeDir: String) {
       val dirPrefix = likePrefix(recipeDir)
       RecipeDatabase.databaseWriteExecutor.execute {
-         for (duplicate in mRecipeDao.findDuplicates(dirPrefix)) {
-            mRecipeDao.delete(duplicate.recipeCore)
+         for ((recipeCore) in mRecipeDao.findDuplicates(dirPrefix)) {
+            mRecipeDao.delete(recipeCore)
          }
       }
    }
