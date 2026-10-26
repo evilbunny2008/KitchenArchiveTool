@@ -1,0 +1,5 @@
+• Progrés i notificacions de sincronització
+• Una sincronització fallida ja no pot esborrar les teves receptes locals
+• La primera sincronització continua en girar la pantalla
+• Corregits tancaments inesperats durant la sincronització
+• Corregit el disseny sota la barra de navegació en horitzontal

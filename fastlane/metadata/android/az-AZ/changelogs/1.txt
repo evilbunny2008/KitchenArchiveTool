@@ -1,0 +1,6 @@
+Nextcloud Cookbook-un forku olan Kitchen Archive Tool-un ilk buraxılışı.
+• Resepti fotosu ilə birlikdə başqa hesaba kopyala
+• Reseptləri sil
+• Yeni tətbiq ikonu
+• Arxa plan sinxronizasiyası indi WorkManager istifadə edir və həqiqətən işləyir
+• Tarixə görə sıralama, lazımsız endirmələr və səhv hesabdan reseptlər düzəldildi

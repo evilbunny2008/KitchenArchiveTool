@@ -1,0 +1,5 @@
+• Napredak i obavijesti sinkronizacije
+• Neuspjela sinkronizacija više ne može izbrisati tvoje lokalne recepte
+• Prva sinkronizacija preživljava okretanje zaslona
+• Ispravljena rušenja tijekom sinkronizacije
+• Ispravljen raspored ispod navigacijske trake u vodoravnom položaju

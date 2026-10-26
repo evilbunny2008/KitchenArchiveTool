@@ -1,0 +1,4 @@
+• Impor resep dari hampir semua situs dengan menempelkan tautannya
+• Masuk langsung melalui aplikasi Nextcloud
+• Konten tidak lagi tertutup bilah status dan bilah navigasi
+• Tombol Kembali menghapus filter kategori terlebih dahulu

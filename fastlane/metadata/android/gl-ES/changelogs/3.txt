@@ -1,0 +1,4 @@
+• Importa unha receita de case calquera web pegando a súa ligazón
+• Inicio de sesión directo a través da app de Nextcloud
+• O contido xa non queda baixo as barras de estado e de navegación
+• Atrás quita primeiro o filtro de categoría

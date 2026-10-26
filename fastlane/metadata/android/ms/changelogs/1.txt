@@ -1,0 +1,6 @@
+Keluaran pertama Kitchen Archive Tool, fork Nextcloud Cookbook.
+• Salin resipi bersama fotonya ke akaun lain
+• Padam resipi
+• Ikon aplikasi baharu
+• Penyegerakan latar belakang kini menggunakan WorkManager dan benar-benar berjalan
+• Membaiki isihan mengikut tarikh, muat turun berulang yang tidak perlu dan resipi daripada akaun yang salah

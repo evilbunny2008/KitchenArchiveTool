@@ -1,0 +1,2 @@
+• Kategorijų filtras rodo tik dabartinės paskyros kategorijas
+• Pašalintas senas receptų atsisiuntimo ekranas

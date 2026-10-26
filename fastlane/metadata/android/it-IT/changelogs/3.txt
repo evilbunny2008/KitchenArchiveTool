@@ -1,0 +1,4 @@
+• Importa una ricetta da quasi qualsiasi sito incollandone il link
+• Accesso diretto tramite l’app Nextcloud
+• I contenuti non finiscono più sotto la barra di stato e di navigazione
+• Indietro rimuove prima il filtro categoria

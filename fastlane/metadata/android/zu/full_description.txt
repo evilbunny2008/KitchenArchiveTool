@@ -1,0 +1,24 @@
+I-Kitchen Archive Tool (KAT) ikuvumela ukuthi ubheke futhi useshe izindlela zokupheka ku-Nextcloud Cookbook yakho futhi upheke ngazo, ngisho noma ungaxhunyiwe ku-inthanethi.
+
+<b>Izici</b>
+<ul>
+<li>Ngena ngohlelo lokusebenza lwe-Nextcloud ngaphandle kokufaka iphasiwedi yakho ku-KAT</li>
+<li>Izindlela zakho zokupheka zigcinwa kudivayisi futhi zivunyelaniswa ngemuva</li>
+<li>Sesha ngegama, igama elingukhiye, isithako noma inani labantu, uhlunge ngesigaba futhi uhlele uhlu</li>
+<li>Isibali-sikhathi sokupheka esakhelwe ngaphakathi</li>
+<li>Hlela futhi ususe izindlela zokupheka, noma uzikopishele kwenye i-akhawunti kanye nesithombe sazo</li>
+<li>Ngenisa indlela yokupheka cishe kunoma iyiphi iwebhusayithi ngokunamathisela isixhumanisi sayo</li>
+<li>Ama-akhawunti amaningi e-Nextcloud anokushintsha ngokushesha</li>
+<li>Itimu ekhanyayo nemnyama</li>
+</ul>
+
+<b>Izidingo</b>
+<ul>
+<li>Iseva ye-Nextcloud efakwe uhlelo lokusebenza lwe-Cookbook</li>
+<li>Uhlelo lokusebenza lwe-Nextcloud lwe-Android olungene kuleyo seva</li>
+</ul>
+
+<b>Ukungenisa izindlela zokupheka</b>
+Amawebhusayithi amaningi ezindlela zokupheka awanayo idatha i-Cookbook engayifunda yona ngokwayo. Ukuze ungenise kuwo, i-KAT ithumela kuphela ikheli lewebhu lendlela yokupheka kusevisi esizayo ku-recipes.odiousapps.com, efunda ikhasi bese ibuyisa indlela yokupheka. Bese i-KAT iyilayisha ku-Cookbook nge-akhawunti yakho. Isevisi ayilokothi ithole imininingwane yakho yokungena ku-Nextcloud noma enye idatha, futhi akukho okuthunyelwayo ngaphandle uma ungenisa indlela yokupheka.
+
+I-KAT iyimfologo (fork) ye-Nextcloud Cookbook ka-MicMun futhi iyisofthiwe yamahhala ngaphansi kwe-GNU GPL v3 noma entsha kakhulu.

@@ -1,0 +1,2 @@
+• Filter kategorij prikazuje le kategorije trenutnega računa
+• Odstranjen star zaslon za prenos receptov

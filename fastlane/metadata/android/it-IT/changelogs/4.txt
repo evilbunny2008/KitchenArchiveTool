@@ -1,0 +1,5 @@
+• Avanzamento e notifiche della sincronizzazione
+• Una sincronizzazione non riuscita non può più eliminare le ricette locali
+• La prima sincronizzazione resiste alla rotazione dello schermo
+• Corretti arresti anomali durante la sincronizzazione
+• Corretto il layout sotto la barra di navigazione in orizzontale

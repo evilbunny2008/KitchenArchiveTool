@@ -1,0 +1,4 @@
+• Impordi retsept peaaegu igalt saidilt, kleepides selle lingi
+• Sisselogimine otse Nextcloudi rakenduse kaudu
+• Sisu ei jää enam oleku- ja navigeerimisriba alla
+• Tagasi eemaldab esmalt kategooriafiltri

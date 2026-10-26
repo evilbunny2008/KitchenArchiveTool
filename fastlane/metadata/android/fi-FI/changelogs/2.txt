@@ -1,0 +1,2 @@
+• Kategoriasuodatin näyttää vain nykyisen tilin kategoriat
+• Vanha reseptien latausnäkymä poistettu

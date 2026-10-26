@@ -1,0 +1,4 @@
+• Import a recipe from almost any recipe website by pasting its link
+• Sign in straight through the Nextcloud app
+• Content no longer sits under the status and navigation bars
+• Back clears the category filter first

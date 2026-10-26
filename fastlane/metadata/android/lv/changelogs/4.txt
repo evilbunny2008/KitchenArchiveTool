@@ -1,0 +1,5 @@
+• Sinhronizācijas progress un paziņojumi
+• Neveiksmīga sinhronizācija vairs nevar izdzēst tavas lokālās receptes
+• Pirmā sinhronizācija turpinās arī pēc ekrāna pagriešanas
+• Laboti avārijas gadījumi sinhronizācijas laikā
+• Labots izkārtojums zem navigācijas joslas ainavas režīmā

@@ -1,0 +1,5 @@
+• Förlopp och aviseringar vid synkronisering
+• En misslyckad synkronisering kan inte längre radera dina lokala recept
+• Den första synkroniseringen klarar att skärmen roteras
+• Åtgärdat krascher under synkronisering
+• Åtgärdat layout under navigeringsfältet i liggande läge

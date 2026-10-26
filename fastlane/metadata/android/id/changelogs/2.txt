@@ -1,0 +1,2 @@
+• Filter kategori hanya menampilkan kategori akun saat ini
+• Layar unduh resep lama dihapus

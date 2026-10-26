@@ -1,0 +1,2 @@
+• Il filtro categorie mostra solo quelle dell’account attuale
+• Rimossa la vecchia schermata di download delle ricette

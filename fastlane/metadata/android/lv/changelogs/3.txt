@@ -1,0 +1,4 @@
+• Importē recepti no gandrīz jebkuras vietnes, ielīmējot tās saiti
+• Pierakstīšanās tieši ar Nextcloud lietotni
+• Saturs vairs nenonāk zem statusa un navigācijas joslas
+• Atpakaļ vispirms notīra kategoriju filtru

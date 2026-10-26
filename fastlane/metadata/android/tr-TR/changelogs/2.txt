@@ -1,0 +1,2 @@
+• Kategori filtresi yalnızca geçerli hesabın kategorilerini gösterir
+• Eski tarif indirme ekranı kaldırıldı

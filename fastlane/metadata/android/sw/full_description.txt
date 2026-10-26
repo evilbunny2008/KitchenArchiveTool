@@ -1,0 +1,24 @@
+Kitchen Archive Tool (KAT) hukuwezesha kuvinjari na kutafuta mapishi katika Nextcloud Cookbook yako na kupika kwa kuyafuata, hata bila mtandao.
+
+<b>Vipengele</b>
+<ul>
+<li>Ingia kupitia programu ya Nextcloud bila kuandika nenosiri lako katika KAT</li>
+<li>Mapishi yako huhifadhiwa kwenye kifaa na kusawazishwa chinichini</li>
+<li>Tafuta kwa jina, neno kuu, kiungo au idadi ya watu, chuja kwa kategoria na upange orodha</li>
+<li>Kipima muda cha kupikia kilichojengwa ndani</li>
+<li>Hariri na ufute mapishi, au uyanakili pamoja na picha kwenda akaunti nyingine</li>
+<li>Leta pishi kutoka karibu tovuti yoyote ya mapishi kwa kubandika kiungo chake</li>
+<li>Akaunti nyingi za Nextcloud zenye kubadilisha haraka</li>
+<li>Mandhari ya mwanga na giza</li>
+</ul>
+
+<b>Mahitaji</b>
+<ul>
+<li>Seva ya Nextcloud iliyosakinishwa programu ya Cookbook</li>
+<li>Programu ya Nextcloud ya Android iliyoingia kwenye seva hiyo</li>
+</ul>
+
+<b>Kuleta mapishi</b>
+Tovuti nyingi za mapishi hazina data ambayo Cookbook inaweza kusoma yenyewe. Ili kuleta kutoka kwazo, KAT hutuma anwani ya wavuti ya pishi pekee kwa huduma saidizi iliyo recipes.odiousapps.com, ambayo husoma ukurasa na kurudisha pishi. Kisha KAT hulipakia kwenye Cookbook kwa akaunti yako mwenyewe. Huduma hiyo haipokei kamwe maelezo yako ya kuingia Nextcloud wala data nyingine yoyote, na hakuna kinachotumwa usipoleta pishi.
+
+KAT ni tawi (fork) la Nextcloud Cookbook la MicMun na ni programu huria chini ya GNU GPL v3 au toleo jipya zaidi.

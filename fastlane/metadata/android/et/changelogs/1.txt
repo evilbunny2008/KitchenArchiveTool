@@ -1,0 +1,6 @@
+Kitchen Archive Tooli esimene versioon, Nextcloud Cookbooki haru.
+• Kopeeri retsept koos fotoga teisele kontole
+• Kustuta retsepte
+• Uus rakenduse ikoon
+• Taustal sünkroonimine kasutab nüüd WorkManagerit ja päriselt töötab
+• Parandatud kuupäeva järgi sortimine, asjatud allalaadimised ja vale konto retseptid

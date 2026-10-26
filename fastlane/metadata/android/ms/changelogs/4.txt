@@ -1,0 +1,5 @@
+• Kemajuan dan pemberitahuan penyegerakan
+• Penyegerakan yang gagal tidak lagi boleh memadam resipi setempat anda
+• Penyegerakan pertama diteruskan apabila skrin diputar
+• Membaiki ranap semasa penyegerakan
+• Membaiki susun atur di bawah bar navigasi dalam mod landskap

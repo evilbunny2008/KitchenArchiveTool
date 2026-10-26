@@ -1,0 +1,4 @@
+• Uvoz recepta s skoraj katere koli strani s prilepljeno povezavo
+• Prijava neposredno prek aplikacije Nextcloud
+• Vsebina ne sega več pod vrstico stanja in navigacijsko vrstico
+• Nazaj najprej počisti filter kategorije

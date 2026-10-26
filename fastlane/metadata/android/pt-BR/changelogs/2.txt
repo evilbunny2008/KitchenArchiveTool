@@ -1,0 +1,2 @@
+• O filtro de categorias mostra só as da conta atual
+• Removida a antiga tela de download de receitas

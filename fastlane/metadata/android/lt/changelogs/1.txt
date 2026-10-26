@@ -1,0 +1,6 @@
+Pirmoji Kitchen Archive Tool versija – Nextcloud Cookbook atšaka.
+• Kopijuokite receptą su nuotrauka į kitą paskyrą
+• Trinkite receptus
+• Nauja programėlės piktograma
+• Sinchronizavimas fone dabar naudoja WorkManager ir iš tikrųjų veikia
+• Pataisytas rikiavimas pagal datą, nereikalingi atsisiuntimai ir receptai iš netinkamos paskyros

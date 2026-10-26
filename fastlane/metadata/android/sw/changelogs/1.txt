@@ -1,0 +1,6 @@
+Toleo la kwanza la Kitchen Archive Tool, tawi la Nextcloud Cookbook.
+• Nakili pishi pamoja na picha kwenda akaunti nyingine
+• Futa mapishi
+• Aikoni mpya ya programu
+• Usawazishaji wa chinichini sasa unatumia WorkManager na unafanya kazi kweli
+• Imerekebishwa: kupanga kwa tarehe, upakuaji usio wa lazima na mapishi kutoka akaunti isiyo sahihi

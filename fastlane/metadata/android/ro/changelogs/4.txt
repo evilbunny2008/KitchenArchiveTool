@@ -1,0 +1,5 @@
+• Progres și notificări de sincronizare
+• O sincronizare eșuată nu mai poate șterge rețetele locale
+• Prima sincronizare continuă la rotirea ecranului
+• Corectate blocările în timpul sincronizării
+• Corectat aspectul sub bara de navigare în modul peisaj

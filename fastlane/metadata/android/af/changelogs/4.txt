@@ -1,0 +1,5 @@
+• Vordering en kennisgewings tydens sinkronisering
+• ’n Mislukte sinkronisering kan nie meer jou plaaslike resepte skrap nie
+• Die eerste sinkronisering gaan voort as die skerm gedraai word
+• Omvalle tydens sinkronisering reggestel
+• Uitleg onder die navigasiebalk in landskapmodus reggestel

@@ -1,0 +1,5 @@
+• Fremdrift og varsler ved synkronisering
+• En mislykket synkronisering kan ikke lenger slette de lokale oppskriftene dine
+• Den første synkroniseringen tåler at skjermen roteres
+• Rettet krasj under synkronisering
+• Rettet oppsett under navigasjonslinjen i liggende modus

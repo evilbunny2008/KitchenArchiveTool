@@ -1,0 +1,4 @@
+• Importuokite receptą iš beveik bet kurios svetainės įklijavę nuorodą
+• Prisijungimas tiesiai per Nextcloud programėlę
+• Turinys nebelenda po būsenos ir naršymo juostomis
+• Atgal pirmiausia išvalo kategorijos filtrą

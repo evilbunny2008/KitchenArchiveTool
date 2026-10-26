@@ -1,0 +1,5 @@
+• Szinkronizálási folyamat és értesítések
+• Egy sikertelen szinkronizálás már nem törölheti a helyi receptjeidet
+• Az első szinkronizálás túléli a képernyő elforgatását
+• Javítva a szinkronizálás közbeni összeomlások
+• Javítva az elrendezés a navigációs sáv alatt fekvő módban

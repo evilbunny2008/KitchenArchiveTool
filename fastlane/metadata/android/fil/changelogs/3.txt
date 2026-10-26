@@ -1,0 +1,4 @@
+• Mag-import ng recipe mula sa halos anumang website sa pag-paste ng link
+• Direktang mag-sign in sa pamamagitan ng Nextcloud app
+• Hindi na napupunta ang content sa ilalim ng status bar at navigation bar
+• Inaalis muna ng Back ang filter ng kategorya

@@ -1,0 +1,5 @@
+• Progreso e notificacións de sincronización
+• Unha sincronización fallida xa non pode borrar as túas receitas locais
+• A primeira sincronización continúa ao xirar a pantalla
+• Corrixidos peches inesperados durante a sincronización
+• Corrixido o deseño baixo a barra de navegación en horizontal

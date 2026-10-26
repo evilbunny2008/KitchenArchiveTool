@@ -1,0 +1,2 @@
+• Rezeptlink in die Suchleiste einfügen, um das Rezept zu finden oder zu importieren
+• Alle Übersetzungen überarbeitet, inklusive vieler fehlender Texte

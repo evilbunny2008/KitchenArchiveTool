@@ -1,0 +1,2 @@
+• Kategorifilteret viser kun kategorier fra den aktuelle konto
+• Den gamle skærm til download af opskrifter er fjernet

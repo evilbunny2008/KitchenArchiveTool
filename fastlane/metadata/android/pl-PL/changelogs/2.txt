@@ -1,0 +1,2 @@
+• Filtr kategorii pokazuje tylko kategorie bieżącego konta
+• Usunięto stary ekran pobierania przepisów

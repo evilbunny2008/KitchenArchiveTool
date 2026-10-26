@@ -1,0 +1,2 @@
+• The category filter only shows categories from the current account
+• Removed the old recipe download screen

@@ -1,0 +1,4 @@
+• Uvoz recepta s gotovo bilo koje stranice lijepljenjem poveznice
+• Prijava izravno putem aplikacije Nextcloud
+• Sadržaj više ne ide ispod trake stanja i navigacijske trake
+• Natrag najprije uklanja filtar kategorije

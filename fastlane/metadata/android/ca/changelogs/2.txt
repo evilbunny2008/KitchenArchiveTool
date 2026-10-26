@@ -1,0 +1,2 @@
+• El filtre de categories només mostra les del compte actual
+• Eliminada l’antiga pantalla de baixada de receptes

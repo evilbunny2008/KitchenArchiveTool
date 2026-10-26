@@ -1,0 +1,2 @@
+• Kategoriju filtrs rāda tikai pašreizējā konta kategorijas
+• Noņemts vecais recepšu lejupielādes ekrāns

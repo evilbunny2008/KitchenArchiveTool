@@ -1,0 +1,2 @@
+• Kateqoriya filtri yalnız cari hesabın kateqoriyalarını göstərir
+• Köhnə resept endirmə ekranı silindi

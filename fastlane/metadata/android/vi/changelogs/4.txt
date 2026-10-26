@@ -1,0 +1,5 @@
+• Tiến trình và thông báo đồng bộ
+• Đồng bộ thất bại không còn xóa được công thức trên máy
+• Lần đồng bộ đầu tiên vẫn tiếp tục khi xoay màn hình
+• Sửa lỗi ứng dụng bị dừng khi đồng bộ
+• Sửa bố cục dưới thanh điều hướng ở chế độ ngang

@@ -1,0 +1,24 @@
+Með Kitchen Archive Tool (KAT) geturðu skoðað og leitað í uppskriftunum í Nextcloud Cookbook og eldað eftir þeim, líka án nettengingar.
+
+<b>Eiginleikar</b>
+<ul>
+<li>Skráðu þig inn í gegnum Nextcloud-appið án þess að slá inn lykilorðið í KAT</li>
+<li>Uppskriftirnar eru geymdar á tækinu og samstilltar í bakgrunni</li>
+<li>Leitaðu eftir nafni, leitarorði, hráefni eða fjölda skammta, síaðu eftir flokki og raðaðu listanum</li>
+<li>Innbyggður eldhústímamælir</li>
+<li>Breyttu og eyddu uppskriftum, eða afritaðu þær með mynd yfir á annan reikning</li>
+<li>Fluttu inn uppskrift af nánast hvaða uppskriftavef sem er með því að líma inn tengilinn</li>
+<li>Margir Nextcloud-reikningar og fljótleg skipti á milli þeirra</li>
+<li>Ljóst og dökkt þema</li>
+</ul>
+
+<b>Kröfur</b>
+<ul>
+<li>Nextcloud-þjónn með Cookbook-appið uppsett</li>
+<li>Nextcloud-appið fyrir Android, innskráð á þann þjón</li>
+</ul>
+
+<b>Innflutningur uppskrifta</b>
+Margir uppskriftavefir innihalda ekki gögn sem Cookbook getur lesið sjálft. Til að flytja inn af þeim sendir KAT aðeins vefslóð uppskriftarinnar til hjálparþjónustu á recipes.odiousapps.com, sem les síðuna og skilar uppskriftinni. KAT hleður henni síðan upp í Cookbook með þínum eigin reikningi. Þjónustan fær aldrei Nextcloud-innskráninguna þína eða önnur gögn, og ekkert er sent nema þú flytjir inn uppskrift.
+
+KAT er afleiða (fork) af Nextcloud Cookbook eftir MicMun og er frjáls hugbúnaður samkvæmt GNU GPL v3 eða nýrri.

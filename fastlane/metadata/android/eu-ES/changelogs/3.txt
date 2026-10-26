@@ -1,0 +1,4 @@
+• Inportatu errezeta bat ia edozein webgunetatik, esteka itsatsita
+• Saio-hasiera zuzenean Nextcloud aplikazioaren bidez
+• Edukia ez da gehiago egoera- eta nabigazio-barren azpian geratzen
+• Atzera botoiak kategoria-iragazkia kentzen du lehenik

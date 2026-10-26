@@ -1,0 +1,5 @@
+• Postęp i powiadomienia synchronizacji
+• Nieudana synchronizacja nie może już usunąć lokalnych przepisów
+• Pierwsza synchronizacja nie przerywa się przy obróceniu ekranu
+• Poprawiono awarie podczas synchronizacji
+• Poprawiono układ pod paskiem nawigacji w poziomie

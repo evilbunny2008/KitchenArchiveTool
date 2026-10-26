@@ -1,0 +1,4 @@
+• Bağlantısını yapıştırarak neredeyse her siteden tarif içe aktar
+• Doğrudan Nextcloud uygulaması üzerinden oturum açma
+• İçerik artık durum çubuğu ve gezinme çubuğunun altında kalmıyor
+• Geri, önce kategori filtresini temizler

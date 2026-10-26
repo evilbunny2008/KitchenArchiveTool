@@ -1,0 +1,4 @@
+• Importa una recepta de gairebé qualsevol web enganxant-ne l’enllaç
+• Inici de sessió directe a través de l’app de Nextcloud
+• El contingut ja no queda sota les barres d’estat i de navegació
+• Enrere esborra primer el filtre de categoria

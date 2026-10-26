@@ -1,0 +1,24 @@
+Kitchen Archive Tool(KAT)로 Nextcloud Cookbook의 레시피를 둘러보고 검색하며 요리할 수 있습니다. 오프라인에서도 사용할 수 있습니다.
+
+<b>기능</b>
+<ul>
+<li>Nextcloud 앱을 통해 로그인하므로 KAT에 비밀번호를 입력할 필요가 없습니다</li>
+<li>레시피는 기기에 저장되고 백그라운드에서 동기화됩니다</li>
+<li>이름, 키워드, 재료, 인분으로 검색하고 카테고리로 필터링하며 목록을 정렬</li>
+<li>내장 요리 타이머</li>
+<li>레시피를 편집·삭제하거나 사진과 함께 다른 계정으로 복사</li>
+<li>링크를 붙여 넣어 거의 모든 레시피 사이트에서 레시피 가져오기</li>
+<li>빠르게 전환할 수 있는 여러 Nextcloud 계정</li>
+<li>밝은 테마와 어두운 테마</li>
+</ul>
+
+<b>요구 사항</b>
+<ul>
+<li>Cookbook 앱이 설치된 Nextcloud 서버</li>
+<li>해당 서버에 로그인된 Android용 Nextcloud 앱</li>
+</ul>
+
+<b>레시피 가져오기</b>
+많은 레시피 사이트에는 Cookbook이 직접 읽을 수 있는 데이터가 없습니다. 이런 사이트에서 가져오기 위해 KAT는 레시피의 웹 주소만 recipes.odiousapps.com의 보조 서비스로 보냅니다. 서비스는 페이지를 읽어 레시피를 돌려주고, KAT는 이를 사용자의 계정으로 Cookbook에 업로드합니다. 서비스는 Nextcloud 로그인 정보나 다른 어떤 데이터도 받지 않으며, 레시피를 가져오지 않는 한 아무것도 전송되지 않습니다.
+
+KAT는 MicMun이 만든 Nextcloud Cookbook의 포크이며 GNU GPL v3 이상으로 배포되는 자유 소프트웨어입니다.

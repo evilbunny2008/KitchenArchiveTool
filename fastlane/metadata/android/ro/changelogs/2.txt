@@ -1,0 +1,2 @@
+• Filtrul de categorii arată doar categoriile contului curent
+• A fost eliminat vechiul ecran de descărcare a rețetelor

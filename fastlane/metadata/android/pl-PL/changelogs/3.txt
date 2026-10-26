@@ -1,0 +1,4 @@
+• Import przepisu z niemal każdej strony przez wklejenie linku
+• Logowanie bezpośrednio przez aplikację Nextcloud
+• Treść nie chowa się już pod paskiem stanu i nawigacji
+• Wstecz najpierw czyści filtr kategorii

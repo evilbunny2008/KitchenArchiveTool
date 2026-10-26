@@ -1,0 +1,4 @@
+• Importă o rețetă de pe aproape orice site lipindu-i linkul
+• Autentificare direct prin aplicația Nextcloud
+• Conținutul nu mai ajunge sub bara de stare și bara de navigare
+• Înapoi șterge mai întâi filtrul de categorie

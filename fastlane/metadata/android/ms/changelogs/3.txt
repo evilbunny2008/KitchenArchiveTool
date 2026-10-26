@@ -1,0 +1,4 @@
+• Import resipi daripada hampir mana-mana laman dengan menampal pautannya
+• Log masuk terus melalui aplikasi Nextcloud
+• Kandungan tidak lagi terlindung di bawah bar status dan bar navigasi
+• Kembali mengosongkan penapis kategori dahulu

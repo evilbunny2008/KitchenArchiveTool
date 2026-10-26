@@ -1,0 +1,4 @@
+• Rezepte von fast jeder Rezeptseite per Link importieren
+• Anmeldung direkt über die Nextcloud-App
+• Inhalte liegen nicht mehr unter Status- und Navigationsleiste
+• Zurück setzt zuerst den Kategoriefilter zurück

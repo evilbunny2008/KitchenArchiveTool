@@ -1,0 +1,6 @@
+Phiên bản đầu tiên của Kitchen Archive Tool, bản phái sinh của Nextcloud Cookbook.
+• Sao chép công thức kèm ảnh sang tài khoản khác
+• Xóa công thức
+• Biểu tượng ứng dụng mới
+• Đồng bộ nền giờ dùng WorkManager và thực sự hoạt động
+• Sửa lỗi sắp xếp theo ngày, tải lại không cần thiết và công thức từ sai tài khoản

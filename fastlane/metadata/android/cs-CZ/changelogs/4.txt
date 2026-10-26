@@ -1,0 +1,5 @@
+• Průběh a oznámení synchronizace
+• Neúspěšná synchronizace už nemůže smazat vaše místní recepty
+• První synchronizace vydrží otočení obrazovky
+• Opraveny pády během synchronizace
+• Opraveno rozvržení pod navigačním panelem na šířku

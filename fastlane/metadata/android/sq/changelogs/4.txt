@@ -1,0 +1,5 @@
+• Ecuria dhe njoftimet e sinkronizimit
+• Një sinkronizim i dështuar nuk mund të fshijë më recetat e tua lokale
+• Sinkronizimi i parë vazhdon kur rrotullohet ekrani
+• U rregulluan rrëzimet gjatë sinkronizimit
+• U rregullua paraqitja poshtë shiritit të navigimit në horizontal

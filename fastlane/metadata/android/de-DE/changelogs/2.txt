@@ -1,0 +1,2 @@
+• Der Kategoriefilter zeigt nur Kategorien des aktuellen Kontos
+• Alte Rezept-Download-Ansicht entfernt

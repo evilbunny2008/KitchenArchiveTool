@@ -1,0 +1,5 @@
+• Synkronoinnin edistyminen ja ilmoitukset
+• Epäonnistunut synkronointi ei voi enää poistaa paikallisia reseptejäsi
+• Ensimmäinen synkronointi kestää näytön kääntämisen
+• Korjattu kaatumisia synkronoinnin aikana
+• Korjattu asettelu navigointipalkin alla vaaka-asennossa

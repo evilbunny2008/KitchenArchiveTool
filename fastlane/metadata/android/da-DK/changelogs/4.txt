@@ -1,0 +1,5 @@
+• Fremskridt og notifikationer ved synkronisering
+• En mislykket synkronisering kan ikke længere slette dine lokale opskrifter
+• Den første synkronisering overlever, at skærmen drejes
+• Rettet nedbrud under synkronisering
+• Rettet layout under navigationslinjen i liggende format

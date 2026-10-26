@@ -1,0 +1,6 @@
+Ukukhishwa kokuqala kwe-Kitchen Archive Tool, imfologo ye-Nextcloud Cookbook.
+• Kopisha indlela yokupheka kanye nesithombe kwenye i-akhawunti
+• Susa izindlela zokupheka
+• Isithonjana esisha sohlelo lokusebenza
+• Ukuvumelanisa ngemuva manje kusebenzisa i-WorkManager futhi kuyasebenza ngempela
+• Kulungisiwe ukuhlela ngosuku, ukulanda okungadingekile nezindlela zokupheka ezivela ku-akhawunti engafanele

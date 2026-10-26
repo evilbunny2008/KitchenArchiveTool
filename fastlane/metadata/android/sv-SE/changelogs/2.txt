@@ -1,0 +1,2 @@
+• Kategorifiltret visar bara kategorier från det aktuella kontot
+• Den gamla skärmen för nedladdning av recept har tagits bort

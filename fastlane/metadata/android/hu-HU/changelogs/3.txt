@@ -1,0 +1,4 @@
+• Recept importálása szinte bármelyik oldalról a hivatkozás beillesztésével
+• Bejelentkezés közvetlenül a Nextcloud alkalmazáson keresztül
+• A tartalom már nem csúszik az állapotsor és a navigációs sáv alá
+• A Vissza először a kategóriaszűrőt törli

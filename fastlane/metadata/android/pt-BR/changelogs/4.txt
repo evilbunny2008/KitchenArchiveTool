@@ -1,0 +1,5 @@
+• Progresso e notificações de sincronização
+• Uma sincronização com falha não pode mais apagar suas receitas locais
+• A primeira sincronização continua ao girar a tela
+• Corrigidos travamentos durante a sincronização
+• Corrigido o layout sob a barra de navegação no modo paisagem

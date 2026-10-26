@@ -1,0 +1,5 @@
+• Sünkroonimise edenemine ja teavitused
+• Ebaõnnestunud sünkroonimine ei saa enam sinu kohalikke retsepte kustutada
+• Esimene sünkroonimine jätkub ka ekraani pööramisel
+• Parandatud krahhid sünkroonimise ajal
+• Parandatud paigutus navigeerimisriba all horisontaalasendis

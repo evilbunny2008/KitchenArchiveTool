@@ -1,0 +1,5 @@
+• Progression et notifications de synchronisation
+• Une synchronisation échouée ne peut plus supprimer vos recettes locales
+• La première synchronisation résiste à la rotation de l’écran
+• Corrections de plantages pendant la synchronisation
+• Correction de la mise en page sous la barre de navigation en paysage

@@ -1,0 +1,5 @@
+• Fortschritt und Benachrichtigungen beim Synchronisieren
+• Eine fehlgeschlagene Synchronisierung kann deine lokalen Rezepte nicht mehr löschen
+• Die erste Synchronisierung übersteht das Drehen des Bildschirms
+• Abstürze beim Synchronisieren behoben
+• Layout unter der Navigationsleiste im Querformat behoben

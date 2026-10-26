@@ -1,0 +1,4 @@
+• Linkini yapışdırmaqla demək olar ki, istənilən saytdan resept idxal et
+• Birbaşa Nextcloud tətbiqi vasitəsilə daxil olma
+• Məzmun artıq status və naviqasiya panelinin altına düşmür
+• Geri düyməsi əvvəlcə kateqoriya filtrini təmizləyir

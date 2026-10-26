@@ -1,0 +1,24 @@
+Kitchen Archive Tool (KAT) membolehkan anda melayari dan mencari resipi dalam Nextcloud Cookbook anda serta memasak menggunakannya, walaupun di luar talian.
+
+<b>Ciri-ciri</b>
+<ul>
+<li>Log masuk melalui aplikasi Nextcloud tanpa memasukkan kata laluan dalam KAT</li>
+<li>Resipi anda disimpan pada peranti dan disegerakkan di latar belakang</li>
+<li>Cari mengikut nama, kata kunci, bahan atau hidangan, tapis mengikut kategori dan isih senarai</li>
+<li>Pemasa memasak terbina dalam</li>
+<li>Sunting dan padam resipi, atau salin bersama fotonya ke akaun lain</li>
+<li>Import resipi daripada hampir mana-mana laman resipi dengan menampal pautannya</li>
+<li>Beberapa akaun Nextcloud dengan pertukaran pantas</li>
+<li>Tema cerah dan gelap</li>
+</ul>
+
+<b>Keperluan</b>
+<ul>
+<li>Pelayan Nextcloud dengan aplikasi Cookbook dipasang</li>
+<li>Aplikasi Nextcloud untuk Android yang telah log masuk ke pelayan itu</li>
+</ul>
+
+<b>Import resipi</b>
+Banyak laman resipi tidak mengandungi data yang boleh dibaca sendiri oleh Cookbook. Untuk mengimport daripadanya, KAT hanya menghantar alamat web resipi kepada perkhidmatan pembantu di recipes.odiousapps.com, yang membaca halaman itu dan mengembalikan resipi. KAT kemudian memuat naiknya ke Cookbook menggunakan akaun anda sendiri. Perkhidmatan ini tidak pernah menerima maklumat log masuk Nextcloud anda atau data lain, dan tiada apa-apa dihantar melainkan anda mengimport resipi.
+
+KAT ialah fork Nextcloud Cookbook oleh MicMun dan merupakan perisian bebas di bawah GNU GPL v3 atau lebih baharu.

@@ -1,0 +1,2 @@
+• Le filtre de catégories n’affiche que celles du compte actuel
+• Suppression de l’ancien écran de téléchargement de recettes

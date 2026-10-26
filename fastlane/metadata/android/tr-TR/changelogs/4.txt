@@ -1,0 +1,5 @@
+• Eşitleme ilerlemesi ve bildirimleri
+• Başarısız bir eşitleme artık yerel tariflerini silemez
+• İlk eşitleme ekran döndürüldüğünde devam eder
+• Eşitleme sırasındaki çökmeler düzeltildi
+• Yatay modda gezinme çubuğunun altındaki düzen düzeltildi

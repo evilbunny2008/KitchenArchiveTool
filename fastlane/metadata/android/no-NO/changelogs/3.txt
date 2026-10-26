@@ -1,0 +1,4 @@
+• Importer en oppskrift fra nesten hvilken som helst side ved å lime inn lenken
+• Logg inn direkte via Nextcloud-appen
+• Innholdet havner ikke lenger under status- og navigasjonslinjen
+• Tilbake fjerner først kategorifilteret

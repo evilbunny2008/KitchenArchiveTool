@@ -1,0 +1,2 @@
+• Kategorifilteret viser bare kategorier fra gjeldende konto
+• Den gamle skjermen for nedlasting av oppskrifter er fjernet

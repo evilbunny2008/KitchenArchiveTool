@@ -1,0 +1,2 @@
+• A kategóriaszűrő csak az aktuális fiók kategóriáit mutatja
+• Eltávolítva a régi receptletöltő képernyő

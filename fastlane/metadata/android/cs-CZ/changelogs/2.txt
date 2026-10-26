@@ -1,0 +1,2 @@
+• Filtr kategorií zobrazuje jen kategorie aktuálního účtu
+• Odstraněna stará obrazovka stahování receptů

@@ -1,0 +1,4 @@
+• Nhập công thức từ hầu hết mọi trang bằng cách dán liên kết
+• Đăng nhập trực tiếp qua ứng dụng Nextcloud
+• Nội dung không còn nằm dưới thanh trạng thái và thanh điều hướng
+• Nút Quay lại sẽ xóa bộ lọc danh mục trước

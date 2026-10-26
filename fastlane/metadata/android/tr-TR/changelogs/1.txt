@@ -1,0 +1,6 @@
+Nextcloud Cookbook’un bir çatalı olan Kitchen Archive Tool’un ilk sürümü.
+• Bir tarifi fotoğrafıyla birlikte başka bir hesaba kopyala
+• Tarifleri sil
+• Yeni uygulama simgesi
+• Arka plan eşitlemesi artık WorkManager kullanıyor ve gerçekten çalışıyor
+• Tarihe göre sıralama, gereksiz indirmeler ve yanlış hesaptan gelen tarifler düzeltildi

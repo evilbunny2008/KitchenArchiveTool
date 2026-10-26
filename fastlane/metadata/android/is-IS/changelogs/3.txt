@@ -1,0 +1,4 @@
+• Fluttu inn uppskrift af nánast hvaða vef sem er með því að líma inn tengilinn
+• Innskráning beint í gegnum Nextcloud-appið
+• Efni lendir ekki lengur undir stöðu- og leiðsagnarstikunni
+• Til baka hreinsar fyrst flokkasíuna

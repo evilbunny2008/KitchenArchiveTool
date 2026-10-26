@@ -1,0 +1,4 @@
+• Import receptu z téměř libovolného webu vložením odkazu
+• Přihlášení přímo přes aplikaci Nextcloud
+• Obsah už nezasahuje pod stavový a navigační panel
+• Zpět nejprve zruší filtr kategorie

@@ -1,0 +1,2 @@
+• Filtar kategorija prikazuje samo kategorije trenutačnog računa
+• Uklonjen stari zaslon za preuzimanje recepata

@@ -1,0 +1,5 @@
+• Progreso at mga notification ng sync
+• Hindi na mabubura ng pumalyang sync ang mga recipe sa device mo
+• Nagpapatuloy ang unang sync kahit i-rotate ang screen
+• Naayos ang mga pag-crash habang nagsi-sync
+• Naayos ang layout sa ilalim ng navigation bar sa landscape

@@ -1,0 +1,4 @@
+• Importo një recetë nga pothuajse çdo faqe duke ngjitur lidhjen
+• Hyrje drejtpërdrejt përmes aplikacionit Nextcloud
+• Përmbajtja nuk shkon më poshtë shiritit të statusit dhe të navigimit
+• Mbrapa pastron së pari filtrin e kategorisë

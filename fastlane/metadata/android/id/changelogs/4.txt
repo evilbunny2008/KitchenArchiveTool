@@ -1,0 +1,5 @@
+• Progres dan notifikasi sinkronisasi
+• Sinkronisasi yang gagal tidak bisa lagi menghapus resep lokalmu
+• Sinkronisasi pertama tetap berjalan saat layar diputar
+• Perbaikan aplikasi berhenti saat sinkronisasi
+• Perbaikan tata letak di bawah bilah navigasi dalam mode lanskap

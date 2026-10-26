@@ -1,0 +1,5 @@
+• Sinchronizavimo eiga ir pranešimai
+• Nepavykęs sinchronizavimas nebegali ištrinti jūsų vietinių receptų
+• Pirmasis sinchronizavimas nenutrūksta pasukus ekraną
+• Pataisytos strigtys sinchronizuojant
+• Pataisytas išdėstymas po naršymo juosta gulsčiame režime

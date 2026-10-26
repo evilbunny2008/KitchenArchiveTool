@@ -1,0 +1,5 @@
+• Sinxronizasiyanın gedişi və bildirişlər
+• Uğursuz sinxronizasiya artıq yerli reseptlərini silə bilməz
+• İlk sinxronizasiya ekran döndərilərkən davam edir
+• Sinxronizasiya zamanı çökmələr düzəldildi
+• Üfüqi rejimdə naviqasiya panelinin altındakı tərtibat düzəldildi

@@ -1,0 +1,5 @@
+• Sinkronizazioaren aurrerapena eta jakinarazpenak
+• Huts egindako sinkronizazio batek ezin ditu gehiago zure errezeta lokalak ezabatu
+• Lehen sinkronizazioak pantaila biratzea jasaten du
+• Sinkronizazioan zehar gertatzen ziren hutsegiteak konponduta
+• Nabigazio-barraren azpiko diseinua konponduta horizontalean

@@ -1,0 +1,6 @@
+Pirmā Kitchen Archive Tool versija, Nextcloud Cookbook atzars.
+• Kopē recepti kopā ar foto uz citu kontu
+• Dzēs receptes
+• Jauna lietotnes ikona
+• Fona sinhronizācija tagad izmanto WorkManager un patiešām darbojas
+• Labota kārtošana pēc datuma, liekas lejupielādes un receptes no nepareiza konta

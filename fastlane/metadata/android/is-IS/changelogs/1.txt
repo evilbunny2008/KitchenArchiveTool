@@ -1,0 +1,6 @@
+Fyrsta útgáfa Kitchen Archive Tool, afleiðu af Nextcloud Cookbook.
+• Afritaðu uppskrift með mynd yfir á annan reikning
+• Eyddu uppskriftum
+• Nýtt app-tákn
+• Samstilling í bakgrunni notar nú WorkManager og keyrir í raun
+• Lagað: röðun eftir dagsetningu, óþarfa niðurhal og uppskriftir af röngum reikningi

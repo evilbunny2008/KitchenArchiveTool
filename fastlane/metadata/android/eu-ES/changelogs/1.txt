@@ -1,0 +1,6 @@
+Kitchen Archive Tool-en lehen bertsioa, Nextcloud Cookbook-en adarra.
+• Kopiatu errezeta bat argazkiarekin beste kontu batera
+• Ezabatu errezetak
+• Aplikazioaren ikono berria
+• Atzeko planoko sinkronizazioak WorkManager erabiltzen du orain, eta benetan dabil
+• Konponduta: dataren araberako ordena, alferrikako deskargak eta beste kontu bateko errezetak

@@ -1,0 +1,6 @@
+A Kitchen Archive Tool első kiadása, a Nextcloud Cookbook forkja.
+• Recept másolása fotóval együtt egy másik fiókba
+• Receptek törlése
+• Új alkalmazásikon
+• A háttérszinkronizálás mostantól WorkManagert használ, és ténylegesen fut
+• Javítva: dátum szerinti rendezés, felesleges letöltések és rossz fiókból megjelenő receptek

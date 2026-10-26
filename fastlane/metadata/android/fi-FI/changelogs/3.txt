@@ -1,0 +1,4 @@
+• Tuo resepti lähes miltä tahansa sivustolta liittämällä sen linkki
+• Kirjautuminen suoraan Nextcloud-sovelluksen kautta
+• Sisältö ei enää jää tila- ja navigointipalkin alle
+• Takaisin tyhjentää ensin kategoriasuodattimen

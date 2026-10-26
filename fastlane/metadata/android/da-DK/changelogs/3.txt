@@ -1,0 +1,4 @@
+• Importér en opskrift fra næsten enhver opskriftsside ved at indsætte linket
+• Log ind direkte via Nextcloud-appen
+• Indhold ligger ikke længere under status- og navigationslinjen
+• Tilbage rydder først kategorifilteret

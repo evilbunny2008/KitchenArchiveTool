@@ -1,0 +1,6 @@
+Rilis pertama Kitchen Archive Tool, fork dari Nextcloud Cookbook.
+• Salin resep beserta fotonya ke akun lain
+• Hapus resep
+• Ikon aplikasi baru
+• Sinkronisasi latar belakang kini memakai WorkManager dan benar-benar berjalan
+• Perbaikan urutan berdasarkan tanggal, unduhan berulang yang tidak perlu, dan resep dari akun yang salah

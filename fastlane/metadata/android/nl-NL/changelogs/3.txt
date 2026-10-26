@@ -1,0 +1,4 @@
+• Een recept importeren van bijna elke receptensite door de link te plakken
+• Direct inloggen via de Nextcloud-app
+• Inhoud valt niet meer onder de status- en navigatiebalk
+• Terug wist eerst het categoriefilter

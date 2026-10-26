@@ -1,0 +1,6 @@
+Kitchen Archive Toolin ensimmäinen versio, Nextcloud Cookbookin haara.
+• Kopioi resepti kuvineen toiselle tilille
+• Poista reseptejä
+• Uusi sovelluskuvake
+• Taustasynkronointi käyttää nyt WorkManageria ja toimii oikeasti
+• Korjattu päivämäärälajittelu, turhat lataukset ja väärän tilin reseptit

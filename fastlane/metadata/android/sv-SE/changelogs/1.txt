@@ -1,0 +1,6 @@
+Första versionen av Kitchen Archive Tool, en fork av Nextcloud Cookbook.
+• Kopiera ett recept med foto till ett annat konto
+• Ta bort recept
+• Ny appikon
+• Bakgrundssynkronisering använder nu WorkManager och körs faktiskt
+• Åtgärdat sortering på datum, onödiga nedladdningar och recept från fel konto

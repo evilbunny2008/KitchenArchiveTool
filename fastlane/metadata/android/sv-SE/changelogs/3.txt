@@ -1,0 +1,4 @@
+• Importera ett recept från nästan vilken receptsida som helst genom att klistra in länken
+• Logga in direkt via Nextcloud-appen
+• Innehållet hamnar inte längre under status- och navigeringsfältet
+• Bakåt rensar först kategorifiltret

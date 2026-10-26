@@ -1,0 +1,2 @@
+• Het categoriefilter toont alleen categorieën van het huidige account
+• Het oude scherm voor het downloaden van recepten is verwijderd

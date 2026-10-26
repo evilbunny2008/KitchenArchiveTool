@@ -1,0 +1,5 @@
+• Potek in obvestila sinhronizacije
+• Neuspela sinhronizacija ne more več izbrisati tvojih lokalnih receptov
+• Prva sinhronizacija prenese vrtenje zaslona
+• Popravljena sesutja med sinhronizacijo
+• Popravljena postavitev pod navigacijsko vrstico v ležečem načinu

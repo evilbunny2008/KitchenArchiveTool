@@ -1,0 +1,4 @@
+• Voer ’n resep van byna enige webwerf in deur die skakel te plak
+• Meld direk aan via die Nextcloud-app
+• Inhoud lê nie meer onder die status- en navigasiebalk nie
+• Terug maak eers die kategoriefilter skoon

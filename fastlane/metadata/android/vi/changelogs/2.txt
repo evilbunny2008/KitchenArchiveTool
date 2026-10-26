@@ -1,0 +1,2 @@
+• Bộ lọc danh mục chỉ hiện danh mục của tài khoản hiện tại
+• Bỏ màn hình tải công thức cũ

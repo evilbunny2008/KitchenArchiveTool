@@ -1,0 +1,5 @@
+• Voortgang en meldingen bij synchroniseren
+• Een mislukte synchronisatie kan je lokale recepten niet meer verwijderen
+• De eerste synchronisatie overleeft het draaien van het scherm
+• Crashes tijdens synchronisatie opgelost
+• Opmaak onder de navigatiebalk in liggende stand opgelost

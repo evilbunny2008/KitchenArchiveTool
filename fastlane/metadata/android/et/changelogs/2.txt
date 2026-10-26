@@ -1,0 +1,2 @@
+• Kategooriafilter näitab ainult praeguse konto kategooriaid
+• Vana retseptide allalaadimise vaade on eemaldatud

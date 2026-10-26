@@ -1,0 +1,6 @@
+Prvá verzia Kitchen Archive Tool, forku Nextcloud Cookbook.
+• Kopírovanie receptu aj s fotkou do iného účtu
+• Odstraňovanie receptov
+• Nová ikona aplikácie
+• Synchronizácia na pozadí teraz používa WorkManager a naozaj beží
+• Opravené zoraďovanie podľa dátumu, zbytočné sťahovanie a recepty z nesprávneho účtu
