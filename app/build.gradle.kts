@@ -46,10 +46,6 @@ android {
         targetSdk = 37
         versionCode = 6
         versionName = "0.0.6"
-        // Only relevant for API < 21 (vector drawables aren't natively
-        // supported by the platform before Lollipop) -- moot with minSdk 29.
-        // vectorDrawables.useSupportLibrary = true
-        multiDexEnabled = true
     }
 
     buildTypes {
@@ -87,24 +83,6 @@ android {
     }
 }
 
-// Copies the release .aab from AGP's default build output location
-// (app/build/outputs/bundle/release/app-release.aab) to
-// app/dist/<appName>-<versionName>.aab (already gitignored) -- a
-// separate, deliberately-chosen destination outside the build/ directory,
-// so it survives a clean build. (Originally this copied to app/release/
-// instead: don't rename it back to that. app/release/ turned out to
-// collide with Android Studio's own "Generate Signed Bundle" wizard,
-// which independently remembers/defaults to a <module>/release/
-// destination of its own and writes its own app-release.aab there on
-// every signed-bundle build -- completely unrelated to this task, but
-// landing in the exact same folder, which made it look like this task
-// wasn't deleting the original when actually a second, IDE-driven copy
-// was reappearing after each build. dist/ doesn't collide with anything.)
-// Critically, this must run *after* AGP's own internal
-// "produce...BundleIdeListingFile" task, which declares the bundle at
-// its default name/location as one of its own inputs - deleting it any
-// earlier fails that task's input validation with "file doesn't exist".
-//
 // Defined as a proper typed task class (not a closure passed to
 // tasks.register) with Provider/Property-typed inputs: an earlier version
 // captured the whole AGP `variant` object inside a doLast {} closure, and
@@ -149,13 +127,6 @@ abstract class RenameBundleTask : DefaultTask() {
     }
 }
 
-// Copies the release APK(s) from AGP's default build output location
-// (app/build/outputs/apk/release/) to app/dist/ too, alongside the
-// renamed bundle above. Unlike RenameBundleTask, this doesn't delete the
-// originals -- there's no equivalent reason to (no known collision with
-// anything else that writes to the APK output directory), so this is a
-// plain copy, not a move.
-//
 // APK artifacts are exposed via SingleArtifact.APK: despite the name, this
 // resolves to a *directory* (marked Artifact.ContainsMany in AGP's own
 // docs), since a variant can in principle produce more than one APK
