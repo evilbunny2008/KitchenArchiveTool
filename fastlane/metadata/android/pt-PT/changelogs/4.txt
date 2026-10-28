@@ -1,0 +1,5 @@
+• Progresso e notificações de sincronização
+• Uma sincronização falhada já não pode apagar as suas receitas locais
+• A primeira sincronização continua ao rodar o ecrã
+• Corrigidas falhas durante a sincronização
+• Corrigida a disposição por baixo da barra de navegação no modo horizontal

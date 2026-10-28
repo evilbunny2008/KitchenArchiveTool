@@ -1,0 +1,2 @@
+• O filtro de categorias mostra apenas as da conta atual
+• Removido o antigo ecrã de transferência de receitas
