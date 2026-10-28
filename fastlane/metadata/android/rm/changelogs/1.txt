@@ -1,0 +1,6 @@
+Emprima versiun da Kitchen Archive Tool, in fork da Nextcloud Cookbook.
+• Copiar in recept cun sia fotografia en in auter conto
+• Stizzar recepts
+• Nov icon da l’app
+• La sincronisaziun en il fund utilisescha WorkManager e funcziuna ussa propi
+• Corregì l’assortiment tenor data, telechargiadas nunnecessarias e recepts dal fauss conto

@@ -1,0 +1,20 @@
+Cun Kitchen Archive Tool (KAT) pos ti sfegliar e tschertgar ils recepts da tes Nextcloud Cookbook e cuschinar cun els, er sche ti es offline.
+
+Funcziuns
+• Annunzia via l’app Nextcloud, senza endatar tes pled-clav en KAT
+• Tes recepts vegnan memorisads sin l’apparat e sincronisads en il fund
+• Tschertga tenor num, chavazzin, ingredienza u dumber da portiuns, filtrescha tenor categoria ed assortescha la glista
+• Timer da cuschina integrà
+• Modifitgescha e stizza recepts u copiescha els cun lur fotografia en in auter conto
+• Importescha in recept da bunamain mintga pagina d’internet cun recepts cun encollar sia colliaziun
+• Plirs contos Nextcloud cun midada svelta
+• Designs cler e stgir
+
+Premissas
+• In server Nextcloud cun l’app Cookbook installada
+• L’app Nextcloud per Android, annunziada tar quest server
+
+Import da recepts
+Bleras paginas d’internet cun recepts na cuntegnan naginas datas che Cookbook po leger sez. Per importar dad ellas, trametta KAT mo l’adressa web dal recept ad in servetsch accumpagnant sin recipes.odiousapps.com che legia la pagina e returna il recept. Lura chargia KAT il recept en Cookbook cun tes agen conto. Il servetsch na survegn mai tias datas d’annunzia da Nextcloud u autras datas, e nagut na vegn tramess, nun che ti importeschias in recept.
+
+KAT è in fork da Nextcloud Cookbook da MicMun ed è software liber sut la GNU GPL v3 u ina versiun pli nova.

@@ -1,0 +1,5 @@
+• Progress e notificaziuns da la sincronisaziun
+• Ina sincronisaziun betg reussida na po betg pli stizzar tes recepts locals
+• L’emprima sincronisaziun cuntinuescha er suenter avair rotà il visur
+• Corregì collaps durant la sincronisaziun
+• Corregì la disposiziun sut la trav da navigaziun en il format orizontal
