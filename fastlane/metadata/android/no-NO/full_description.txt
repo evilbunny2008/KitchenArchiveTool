@@ -1,24 +1,20 @@
 Med Kitchen Archive Tool (KAT) kan du bla gjennom og søke i oppskriftene i din Nextcloud Cookbook og lage mat etter dem, også uten nett.
 
-<b>Funksjoner</b>
-<ul>
-<li>Logg inn via Nextcloud-appen uten å skrive passordet ditt i KAT</li>
-<li>Oppskriftene dine lagres på enheten og synkroniseres i bakgrunnen</li>
-<li>Søk etter navn, nøkkelord, ingrediens eller antall porsjoner, filtrer etter kategori og sorter listen</li>
-<li>Innebygd kjøkkentimer</li>
-<li>Rediger og slett oppskrifter, eller kopier dem med bilde til en annen konto</li>
-<li>Importer en oppskrift fra nesten hvilken som helst oppskriftsside ved å lime inn lenken</li>
-<li>Flere Nextcloud-kontoer med raskt bytte</li>
-<li>Lyst og mørkt tema</li>
-</ul>
+Funksjoner
+• Logg inn via Nextcloud-appen uten å skrive passordet ditt i KAT
+• Oppskriftene dine lagres på enheten og synkroniseres i bakgrunnen
+• Søk etter navn, nøkkelord, ingrediens eller antall porsjoner, filtrer etter kategori og sorter listen
+• Innebygd kjøkkentimer
+• Rediger og slett oppskrifter, eller kopier dem med bilde til en annen konto
+• Importer en oppskrift fra nesten hvilken som helst oppskriftsside ved å lime inn lenken
+• Flere Nextcloud-kontoer med raskt bytte
+• Lyst og mørkt tema
 
-<b>Krav</b>
-<ul>
-<li>En Nextcloud-server med Cookbook-appen installert</li>
-<li>Nextcloud-appen for Android, logget inn på den serveren</li>
-</ul>
+Krav
+• En Nextcloud-server med Cookbook-appen installert
+• Nextcloud-appen for Android, logget inn på den serveren
 
-<b>Import av oppskrifter</b>
+Import av oppskrifter
 Mange oppskriftssider inneholder ikke data som Cookbook kan lese selv. For å importere fra dem sender KAT bare oppskriftens nettadresse til en hjelpetjeneste på recipes.odiousapps.com, som leser siden og returnerer oppskriften. KAT laster den deretter opp til Cookbook med din egen konto. Tjenesten mottar aldri Nextcloud-innloggingen din eller andre data, og ingenting sendes med mindre du importerer en oppskrift.
 
 KAT er en fork av Nextcloud Cookbook av MicMun og er fri programvare under GNU GPL v3 eller nyere.

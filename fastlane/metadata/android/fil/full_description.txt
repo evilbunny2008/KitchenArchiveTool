@@ -1,24 +1,20 @@
 Sa Kitchen Archive Tool (KAT), maaari mong tingnan at hanapin ang mga recipe sa iyong Nextcloud Cookbook at magluto gamit ang mga ito, kahit offline.
 
-<b>Mga feature</b>
-<ul>
-<li>Mag-sign in sa pamamagitan ng Nextcloud app, nang hindi inilalagay ang password mo sa KAT</li>
-<li>Nakaimbak sa device ang mga recipe mo at sini-sync sa background</li>
-<li>Maghanap ayon sa pangalan, keyword, sangkap o dami ng serving, mag-filter ayon sa kategorya at ayusin ang listahan</li>
-<li>Built-in na timer sa pagluluto</li>
-<li>Mag-edit at magbura ng mga recipe, o kopyahin ang mga ito kasama ang larawan sa ibang account</li>
-<li>Mag-import ng recipe mula sa halos anumang recipe website sa pamamagitan ng pag-paste ng link nito</li>
-<li>Maraming Nextcloud account na mabilis mapagpalit</li>
-<li>Light at dark na tema</li>
-</ul>
+Mga feature
+• Mag-sign in sa pamamagitan ng Nextcloud app, nang hindi inilalagay ang password mo sa KAT
+• Nakaimbak sa device ang mga recipe mo at sini-sync sa background
+• Maghanap ayon sa pangalan, keyword, sangkap o dami ng serving, mag-filter ayon sa kategorya at ayusin ang listahan
+• Built-in na timer sa pagluluto
+• Mag-edit at magbura ng mga recipe, o kopyahin ang mga ito kasama ang larawan sa ibang account
+• Mag-import ng recipe mula sa halos anumang recipe website sa pamamagitan ng pag-paste ng link nito
+• Maraming Nextcloud account na mabilis mapagpalit
+• Light at dark na tema
 
-<b>Mga kailangan</b>
-<ul>
-<li>Isang Nextcloud server na may naka-install na Cookbook app</li>
-<li>Ang Nextcloud app para sa Android, naka-sign in sa server na iyon</li>
-</ul>
+Mga kailangan
+• Isang Nextcloud server na may naka-install na Cookbook app
+• Ang Nextcloud app para sa Android, naka-sign in sa server na iyon
 
-<b>Pag-import ng recipe</b>
+Pag-import ng recipe
 Maraming recipe website ang walang data na kayang basahin ng Cookbook nang mag-isa. Para mag-import mula sa mga ito, ipinapadala lang ng KAT ang web address ng recipe sa isang katuwang na serbisyo sa recipes.odiousapps.com, na nagbabasa ng page at nagbabalik ng recipe. Pagkatapos ay ina-upload ito ng KAT sa Cookbook gamit ang sarili mong account. Hindi kailanman natatanggap ng serbisyo ang iyong Nextcloud login o anumang ibang data, at walang ipinapadala maliban kung mag-import ka ng recipe.
 
 Ang KAT ay isang fork ng Nextcloud Cookbook ni MicMun at isang libreng software sa ilalim ng GNU GPL v3 o mas bago.

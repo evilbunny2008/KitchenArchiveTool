@@ -1,24 +1,20 @@
 Kitchen Archive Tooliga (KAT) saad sirvida ja otsida oma Nextcloud Cookbooki retsepte ning nende järgi süüa teha ka ilma internetita.
 
-<b>Funktsioonid</b>
-<ul>
-<li>Sisselogimine Nextcloudi rakenduse kaudu, ilma et peaksid parooli KAT-i sisestama</li>
-<li>Retseptid hoitakse seadmes ja sünkroonitakse taustal</li>
-<li>Otsi nime, märksõna, koostisosa või portsjonite järgi, filtreeri kategooria järgi ja sorteeri loendit</li>
-<li>Sisseehitatud köögitaimer</li>
-<li>Muuda ja kustuta retsepte või kopeeri need koos fotoga teisele kontole</li>
-<li>Impordi retsept peaaegu igalt retseptisaidilt, kleepides selle lingi</li>
-<li>Mitu Nextcloudi kontot ja kiire vahetamine</li>
-<li>Hele ja tume teema</li>
-</ul>
+Funktsioonid
+• Sisselogimine Nextcloudi rakenduse kaudu, ilma et peaksid parooli KAT-i sisestama
+• Retseptid hoitakse seadmes ja sünkroonitakse taustal
+• Otsi nime, märksõna, koostisosa või portsjonite järgi, filtreeri kategooria järgi ja sorteeri loendit
+• Sisseehitatud köögitaimer
+• Muuda ja kustuta retsepte või kopeeri need koos fotoga teisele kontole
+• Impordi retsept peaaegu igalt retseptisaidilt, kleepides selle lingi
+• Mitu Nextcloudi kontot ja kiire vahetamine
+• Hele ja tume teema
 
-<b>Nõuded</b>
-<ul>
-<li>Nextcloudi server, kuhu on paigaldatud Cookbooki rakendus</li>
-<li>Nextcloudi Androidi rakendus, mis on selle serveriga sisse logitud</li>
-</ul>
+Nõuded
+• Nextcloudi server, kuhu on paigaldatud Cookbooki rakendus
+• Nextcloudi Androidi rakendus, mis on selle serveriga sisse logitud
 
-<b>Retseptide importimine</b>
+Retseptide importimine
 Paljud retseptisaidid ei sisalda andmeid, mida Cookbook ise lugeda oskab. Neilt importimiseks saadab KAT ainult retsepti veebiaadressi abiteenusele aadressil recipes.odiousapps.com, mis loeb lehe ja tagastab retsepti. Seejärel laadib KAT selle sinu enda kontoga Cookbooki üles. Teenus ei saa kunagi sinu Nextcloudi sisselogimisandmeid ega muid andmeid ning midagi ei saadeta, kui sa retsepti ei impordi.
 
 KAT on MicMuni Nextcloud Cookbooki haru ja vaba tarkvara litsentsi GNU GPL v3 või uuema all.

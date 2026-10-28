@@ -1,24 +1,20 @@
 Kitchen Archive Tool (KAT), Nextcloud Cookbook’taki tariflerine göz atmanı, aramanı ve onlarla yemek yapmanı sağlar; çevrimdışıyken bile.
 
-<b>Özellikler</b>
-<ul>
-<li>Nextcloud uygulaması üzerinden, şifreni KAT’a yazmadan oturum açma</li>
-<li>Tariflerin cihazda saklanır ve arka planda eşitlenir</li>
-<li>Ada, anahtar kelimeye, malzemeye veya porsiyona göre arama, kategoriye göre filtreleme ve listeyi sıralama</li>
-<li>Yerleşik mutfak zamanlayıcısı</li>
-<li>Tarifleri düzenle ve sil ya da fotoğrafıyla birlikte başka bir hesaba kopyala</li>
-<li>Bağlantısını yapıştırarak neredeyse her tarif sitesinden tarif içe aktar</li>
-<li>Hızlı geçişli birden fazla Nextcloud hesabı</li>
-<li>Açık ve koyu tema</li>
-</ul>
+Özellikler
+• Nextcloud uygulaması üzerinden, şifreni KAT’a yazmadan oturum açma
+• Tariflerin cihazda saklanır ve arka planda eşitlenir
+• Ada, anahtar kelimeye, malzemeye veya porsiyona göre arama, kategoriye göre filtreleme ve listeyi sıralama
+• Yerleşik mutfak zamanlayıcısı
+• Tarifleri düzenle ve sil ya da fotoğrafıyla birlikte başka bir hesaba kopyala
+• Bağlantısını yapıştırarak neredeyse her tarif sitesinden tarif içe aktar
+• Hızlı geçişli birden fazla Nextcloud hesabı
+• Açık ve koyu tema
 
-<b>Gereksinimler</b>
-<ul>
-<li>Cookbook uygulaması kurulu bir Nextcloud sunucusu</li>
-<li>Bu sunucuda oturum açılmış Nextcloud Android uygulaması</li>
-</ul>
+Gereksinimler
+• Cookbook uygulaması kurulu bir Nextcloud sunucusu
+• Bu sunucuda oturum açılmış Nextcloud Android uygulaması
 
-<b>Tarif içe aktarma</b>
+Tarif içe aktarma
 Pek çok tarif sitesi, Cookbook’un kendi başına okuyabileceği verileri içermez. Bu sitelerden içe aktarmak için KAT yalnızca tarifin web adresini recipes.odiousapps.com adresindeki yardımcı bir hizmete gönderir; hizmet sayfayı okur ve tarifi geri döndürür. Ardından KAT tarifi kendi hesabınla Cookbook’a yükler. Hizmet, Nextcloud giriş bilgilerini veya başka hiçbir veriyi asla almaz ve sen tarif içe aktarmadıkça hiçbir şey gönderilmez.
 
 KAT, MicMun’un Nextcloud Cookbook uygulamasının bir çatalıdır ve GNU GPL v3 veya üzeri lisansla sunulan özgür bir yazılımdır.

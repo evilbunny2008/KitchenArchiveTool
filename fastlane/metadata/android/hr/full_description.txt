@@ -1,24 +1,20 @@
 Kitchen Archive Tool (KAT) omogućuje ti pregledavanje i pretraživanje recepata u tvom Nextcloud Cookbooku i kuhanje po njima, čak i bez veze.
 
-<b>Značajke</b>
-<ul>
-<li>Prijava putem aplikacije Nextcloud, bez upisivanja lozinke u KAT</li>
-<li>Recepti se čuvaju na uređaju i sinkroniziraju u pozadini</li>
-<li>Pretraživanje po nazivu, ključnoj riječi, sastojku ili broju porcija, filtriranje po kategoriji i sortiranje popisa</li>
-<li>Ugrađeni kuhinjski mjerač vremena</li>
-<li>Uređuj i briši recepte ili ih zajedno s fotografijom kopiraj na drugi račun</li>
-<li>Uvezi recept s gotovo bilo koje stranice s receptima lijepljenjem poveznice</li>
-<li>Više Nextcloud računa s brzim prebacivanjem</li>
-<li>Svijetla i tamna tema</li>
-</ul>
+Značajke
+• Prijava putem aplikacije Nextcloud, bez upisivanja lozinke u KAT
+• Recepti se čuvaju na uređaju i sinkroniziraju u pozadini
+• Pretraživanje po nazivu, ključnoj riječi, sastojku ili broju porcija, filtriranje po kategoriji i sortiranje popisa
+• Ugrađeni kuhinjski mjerač vremena
+• Uređuj i briši recepte ili ih zajedno s fotografijom kopiraj na drugi račun
+• Uvezi recept s gotovo bilo koje stranice s receptima lijepljenjem poveznice
+• Više Nextcloud računa s brzim prebacivanjem
+• Svijetla i tamna tema
 
-<b>Zahtjevi</b>
-<ul>
-<li>Nextcloud poslužitelj s instaliranom aplikacijom Cookbook</li>
-<li>Aplikacija Nextcloud za Android prijavljena na taj poslužitelj</li>
-</ul>
+Zahtjevi
+• Nextcloud poslužitelj s instaliranom aplikacijom Cookbook
+• Aplikacija Nextcloud za Android prijavljena na taj poslužitelj
 
-<b>Uvoz recepata</b>
+Uvoz recepata
 Mnoge stranice s receptima ne sadrže podatke koje Cookbook može sam pročitati. Za uvoz s njih KAT šalje samo web-adresu recepta pomoćnoj usluzi na recipes.odiousapps.com, koja pročita stranicu i vrati recept. KAT ga zatim tvojim računom prenese u Cookbook. Usluga nikad ne prima tvoje podatke za prijavu u Nextcloud ni bilo koje druge podatke, a ništa se ne šalje dok ne uvezeš recept.
 
 KAT je fork aplikacije Nextcloud Cookbook autora MicMun i slobodan je softver pod licencom GNU GPL v3 ili novijom.

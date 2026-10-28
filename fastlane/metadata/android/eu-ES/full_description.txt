@@ -1,24 +1,20 @@
 Kitchen Archive Tool (KAT) aplikazioarekin zure Nextcloud Cookbook-eko errezetak arakatu eta bilatu, eta haiekin sukaldatu dezakezu, konexiorik gabe ere bai.
 
-<b>Ezaugarriak</b>
-<ul>
-<li>Hasi saioa Nextcloud aplikazioaren bidez, pasahitza KATen idatzi gabe</li>
-<li>Errezetak gailuan gordetzen dira eta atzeko planoan sinkronizatzen dira</li>
-<li>Bilatu izenaren, gako-hitzaren, osagaiaren edo errazio kopuruaren arabera, iragazi kategoriaren arabera eta ordenatu zerrenda</li>
-<li>Sukaldeko tenporizadore integratua</li>
-<li>Editatu eta ezabatu errezetak, edo kopiatu argazkiarekin beste kontu batera</li>
-<li>Inportatu errezeta bat ia edozein errezeta-webgunetatik, haren esteka itsatsita</li>
-<li>Nextcloud kontu bat baino gehiago, aldaketa azkarrarekin</li>
-<li>Gai argia eta iluna</li>
-</ul>
+Ezaugarriak
+• Hasi saioa Nextcloud aplikazioaren bidez, pasahitza KATen idatzi gabe
+• Errezetak gailuan gordetzen dira eta atzeko planoan sinkronizatzen dira
+• Bilatu izenaren, gako-hitzaren, osagaiaren edo errazio kopuruaren arabera, iragazi kategoriaren arabera eta ordenatu zerrenda
+• Sukaldeko tenporizadore integratua
+• Editatu eta ezabatu errezetak, edo kopiatu argazkiarekin beste kontu batera
+• Inportatu errezeta bat ia edozein errezeta-webgunetatik, haren esteka itsatsita
+• Nextcloud kontu bat baino gehiago, aldaketa azkarrarekin
+• Gai argia eta iluna
 
-<b>Eskakizunak</b>
-<ul>
-<li>Cookbook aplikazioa instalatuta duen Nextcloud zerbitzari bat</li>
-<li>Androiderako Nextcloud aplikazioa, zerbitzari horretan saioa hasita</li>
-</ul>
+Eskakizunak
+• Cookbook aplikazioa instalatuta duen Nextcloud zerbitzari bat
+• Androiderako Nextcloud aplikazioa, zerbitzari horretan saioa hasita
 
-<b>Errezeten inportazioa</b>
+Errezeten inportazioa
 Errezeta-webgune askok ez dute Cookbook-ek berak irakur ditzakeen daturik. Haietatik inportatzeko, KATek errezetaren web helbidea soilik bidaltzen dio recipes.odiousapps.com helbideko zerbitzu laguntzaile bati; zerbitzuak orria irakurri eta errezeta itzultzen du. Ondoren, KATek zure kontuarekin igotzen du Cookbook-era. Zerbitzuak ez du inoiz jasotzen zure Nextcloud saio-hasierako daturik ez beste daturik, eta ez da ezer bidaltzen errezeta bat inportatzen ez baduzu.
 
 KAT MicMun-en Nextcloud Cookbook-en adarra (fork) da, eta software librea GNU GPL v3 edo berriagoaren pean.

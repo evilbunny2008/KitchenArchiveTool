@@ -1,24 +1,20 @@
 S Kitchen Archive Tool (KAT) lahko brskaš in iščeš recepte v svojem Nextcloud Cookbook ter kuhaš po njih, tudi brez povezave.
 
-<b>Funkcije</b>
-<ul>
-<li>Prijava prek aplikacije Nextcloud, brez vnosa gesla v KAT</li>
-<li>Recepti so shranjeni v napravi in se sinhronizirajo v ozadju</li>
-<li>Iskanje po imenu, ključni besedi, sestavini ali številu porcij, filtriranje po kategoriji in razvrščanje seznama</li>
-<li>Vgrajena kuhinjska štoparica</li>
-<li>Urejaj in briši recepte ali jih skupaj s fotografijo kopiraj v drug račun</li>
-<li>Uvozi recept s skoraj katere koli spletne strani z recepti tako, da prilepiš povezavo</li>
-<li>Več računov Nextcloud s hitrim preklapljanjem</li>
-<li>Svetla in temna tema</li>
-</ul>
+Funkcije
+• Prijava prek aplikacije Nextcloud, brez vnosa gesla v KAT
+• Recepti so shranjeni v napravi in se sinhronizirajo v ozadju
+• Iskanje po imenu, ključni besedi, sestavini ali številu porcij, filtriranje po kategoriji in razvrščanje seznama
+• Vgrajena kuhinjska štoparica
+• Urejaj in briši recepte ali jih skupaj s fotografijo kopiraj v drug račun
+• Uvozi recept s skoraj katere koli spletne strani z recepti tako, da prilepiš povezavo
+• Več računov Nextcloud s hitrim preklapljanjem
+• Svetla in temna tema
 
-<b>Zahteve</b>
-<ul>
-<li>Strežnik Nextcloud z nameščeno aplikacijo Cookbook</li>
-<li>Aplikacija Nextcloud za Android, prijavljena v ta strežnik</li>
-</ul>
+Zahteve
+• Strežnik Nextcloud z nameščeno aplikacijo Cookbook
+• Aplikacija Nextcloud za Android, prijavljena v ta strežnik
 
-<b>Uvoz receptov</b>
+Uvoz receptov
 Številne strani z recepti ne vsebujejo podatkov, ki bi jih Cookbook znal prebrati sam. Za uvoz z njih KAT pošlje le spletni naslov recepta pomožni storitvi na recipes.odiousapps.com, ki prebere stran in vrne recept. KAT ga nato s tvojim računom naloži v Cookbook. Storitev nikoli ne prejme tvojih prijavnih podatkov za Nextcloud ali drugih podatkov, in nič se ne pošlje, dokler ne uvoziš recepta.
 
 KAT je razcepitev (fork) aplikacije Nextcloud Cookbook avtorja MicMun in je prosto programje pod licenco GNU GPL v3 ali novejšo.

@@ -1,24 +1,20 @@
 Kitchen Archive Tool (KAT) -sovelluksella voit selata ja hakea Nextcloud Cookbookisi reseptejä ja kokata niiden mukaan, myös ilman verkkoyhteyttä.
 
-<b>Ominaisuudet</b>
-<ul>
-<li>Kirjaudu Nextcloud-sovelluksen kautta kirjoittamatta salasanaasi KATiin</li>
-<li>Reseptisi tallennetaan laitteelle ja synkronoidaan taustalla</li>
-<li>Hae nimen, avainsanan, ainesosan tai annosmäärän mukaan, suodata kategorian mukaan ja lajittele luettelo</li>
-<li>Sisäänrakennettu munakello</li>
-<li>Muokkaa ja poista reseptejä tai kopioi ne kuvineen toiselle tilille</li>
-<li>Tuo resepti lähes miltä tahansa reseptisivustolta liittämällä sen linkki</li>
-<li>Useita Nextcloud-tilejä ja nopea vaihto niiden välillä</li>
-<li>Vaalea ja tumma teema</li>
-</ul>
+Ominaisuudet
+• Kirjaudu Nextcloud-sovelluksen kautta kirjoittamatta salasanaasi KATiin
+• Reseptisi tallennetaan laitteelle ja synkronoidaan taustalla
+• Hae nimen, avainsanan, ainesosan tai annosmäärän mukaan, suodata kategorian mukaan ja lajittele luettelo
+• Sisäänrakennettu munakello
+• Muokkaa ja poista reseptejä tai kopioi ne kuvineen toiselle tilille
+• Tuo resepti lähes miltä tahansa reseptisivustolta liittämällä sen linkki
+• Useita Nextcloud-tilejä ja nopea vaihto niiden välillä
+• Vaalea ja tumma teema
 
-<b>Vaatimukset</b>
-<ul>
-<li>Nextcloud-palvelin, jolle on asennettu Cookbook-sovellus</li>
-<li>Nextcloudin Android-sovellus kirjautuneena kyseiselle palvelimelle</li>
-</ul>
+Vaatimukset
+• Nextcloud-palvelin, jolle on asennettu Cookbook-sovellus
+• Nextcloudin Android-sovellus kirjautuneena kyseiselle palvelimelle
 
-<b>Reseptien tuonti</b>
+Reseptien tuonti
 Monet reseptisivustot eivät sisällä tietoja, joita Cookbook osaa lukea itse. Niiltä tuodessaan KAT lähettää vain reseptin verkko-osoitteen apupalveluun osoitteessa recipes.odiousapps.com. Palvelu lukee sivun ja palauttaa reseptin, minkä jälkeen KAT lähettää sen Cookbookiin omalla tililläsi. Palvelu ei koskaan saa Nextcloud-kirjautumistietojasi tai muita tietoja, eikä mitään lähetetä, ellet tuo reseptiä.
 
 KAT on MicMunin Nextcloud Cookbookin haara ja vapaa ohjelmisto GNU GPL v3 -lisenssin tai uudemman alaisena.

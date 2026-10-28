@@ -1,24 +1,20 @@
 Kitchen Archive Tool (KAT) ilə Nextcloud Cookbook-dakı reseptlərinə baxa, onları axtara və onlara əsasən yemək bişirə bilərsən — hətta internetsiz də.
 
-<b>İmkanlar</b>
-<ul>
-<li>Nextcloud tətbiqi vasitəsilə, parolunu KAT-a yazmadan daxil ol</li>
-<li>Reseptlərin cihazda saxlanılır və arxa planda sinxronlaşdırılır</li>
-<li>Ad, açar söz, inqrediyent və ya porsiyaya görə axtarış, kateqoriyaya görə filtr və siyahının sıralanması</li>
-<li>Daxili mətbəx taymeri</li>
-<li>Reseptləri redaktə et və sil, ya da onları fotosu ilə birlikdə başqa hesaba kopyala</li>
-<li>Linkini yapışdırmaqla demək olar ki, istənilən resept saytından resept idxal et</li>
-<li>Sürətli keçidlə bir neçə Nextcloud hesabı</li>
-<li>Açıq və tünd mövzu</li>
-</ul>
+İmkanlar
+• Nextcloud tətbiqi vasitəsilə, parolunu KAT-a yazmadan daxil ol
+• Reseptlərin cihazda saxlanılır və arxa planda sinxronlaşdırılır
+• Ad, açar söz, inqrediyent və ya porsiyaya görə axtarış, kateqoriyaya görə filtr və siyahının sıralanması
+• Daxili mətbəx taymeri
+• Reseptləri redaktə et və sil, ya da onları fotosu ilə birlikdə başqa hesaba kopyala
+• Linkini yapışdırmaqla demək olar ki, istənilən resept saytından resept idxal et
+• Sürətli keçidlə bir neçə Nextcloud hesabı
+• Açıq və tünd mövzu
 
-<b>Tələblər</b>
-<ul>
-<li>Cookbook tətbiqi quraşdırılmış Nextcloud serveri</li>
-<li>Həmin serverə daxil olmuş Android üçün Nextcloud tətbiqi</li>
-</ul>
+Tələblər
+• Cookbook tətbiqi quraşdırılmış Nextcloud serveri
+• Həmin serverə daxil olmuş Android üçün Nextcloud tətbiqi
 
-<b>Reseptlərin idxalı</b>
+Reseptlərin idxalı
 Bir çox resept saytında Cookbook-un özünün oxuya biləcəyi məlumatlar olmur. Belə saytlardan idxal etmək üçün KAT yalnız reseptin veb ünvanını recipes.odiousapps.com ünvanındakı köməkçi xidmətə göndərir; xidmət səhifəni oxuyur və resepti qaytarır. Sonra KAT onu sənin hesabınla Cookbook-a yükləyir. Xidmət heç vaxt Nextcloud giriş məlumatlarını və ya başqa məlumatları almır və sən resept idxal etməsən, heç nə göndərilmir.
 
 KAT MicMun-un Nextcloud Cookbook tətbiqinin forkudur və GNU GPL v3 və ya daha yeni lisenziya altında azad proqram təminatıdır.

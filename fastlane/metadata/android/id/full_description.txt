@@ -1,24 +1,20 @@
 Kitchen Archive Tool (KAT) memungkinkan kamu menjelajahi dan mencari resep di Nextcloud Cookbook serta memasak dengannya, bahkan saat offline.
 
-<b>Fitur</b>
-<ul>
-<li>Masuk melalui aplikasi Nextcloud tanpa memasukkan kata sandi di KAT</li>
-<li>Resep disimpan di perangkat dan disinkronkan di latar belakang</li>
-<li>Cari berdasarkan nama, kata kunci, bahan, atau porsi, saring berdasarkan kategori, dan urutkan daftar</li>
-<li>Timer masak bawaan</li>
-<li>Edit dan hapus resep, atau salin beserta fotonya ke akun lain</li>
-<li>Impor resep dari hampir semua situs resep dengan menempelkan tautannya</li>
-<li>Beberapa akun Nextcloud dengan peralihan cepat</li>
-<li>Tema terang dan gelap</li>
-</ul>
+Fitur
+• Masuk melalui aplikasi Nextcloud tanpa memasukkan kata sandi di KAT
+• Resep disimpan di perangkat dan disinkronkan di latar belakang
+• Cari berdasarkan nama, kata kunci, bahan, atau porsi, saring berdasarkan kategori, dan urutkan daftar
+• Timer masak bawaan
+• Edit dan hapus resep, atau salin beserta fotonya ke akun lain
+• Impor resep dari hampir semua situs resep dengan menempelkan tautannya
+• Beberapa akun Nextcloud dengan peralihan cepat
+• Tema terang dan gelap
 
-<b>Persyaratan</b>
-<ul>
-<li>Server Nextcloud dengan aplikasi Cookbook terpasang</li>
-<li>Aplikasi Nextcloud untuk Android yang sudah masuk ke server tersebut</li>
-</ul>
+Persyaratan
+• Server Nextcloud dengan aplikasi Cookbook terpasang
+• Aplikasi Nextcloud untuk Android yang sudah masuk ke server tersebut
 
-<b>Impor resep</b>
+Impor resep
 Banyak situs resep tidak menyertakan data yang bisa dibaca Cookbook sendiri. Untuk mengimpor dari situs tersebut, KAT hanya mengirim alamat web resep ke layanan pendamping di recipes.odiousapps.com, yang membaca halaman dan mengembalikan resepnya. KAT lalu mengunggahnya ke Cookbook dengan akunmu sendiri. Layanan ini tidak pernah menerima info masuk Nextcloud-mu atau data lainnya, dan tidak ada yang dikirim kecuali kamu mengimpor resep.
 
 KAT adalah fork dari Nextcloud Cookbook karya MicMun dan merupakan perangkat lunak bebas di bawah GNU GPL v3 atau yang lebih baru.

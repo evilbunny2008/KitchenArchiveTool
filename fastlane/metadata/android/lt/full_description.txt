@@ -1,24 +1,20 @@
 Su Kitchen Archive Tool (KAT) galite naršyti ir ieškoti receptų savo Nextcloud Cookbook ir gaminti pagal juos net neprisijungę prie interneto.
 
-<b>Funkcijos</b>
-<ul>
-<li>Prisijungimas per Nextcloud programėlę, neįvedant slaptažodžio į KAT</li>
-<li>Receptai saugomi įrenginyje ir sinchronizuojami fone</li>
-<li>Ieškokite pagal pavadinimą, raktažodį, ingredientą ar porcijų skaičių, filtruokite pagal kategoriją ir rikiuokite sąrašą</li>
-<li>Įmontuotas virtuvės laikmatis</li>
-<li>Redaguokite ir trinkite receptus arba kopijuokite juos su nuotrauka į kitą paskyrą</li>
-<li>Importuokite receptą iš beveik bet kurios receptų svetainės įklijavę jo nuorodą</li>
-<li>Kelios Nextcloud paskyros su greitu perjungimu</li>
-<li>Šviesi ir tamsi temos</li>
-</ul>
+Funkcijos
+• Prisijungimas per Nextcloud programėlę, neįvedant slaptažodžio į KAT
+• Receptai saugomi įrenginyje ir sinchronizuojami fone
+• Ieškokite pagal pavadinimą, raktažodį, ingredientą ar porcijų skaičių, filtruokite pagal kategoriją ir rikiuokite sąrašą
+• Įmontuotas virtuvės laikmatis
+• Redaguokite ir trinkite receptus arba kopijuokite juos su nuotrauka į kitą paskyrą
+• Importuokite receptą iš beveik bet kurios receptų svetainės įklijavę jo nuorodą
+• Kelios Nextcloud paskyros su greitu perjungimu
+• Šviesi ir tamsi temos
 
-<b>Reikalavimai</b>
-<ul>
-<li>Nextcloud serveris su įdiegta Cookbook programėle</li>
-<li>Nextcloud Android programėlė, prisijungusi prie to serverio</li>
-</ul>
+Reikalavimai
+• Nextcloud serveris su įdiegta Cookbook programėle
+• Nextcloud Android programėlė, prisijungusi prie to serverio
 
-<b>Receptų importavimas</b>
+Receptų importavimas
 Daugelyje receptų svetainių nėra duomenų, kuriuos Cookbook galėtų perskaityti pats. Norėdama importuoti iš jų, KAT siunčia tik recepto žiniatinklio adresą pagalbinei paslaugai recipes.odiousapps.com, kuri perskaito puslapį ir grąžina receptą. Tada KAT įkelia jį į Cookbook jūsų paskyra. Paslauga niekada negauna jūsų Nextcloud prisijungimo ar kitų duomenų, ir niekas nesiunčiama, jei neimportuojate recepto.
 
 KAT yra MicMun sukurto Nextcloud Cookbook atšaka ir laisva programinė įranga pagal GNU GPL v3 ar naujesnę licenciją.

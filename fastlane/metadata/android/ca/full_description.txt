@@ -1,24 +1,20 @@
 Kitchen Archive Tool (KAT) et permet explorar i cercar les receptes del teu Nextcloud Cookbook i cuinar-les, fins i tot sense connexió.
 
-<b>Funcions</b>
-<ul>
-<li>Inicia la sessió a través de l’app de Nextcloud, sense escriure la contrasenya a KAT</li>
-<li>Les receptes es guarden al dispositiu i se sincronitzen en segon pla</li>
-<li>Cerca per nom, paraula clau, ingredient o racions, filtra per categoria i ordena la llista</li>
-<li>Temporitzador de cuina integrat</li>
-<li>Edita i elimina receptes, o copia-les amb la foto a un altre compte</li>
-<li>Importa una recepta de gairebé qualsevol web de receptes enganxant-ne l’enllaç</li>
-<li>Diversos comptes de Nextcloud amb canvi ràpid</li>
-<li>Temes clar i fosc</li>
-</ul>
+Funcions
+• Inicia la sessió a través de l’app de Nextcloud, sense escriure la contrasenya a KAT
+• Les receptes es guarden al dispositiu i se sincronitzen en segon pla
+• Cerca per nom, paraula clau, ingredient o racions, filtra per categoria i ordena la llista
+• Temporitzador de cuina integrat
+• Edita i elimina receptes, o copia-les amb la foto a un altre compte
+• Importa una recepta de gairebé qualsevol web de receptes enganxant-ne l’enllaç
+• Diversos comptes de Nextcloud amb canvi ràpid
+• Temes clar i fosc
 
-<b>Requisits</b>
-<ul>
-<li>Un servidor Nextcloud amb l’app Cookbook instal·lada</li>
-<li>L’app de Nextcloud per a Android, amb la sessió iniciada en aquest servidor</li>
-</ul>
+Requisits
+• Un servidor Nextcloud amb l’app Cookbook instal·lada
+• L’app de Nextcloud per a Android, amb la sessió iniciada en aquest servidor
 
-<b>Importació de receptes</b>
+Importació de receptes
 Molts webs de receptes no inclouen dades que Cookbook pugui llegir tot sol. Per importar-ne, KAT envia només l’adreça web de la recepta a un servei auxiliar a recipes.odiousapps.com, que llegeix la pàgina i retorna la recepta. Després KAT la puja a Cookbook amb el teu compte. El servei no rep mai les teves credencials de Nextcloud ni cap altra dada, i no s’envia res si no importes cap recepta.
 
 KAT és un fork de Nextcloud Cookbook de MicMun i és programari lliure sota la GNU GPL v3 o posterior.

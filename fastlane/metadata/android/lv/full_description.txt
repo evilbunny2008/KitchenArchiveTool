@@ -1,24 +1,20 @@
 Ar Kitchen Archive Tool (KAT) vari pārlūkot un meklēt receptes savā Nextcloud Cookbook un gatavot pēc tām arī bezsaistē.
 
-<b>Iespējas</b>
-<ul>
-<li>Pierakstīšanās ar Nextcloud lietotni, neievadot paroli KAT</li>
-<li>Receptes tiek glabātas ierīcē un sinhronizētas fonā</li>
-<li>Meklē pēc nosaukuma, atslēgvārda, sastāvdaļas vai porciju skaita, filtrē pēc kategorijas un kārto sarakstu</li>
-<li>Iebūvēts virtuves taimeris</li>
-<li>Rediģē un dzēs receptes vai kopē tās kopā ar foto uz citu kontu</li>
-<li>Importē recepti no gandrīz jebkuras recepšu vietnes, ielīmējot tās saiti</li>
-<li>Vairāki Nextcloud konti ar ātru pārslēgšanos</li>
-<li>Gaišs un tumšs motīvs</li>
-</ul>
+Iespējas
+• Pierakstīšanās ar Nextcloud lietotni, neievadot paroli KAT
+• Receptes tiek glabātas ierīcē un sinhronizētas fonā
+• Meklē pēc nosaukuma, atslēgvārda, sastāvdaļas vai porciju skaita, filtrē pēc kategorijas un kārto sarakstu
+• Iebūvēts virtuves taimeris
+• Rediģē un dzēs receptes vai kopē tās kopā ar foto uz citu kontu
+• Importē recepti no gandrīz jebkuras recepšu vietnes, ielīmējot tās saiti
+• Vairāki Nextcloud konti ar ātru pārslēgšanos
+• Gaišs un tumšs motīvs
 
-<b>Prasības</b>
-<ul>
-<li>Nextcloud serveris ar instalētu Cookbook lietotni</li>
-<li>Nextcloud Android lietotne, kurā esi pierakstījies šajā serverī</li>
-</ul>
+Prasības
+• Nextcloud serveris ar instalētu Cookbook lietotni
+• Nextcloud Android lietotne, kurā esi pierakstījies šajā serverī
 
-<b>Recepšu importēšana</b>
+Recepšu importēšana
 Daudzās recepšu vietnēs nav datu, ko Cookbook pats spēj nolasīt. Lai importētu no tām, KAT nosūta tikai receptes tīmekļa adresi palīgpakalpojumam recipes.odiousapps.com, kas nolasa lapu un atgriež recepti. Pēc tam KAT to augšupielādē Cookbook ar tavu kontu. Pakalpojums nekad nesaņem tavus Nextcloud pieteikšanās datus vai citus datus, un nekas netiek sūtīts, ja tu neimportē recepti.
 
 KAT ir MicMun izstrādātā Nextcloud Cookbook atzars un brīva programmatūra ar GNU GPL v3 vai jaunāku licenci.

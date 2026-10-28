@@ -1,24 +1,20 @@
 Med Kitchen Archive Tool (KAT) kan du gennemse og søge i opskrifterne i din Nextcloud Cookbook og lave mad efter dem – også offline.
 
-<b>Funktioner</b>
-<ul>
-<li>Log ind via Nextcloud-appen uden at skrive din adgangskode i KAT</li>
-<li>Dine opskrifter gemmes på enheden og synkroniseres i baggrunden</li>
-<li>Søg efter navn, nøgleord, ingrediens eller antal portioner, filtrér efter kategori og sortér listen</li>
-<li>Indbygget køkkentimer</li>
-<li>Redigér og slet opskrifter, eller kopiér dem med foto til en anden konto</li>
-<li>Importér en opskrift fra næsten enhver opskriftsside ved at indsætte linket</li>
-<li>Flere Nextcloud-konti med hurtigt skift</li>
-<li>Lyst og mørkt tema</li>
-</ul>
+Funktioner
+• Log ind via Nextcloud-appen uden at skrive din adgangskode i KAT
+• Dine opskrifter gemmes på enheden og synkroniseres i baggrunden
+• Søg efter navn, nøgleord, ingrediens eller antal portioner, filtrér efter kategori og sortér listen
+• Indbygget køkkentimer
+• Redigér og slet opskrifter, eller kopiér dem med foto til en anden konto
+• Importér en opskrift fra næsten enhver opskriftsside ved at indsætte linket
+• Flere Nextcloud-konti med hurtigt skift
+• Lyst og mørkt tema
 
-<b>Krav</b>
-<ul>
-<li>En Nextcloud-server med Cookbook-appen installeret</li>
-<li>Nextcloud-appen til Android, logget ind på den server</li>
-</ul>
+Krav
+• En Nextcloud-server med Cookbook-appen installeret
+• Nextcloud-appen til Android, logget ind på den server
 
-<b>Import af opskrifter</b>
+Import af opskrifter
 Mange opskriftssider indeholder ikke data, som Cookbook selv kan læse. For at importere fra dem sender KAT kun opskriftens webadresse til en hjælpetjeneste på recipes.odiousapps.com, som læser siden og returnerer opskriften. KAT uploader den derefter til Cookbook med din egen konto. Tjenesten modtager aldrig dit Nextcloud-login eller andre data, og intet sendes, medmindre du importerer en opskrift.
 
 KAT er en fork af Nextcloud Cookbook af MicMun og er fri software under GNU GPL v3 eller nyere.

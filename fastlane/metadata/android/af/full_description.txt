@@ -1,24 +1,20 @@
 Met Kitchen Archive Tool (KAT) kan jy deur die resepte in jou Nextcloud Cookbook blaai en soek en daarvolgens kook, selfs vanlyn.
 
-<b>Kenmerke</b>
-<ul>
-<li>Meld aan via die Nextcloud-app sonder om jou wagwoord in KAT in te tik</li>
-<li>Jou resepte word op die toestel gehou en in die agtergrond gesinkroniseer</li>
-<li>Soek volgens naam, sleutelwoord, bestanddeel of porsies, filtreer volgens kategorie en sorteer die lys</li>
-<li>Ingeboude kooktydhouer</li>
-<li>Wysig en skrap resepte, of kopieer hulle met hul foto na ’n ander rekening</li>
-<li>Voer ’n resep van byna enige resepwebwerf in deur die skakel te plak</li>
-<li>Verskeie Nextcloud-rekeninge met vinnige oorskakeling</li>
-<li>Ligte en donker tema</li>
-</ul>
+Kenmerke
+• Meld aan via die Nextcloud-app sonder om jou wagwoord in KAT in te tik
+• Jou resepte word op die toestel gehou en in die agtergrond gesinkroniseer
+• Soek volgens naam, sleutelwoord, bestanddeel of porsies, filtreer volgens kategorie en sorteer die lys
+• Ingeboude kooktydhouer
+• Wysig en skrap resepte, of kopieer hulle met hul foto na ’n ander rekening
+• Voer ’n resep van byna enige resepwebwerf in deur die skakel te plak
+• Verskeie Nextcloud-rekeninge met vinnige oorskakeling
+• Ligte en donker tema
 
-<b>Vereistes</b>
-<ul>
-<li>’n Nextcloud-bediener met die Cookbook-app geïnstalleer</li>
-<li>Die Nextcloud-app vir Android, aangemeld by daardie bediener</li>
-</ul>
+Vereistes
+• ’n Nextcloud-bediener met die Cookbook-app geïnstalleer
+• Die Nextcloud-app vir Android, aangemeld by daardie bediener
 
-<b>Resepte invoer</b>
+Resepte invoer
 Baie resepwebwerwe bevat nie data wat Cookbook self kan lees nie. Om daarvandaan in te voer, stuur KAT slegs die resep se webadres na ’n hulpdiens by recipes.odiousapps.com, wat die bladsy lees en die resep terugstuur. KAT laai dit dan met jou eie rekening na Cookbook op. Die diens ontvang nooit jou Nextcloud-aanmeldbesonderhede of enige ander data nie, en niks word gestuur tensy jy ’n resep invoer nie.
 
 KAT is ’n fork van Nextcloud Cookbook deur MicMun en is vrye sagteware onder die GNU GPL v3 of later.
