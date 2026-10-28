@@ -14,7 +14,6 @@
       <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
       <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
 
-      <item name="android:statusBarColor">@color/colorBackground</item>
       <item name="android:windowBackground">@color/colorBackground</item>
       <item name="android:textColor">@color/textColor</item>
 

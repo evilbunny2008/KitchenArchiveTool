@@ -1,0 +1,2 @@
+• Les photos des recettes se chargent plus vite et utilisent moins de mémoire
+• L’affichage s’étend désormais sous la barre d’état et la barre de navigation sur toutes les versions d’Android

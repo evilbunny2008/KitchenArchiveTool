@@ -1,0 +1,2 @@
+• Tarif fotoğrafları daha hızlı yükleniyor ve daha az bellek kullanıyor
+• Ekran artık tüm Android sürümlerinde durum çubuğunun ve gezinme çubuğunun arkasına uzanıyor

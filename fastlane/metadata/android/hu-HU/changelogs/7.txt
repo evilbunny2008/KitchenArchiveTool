@@ -1,0 +1,2 @@
+• A receptfotók gyorsabban töltődnek be, és kevesebb memóriát használnak
+• A képernyő mostantól minden Android-verzión az állapotsor és a navigációs sáv mögé is kiterjed

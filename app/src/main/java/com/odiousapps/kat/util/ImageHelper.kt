@@ -1,86 +1,69 @@
 package com.odiousapps.kat.util
 
+import android.content.ContentResolver
 import android.content.Context
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
+import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.widget.ImageView
-import androidx.core.view.doOnDetach
 import com.anggrayudi.storage.extension.launchOnUiThread
 import com.anggrayudi.storage.file.getAbsolutePath
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.DataSource
+import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.bumptech.glide.load.engine.GlideException
+import com.bumptech.glide.request.RequestListener
+import com.bumptech.glide.request.target.Target
+import com.bumptech.glide.signature.ObjectKey
 import com.odiousapps.kat.settings.PreferenceData
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.withContext
 import java.io.File
 import java.net.URLDecoder
 import androidx.core.net.toUri
 
 object ImageHelper {
-    private val jobMap = mutableMapOf<ImageView, Job>()
-
-    private suspend fun getBitmapFromUri(uri: Uri, context: Context): Bitmap? =
-        withContext(Dispatchers.IO) {
-            context.contentResolver.openFileDescriptor(uri, "r")?.use {
-                val fileDescriptor = it.fileDescriptor
-                BitmapFactory.decodeFileDescriptor(fileDescriptor)
+    // Spots a lost storage permission among a failed load's causes, the same
+    // case the old hand-rolled loader caught as a SecurityException.
+    private val storageAccessListener = object : RequestListener<Drawable> {
+        override fun onLoadFailed(e: GlideException?, model: Any?, target: Target<Drawable>, isFirstResource: Boolean): Boolean {
+            if (e?.rootCauses?.any { it is SecurityException } == true) {
+                launchOnUiThread { PreferenceData.getInstance().setStorageAccessed(false) }
             }
+            // false: let Glide carry on and clear the view, as for any other
+            // failure (missing file, undecodable image)
+            return false
         }
+
+        override fun onResourceReady(resource: Drawable, model: Any, target: Target<Drawable>?, dataSource: DataSource, isFirstResource: Boolean) = false
+    }
 
     fun ImageView.setImageURIAsync(uri: Uri?, onSetImage: (ImageView.() -> Unit)? = null) {
-        // cancel previously started job
-        jobMap[this]?.cancel()
-        // setImageDrawable(null), not setImageBitmap(null): the latter
-        // constructs a BitmapDrawable(resources, null) internally on most
-        // Android versions (no null-guard in that path), which is exactly
-        // what logs "BitmapDrawable created with null Bitmap" -- pure log
-        // noise for something that isn't actually wrong, but avoidable by
-        // using the API that doesn't touch BitmapDrawable at all when
-        // there's no bitmap to show.
-        setImageDrawable(null)
-        // start job to load image
-        uri?.let {
-            // cancel job on detach, use only a single detach listener per image view even if
-            // setImageURIAsync was called multiple times
-            if(!jobMap.containsKey(this)) {
-                doOnDetach {
-                    jobMap.remove(this)?.cancel()
-                }
-            }
-            // start job to load new image
-            jobMap[this] = launchOnUiThread {
-                try {
-                    onSetImage?.invoke(this@setImageURIAsync)
-                    val bitmap = getBitmapFromUri(it, context)
-                    if (bitmap != null) {
-                        setImageBitmap(bitmap)
-                    } else {
-                        // getBitmapFromUri can legitimately return null (missing
-                        // file, corrupted/undecodable image) -- same reasoning
-                        // as above applies here.
-                        setImageDrawable(null)
-                    }
-                } catch (_: SecurityException) {
-                    PreferenceData.getInstance().setStorageAccessed(false)
-                } catch (_: java.io.IOException) {
-                    // Most plausibly a recipe's image that hasn't finished
-                    // downloading yet -- FileNotFoundException (a subclass
-                    // of IOException) is exactly what
-                    // ContentResolver.openFileDescriptor() throws for a
-                    // path that doesn't exist. The recipe list re-renders
-                    // live via a reactive Room Flow as rows get inserted
-                    // during an in-progress sync, so this can legitimately
-                    // happen before that specific recipe's own image file
-                    // has been written to disk yet -- not a bug, same as
-                    // the "missing file" case already handled below for
-                    // getBitmapFromUri's null return. Falls back to no
-                    // image instead of crashing; once the sync finishes
-                    // writing that file, the next re-render picks it up.
-                    setImageDrawable(null)
-                }
-            }
+        // Glide rather than BitmapFactory: it decodes the photo downsampled
+        // to this view's size instead of at full camera resolution, keeps
+        // recent ones in memory for scrolling back through the list, and
+        // reuses bitmap memory -- Play Console flags full-size manual
+        // decoding as a performance problem. into() also cancels whatever
+        // this view was loading before and stops when the view's screen
+        // goes away, which the old per-view job map did by hand.
+        if (uri == null) {
+            Glide.with(this).clear(this)
+            setImageDrawable(null)
+            return
         }
+        onSetImage?.invoke(this)
+        Glide.with(this)
+            .load(uri)
+            // The recipe photos are already local files, so a second copy in
+            // Glide's disk cache would only waste space.
+            .diskCacheStrategy(DiskCacheStrategy.NONE)
+            .signature(uri.versionKey())
+            .listener(storageAccessListener)
+            .into(this)
     }
+
+    // Sync rewrites a recipe's photo in place under the same name when it
+    // changes, so tie the memory-cached copy to the file's modification time
+    // and a replaced photo shows up instead of the stale one.
+    private fun Uri.versionKey(): ObjectKey =
+        ObjectKey(if (scheme == ContentResolver.SCHEME_FILE) path?.let { File(it).lastModified() } ?: 0L else 0L)
 
     fun String?.toImageUri(context: Context): Uri? = this?.takeIf { it.isNotEmpty() }?.let {
         val externalDir = Filesystem(context).getInternalStoragePath() ?: return null

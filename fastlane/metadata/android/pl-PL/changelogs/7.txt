@@ -1,0 +1,2 @@
+• Zdjęcia przepisów wczytują się szybciej i zajmują mniej pamięci
+• Ekran sięga teraz pod pasek stanu i pasek nawigacji we wszystkich wersjach Androida

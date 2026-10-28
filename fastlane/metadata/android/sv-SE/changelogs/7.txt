@@ -1,0 +1,2 @@
+• Receptbilder laddas snabbare och använder mindre minne
+• Skärmen sträcker sig nu in bakom status- och navigeringsfältet i alla Android-versioner

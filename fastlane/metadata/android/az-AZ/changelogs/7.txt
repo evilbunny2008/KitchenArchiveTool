@@ -1,0 +1,2 @@
+• Resept şəkilləri daha sürətli yüklənir və daha az yaddaş istifadə edir
+• Ekran indi bütün Android versiyalarında status və naviqasiya panellərinin altına qədər uzanır

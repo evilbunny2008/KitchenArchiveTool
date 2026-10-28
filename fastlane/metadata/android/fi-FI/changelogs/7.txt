@@ -1,0 +1,2 @@
+• Reseptikuvat latautuvat nopeammin ja vievät vähemmän muistia
+• Näkymä ulottuu nyt kaikissa Android-versioissa tila- ja navigointipalkin alle

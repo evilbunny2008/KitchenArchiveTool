@@ -1,0 +1,2 @@
+• Les fotos de les receptes es carreguen més de pressa i fan servir menys memòria
+• La pantalla ara s’estén per sota de la barra d’estat i de navegació a totes les versions d’Android

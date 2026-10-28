@@ -1,0 +1,2 @@
+• Oppskriftsbilder lastes raskere og bruker mindre minne
+• Skjermen strekker seg nå inn bak status- og navigasjonsfeltet på alle Android-versjoner

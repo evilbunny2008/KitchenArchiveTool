@@ -1,0 +1,2 @@
+• Rezeptfotos laden schneller und brauchen weniger Speicher
+• Die Anzeige reicht jetzt auf allen Android-Versionen bis hinter Status- und Navigationsleiste

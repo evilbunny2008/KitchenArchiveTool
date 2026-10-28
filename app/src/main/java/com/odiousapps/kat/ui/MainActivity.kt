@@ -15,6 +15,7 @@ import android.view.View
 import android.widget.EditText
 import android.widget.FrameLayout
 import android.widget.Toast
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -122,6 +123,12 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
       }
 
       super.onCreate(savedInstanceState)
+      // targetSdk 35+ only enforces edge-to-edge on Android 15 and later;
+      // this turns it on for older versions too (minSdk is 29), so every
+      // device gets the same transparent bars and the inset handling below
+      // applies everywhere. Also picks light/dark status bar icons from the
+      // current night mode, replacing the deprecated android:statusBarColor.
+      enableEdgeToEdge()
       binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
       // targetSdk 35+ enforces edge-to-edge display, so content draws behind

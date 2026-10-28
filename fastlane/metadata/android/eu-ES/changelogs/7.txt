@@ -1,0 +1,2 @@
+• Errezeten argazkiak azkarrago kargatzen dira eta memoria gutxiago erabiltzen dute
+• Pantaila egoera- eta nabigazio-barren atzetik hedatzen da orain Android-en bertsio guztietan

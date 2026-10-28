@@ -1,0 +1,2 @@
+• Recipe photos load faster and use less memory
+• The screen now extends behind the status and navigation bars on all Android versions

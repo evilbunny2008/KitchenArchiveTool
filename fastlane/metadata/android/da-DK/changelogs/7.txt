@@ -1,0 +1,2 @@
+• Opskriftsbilleder indlæses hurtigere og bruger mindre hukommelse
+• Skærmen strækker sig nu ind bag status- og navigationsbjælken på alle Android-versioner

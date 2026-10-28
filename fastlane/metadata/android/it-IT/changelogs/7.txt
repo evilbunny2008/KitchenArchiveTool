@@ -1,0 +1,2 @@
+• Le foto delle ricette si caricano più velocemente e usano meno memoria
+• Lo schermo ora si estende dietro la barra di stato e quella di navigazione su tutte le versioni di Android

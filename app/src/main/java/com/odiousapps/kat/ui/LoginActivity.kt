@@ -8,8 +8,12 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.edit
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updatePadding
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
@@ -104,7 +108,17 @@ class LoginActivity : AppCompatActivity() {
 
    override fun onCreate(savedInstanceState: Bundle?) {
       super.onCreate(savedInstanceState)
+      // Same edge-to-edge setup as MainActivity: on for every Android
+      // version, with the scroll view padded clear of the system bars (and
+      // display cutout in landscape) so the logo and login button never sit
+      // underneath them.
+      enableEdgeToEdge()
       setContentView(R.layout.activity_login)
+      ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.scrollView)) { view, windowInsets ->
+         val bars = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout())
+         view.updatePadding(left = bars.left, top = bars.top, right = bars.right, bottom = bars.bottom)
+         windowInsets
+      }
       isSyncing = savedInstanceState?.getBoolean(STATE_IS_SYNCING) ?: false
 
       val settings = getSharedPreferences(LOGIN_COMPLETE_PREFERENCE_FILE, MODE_PRIVATE)

@@ -1,0 +1,2 @@
+• Fotografije recepata učitavaju se brže i troše manje memorije
+• Zaslon se sada na svim verzijama Androida proteže iza trake statusa i navigacijske trake

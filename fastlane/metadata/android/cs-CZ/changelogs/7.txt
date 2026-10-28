@@ -1,0 +1,2 @@
+• Fotky receptů se načítají rychleji a zabírají méně paměti
+• Obrazovka nyní ve všech verzích Androidu sahá pod stavový a navigační panel

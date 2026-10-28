@@ -1,0 +1,2 @@
+• Ảnh công thức tải nhanh hơn và dùng ít bộ nhớ hơn
+• Màn hình giờ đây mở rộng ra phía sau thanh trạng thái và thanh điều hướng trên mọi phiên bản Android
