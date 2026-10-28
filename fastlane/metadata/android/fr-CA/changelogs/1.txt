@@ -1,0 +1,6 @@
+Première version de Kitchen Archive Tool, un projet dérivé de Nextcloud Cookbook.
+• Copier une recette, avec sa photo, vers un autre compte
+• Supprimer des recettes
+• Nouvelle icône d’application
+• La synchronisation en arrière-plan utilise WorkManager et fonctionne enfin
+• Corrections : tri par date, téléchargements inutiles et recettes affichées depuis le mauvais compte

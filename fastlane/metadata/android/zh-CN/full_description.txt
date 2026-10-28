@@ -1,0 +1,20 @@
+Kitchen Archive Tool（KAT）让您浏览、搜索 Nextcloud Cookbook 中的食谱并照着烹饪，即使离线也能使用。
+
+功能
+• 通过 Nextcloud 应用登录，无需在 KAT 中输入密码
+• 食谱保存在设备上，并在后台同步
+• 按名称、关键词、食材或份量搜索，按分类筛选并对列表排序
+• 内置烹饪计时器
+• 编辑和删除食谱，或连同照片复制到其他账户
+• 粘贴链接，即可从几乎任何食谱网站导入食谱
+• 支持多个 Nextcloud 账户并可快速切换
+• 浅色和深色主题
+
+要求
+• 已安装 Cookbook 应用的 Nextcloud 服务器
+• 已登录该服务器的 Android 版 Nextcloud 应用
+
+食谱导入
+许多食谱网站并不包含 Cookbook 能自行读取的数据。为了从这些网站导入，KAT 只会将食谱的网址发送到位于 recipes.odiousapps.com 的辅助服务，由它读取网页并返回食谱，然后 KAT 再用您自己的账户将其上传到 Cookbook。该服务绝不会获取您的 Nextcloud 登录凭据或任何其他数据，而且除非您导入食谱，否则不会发送任何内容。
+
+KAT 是 MicMun 开发的 Nextcloud Cookbook 的分支，也是以 GNU GPL v3 或更高版本授权的自由软件。

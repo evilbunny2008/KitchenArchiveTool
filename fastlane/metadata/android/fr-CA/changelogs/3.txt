@@ -1,0 +1,4 @@
+• Importer une recette depuis presque n’importe quel site en collant son lien
+• Connexion directe par l’application Nextcloud
+• Le contenu ne passe plus sous la barre d’état et la barre de navigation
+• Le bouton Retour efface d’abord le filtre de catégorie

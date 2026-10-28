@@ -1,0 +1,5 @@
+• Sync progress and notifications
+• A failed sync can no longer delete your local recipes
+• The first sync survives rotating the screen
+• Fixed crashes during sync
+• Fixed layout under the navigation bar in landscape

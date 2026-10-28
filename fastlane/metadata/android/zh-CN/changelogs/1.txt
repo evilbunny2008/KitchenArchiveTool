@@ -1,0 +1,6 @@
+Kitchen Archive Tool 首次发布，这是 Nextcloud Cookbook 的分支。
+• 将食谱连同照片复制到其他账户
+• 删除食谱
+• 全新应用图标
+• 后台同步改用 WorkManager，现在真的会运行
+• 修复按日期排序、不必要的重复下载，以及显示其他账户食谱的问题
