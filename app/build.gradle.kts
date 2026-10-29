@@ -172,12 +172,12 @@ androidComponents {
         // app/dist/ too still needs the separate copyApk task below, same
         // as the bundle.
         variant.outputs.forEach { output ->
-            output.outputFileName.set("$appName-${versionName.get()}.apk")
+            output.outputFileName.set("$appName-v${versionName.get()}.apk")
         }
 
         val renameBundle = tasks.register("renameBundle$variantNameCapitalized", RenameBundleTask::class.java) {
             group = "build"
-            description = "Copies the $variantNameCapitalized .aab to app/dist/$appName-<versionName>.aab"
+            description = "Copies the $variantNameCapitalized .aab to app/dist/$appName-v<versionName>.aab"
             mustRunAfter(ideListingTaskName)
             bundleFile.set(variant.artifacts.get(SingleArtifact.BUNDLE))
             destinationFile.set(layout.projectDirectory.file("dist/$appName-${versionName.get()}.aab"))

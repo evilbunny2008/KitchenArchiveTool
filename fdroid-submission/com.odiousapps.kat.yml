@@ -1,0 +1,28 @@
+Categories:
+  - Connectivity
+License: Unlicense
+AuthorName: evilbunny
+SourceCode: https://github.com/evilbunny2008/KitchenArchiveTool
+IssueTracker: https://github.com/evilbunny2008/KitchenArchiveTool/issues
+Changelog: https://github.com/evilbunny2008/KitchenArchiveTool/releases/
+
+AutoName: Z2M Dash
+
+RepoType: git
+Repo: https://github.com/evilbunny2008/KitchenArchiveTool.git
+Binaries: https://github.com/evilbunny2008/KitchenArchiveTool/releases/download/v%v/kat-%v.apk
+
+Builds:
+  - versionName: 0.0.7
+    versionCode: 7
+    commit: 0918fa4ed33c717bcb6bfa1fde862515c83dbbcf
+    subdir: app
+    gradle:
+      - yes
+
+AllowedAPKSigningKeys: 6e194e3a58ba968613afc235136f63fb845e8aa0d718e70925cac04a91c7c041
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 0.0.7
+CurrentVersionCode: 7
