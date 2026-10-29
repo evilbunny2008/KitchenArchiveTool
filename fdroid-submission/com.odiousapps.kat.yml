@@ -1,5 +1,5 @@
 Categories:
-  - Connectivity
+  - Recipe Manager
 License: GPL-3.0-or-later
 AuthorName: evilbunny
 SourceCode: https://github.com/evilbunny2008/KitchenArchiveTool
@@ -13,9 +13,9 @@ Repo: https://github.com/evilbunny2008/KitchenArchiveTool.git
 Binaries: https://github.com/evilbunny2008/KitchenArchiveTool/releases/download/v%v/kat-v%v.apk
 
 Builds:
-  - versionName: 0.0.8
-    versionCode: 8
-    commit: v0.0.8
+  - versionName: 0.0.9
+    versionCode: 9
+    commit: 25b3f0cd0dc5aa951ac2ab4cc9e633398072b6fa
     subdir: app
     gradle:
       - yes
@@ -24,5 +24,5 @@ AllowedAPKSigningKeys: 6e194e3a58ba968613afc235136f63fb845e8aa0d718e70925cac04a9
 
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
-CurrentVersion: 0.0.8
-CurrentVersionCode: 8
+CurrentVersion: 0.0.9
+CurrentVersionCode: 9
