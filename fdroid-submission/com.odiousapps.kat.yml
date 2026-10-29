@@ -10,7 +10,8 @@ AutoName: Kitchen Archive Tool
 
 RepoType: git
 Repo: https://github.com/evilbunny2008/KitchenArchiveTool.git
-Binaries: https://github.com/evilbunny2008/KitchenArchiveTool/releases/download/v%v/kat-v%v.apk
+Binaries:
+  https://github.com/evilbunny2008/KitchenArchiveTool/releases/download/v%v/kat-v%v.apk
 
 Builds:
   - versionName: 0.0.9
