@@ -44,8 +44,8 @@ android {
         applicationId = "com.odiousapps.kat"
         minSdk = 29
         targetSdk = 37
-        versionCode = 7
-        versionName = "0.0.7"
+        versionCode = 8
+        versionName = "0.0.8"
     }
 
     buildTypes {
@@ -180,7 +180,7 @@ androidComponents {
             description = "Copies the $variantNameCapitalized .aab to app/dist/$appName-v<versionName>.aab"
             mustRunAfter(ideListingTaskName)
             bundleFile.set(variant.artifacts.get(SingleArtifact.BUNDLE))
-            destinationFile.set(layout.projectDirectory.file("dist/$appName-${versionName.get()}.aab"))
+            destinationFile.set(layout.projectDirectory.file("dist/$appName-v${versionName.get()}.aab"))
         }
 
         val copyApk = tasks.register("copyApk$variantNameCapitalized", CopyApkTask::class.java) {
