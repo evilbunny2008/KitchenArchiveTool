@@ -1,0 +1,1 @@
+• Corretti brevi blocchi all'apertura dell'app, alla modifica delle impostazioni di sincronizzazione o all'importazione di una ricetta da un link

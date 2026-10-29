@@ -1,0 +1,1 @@
+• Fixed brief freezes when opening the app, changing sync settings or importing a recipe from a link

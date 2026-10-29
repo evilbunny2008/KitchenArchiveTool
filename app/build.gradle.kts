@@ -44,8 +44,8 @@ android {
         applicationId = "com.odiousapps.kat"
         minSdk = 29
         targetSdk = 37
-        versionCode = 8
-        versionName = "0.0.8"
+        versionCode = 9
+        versionName = "0.0.9"
     }
 
     buildTypes {

@@ -1,0 +1,1 @@
+• Corrigidos travamentos breves ao abrir o app, alterar as configurações de sincronização ou importar uma receita de um link

@@ -1,0 +1,1 @@
+• Javítottuk a rövid lefagyásokat az alkalmazás megnyitásakor, a szinkronizálási beállítások módosításakor vagy recept hivatkozásból történő importálásakor

@@ -1,0 +1,1 @@
+• Kurzes Einfrieren beim Öffnen der App, beim Ändern der Synchronisierungseinstellungen oder beim Importieren eines Rezepts über einen Link behoben

@@ -1,0 +1,1 @@
+• S'han corregit les aturades breus en obrir l'aplicació, canviar la configuració de sincronització o importar una recepta des d'un enllaç

@@ -1,0 +1,1 @@
+• Corregidos los bloqueos breves al abrir la aplicación, cambiar los ajustes de sincronización o importar una receta desde un enlace

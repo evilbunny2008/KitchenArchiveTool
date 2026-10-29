@@ -1,0 +1,1 @@
+• Corrigidos bloqueios breves ao abrir a aplicação, alterar as definições de sincronização ou importar uma receita a partir de uma ligação

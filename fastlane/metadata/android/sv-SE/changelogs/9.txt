@@ -1,0 +1,1 @@
+• Åtgärdade korta frysningar när appen öppnas, synkroniseringsinställningar ändras eller ett recept importeras från en länk

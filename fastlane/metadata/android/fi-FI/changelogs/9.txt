@@ -1,0 +1,1 @@
+• Korjattu lyhyet jumiutumiset sovellusta avattaessa, synkronointiasetuksia muutettaessa tai reseptiä linkistä tuotaessa

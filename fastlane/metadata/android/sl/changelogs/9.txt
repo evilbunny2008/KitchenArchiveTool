@@ -1,0 +1,1 @@
+• Odpravljena kratka zamrznitev ob odpiranju aplikacije, spreminjanju nastavitev sinhronizacije ali uvozu recepta s povezave

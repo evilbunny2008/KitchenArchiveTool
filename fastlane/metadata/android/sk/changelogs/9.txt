@@ -1,0 +1,1 @@
+• Opravené krátke zamrznutie pri otvorení aplikácie, zmene nastavení synchronizácie alebo importe receptu z odkazu

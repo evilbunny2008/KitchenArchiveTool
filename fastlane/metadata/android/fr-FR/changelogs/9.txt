@@ -1,0 +1,1 @@
+• Correction de brefs blocages lors de l'ouverture de l'application, de la modification des paramètres de synchronisation ou de l'importation d'une recette depuis un lien

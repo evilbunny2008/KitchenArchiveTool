@@ -1,0 +1,1 @@
+• Au fost remediate blocările scurte la deschiderea aplicației, la modificarea setărilor de sincronizare sau la importul unei rețete dintr-un link

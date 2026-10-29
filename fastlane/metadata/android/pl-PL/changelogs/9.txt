@@ -1,0 +1,1 @@
+• Naprawiono krótkie zawieszanie się podczas otwierania aplikacji, zmiany ustawień synchronizacji lub importowania przepisu z linku

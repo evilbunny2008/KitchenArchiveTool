@@ -1,0 +1,1 @@
+• Uygulamayı açarken, senkronizasyon ayarlarını değiştirirken veya bağlantıdan tarif içe aktarırken yaşanan kısa donmalar düzeltildi
