@@ -406,15 +406,17 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
    }
 
    private fun fetchAndUploadRecipe(recipeUrl: String) {
-      val account = Accounts(this).getCurrentAccount()
-      if (account == null) {
-         showImportResultDialog(false, getString(R.string.current_account_not_found_exception_message))
-         return
-      }
-
-      Toast.makeText(this, R.string.recipe_import_in_progress, Toast.LENGTH_SHORT).show()
-
       lifecycleScope.launch {
+         // getCurrentAccount() does blocking AccountManager IPC
+         // (@WorkerThread), so it can't run on the main thread here.
+         val account = withContext(Dispatchers.IO) { Accounts(this@MainActivity).getCurrentAccount() }
+         if (account == null) {
+            showImportResultDialog(false, getString(R.string.current_account_not_found_exception_message))
+            return@launch
+         }
+
+         Toast.makeText(this@MainActivity, R.string.recipe_import_in_progress, Toast.LENGTH_SHORT).show()
+
          val fetchResult = withContext(Dispatchers.IO) {
             RecipeImportClient.importRecipe(recipeUrl)
          }

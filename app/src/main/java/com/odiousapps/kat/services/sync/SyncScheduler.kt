@@ -6,6 +6,7 @@
 package com.odiousapps.kat.services.sync
 
 import android.content.Context
+import androidx.annotation.WorkerThread
 import androidx.lifecycle.LiveData
 import androidx.work.Constraints
 import androidx.work.ExistingPeriodicWorkPolicy
@@ -18,6 +19,10 @@ import androidx.work.WorkManager
 import androidx.work.workDataOf
 import com.odiousapps.kat.nextcloudapi.Accounts
 import com.odiousapps.kat.settings.PreferenceData
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
 import java.util.concurrent.TimeUnit
 
 /**
@@ -69,6 +74,10 @@ import java.util.concurrent.TimeUnit
  * @version 1.0, 04.09.26
  */
 object SyncScheduler {
+   // Single-threaded so back-to-back reschedules (e.g. interval then
+   // wifi-only changed together) apply in the order they were requested.
+   private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO.limitedParallelism(1))
+
    private const val PERIODIC_WORK_NAME = "recipe_sync_periodic"
    private const val MANUAL_WORK_NAME = "recipe_sync_manual"
 
@@ -86,6 +95,14 @@ object SyncScheduler {
     */
    fun reschedule(context: Context) {
       val appContext = context.applicationContext
+      // Runs off the calling thread: Accounts.getCurrentAccount() does
+      // blocking AccountManager IPC (@WorkerThread), and callers include
+      // MainActivity.onCreate and preference setters on the main thread.
+      scope.launch { applySchedule(appContext) }
+   }
+
+   @WorkerThread
+   private fun applySchedule(appContext: Context) {
       val workManager = WorkManager.getInstance(appContext)
 
       if (Accounts(appContext).getCurrentAccount() == null || !PreferenceData.getInstance().isSyncServiceEnabled()) {

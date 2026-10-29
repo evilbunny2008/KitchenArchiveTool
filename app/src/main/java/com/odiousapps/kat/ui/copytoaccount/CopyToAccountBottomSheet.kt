@@ -315,7 +315,9 @@ class CopyToAccountBottomSheet : BottomSheetDialogFragment() {
          RecyclerView.ViewHolder(itemBinding.root) {
 
          fun bind(item: CopyTargetItem, onClick: (CopyTargetItem) -> Unit) {
-            itemBinding.accountName.text = "${item.displayName} (${item.subtitle})"
+            itemBinding.accountName.text = itemBinding.root.context.getString(
+               R.string.account_name_with_subtitle, item.displayName, item.subtitle
+            )
             // this row is always a copy target, never "the current account"
             itemBinding.accountCheck.visibility = View.GONE
             Glide.with(itemBinding.root)

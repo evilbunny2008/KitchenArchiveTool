@@ -3,6 +3,7 @@
 	<string name="about_summary">Kitchen Archive Tool (KAT) is an Android app that utilises the Nextcloud server Cookbook app to manage recipes</string>
 	<string name="about_title">About</string>
 	<string name="about_version">App version: %1$s</string>
+	<string name="account_name_with_subtitle" translatable="false">%1$s (%2$s)</string>
 	<string name="account_switcher_current_account_desc">Current account</string>
 	<string name="add_account">Add account</string>
 	<string name="app_logo_desc">Launcher icon of the KAT app</string>
