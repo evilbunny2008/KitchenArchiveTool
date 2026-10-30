@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
          lifecycleScope.launch(Dispatchers.Main) {
             val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(application)
             preferenceData.migrateSharedPreferences(sharedPreferences)
-            if (!preferenceData.isInitializedSync()) {
+            if (!preferenceData.isInitialized()) {
                preferenceData.setSort(SortValue.NAME_A_Z.sort)
                preferenceData.setTheme(THEME_PREFERENCE_DEFAULT)
                preferenceData.setStorageAccessed(false)
@@ -270,7 +270,7 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
       SyncScheduler.reschedule(applicationContext)
       updateProfilePicture()
 
-      if (preferenceData.isSyncServiceEnabled()) {
+      if (preferenceData.isSyncServiceEnabledSync()) {
          lifecycleScope.launch(Dispatchers.Main) {
             preferenceData.setStorageAccessed(true)
          }

@@ -365,7 +365,7 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
 
    override fun onRefresh() {
       recipesViewModel.removeDuplicateRecipes()
-      if (PreferenceData.getInstance().isWifiOnly()) {
+      if (PreferenceData.getInstance().isWifiOnlySync()) {
          if (ConnectivityCheck.isConnectedToWifi(context)) {
             SyncProgressDialog.showIfNotShown(childFragmentManager)
             doSync(context)
@@ -448,7 +448,7 @@ class RecipeListFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener, Rec
          return
       }
 
-      val hasNetwork = if (PreferenceData.getInstance().isWifiOnly()) {
+      val hasNetwork = if (PreferenceData.getInstance().isWifiOnlySync()) {
          ConnectivityCheck.isConnectedToWifi(ctx)
       } else {
          ConnectivityCheck.isConnected(ctx)

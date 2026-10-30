@@ -1,0 +1,1 @@
+• Settings are now read and saved more efficiently

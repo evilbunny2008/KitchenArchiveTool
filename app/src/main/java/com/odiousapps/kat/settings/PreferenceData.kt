@@ -56,18 +56,16 @@ class PreferenceData private constructor() {
       }
    }
 
+   suspend fun isInitialized(): Boolean {
+      return MainApplication.AppContext.dataStore.data
+         .map { preferences ->
+            preferences[isInitializedKey] ?: false
+         }
+         .first()
+   }
+
    fun isInitializedSync(): Boolean {
-      var isInit = false
-
-      runBlocking {
-         isInit = MainApplication.AppContext.dataStore.data
-            .map { preferences ->
-               preferences[isInitializedKey] ?: false
-            }
-            .first()
-      }
-
-      return isInit
+      return runBlocking { isInitialized() }
    }
 
    fun getRecipeDir(): Flow<String> {
@@ -113,54 +111,50 @@ class PreferenceData private constructor() {
          }
    }
 
-   fun getSyncServiceInterval(): Int {
-      var interval = SYNC_SERVICE_INTERVAL_DEFAULT
-      runBlocking {
-         interval = MainApplication.AppContext.dataStore.data
-            .map { preferences ->
-               preferences[isSyncServiceEnabled] ?: SYNC_SERVICE_INTERVAL_DEFAULT
-            }
-            .first()
-      }
-      return interval
+   suspend fun getSyncServiceInterval(): Int {
+      return MainApplication.AppContext.dataStore.data
+         .map { preferences ->
+            preferences[isSyncServiceEnabled] ?: SYNC_SERVICE_INTERVAL_DEFAULT
+         }
+         .first()
    }
 
-   fun isSyncServiceEnabled(): Boolean {
+   suspend fun isSyncServiceEnabled(): Boolean {
       return getSyncServiceInterval() > 0
    }
 
+   fun isSyncServiceEnabledSync(): Boolean {
+      return runBlocking { isSyncServiceEnabled() }
+   }
+
    fun setSyncServiceEnabled() {
-      setSyncServiceInterval(SYNC_SERVICE_INTERVAL_DEFAULT)
+      runBlocking { setSyncServiceInterval(SYNC_SERVICE_INTERVAL_DEFAULT) }
    }
 
-   fun setSyncServiceInterval(interval: Int) {
-      runBlocking {
-         MainApplication.AppContext.dataStore.edit { preferences ->
-            preferences[isSyncServiceEnabled] = interval
+   suspend fun setSyncServiceInterval(interval: Int) {
+      MainApplication.AppContext.dataStore.edit { preferences ->
+         preferences[isSyncServiceEnabled] = interval
+      }
+      SyncScheduler.reschedule(MainApplication.AppContext)
+   }
+
+   suspend fun setWifiOnly(enable: Boolean) {
+      MainApplication.AppContext.dataStore.edit { preferences ->
+         preferences[isSyncWifiOnly] = enable
+      }
+      SyncScheduler.reschedule(MainApplication.AppContext)
+   }
+
+   suspend fun isWifiOnly(): Boolean {
+      return MainApplication.AppContext.dataStore.data
+         .map { preferences ->
+            preferences[isSyncWifiOnly] ?: SYNC_SERVICE_WIFI_ONLY_DEFAULT
          }
-         SyncScheduler.reschedule(MainApplication.AppContext)
-      }
+         .first()
    }
 
-   fun setWifiOnly(enable: Boolean) {
-      runBlocking {
-         MainApplication.AppContext.dataStore.edit { preferences ->
-            preferences[isSyncWifiOnly] = enable
-         }
-         SyncScheduler.reschedule(MainApplication.AppContext)
-      }
-   }
-
-   fun isWifiOnly(): Boolean {
-      var enabled = SYNC_SERVICE_WIFI_ONLY_DEFAULT
-      runBlocking {
-         enabled = MainApplication.AppContext.dataStore.data
-            .map { preferences ->
-               preferences[isSyncWifiOnly] ?: SYNC_SERVICE_WIFI_ONLY_DEFAULT
-            }
-            .first()
-      }
-      return enabled
+   fun isWifiOnlySync(): Boolean {
+      return runBlocking { isWifiOnly() }
    }
 
    suspend fun setInitialised(isInit: Boolean) {

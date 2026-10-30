@@ -1,0 +1,1 @@
+• Los ajustes ahora se leen y guardan de forma más eficiente

@@ -1,0 +1,1 @@
+• Le impostazioni ora vengono lette e salvate in modo più efficiente

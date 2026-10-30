@@ -102,7 +102,7 @@ object SyncScheduler {
    }
 
    @WorkerThread
-   private fun applySchedule(appContext: Context) {
+   private suspend fun applySchedule(appContext: Context) {
       val workManager = WorkManager.getInstance(appContext)
 
       if (Accounts(appContext).getCurrentAccount() == null || !PreferenceData.getInstance().isSyncServiceEnabled()) {

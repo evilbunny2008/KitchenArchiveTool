@@ -124,7 +124,7 @@ class LoginActivity : AppCompatActivity() {
       val settings = getSharedPreferences(LOGIN_COMPLETE_PREFERENCE_FILE, MODE_PRIVATE)
       val loginAlreadyComplete = settings.getBoolean(LOGIN_COMPLETE_PREFERENCE, LOGIN_COMPLETE_DEFAULT)
       if (loginAlreadyComplete) {
-         if (!PreferenceData.getInstance().isSyncServiceEnabled()) {
+         if (!PreferenceData.getInstance().isSyncServiceEnabledSync()) {
             val allowStorageAccess: Int = checkCallingOrSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
             if (allowStorageAccess == PackageManager.PERMISSION_GRANTED) {
                val main = Intent(this@LoginActivity, MainActivity::class.java)

@@ -1,0 +1,1 @@
+• As configurações agora são lidas e salvas de forma mais eficiente

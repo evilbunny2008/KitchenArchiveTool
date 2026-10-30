@@ -181,7 +181,7 @@ class AccountSwitcherBottomSheet : BottomSheetDialogFragment() {
          // here is safe since we're already off the main thread, and
          // matches how PreferenceData itself already bridges its own
          // suspend calls from non-suspend callers (see
-         // setSyncServiceInterval).
+         // setSyncServiceEnabled).
          runBlocking { prefs.setRecipeDir(accountRecipeDir.absolutePath) }
          prefs.setSyncServiceEnabled()
          mainHandler.post { hostActivity?.onAccountSwitched() }

@@ -181,6 +181,9 @@ class RecipeIngredientsAdapter(
       val app = MainApplication.AppContext
       val clipBoardManager = app.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
       val clipData = ClipData.newPlainText(app.getString(R.string.tab_ingredients_title), ingredientStr)
+      // primaryClip is nullable on the getter but not the setter, so the
+      // suggested `primaryClip = clipData` is a val and won't compile
+      @Suppress("UsePropertyAccessSyntax")
       clipBoardManager.setPrimaryClip(clipData)
       Snackbar.make(tabBinding.ingredientsView, app.getString(R.string.copy_ing_message), Snackbar.LENGTH_SHORT).show()
    }

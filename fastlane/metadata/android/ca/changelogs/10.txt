@@ -1,0 +1,1 @@
+• La configuració ara es llegeix i es desa de manera més eficient

@@ -1,0 +1,1 @@
+• Nastavení se nyní načítá a ukládá efektivněji

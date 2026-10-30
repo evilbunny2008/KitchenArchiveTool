@@ -1,0 +1,1 @@
+• Les paramètres sont désormais lus et enregistrés plus efficacement
