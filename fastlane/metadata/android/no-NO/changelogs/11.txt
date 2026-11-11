@@ -1,0 +1,1 @@
+• Rettet import av oppskrifter fra nettsteder som blokkerte importserveren

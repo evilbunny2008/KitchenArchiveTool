@@ -1,0 +1,1 @@
+• Fixed importing recipes from websites that blocked the import server

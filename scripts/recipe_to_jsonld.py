@@ -6,6 +6,11 @@ Convert recipe web pages into schema.org Recipe JSON-LD using the
 
 Install:
     pip install recipe-scrapers
+    pip install curl_cffi
+        Used for live --url fetches -- impersonates a real Chrome browser's
+        TLS/HTTP2 fingerprint, which sites behind bot protection (e.g.
+        Dotdash Meredith's EatingWell/Allrecipes) need before they'll serve
+        the page instead of a 403.
     pip install requests
         Only needed for --nextcloud-url uploads; almost certainly already
         installed as a dependency of nextcloud-cookbook-api regardless.
@@ -52,7 +57,7 @@ import urllib.request
 
 VENV_DIR = "/var/www/.cache/recipe_to_jsonld/venv"
 VENV_ACTIVE_ENV_VAR = "RECIPE_TO_JSONLD_VENV_ACTIVE"
-REQUIRED_PACKAGES = ["recipe-scrapers", "beautifulsoup4", "nextcloud-cookbook-api", "requests"]
+REQUIRED_PACKAGES = ["recipe-scrapers", "beautifulsoup4", "nextcloud-cookbook-api", "requests", "curl_cffi"]
 
 
 def _ensure_pip(venv_python):
@@ -141,14 +146,14 @@ from recipe_scrapers import scrape_html
 from recipe_scrapers._exceptions import RecipeScrapersExceptions
 
 import requests
+from curl_cffi import requests as curl_requests
 from urllib.error import URLError, HTTPError
 from urllib.parse import urljoin
-from urllib.request import Request, urlopen
 
-USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-)
+# curl_cffi browser profile to impersonate for live fetches. Its own
+# User-Agent and headers are left alone -- overriding them would no longer
+# match the impersonated TLS fingerprint, which is what bot protection checks.
+IMPERSONATE = "chrome"
 
 # Rough patterns for splitting an ingredient line into distinct ingredients.
 # Old-style recipe pages (no markup) often jam several ingredients into one
@@ -976,8 +981,9 @@ def detect_canonical_url(html):
 
 
 def fetch_html(url):
-    request = Request(url, headers={"User-Agent": USER_AGENT})
-    return urlopen(request).read().decode("utf-8", errors="replace")
+    response = curl_requests.get(url, impersonate=IMPERSONATE, timeout=30)
+    response.raise_for_status()
+    return response.content.decode("utf-8", errors="replace")
 
 
 def split_ingredient_block(text):
@@ -2821,8 +2827,7 @@ def scrape_from_url(url):
     # scrape_me() in current recipe-scrapers versions doesn't forward extra
     # kwargs like wild_mode, so fetch the HTML ourselves and call
     # scrape_html() directly.
-    request = Request(url, headers={"User-Agent": USER_AGENT})
-    html = urlopen(request).read().decode("utf-8", errors="replace")
+    html = fetch_html(url)
     scraper = scrape_html(html=html, org_url=url, wild_mode=True)
     return build_recipe_jsonld(scraper, canonical_url=url)
 

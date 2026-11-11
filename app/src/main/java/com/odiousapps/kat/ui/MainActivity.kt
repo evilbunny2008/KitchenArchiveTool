@@ -311,9 +311,9 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
 
    // --- Recipe import from URL ---------------------------------------------
    //
-   // Flow: ask for a URL -> POST it to the configured bridge script
-   // (RecipeImportClient), which scrapes the page and returns recipe
-   // JSON-LD -> upload that JSON-LD into Cookbook ourselves, using the
+   // Flow: ask for a URL -> download the page on-device and POST its HTML
+   // (plus the URL) to the configured bridge script (RecipeImportClient),
+   // which converts the page and returns recipe JSON-LD -> upload that JSON-LD into Cookbook ourselves, using the
    // NextcloudAPI connection this app already has via SSO for the current
    // account (CookbookAPI.createRecipe(), the same call the
    // copy-recipe-between-accounts feature already uses).
@@ -418,7 +418,7 @@ class MainActivity : AppCompatActivity(), AccountSwitcherBottomSheet.AccountSwit
          Toast.makeText(this@MainActivity, R.string.recipe_import_in_progress, Toast.LENGTH_SHORT).show()
 
          val fetchResult = withContext(Dispatchers.IO) {
-            RecipeImportClient.importRecipe(recipeUrl)
+            RecipeImportClient.importRecipe(this@MainActivity, recipeUrl)
          }
          when (fetchResult) {
             is RecipeImportClient.Result.Failure -> {

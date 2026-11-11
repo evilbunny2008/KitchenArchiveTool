@@ -1,0 +1,1 @@
+• Corrigida a importação de receitas de sites que bloqueavam o servidor de importação

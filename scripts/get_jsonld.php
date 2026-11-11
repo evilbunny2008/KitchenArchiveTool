@@ -2,9 +2,17 @@
 /**
  * get_jsonld.php
  *
- * Accepts a recipe URL from the app, runs the existing recipe_to_jsonld.py
- * (already in the KitchenArchiveTool repo) to scrape+convert the page, and
- * returns the resulting JSON-LD as the response. Uploading that JSON-LD
+ * Accepts a recipe URL from the app -- plus, from newer app versions, the
+ * page's HTML as already downloaded on the device -- runs the existing
+ * recipe_to_jsonld.py (already in the KitchenArchiveTool repo) to
+ * scrape+convert the page, and returns the resulting JSON-LD as the
+ * response.
+ *
+ * The app downloads the page itself because some recipe sites (e.g.
+ * EatingWell/Allrecipes) 403 any request from a hosting-provider IP range,
+ * which includes this server. Without an uploaded page (older app
+ * versions, or the on-device download failed) this falls back to fetching
+ * the URL itself. Uploading that JSON-LD
  * into the user's own Nextcloud Cookbook is the app's job, not this
  * service's -- see CookbookAPI.createRecipe() in KAT itself, called using
  * whichever account the app is already authenticated as via Nextcloud's
@@ -81,7 +89,10 @@ function notify_conversion_failure(string $recipeUrl, string $reason, string $de
     }
 
     $subject = 'get_jsonld.php: recipe conversion failed';
+    global $htmlFile;
+
     $body = "URL: $recipeUrl\n"
+        . 'Source: ' . ($htmlFile !== null ? 'HTML uploaded by app' : 'fetched by server') . "\n"
         . "Reason: $reason\n"
         . 'Time: ' . date('c') . "\n"
         . 'User-Agent: ' . ($_SERVER['HTTP_USER_AGENT'] ?? '(none)') . "\n"
@@ -120,11 +131,79 @@ if (!in_array($scheme, ['http', 'https'], true)) {
     exit;
 }
 
+// Upper bound on a decompressed page, so a small upload can't expand into
+// an enormous file (a "gzip bomb"). Real recipe pages are well under this.
+const MAX_HTML_BYTES = 32 * 1024 * 1024;
+
+/**
+ * Decompresses the gzipped page at $gzPath into a new temp file and
+ * returns its path, or null if it's empty, unreadable, or exceeds
+ * MAX_HTML_BYTES once decompressed. gzopen() reads a non-gzip file
+ * through unchanged, so a plain-HTML upload still works too. The temp
+ * file is removed when this request ends.
+ */
+function decompress_uploaded_html(string $gzPath): ?string {
+    $in = @gzopen($gzPath, 'rb');
+    if ($in === false) {
+        return null;
+    }
+    $outPath = tempnam(sys_get_temp_dir(), 'kat_html_');
+    if ($outPath === false) {
+        gzclose($in);
+        return null;
+    }
+    register_shutdown_function(static function () use ($outPath) {
+        @unlink($outPath);
+    });
+
+    $out = fopen($outPath, 'wb');
+    $total = 0;
+    $ok = $out !== false;
+    while ($ok && !gzeof($in)) {
+        $chunk = gzread($in, 65536);
+        if ($chunk === false) {
+            $ok = false;
+            break;
+        }
+        $total += strlen($chunk);
+        if ($total > MAX_HTML_BYTES) {
+            $ok = false;
+            break;
+        }
+        $ok = fwrite($out, $chunk) === strlen($chunk);
+    }
+    gzclose($in);
+    if ($out !== false) {
+        fclose($out);
+    }
+    return ($ok && $total > 0) ? $outPath : null;
+}
+
+// Optional on-device-downloaded page, gzipped by the app. PHP has already
+// spooled the upload to a temp file; it's decompressed into another one
+// for --file. Anything other than a clean, valid upload is ignored rather
+// than rejected -- the URL alone is still enough to try a live fetch.
+$htmlFile = null;
+$upload = $_FILES['recipe_html'] ?? null;
+if (is_array($upload)
+    && ($upload['error'] ?? UPLOAD_ERR_NO_FILE) === UPLOAD_ERR_OK
+    && is_uploaded_file($upload['tmp_name'])
+    && $upload['size'] > 0
+) {
+    $htmlFile = decompress_uploaded_html($upload['tmp_name']);
+}
+
 // --- 3. Run recipe_to_jsonld.py ------------------------------------------
 // Array form: no shell is invoked to parse this, so nothing here needs
 // escaping. --json-only prints just the recipe JSON to stdout -- no HTML
-// wrapper, no upload attempt, nothing else on stdout to strip out.
+// wrapper, no upload attempt, nothing else on stdout to strip out. With
+// --file, --url is only used as the recipe's canonical source URL, not
+// fetched.
 $command = [$pythonBin, SCRIPT_PATH, '--url', $recipeUrl, '--json-only'];
+if ($htmlFile !== null) {
+    $command[] = '--file';
+    $command[] = $htmlFile;
+}
 
 $descriptorSpec = [
     0 => ['pipe', 'r'],

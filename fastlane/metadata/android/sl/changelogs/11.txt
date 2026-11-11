@@ -1,0 +1,1 @@
+• Popravljen uvoz receptov s spletnih mest, ki so blokirala strežnik za uvoz

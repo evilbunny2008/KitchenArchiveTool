@@ -1,0 +1,1 @@
+• S'ha corregit la importació de receptes de llocs web que bloquejaven el servidor d'importació

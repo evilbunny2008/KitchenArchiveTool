@@ -1,0 +1,1 @@
+• Corrixiuse a importación de receitas de sitios web que bloqueaban o servidor de importación

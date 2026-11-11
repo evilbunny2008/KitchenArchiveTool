@@ -1,0 +1,1 @@
+• Opravený import receptov z webov, ktoré blokovali importný server
